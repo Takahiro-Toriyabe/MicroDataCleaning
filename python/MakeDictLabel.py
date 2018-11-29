@@ -35,7 +35,12 @@ def GetRepeatInfo1(sheet, komoku, ichi, keta, repeat, row):
     col_max = sheet.ncols
 
     #### In case without repetition
-    if len(str(sheet.cell(row, repeat).value))==0:
+    if len(str(repeat))==0:
+        num_repeat = 1
+        row_s = row
+        row_e = row
+
+    elif len(str(sheet.cell(row, repeat).value))==0:
         num_repeat = 1
         row_s = row
         row_e = row
@@ -103,7 +108,12 @@ def GetRepeatInfo2(sheet, komoku, ichi, keta, repeat, row):
     col_max = sheet.ncols
 
     #### In case without repetition
-    if len(str(sheet.cell(row, repeat).value))==0:
+    if len(str(repeat))==0:
+        num_repeat = 1
+        row_s = row
+        row_e = row
+
+    elif len(str(sheet.cell(row, repeat).value))==0:
         num_repeat = 1
         row_s = row
         row_e = row
@@ -159,28 +169,39 @@ def GetHeader(sheet):
     row = 0
     flag = 1
     while flag:
-        if str(sheet.cell(row,0).value).replace(' ','')=='行番号':
+        if str(sheet.cell(row,0).value).replace(' ','')=='行番号' or str(sheet.cell(row,0).value).replace(' ','')=='ﾚﾍﾞﾙ':
             row_min = row + 1
-            for col in range(1,col_max):
-                if str(sheet.cell(row,col).value).replace(' ','')=='項目名':
+            for col in range(0,col_max):
+                val = str(sheet.cell(row,col).value).replace(' ','').replace('　','').replace("'",'')
+                if val=='項目名':
                     komoku = int(col)
-                if str(sheet.cell(row,col).value).replace(' ','')=='階層':
+                if val=='階層' or val=='レベル' or val=='ﾚﾍﾞﾙ':
                     kaiso = int(col)
-                if str(sheet.cell(row,col).value).replace(' ','')=='位置':
+                if val=='位置':
                     ichi = int(col)
-                if str(sheet.cell(row,col).value).replace(' ','')=='バイト数':
+                if val=='バイト数' or val=='桁数':
                     keta = int(col)
-                if str(sheet.cell(row,col).value).replace(' ','')=='繰返し':
+                if val=='繰返し' or val=='繰返' or val=='繰り返し':
                     repeat = int(col)
-                if str(sheet.cell(row,col).value).replace(' ','')=='変数名':
+                if val=='変数名':
                     varname = int(col)
-                if str(sheet.cell(row,col).value).replace(' ','')=='符号':
+                if val=='符号':
                     fugo = int(col)
-                if str(sheet.cell(row,col).value).replace(' ','')=='符号内容':
+                if val=='符号内容' or val=='説明':
                     fugo_naiyo = int(col)
 
             flag = 0
         row = row + 1
+
+    # Some headers may not appear in the layout table
+    try:
+        repeat
+    except:
+        repeat = ''
+    try:
+        varname
+    except:
+        varname = ''
 
     return row_max, row_min, col_max, komoku, kaiso, ichi, keta, repeat, varname, fugo, fugo_naiyo
 
@@ -201,10 +222,15 @@ def GetVarName(sheet, varname, row, num_repeat, cnt, i):
     else:
         vartag = '_' + str(int(i))
 
-    if len(str(sheet.cell(row, varname).value.replace(' ','')))!=0:
-        var = str(sheet.cell(row, varname).value).replace(' ','') + str(vartag)
-        cnt_n = cnt
-            # Not update the counter
+    if len(str(varname))!=0:
+        if len(str(sheet.cell(row, varname).value.replace(' ','')))!=0:
+            var = str(sheet.cell(row, varname).value).replace(' ','') + str(vartag)
+            cnt_n = cnt
+                # Not update the counter
+        else:
+            cnt_n = int(cnt + 1)
+                # Update the counter
+            var = 'var' + str(cnt_n) + str(vartag)
     else:
         cnt_n = int(cnt + 1)
             # Update the counter
@@ -284,7 +310,8 @@ def MakeDictLabel(infile_name, sheet_index, outfile_name, data, *, manual=0):
             while row<=row_e:
 
                 #### Get variable names
-                if len(str(sheet.cell(row, ichi).value))!=0 and str(sheet.cell(row, komoku).value)!='FILLER':
+                if len(str(sheet.cell(row, ichi).value))!=0 and len(str(sheet.cell(row, keta).value))!=0 \
+                    and str(sheet.cell(row, komoku).value)!='FILLER':
                     var, cnt = GetVarName(sheet, varname, row, num_repeat, cnt, i)
 
                     #### Identify where the variable is
