@@ -162,5 +162,5 @@ quietly infix
     K_AGE 509-511
     K_AGE5 512-513
     K_AGE10 514-514
-using L5_2012_RCD_KobetsuT1_A.txt;
+using "L5_2012_RCD_KobetsuT1_A.txt";
 #delimit cr

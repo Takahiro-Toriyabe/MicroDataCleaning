@@ -49,5 +49,5 @@ quietly infix
     Seikin 146-148
     Kazoku 149-151
     Tokubetsu 152-157
-using KW_2015_RCD_KD_KOBETSU_B.txt;
+using "KW_2015_RCD_KD_KOBETSU_B.txt";
 #delimit cr

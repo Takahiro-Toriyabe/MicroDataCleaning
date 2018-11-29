@@ -153,5 +153,5 @@ quietly infix
     S_YH_SHODAI 720-721
     S_YH_SHOSYO 722-724
     S_Z_SYODAI 725-725
-using L5_2007_RCD_NA-KOBETSUkk_A.txt;
+using "L5_2007_RCD_NA-KOBETSUkk_A.txt";
 #delimit cr
