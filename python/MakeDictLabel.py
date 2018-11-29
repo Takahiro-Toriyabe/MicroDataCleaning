@@ -78,15 +78,15 @@ def GetNextVarPlace(sheet, ichi, keta, row):
     """
     flag = 1
     row_o = row
-    row = row + 1
-    ichi_next = 0
-    keta_next = 0
-    row_next = 0
+    row_next = row
+    if row==sheet.nrows-1:
+        flag==0
+    else:
+        row = row + 1
+
     while flag==1:
         if len(str(sheet.cell(row, keta).value))!=0:
             row_next = row
-            ichi_next = sheet.cell(row, ichi).value
-            keta_next = sheet.cell(row, keta).value
             flag = 0
         else:
             if row+1<sheet.nrows:
@@ -96,7 +96,31 @@ def GetNextVarPlace(sheet, ichi, keta, row):
                 row_next = row_o
                 # When reaching the end of the sheet
 
+    ichi_next = int(float(sheet.cell(row_next, ichi).value))
+    keta_next = int(float(sheet.cell(row_next, keta).value))
+
     return row_next, ichi_next, keta_next
+
+
+def GetRepeatInfoSub(sheet, komoku, ichi, keta, repeat, row):
+    """
+    This function is used to obtain the number of repetition for individual
+    information in Comprehensive Survey of Living Conditions
+    """
+    row_max = sheet.nrows
+    flag = 1
+    num_repeat = 15
+    row_s = row
+    row_o = row
+    row_n, ichi_n, keta_n = GetNextVarPlace(sheet, ichi, keta, row_o)
+
+    while row_o!=row_n:
+        row_o = row_n
+        row_n, ichi_n, keta_n = GetNextVarPlace(sheet, ichi, keta, row_o)
+
+    row_e = row_n
+
+    return num_repeat, row_s, row_e
 
 
 def GetRepeatInfo2(sheet, komoku, ichi, keta, repeat, row):
@@ -107,8 +131,14 @@ def GetRepeatInfo2(sheet, komoku, ichi, keta, repeat, row):
     row_max = sheet.nrows
     col_max = sheet.ncols
 
+    var_tmp = str(sheet.cell(row, komoku).value).replace(' ','').replace('　','')
+
+    #### In case with Comprehensive Survey of Living Conditions
+    if str(var_tmp)=='＜サブ定義部＞' or str(var_tmp)=='〈サブ定義部〉':
+        num_repeat, row_s, row_e = GetRepeatInfoSub(sheet, komoku, ichi, keta, repeat, row)
+
     #### In case without repetition
-    if len(str(repeat))==0:
+    elif len(str(repeat))==0:
         num_repeat = 1
         row_s = row
         row_e = row
@@ -120,7 +150,7 @@ def GetRepeatInfo2(sheet, komoku, ichi, keta, repeat, row):
 
     #### In case with repetition
     else:
-        num_repeat = int(sheet.cell(row, repeat).value)
+        num_repeat = int(float(sheet.cell(row, repeat).value))
         row_s, ichi_s, keta_s = GetNextVarPlace(sheet, ichi, keta, row)
             # Obtain the first variable repeated
 
@@ -165,7 +195,6 @@ def GetHeader(sheet):
     """
     row_max = sheet.nrows
     col_max = sheet.ncols
-
     row = 0
     flag = 1
     while flag:
@@ -249,7 +278,8 @@ def GetValueLabel(file, sheet, komoku, ichi, fugo, fugo_naiyo, row, var):
     row_max = sheet.nrows
 
     fugo_temp = int(str(sheet.cell(row_n, fugo).value).replace("△", ""))
-    file.write('capture label define ' + str(var) + ' ' + str(fugo_temp) + ' "' + str(sheet.cell(row_n, fugo_naiyo).value).strip() + '"')
+    var_description = str(sheet.cell(row_n, fugo_naiyo).value.replace('\n', '').replace('※', '*')).strip()
+    file.write('capture label define ' + str(var) + ' ' + str(fugo_temp) + ' "' + var_description.replace('　　', '').replace('  ', '') + '"')
 
     flag_cont_val = 1
     while flag_cont_val==1:
@@ -260,7 +290,8 @@ def GetValueLabel(file, sheet, komoku, ichi, fugo, fugo_naiyo, row, var):
             fugo_temp = str(sheet.cell(row_n, fugo).value).replace("△", "")
 
             if len(str(sheet.cell(row_n, fugo_naiyo).value))!=0 and str(fugo_temp).isdigit():
-                file.write(' ' + str(fugo_temp) + ' "' + str(sheet.cell(row_n, fugo_naiyo).value).strip() + '"')
+                var_description = str(sheet.cell(row_n, fugo_naiyo).value.replace('\n', '').replace('※', '*')).strip()
+                file.write(' ' + str(fugo_temp) + ' "' + var_description.replace('　　', '').replace('  ', '') + '"')
 
         else:
             flag_cont_val = 0
@@ -305,10 +336,11 @@ def MakeDictLabel(infile_name, sheet_index, outfile_name, data, *, manual=0):
         #### Loop for repetition
         keta_d = 0
         flag_get_init_index = 0
+        cnt_o = cnt
         for i in range(1, num_repeat+1):
+            cnt = cnt_o
             row = row_s
             while row<=row_e:
-
                 #### Get variable names
                 if len(str(sheet.cell(row, ichi).value))!=0 and len(str(sheet.cell(row, keta).value))!=0 \
                     and str(sheet.cell(row, komoku).value)!='FILLER':
@@ -316,14 +348,14 @@ def MakeDictLabel(infile_name, sheet_index, outfile_name, data, *, manual=0):
 
                     #### Identify where the variable is
                     if i==1:
-                        start = int(sheet.cell(row, ichi).value)
+                        start = int(float(sheet.cell(row, ichi).value))
                         if flag_get_init_index==0 and num_repeat>1:
-                            keta_d = sheet.cell(row_e, ichi).value + sheet.cell(row_e, keta).value - sheet.cell(row, ichi).value
+                            keta_d = int(float(sheet.cell(row_e, ichi).value) + float(sheet.cell(row_e, keta).value) - float(sheet.cell(row, ichi).value))
                         flag_get_init_index = 1
                     else:
-                        start = int(sheet.cell(row, ichi).value + (i-1)*keta_d)
+                        start = int(float(sheet.cell(row, ichi).value) + (i-1)*keta_d)
 
-                    end = int(start + sheet.cell(row, keta).value - 1)
+                    end = int(start + float(sheet.cell(row, keta).value) - 1)
 
                     #### Write dictionary files and variable labels
                     f_const.write('    ' + str(var) + ' ' + str(start) + '-' + str(end) + '\n')
@@ -342,7 +374,7 @@ def MakeDictLabel(infile_name, sheet_index, outfile_name, data, *, manual=0):
                     row = row + 1
 
 
-    f_const.write('using ' + str(data) + ';' + '\n')
+    f_const.write('using "' + str(data) + '";' + '\n')
     f_const.write('#delimit cr' + '\n')
 
     f_const.close()
@@ -363,10 +395,10 @@ def MakeMasterFile(outfile_list, data_list, master_name):
         file = outfile_list[i]
         data = data_list[i]
 
-        f_master.write('do ' + str(file) + '_const.do' + '\n')
-        f_master.write('do ' + str(file) + '_var.do' + '\n')
-        f_master.write('do ' + str(file) + '_val.do' + '\n')
-        f_master.write("save " + str(data) + '.dta, replace' + '\n' + '\n')
+        f_master.write('do "' + str(file) + '_const.do"' + '\n')
+        f_master.write('do "' + str(file) + '_var.do"' + '\n')
+        f_master.write('do "' + str(file) + '_val.do"' + '\n')
+        f_master.write('save "' + str(data) + '.dta", replace' + '\n' + '\n')
 
     f_master.close()
 

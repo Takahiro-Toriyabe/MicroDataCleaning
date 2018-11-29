@@ -53,5 +53,5 @@ quietly infix
     Kazoku 149-151
     Tokubetsu 152-157
     　 158-166
-using KW14K_KOBETSU.txt;
+using "KW14K_KOBETSU.txt";
 #delimit cr

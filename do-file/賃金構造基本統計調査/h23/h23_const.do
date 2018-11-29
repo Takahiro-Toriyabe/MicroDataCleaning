@@ -52,5 +52,5 @@ quietly infix
     Seikin 146-148
     Kazoku 149-151
     Tokubetsu 152-157
-using h23_chingin_kojin.dat;
+using "h23_chingin_kojin.dat";
 #delimit cr
