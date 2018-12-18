@@ -1,0 +1,2007 @@
+capture label define var1 8 "調査年"
+capture label values var1 var1
+
+capture label define var2 861 "調査コード"
+capture label values var2 var2
+
+capture label define var8 1 "大都市" 2 "人口15万人以上の市" 3 "人口5万人以上15万人未満の市" 4 "人口5万人未満の市" 5 "郡部"
+capture label values var8 var8
+
+capture label define var9 1 "北海道" 02 "東北" 03 "関東－Ⅰ" 04 "関東－Ⅱ" 05 "北陸" 06 "東海" 07 "近畿－Ⅰ" 08 "近畿－Ⅱ" 09 "中国" 10 "四国" 11 "北九州" 12 "南九州"
+capture label values var9 var9
+
+capture label define var13 1 "住み込み・寄宿舎等の単独世帯" 2 "その他の単独世帯" 3 "夫婦のみの世帯" 4 "夫婦と未婚の子のみの世帯" 5 "ひとり親と未婚の子のみの世帯" 6 "三世代世帯" 7 "その他の世帯"
+capture label values var13 var13
+
+capture label define var14 1 "男・単独世帯" 2 "女・単独世帯" 3 "夫婦のみの世帯" 4 "夫婦と未婚の子のみの世帯" 5 "ひとり親と未婚の子のみの世帯" 6 "三世代世帯" 7 "その他の世帯"
+capture label values var14 var14
+
+capture label define var15 1 "高齢者世帯(65歳以上の者のみ、又は＋18歳未満未婚者で構成)" 2 "母子世帯（母　65歳未満＋子　20歳未満）" 3 "父子世帯（父　65歳未満＋子　20歳未満）" 4 "その他の世帯"
+capture label values var15 var15
+
+capture label define var16 1 "雇用者世帯　常雇者世帯　会社・団体等の役員の世帯" 02 "〃　〃　一般常雇者世帯" 03 "〃　１月以上１年未満の契約の雇用者世帯" 04 "〃　日々又は１月未満の契約の雇用者世帯" 05 "自営業者世帯　雇人あり" 06 "〃　 雇人なし" 07 "その他の世帯　内職，家族従業者" 08 "〃 　 　所得を伴う仕事をしている者のいる世帯" 09 "〃　所得を伴う仕事をしている者のいない世帯"
+capture label values var16 var16
+
+capture label define var17 1 "国保加入世帯（医療保険加入状況が国保のみ、又は国保とその他）" 2 "被用者保険加入世帯（〃が被用者のみ、又は被用者とその他）" 3 "国保・被用者保険加入世帯（〃が国保と被用者）" 4 "長寿医療制度加入世帯" 5 "国保・長寿医療制度加入世帯" 6 "被用者保険・長寿医療制度加入世帯" 7 "国保・被用者保険・長寿医療制度加入世帯" 8 "その他の世帯（医療保険加入状況がその他のみ）" 9 "不詳（〃が国保と不詳のみ、又は国保とその他と不詳）" 10 "不詳（〃が被用者と不詳のみ、又は被用者とその他と不詳）" 11 "不詳（〃が長寿と不詳のみ、又は長寿とその他と不詳）" 12 "不詳（〃がその他と不詳）"
+capture label values var17 var17
+
+capture label define var19 1 "世帯主のみが働いている" 02 "世帯主と世帯主の配偶者" 03 "世帯主と世帯主の配偶者と子" 04 "世帯主と世帯主の配偶者と父母" 05 "世帯主と世帯主の配偶者と父母と子" 06 "世帯主と子" 07 "世帯主と父母" 08 "世帯主とその他" 09 "世帯主の配偶者のみ" 10 "子または父母のみ，父母と子" 11 "その他上記以外" 12 "誰も働いている人がいない（有業人員なし）"
+capture label values var19 var19
+
+capture label define var21 1 "住み込み・寄宿舎等の単独世帯" 2 "その他の単独世帯"
+capture label values var21 var21
+
+capture label define var25 0 "高年者のいない世帯" 1 "高年者が１人いる世帯　男の高年者が１人いる世帯" 2 "女の高年者が１人いる世帯" 3 "高年者が２人いる世帯　男の高年者が２人いる世帯" 4 "女の高年者が２人いる世帯" 5 "男１人・女１人の高年者がいる世帯" 6 "高年者が３人以上いる世帯"
+capture label values var25 var25
+
+capture label define var26 1 "60歳以上の高年者のみの世帯" 2 "その他"
+capture label values var26 var26
+
+capture label define var28 0 "高年者のいない世帯" 1 "高年者が１人いる世帯　男の高年者が１人いる世帯" 2 "女の高年者が１人いる世帯" 3 "高年者が２人いる世帯　男の高年者が２人いる世帯" 4 "女の高年者が２人いる世帯" 5 "男１人・女１人の高年者がいる世帯" 6 "高年者が３人以上いる世帯"
+capture label values var28 var28
+
+capture label define var29 1 "65歳以上の高年者のみの世帯" 2 "その他"
+capture label values var29 var29
+
+capture label define var31 0 "高年者のいない世帯" 1 "高年者が１人いる世帯　男の高年者が１人いる世帯" 2 "女の高年者が１人いる世帯" 3 "高年者が２人いる世帯　男の高年者が２人いる世帯" 4 "女の高年者が２人いる世帯" 5 "男１人・女１人の高年者がいる世帯" 6 "高年者が３人以上いる世帯"
+capture label values var31 var31
+
+capture label define var32 1 "70歳以上の高年者のみの世帯" 2 "その他"
+capture label values var32 var32
+
+capture label define var34 0 "高年者のいない世帯" 1 "高年者が１人いる世帯　男の高年者が１人いる世帯" 2 "女の高年者が１人いる世帯" 3 "高年者が２人いる世帯　男の高年者が２人いる世帯" 4 "女の高年者が２人いる世帯" 5 "男１人・女１人の高年者がいる世帯" 6 "高年者が３人以上いる世帯"
+capture label values var34 var34
+
+capture label define var35 1 "75歳以上の高年者のみの世帯" 2 "その他"
+capture label values var35 var35
+
+capture label define var36 0 "該当しない" 1 "該当する(70歳以上の者のみ、又は＋18歳未満未婚者で構成)"
+capture label values var36 var36
+
+capture label define var37 0 "該当しない" 1 "該当する(75歳以上の者のみ、又は＋18歳未満未婚者で構成)"
+capture label values var37 var37
+
+capture label define var54 0 "年金受給者なし" 02 "年金受給者1人以上あり　(1制度) 　基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生（新年金制度による）" 09 "基礎＋共済（新年金制度による）" 10 "その他" 12 "(2制度)　 国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の２制度の組み合わせ" 23 "３制度以上"
+capture label values var54 var54
+
+capture label define var55 1 "高齢者世帯（高齢者（男65歳以上、女60歳以上）のみ、又は＋18歳未満未婚者）" 2 "母子世帯（母　20～59歳＋子　20歳未満）" 3 "父子世帯（父　20～64歳＋子　20歳未満）" 4 "その他の世帯"
+capture label values var55 var55
+
+capture label define var56 1046256 "*1000倍した値"
+capture label values var56 var56
+
+capture label define var63_1 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_1 var63_1
+
+capture label define var64_1 1 "男" 2 "女"
+capture label values var64_1 var64_1
+
+capture label define var66_1 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_1 var66_1
+
+capture label define var67_1 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_1 var67_1
+
+capture label define var68_1 0 "子と同居していない、子なし"
+capture label values var68_1 var68_1
+
+capture label define var69_1 0 "親と同居していない"
+capture label values var69_1 var69_1
+
+capture label define var70_1 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_1 var70_1
+
+capture label define var71_1 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_1 var71_1
+
+capture label define var72_1 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_1 var72_1
+
+capture label define var73_1 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_1 var73_1
+
+capture label define var74_1 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_1 var74_1
+
+capture label define var75_1 0 "該当なし" 1 "該当あり"
+capture label values var75_1 var75_1
+
+capture label define var76_1 0 "該当なし" 1 "該当あり"
+capture label values var76_1 var76_1
+
+capture label define var77_1 0 "該当なし" 1 "該当あり"
+capture label values var77_1 var77_1
+
+capture label define var78_1 0 "該当なし" 1 "該当あり"
+capture label values var78_1 var78_1
+
+capture label define var79_1 0 "該当なし" 1 "該当あり"
+capture label values var79_1 var79_1
+
+capture label define var80_1 0 "該当なし" 1 "該当あり"
+capture label values var80_1 var80_1
+
+capture label define var81_1 0 "該当なし" 1 "該当あり"
+capture label values var81_1 var81_1
+
+capture label define var82_1 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_1 var82_1
+
+capture label define var83_1 0 "受給なし" 1 "受給あり"
+capture label values var83_1 var83_1
+
+capture label define var84_1 0 "受給なし" 1 "受給あり"
+capture label values var84_1 var84_1
+
+capture label define var85_1 0 "受給なし" 1 "受給あり"
+capture label values var85_1 var85_1
+
+capture label define var86_1 0 "受給なし" 1 "受給あり"
+capture label values var86_1 var86_1
+
+capture label define var87_1 0 "受給なし" 1 "受給あり"
+capture label values var87_1 var87_1
+
+capture label define var88_1 0 "受給なし" 1 "受給あり"
+capture label values var88_1 var88_1
+
+capture label define var89_1 0 "受給なし" 1 "受給あり"
+capture label values var89_1 var89_1
+
+capture label define var90_1 0 "受給なし" 1 "受給あり"
+capture label values var90_1 var90_1
+
+capture label define var91_1 0 "受給なし" 1 "受給あり"
+capture label values var91_1 var91_1
+
+capture label define var92_1 0 "該当しない" 1 "該当する"
+capture label values var92_1 var92_1
+
+capture label define var93_1 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_1 var93_1
+
+capture label define var94_1 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_1 var94_1
+
+capture label define var95_1 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_1 var95_1
+
+capture label define var96_1 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_1 var96_1
+
+capture label define var97_1 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_1 var97_1
+
+capture label define var103_1 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_1 var103_1
+
+capture label define var104_1 1 "児童のいる世帯の最年少児童"
+capture label values var104_1 var104_1
+
+capture label define var105_1 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_1 var105_1
+
+capture label define var108_1 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_1 var108_1
+
+capture label define var109_1 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_1 var109_1
+
+capture label define var111_1 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_1 var111_1
+
+capture label define var112_1 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_1 var112_1
+
+capture label define var113_1 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_1 var113_1
+
+capture label define var114_1 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_1 var114_1
+
+capture label define var63_2 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_2 var63_2
+
+capture label define var64_2 1 "男" 2 "女"
+capture label values var64_2 var64_2
+
+capture label define var66_2 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_2 var66_2
+
+capture label define var67_2 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_2 var67_2
+
+capture label define var68_2 0 "子と同居していない、子なし"
+capture label values var68_2 var68_2
+
+capture label define var69_2 0 "親と同居していない"
+capture label values var69_2 var69_2
+
+capture label define var70_2 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_2 var70_2
+
+capture label define var71_2 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_2 var71_2
+
+capture label define var72_2 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_2 var72_2
+
+capture label define var73_2 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_2 var73_2
+
+capture label define var74_2 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_2 var74_2
+
+capture label define var75_2 0 "該当なし" 1 "該当あり"
+capture label values var75_2 var75_2
+
+capture label define var76_2 0 "該当なし" 1 "該当あり"
+capture label values var76_2 var76_2
+
+capture label define var77_2 0 "該当なし" 1 "該当あり"
+capture label values var77_2 var77_2
+
+capture label define var78_2 0 "該当なし" 1 "該当あり"
+capture label values var78_2 var78_2
+
+capture label define var79_2 0 "該当なし" 1 "該当あり"
+capture label values var79_2 var79_2
+
+capture label define var80_2 0 "該当なし" 1 "該当あり"
+capture label values var80_2 var80_2
+
+capture label define var81_2 0 "該当なし" 1 "該当あり"
+capture label values var81_2 var81_2
+
+capture label define var82_2 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_2 var82_2
+
+capture label define var83_2 0 "受給なし" 1 "受給あり"
+capture label values var83_2 var83_2
+
+capture label define var84_2 0 "受給なし" 1 "受給あり"
+capture label values var84_2 var84_2
+
+capture label define var85_2 0 "受給なし" 1 "受給あり"
+capture label values var85_2 var85_2
+
+capture label define var86_2 0 "受給なし" 1 "受給あり"
+capture label values var86_2 var86_2
+
+capture label define var87_2 0 "受給なし" 1 "受給あり"
+capture label values var87_2 var87_2
+
+capture label define var88_2 0 "受給なし" 1 "受給あり"
+capture label values var88_2 var88_2
+
+capture label define var89_2 0 "受給なし" 1 "受給あり"
+capture label values var89_2 var89_2
+
+capture label define var90_2 0 "受給なし" 1 "受給あり"
+capture label values var90_2 var90_2
+
+capture label define var91_2 0 "受給なし" 1 "受給あり"
+capture label values var91_2 var91_2
+
+capture label define var92_2 0 "該当しない" 1 "該当する"
+capture label values var92_2 var92_2
+
+capture label define var93_2 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_2 var93_2
+
+capture label define var94_2 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_2 var94_2
+
+capture label define var95_2 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_2 var95_2
+
+capture label define var96_2 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_2 var96_2
+
+capture label define var97_2 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_2 var97_2
+
+capture label define var103_2 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_2 var103_2
+
+capture label define var104_2 1 "児童のいる世帯の最年少児童"
+capture label values var104_2 var104_2
+
+capture label define var105_2 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_2 var105_2
+
+capture label define var108_2 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_2 var108_2
+
+capture label define var109_2 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_2 var109_2
+
+capture label define var111_2 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_2 var111_2
+
+capture label define var112_2 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_2 var112_2
+
+capture label define var113_2 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_2 var113_2
+
+capture label define var114_2 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_2 var114_2
+
+capture label define var63_3 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_3 var63_3
+
+capture label define var64_3 1 "男" 2 "女"
+capture label values var64_3 var64_3
+
+capture label define var66_3 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_3 var66_3
+
+capture label define var67_3 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_3 var67_3
+
+capture label define var68_3 0 "子と同居していない、子なし"
+capture label values var68_3 var68_3
+
+capture label define var69_3 0 "親と同居していない"
+capture label values var69_3 var69_3
+
+capture label define var70_3 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_3 var70_3
+
+capture label define var71_3 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_3 var71_3
+
+capture label define var72_3 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_3 var72_3
+
+capture label define var73_3 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_3 var73_3
+
+capture label define var74_3 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_3 var74_3
+
+capture label define var75_3 0 "該当なし" 1 "該当あり"
+capture label values var75_3 var75_3
+
+capture label define var76_3 0 "該当なし" 1 "該当あり"
+capture label values var76_3 var76_3
+
+capture label define var77_3 0 "該当なし" 1 "該当あり"
+capture label values var77_3 var77_3
+
+capture label define var78_3 0 "該当なし" 1 "該当あり"
+capture label values var78_3 var78_3
+
+capture label define var79_3 0 "該当なし" 1 "該当あり"
+capture label values var79_3 var79_3
+
+capture label define var80_3 0 "該当なし" 1 "該当あり"
+capture label values var80_3 var80_3
+
+capture label define var81_3 0 "該当なし" 1 "該当あり"
+capture label values var81_3 var81_3
+
+capture label define var82_3 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_3 var82_3
+
+capture label define var83_3 0 "受給なし" 1 "受給あり"
+capture label values var83_3 var83_3
+
+capture label define var84_3 0 "受給なし" 1 "受給あり"
+capture label values var84_3 var84_3
+
+capture label define var85_3 0 "受給なし" 1 "受給あり"
+capture label values var85_3 var85_3
+
+capture label define var86_3 0 "受給なし" 1 "受給あり"
+capture label values var86_3 var86_3
+
+capture label define var87_3 0 "受給なし" 1 "受給あり"
+capture label values var87_3 var87_3
+
+capture label define var88_3 0 "受給なし" 1 "受給あり"
+capture label values var88_3 var88_3
+
+capture label define var89_3 0 "受給なし" 1 "受給あり"
+capture label values var89_3 var89_3
+
+capture label define var90_3 0 "受給なし" 1 "受給あり"
+capture label values var90_3 var90_3
+
+capture label define var91_3 0 "受給なし" 1 "受給あり"
+capture label values var91_3 var91_3
+
+capture label define var92_3 0 "該当しない" 1 "該当する"
+capture label values var92_3 var92_3
+
+capture label define var93_3 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_3 var93_3
+
+capture label define var94_3 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_3 var94_3
+
+capture label define var95_3 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_3 var95_3
+
+capture label define var96_3 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_3 var96_3
+
+capture label define var97_3 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_3 var97_3
+
+capture label define var103_3 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_3 var103_3
+
+capture label define var104_3 1 "児童のいる世帯の最年少児童"
+capture label values var104_3 var104_3
+
+capture label define var105_3 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_3 var105_3
+
+capture label define var108_3 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_3 var108_3
+
+capture label define var109_3 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_3 var109_3
+
+capture label define var111_3 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_3 var111_3
+
+capture label define var112_3 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_3 var112_3
+
+capture label define var113_3 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_3 var113_3
+
+capture label define var114_3 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_3 var114_3
+
+capture label define var63_4 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_4 var63_4
+
+capture label define var64_4 1 "男" 2 "女"
+capture label values var64_4 var64_4
+
+capture label define var66_4 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_4 var66_4
+
+capture label define var67_4 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_4 var67_4
+
+capture label define var68_4 0 "子と同居していない、子なし"
+capture label values var68_4 var68_4
+
+capture label define var69_4 0 "親と同居していない"
+capture label values var69_4 var69_4
+
+capture label define var70_4 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_4 var70_4
+
+capture label define var71_4 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_4 var71_4
+
+capture label define var72_4 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_4 var72_4
+
+capture label define var73_4 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_4 var73_4
+
+capture label define var74_4 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_4 var74_4
+
+capture label define var75_4 0 "該当なし" 1 "該当あり"
+capture label values var75_4 var75_4
+
+capture label define var76_4 0 "該当なし" 1 "該当あり"
+capture label values var76_4 var76_4
+
+capture label define var77_4 0 "該当なし" 1 "該当あり"
+capture label values var77_4 var77_4
+
+capture label define var78_4 0 "該当なし" 1 "該当あり"
+capture label values var78_4 var78_4
+
+capture label define var79_4 0 "該当なし" 1 "該当あり"
+capture label values var79_4 var79_4
+
+capture label define var80_4 0 "該当なし" 1 "該当あり"
+capture label values var80_4 var80_4
+
+capture label define var81_4 0 "該当なし" 1 "該当あり"
+capture label values var81_4 var81_4
+
+capture label define var82_4 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_4 var82_4
+
+capture label define var83_4 0 "受給なし" 1 "受給あり"
+capture label values var83_4 var83_4
+
+capture label define var84_4 0 "受給なし" 1 "受給あり"
+capture label values var84_4 var84_4
+
+capture label define var85_4 0 "受給なし" 1 "受給あり"
+capture label values var85_4 var85_4
+
+capture label define var86_4 0 "受給なし" 1 "受給あり"
+capture label values var86_4 var86_4
+
+capture label define var87_4 0 "受給なし" 1 "受給あり"
+capture label values var87_4 var87_4
+
+capture label define var88_4 0 "受給なし" 1 "受給あり"
+capture label values var88_4 var88_4
+
+capture label define var89_4 0 "受給なし" 1 "受給あり"
+capture label values var89_4 var89_4
+
+capture label define var90_4 0 "受給なし" 1 "受給あり"
+capture label values var90_4 var90_4
+
+capture label define var91_4 0 "受給なし" 1 "受給あり"
+capture label values var91_4 var91_4
+
+capture label define var92_4 0 "該当しない" 1 "該当する"
+capture label values var92_4 var92_4
+
+capture label define var93_4 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_4 var93_4
+
+capture label define var94_4 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_4 var94_4
+
+capture label define var95_4 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_4 var95_4
+
+capture label define var96_4 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_4 var96_4
+
+capture label define var97_4 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_4 var97_4
+
+capture label define var103_4 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_4 var103_4
+
+capture label define var104_4 1 "児童のいる世帯の最年少児童"
+capture label values var104_4 var104_4
+
+capture label define var105_4 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_4 var105_4
+
+capture label define var108_4 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_4 var108_4
+
+capture label define var109_4 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_4 var109_4
+
+capture label define var111_4 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_4 var111_4
+
+capture label define var112_4 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_4 var112_4
+
+capture label define var113_4 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_4 var113_4
+
+capture label define var114_4 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_4 var114_4
+
+capture label define var63_5 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_5 var63_5
+
+capture label define var64_5 1 "男" 2 "女"
+capture label values var64_5 var64_5
+
+capture label define var66_5 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_5 var66_5
+
+capture label define var67_5 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_5 var67_5
+
+capture label define var68_5 0 "子と同居していない、子なし"
+capture label values var68_5 var68_5
+
+capture label define var69_5 0 "親と同居していない"
+capture label values var69_5 var69_5
+
+capture label define var70_5 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_5 var70_5
+
+capture label define var71_5 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_5 var71_5
+
+capture label define var72_5 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_5 var72_5
+
+capture label define var73_5 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_5 var73_5
+
+capture label define var74_5 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_5 var74_5
+
+capture label define var75_5 0 "該当なし" 1 "該当あり"
+capture label values var75_5 var75_5
+
+capture label define var76_5 0 "該当なし" 1 "該当あり"
+capture label values var76_5 var76_5
+
+capture label define var77_5 0 "該当なし" 1 "該当あり"
+capture label values var77_5 var77_5
+
+capture label define var78_5 0 "該当なし" 1 "該当あり"
+capture label values var78_5 var78_5
+
+capture label define var79_5 0 "該当なし" 1 "該当あり"
+capture label values var79_5 var79_5
+
+capture label define var80_5 0 "該当なし" 1 "該当あり"
+capture label values var80_5 var80_5
+
+capture label define var81_5 0 "該当なし" 1 "該当あり"
+capture label values var81_5 var81_5
+
+capture label define var82_5 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_5 var82_5
+
+capture label define var83_5 0 "受給なし" 1 "受給あり"
+capture label values var83_5 var83_5
+
+capture label define var84_5 0 "受給なし" 1 "受給あり"
+capture label values var84_5 var84_5
+
+capture label define var85_5 0 "受給なし" 1 "受給あり"
+capture label values var85_5 var85_5
+
+capture label define var86_5 0 "受給なし" 1 "受給あり"
+capture label values var86_5 var86_5
+
+capture label define var87_5 0 "受給なし" 1 "受給あり"
+capture label values var87_5 var87_5
+
+capture label define var88_5 0 "受給なし" 1 "受給あり"
+capture label values var88_5 var88_5
+
+capture label define var89_5 0 "受給なし" 1 "受給あり"
+capture label values var89_5 var89_5
+
+capture label define var90_5 0 "受給なし" 1 "受給あり"
+capture label values var90_5 var90_5
+
+capture label define var91_5 0 "受給なし" 1 "受給あり"
+capture label values var91_5 var91_5
+
+capture label define var92_5 0 "該当しない" 1 "該当する"
+capture label values var92_5 var92_5
+
+capture label define var93_5 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_5 var93_5
+
+capture label define var94_5 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_5 var94_5
+
+capture label define var95_5 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_5 var95_5
+
+capture label define var96_5 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_5 var96_5
+
+capture label define var97_5 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_5 var97_5
+
+capture label define var103_5 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_5 var103_5
+
+capture label define var104_5 1 "児童のいる世帯の最年少児童"
+capture label values var104_5 var104_5
+
+capture label define var105_5 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_5 var105_5
+
+capture label define var108_5 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_5 var108_5
+
+capture label define var109_5 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_5 var109_5
+
+capture label define var111_5 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_5 var111_5
+
+capture label define var112_5 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_5 var112_5
+
+capture label define var113_5 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_5 var113_5
+
+capture label define var114_5 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_5 var114_5
+
+capture label define var63_6 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_6 var63_6
+
+capture label define var64_6 1 "男" 2 "女"
+capture label values var64_6 var64_6
+
+capture label define var66_6 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_6 var66_6
+
+capture label define var67_6 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_6 var67_6
+
+capture label define var68_6 0 "子と同居していない、子なし"
+capture label values var68_6 var68_6
+
+capture label define var69_6 0 "親と同居していない"
+capture label values var69_6 var69_6
+
+capture label define var70_6 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_6 var70_6
+
+capture label define var71_6 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_6 var71_6
+
+capture label define var72_6 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_6 var72_6
+
+capture label define var73_6 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_6 var73_6
+
+capture label define var74_6 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_6 var74_6
+
+capture label define var75_6 0 "該当なし" 1 "該当あり"
+capture label values var75_6 var75_6
+
+capture label define var76_6 0 "該当なし" 1 "該当あり"
+capture label values var76_6 var76_6
+
+capture label define var77_6 0 "該当なし" 1 "該当あり"
+capture label values var77_6 var77_6
+
+capture label define var78_6 0 "該当なし" 1 "該当あり"
+capture label values var78_6 var78_6
+
+capture label define var79_6 0 "該当なし" 1 "該当あり"
+capture label values var79_6 var79_6
+
+capture label define var80_6 0 "該当なし" 1 "該当あり"
+capture label values var80_6 var80_6
+
+capture label define var81_6 0 "該当なし" 1 "該当あり"
+capture label values var81_6 var81_6
+
+capture label define var82_6 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_6 var82_6
+
+capture label define var83_6 0 "受給なし" 1 "受給あり"
+capture label values var83_6 var83_6
+
+capture label define var84_6 0 "受給なし" 1 "受給あり"
+capture label values var84_6 var84_6
+
+capture label define var85_6 0 "受給なし" 1 "受給あり"
+capture label values var85_6 var85_6
+
+capture label define var86_6 0 "受給なし" 1 "受給あり"
+capture label values var86_6 var86_6
+
+capture label define var87_6 0 "受給なし" 1 "受給あり"
+capture label values var87_6 var87_6
+
+capture label define var88_6 0 "受給なし" 1 "受給あり"
+capture label values var88_6 var88_6
+
+capture label define var89_6 0 "受給なし" 1 "受給あり"
+capture label values var89_6 var89_6
+
+capture label define var90_6 0 "受給なし" 1 "受給あり"
+capture label values var90_6 var90_6
+
+capture label define var91_6 0 "受給なし" 1 "受給あり"
+capture label values var91_6 var91_6
+
+capture label define var92_6 0 "該当しない" 1 "該当する"
+capture label values var92_6 var92_6
+
+capture label define var93_6 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_6 var93_6
+
+capture label define var94_6 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_6 var94_6
+
+capture label define var95_6 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_6 var95_6
+
+capture label define var96_6 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_6 var96_6
+
+capture label define var97_6 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_6 var97_6
+
+capture label define var103_6 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_6 var103_6
+
+capture label define var104_6 1 "児童のいる世帯の最年少児童"
+capture label values var104_6 var104_6
+
+capture label define var105_6 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_6 var105_6
+
+capture label define var108_6 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_6 var108_6
+
+capture label define var109_6 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_6 var109_6
+
+capture label define var111_6 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_6 var111_6
+
+capture label define var112_6 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_6 var112_6
+
+capture label define var113_6 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_6 var113_6
+
+capture label define var114_6 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_6 var114_6
+
+capture label define var63_7 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_7 var63_7
+
+capture label define var64_7 1 "男" 2 "女"
+capture label values var64_7 var64_7
+
+capture label define var66_7 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_7 var66_7
+
+capture label define var67_7 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_7 var67_7
+
+capture label define var68_7 0 "子と同居していない、子なし"
+capture label values var68_7 var68_7
+
+capture label define var69_7 0 "親と同居していない"
+capture label values var69_7 var69_7
+
+capture label define var70_7 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_7 var70_7
+
+capture label define var71_7 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_7 var71_7
+
+capture label define var72_7 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_7 var72_7
+
+capture label define var73_7 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_7 var73_7
+
+capture label define var74_7 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_7 var74_7
+
+capture label define var75_7 0 "該当なし" 1 "該当あり"
+capture label values var75_7 var75_7
+
+capture label define var76_7 0 "該当なし" 1 "該当あり"
+capture label values var76_7 var76_7
+
+capture label define var77_7 0 "該当なし" 1 "該当あり"
+capture label values var77_7 var77_7
+
+capture label define var78_7 0 "該当なし" 1 "該当あり"
+capture label values var78_7 var78_7
+
+capture label define var79_7 0 "該当なし" 1 "該当あり"
+capture label values var79_7 var79_7
+
+capture label define var80_7 0 "該当なし" 1 "該当あり"
+capture label values var80_7 var80_7
+
+capture label define var81_7 0 "該当なし" 1 "該当あり"
+capture label values var81_7 var81_7
+
+capture label define var82_7 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_7 var82_7
+
+capture label define var83_7 0 "受給なし" 1 "受給あり"
+capture label values var83_7 var83_7
+
+capture label define var84_7 0 "受給なし" 1 "受給あり"
+capture label values var84_7 var84_7
+
+capture label define var85_7 0 "受給なし" 1 "受給あり"
+capture label values var85_7 var85_7
+
+capture label define var86_7 0 "受給なし" 1 "受給あり"
+capture label values var86_7 var86_7
+
+capture label define var87_7 0 "受給なし" 1 "受給あり"
+capture label values var87_7 var87_7
+
+capture label define var88_7 0 "受給なし" 1 "受給あり"
+capture label values var88_7 var88_7
+
+capture label define var89_7 0 "受給なし" 1 "受給あり"
+capture label values var89_7 var89_7
+
+capture label define var90_7 0 "受給なし" 1 "受給あり"
+capture label values var90_7 var90_7
+
+capture label define var91_7 0 "受給なし" 1 "受給あり"
+capture label values var91_7 var91_7
+
+capture label define var92_7 0 "該当しない" 1 "該当する"
+capture label values var92_7 var92_7
+
+capture label define var93_7 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_7 var93_7
+
+capture label define var94_7 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_7 var94_7
+
+capture label define var95_7 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_7 var95_7
+
+capture label define var96_7 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_7 var96_7
+
+capture label define var97_7 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_7 var97_7
+
+capture label define var103_7 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_7 var103_7
+
+capture label define var104_7 1 "児童のいる世帯の最年少児童"
+capture label values var104_7 var104_7
+
+capture label define var105_7 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_7 var105_7
+
+capture label define var108_7 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_7 var108_7
+
+capture label define var109_7 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_7 var109_7
+
+capture label define var111_7 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_7 var111_7
+
+capture label define var112_7 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_7 var112_7
+
+capture label define var113_7 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_7 var113_7
+
+capture label define var114_7 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_7 var114_7
+
+capture label define var63_8 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_8 var63_8
+
+capture label define var64_8 1 "男" 2 "女"
+capture label values var64_8 var64_8
+
+capture label define var66_8 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_8 var66_8
+
+capture label define var67_8 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_8 var67_8
+
+capture label define var68_8 0 "子と同居していない、子なし"
+capture label values var68_8 var68_8
+
+capture label define var69_8 0 "親と同居していない"
+capture label values var69_8 var69_8
+
+capture label define var70_8 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_8 var70_8
+
+capture label define var71_8 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_8 var71_8
+
+capture label define var72_8 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_8 var72_8
+
+capture label define var73_8 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_8 var73_8
+
+capture label define var74_8 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_8 var74_8
+
+capture label define var75_8 0 "該当なし" 1 "該当あり"
+capture label values var75_8 var75_8
+
+capture label define var76_8 0 "該当なし" 1 "該当あり"
+capture label values var76_8 var76_8
+
+capture label define var77_8 0 "該当なし" 1 "該当あり"
+capture label values var77_8 var77_8
+
+capture label define var78_8 0 "該当なし" 1 "該当あり"
+capture label values var78_8 var78_8
+
+capture label define var79_8 0 "該当なし" 1 "該当あり"
+capture label values var79_8 var79_8
+
+capture label define var80_8 0 "該当なし" 1 "該当あり"
+capture label values var80_8 var80_8
+
+capture label define var81_8 0 "該当なし" 1 "該当あり"
+capture label values var81_8 var81_8
+
+capture label define var82_8 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_8 var82_8
+
+capture label define var83_8 0 "受給なし" 1 "受給あり"
+capture label values var83_8 var83_8
+
+capture label define var84_8 0 "受給なし" 1 "受給あり"
+capture label values var84_8 var84_8
+
+capture label define var85_8 0 "受給なし" 1 "受給あり"
+capture label values var85_8 var85_8
+
+capture label define var86_8 0 "受給なし" 1 "受給あり"
+capture label values var86_8 var86_8
+
+capture label define var87_8 0 "受給なし" 1 "受給あり"
+capture label values var87_8 var87_8
+
+capture label define var88_8 0 "受給なし" 1 "受給あり"
+capture label values var88_8 var88_8
+
+capture label define var89_8 0 "受給なし" 1 "受給あり"
+capture label values var89_8 var89_8
+
+capture label define var90_8 0 "受給なし" 1 "受給あり"
+capture label values var90_8 var90_8
+
+capture label define var91_8 0 "受給なし" 1 "受給あり"
+capture label values var91_8 var91_8
+
+capture label define var92_8 0 "該当しない" 1 "該当する"
+capture label values var92_8 var92_8
+
+capture label define var93_8 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_8 var93_8
+
+capture label define var94_8 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_8 var94_8
+
+capture label define var95_8 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_8 var95_8
+
+capture label define var96_8 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_8 var96_8
+
+capture label define var97_8 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_8 var97_8
+
+capture label define var103_8 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_8 var103_8
+
+capture label define var104_8 1 "児童のいる世帯の最年少児童"
+capture label values var104_8 var104_8
+
+capture label define var105_8 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_8 var105_8
+
+capture label define var108_8 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_8 var108_8
+
+capture label define var109_8 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_8 var109_8
+
+capture label define var111_8 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_8 var111_8
+
+capture label define var112_8 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_8 var112_8
+
+capture label define var113_8 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_8 var113_8
+
+capture label define var114_8 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_8 var114_8
+
+capture label define var63_9 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_9 var63_9
+
+capture label define var64_9 1 "男" 2 "女"
+capture label values var64_9 var64_9
+
+capture label define var66_9 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_9 var66_9
+
+capture label define var67_9 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_9 var67_9
+
+capture label define var68_9 0 "子と同居していない、子なし"
+capture label values var68_9 var68_9
+
+capture label define var69_9 0 "親と同居していない"
+capture label values var69_9 var69_9
+
+capture label define var70_9 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_9 var70_9
+
+capture label define var71_9 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_9 var71_9
+
+capture label define var72_9 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_9 var72_9
+
+capture label define var73_9 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_9 var73_9
+
+capture label define var74_9 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_9 var74_9
+
+capture label define var75_9 0 "該当なし" 1 "該当あり"
+capture label values var75_9 var75_9
+
+capture label define var76_9 0 "該当なし" 1 "該当あり"
+capture label values var76_9 var76_9
+
+capture label define var77_9 0 "該当なし" 1 "該当あり"
+capture label values var77_9 var77_9
+
+capture label define var78_9 0 "該当なし" 1 "該当あり"
+capture label values var78_9 var78_9
+
+capture label define var79_9 0 "該当なし" 1 "該当あり"
+capture label values var79_9 var79_9
+
+capture label define var80_9 0 "該当なし" 1 "該当あり"
+capture label values var80_9 var80_9
+
+capture label define var81_9 0 "該当なし" 1 "該当あり"
+capture label values var81_9 var81_9
+
+capture label define var82_9 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_9 var82_9
+
+capture label define var83_9 0 "受給なし" 1 "受給あり"
+capture label values var83_9 var83_9
+
+capture label define var84_9 0 "受給なし" 1 "受給あり"
+capture label values var84_9 var84_9
+
+capture label define var85_9 0 "受給なし" 1 "受給あり"
+capture label values var85_9 var85_9
+
+capture label define var86_9 0 "受給なし" 1 "受給あり"
+capture label values var86_9 var86_9
+
+capture label define var87_9 0 "受給なし" 1 "受給あり"
+capture label values var87_9 var87_9
+
+capture label define var88_9 0 "受給なし" 1 "受給あり"
+capture label values var88_9 var88_9
+
+capture label define var89_9 0 "受給なし" 1 "受給あり"
+capture label values var89_9 var89_9
+
+capture label define var90_9 0 "受給なし" 1 "受給あり"
+capture label values var90_9 var90_9
+
+capture label define var91_9 0 "受給なし" 1 "受給あり"
+capture label values var91_9 var91_9
+
+capture label define var92_9 0 "該当しない" 1 "該当する"
+capture label values var92_9 var92_9
+
+capture label define var93_9 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_9 var93_9
+
+capture label define var94_9 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_9 var94_9
+
+capture label define var95_9 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_9 var95_9
+
+capture label define var96_9 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_9 var96_9
+
+capture label define var97_9 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_9 var97_9
+
+capture label define var103_9 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_9 var103_9
+
+capture label define var104_9 1 "児童のいる世帯の最年少児童"
+capture label values var104_9 var104_9
+
+capture label define var105_9 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_9 var105_9
+
+capture label define var108_9 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_9 var108_9
+
+capture label define var109_9 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_9 var109_9
+
+capture label define var111_9 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_9 var111_9
+
+capture label define var112_9 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_9 var112_9
+
+capture label define var113_9 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_9 var113_9
+
+capture label define var114_9 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_9 var114_9
+
+capture label define var63_10 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_10 var63_10
+
+capture label define var64_10 1 "男" 2 "女"
+capture label values var64_10 var64_10
+
+capture label define var66_10 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_10 var66_10
+
+capture label define var67_10 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_10 var67_10
+
+capture label define var68_10 0 "子と同居していない、子なし"
+capture label values var68_10 var68_10
+
+capture label define var69_10 0 "親と同居していない"
+capture label values var69_10 var69_10
+
+capture label define var70_10 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_10 var70_10
+
+capture label define var71_10 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_10 var71_10
+
+capture label define var72_10 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_10 var72_10
+
+capture label define var73_10 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_10 var73_10
+
+capture label define var74_10 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_10 var74_10
+
+capture label define var75_10 0 "該当なし" 1 "該当あり"
+capture label values var75_10 var75_10
+
+capture label define var76_10 0 "該当なし" 1 "該当あり"
+capture label values var76_10 var76_10
+
+capture label define var77_10 0 "該当なし" 1 "該当あり"
+capture label values var77_10 var77_10
+
+capture label define var78_10 0 "該当なし" 1 "該当あり"
+capture label values var78_10 var78_10
+
+capture label define var79_10 0 "該当なし" 1 "該当あり"
+capture label values var79_10 var79_10
+
+capture label define var80_10 0 "該当なし" 1 "該当あり"
+capture label values var80_10 var80_10
+
+capture label define var81_10 0 "該当なし" 1 "該当あり"
+capture label values var81_10 var81_10
+
+capture label define var82_10 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_10 var82_10
+
+capture label define var83_10 0 "受給なし" 1 "受給あり"
+capture label values var83_10 var83_10
+
+capture label define var84_10 0 "受給なし" 1 "受給あり"
+capture label values var84_10 var84_10
+
+capture label define var85_10 0 "受給なし" 1 "受給あり"
+capture label values var85_10 var85_10
+
+capture label define var86_10 0 "受給なし" 1 "受給あり"
+capture label values var86_10 var86_10
+
+capture label define var87_10 0 "受給なし" 1 "受給あり"
+capture label values var87_10 var87_10
+
+capture label define var88_10 0 "受給なし" 1 "受給あり"
+capture label values var88_10 var88_10
+
+capture label define var89_10 0 "受給なし" 1 "受給あり"
+capture label values var89_10 var89_10
+
+capture label define var90_10 0 "受給なし" 1 "受給あり"
+capture label values var90_10 var90_10
+
+capture label define var91_10 0 "受給なし" 1 "受給あり"
+capture label values var91_10 var91_10
+
+capture label define var92_10 0 "該当しない" 1 "該当する"
+capture label values var92_10 var92_10
+
+capture label define var93_10 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_10 var93_10
+
+capture label define var94_10 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_10 var94_10
+
+capture label define var95_10 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_10 var95_10
+
+capture label define var96_10 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_10 var96_10
+
+capture label define var97_10 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_10 var97_10
+
+capture label define var103_10 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_10 var103_10
+
+capture label define var104_10 1 "児童のいる世帯の最年少児童"
+capture label values var104_10 var104_10
+
+capture label define var105_10 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_10 var105_10
+
+capture label define var108_10 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_10 var108_10
+
+capture label define var109_10 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_10 var109_10
+
+capture label define var111_10 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_10 var111_10
+
+capture label define var112_10 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_10 var112_10
+
+capture label define var113_10 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_10 var113_10
+
+capture label define var114_10 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_10 var114_10
+
+capture label define var63_11 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_11 var63_11
+
+capture label define var64_11 1 "男" 2 "女"
+capture label values var64_11 var64_11
+
+capture label define var66_11 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_11 var66_11
+
+capture label define var67_11 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_11 var67_11
+
+capture label define var68_11 0 "子と同居していない、子なし"
+capture label values var68_11 var68_11
+
+capture label define var69_11 0 "親と同居していない"
+capture label values var69_11 var69_11
+
+capture label define var70_11 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_11 var70_11
+
+capture label define var71_11 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_11 var71_11
+
+capture label define var72_11 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_11 var72_11
+
+capture label define var73_11 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_11 var73_11
+
+capture label define var74_11 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_11 var74_11
+
+capture label define var75_11 0 "該当なし" 1 "該当あり"
+capture label values var75_11 var75_11
+
+capture label define var76_11 0 "該当なし" 1 "該当あり"
+capture label values var76_11 var76_11
+
+capture label define var77_11 0 "該当なし" 1 "該当あり"
+capture label values var77_11 var77_11
+
+capture label define var78_11 0 "該当なし" 1 "該当あり"
+capture label values var78_11 var78_11
+
+capture label define var79_11 0 "該当なし" 1 "該当あり"
+capture label values var79_11 var79_11
+
+capture label define var80_11 0 "該当なし" 1 "該当あり"
+capture label values var80_11 var80_11
+
+capture label define var81_11 0 "該当なし" 1 "該当あり"
+capture label values var81_11 var81_11
+
+capture label define var82_11 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_11 var82_11
+
+capture label define var83_11 0 "受給なし" 1 "受給あり"
+capture label values var83_11 var83_11
+
+capture label define var84_11 0 "受給なし" 1 "受給あり"
+capture label values var84_11 var84_11
+
+capture label define var85_11 0 "受給なし" 1 "受給あり"
+capture label values var85_11 var85_11
+
+capture label define var86_11 0 "受給なし" 1 "受給あり"
+capture label values var86_11 var86_11
+
+capture label define var87_11 0 "受給なし" 1 "受給あり"
+capture label values var87_11 var87_11
+
+capture label define var88_11 0 "受給なし" 1 "受給あり"
+capture label values var88_11 var88_11
+
+capture label define var89_11 0 "受給なし" 1 "受給あり"
+capture label values var89_11 var89_11
+
+capture label define var90_11 0 "受給なし" 1 "受給あり"
+capture label values var90_11 var90_11
+
+capture label define var91_11 0 "受給なし" 1 "受給あり"
+capture label values var91_11 var91_11
+
+capture label define var92_11 0 "該当しない" 1 "該当する"
+capture label values var92_11 var92_11
+
+capture label define var93_11 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_11 var93_11
+
+capture label define var94_11 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_11 var94_11
+
+capture label define var95_11 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_11 var95_11
+
+capture label define var96_11 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_11 var96_11
+
+capture label define var97_11 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_11 var97_11
+
+capture label define var103_11 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_11 var103_11
+
+capture label define var104_11 1 "児童のいる世帯の最年少児童"
+capture label values var104_11 var104_11
+
+capture label define var105_11 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_11 var105_11
+
+capture label define var108_11 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_11 var108_11
+
+capture label define var109_11 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_11 var109_11
+
+capture label define var111_11 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_11 var111_11
+
+capture label define var112_11 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_11 var112_11
+
+capture label define var113_11 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_11 var113_11
+
+capture label define var114_11 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_11 var114_11
+
+capture label define var63_12 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_12 var63_12
+
+capture label define var64_12 1 "男" 2 "女"
+capture label values var64_12 var64_12
+
+capture label define var66_12 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_12 var66_12
+
+capture label define var67_12 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_12 var67_12
+
+capture label define var68_12 0 "子と同居していない、子なし"
+capture label values var68_12 var68_12
+
+capture label define var69_12 0 "親と同居していない"
+capture label values var69_12 var69_12
+
+capture label define var70_12 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_12 var70_12
+
+capture label define var71_12 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_12 var71_12
+
+capture label define var72_12 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_12 var72_12
+
+capture label define var73_12 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_12 var73_12
+
+capture label define var74_12 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_12 var74_12
+
+capture label define var75_12 0 "該当なし" 1 "該当あり"
+capture label values var75_12 var75_12
+
+capture label define var76_12 0 "該当なし" 1 "該当あり"
+capture label values var76_12 var76_12
+
+capture label define var77_12 0 "該当なし" 1 "該当あり"
+capture label values var77_12 var77_12
+
+capture label define var78_12 0 "該当なし" 1 "該当あり"
+capture label values var78_12 var78_12
+
+capture label define var79_12 0 "該当なし" 1 "該当あり"
+capture label values var79_12 var79_12
+
+capture label define var80_12 0 "該当なし" 1 "該当あり"
+capture label values var80_12 var80_12
+
+capture label define var81_12 0 "該当なし" 1 "該当あり"
+capture label values var81_12 var81_12
+
+capture label define var82_12 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_12 var82_12
+
+capture label define var83_12 0 "受給なし" 1 "受給あり"
+capture label values var83_12 var83_12
+
+capture label define var84_12 0 "受給なし" 1 "受給あり"
+capture label values var84_12 var84_12
+
+capture label define var85_12 0 "受給なし" 1 "受給あり"
+capture label values var85_12 var85_12
+
+capture label define var86_12 0 "受給なし" 1 "受給あり"
+capture label values var86_12 var86_12
+
+capture label define var87_12 0 "受給なし" 1 "受給あり"
+capture label values var87_12 var87_12
+
+capture label define var88_12 0 "受給なし" 1 "受給あり"
+capture label values var88_12 var88_12
+
+capture label define var89_12 0 "受給なし" 1 "受給あり"
+capture label values var89_12 var89_12
+
+capture label define var90_12 0 "受給なし" 1 "受給あり"
+capture label values var90_12 var90_12
+
+capture label define var91_12 0 "受給なし" 1 "受給あり"
+capture label values var91_12 var91_12
+
+capture label define var92_12 0 "該当しない" 1 "該当する"
+capture label values var92_12 var92_12
+
+capture label define var93_12 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_12 var93_12
+
+capture label define var94_12 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_12 var94_12
+
+capture label define var95_12 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_12 var95_12
+
+capture label define var96_12 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_12 var96_12
+
+capture label define var97_12 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_12 var97_12
+
+capture label define var103_12 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_12 var103_12
+
+capture label define var104_12 1 "児童のいる世帯の最年少児童"
+capture label values var104_12 var104_12
+
+capture label define var105_12 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_12 var105_12
+
+capture label define var108_12 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_12 var108_12
+
+capture label define var109_12 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_12 var109_12
+
+capture label define var111_12 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_12 var111_12
+
+capture label define var112_12 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_12 var112_12
+
+capture label define var113_12 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_12 var113_12
+
+capture label define var114_12 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_12 var114_12
+
+capture label define var63_13 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_13 var63_13
+
+capture label define var64_13 1 "男" 2 "女"
+capture label values var64_13 var64_13
+
+capture label define var66_13 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_13 var66_13
+
+capture label define var67_13 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_13 var67_13
+
+capture label define var68_13 0 "子と同居していない、子なし"
+capture label values var68_13 var68_13
+
+capture label define var69_13 0 "親と同居していない"
+capture label values var69_13 var69_13
+
+capture label define var70_13 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_13 var70_13
+
+capture label define var71_13 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_13 var71_13
+
+capture label define var72_13 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_13 var72_13
+
+capture label define var73_13 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_13 var73_13
+
+capture label define var74_13 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_13 var74_13
+
+capture label define var75_13 0 "該当なし" 1 "該当あり"
+capture label values var75_13 var75_13
+
+capture label define var76_13 0 "該当なし" 1 "該当あり"
+capture label values var76_13 var76_13
+
+capture label define var77_13 0 "該当なし" 1 "該当あり"
+capture label values var77_13 var77_13
+
+capture label define var78_13 0 "該当なし" 1 "該当あり"
+capture label values var78_13 var78_13
+
+capture label define var79_13 0 "該当なし" 1 "該当あり"
+capture label values var79_13 var79_13
+
+capture label define var80_13 0 "該当なし" 1 "該当あり"
+capture label values var80_13 var80_13
+
+capture label define var81_13 0 "該当なし" 1 "該当あり"
+capture label values var81_13 var81_13
+
+capture label define var82_13 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_13 var82_13
+
+capture label define var83_13 0 "受給なし" 1 "受給あり"
+capture label values var83_13 var83_13
+
+capture label define var84_13 0 "受給なし" 1 "受給あり"
+capture label values var84_13 var84_13
+
+capture label define var85_13 0 "受給なし" 1 "受給あり"
+capture label values var85_13 var85_13
+
+capture label define var86_13 0 "受給なし" 1 "受給あり"
+capture label values var86_13 var86_13
+
+capture label define var87_13 0 "受給なし" 1 "受給あり"
+capture label values var87_13 var87_13
+
+capture label define var88_13 0 "受給なし" 1 "受給あり"
+capture label values var88_13 var88_13
+
+capture label define var89_13 0 "受給なし" 1 "受給あり"
+capture label values var89_13 var89_13
+
+capture label define var90_13 0 "受給なし" 1 "受給あり"
+capture label values var90_13 var90_13
+
+capture label define var91_13 0 "受給なし" 1 "受給あり"
+capture label values var91_13 var91_13
+
+capture label define var92_13 0 "該当しない" 1 "該当する"
+capture label values var92_13 var92_13
+
+capture label define var93_13 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_13 var93_13
+
+capture label define var94_13 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_13 var94_13
+
+capture label define var95_13 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_13 var95_13
+
+capture label define var96_13 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_13 var96_13
+
+capture label define var97_13 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_13 var97_13
+
+capture label define var103_13 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_13 var103_13
+
+capture label define var104_13 1 "児童のいる世帯の最年少児童"
+capture label values var104_13 var104_13
+
+capture label define var105_13 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_13 var105_13
+
+capture label define var108_13 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_13 var108_13
+
+capture label define var109_13 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_13 var109_13
+
+capture label define var111_13 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_13 var111_13
+
+capture label define var112_13 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_13 var112_13
+
+capture label define var113_13 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_13 var113_13
+
+capture label define var114_13 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_13 var114_13
+
+capture label define var63_14 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_14 var63_14
+
+capture label define var64_14 1 "男" 2 "女"
+capture label values var64_14 var64_14
+
+capture label define var66_14 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_14 var66_14
+
+capture label define var67_14 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_14 var67_14
+
+capture label define var68_14 0 "子と同居していない、子なし"
+capture label values var68_14 var68_14
+
+capture label define var69_14 0 "親と同居していない"
+capture label values var69_14 var69_14
+
+capture label define var70_14 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_14 var70_14
+
+capture label define var71_14 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_14 var71_14
+
+capture label define var72_14 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_14 var72_14
+
+capture label define var73_14 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_14 var73_14
+
+capture label define var74_14 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_14 var74_14
+
+capture label define var75_14 0 "該当なし" 1 "該当あり"
+capture label values var75_14 var75_14
+
+capture label define var76_14 0 "該当なし" 1 "該当あり"
+capture label values var76_14 var76_14
+
+capture label define var77_14 0 "該当なし" 1 "該当あり"
+capture label values var77_14 var77_14
+
+capture label define var78_14 0 "該当なし" 1 "該当あり"
+capture label values var78_14 var78_14
+
+capture label define var79_14 0 "該当なし" 1 "該当あり"
+capture label values var79_14 var79_14
+
+capture label define var80_14 0 "該当なし" 1 "該当あり"
+capture label values var80_14 var80_14
+
+capture label define var81_14 0 "該当なし" 1 "該当あり"
+capture label values var81_14 var81_14
+
+capture label define var82_14 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_14 var82_14
+
+capture label define var83_14 0 "受給なし" 1 "受給あり"
+capture label values var83_14 var83_14
+
+capture label define var84_14 0 "受給なし" 1 "受給あり"
+capture label values var84_14 var84_14
+
+capture label define var85_14 0 "受給なし" 1 "受給あり"
+capture label values var85_14 var85_14
+
+capture label define var86_14 0 "受給なし" 1 "受給あり"
+capture label values var86_14 var86_14
+
+capture label define var87_14 0 "受給なし" 1 "受給あり"
+capture label values var87_14 var87_14
+
+capture label define var88_14 0 "受給なし" 1 "受給あり"
+capture label values var88_14 var88_14
+
+capture label define var89_14 0 "受給なし" 1 "受給あり"
+capture label values var89_14 var89_14
+
+capture label define var90_14 0 "受給なし" 1 "受給あり"
+capture label values var90_14 var90_14
+
+capture label define var91_14 0 "受給なし" 1 "受給あり"
+capture label values var91_14 var91_14
+
+capture label define var92_14 0 "該当しない" 1 "該当する"
+capture label values var92_14 var92_14
+
+capture label define var93_14 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_14 var93_14
+
+capture label define var94_14 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_14 var94_14
+
+capture label define var95_14 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_14 var95_14
+
+capture label define var96_14 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_14 var96_14
+
+capture label define var97_14 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_14 var97_14
+
+capture label define var103_14 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_14 var103_14
+
+capture label define var104_14 1 "児童のいる世帯の最年少児童"
+capture label values var104_14 var104_14
+
+capture label define var105_14 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_14 var105_14
+
+capture label define var108_14 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_14 var108_14
+
+capture label define var109_14 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_14 var109_14
+
+capture label define var111_14 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_14 var111_14
+
+capture label define var112_14 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_14 var112_14
+
+capture label define var113_14 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_14 var113_14
+
+capture label define var114_14 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_14 var114_14
+
+capture label define var63_15 1 "世帯主" 02 "配偶者" 03 "子" 04 "子の配偶者" 05 "孫" 06 "孫の配偶者" 07 "世帯主の父母" 08 "配偶者の父母" 09 "祖父母" 10 "兄弟姉妹" 11 "その他の親族" 12 "その他"
+capture label values var63_15 var63_15
+
+capture label define var64_15 1 "男" 2 "女"
+capture label values var64_15 var64_15
+
+capture label define var66_15 1 "配偶者あり" 2 "未婚" 3 "死別" 4 "離別"
+capture label values var66_15 var66_15
+
+capture label define var67_15 0 "配偶者と同居していない、配偶者あり以外"
+capture label values var67_15 var67_15
+
+capture label define var68_15 0 "子と同居していない、子なし"
+capture label values var68_15 var68_15
+
+capture label define var69_15 0 "親と同居していない"
+capture label values var69_15 var69_15
+
+capture label define var70_15 1 "息子夫婦と同居" 2 "娘夫婦と同居" 3 "配偶者のいない息子と同居" 4 "配偶者のいない娘と同居" 5 "配偶者のいない息子・娘と同居"
+capture label values var70_15 var70_15
+
+capture label define var71_15 1 "単独世帯" 2 "夫婦のみの世帯" 3 "子供夫婦と同居" 4 "配偶者のいない子と同居" 5 "その他の親族と同居" 6 "非親族と同居"
+capture label values var71_15 var71_15
+
+capture label define var72_15 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var72_15 var72_15
+
+capture label define var73_15 1 "最多所得者(仕事あり)" 2 "最多所得者(仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 3 "生計補助者（仕事あり）" 4 "被扶養者（仕事なし、15歳未満、年齢不詳で仕事有無記入なし)" 5 "最多所得者の仕事の有無不詳" 6 "生計補助者・被扶養者の仕事の有無不詳"
+capture label values var73_15 var73_15
+
+capture label define var74_15 1 "病院・診療所に入院中" 2 "病院・診療所に通院中" 3 "病院・診療所等から往診・訪問診療を受けている" 4 "歯科に入院・通院中（訪問診療を含む）" 5 "あんま・はり・きゅう・柔道整復師にかかっている" 6 "その他" 7 "傷病なし"
+capture label values var74_15 var74_15
+
+capture label define var75_15 0 "該当なし" 1 "該当あり"
+capture label values var75_15 var75_15
+
+capture label define var76_15 0 "該当なし" 1 "該当あり"
+capture label values var76_15 var76_15
+
+capture label define var77_15 0 "該当なし" 1 "該当あり"
+capture label values var77_15 var77_15
+
+capture label define var78_15 0 "該当なし" 1 "該当あり"
+capture label values var78_15 var78_15
+
+capture label define var79_15 0 "該当なし" 1 "該当あり"
+capture label values var79_15 var79_15
+
+capture label define var80_15 0 "該当なし" 1 "該当あり"
+capture label values var80_15 var80_15
+
+capture label define var81_15 0 "該当なし" 1 "該当あり"
+capture label values var81_15 var81_15
+
+capture label define var82_15 0 "年金受給者なし" 02 "(1制度) 　 基礎年金" 03 "国民年金" 04 "福祉年金" 05 "厚生年金" 06 "共済組合" 07 "恩給" 08 "基礎＋厚生新年金制度による" 09 "基礎＋共済新年金制度による" 10 "その他" 12 "(2制度)国民＋厚生" 13 "国民＋共済" 14 "国民＋福祉" 15 "国民＋恩給" 16 "福祉＋共済" 17 "福祉＋厚生" 18 "福祉＋恩給" 19 "厚生＋共済" 20 "厚生＋恩給" 21 "共済＋恩給" 22 "上記以外の組合せ" 23 "3制度以上"
+capture label values var82_15 var82_15
+
+capture label define var83_15 0 "受給なし" 1 "受給あり"
+capture label values var83_15 var83_15
+
+capture label define var84_15 0 "受給なし" 1 "受給あり"
+capture label values var84_15 var84_15
+
+capture label define var85_15 0 "受給なし" 1 "受給あり"
+capture label values var85_15 var85_15
+
+capture label define var86_15 0 "受給なし" 1 "受給あり"
+capture label values var86_15 var86_15
+
+capture label define var87_15 0 "受給なし" 1 "受給あり"
+capture label values var87_15 var87_15
+
+capture label define var88_15 0 "受給なし" 1 "受給あり"
+capture label values var88_15 var88_15
+
+capture label define var89_15 0 "受給なし" 1 "受給あり"
+capture label values var89_15 var89_15
+
+capture label define var90_15 0 "受給なし" 1 "受給あり"
+capture label values var90_15 var90_15
+
+capture label define var91_15 0 "受給なし" 1 "受給あり"
+capture label values var91_15 var91_15
+
+capture label define var92_15 0 "該当しない" 1 "該当する"
+capture label values var92_15 var92_15
+
+capture label define var93_15 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var93_15 var93_15
+
+capture label define var94_15 1 "仕事あり：主に仕事をしている" 2 "仕事あり：主に家事で仕事あり" 3 "仕事あり：主に通学で仕事あり" 4 "仕事あり：その他" 5 "仕事なし：通学のみ" 6 "仕事なし：家事（専業）" 7 "仕事なし：その他"
+capture label values var94_15 var94_15
+
+capture label define var95_15 1 "自営業主（雇人あり）" 2 "自営業主（雇人なし）" 3 "家族従業者" 4 "会社・団体等の役員" 5 "一般常雇者" 6 "１月以上１年未満の契約の雇用者" 7 "日々又は１月未満の契約の雇用者" 8 "家庭内職者" 9 "その他" 0 "勤めか自営か不詳"
+capture label values var95_15 var95_15
+
+capture label define var96_15 1 "正規の職員・従業員" 2 "パート" 3 "アルバイト" 4 "労働者派遣事業所の派遣職員" 5 "契約社員・嘱託" 6 "その他"
+capture label values var96_15 var96_15
+
+capture label define var97_15 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var97_15 var97_15
+
+capture label define var103_15 1 "児童のいる世帯の最年少児童の母（母の年齢不詳を含む）" 2 "最年少以外の児童の母" 3 "児童のいる世帯の最年少児童の父（父の年齢不詳を含む）" 4 "最年少以外の児童の父"
+capture label values var103_15 var103_15
+
+capture label define var104_15 1 "児童のいる世帯の最年少児童"
+capture label values var104_15 var104_15
+
+capture label define var105_15 1 "父母共に同居" 2 "父(有配)のみ同居" 3 "母(有配)のみ同居" 4 "父(無配)のみ同居" 5 "母(無配)のみ同居" 6 "父母と同居していない"
+capture label values var105_15 var105_15
+
+capture label define var108_15 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "父の有無不詳"
+capture label values var108_15 var108_15
+
+capture label define var109_15 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳、年齢不詳で仕事の有無記入なし" 98 "母の有無不詳"
+capture label values var109_15 var109_15
+
+capture label define var111_15 1 "自営業主（雇人あり）" 02 "自営業主（雇人なし）" 03 "家族従業者" 04 "会社・団体等の役員" 05 "一般常雇者" 06 "１月以上１年未満の契約の雇用者" 07 "日々又は１月未満の契約の雇用者" 08 "家庭内職者" 09 "その他" 10 "仕事なし" 11 "仕事の有無不詳"
+capture label values var111_15 var111_15
+
+capture label define var112_15 1 "国保・市町村" 2 "国保・組合" 3 "被用者保険・本人" 4 "被用者保険・家族" 5 "後期高齢者医療" 6 "その他"
+capture label values var112_15 var112_15
+
+capture label define var113_15 1 "国民年金第1号被保険者" 2 "国民年金第2号被保険者" 3 "国民年金第3号被保険者" 4 "加入していない"
+capture label values var113_15 var113_15
+
+capture label define var114_15 1 "明治" 2 "大正" 3 "昭和" 4 "平成"
+capture label values var114_15 var114_15
+

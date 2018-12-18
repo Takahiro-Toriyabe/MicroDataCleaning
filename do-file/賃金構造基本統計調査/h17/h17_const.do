@@ -58,5 +58,5 @@ quietly infix
     var56 142-144
     var57 145-147
     var58 148-153
-using KWyK.KOBETSU.txt;
+using "KWyK.KOBETSU.txt";
 #delimit cr
