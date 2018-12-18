@@ -122,5 +122,5 @@ quietly infix
     Z_KEINEN 393-394
     Z_KEITUKI 395-396
     ISHUKAN 405-405
-using L52.RCD.HA6-kk.txt;
+using "L52.RCD.HA6-kk.txt";
 #delimit cr
