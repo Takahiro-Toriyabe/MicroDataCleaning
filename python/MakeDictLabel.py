@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import xlrd
+import xlwt
 import os
 import codecs
 
@@ -198,15 +199,17 @@ def GetHeader(sheet):
     row = 0
     flag = 1
     while flag:
-        if str(sheet.cell(row,0).value).replace(' ','')=='行番号' or str(sheet.cell(row,0).value).replace(' ','')=='ﾚﾍﾞﾙ':
+        if str(sheet.cell(row,0).value).replace(' ','')=='行番号' \
+            or str(sheet.cell(row,0).value).replace(' ','')=='ﾚﾍﾞﾙ' \
+            or str(sheet.cell(row,0).value).replace(' ','')=='項目番号':
             row_min = row + 1
             for col in range(0,col_max):
                 val = str(sheet.cell(row,col).value).replace(' ','').replace('　','').replace("'",'')
                 if val=='項目名':
                     komoku = int(col)
-                if val=='階層' or val=='レベル' or val=='ﾚﾍﾞﾙ':
+                if val=='階層' or val=='レベル' or val=='ﾚﾍﾞﾙ' or val=='レベル番号':
                     kaiso = int(col)
-                if val=='位置':
+                if val=='位置' or val=='カラム':
                     ichi = int(col)
                 if val=='バイト数' or val=='桁数':
                     keta = int(col)
@@ -214,9 +217,9 @@ def GetHeader(sheet):
                     repeat = int(col)
                 if val=='変数名':
                     varname = int(col)
-                if val=='符号':
+                if val=='符号' or val=='コード':
                     fugo = int(col)
-                if val=='符号内容' or val=='説明':
+                if val=='符号内容' or val=='説明' or val=='コードの内容':
                     fugo_naiyo = int(col)
 
             flag = 0
@@ -303,14 +306,126 @@ def GetValueLabel(file, sheet, komoku, ichi, fugo, fugo_naiyo, row, var):
     return row_n
 
 
-def MakeDictLabel(infile_name, sheet_index, outfile_name, data, *, manual=0):
+def MergeLayoutSheet(infile, sheet_index_main):
+    """
+    This function merges the sheets of layout tables
+    (used to import Kokumin Seikatsu Kiso Chosa whose layout tables are separated
+    with a main part and a sub part)
+        - infile: Input layout table
+        - sheet_index_main: Index of the sheet for a main part
+    """
+    book = xlrd.open_workbook(infile)
+    sheet_main = book.sheet_by_index(sheet_index_main)
+    sheet_sub = book.sheet_by_index(int(sheet_index_main+1))
+
+    ncols_main = sheet_main.ncols
+    nrows_main = sheet_main.nrows
+
+    ncols_sub = sheet_sub.ncols
+    nrows_sub = sheet_sub.nrows
+
+    new_layout = xlwt.Workbook()
+    new_sheet = new_layout.add_sheet("sheet1")
+
+    row_max_main, row_min_main, col_max_main, komoku_main, kaiso_main, ichi_main, \
+        keta_main, repeat_main, varname_main, fugo_main, fugo_naiyo_main = GetHeader(sheet_main)
+
+    row_max_sub, row_min_sub, col_max_sub, komoku_sub, kaiso_sub, ichi_sub, \
+        keta_sub, repeat_sub, varname_sub, fugo_sub, fugo_naiyo_sub = GetHeader(sheet_sub)
+
+
+    for i in range(0, nrows_main):
+        val_komoku = str(sheet_main.cell(i, komoku_main).value).replace(' ','')
+        new_sheet.write(i, komoku_main, str(val_komoku))
+
+        val_kaiso = str(sheet_main.cell(i, kaiso_main).value).replace(' ','')
+        new_sheet.write(i, kaiso_main, str(val_kaiso))
+
+        val_ichi = str(sheet_main.cell(i, ichi_main).value).replace(' ','')
+        new_sheet.write(i, ichi_main, str(val_ichi))
+
+        val_keta = str(sheet_main.cell(i, keta_main).value).replace(' ','')
+        new_sheet.write(i, keta_main, str(val_keta))
+
+        if str(repeat_main)!='':
+            val_repeat = str(sheet_main.cell(i, repeat_main).value).replace(' ','')
+            new_sheet.write(i, repeat_main, str(val_repeat))
+
+        if str(varname_main)!='':
+            val_varname = str(sheet_main.cell(i, varname_main).value).replace(' ','')
+            new_sheet.write(i, varname_main, str(val_varname))
+
+        val_fugo = str(sheet_main.cell(i, fugo_main).value).replace(' ','')
+        new_sheet.write(i, fugo_main, str(val_fugo))
+
+        val_fugo_naiyo = str(sheet_main.cell(i, fugo_naiyo_main).value).replace(' ','')
+        new_sheet.write(i, fugo_naiyo_main, str(val_fugo_naiyo))
+
+        if str(val_komoku)=='項目名':
+            if str(sheet_main.cell(i, 0).value).strip()!='行番号' \
+                and str(sheet_main.cell(i, 0).value).strip()!='ﾚﾍﾞﾙ':
+                    new_sheet.write(i, 0, str('行番号'))
+                        # This is used to judge the header place in GetHeader
+
+    new_sheet.write(nrows_main, komoku_main, "＜サブ定義部＞")
+
+    flag_start = 0
+    for i in range(0, nrows_sub):
+        if flag_start==0:
+            if str(sheet_sub.cell(i, kaiso_sub).value).strip().isdigit():
+                flag_start = 1
+                    # To avoid writing the header again
+
+        if flag_start==1:
+            val_komoku = str(sheet_sub.cell(i, komoku_sub).value).replace(' ','')
+            new_sheet.write(i+nrows_main+1, komoku_main, str(val_komoku))
+
+            val_kaiso = str(sheet_sub.cell(i, kaiso_sub).value).replace(' ','')
+            new_sheet.write(i+nrows_main+1, kaiso_main, str(val_kaiso))
+
+            val_ichi = str(sheet_sub.cell(i, ichi_sub).value).replace(' ','')
+            new_sheet.write(i+nrows_main+1, ichi_main, str(val_ichi))
+
+            val_keta = str(sheet_sub.cell(i, keta_sub).value).replace(' ','')
+            new_sheet.write(i+nrows_main+1, keta_main, str(val_keta))
+
+            if str(repeat_main)!='':
+                val_repeat = str(sheet_sub.cell(i, repeat_sub).value).replace(' ','')
+                new_sheet.write(i+nrows_main+1, repeat_main, str(val_repeat))
+
+            if str(varname_main)!='':
+                val_varname = str(sheet_sub.cell(i, varname_sub).value).replace(' ','')
+                new_sheet.write(i+nrows_main+1, varname_sub, str(val_varname))
+
+            val_fugo = str(sheet_sub.cell(i, fugo_sub).value).replace(' ','')
+            new_sheet.write(i+nrows_main+1, fugo_main, str(val_fugo))
+
+            val_fugo_naiyo = str(sheet_sub.cell(i, fugo_naiyo_sub).value).replace(' ','')
+            new_sheet.write(i+nrows_main+1, fugo_naiyo_main, str(val_fugo_naiyo))
+
+    outfile = str(infile).replace('.xlsx', '').replace('.xls', '')
+    outfile = str(outfile) + '_merged.xls'
+    new_layout.save(outfile)
+
+    return str(outfile)
+
+
+def MakeDictLabel(infile_name, sheet_index, outfile_name, data, *, manual=0, merge=0):
     """
     This function takes a layout table as an input and creates a do-file that makes dictionaries.
     Note that this function returns nothing.
     """
 
-    book = xlrd.open_workbook(infile_name)
-    sheet = book.sheet_by_index(sheet_index)
+    if merge==0:
+        book = xlrd.open_workbook(infile_name)
+        sheet = book.sheet_by_index(sheet_index)
+    elif merge==1:
+        merged_file =  MergeLayoutSheet(infile_name, sheet_index)
+        book = xlrd.open_workbook(merged_file)
+        sheet = book.sheet_by_index(0)
+    else:
+        print("ERROR: option 'merge' should be 1 or 0")
+        exit
 
     #### Get indices of the header
     row_max, row_min, col_max, komoku, kaiso, ichi, keta, repeat, varname, fugo, fugo_naiyo = GetHeader(sheet)
@@ -403,7 +518,7 @@ def MakeMasterFile(outfile_list, data_list, master_name):
     f_master.close()
 
 
-def MakeDictLabel_List(infile_list, sheet_index_list, outfile_name_list, data_list, master_name , *, manual=0):
+def MakeDictLabel_List(infile_list, sheet_index_list, outfile_name_list, data_list, master_name , *, manual=0, merge=1):
     """
     This function generalizes MakeDictLabel to list.
     """
@@ -418,6 +533,6 @@ def MakeDictLabel_List(infile_list, sheet_index_list, outfile_name_list, data_li
             outfile = str(outfile_name_list[i])
             data = str(data_list[i])
 
-            MakeDictLabel(infile, index, outfile, data, manual=manual)
+            MakeDictLabel(infile, index, outfile, data, manual=manual, merge=merge)
 
         MakeMasterFile(outfile_name_list, data_list, master_name)
