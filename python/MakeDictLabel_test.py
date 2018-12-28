@@ -3,6 +3,35 @@ import os
 import MakeDictLabel as mdl
     # Import the python program to make do-file for data cleaning
 
+outpath = "D:/GitHub/MicroDataCleaning/do-file"
+
+#### Zenkoku Shohi Jittai Chosa (Yoto bunrui)
+
+os.chdir("C:/Users/Takahiro/Desktop")
+
+# List of layout tables
+infile_list = [\
+    "H26全消用途分類（3ヶ月平均）個別世帯サマリーデータ.xlsx" \
+]
+
+# List of indices of each sheet
+sheet_index_list = [1]
+
+# List of output file names
+outfile_list = [\
+    str(outpath) + "/全国消費実態調査/2014/YotoBunrui/YotoBunrui2014", \
+]
+
+# List of data files to import into Stata
+data_list = [\
+    "W1_2014_RCD_YotoMonthMatch`type'`m'`p'_B.txt" \
+]
+
+master_name = str(outpath) + "/全国消費実態調査/2014/YotoBunrui/master.do"
+
+mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, master_name)
+    # Add option "manual=1" if the repetition part does not work well
+
 
 #### Kokumin Seikatsu Kiso Chosa (Setai-Hyou; Recent ones)
 

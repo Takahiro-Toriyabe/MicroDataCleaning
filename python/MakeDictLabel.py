@@ -518,7 +518,7 @@ def MakeMasterFile(outfile_list, data_list, master_name):
     f_master.close()
 
 
-def MakeDictLabel_List(infile_list, sheet_index_list, outfile_name_list, data_list, master_name , *, manual=0, merge=1):
+def MakeDictLabel_List(infile_list, sheet_index_list, outfile_name_list, data_list, master_name , *, manual=0, merge=0):
     """
     This function generalizes MakeDictLabel to list.
     """
