@@ -3,11 +3,15 @@ import os
 import MakeDictLabel as mdl
     # Import the python program to make do-file for data cleaning
 
-outpath = "D:/GitHub/MicroDataCleaning/do-file"
+# inpath = "C:/Users/takah/Desktop"
+inpath = "C:/Users/Takahiro/Desktop"
+
+# outpath = "D:/GitHub/MicroDataCleaning/do-file"
+outpath = "C:/Users/Takahiro/Desktop"
 
 #### Zenkoku Shohi Jittai Chosa (Yoto bunrui)
 
-os.chdir("C:/Users/Takahiro/Desktop")
+os.chdir(inpath)
 
 # List of layout tables
 infile_list = [\
@@ -32,10 +36,10 @@ master_name = str(outpath) + "/全国消費実態調査/2014/YotoBunrui/master.d
 mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, master_name)
     # Add option "manual=1" if the repetition part does not work well
 
-
+x
 #### Kokumin Seikatsu Kiso Chosa (Setai-Hyou; Recent ones)
 
-os.chdir("C:/Users/takah/Desktop/符号表/国民生活基礎調査")
+os.chdir(inpath + "/符号表/国民生活基礎調査")
 
 # List of layout tables
 infile_list = [\
@@ -54,14 +58,14 @@ sheet_index_list = [0, 0, 0, 0, 0, 0, 0, 0]
 
 # List of output file names
 outfile_list = [\
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h20/h20", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h22/h22", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h23/h23", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h24/h24", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h25/h25", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h26/h26", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h27/h27", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h28/h28" \
+    str(outpath) + "/国民生活基礎調査/世帯票/h20/h20", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h22/h22", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h23/h23", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h24/h24", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h25/h25", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h26/h26", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h27/h27", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h28/h28" \
 ]
 
 # List of data files to import into Stata
@@ -76,7 +80,7 @@ data_list = [\
     "28setai.dat" \
 ]
 
-master_name = 'D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/master1.do'
+master_name = str(outpath) + '/国民生活基礎調査/世帯票/master1.do'
 
 mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, master_name)
     # Add option "manual=1" if the repetition part does not work well
@@ -84,7 +88,7 @@ mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, m
 
 #### Kokumin Seikatsu Kiso Chosa (Setai-Hyou; Old ones)
 
-os.chdir("C:/Users/takah/国民生活基礎調査/国民生活基礎調査")
+os.chdir(inpath + "/国民生活基礎調査/国民生活基礎調査")
 
 # List of layout tables
 infile_list = [\
@@ -109,20 +113,20 @@ sheet_index_list = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 # List of output file names
 outfile_list = [\
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h1/h1", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h4/h4", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h7/h7", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h10/h10", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h11/h11", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h12/h12", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h13/h13", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h14/h14", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h15/h15", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h16/h16", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h17/h17", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h18/h18", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h19/h19", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/h21/h21" \
+    str(outpath) + "/国民生活基礎調査/世帯票/h1/h1", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h4/h4", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h7/h7", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h10/h10", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h11/h11", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h12/h12", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h13/h13", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h14/h14", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h15/h15", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h16/h16", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h17/h17", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h18/h18", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h19/h19", \
+    str(outpath) + "/国民生活基礎調査/世帯票/h21/h21" \
 ]
 
 # List of data files to import into Stata
@@ -143,7 +147,7 @@ data_list = [\
     "21setai.dat" \
 ]
 
-master_name = 'D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/世帯票/master2.do'
+master_name = str(outpath) + '/国民生活基礎調査/世帯票/master2.do'
 
 mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, master_name, merge=1)
     # Add option "manual=1" if the repetition part does not work well
@@ -151,7 +155,7 @@ mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, m
 
 #### Kokumin Seikatsu Kiso Chosa (Shotoku-Hyou)
 
-os.chdir("C:/Users/takah/Desktop/符号表/国民生活基礎調査")
+os.chdir(inpath + "/符号表/国民生活基礎調査")
 
 # List of layout tables
 infile_list = [\
@@ -170,14 +174,14 @@ sheet_index_list = [0, 0, 0, 0, 0, 0, 0, 0]
 
 # List of output file names
 outfile_list = [\
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/所得票・貯蓄票/h20/h20", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/所得票・貯蓄票/h22/h22", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/所得票・貯蓄票/h23/h23", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/所得票・貯蓄票/h24/h24", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/所得票・貯蓄票/h25/h25", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/所得票・貯蓄票/h26/h26", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/所得票・貯蓄票/h27/h27", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/所得票・貯蓄票/h28/h28" \
+    str(outpath) + "/国民生活基礎調査/所得票・貯蓄票/h20/h20", \
+    str(outpath) + "/国民生活基礎調査/所得票・貯蓄票/h22/h22", \
+    str(outpath) + "/国民生活基礎調査/所得票・貯蓄票/h23/h23", \
+    str(outpath) + "/国民生活基礎調査/所得票・貯蓄票/h24/h24", \
+    str(outpath) + "/国民生活基礎調査/所得票・貯蓄票/h25/h25", \
+    str(outpath) + "/国民生活基礎調査/所得票・貯蓄票/h26/h26", \
+    str(outpath) + "/国民生活基礎調査/所得票・貯蓄票/h27/h27", \
+    str(outpath) + "/国民生活基礎調査/所得票・貯蓄票/h28/h28" \
 ]
 
 # List of data files to import into Stata
@@ -192,7 +196,7 @@ data_list = [\
     "[PATH]" \
 ]
 
-master_name = 'D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/所得票・貯蓄票/master.do'
+master_name = str(outpath) + '/国民生活基礎調査/所得票・貯蓄票/master.do'
 
 mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, master_name)
     # Add option "manual=1" if the repetition part does not work well
@@ -200,7 +204,7 @@ mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, m
 
 #### Kokumin Seikatsu Kiso Chosa (Kaigo-Hyou)
 
-os.chdir("C:/Users/takah/Desktop/符号表/国民生活基礎調査")
+os.chdir(inpath + "/符号表/国民生活基礎調査")
 
 # List of layout tables
 infile_list = [\
@@ -214,9 +218,9 @@ sheet_index_list = [0, 0, 0]
 
 # List of output file names
 outfile_list = [\
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/介護票/h22/h22", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/介護票/h25/h25", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/介護票/h28/h28" \
+    str(outpath) + "/国民生活基礎調査/介護票/h22/h22", \
+    str(outpath) + "/国民生活基礎調査/介護票/h25/h25", \
+    str(outpath) + "/国民生活基礎調査/介護票/h28/h28" \
 ]
 
 # List of data files to import into Stata
@@ -226,7 +230,7 @@ data_list = [\
     "28kaigo.dat" \
 ]
 
-master_name = 'D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/介護票/master.do'
+master_name = str(outpath) + '/国民生活基礎調査/介護票/master.do'
 
 mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, master_name)
     # Add option "manual=1" if the repetition part does not work well
@@ -234,7 +238,7 @@ mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, m
 
 #### Kokumin Seikatsu Kiso Chosa (Kaigo-Hyou)
 
-os.chdir("C:/Users/takah/Desktop/符号表/国民生活基礎調査")
+os.chdir(inpath + "/符号表/国民生活基礎調査")
 
 # List of layout tables
 infile_list = [\
@@ -248,9 +252,9 @@ sheet_index_list = [0, 0, 0]
 
 # List of output file names
 outfile_list = [\
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/健康票/h22/h22", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/健康票/h25/h25", \
-    "D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/健康票/h28/h28" \
+    str(outpath) + "/国民生活基礎調査/健康票/h22/h22", \
+    str(outpath) + "/国民生活基礎調査/健康票/h25/h25", \
+    str(outpath) + "/国民生活基礎調査/健康票/h28/h28" \
 ]
 
 # List of data files to import into Stata
@@ -260,7 +264,7 @@ data_list = [\
     "[PATH]" \
 ]
 
-master_name = 'D:/GitHub/MicroDataCleaning/do-file/国民生活基礎調査/健康票/master.do'
+master_name = str(outpath) + '/国民生活基礎調査/健康票/master.do'
 
 mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, master_name)
     # Add option "manual=1" if the repetition part does not work well
@@ -268,7 +272,7 @@ mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, m
 
 #### Chingin Kouzou Kihon Tokei Chosa
 
-os.chdir("C:/Users/takah/Desktop/符号表/賃金構造基本統計調査")
+os.chdir(inpath + "/符号表/賃金構造基本統計調査")
 
 # List of layout tables
 infile_list = [\
@@ -287,14 +291,14 @@ sheet_index_list = [1, 1, 1, 1, 1, 1, 1, 1]
 
 # List of output file names
 outfile_list = [\
-    "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/h17/h17", \
-    "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/h21/h21", \
-    "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/h22/h22", \
-    "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/h23/h23", \
-    "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/h24/h24", \
-    "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/h25/h25", \
-    "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/h26/h26", \
-    "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/h27/h27" \
+    str(outpath) + "/賃金構造基本統計調査/h17/h17", \
+    str(outpath) + "/賃金構造基本統計調査/h21/h21", \
+    str(outpath) + "/賃金構造基本統計調査/h22/h22", \
+    str(outpath) + "/賃金構造基本統計調査/h23/h23", \
+    str(outpath) + "/賃金構造基本統計調査/h24/h24", \
+    str(outpath) + "/賃金構造基本統計調査/h25/h25", \
+    str(outpath) + "/賃金構造基本統計調査/h26/h26", \
+    str(outpath) + "/賃金構造基本統計調査/h27/h27" \
 ]
 
 # List of data files to import into Stata
@@ -309,7 +313,7 @@ data_list = [\
     "KW_2015_RCD_KD_KOBETSU_B.txt" \
 ]
 
-master_name = 'D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/master.do'
+master_name = str(outpath) + '/賃金構造基本統計調査/master.do'
 
 mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, master_name)
     # Add option "manual=1" if the repetition part does not work well
@@ -317,7 +321,7 @@ mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, m
 
 #### Shugyo Kouzou Kihon Chosa
 
-os.chdir("C:/Users/takah/Desktop/符号表/就業構造基本調査")
+os.chdir(inpath + "/符号表/就業構造基本調査")
 
 # List of layout tables
 infile_list = [\
@@ -332,10 +336,10 @@ sheet_index_list = [2, 2, 1, 1]
 
 # List of output file names
 outfile_list = [\
-    "D:/GitHub/MicroDataCleaning/do-file/就業構造基本調査/h9/h9", \
-    "D:/GitHub/MicroDataCleaning/do-file/就業構造基本調査/h14/h14", \
-    "D:/GitHub/MicroDataCleaning/do-file/就業構造基本調査/h19/h19", \
-    "D:/GitHub/MicroDataCleaning/do-file/就業構造基本調査/h24/h24" \
+    str(outpath) + "/就業構造基本調査/h9/h9", \
+    str(outpath) + "/就業構造基本調査/h14/h14", \
+    str(outpath) + "/就業構造基本調査/h19/h19", \
+    str(outpath) + "/就業構造基本調査/h24/h24" \
 ]
 
 # List of data files to import into Stata
@@ -346,7 +350,7 @@ data_list = [\
     "L5_2012_RCD_KobetsuT1_A.txt" \
 ]
 
-master_name = 'D:/GitHub/MicroDataCleaning/do-file/就業構造基本調査/master.do'
+master_name = str(outpath) + '/就業構造基本調査/master.do'
 
 mdl.MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, master_name)
     # Add option "manual=1" if the repetition part does not work well
