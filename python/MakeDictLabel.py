@@ -8,8 +8,8 @@ import codecs
 
 """
     Author: Takahiro Toriyabe
-    Date: 2018/09/16
-    Version: Python 3.6.5
+    Date: 2019/01/01
+    Version: Python 3.7.0
 
     Main program: MakeDictLabel_List(infile_list, sheet_index_list, outfile_list, data_list, master_name)
         - infile_list: List of layout tables
