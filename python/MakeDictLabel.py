@@ -9,7 +9,7 @@ import codecs
 
 """
 Author: Takahiro Toriyabe
-Date: 2019/01/01
+Date: 2019/01/04
 Version: Python 3.7.0
 
 Main program:
@@ -723,18 +723,6 @@ def MakeDictLabel_List(
     *, manual=0, merge=0
 ):
     """
-    Author: Takahiro Toriyabe
-    Date: 2019/01/01
-    Version: Python 3.7.0
-
-    Main program:
-    MakeDictLabel_List(
-        infile_list,
-        sheet_index_list,
-        outfile_list,
-        data_list,
-        master_name
-    )
     infile_list: List of layout tables
     sheet_index_list: List of spread sheet indices of layout tables
     outfile_list: List of the file names of output files
