@@ -53,7 +53,7 @@ def GetRepeatInfo1(sheet, komoku, ichi, keta, repeat, row):
         print('Input the row index at which the repetition ends' + '\n')
 
         # Loop continues while keyboard input is not given
-        while str(row_e).isdigit() is False:
+        while not str(row_e).isdigit():
             row = row + 1
 
             # Find the next variable
