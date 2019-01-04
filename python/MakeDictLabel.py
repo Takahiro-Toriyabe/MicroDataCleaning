@@ -3,6 +3,7 @@
 
 import xlrd
 import xlwt
+import sys
 import os
 import codecs
 
@@ -158,7 +159,7 @@ def GetRepeatInfo2(sheet, komoku, ichi, keta, repeat, row):
         = str(sheet.cell(row, komoku).value).replace(' ', '').replace('　', '')
 
     # In case of Comprehensive Survey of Living Conditions
-    if str(var_tmp) == '＜サブ定義部＞' or str(var_tmp) == '〈サブ定義部〉':
+    if str(var_tmp) in ['＜サブ定義部＞', '〈サブ定義部〉']:
         # In CSLC, "サブ定義部" is the flag to start the repetition
         num_repeat, row_s, row_e \
             = GetRepeatInfoSub(sheet, komoku, ichi, keta, repeat, row)
@@ -242,29 +243,27 @@ def GetHeader(sheet):
     row_max, col_max, row, flag = sheet.nrows, sheet.ncols, 0, 1
 
     while flag:
-        if str(sheet.cell(row, 0).value).replace(' ', '') == '行番号' \
-                or str(sheet.cell(row, 0).value).replace(' ', '') == 'ﾚﾍﾞﾙ' \
-                or str(sheet.cell(row, 0).value).replace(' ', '') == '項目番号':
+        if str(sheet.cell(row, 0).value).replace(' ', '') \
+                in ['行番号', 'ﾚﾍﾞﾙ', '項目番号']:
             # These are the key words to find the header
             row_min = row + 1
             for col in range(0, col_max):
                 val = str(sheet.cell(row, col).value).replace(' ', '').replace('　', '').replace("'", '')
                 if val == '項目名':
                     komoku = int(col)
-                if val == '階層' or val == 'レベル' or val == 'ﾚﾍﾞﾙ' \
-                        or val == 'レベル番号':
+                if val in ['階層', 'レベル', 'ﾚﾍﾞﾙ', 'レベル番号']:
                     kaiso = int(col)
-                if val == '位置' or val == 'カラム':
+                if val in ['位置', 'カラム']:
                     ichi = int(col)
-                if val == 'バイト数' or val == '桁数':
+                if val in ['バイト数', '桁数']:
                     keta = int(col)
-                if val == '繰返し' or val == '繰返' or val == '繰り返し':
+                if val in ['繰返し', '繰返', '繰り返し', '繰り返']:
                     repeat = int(col)
                 if val == '変数名':
                     varname = int(col)
-                if val == '符号' or val == 'コード':
+                if val in ['符号', 'コード']:
                     fugo = int(col)
-                if val == '符号内容' or val == '説明' or val == 'コードの内容':
+                if val in ['符号内容', '説明', 'コードの内容']:
                     fugo_naiyo = int(col)
 
             flag = 0
@@ -438,8 +437,8 @@ def MergeLayoutSheet(infile, sheet_index_main):
         new_sheet.write(i, fugo_naiyo_main, str(val_fugo_naiyo))
 
         if str(val_komoku) == '項目名':
-            if str(sheet_main.cell(i, 0).value).strip() != '行番号' \
-                    and str(sheet_main.cell(i, 0).value).strip() != 'ﾚﾍﾞﾙ':
+            if not str(sheet_main.cell(i, 0).value).strip() \
+                    in ['行番号', 'ﾚﾍﾞﾙ']:
                 # This is used to judge the header place in GetHeader
                 new_sheet.write(i, 0, str('行番号'))
 
@@ -473,7 +472,7 @@ def MergeLayoutSheet(infile, sheet_index_main):
             val_keta = str(sheet_sub.cell(i, keta_sub).value).replace(' ', '')
             new_sheet.write(i+nrows_main+1, keta_main, str(val_keta))
 
-            # In case for the layout table without repetition or varname columns
+            # In case for the layout table without repetition or varname column
             if str(repeat_main) != '':
                 val_repeat \
                     = str(sheet_sub.cell(i, repeat_sub).value).replace(' ', '')
@@ -690,22 +689,33 @@ def MakeMasterFile(outfile_list, data_list, master_name):
     f_master.close()
 
 
-def CheckListDimension(
+def CheckListDim(
     infile_list, sheet_index_list, outfile_name_list, data_list
 ):
     """
     This function checks if the dimension of the lists are the same.
     """
-    if len(infile_list) != len(sheet_index_list) \
-            or len(sheet_index_list) != len(outfile_name_list) \
-            or len(outfile_name_list) != len(data_list) \
-            or len(data_list) != len(infile_list):
+    # if len(infile_list) != len(sheet_index_list) \
+    #         or len(sheet_index_list) != len(outfile_name_list) \
+    #         or len(outfile_name_list) != len(data_list) \
+    #         or len(data_list) != len(infile_list):
+    list_set = [sheet_index_list, outfile_name_list, data_list]
+    if not all([len(infile_list) == len(list) for list in list_set]):
         # Dimension is different across the lists
-        flag_invalid = int(1)
-    else:
-        flag_invalid = int(0)
+        print("ERROR: Dimension of the lists are not equal")
+        sys.exit()
 
-    return flag_invalid
+
+def GetElement(infile_list, sheet_index_list, outfile_name_list, data_list, i):
+    """
+    This function gets the element from the set of lists
+    """
+    infile = str(infile_list[i])
+    index = int(sheet_index_list[i])
+    outfile = str(outfile_name_list[i])
+    data = str(data_list[i])
+
+    return infile, index, outfile, data
 
 
 def MakeDictLabel_List(
@@ -713,25 +723,40 @@ def MakeDictLabel_List(
     *, manual=0, merge=0
 ):
     """
-    This function generalizes MakeDictLabel to the list.
+    Author: Takahiro Toriyabe
+    Date: 2019/01/01
+    Version: Python 3.7.0
+
+    Main program:
+    MakeDictLabel_List(
+        infile_list,
+        sheet_index_list,
+        outfile_list,
+        data_list,
+        master_name
+    )
+    infile_list: List of layout tables
+    sheet_index_list: List of spread sheet indices of layout tables
+    outfile_list: List of the file names of output files
+    ex) If outfile_list = ['xxx', 'yyy'], the output files will be
+        - xxx_const.do, yyy_const.do: do-file to import .txt data
+        - xxx_var.do, yyy_var.do: do-file to make variable labels
+        - xxx_val.do, yyy_val.do: do-file to make value lables
+    data_list: List of .txt (or .dat) data to import
+    master_name: do-file to run all output files and save the resulting
+        data (master_name can be 'NAME.do' or 'Name'; In both cases,
+        it results in 'NAME.do')
     """
 
     # Check if the dimension of the lists are the same
-    flag_invalid = CheckListDimension(
-        infile_list, sheet_index_list, outfile_name_list, data_list
-    )
+    CheckListDim(infile_list, sheet_index_list, outfile_name_list, data_list)
 
-    if flag_invalid:
-        print("ERROR: Dimension of the lists are not equal")
-        exit
-    else:
-        for i, infile in enumerate(infile_list):
-            index = int(sheet_index_list[i])
-            outfile = str(outfile_name_list[i])
-            data = str(data_list[i])
+    # Apply MakeDictLabel for each set of the lists
+    for i in range(len(infile_list)):
+        infile, index, outfile, data = GetElement(
+            infile_list, sheet_index_list, outfile_name_list, data_list, i
+        )
 
-            MakeDictLabel(
-                infile, index, outfile, data, manual=manual, merge=merge
-            )
+        MakeDictLabel(infile, index, outfile, data, manual=manual, merge=merge)
 
-        MakeMasterFile(outfile_name_list, data_list, master_name)
+    MakeMasterFile(outfile_name_list, data_list, master_name)
