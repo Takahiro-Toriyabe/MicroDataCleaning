@@ -73,6 +73,9 @@ capture label values Kaigo_1 Kaigo_1
 capture label define KaigoNintei_1 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_1 KaigoNintei_1
 
+capture label define KaigoService_1 1 "利用している" 2 "利用していない"
+capture label values KaigoService_1 KaigoService_1
+
 capture label define Tsuzukigara_2 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_2 Tsuzukigara_2
 
@@ -120,6 +123,9 @@ capture label values Kaigo_2 Kaigo_2
 
 capture label define KaigoNintei_2 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_2 KaigoNintei_2
+
+capture label define KaigoService_2 1 "利用している" 2 "利用していない"
+capture label values KaigoService_2 KaigoService_2
 
 capture label define Tsuzukigara_3 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_3 Tsuzukigara_3
@@ -169,6 +175,9 @@ capture label values Kaigo_3 Kaigo_3
 capture label define KaigoNintei_3 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_3 KaigoNintei_3
 
+capture label define KaigoService_3 1 "利用している" 2 "利用していない"
+capture label values KaigoService_3 KaigoService_3
+
 capture label define Tsuzukigara_4 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_4 Tsuzukigara_4
 
@@ -216,6 +225,9 @@ capture label values Kaigo_4 Kaigo_4
 
 capture label define KaigoNintei_4 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_4 KaigoNintei_4
+
+capture label define KaigoService_4 1 "利用している" 2 "利用していない"
+capture label values KaigoService_4 KaigoService_4
 
 capture label define Tsuzukigara_5 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_5 Tsuzukigara_5
@@ -265,6 +277,9 @@ capture label values Kaigo_5 Kaigo_5
 capture label define KaigoNintei_5 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_5 KaigoNintei_5
 
+capture label define KaigoService_5 1 "利用している" 2 "利用していない"
+capture label values KaigoService_5 KaigoService_5
+
 capture label define Tsuzukigara_6 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_6 Tsuzukigara_6
 
@@ -312,6 +327,9 @@ capture label values Kaigo_6 Kaigo_6
 
 capture label define KaigoNintei_6 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_6 KaigoNintei_6
+
+capture label define KaigoService_6 1 "利用している" 2 "利用していない"
+capture label values KaigoService_6 KaigoService_6
 
 capture label define Tsuzukigara_7 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_7 Tsuzukigara_7
@@ -361,6 +379,9 @@ capture label values Kaigo_7 Kaigo_7
 capture label define KaigoNintei_7 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_7 KaigoNintei_7
 
+capture label define KaigoService_7 1 "利用している" 2 "利用していない"
+capture label values KaigoService_7 KaigoService_7
+
 capture label define Tsuzukigara_8 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_8 Tsuzukigara_8
 
@@ -408,6 +429,9 @@ capture label values Kaigo_8 Kaigo_8
 
 capture label define KaigoNintei_8 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_8 KaigoNintei_8
+
+capture label define KaigoService_8 1 "利用している" 2 "利用していない"
+capture label values KaigoService_8 KaigoService_8
 
 capture label define Tsuzukigara_9 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_9 Tsuzukigara_9
@@ -457,6 +481,9 @@ capture label values Kaigo_9 Kaigo_9
 capture label define KaigoNintei_9 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_9 KaigoNintei_9
 
+capture label define KaigoService_9 1 "利用している" 2 "利用していない"
+capture label values KaigoService_9 KaigoService_9
+
 capture label define Tsuzukigara_10 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_10 Tsuzukigara_10
 
@@ -504,6 +531,9 @@ capture label values Kaigo_10 Kaigo_10
 
 capture label define KaigoNintei_10 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_10 KaigoNintei_10
+
+capture label define KaigoService_10 1 "利用している" 2 "利用していない"
+capture label values KaigoService_10 KaigoService_10
 
 capture label define Tsuzukigara_11 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_11 Tsuzukigara_11
@@ -553,6 +583,9 @@ capture label values Kaigo_11 Kaigo_11
 capture label define KaigoNintei_11 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_11 KaigoNintei_11
 
+capture label define KaigoService_11 1 "利用している" 2 "利用していない"
+capture label values KaigoService_11 KaigoService_11
+
 capture label define Tsuzukigara_12 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_12 Tsuzukigara_12
 
@@ -600,6 +633,9 @@ capture label values Kaigo_12 Kaigo_12
 
 capture label define KaigoNintei_12 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_12 KaigoNintei_12
+
+capture label define KaigoService_12 1 "利用している" 2 "利用していない"
+capture label values KaigoService_12 KaigoService_12
 
 capture label define Tsuzukigara_13 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_13 Tsuzukigara_13
@@ -649,6 +685,9 @@ capture label values Kaigo_13 Kaigo_13
 capture label define KaigoNintei_13 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_13 KaigoNintei_13
 
+capture label define KaigoService_13 1 "利用している" 2 "利用していない"
+capture label values KaigoService_13 KaigoService_13
+
 capture label define Tsuzukigara_14 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_14 Tsuzukigara_14
 
@@ -696,6 +735,9 @@ capture label values Kaigo_14 Kaigo_14
 
 capture label define KaigoNintei_14 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_14 KaigoNintei_14
+
+capture label define KaigoService_14 1 "利用している" 2 "利用していない"
+capture label values KaigoService_14 KaigoService_14
 
 capture label define Tsuzukigara_15 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_15 Tsuzukigara_15
@@ -745,6 +787,9 @@ capture label values Kaigo_15 Kaigo_15
 capture label define KaigoNintei_15 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_15 KaigoNintei_15
 
+capture label define KaigoService_15 1 "利用している" 2 "利用していない"
+capture label values KaigoService_15 KaigoService_15
+
 capture label define Tsuzukigara_16 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_16 Tsuzukigara_16
 
@@ -792,6 +837,9 @@ capture label values Kaigo_16 Kaigo_16
 
 capture label define KaigoNintei_16 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_16 KaigoNintei_16
+
+capture label define KaigoService_16 1 "利用している" 2 "利用していない"
+capture label values KaigoService_16 KaigoService_16
 
 capture label define Tsuzukigara_17 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_17 Tsuzukigara_17
@@ -841,6 +889,9 @@ capture label values Kaigo_17 Kaigo_17
 capture label define KaigoNintei_17 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_17 KaigoNintei_17
 
+capture label define KaigoService_17 1 "利用している" 2 "利用していない"
+capture label values KaigoService_17 KaigoService_17
+
 capture label define Tsuzukigara_18 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_18 Tsuzukigara_18
 
@@ -888,6 +939,9 @@ capture label values Kaigo_18 Kaigo_18
 
 capture label define KaigoNintei_18 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_18 KaigoNintei_18
+
+capture label define KaigoService_18 1 "利用している" 2 "利用していない"
+capture label values KaigoService_18 KaigoService_18
 
 capture label define Tsuzukigara_19 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_19 Tsuzukigara_19
@@ -937,6 +991,9 @@ capture label values Kaigo_19 Kaigo_19
 capture label define KaigoNintei_19 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_19 KaigoNintei_19
 
+capture label define KaigoService_19 1 "利用している" 2 "利用していない"
+capture label values KaigoService_19 KaigoService_19
+
 capture label define Tsuzukigara_20 1 "世帯主" 2 "世帯主の配偶者" 3 "子" 4 "子の配偶者" 5 "世帯主の父母" 6 "世帯主の配偶者の父母" 7 "孫" 8 "祖父母" 9 "兄弟姉妹" 10 "他の親族" 11 "住み込みの雇人" 12 "その他"
 capture label values Tsuzukigara_20 Tsuzukigara_20
 
@@ -985,8 +1042,8 @@ capture label values Kaigo_20 Kaigo_20
 capture label define KaigoNintei_20 1 "認定を受けていない" 2 "要介護認定を受けている" 3 "要支援認定を受けている"
 capture label values KaigoNintei_20 KaigoNintei_20
 
-capture label define KaigoService 1 "利用している" 2 "利用していない"
-capture label values KaigoService KaigoService
+capture label define KaigoService_20 1 "利用している" 2 "利用していない"
+capture label values KaigoService_20 KaigoService_20
 
 capture label define Fuzai 1 "単身赴任" 2 "出稼ぎ" 3 "入院" 4 "その他"
 capture label values Fuzai Fuzai
@@ -1099,17 +1156,26 @@ capture label values OtherJutaku OtherJutaku
 capture label define OtherKenchikujiki_1 1 "昭和40年以前" 2 "昭和" 3 "平成" 4 "西暦"
 capture label values OtherKenchikujiki_1 OtherKenchikujiki_1
 
+capture label define OtherJukyoKozo_1 1 "木造" 2 "防災木造" 3 "鉄骨・鉄筋コンクリート造" 4 "その他"
+capture label values OtherJukyoKozo_1 OtherJukyoKozo_1
+
 capture label define OtherKenchikujiki_2 1 "昭和40年以前" 2 "昭和" 3 "平成" 4 "西暦"
 capture label values OtherKenchikujiki_2 OtherKenchikujiki_2
+
+capture label define OtherJukyoKozo_2 1 "木造" 2 "防災木造" 3 "鉄骨・鉄筋コンクリート造" 4 "その他"
+capture label values OtherJukyoKozo_2 OtherJukyoKozo_2
 
 capture label define OtherKenchikujiki_3 1 "昭和40年以前" 2 "昭和" 3 "平成" 4 "西暦"
 capture label values OtherKenchikujiki_3 OtherKenchikujiki_3
 
+capture label define OtherJukyoKozo_3 1 "木造" 2 "防災木造" 3 "鉄骨・鉄筋コンクリート造" 4 "その他"
+capture label values OtherJukyoKozo_3 OtherJukyoKozo_3
+
 capture label define OtherKenchikujiki_4 1 "昭和40年以前" 2 "昭和" 3 "平成" 4 "西暦"
 capture label values OtherKenchikujiki_4 OtherKenchikujiki_4
 
-capture label define OtherJukyoKozo 1 "木造" 2 "防災木造" 3 "鉄骨・鉄筋コンクリート造" 4 "その他"
-capture label values OtherJukyoKozo OtherJukyoKozo
+capture label define OtherJukyoKozo_4 1 "木造" 2 "防災木造" 3 "鉄骨・鉄筋コンクリート造" 4 "その他"
+capture label values OtherJukyoKozo_4 OtherJukyoKozo_4
 
 capture label define OtherTochi 1 "所有している" 2 "所有していない"
 capture label values OtherTochi OtherTochi
@@ -1168,6 +1234,9 @@ capture label values Car_ShutokuNengo_1 Car_ShutokuNengo_1
 capture label define Car_TorokuNengo_1 1 "昭和" 2 "平成" 3 "西暦"
 capture label values Car_TorokuNengo_1 Car_TorokuNengo_1
 
+capture label define Car_Kind_1 1 "ハイブリッド車" 2 "電気自動車" 3 "軽自動車" 4 "小型乗用車" 5 "普通乗用車" 6 "乗用車以外"
+capture label values Car_Kind_1 Car_Kind_1
+
 capture label define Car_KokusanYunyu_2 1 "国産車" 2 "輸入車"
 capture label values Car_KokusanYunyu_2 Car_KokusanYunyu_2
 
@@ -1176,6 +1245,9 @@ capture label values Car_ShutokuNengo_2 Car_ShutokuNengo_2
 
 capture label define Car_TorokuNengo_2 1 "昭和" 2 "平成" 3 "西暦"
 capture label values Car_TorokuNengo_2 Car_TorokuNengo_2
+
+capture label define Car_Kind_2 1 "ハイブリッド車" 2 "電気自動車" 3 "軽自動車" 4 "小型乗用車" 5 "普通乗用車" 6 "乗用車以外"
+capture label values Car_Kind_2 Car_Kind_2
 
 capture label define Car_KokusanYunyu_3 1 "国産車" 2 "輸入車"
 capture label values Car_KokusanYunyu_3 Car_KokusanYunyu_3
@@ -1186,6 +1258,9 @@ capture label values Car_ShutokuNengo_3 Car_ShutokuNengo_3
 capture label define Car_TorokuNengo_3 1 "昭和" 2 "平成" 3 "西暦"
 capture label values Car_TorokuNengo_3 Car_TorokuNengo_3
 
+capture label define Car_Kind_3 1 "ハイブリッド車" 2 "電気自動車" 3 "軽自動車" 4 "小型乗用車" 5 "普通乗用車" 6 "乗用車以外"
+capture label values Car_Kind_3 Car_Kind_3
+
 capture label define Car_KokusanYunyu_4 1 "国産車" 2 "輸入車"
 capture label values Car_KokusanYunyu_4 Car_KokusanYunyu_4
 
@@ -1194,6 +1269,9 @@ capture label values Car_ShutokuNengo_4 Car_ShutokuNengo_4
 
 capture label define Car_TorokuNengo_4 1 "昭和" 2 "平成" 3 "西暦"
 capture label values Car_TorokuNengo_4 Car_TorokuNengo_4
+
+capture label define Car_Kind_4 1 "ハイブリッド車" 2 "電気自動車" 3 "軽自動車" 4 "小型乗用車" 5 "普通乗用車" 6 "乗用車以外"
+capture label values Car_Kind_4 Car_Kind_4
 
 capture label define Car_KokusanYunyu_5 1 "国産車" 2 "輸入車"
 capture label values Car_KokusanYunyu_5 Car_KokusanYunyu_5
@@ -1204,8 +1282,8 @@ capture label values Car_ShutokuNengo_5 Car_ShutokuNengo_5
 capture label define Car_TorokuNengo_5 1 "昭和" 2 "平成" 3 "西暦"
 capture label values Car_TorokuNengo_5 Car_TorokuNengo_5
 
-capture label define Car_Kind 1 "ハイブリッド車" 2 "電気自動車" 3 "軽自動車" 4 "小型乗用車" 5 "普通乗用車" 6 "乗用車以外"
-capture label values Car_Kind Car_Kind
+capture label define Car_Kind_5 1 "ハイブリッド車" 2 "電気自動車" 3 "軽自動車" 4 "小型乗用車" 5 "普通乗用車" 6 "乗用車以外"
+capture label values Car_Kind_5 Car_Kind_5
 
 capture label define Bike_KokusanYunyu_1 1 "国産車" 2 "輸入車"
 capture label values Bike_KokusanYunyu_1 Bike_KokusanYunyu_1
@@ -1216,6 +1294,9 @@ capture label values Bike_ShutokuNengo_1 Bike_ShutokuNengo_1
 capture label define Bike_TorokuNengo_1 1 "昭和" 2 "平成" 3 "西暦"
 capture label values Bike_TorokuNengo_1 Bike_TorokuNengo_1
 
+capture label define Bike_Kind_1 1 "原動機付自転車（50cc以下）" 2 "普通自動二輪車（51～125cc）" 3 "普通自動二輪車（126～250cc）" 4 "普通自動二輪車（251～400cc）" 5 "大型自動二輪車（401cc以上）"
+capture label values Bike_Kind_1 Bike_Kind_1
+
 capture label define Bike_KokusanYunyu_2 1 "国産車" 2 "輸入車"
 capture label values Bike_KokusanYunyu_2 Bike_KokusanYunyu_2
 
@@ -1224,6 +1305,9 @@ capture label values Bike_ShutokuNengo_2 Bike_ShutokuNengo_2
 
 capture label define Bike_TorokuNengo_2 1 "昭和" 2 "平成" 3 "西暦"
 capture label values Bike_TorokuNengo_2 Bike_TorokuNengo_2
+
+capture label define Bike_Kind_2 1 "原動機付自転車（50cc以下）" 2 "普通自動二輪車（51～125cc）" 3 "普通自動二輪車（126～250cc）" 4 "普通自動二輪車（251～400cc）" 5 "大型自動二輪車（401cc以上）"
+capture label values Bike_Kind_2 Bike_Kind_2
 
 capture label define Bike_KokusanYunyu_3 1 "国産車" 2 "輸入車"
 capture label values Bike_KokusanYunyu_3 Bike_KokusanYunyu_3
@@ -1234,6 +1318,9 @@ capture label values Bike_ShutokuNengo_3 Bike_ShutokuNengo_3
 capture label define Bike_TorokuNengo_3 1 "昭和" 2 "平成" 3 "西暦"
 capture label values Bike_TorokuNengo_3 Bike_TorokuNengo_3
 
+capture label define Bike_Kind_3 1 "原動機付自転車（50cc以下）" 2 "普通自動二輪車（51～125cc）" 3 "普通自動二輪車（126～250cc）" 4 "普通自動二輪車（251～400cc）" 5 "大型自動二輪車（401cc以上）"
+capture label values Bike_Kind_3 Bike_Kind_3
+
 capture label define Bike_KokusanYunyu_4 1 "国産車" 2 "輸入車"
 capture label values Bike_KokusanYunyu_4 Bike_KokusanYunyu_4
 
@@ -1242,6 +1329,9 @@ capture label values Bike_ShutokuNengo_4 Bike_ShutokuNengo_4
 
 capture label define Bike_TorokuNengo_4 1 "昭和" 2 "平成" 3 "西暦"
 capture label values Bike_TorokuNengo_4 Bike_TorokuNengo_4
+
+capture label define Bike_Kind_4 1 "原動機付自転車（50cc以下）" 2 "普通自動二輪車（51～125cc）" 3 "普通自動二輪車（126～250cc）" 4 "普通自動二輪車（251～400cc）" 5 "大型自動二輪車（401cc以上）"
+capture label values Bike_Kind_4 Bike_Kind_4
 
 capture label define Bike_KokusanYunyu_5 1 "国産車" 2 "輸入車"
 capture label values Bike_KokusanYunyu_5 Bike_KokusanYunyu_5
@@ -1252,8 +1342,8 @@ capture label values Bike_ShutokuNengo_5 Bike_ShutokuNengo_5
 capture label define Bike_TorokuNengo_5 1 "昭和" 2 "平成" 3 "西暦"
 capture label values Bike_TorokuNengo_5 Bike_TorokuNengo_5
 
-capture label define Bike_Kind 1 "原動機付自転車（50cc以下）" 2 "普通自動二輪車（51～125cc）" 3 "普通自動二輪車（126～250cc）" 4 "普通自動二輪車（251～400cc）" 5 "大型自動二輪車（401cc以上）"
-capture label values Bike_Kind Bike_Kind
+capture label define Bike_Kind_5 1 "原動機付自転車（50cc以下）" 2 "普通自動二輪車（51～125cc）" 3 "普通自動二輪車（126～250cc）" 4 "普通自動二輪車（251～400cc）" 5 "大型自動二輪車（401cc以上）"
+capture label values Bike_Kind_5 Bike_Kind_5
 
 capture label define Other_Hinmei_1 1 "記入あり"
 capture label values Other_Hinmei_1 Other_Hinmei_1
