@@ -253,7 +253,7 @@ def GetHeader(sheet):
                     komoku = int(col)
                 if val in ['階層', 'レベル', 'ﾚﾍﾞﾙ', 'レベル番号']:
                     kaiso = int(col)
-                if val in ['位置', 'カラム']:
+                if val in ['位置', '位置左端', 'カラム']:
                     ichi = int(col)
                 if val in ['バイト数', '桁数']:
                     keta = int(col)
@@ -303,7 +303,8 @@ def GetVarName(sheet, varname, row, num_repeat, cnt, i):
 
     # When we have variable names in the layout table
     if len(str(varname)) != 0 \
-            and len(str(sheet.cell(row, varname).value.replace(' ', ''))) != 0:
+            and len(str(sheet.cell(row, varname).value.replace(' ', ''))) \
+            .replace('　', '') != 0:
         # Not update the counter
         var = str(sheet.cell(row, varname).value).replace(' ', '') \
             + str(vartag)
@@ -615,6 +616,7 @@ def MakeDictLabel(
                 # A variable is in the current row ("FILLER" is not a variable)
                 if len(str(sheet.cell(row, ichi).value)) != 0 \
                         and len(str(sheet.cell(row, keta).value)) != 0 \
+                        and int(sheet.cell(row, keta).value) != 0 \
                         and str(sheet.cell(row, komoku).value) != 'FILLER':
                     # Get the variable name and update its counter
                     var, cnt \
@@ -679,11 +681,13 @@ def MakeMasterFile(outfile_list, data_list, master_name):
     # To run all the do-file in outfile_list
     for i, f in enumerate(outfile_list):
         file, data = outfile_list[i], data_list[i]
+        data = str(data).replace('.dat', '').replace('.txt', '')
 
         f_master.write('do "' + str(file) + '_const.do"' + '\n')
         f_master.write('do "' + str(file) + '_var.do"' + '\n')
         f_master.write('do "' + str(file) + '_val.do"' + '\n')
         f_master.write('save "' + str(data) + '.dta", replace' + '\n' + '\n')
+        f_master.write('clear' + '\n' + '\n' + '\n')
 
     # Close the file
     f_master.close()
