@@ -190,12 +190,11 @@ class HeaderInfo:
     
     def __init__(self):
         self.row_header = 0
-        self.index_dict = {}
-        self.element_dict = [
+        self.__element_dict = [
             'komoku', 'ichi', 'keta', 'repeat',
             'varname', 'fugo', 'fugo_naiyo'
         ]
-        self.__SetHeaderKeywordDictionaly__()
+
         
     def __SetHeaderKeywordDictionaly__(self):
         self.keyword_dict = {}
@@ -209,6 +208,11 @@ class HeaderInfo:
         self.keyword_dict['fugo'] = ['符号', 'コード']
         self.keyword_dict['fugo_naiyo'] = ['符号内容', '説明', 'コードの内容']
 
+
+    def __InitializeIndexDict__(self):
+        self.index_dict = {}
+        for key in self.__element_dict:
+            self.index_dict[key] = ''
     
     def __CheckHeader__(self, layout_list):
         if self.row_header <= len(layout_list):
@@ -228,7 +232,7 @@ class HeaderInfo:
             self.index_dict[key] = col
 
     def __UpdateAllHeaderIndexDict__(self, val, col):
-        for key in self.element_dict:
+        for key in self.__element_dict:
             self.__UpdateHeaderIndexDict__(key, val, col)
 
     def __GetHeaderElement__(self, layout_list):
@@ -238,12 +242,14 @@ class HeaderInfo:
             
             
     def SetHeaderInfo(self, layout_list):
+        self.__SetHeaderKeywordDictionaly__()
+        self.__InitializeIndexDict__()
         self.__SetHeaderRowIndex__(layout_list)
         self.__GetHeaderElement__(layout_list)
         
         
     def GetHeaderIndex(self, key):
-        if key in self.element_dict:
+        if key in self.__element_dict:
             return self.index_dict[key]
         
 
@@ -252,24 +258,52 @@ class HeaderInfoTester:
     def __init__(self):
         self.true_index_list = {'komoku': 1, 'ichi': 3, 'keta': 4, 'repeat': 5,
                    'varname': 10, 'fugo': 12, 'fugo_naiyo': 13}
+        self.true_index = 1
 
 
     def TestHeaderInfo(self, layout_list):
-        obtained_index_list = self.__SetTestHeaderInfo__(layout_list)
-        if obtained_index_list != self.true_index_list:
-            print('LayoutSheetImporter: Error')
-            print('Obtained index_dict is')
-            print(obtained_index_list)
-            print('True index_dict is')
-            print(self.true_row_value)
-        else:
+        result1 = self.__TestSetHeaderInfo__(layout_list)
+        result2 = self.__TestGetHeaderIndex__(layout_list)
+        if result1 and result2:
             print('HeaderInfo: Pass')
             
             
-    def __SetTestHeaderInfo__(self, layout_list):
+    def __SetTestSetHeaderInfo__(self, layout_list):
         iHeaderInfo = HeaderInfo()
         iHeaderInfo.SetHeaderInfo(layout_list)
         return iHeaderInfo.index_dict
+    
+    
+    def __TestSetHeaderInfo__(self, layout_list):
+        obtained_index_list = self.__SetTestSetHeaderInfo__(layout_list)
+        if obtained_index_list != self.true_index_list:
+            print('SetHeaderInfo: Error')
+            print('Obtained index_dict is')
+            print(obtained_index_list)
+            print('True index_dict is')
+            print(self.true_index_list)
+            return False
+        
+        return True
+            
+    
+    def __SetTestGetHeaderIndex__(self, layout_list):
+        iHeaderInfo = HeaderInfo()
+        iHeaderInfo.SetHeaderInfo(layout_list)
+        return iHeaderInfo.GetHeaderIndex('komoku')
+    
+    
+    def __TestGetHeaderIndex__(self, layout_list):
+        obtained_index = self.__SetTestGetHeaderIndex__(layout_list)
+        if obtained_index != self.true_index:
+            print('TestGetHeaderIndex: Error')
+            print('Obtained index is')
+            print(obtained_index)
+            print('True index is')
+            print(self.true_index)
+            return False
+            
+        return True
 
 
 
