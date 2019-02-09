@@ -1,139 +1,415 @@
 # -*- coding: utf-8 -*-
 
+import sys
 import xlrd
 
-class Sheet:
+
+
+class ExcelFile:
+
+    def __init__(self, excel_file, layout_sheet_index):
+        self.__excel_file = excel_file
+        self.__layout_sheet_index = layout_sheet_index
+
+
+    def GetExcelFile(self):
+        return self.__excel_file
+
+
+    def GetLayoutSheetIndex(self):
+        return self.__layout_sheet_index
+
+
+class DirtyExcelSheet:
+
+    def __init__(self, xlrd_sheet):
+        self.__xlrd_sheet = xlrd_sheet
+        self.__num_rows = self.__xlrd_sheet.nrows
+        self.__num_cols = self.__xlrd_sheet.ncols
+
+
+    def GetCellValue(self, row, col):
+        return str(self.__xlrd_sheet.cell_value(row, col))
+
+
+    def GetNumRows(self):
+        return self.__num_rows
+
+
+    def GetNumCols(self):
+        return self.__num_cols
+
+
+class ExcelSheetCleaner:
+
+    def __SetExcelSheetCleaner__(self, DirtyExcelSheet):
+        self.num_rows = DirtyExcelSheet.GetNumRows()
+        self.num_cols = DirtyExcelSheet.GetNumCols()
+        self.clean_list = [
+                ['' for c in range(self.num_cols)]
+                for r in range(self.num_rows)
+        ]
+
+
+    def __UpdateDirtyCellValue__(self, DirtyExcelSheet, row, col):
+        self.cell_value = DirtyExcelSheet.GetCellValue(row, col)
+
+    def  __KillSpace__(self):
+        for space in [' ', '　', '  ', '　　']:
+            self.cell_value = self.cell_value.replace(space, '')
+            # Maybe [' ', '　'] is sufficient
+
+
+    def __KillMark__(self):
+        for mark in ['"', "'", "△", '\n']:
+            self.cell_value = self.cell_value.replace(mark, '')
+
+
+    def __ReplaceKomeMark__(self):
+        self.cell_value = self.cell_value.replace('※', '*')
+
+
+    def __CleanCellValue__(self):
+        self.__KillSpace__()
+        self.__KillMark__()
+        self.__ReplaceKomeMark__()
+
+
+    def __UpdateCleanListCell__(self, row, col):
+        self.clean_list[row][col] = self.cell_value
+
+
+    def __UpdateCleanListRow__(self, DirtyExcelSheet, row):
+        for col in range(self.num_cols):
+            self.__UpdateDirtyCellValue__(DirtyExcelSheet, row, col)
+            self.__CleanCellValue__()
+            self.__UpdateCleanListCell__(row, col)
+
+
+    def __UpdateEntireCleanList__(self, DirtyExcelSheet):
+        for row in range(self.num_rows):
+            self.__UpdateCleanListRow__(DirtyExcelSheet, row)
+
+
+    def __IsEmptyRow__(self, row):
+        return self.clean_list[row] == ['' for col in range(self.num_cols)]
+
+
+    def __KillEmptyRow__(self):
+        self.clean_list = [
+                self.clean_list[row] for row in range(self.num_rows)
+                if not self.__IsEmptyRow__(row)
+        ]
+
+
+    def MakeCleanList(self, DirtyExcelSheet):
+        self.__SetExcelSheetCleaner__(DirtyExcelSheet)
+        self.__UpdateEntireCleanList__(DirtyExcelSheet)
+        self.__KillEmptyRow__()
+        return self.clean_list
+
+
+class LayoutSheetImporter:
     
-    def __init__(self, file, index):
-        self.file = file
-        self.index = index
+    __iCleaner = ExcelSheetCleaner()
+
+    def __ImportDirtyLayoutSheet__(self, ExcelFile):
+        layout_sheet_index = ExcelFile.GetLayoutSheetIndex()
+        excel_file_opened = self.__OpenExcelFile__(ExcelFile)
+        return excel_file_opened.sheet_by_index(layout_sheet_index)
+
+
+    def __OpenExcelFile__(self, ExcelFile):
+        input_excel_file = ExcelFile.GetExcelFile()
+        return xlrd.open_workbook(input_excel_file)
+
+
+    def ImportLayoutSheet(self, ExcelFile, ExcelSheetCleaner=__iCleaner):
+        xlrd_sheet_tmp = self.__ImportDirtyLayoutSheet__(ExcelFile)
+        iDirtyExcelSheet_tmp = DirtyExcelSheet(xlrd_sheet_tmp)
+        return ExcelSheetCleaner.MakeCleanList(iDirtyExcelSheet_tmp)
+    
+
+class ImportLayoutSheetTester:
+
+    def __init__(self):
+        self.true_num_rows = 669
+        self.true_row_value = ['行番号', '項目名', '階層', '位置', 'バイト数',
+                               '繰返し', '配置', '型', '小数点', '種別', '変数名',
+                               '対象', '符号', '符号内容', '備考']
         
+    def TestImportLayoutSheet(self):
+        layout_list = self.__SetTestImportLayoutSheet__()
+        num_rows = len(layout_list)
+        
+        if num_rows != self.true_num_rows:
+            print('LayoutSheetImporter: Error')
+            print('# of rows: ' + str(num_rows) + ' != ' + str(self.true_num_rows))
+        elif layout_list[5] != self.true_row_value:
+            print('LayoutSheetImporter: Error')
+            print('Obtained row value is')
+            print(layout_list[5])
+            print('True row value is')
+            print(self.true_row_value)
+        else:
+            print('LayoutSheetImporter: Pass')
+        
+        return layout_list
+            
+    
+    def __SetTestImportLayoutSheet__(self):
+        file = 'C:/Users/Takahiro/Desktop/（標準記法）Ｈ23社会調調査票A提供用個別データ_時間帯編EC-KOBETSUC.xlsx'
+        index = int(0)
+        iExcelFile = ExcelFile(file, index)
+        iLayoutSheetImporter = LayoutSheetImporter()
+        return iLayoutSheetImporter.ImportLayoutSheet(iExcelFile)
+
+
+class HeaderKeywords:
+
+    def __init__(self):
+        self.__SetHeaderKeywordDictionaly__()
+        self.header_element_dict = ['komoku', 'ichi', 'keta', 'repeat',
+                                        'varname', 'fugo', 'fugo_naiyo']
+        
+    
+    def __SetHeaderKeywordDictionaly__(self):
+        self.keyword_dict = {}
+        self.keyword_dict['header'] = ['行番号', 'ﾚﾍﾞﾙ', '項目番号']
+        # 1st element of the header row
+        self.keyword_dict['komoku'] = ['項目名']
+        self.keyword_dict['ichi'] = ['位置', '位置左端', 'カラム']
+        self.keyword_dict['keta'] = ['バイト数', '桁数']
+        self.keyword_dict['repeat'] = ['繰返し', '繰返', '繰り返し', '繰り返']
+        self.keyword_dict['varname'] = ['変数名']
+        self.keyword_dict['fugo'] = ['符号', 'コード']
+        self.keyword_dict['fugo_naiyo'] = ['符号内容', '説明', 'コードの内容']
+
+
+class HeaderInfo:
+    
+    def __init__(self):
         self.row_header = 0
-        self.header_keywords = ['行番号', 'ﾚﾍﾞﾙ', '項目番号']
-        self.komoku_keywords = ['項目名']
-        self.ichi_keywords = ['位置', '位置左端', 'カラム']
-        self.keta_keywords = ['バイト数', '桁数']
-        self.repeat_keywords = ['繰返し', '繰返', '繰り返し', '繰り返']
-        self.varname_keywords = ['変数名']
-        self.fugo_keywords = ['符号', 'コード']
-        self.fugo_naiyo_keywords = ['符号内容', '説明', 'コードの内容']
-        self.SetSheet()
-        self.GetHeader()
-        self.CleanSheet()
+        self.index_dict = {}
+        self.element_dict = [
+            'komoku', 'ichi', 'keta', 'repeat',
+            'varname', 'fugo', 'fugo_naiyo'
+        ]
+        self.__SetHeaderKeywordDictionaly__()
         
-        
-    def SetSheet(self):
-        self.sheet = self.OpenSheet()
-        self.nrows = self.sheet.nrows
-        self.ncols = self.sheet.ncols
-        
-        
-    def OpenSheet(self):
-        book = xlrd.open_workbook(self.file)
-        return book.sheet_by_index(self.index)
+    def __SetHeaderKeywordDictionaly__(self):
+        self.keyword_dict = {}
+        self.keyword_dict['header'] = ['行番号', 'ﾚﾍﾞﾙ', '項目番号']
+        # 1st element of the header row
+        self.keyword_dict['komoku'] = ['項目名']
+        self.keyword_dict['ichi'] = ['位置', '位置左端', 'カラム']
+        self.keyword_dict['keta'] = ['バイト数', '桁数']
+        self.keyword_dict['repeat'] = ['繰返し', '繰返', '繰り返し', '繰り返']
+        self.keyword_dict['varname'] = ['変数名']
+        self.keyword_dict['fugo'] = ['符号', 'コード']
+        self.keyword_dict['fugo_naiyo'] = ['符号内容', '説明', 'コードの内容']
+
     
-    
-    def GetHeader(self):
-
-        self.FindHeader()
-
-        for col in range(0, self.ncols):
-            val = self.GetCellValue(self.row_header, col)
-            if val in self.komoku_keywords:
-                self.col_komoku = int(col)
-            elif val in self.ichi_keywords:
-                self.col_ichi = int(col)
-            elif val in self.keta_keywords:
-                self.col_keta = int(col)
-            elif val in self.repeat_keywords:
-                self.col_repeat = int(col)
-            elif val in self.varname_keywords:
-                self.col_varname = int(col)
-            elif val in self.fugo_keywords:
-                self.col_fugo = int(col)
-            elif val in self.fugo_keywords:
-                self.col_fugo_naiyo = int(col)
+    def __CheckHeader__(self, layout_list):
+        if self.row_header <= len(layout_list):
+            return layout_list[self.row_header][0] in self.keyword_dict['header']
         
-        if __name__ == '__main__':
-            self.TestGetHeader()
-
-
-    def FindHeader(self):
-        while not self.GetHeaderKeyWord() in self.header_keywords:
+        print('Header was not found')
+        sys.exit()
+        
+        
+    def __SetHeaderRowIndex__(self, layout_list):
+        while not self.__CheckHeader__(layout_list):
             self.row_header = self.row_header + 1
 
+    
+    def __UpdateHeaderIndexDict__(self, key, val, col):
+        if val in self.keyword_dict[key]:
+            self.index_dict[key] = col
 
-    def GetHeaderKeyWord(self):
-        return self.GetCellValue(self.row_header, 0)
+    def __UpdateAllHeaderIndexDict__(self, val, col):
+        for key in self.element_dict:
+            self.__UpdateHeaderIndexDict__(key, val, col)
+
+    def __GetHeaderElement__(self, layout_list):
+        for col in range(len(layout_list[self.row_header])):
+            val = layout_list[self.row_header][col]
+            self.__UpdateAllHeaderIndexDict__(val, col)
+            
+            
+    def SetHeaderInfo(self, layout_list):
+        self.__SetHeaderRowIndex__(layout_list)
+        self.__GetHeaderElement__(layout_list)
+        
+        
+    def GetHeaderIndex(self, key):
+        if key in self.element_dict:
+            return self.index_dict[key]
+        
+
+class HeaderInfoTester:
     
-    
-    def TestGetHeader(self):
-        TrueHeader = ['行番号', '項目名', '階層', '位置', 'バイト数', '繰返し', 
-                      '配置', '型', '小数点', '種別', '変数名', '対象', '符号', 
-                      '符号内容', '備考']
-        ObtainedHeader = self.sheet.row_values(self.row_header)
-        if ObtainedHeader != TrueHeader:
-            print('Bug in GetHeader() \n')
-            print('Obtained header is \n' + ObtainedHeader)
+    def __init__(self):
+        self.true_index_list = {'komoku': 1, 'ichi': 3, 'keta': 4, 'repeat': 5,
+                   'varname': 10, 'fugo': 12, 'fugo_naiyo': 13}
+
+
+    def TestHeaderInfo(self, layout_list):
+        obtained_index_list = self.__SetTestHeaderInfo__(layout_list)
+        if obtained_index_list != self.true_index_list:
+            print('LayoutSheetImporter: Error')
+            print('Obtained index_dict is')
+            print(obtained_index_list)
+            print('True index_dict is')
+            print(self.true_row_value)
         else:
-            print('Test GetHeader(): Pass')
+            print('HeaderInfo: Pass')
+            
+            
+    def __SetTestHeaderInfo__(self, layout_list):
+        iHeaderInfo = HeaderInfo()
+        iHeaderInfo.SetHeaderInfo(layout_list)
+        return iHeaderInfo.index_dict
 
 
-    def GetCellValue(self, RowArg, ColArg):
-        DirtyCellValue = str(self.sheet.cell(RowArg, ColArg).value)
-        return self.CleanCellValue(DirtyCellValue)
 
-    def CleanCellValue(self, CellValueArg):
-        ValueNoSpace = CellValueArg.replace(' ', '').replace('　', '')
-        ValueNoQuot = ValueNoSpace.replace("'", '').replace('"', '')
-        ValueNoReturn = ValueNoQuot.replace('\n', '')
-        return ValueNoReturn.replace('※', '*').replace("△", "")
-        
+if __name__ == '__main__':
+    iImportLayoutSheetTester = ImportLayoutSheetTester()
+    layout_list = iImportLayoutSheetTester.TestImportLayoutSheet()
     
-    def CleanSheet(self):
-        self.cleansheet = []
-        for row in range(self.row_header, self.nrows):
-            if not self.CheckSkip(row):
-                self.cleansheet.append(self.sheet.row_values(row))
-                
-        if __name__ == '__main__':
-            self.TestCleanSheet()
+    iTestHeaderInfo = HeaderInfoTester()
+    iTestHeaderInfo.TestHeaderInfo(layout_list)
 
 
-    def CheckSkip(self, RowArg):
-        return self.CheckEmptyRow(RowArg) or self.CheckFiller(RowArg)
-        
-    
-    def CheckEmptyRow(self, RowArg):
-        row_values_temp = self.sheet.row_values(RowArg)
-        return row_values_temp == ['' for col in range(self.ncols)]
-    
-
-    def CheckFiller(self, RowArg):
-        komoku_temp = self.GetCellValue(RowArg, self.col_komoku)
-        return komoku_temp == 'FILLER'
-    
-        
-    def TestCleanSheet(self):
-        TrueCleanRow = [74.0, '調査区符号', 4.0, 227.0, 5.0, '', '', ' ', '',
-                         '1', 'N_Chosaku', '', '01001--99999',
-                         '市町村内調査区符号', '']
-        ObtainedCleanRow = self.cleansheet[3]
-        
-        if TrueCleanRow != ObtainedCleanRow:
-            print('Bug in CleanSheet() \n')
-            print('Obtained cleansheet is \n' + ObtainedCleanRow)
-        else:
-            print('Test CleanSheet(): Pass')
-
-        
-        
-    
-
-file = 'C:/Users/takah/Desktop/（標準記法）Ｈ23社会調調査票A提供用個別データ_時間帯編EC-KOBETSUC.xlsx'
-index = int(0)
-
-iSheet = Sheet(file, index)
-
-
+#class SheetCleaner(Sheet):
+#
+#    def __init__(self, file, index, row_start, row_end):
+#        super().__init__(file, index)
+#        self.row_start = row_start
+#        self.row_end = row_end
+#        self.sheet_cleaned = []
+#
+#
+#    def CleanSheet(self):
+#        for row in range(self.row_start, self.row_end):
+#            row_values_temp = self.sheet.row_values(row)
+#            if not self.CheckSkip(row_values_temp):
+#                self.sheet_cleaned.append(row_values_temp)
+#
+#
+#    def CheckSkip(self, RowValuesArg):
+#        return self.CheckEmptyRow(RowValuesArg) \
+#            or self.CheckFiller(RowValuesArg)
+#
+#
+#    def CheckEmptyRow(self, RowValuesArg):
+#        return RowValuesArg == ['' for col in range(len(RowValuesArg))]
+#
+#
+#    def CheckFiller(self, RowValuesArg):
+#        return 'FILLER' in RowValuesArg
+#
+#
+#    def TestCleanSheet(self):
+#        self.CleanSheet()
+#        TrueCleanRow = [74.0, '調査区符号', 4.0, 227.0, 5.0, '', '', ' ', '',
+#                         '1', 'N_Chosaku', '', '01001--99999',
+#                         '市町村内調査区符号', '']
+#        ObtainedCleanRow = self.sheet_cleaned[3]
+#
+#        if TrueCleanRow != ObtainedCleanRow:
+#            print('Bug in CleanSheet() \n')
+#            print('Obtained cleansheet is \n' + ObtainedCleanRow)
+#            sys.exit()
+#        else:
+#            print('Test CleanSheet(): Pass')
+#
+#
+#class VariableFinder(Sheet):
+#
+#    def __init__(self, file, index, search_field):
+#        super().__init__(file, index)
+#        self.search_field = search_field
+#        self.nrows = len(self.search_field)
+#
+#
+#    def GetNextVariableRow(self, InitRowArg):
+#        result = self.InitializeVariableSearch(InitRowArg)
+#        while not self.CheckStopSearch(result):
+#            result = self.UpdateSearchResult(InitRowArg, result)
+#
+#        return result
+#
+#
+#    def InitializeVariableSearch(self, RowArg):
+#        self.flag_find_next_var = 0
+#        self.flag_last_var = 0
+#        return RowArg
+#
+#
+#    def CheckStopSearch(self, RowArg):
+#        return self.CheckSearchFlag() or self.CheckSheetOutRange(RowArg + 1)
+#
+#
+#    def CheckSearchFlag(self):
+#        return self.flag_last_var or self.flag_find_next_var
+#
+#
+#    def CheckSheetOutRange(self, RowArg):
+#        return RowArg >= self.nrows - 1
+#
+#
+#    def UpdateSearchResult(self, InitRowArg, CurrentRowArg):
+#        row_next_temp = int(CurrentRowArg + 1)
+#        if len(self.GetValue(row_next_temp, self.col_keta)) != 0:
+#            self.flag_find_next_var = 1
+#            return row_next_temp
+#        elif not self.CheckSheetOutRange(row_next_temp + 1):
+#            return row_next_temp
+#        else:
+#            self.flag_last_var = 1
+#            return int(InitRowArg)
+#
+#
+#    def GetValue(self, RowArg, ColArg):
+#        value_dirty = str(self.search_field[RowArg][ColArg])
+#        return self.CleanCellValue(value_dirty)
+#
+#
+#    def TestGetNextVariableRow(self):
+#        TrueRow = int(12)
+#        ObtainedRow = self.GetNextVariableRow(8)
+#
+#        if TrueRow != ObtainedRow:
+#            print('Bug in GetNextVariableRow() \n')
+#            print('Obtained row is \n' + ObtainedRow)
+#            sys.exit()
+#        else:
+#            print('Test GetNextVariableRow(): Pass')
+#
+#
+#class Status:
+#
+#    def __init__(self, current_row, next_row, num_repeat, row_repeat_s, row_repeat_e):
+#        self.current_row = current_row
+#        self.next_row = next_row
+#        self.num_repeat = num_repeat
+#        self.row_repeat_s = row_repeat_s
+#        self.row_repeat_e = row_repeat_e
+#
+#
+#if __name__ == '__main__':
+#    file = 'C:/Users/Takahiro/Desktop/（標準記法）Ｈ23社会調調査票A提供用個別データ_時間帯編EC-KOBETSUC.xlsx'
+#    index = int(0)
+#
+#    iSheet = Sheet(file, index)
+#    iSheet.TestSetHeaderInfo()
+#
+#    row_header, nrows = iSheet.row_header, iSheet.nrows
+#    iSheetCleaner = SheetCleaner(file, index, row_header, nrows)
+#    iSheetCleaner.TestCleanSheet()
+#
+#    iVariableFinder = VariableFinder(file, index, iSheetCleaner.sheet_cleaned)
+#    iVariableFinder.TestGetNextVariableRow()
+#
 
