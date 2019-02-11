@@ -2,20 +2,21 @@
 
 import sys
 from enum import IntEnum
+from itertools import zip_longest
 from HeaderKeywordsClass import HeaderKeywords
 
 
 class HeaderInfoFactory:
 
-    def __GetIndex__(self, alist, keyword):
+    def __GetIndex__(self, ListArg, keyword):
         try:
-            return alist.index(keyword)
+            return ListArg.index(keyword)
         except ValueError:
             pass
 
-    def __GetIndexKeyList__(self, alist, key_list):
+    def __GetIndexKeyList__(self, ListArg, key_list):
         for key in key_list:
-            return self.__GetIndex__(alist, key)
+            return self.__GetIndex__(ListArg, key)
 
     def GetHeaderRowIndex(self, layout_list):
         candidates = [val[0] for r, val in enumerate(layout_list)]
@@ -28,38 +29,31 @@ class HeaderInfoFactory:
             print('Header was not found')
             sys.exit()
 
-    def __GetKomokuIndex__(self, alist):
-        return self.__GetIndexKeyList__(alist, HeaderKeywords.komoku.value)
-
-    def __GetIchiIndex__(self, alist):
-        return self.__GetIndexKeyList__(alist, HeaderKeywords.ichi.value)
-
-    def __GetKetaIndex__(self, alist):
-        return self.__GetIndexKeyList__(alist, HeaderKeywords.keta.value)
-
-    def __GetRepeatIndex__(self, alist):
-        return self.__GetIndexKeyList__(alist, HeaderKeywords.repeat.value)
-
-    def __GetVarNameIndex__(self, alist):
-        return self.__GetIndexKeyList__(alist, HeaderKeywords.varname.value)
-
-    def __GetFugoIndex__(self, alist):
-        return self.__GetIndexKeyList__(alist, HeaderKeywords.fugo.value)
-
-    def __GetFugoNaiyoIndex__(self, alist):
-        return self.__GetIndexKeyList__(alist, HeaderKeywords.fugo_naiyo.value)
-
     def CreateHeaderInfo(self, layout_list):
         header = layout_list[self.GetHeaderRowIndex(layout_list)]
 
         class HeaderInfo(IntEnum):
-            komoku = self.__GetKomokuIndex__(header)
-            ichi = self.__GetIchiIndex__(header)
-            keta = self.__GetKetaIndex__(header)
-            repeat = self.__GetRepeatIndex__(header)
-            varname = self.__GetVarNameIndex__(header)
-            fugo = self.__GetFugoIndex__(header)
-            fugo_naiyo = self.__GetFugoNaiyoIndex__(header)
+            komoku = self.__GetIndexKeyList__(
+                header, HeaderKeywords.komoku.value
+            )
+            ichi = self.__GetIndexKeyList__(
+                header, HeaderKeywords.ichi.value
+            )
+            keta = self.__GetIndexKeyList__(
+                header, HeaderKeywords.keta.value
+            )
+            repeat = self.__GetIndexKeyList__(
+                header, HeaderKeywords.repeat.value
+            )
+            varname = self.__GetIndexKeyList__(
+                header, HeaderKeywords.varname.value
+            )
+            fugo = self.__GetIndexKeyList__(
+                header, HeaderKeywords.fugo.value
+            )
+            fugo_naiyo = self.__GetIndexKeyList__(
+                header, HeaderKeywords.fugo_naiyo.value
+            )
 
         return HeaderInfo
 
@@ -83,7 +77,7 @@ class HeaderInfoFactoryTester:
             fugo = 12
             fugo_naiyo = 13
 
-        for a, b in zip(iHeaderInfo, TrueHeaderInfo):
+        for a, b in zip_longest(iHeaderInfo, TrueHeaderInfo):
             if a != b:
                 print('HeaderInfoFactory: Error')
                 print(str(a) + ': ' + str(a.value) + ' != ' + str(b.value))
