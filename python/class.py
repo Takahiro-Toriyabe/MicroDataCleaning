@@ -306,6 +306,58 @@ class HeaderInfoTester:
         return True
 
 
+class LayoutList:
+    
+    def __init__(self, ExcelFile):
+        self.__iImporter = LayoutSheetImporter()
+        self.__iHeaderInfo = HeaderInfo()
+        self.__ExcelFile = ExcelFile
+        self.sheet_val = None
+        self.row_header = None
+        self.index_dict = None
+        self.__MakeLayoutList__()
+        # Initialization: Any value is OK
+    
+    def __SetLayoutList__(self):
+        self.sheet_val = self.__iImporter.ImportLayoutSheet(self.__ExcelFile)
+
+
+    def __SetHeaderInfo__(self):
+        self.__iHeaderInfo.SetHeaderInfo(self.sheet_val)
+        self.row_header = self.__iHeaderInfo.row_header
+        self.index_dict = self.__iHeaderInfo.index_dict
+        
+        
+    def __MakeLayoutList__(self):
+        self.__SetLayoutList__()
+        self.__SetHeaderInfo__()
+
+
+    def ExtractVariable(self):
+        # Extract a variable from LayoutList
+        
+        
+    def FindNextVariable(self, row):
+        # Find a next variable
+        
+        
+class Variable:
+    
+    def __init__(self, name, position, description, value_dict={}):
+        self.name = name
+        self.position = position
+        self.description = description
+        self.value_dict = value_dict
+        
+        
+file = 'C:/Users/Takahiro/Desktop/（標準記法）Ｈ23社会調調査票A提供用個別データ_時間帯編EC-KOBETSUC.xlsx'
+index = int(0)
+iExcelFile = ExcelFile(file, index)
+iLayoutList = LayoutList(iExcelFile)
+
+print(iLayoutList.sheet_val[0])
+print(iLayoutList.row_header)
+print(iLayoutList.index_dict)
 
 if __name__ == '__main__':
     iImportLayoutSheetTester = ImportLayoutSheetTester()
