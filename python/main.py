@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from ExcelFileClass import ExcelFile
-from VariableClass import VariableHolder
+from VariableClass import VariableCollector
 from DoFileWriterClass import DoFileWriter
 from FieldClass import FieldMaker, FieldCleaner
 
@@ -11,9 +11,10 @@ class Main(FieldMaker, FieldCleaner):
     def run(self, infile, index, outfile):
         field = self.CreateField(ExcelFile(infile, index))
         self.CleanField(field)
-        var_holder = VariableHolder(field)
+        collector = VariableCollector(field)
+        source = collector.GetCollection()
 
-        writer = DoFileWriter(outfile, var_holder)
+        writer = DoFileWriter(outfile, source)
         writer.WriteAllDoFile()
 
 

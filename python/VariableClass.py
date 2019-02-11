@@ -14,15 +14,15 @@ class Variable:
         self.val_label_list = val_label_list
 
 
-class VariableHolder:
+class VariableCollector:
 
     def __init__(self, Field):
-        self.__varlist = []
+        self.__collection = []
         self.field = Field
         self.__CollectVariables__()
 
     def __AddVariable__(self, Variable):
-        self.__varlist.append(Variable)
+        self.__collection.append(Variable)
 
     def __CollectVariables__(self):
         row_current = 0
@@ -33,5 +33,5 @@ class VariableHolder:
             row_current = row_next
             row_next = self.field.GetNextVarPlace(row_current)
 
-    def GetVarList(self):
-        return self.__varlist
+    def GetCollection(self):
+        return self.__collection
