@@ -12,10 +12,8 @@ class ExcelFile:
         self.__excel_file = excel_file
         self.__layout_sheet_index = layout_sheet_index
 
-
     def GetExcelFile(self):
         return self.__excel_file
-
 
     def GetLayoutSheetIndex(self):
         return self.__layout_sheet_index
@@ -28,14 +26,11 @@ class DirtyExcelSheet:
         self.__num_rows = self.__xlrd_sheet.nrows
         self.__num_cols = self.__xlrd_sheet.ncols
 
-
     def GetCellValue(self, row, col):
         return str(self.__xlrd_sheet.cell_value(row, col))
 
-
     def GetNumRows(self):
         return self.__num_rows
-
 
     def GetNumCols(self):
         return self.__num_cols
@@ -51,34 +46,28 @@ class ExcelSheetCleaner:
                 for r in range(self.num_rows)
         ]
 
-
     def __UpdateDirtyCellValue__(self, DirtyExcelSheet, row, col):
         self.cell_value = DirtyExcelSheet.GetCellValue(row, col)
 
-    def  __KillSpace__(self):
+    def __KillSpace__(self):
         for space in [' ', '　', '  ', '　　']:
             self.cell_value = self.cell_value.replace(space, '')
             # Maybe [' ', '　'] is sufficient
-
 
     def __KillMark__(self):
         for mark in ['"', "'", "△", '\n']:
             self.cell_value = self.cell_value.replace(mark, '')
 
-
     def __ReplaceKomeMark__(self):
         self.cell_value = self.cell_value.replace('※', '*')
-
 
     def __CleanCellValue__(self):
         self.__KillSpace__()
         self.__KillMark__()
         self.__ReplaceKomeMark__()
 
-
     def __UpdateCleanListCell__(self, row, col):
         self.clean_list[row][col] = self.cell_value
-
 
     def __UpdateCleanListRow__(self, DirtyExcelSheet, row):
         for col in range(self.num_cols):
@@ -86,22 +75,18 @@ class ExcelSheetCleaner:
             self.__CleanCellValue__()
             self.__UpdateCleanListCell__(row, col)
 
-
     def __UpdateEntireCleanList__(self, DirtyExcelSheet):
         for row in range(self.num_rows):
             self.__UpdateCleanListRow__(DirtyExcelSheet, row)
 
-
     def __IsEmptyRow__(self, row):
         return self.clean_list[row] == ['' for col in range(self.num_cols)]
-
 
     def __KillEmptyRow__(self):
         self.clean_list = [
                 self.clean_list[row] for row in range(self.num_rows)
                 if not self.__IsEmptyRow__(row)
         ]
-
 
     def MakeCleanList(self, DirtyExcelSheet):
         self.__SetExcelSheetCleaner__(DirtyExcelSheet)
@@ -119,11 +104,9 @@ class LayoutSheetImporter:
         excel_file_opened = self.__OpenExcelFile__(ExcelFile)
         return excel_file_opened.sheet_by_index(layout_sheet_index)
 
-
     def __OpenExcelFile__(self, ExcelFile):
         input_excel_file = ExcelFile.GetExcelFile()
         return xlrd.open_workbook(input_excel_file)
-
 
     def ImportLayoutSheet(self, ExcelFile, ExcelSheetCleaner=__iCleaner):
         xlrd_sheet_tmp = self.__ImportDirtyLayoutSheet__(ExcelFile)
@@ -145,7 +128,10 @@ class ImportLayoutSheetTester:
 
         if num_rows != self.true_num_rows:
             print('LayoutSheetImporter: Error')
-            print('# of rows: ' + str(num_rows) + ' != ' + str(self.true_num_rows))
+            print(
+                '# of rows: ' + str(num_rows) + ' != '
+                + str(self.true_num_rows)
+            )
         elif layout_list[5] != self.true_row_value:
             print('LayoutSheetImporter: Error')
             print('Obtained row value is')
@@ -157,9 +143,8 @@ class ImportLayoutSheetTester:
 
         return layout_list
 
-
     def __SetTestImportLayoutSheet__(self):
-        file = 'C:/Users/Takahiro/Desktop/（標準記法）Ｈ23社会調調査票A提供用個別データ_時間帯編EC-KOBETSUC.xlsx'
+        file = 'C:/Users/Takahiro/Desktop/layout_test.xlsx'
         index = int(0)
         iExcelFile = ExcelFile(file, index)
         iLayoutSheetImporter = LayoutSheetImporter()
@@ -190,54 +175,47 @@ class HeaderInfoFactory:
         except ValueError:
             pass
 
-
     def __GetIndexKeyList__(self, ListArg, key_list):
         for key in key_list:
             return self.__GetIndex__(ListArg, key)
-
 
     def GetHeaderRowIndex(self, layout_list):
         candidates = [val[0] for r, val in enumerate(layout_list)]
         key_list = HeaderKeywords.header.value
         row_header = self.__GetIndexKeyList__(candidates, key_list)
 
-        if row_header != None:
+        if row_header is not None:
             return row_header
         else:
             print('Header was not found')
             sys.exit()
 
-
     def __GetKomokuIndex__(self, ListArg):
         return self.__GetIndexKeyList__(ListArg, HeaderKeywords.komoku.value)
-
 
     def __GetIchiIndex__(self, ListArg):
         return self.__GetIndexKeyList__(ListArg, HeaderKeywords.ichi.value)
 
-
     def __GetKetaIndex__(self, ListArg):
         return self.__GetIndexKeyList__(ListArg, HeaderKeywords.keta.value)
-
 
     def __GetRepeatIndex__(self, ListArg):
         return self.__GetIndexKeyList__(ListArg, HeaderKeywords.repeat.value)
 
-
     def __GetVarNameIndex__(self, ListArg):
         return self.__GetIndexKeyList__(ListArg, HeaderKeywords.varname.value)
-
 
     def __GetFugoIndex__(self, ListArg):
         return self.__GetIndexKeyList__(ListArg, HeaderKeywords.fugo.value)
 
-
     def __GetFugoNaiyoIndex__(self, ListArg):
-        return self.__GetIndexKeyList__(ListArg, HeaderKeywords.fugo_naiyo.value)
-
+        return self.__GetIndexKeyList__(
+            ListArg, HeaderKeywords.fugo_naiyo.value
+        )
 
     def CreateHeaderInfo(self, layout_list):
         header = layout_list[self.GetHeaderRowIndex(layout_list)]
+
         class HeaderInfo(IntEnum):
             komoku = self.__GetKomokuIndex__(header)
             ichi = self.__GetIchiIndex__(header)
@@ -256,23 +234,23 @@ class HeaderInfoFactoryTester:
         if self.__SetTestHeaderInfoFactory__(layout_list):
             print('HeaderInfoFactory: Pass')
 
-
     def __SetTestHeaderInfoFactory__(self, layout_list):
         iHeaderInfoFactory = HeaderInfoFactory()
         iHeaderInfo = iHeaderInfoFactory.CreateHeaderInfo(layout_list)
+
         class TrueHeaderInfo(IntEnum):
             komoku = 1
             ichi = 3
             keta = 4
             repeat = 5
             varname = 10
-            fugo =12
+            fugo = 12
             fugo_naiyo = 13
 
         for a, b in zip(iHeaderInfo, TrueHeaderInfo):
             if a != b:
                 print('HeaderInfoFactory: Error')
-                print (str(a) + ': ' + str(a.value) + ' != ' + str(b.value))
+                print(str(a) + ': ' + str(a.value) + ' != ' + str(b.value))
                 return False
 
         return True
@@ -285,7 +263,6 @@ class Field:
         self.row_header = row_header
         self.info = HeaderInfo
 
-
     def GetVariable(self, row_current):
         if self.IsVariableRow(row_current):
             name = str(self.value[row_current][self.info.varname])
@@ -295,28 +272,31 @@ class Field:
             val_list = self.value[row_current][self.info.fugo]
             val_label_list = self.value[row_current][self.info.fugo_naiyo]
 
-            return Variable(name, int(pos_s), int(pos_e), description, val_list, val_label_list)
-
+            return Variable(
+                name, int(pos_s), int(pos_e), description, val_list,
+                val_label_list
+            )
 
     def GetNextVarPlace(self, row_current):
         for r, val in enumerate(self.value):
             flag_find_var = r > row_current and self.IsVariableRow(r)
-            if flag_find_var: return int(r)
+            if flag_find_var:
+                return int(r)
 
         return row_current
 
-
     def IsVariableRow(self, row_current):
-        return len(self.value[row_current][self.info.keta]) != 0
-
+        if len(self.value[row_current][self.info.keta]) == 0:
+            return False
+        if self.value[row_current][self.info.keta] == 0:
+            return False
+        return True
 
     def IsEmptyVarName(self, row_current):
         return len(self.value[row_current][self.info.varname]) == 0
 
-
     def IsFugoDigit(self, row_current):
         return str(self.value[row_current][self.info.fugo]).isdigit()
-
 
     def ContinueValueLabel(self, row_current):
         if int(row_current + 1) >= len(self.value):
@@ -327,7 +307,6 @@ class Field:
             return False
 
         return True
-
 
 
 class FieldMaker(LayoutSheetImporter, HeaderInfoFactory):
@@ -345,12 +324,10 @@ class FieldCleaner():
         del Field.value[:Field.row_header]
         Field.row_header = 0
 
-
     def __KillFiller__(self, Field):
         for row, val in enumerate(Field.value):
             if val[Field.info.komoku] in ['FILLER', 'Filler']:
                 del Field.value[row]
-
 
     def __FillEmptyVarName__(self, Field):
         var_counter = 0
@@ -359,13 +336,11 @@ class FieldCleaner():
                 var_counter = int(var_counter + 1)
                 Field.value[row][Field.info.varname] = 'var' + str(var_counter)
 
-
     def __UpdateValueLists__(self, Field, row_current, val_list, label_list):
         val_list.append(str(Field.value[row_current][Field.info.fugo]))
         label_list.append(str(Field.value[row_current][Field.info.fugo_naiyo]))
 
         return val_list, label_list
-
 
     def __MakeValueList__(self, Field, row_current):
         val_list = [str(Field.value[row_current][Field.info.fugo])]
@@ -374,10 +349,11 @@ class FieldCleaner():
         while Field.ContinueValueLabel(row_current):
             row_current = int(row_current + 1)
             if Field.IsFugoDigit(row_current):
-                val_list, label_list = self.__UpdateValueLists__(Field, row_current, val_list, label_list)
+                val_list, label_list = self.__UpdateValueLists__(
+                    Field, row_current, val_list, label_list
+                )
 
         return val_list, label_list
-
 
     def __ReplaceValueLabel__(self, Field):
         for row, val in enumerate(Field.value):
@@ -389,7 +365,6 @@ class FieldCleaner():
                 Field.value[row][Field.info.fugo] = []
                 Field.value[row][Field.info.fugo_naiyo] = []
 
-
     def CleanField(self, Field):
         self.__KillRowsAboveHeader__(Field)
         self.__KillFiller__(Field)
@@ -399,7 +374,9 @@ class FieldCleaner():
 
 class Variable:
 
-    def __init__(self, name, pos_s, pos_e, description, val_list, val_label_list):
+    def __init__(
+        self, name, pos_s, pos_e, description, val_list, val_label_list
+    ):
         self.name = name
         self.pos_s = pos_s
         self.pos_e = pos_e
@@ -418,7 +395,6 @@ class VariableHolder:
     def __AddVariable__(self, Variable):
         self.__varlist.append(Variable)
 
-
     def __CollectVariables__(self):
         row_current = 0
         row_next = self.field.GetNextVarPlace(row_current)
@@ -427,7 +403,6 @@ class VariableHolder:
             self.__AddVariable__(var)
             row_current = row_next
             row_next = self.field.GetNextVarPlace(row_current)
-
 
     def GetVarList(self):
         return self.__varlist
@@ -441,24 +416,19 @@ class DoFileWriterBase:
         self.source = VariableHolder
         self.indent = '    '
 
-
     def __CleanFileName__(self, filename):
         for trash in ['.do', '_const', '_val', '_var']:
             filename = str(filename).replace(trash, '')
         return filename
 
-
     def __OpenFile__(self, tag):
         self.file = codecs.open(self.filename + str(tag) + '.do', 'w', 'utf-8')
-
 
     def __WriteHeader__(self):
         pass
 
-
     def __WriteFooter__(self):
         self.file.close()
-
 
     def WriteDoFile(self, tag):
         self.__OpenFile__(tag)
@@ -473,15 +443,17 @@ class ConstFileWriter(DoFileWriterBase):
                 self.file.write('#delimit ;' + '\n')
                 self.file.write(self.indent + 'quietly infix' + '\n')
 
-
         def __WriteMainPart__(self):
             for var in self.source.GetVarList():
                 pos = str(var.pos_s) + '-' + str(var.pos_e)
-                self.file.write(self.indent*2 + str(var.name) + ' ' + str(pos) + '\n')
-
+                self.file.write(
+                    self.indent*2 + str(var.name) + ' ' + str(pos) + '\n'
+                )
 
         def __WriteFooter__(self):
-            self.file.write(self.indent + 'using "' + self.dataname + '";' + '\n')
+            self.file.write(
+                self.indent + 'using "' + self.dataname + '";' + '\n'
+            )
             self.file.write('#delimit cr' + '\n')
             self.file.close()
 
@@ -492,9 +464,9 @@ class VarFileWriter(DoFileWriterBase):
             for var in self.source.GetVarList():
                 self.file.write(self.__GetVarLabelLine__(var))
 
-
         def __GetVarLabelLine__(self, var):
-            return 'capture label variable ' + var.name + ' "' + var.description + '"\n'
+            return 'capture label variable ' + var.name + ' "' \
+                + var.description + '"\n'
 
 
 class ValFileWriter(DoFileWriterBase):
@@ -504,11 +476,15 @@ class ValFileWriter(DoFileWriterBase):
             if len(var.val_list) != 0:
                 self.file.write('capture label define ' + var.name + ' ')
                 for val, label in zip(var.val_list, var.val_label_list):
-                    self.file.write(str(int(float(val))) + ' "' + str(label) + '" ')
+                    self.file.write(
+                        str(int(float(val))) + ' "' + str(label) + '" '
+                    )
 
                 self.file.write('\n')
-                self.file.write('capture label values ' + var.name + ' ' + var.name + '\n'*2)
-
+                self.file.write(
+                    'capture label values '
+                    + var.name + ' ' + var.name + '\n'*2
+                )
 
 
 class DoFileWriter(DoFileWriterBase):
@@ -524,11 +500,9 @@ class DoFileWriter(DoFileWriterBase):
         print('Error: tag should be _const or _var or _val')
         sys.exit()
 
-
     def WriteDoFile(self, tag):
         writer = self.__ChooseWriter__(tag)
         writer.WriteDoFile(tag)
-
 
     def WriteAllDoFile(self):
         for tag in ['_const', '_var', '_val']:
@@ -558,4 +532,3 @@ if __name__ == '__main__':
     outfile = 'C:/Users/Takahiro/Desktop/test'
     main = Main()
     main.run(infile, index, outfile)
-
