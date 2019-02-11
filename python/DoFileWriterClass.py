@@ -6,10 +6,10 @@ import sys
 
 class DoFileWriterBase:
 
-    def __init__(self, filename, VariableHolder, dataname='DATA'):
+    def __init__(self, filename, source, dataname='DATA'):
         self.filename = self.__CleanFileName__(filename)
         self.dataname = dataname
-        self.source = VariableHolder
+        self.source = source
         self.indent = '    '
 
     def __CleanFileName__(self, filename):
@@ -40,7 +40,7 @@ class ConstFileWriter(DoFileWriterBase):
                 self.file.write(self.indent + 'quietly infix' + '\n')
 
         def __WriteMainPart__(self):
-            for var in self.source.GetVarList():
+            for var in self.source:
                 pos = str(var.pos_s) + '-' + str(var.pos_e)
                 self.file.write(
                     self.indent*2 + str(var.name) + ' ' + str(pos) + '\n'
@@ -57,7 +57,7 @@ class ConstFileWriter(DoFileWriterBase):
 class VarFileWriter(DoFileWriterBase):
 
         def __WriteMainPart__(self):
-            for var in self.source.GetVarList():
+            for var in self.source:
                 self.file.write(self.__GetVarLabelLine__(var))
 
         def __GetVarLabelLine__(self, var):
@@ -68,7 +68,7 @@ class VarFileWriter(DoFileWriterBase):
 class ValFileWriter(DoFileWriterBase):
 
     def __WriteMainPart__(self):
-        for var in self.source.GetVarList():
+        for var in self.source:
             if len(var.val_list) != 0:
                 self.file.write('capture label define ' + var.name + ' ')
                 for val, label in zip(var.val_list, var.val_label_list):
