@@ -64,7 +64,7 @@ if __name__ == '__main__':
     from LayoutSheetImporterClass import LayoutSheetImporter
     from FieldClass import FieldMaker, FieldCleaner
 
-    infile = 'C:/Users/Takahiro/Desktop/layout_test.xlsx'
+    infile = 'C:/Users/Takahiro/Desktop/layout_test.xlsx'    
     index = int(0)
     importer = LayoutSheetImporter()
 

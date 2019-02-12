@@ -47,7 +47,7 @@ class ImportLayoutSheetTester:
 
     def __SetTestImportLayoutSheet__(self):
         file = 'C:/Users/Takahiro/Desktop/layout_test.xlsx'
-        index = int(0)
+        index = int(1)
         iExcelFile = ExcelFile(file, index)
         iLayoutSheetImporter = LayoutSheetImporter()
         return iLayoutSheetImporter.ImportLayoutSheet(iExcelFile)
