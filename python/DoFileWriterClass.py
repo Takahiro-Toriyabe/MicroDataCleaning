@@ -35,34 +35,34 @@ class DoFileWriterBase:
 
 class ConstFileWriter(DoFileWriterBase):
 
-        def __WriteHeader__(self):
-                self.file.write('#delimit ;' + '\n')
-                self.file.write(self.indent + 'quietly infix' + '\n')
+    def __WriteHeader__(self):
+        self.file.write('#delimit ;' + '\n')
+        self.file.write(self.indent + 'quietly infix' + '\n')
 
-        def __WriteMainPart__(self):
-            for var in self.source:
-                pos = str(var.pos_s) + '-' + str(var.pos_e)
-                self.file.write(
-                    self.indent*2 + str(var.name) + ' ' + str(pos) + '\n'
-                )
-
-        def __WriteFooter__(self):
+    def __WriteMainPart__(self):
+        for var in self.source:
+            pos = str(var.pos_s) + '-' + str(var.pos_e)
             self.file.write(
-                self.indent + 'using "' + self.dataname + '";' + '\n'
+                self.indent*2 + str(var.name) + ' ' + str(pos) + '\n'
             )
-            self.file.write('#delimit cr' + '\n')
-            self.file.close()
+
+    def __WriteFooter__(self):
+        self.file.write(
+            self.indent + 'using "' + self.dataname + '";' + '\n'
+        )
+        self.file.write('#delimit cr' + '\n')
+        self.file.close()
 
 
 class VarFileWriter(DoFileWriterBase):
 
-        def __WriteMainPart__(self):
-            for var in self.source:
-                self.file.write(self.__GetVarLabelLine__(var))
+    def __WriteMainPart__(self):
+        for var in self.source:
+            self.file.write(self.__GetVarLabelLine__(var))
 
-        def __GetVarLabelLine__(self, var):
-            return 'capture label variable ' + var.name + ' "' \
-                + var.description + '"\n'
+    def __GetVarLabelLine__(self, var):
+        return 'capture label variable ' + var.name + ' "' \
+            + var.description + '"\n'
 
 
 class ValFileWriter(DoFileWriterBase):
