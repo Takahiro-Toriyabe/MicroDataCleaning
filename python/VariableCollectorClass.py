@@ -33,6 +33,15 @@ class VariableCollector:
             row_current = row_next
             row_next = self.field.GetNextVarPlace(row_current)
 
+    def CleanCollection(self):
+        for row, var in enumerate(self.__collection):
+            for i, val in enumerate(self.__collection[row].val_list):
+                if str(val).isdigit():
+                    self.__collection[row].val_list[i] = float(int(val))
+                else:
+                    del self.__collection[row].val_list[i:]
+                    del self.__collection[row].val_label_list[i:]
+
     def GetCollection(self):
         return self.__collection
         

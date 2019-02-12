@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from VariableClass import Variable
+from VariableCollectorClass import Variable
 from LayoutSheetImporterClass import LayoutSheetImporter
 from HeaderInfoFactoryClass import HeaderInfoFactory
 from RepeatInfoClass import RepeatInfoFactory
@@ -103,16 +103,15 @@ class FieldCleaner():
 
         while Field.ContinueValueLabel(row_current):
             row_current = int(row_current + 1)
-            if Field.IsFugoDigit(row_current):
-                val_list, label_list = self.__UpdateValueLists__(
-                    Field, row_current, val_list, label_list
-                )
+            val_list, label_list = self.__UpdateValueLists__(
+                Field, row_current, val_list, label_list
+            )
 
         return val_list, label_list
     
     def __ReplaceValueLabel__(self, Field):
         for row, val in enumerate(Field.value):
-            if Field.IsVariableRow(row) and Field.IsFugoDigit(row):
+            if Field.IsVariableRow(row):
                 tmp = self.__MakeValueList__(Field, row)
                 Field.value[row][Field.info.fugo] = tmp[0]
                 Field.value[row][Field.info.fugo_naiyo] = tmp[1]
