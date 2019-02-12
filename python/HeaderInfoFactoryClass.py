@@ -16,7 +16,8 @@ class HeaderInfoFactory:
 
     def __GetIndexKeyList__(self, ListArg, key_list):
         for key in key_list:
-            return self.__GetIndex__(ListArg, key)
+            if self.__GetIndex__(ListArg, key) is not None:
+                return self.__GetIndex__(ListArg, key)
 
     def GetHeaderRowIndex(self, layout_list):
         candidates = [val[0] for r, val in enumerate(layout_list)]
@@ -54,7 +55,6 @@ class HeaderInfoFactory:
             fugo_naiyo = self.__GetIndexKeyList__(
                 header, HeaderKeywords.fugo_naiyo.value
             )
-
         return HeaderInfo
 
 
@@ -94,6 +94,6 @@ if __name__ == '__main__':
     index = int(0)
     importer = LayoutSheetImporter()
     layout_list = importer.ImportLayoutSheet(ExcelFile(file, index))
-
+    
     iTestHeaderInfo = HeaderInfoFactoryTester()
     iTestHeaderInfo.Test(layout_list)
