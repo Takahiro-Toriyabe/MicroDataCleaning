@@ -35,3 +35,23 @@ class VariableCollector:
 
     def GetCollection(self):
         return self.__collection
+        
+
+if __name__ == '__main__':
+    from ExcelFileClass import ExcelFile
+    from LayoutSheetImporterClass import LayoutSheetImporter
+    from FieldClass import FieldMaker, FieldCleaner
+    from RepeatInfoClass import RepeatInfoFactory
+
+    infile = 'C:/Users/Takahiro/Desktop/layout_test.xlsx'
+    index = int(0)
+    importer = LayoutSheetImporter()
+
+    field = FieldMaker().CreateField(ExcelFile(infile, index))
+    FieldCleaner().CleanField(field)
+    
+    for row, val in enumerate(field.value):
+        print(val)
+    collector = VariableCollector(field)
+    factory = RepeatInfoFactory(field)
+    

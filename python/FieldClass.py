@@ -3,7 +3,8 @@
 from VariableClass import Variable
 from LayoutSheetImporterClass import LayoutSheetImporter
 from HeaderInfoFactoryClass import HeaderInfoFactory
-
+from RepeatInfoClass import RepeatInfoFactory
+import copy
 
 class Field:
 
@@ -35,7 +36,7 @@ class Field:
         return row_current
 
     def IsVariableRow(self, row_current):
-        if len(self.value[row_current][self.info.keta]) == 0:
+        if len(str(self.value[row_current][self.info.keta])) == 0:
             return False
         if self.value[row_current][self.info.keta] == 0:
             return False
@@ -43,6 +44,13 @@ class Field:
 
     def IsEmptyVarName(self, row_current):
         return len(self.value[row_current][self.info.varname]) == 0
+
+    def IsRepeat(self, row_current):
+        if self.info.repeat is None:
+            return False
+
+        num_repeat = str(self.value[row_current][self.info.repeat])
+        return len(num_repeat) != 0 and int(float(num_repeat)) > 1
 
     def IsFugoDigit(self, row_current):
         return str(self.value[row_current][self.info.fugo]).isdigit()
@@ -101,7 +109,7 @@ class FieldCleaner():
                 )
 
         return val_list, label_list
-
+    
     def __ReplaceValueLabel__(self, Field):
         for row, val in enumerate(Field.value):
             if Field.IsVariableRow(row) and Field.IsFugoDigit(row):
@@ -111,9 +119,57 @@ class FieldCleaner():
             else:
                 Field.value[row][Field.info.fugo] = []
                 Field.value[row][Field.info.fugo_naiyo] = []
+                
+    def __CompressField__(self, Field):
+        list_tmp = []
+        for row, val in enumerate(Field.value):
+            if row == 0 or Field.IsVariableRow(row) or Field.IsRepeat(row):
+                list_tmp.append(val)
+        Field.value = list_tmp
+
+    def __UpdateVarName__(self, Variable, i):
+        Variable.name = str(Variable.name) + '_' + str(i)
+    
+    def __CalculateVarPlace__(self, Field, val, RepeatInfo, i):
+        ichi = val[Field.info.ichi]
+        start = int(float(ichi) + (i-1) * RepeatInfo.keta_tot)
+        return start
+    
+    def __GetNewRowToExpand__(self, Field, RepeatInfo, r, i):
+        new_list = copy.copy(Field.value[r])
+        if len(str(new_list[Field.info.keta])) != 0 \
+                and int(float(new_list[Field.info.keta])) != 0:
+            new_list[Field.info.ichi] \
+                = self.__CalculateVarPlace__(Field, new_list, RepeatInfo, i)
+            new_list[Field.info.varname] \
+                = new_list[Field.info.varname] + '_' + str(i)
+            
+        return new_list
+        
+    def __ExpandField__(self, Field):
+        row = 1
+        factory = RepeatInfoFactory(Field)
+        expanded_field = [Field.value[0]]
+        while row < len(Field.value):
+            if Field.IsRepeat(row):
+                info = factory.CreateRepeatInfo(row)
+                for i in range(1, info.num_repeat + 1):
+                    for r in range(info.row_first, info.row_last + 1):
+                        new_list = self.__GetNewRowToExpand__(Field, info, r, i)
+                        expanded_field.append(new_list)
+
+                row = info.row_last + 1
+            else:
+                expanded_field.append(Field.value[row])
+                row = row + 1
+        
+        Field.value = expanded_field
 
     def CleanField(self, Field):
         self.__KillRowsAboveHeader__(Field)
         self.__KillFiller__(Field)
         self.__FillEmptyVarName__(Field)
         self.__ReplaceValueLabel__(Field)
+        self.__CompressField__(Field)
+        self.__ExpandField__(Field)
+
