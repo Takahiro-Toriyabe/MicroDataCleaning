@@ -36,8 +36,8 @@ class VariableCollector:
     def CleanCollection(self):
         for row, var in enumerate(self.__collection):
             for i, val in enumerate(self.__collection[row].val_list):
-                if str(val).isdigit():
-                    self.__collection[row].val_list[i] = float(int(val))
+                if str(val).isdigit() and float(val).is_integer():
+                    self.__collection[row].val_list[i] = int(float(val))
                 else:
                     del self.__collection[row].val_list[i:]
                     del self.__collection[row].val_label_list[i:]
