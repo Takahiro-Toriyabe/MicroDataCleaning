@@ -5,16 +5,24 @@ import codecs
 
 class RenameFileWriter:
     
+    # Measure Levenshtein distance between two variables
     def __StrDist__(self, str1, str2):
         d = Levenshtein.distance(str1, str2)
         d_max = max(len(str1), len(str2))
         return d / d_max
     
+    def __AppendVarDescName__(self, var):
+        if str(var.name)[:3] == 'var':
+            return str(var.description)
+        
+        return str(var.description) + str(var.name)
+        
     def __StrDistVar__(self, var1, var2):
-        str1 = str(var1.description) + str(var1.name)
-        str2 = str(var2.description) + str(var2.name)
+        str1 = self.__AppendVarDescName__(var1)
+        str2 = self.__AppendVarDescName__(var2)
         return self.__StrDist__(str1, str2)
     
+    # Find a variable that seems to be the same as the variable considered
     def __FindBestMatch__(self, basevar, MatchCollection, tol):
         d_min, bestvar = 1, 'None'
         for var in MatchCollection:
@@ -36,7 +44,7 @@ class RenameFileWriter:
         seen = []
         return [x for x in ListArg if x not in seen and not seen.append(x)]
     
-    #UniqueMatch does not work
+    #UniqueMatch does not work (Currently not used)
     def UniqueMatch(self, ListArg):
         new_list = []
         for i, val1 in enumerate(ListArg):
