@@ -3,6 +3,7 @@
 import sys
 import copy
 from enum import IntEnum
+import unicodedata
 from VariableCollectorClass import Variable
 from LayoutSheetImporterClass import LayoutSheetImporter
 from HeaderInfoFactoryClass import HeaderInfoFactory
@@ -37,7 +38,7 @@ class Field:
                 return int(r)
 
         return row
-    
+
     def GetValue(self, row, key):
         list_tmp = self.value[row]
         if key == 'komoku':
@@ -54,7 +55,7 @@ class Field:
             return list_tmp[self.info.fugo]
         if key == 'fugo_naiyo':
             return list_tmp[self.info.fugo_naiyo]
-        
+
         print('Invalid keyword input (key)')
         sys.exit()
 
@@ -87,7 +88,7 @@ class Field:
             return False
             # Next row is the out of sheet range, or
             #          is the next variable, or
-            #          does not have value label 
+            #          does not have value label
 
         return True
 
@@ -112,13 +113,18 @@ class FieldCleaner():
         for row, val in enumerate(Field.value):
             if val[Field.info.komoku] in ['FILLER', 'Filler']:
                 del Field.value[row]
-    
+
+    # Normalize cell values
+    def __NormalizeCellValues__(self, Field):
+        for r, vals in enumerate(Field.value):
+            Field.value[r] = [unicodedata.normalize('NFKC', v) for v in vals]
+
     # Add and fill a variable-name column to Field if not exists
     def __AddVarNameToHeaderInfo__(self, Field):
         new_mems = [(mem.name, mem.value) for mem in Field.info]
         new_mems = new_mems + [('varname', len(Field.value[0]))]
         Field.info = IntEnum('HeaderInfo', new_mems)
-                
+
     def __AddVarNameCol__(self, Field):
         if not 'varname' in Field.info.__members__:
             self.__AddVarNameToHeaderInfo__(Field)
@@ -133,7 +139,7 @@ class FieldCleaner():
                 var_counter = int(var_counter + 1)
                 Field.value[row][Field.info.varname] = 'var' + str(var_counter)
                 # Do not replace this line with GetValue() as this line update
-                # the cell value while GetValue() is just an accessor to the 
+                # the cell value while GetValue() is just an accessor to the
                 # cell value.
 
     # Make value lists and flatten Field so that each row in Field corresponds
@@ -155,7 +161,7 @@ class FieldCleaner():
             )
 
         return val_list, label_list
-    
+
     def __ReplaceValueLabel__(self, Field):
         for row, val in enumerate(Field.value):
             if Field.IsVariableRow(row):
@@ -165,7 +171,7 @@ class FieldCleaner():
             else:
                 Field.value[row][Field.info.fugo] = []
                 Field.value[row][Field.info.fugo_naiyo] = []
-                
+
     def __CompressField__(self, Field):
         list_tmp = []
         for row, val in enumerate(Field.value):
@@ -176,12 +182,12 @@ class FieldCleaner():
     # Expand Field to take repetition into account
     def __UpdateVarName__(self, Variable, i):
         Variable.name = str(Variable.name) + '_' + str(i)
-    
+
     def __CalculateVarPlace__(self, Field, val, RepeatInfo, i):
         ichi = val[Field.info.ichi]
         start = int(float(ichi) + (i-1) * RepeatInfo.keta_tot)
         return start
-    
+
     def __GetRowToExpand__(self, Field, RepeatInfo, r, i):
         new_list = copy.copy(Field.value[r])
         if len(str(new_list[Field.info.keta])) != 0 \
@@ -190,9 +196,9 @@ class FieldCleaner():
                 = self.__CalculateVarPlace__(Field, new_list, RepeatInfo, i)
             new_list[Field.info.varname] \
                 = new_list[Field.info.varname] + '_' + str(i)
-            
+
         return new_list
-        
+
     def __ExpandField__(self, Field):
         row = 1
         factory = RepeatInfoFactory(Field)
@@ -209,13 +215,14 @@ class FieldCleaner():
             else:
                 expanded_field.append(Field.value[row])
                 row = row + 1
-        
+
         Field.value = expanded_field
 
     # Clean Field
     def CleanField(self, Field):
         self.__KillRowsAboveHeader__(Field)
         self.__KillFiller__(Field)
+        self.__NormalizeCellValues__(Field)
         self.__FillEmptyVarName__(Field)
         self.__ReplaceValueLabel__(Field)
         self.__CompressField__(Field)

@@ -144,7 +144,7 @@ class RenameFileWriter(DoFileWriterBase, StrDistMeasure):
         for i in range(min_length):
             self.file.write(
                 ' ' + str(Variable.val_list[i])
-                + ': ' + str(Variable.val_label_list[i])
+                + ': ' + str(Variable.val_label_list[i]) + ','
             )
     
     def __WriteRenamePart__(self, Variable1, Variable2):
