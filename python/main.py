@@ -60,6 +60,11 @@ if __name__ == '__main__':
     main1.run(infile2, index, outfile2)
     main2.run(infile2, index, infile1, index, outfile3)
 
+    infile_test = 'C:/Users/Takahiro/Desktop/layout_test.xlsx'
+    index_test = 0
+    outfile_test = 'C:/Users/Takahiro/Desktop/test'
+    main1.run(infile_test, index_test, outfile_test)
+
   
 #    FieldCleaner().CleanField(field1)
 #    FieldCleaner().CleanField(field2)
