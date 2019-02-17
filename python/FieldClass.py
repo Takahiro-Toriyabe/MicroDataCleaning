@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 
+import copy
+from enum import IntEnum
 from VariableCollectorClass import Variable
 from LayoutSheetImporterClass import LayoutSheetImporter
 from HeaderInfoFactoryClass import HeaderInfoFactory
 from RepeatInfoClass import RepeatInfoFactory
-import copy
+
 
 class Field:
 
@@ -35,6 +37,7 @@ class Field:
 
         return row_current
 
+    # Check the status of the current row
     def IsVariableRow(self, row_current):
         if len(str(self.value[row_current][self.info.keta])) == 0:
             return False
@@ -43,10 +46,13 @@ class Field:
         return True
 
     def IsEmptyVarName(self, row_current):
+        if self.info.varname < 0:
+            return True
+        
         return len(self.value[row_current][self.info.varname]) == 0
 
     def IsRepeat(self, row_current):
-        if self.info.repeat is None:
+        if not 'repeat' in self.info.__members__:
             return False
 
         num_repeat = str(self.value[row_current][self.info.repeat])
@@ -55,11 +61,15 @@ class Field:
     def IsFugoDigit(self, row_current):
         return str(self.value[row_current][self.info.fugo]).isdigit()
 
+    # Check if the next row still has a value label of the current variable
     def ContinueValueLabel(self, row_current):
         if int(row_current + 1) >= len(self.value) \
                 or self.IsVariableRow(row_current + 1) \
                 or len(str(self.value[row_current + 1][self.info.fugo])) == 0:
             return False
+            # Next row is the out of sheet range, or
+            #          is the next variable, or
+            #          does not have value label 
 
         return True
 
@@ -75,6 +85,7 @@ class FieldMaker(LayoutSheetImporter, HeaderInfoFactory):
 
 class FieldCleaner():
 
+    # Delete unnecessary rows
     def __KillRowsAboveHeader__(self, Field):
         del Field.value[:Field.row_header]
         Field.row_header = 0
@@ -83,14 +94,29 @@ class FieldCleaner():
         for row, val in enumerate(Field.value):
             if val[Field.info.komoku] in ['FILLER', 'Filler']:
                 del Field.value[row]
+    
+    # Add and fill a variable-name column to Field if not exists
+    def __AddVarNameToHeaderInfo__(self, Field):
+        new_mems = [(mem.name, mem.value) for mem in Field.info]
+        new_mems = new_mems + [('varname', len(Field.value[0]))]
+        Field.info = IntEnum('HeaderInfo', new_mems)
+                
+    def __AddVarNameCol__(self, Field):
+        if not 'varname' in Field.info.__members__:
+            self.__AddVarNameToHeaderInfo__(Field)
+            for row, val in enumerate(Field.value):
+                Field.value[row].append('')
 
     def __FillEmptyVarName__(self, Field):
+        self.__AddVarNameCol__(Field)
         var_counter = 0
         for row, val in enumerate(Field.value):
             if Field.IsVariableRow(row) and Field.IsEmptyVarName(row):
                 var_counter = int(var_counter + 1)
                 Field.value[row][Field.info.varname] = 'var' + str(var_counter)
 
+    # Make value lists and flatten Field so that each row in Field corresponds
+    # to one variable
     def __UpdateValueLists__(self, Field, row_current, val_list, label_list):
         val_list.append(str(Field.value[row_current][Field.info.fugo]))
         label_list.append(str(Field.value[row_current][Field.info.fugo_naiyo]))
@@ -126,6 +152,7 @@ class FieldCleaner():
                 list_tmp.append(val)
         Field.value = list_tmp
 
+    # Expand Field to take repetition into account
     def __UpdateVarName__(self, Variable, i):
         Variable.name = str(Variable.name) + '_' + str(i)
     
@@ -134,7 +161,7 @@ class FieldCleaner():
         start = int(float(ichi) + (i-1) * RepeatInfo.keta_tot)
         return start
     
-    def __GetNewRowToExpand__(self, Field, RepeatInfo, r, i):
+    def __GetRowToExpand__(self, Field, RepeatInfo, r, i):
         new_list = copy.copy(Field.value[r])
         if len(str(new_list[Field.info.keta])) != 0 \
                 and int(float(new_list[Field.info.keta])) != 0:
@@ -154,7 +181,7 @@ class FieldCleaner():
                 info = factory.CreateRepeatInfo(row)
                 for i in range(1, info.num_repeat + 1):
                     for r in range(info.row_first, info.row_last + 1):
-                        new_list = self.__GetNewRowToExpand__(Field, info, r, i)
+                        new_list = self.__GetRowToExpand__(Field, info, r, i)
                         expanded_field.append(new_list)
 
                 row = info.row_last + 1
@@ -164,6 +191,7 @@ class FieldCleaner():
         
         Field.value = expanded_field
 
+    # Clean Field
     def CleanField(self, Field):
         self.__KillRowsAboveHeader__(Field)
         self.__KillFiller__(Field)
@@ -171,4 +199,3 @@ class FieldCleaner():
         self.__ReplaceValueLabel__(Field)
         self.__CompressField__(Field)
         self.__ExpandField__(Field)
-
