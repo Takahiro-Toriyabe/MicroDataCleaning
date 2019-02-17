@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import sys
 import copy
 from enum import IntEnum
 from VariableCollectorClass import Variable
@@ -15,57 +16,74 @@ class Field:
         self.row_header = row_header
         self.info = HeaderInfo
 
-    def GetVariable(self, row_current):
-        if self.IsVariableRow(row_current):
-            name = str(self.value[row_current][self.info.varname])
-            pos_s = float(self.value[row_current][self.info.ichi])
-            pos_e = pos_s + float(self.value[row_current][self.info.keta]) - 1
-            description = str(self.value[row_current][self.info.komoku])
-            val_list = self.value[row_current][self.info.fugo]
-            val_label_list = self.value[row_current][self.info.fugo_naiyo]
+    def GetVariable(self, row):
+        if self.IsVariableRow(row):
+            name = str(self.value[row][self.info.varname])
+            pos_s = float(self.value[row][self.info.ichi])
+            pos_e = pos_s + float(self.value[row][self.info.keta]) - 1
+            description = str(self.value[row][self.info.komoku])
+            val_list = self.value[row][self.info.fugo]
+            val_label_list = self.value[row][self.info.fugo_naiyo]
 
             return Variable(
                 name, int(pos_s), int(pos_e), description, val_list,
                 val_label_list
             )
 
-    def GetNextVarPlace(self, row_current):
+    def GetNextVarPlace(self, row):
         for r, val in enumerate(self.value):
-            flag_find_var = r > row_current and self.IsVariableRow(r)
+            flag_find_var = r > row and self.IsVariableRow(r)
             if flag_find_var:
                 return int(r)
 
-        return row_current
+        return row
+    
+    def GetValue(self, row, key):
+        list_tmp = self.value[row]
+        if key == 'komoku':
+            return list_tmp[self.info.komoku]
+        if key == 'ichi':
+            return list_tmp[self.info.ichi]
+        if key == 'keta':
+            return list_tmp[self.info.keta]
+        if key == 'repeat':
+            return list_tmp[self.info.repeat]
+        if key == 'varname':
+            return list_tmp[self.info.varname]
+        if key == 'fugo':
+            return list_tmp[self.info.fugo]
+        if key == 'fugo_naiyo':
+            return list_tmp[self.info.fugo_naiyo]
+        
+        print('Invalid keyword input (key)')
+        sys.exit()
 
     # Check the status of the current row
-    def IsVariableRow(self, row_current):
-        if len(str(self.value[row_current][self.info.keta])) == 0:
+    def IsVariableRow(self, row):
+        if len(str(self.GetValue(row, 'keta'))) == 0:
             return False
-        if self.value[row_current][self.info.keta] == 0:
+        if self.GetValue(row, 'keta') == 0:
             return False
         return True
 
-    def IsEmptyVarName(self, row_current):
-        if self.info.varname < 0:
-            return True
-        
-        return len(self.value[row_current][self.info.varname]) == 0
+    def IsEmptyVarName(self, row):
+        return len(str(self.GetValue(row, 'varname'))) == 0
 
-    def IsRepeat(self, row_current):
+    def IsRepeat(self, row):
         if not 'repeat' in self.info.__members__:
             return False
 
-        num_repeat = str(self.value[row_current][self.info.repeat])
+        num_repeat = str(self.GetValue(row, 'repeat'))
         return len(num_repeat) != 0 and int(float(num_repeat)) > 1
 
-    def IsFugoDigit(self, row_current):
-        return str(self.value[row_current][self.info.fugo]).isdigit()
+    def IsFugoDigit(self, row):
+        return str(self.GetValue(row, 'fugo')).isdigit()
 
     # Check if the next row still has a value label of the current variable
-    def ContinueValueLabel(self, row_current):
-        if int(row_current + 1) >= len(self.value) \
-                or self.IsVariableRow(row_current + 1) \
-                or len(str(self.value[row_current + 1][self.info.fugo])) == 0:
+    def ContinueValueLabel(self, row):
+        if int(row + 1) >= len(self.value) \
+                or self.IsVariableRow(row + 1) \
+                or len(str(self.GetValue(row + 1, 'fugo'))) == 0:
             return False
             # Next row is the out of sheet range, or
             #          is the next variable, or
@@ -114,23 +132,26 @@ class FieldCleaner():
             if Field.IsVariableRow(row) and Field.IsEmptyVarName(row):
                 var_counter = int(var_counter + 1)
                 Field.value[row][Field.info.varname] = 'var' + str(var_counter)
+                # Do not replace this line with GetValue() as this line update
+                # the cell value while GetValue() is just an accessor to the 
+                # cell value.
 
     # Make value lists and flatten Field so that each row in Field corresponds
     # to one variable
-    def __UpdateValueLists__(self, Field, row_current, val_list, label_list):
-        val_list.append(str(Field.value[row_current][Field.info.fugo]))
-        label_list.append(str(Field.value[row_current][Field.info.fugo_naiyo]))
+    def __UpdateValueLists__(self, Field, row, val_list, label_list):
+        val_list.append(str(Field.GetValue(row, 'fugo')))
+        label_list.append(str(Field.GetValue(row, 'fugo_naiyo')))
 
         return val_list, label_list
 
-    def __MakeValueList__(self, Field, row_current):
-        val_list = [str(Field.value[row_current][Field.info.fugo])]
-        label_list = [str(Field.value[row_current][Field.info.fugo_naiyo])]
+    def __MakeValueList__(self, Field, row):
+        val_list = [str(Field.GetValue(row, 'fugo'))]
+        label_list = [str(Field.GetValue(row, 'fugo_naiyo'))]
 
-        while Field.ContinueValueLabel(row_current):
-            row_current = int(row_current + 1)
+        while Field.ContinueValueLabel(row):
+            row = int(row + 1)
             val_list, label_list = self.__UpdateValueLists__(
-                Field, row_current, val_list, label_list
+                Field, row, val_list, label_list
             )
 
         return val_list, label_list
