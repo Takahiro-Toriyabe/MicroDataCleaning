@@ -16,7 +16,7 @@ class WriterBase(FieldMaker, FieldCleaner):
         except FileExistsError:
             pass
 
-    def SetSource(self, infile, index, outfile, clean = False, csv = False):
+    def SetSource(self, infile, index, outfile, clean=False, csv=False):
         self.__MakeOutFileDir__(outfile)
         
         field = self.CreateField(ExcelFile(infile, index))
@@ -34,9 +34,9 @@ class WriterBase(FieldMaker, FieldCleaner):
 
 class Writer1(WriterBase):
 
-    def Write(self, infile, index, outfile, dataname = 'Data', csv = False):
+    def Write(self, infile, index, outfile, indata='[DATA]', csv=False):
         source = self.SetSource(infile, index, outfile, clean = True, csv = csv)
-        writer = DoFileWriter(outfile, source, dataname)
+        writer = DoFileWriter(outfile, source, dataname=indata, infile=infile)
         writer.WriteDoFile()
 
 
@@ -45,7 +45,7 @@ class Writer2(WriterBase):
     def Write(self, infile_base, index_base, infile_match, index_match, outfile):
         Base = self.SetSource(infile_base, index_base, outfile)
         Match = self.SetSource(infile_match, index_match, outfile)
-        source = [Base, Match]
+        source = [Base, Match, infile_base]
 
-        writer = RenameFileWriter(outfile, source)
+        writer = RenameFileWriter(outfile, source, infile=infile_match)
         writer.WriteDoFile()
