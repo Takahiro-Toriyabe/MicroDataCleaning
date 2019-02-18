@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from GeneralizedWriterClass import InLists, GeneralizedWriter
+from module.Writers import InLists, GeneralizedWriter
 
 
 class Main(GeneralizedWriter):
@@ -39,6 +39,6 @@ if __name__ == '__main__':
     master = root_path + '/do-file/master'
     
     main = Main(
-        infile_list, index_list, outfile_list, data_list, basefile = infile2, csv = True
+        infile_list, index_list, outfile_list, basefile = infile2, csv = True
     )
     main.run()

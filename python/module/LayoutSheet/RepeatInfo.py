@@ -68,22 +68,3 @@ class RepeatInfoFactory:
             self.row_current,
             self.keta_tot
         )
-
-
-if __name__ == '__main__':
-    from ExcelFileClass import ExcelFile
-    from LayoutSheetImporterClass import LayoutSheetImporter
-    from FieldClass import FieldMaker, FieldCleaner
-
-    infile = 'C:/Users/Takahiro/Desktop/layout_test.xlsx'    
-    index = int(0)
-    importer = LayoutSheetImporter()
-
-    field = FieldMaker().CreateField(ExcelFile(infile, index))
-    FieldCleaner().CleanField(field)
-    factory = RepeatInfoFactory(field)
-    
-    for row, val in enumerate(field.value):
-        if 'repeat' in field.info.__members__:
-            print(str(val[field.info.varname]) + '' + str(val[field.info.repeat]))
-    print(len(field.value))

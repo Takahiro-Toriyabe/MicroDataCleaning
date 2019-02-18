@@ -3,7 +3,7 @@
 import sys
 from enum import IntEnum, Enum
 from itertools import zip_longest
-from HeaderKeywordsClass import HeaderKeywords
+from .HeaderKeywordsClass import HeaderKeywords
 
 
 class HeaderInfoFactory:
