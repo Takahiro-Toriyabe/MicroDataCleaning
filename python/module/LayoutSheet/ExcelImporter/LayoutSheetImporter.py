@@ -23,7 +23,7 @@ class ExcelFile:
             self.excel_file = self.excel_file.replace('.xlsx', '.xls')
                 
         if not os.path.isfile(self.excel_file):
-            print('Invalid file name')
+            print('Invalid file name: ' + str(self.excel_file))
             sys.exit()
             
 

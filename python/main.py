@@ -37,7 +37,7 @@ if __name__ == '__main__':
     data_list = ['data1.dat', 'data2.txt']
     
     master = root_path + '/do-file/master'
-    
+        
     main = Main(
         infile_list, index_list, outfile_list, data_list, basefile = infile2, csv = True
     )
