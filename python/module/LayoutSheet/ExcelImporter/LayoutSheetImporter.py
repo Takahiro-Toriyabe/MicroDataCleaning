@@ -13,11 +13,14 @@ class ExcelFile:
         self.__CheckFileExtension__()
         
     def __CheckFileExtension__(self):
-        if not os.path.isfile(self.excel_file):
-            if self.excel_file[-4:] == '.xls':
-                self.excel_file = self.excel_file.replace('.xls', '.xlsx')
-            elif self.excel_file[-5:] == '.xlsx':
-                self.excel_file = self.excel_file.replace('.xlsx', '.xls')
+        if not os.path.isfile(self.excel_file) and not '.xls' in self.excel_file:
+            self.excel_file = self.excel_file + '.xls'
+
+        if not os.path.isfile(self.excel_file) and self.excel_file[-4:] == '.xls':
+            self.excel_file = self.excel_file.replace('.xls', '.xlsx')
+        
+        if not os.path.isfile(self.excel_file) and self.excel_file[-5:] == '.xlsx':
+            self.excel_file = self.excel_file.replace('.xlsx', '.xls')
                 
         if not os.path.isfile(self.excel_file):
             print('Invalid file name')
