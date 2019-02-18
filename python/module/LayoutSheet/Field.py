@@ -4,10 +4,10 @@ import sys
 import copy
 from enum import IntEnum
 import unicodedata
-from VariableCollectorClass import Variable
-from LayoutSheetImporterClass import LayoutSheetImporter
-from HeaderInfoFactoryClass import HeaderInfoFactory
-from RepeatInfoClass import RepeatInfoFactory
+from .ExcelImporter import LayoutSheetImporter 
+from .HeaderInfo import HeaderInfoFactory
+from .VariableCollector import Variable
+from .RepeatInfo import RepeatInfoFactory
 
 
 class Field:

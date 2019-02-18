@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import os
-from DoFileWriterClass import MasterFileWriter
-from MainWriterClass import Writer1, Writer2
+from .DoFileWriter import MasterFileWriter
+from .MainWriter import Writer1, Writer2
 
 
 class InLists:
@@ -31,7 +31,7 @@ class InLists:
             
     def __SetDataList__(self):
         if self.data_list == '':
-            self.data_list = ['Data' for i in len(infile_list)]
+            self.data_list = ['Data' for i in range(len(self.infile_list))]
             
     def __SetOutFilePath__(self):
         common_char = os.path.commonprefix(self.outfile_list)

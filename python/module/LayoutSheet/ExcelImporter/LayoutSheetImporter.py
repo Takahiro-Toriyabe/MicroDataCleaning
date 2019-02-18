@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 
+import xlrd
+
 
 class ExcelFile:
 
     def __init__(self, excel_file, sheet_index):
         self.excel_file = excel_file
         self.sheet_index = sheet_index
-
 
 class DirtyExcelSheet:
 
@@ -61,3 +62,15 @@ class ExcelSheetCleaner:
         self.__UpdateCleanList__(DirtyExcelSheet)
         self.__KillEmptyRows__()
         return self.clean_list
+
+
+class LayoutSheetImporter(ExcelSheetCleaner):
+
+    def __ImportDirtyLayoutSheet__(self, ExcelFile):
+        excel_file_opened = xlrd.open_workbook(ExcelFile.excel_file)
+        return excel_file_opened.sheet_by_index(ExcelFile.sheet_index)
+
+    def ImportLayoutSheet(self, ExcelFile):
+        xlrd_sheet_tmp = self.__ImportDirtyLayoutSheet__(ExcelFile)
+        dirtysheet = DirtyExcelSheet(xlrd_sheet_tmp)
+        return self.MakeCleanList(dirtysheet)

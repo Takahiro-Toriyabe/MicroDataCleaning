@@ -3,7 +3,7 @@
 import codecs
 import sys
 import unicodedata
-from StrDistMeasureClass import StrDistMeasure
+from .StrDistMeasure import StrDistMeasure
 
 
 class DoFileWriterBase:
