@@ -2,6 +2,7 @@
 
 import codecs
 import sys
+import unicodedata
 from StrDistMeasureClass import StrDistMeasure
 
 
@@ -15,13 +16,18 @@ class DoFileWriterBase:
         self.indent = '    '
 
     def __CleanFileName__(self, filename):
-        for trash in ['.do', '_const', '_val', '_var', '_rename']:
+        for trash in [
+                '.do', '.txt', '.dat', '.dta', 
+                '_const', '_val', '_var', '_rename',
+                ' ', '　', '.'
+                ]:
             filename = str(filename).replace(trash, '')
-        return filename
+
+        return unicodedata.normalize('NFKC', filename)
     
     def __SetFileNameTag__(self):
         self.tag = ''
-
+        
     def __OpenFile__(self):
         self.file = codecs.open(self.filename + self.tag + '.do', 'w', 'utf-8')
 
@@ -175,3 +181,34 @@ class RenameFileWriter(DoFileWriterBase, StrDistMeasure):
                 
         print(self.filename + '_rename: Done')
 
+
+class MasterFileWriter(DoFileWriterBase):
+    
+    def __WriteHeader__(self):
+        self.file.write('clear' + '\n')
+        self.file.write('set more off' + '\n'*2)
+    
+    def __WriteMainPart__(self):
+        for outfile, data in zip(*self.source):
+            outfile = self.__CleanFileName__(outfile)
+            data = self.__CleanFileName__(data)
+            
+            for tag in ['_const', '_var', '_val']:
+                self.file.write('do "' + str(outfile) + tag + '.do"' + '\n')
+
+            self.file.write('*do "' + str(outfile) + '_rename.do"' + '\n')
+            self.file.write('save "' + str(data) + '.dta", replace' + '\n'*2)
+            self.file.write('clear' + '\n'*3)
+            
+        print(self.filename + ': Done')
+    
+
+class DimensionChecker:
+
+    def CheckListDim(
+        infile_list, sheet_index_list, outfile_name_list, data_list
+    ):
+        list_set = [sheet_index_list, outfile_name_list, data_list]
+        if not all([len(infile_list) == len(list) for list in list_set]):
+            print("ERROR: Dimension of the lists are not equal")
+            sys.exit()
