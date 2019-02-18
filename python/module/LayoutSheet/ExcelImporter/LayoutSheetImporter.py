@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import xlrd
+import os
+import sys
 
 
 class ExcelFile:
@@ -8,6 +10,19 @@ class ExcelFile:
     def __init__(self, excel_file, sheet_index):
         self.excel_file = excel_file
         self.sheet_index = sheet_index
+        self.__CheckFileExtension__()
+        
+    def __CheckFileExtension__(self):
+        if not os.path.isfile(self.excel_file):
+            if self.excel_file[-4:] == '.xls':
+                self.excel_file = self.excel_file.replace('.xls', '.xlsx')
+            elif self.excel_file[-5:] == '.xlsx':
+                self.excel_file = self.excel_file.replace('.xlsx', '.xls')
+                
+        if not os.path.isfile(self.excel_file):
+            print('Invalid file name')
+            sys.exit()
+            
 
 class DirtyExcelSheet:
 
