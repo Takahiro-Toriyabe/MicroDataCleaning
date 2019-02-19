@@ -4,6 +4,8 @@ from main import Main
 import tkinter as tk
 import tkinter.font as font
 from tkinter import messagebox as mbox
+from tkinter import filedialog as Fd
+
 
 class Base:
     
@@ -12,43 +14,84 @@ class Base:
         self.win.title("Make data-import do-files")
         self.win.geometry("800x500")
 
-class TextBox:
-    
-    def __init__(self, win, label, my_font, default_val='', width=80):        
-        self.label = tk.Label(win, text=label, font=my_font)
-        self.label.pack()
+
+class InputElement:
+
+    def __init__(self, frame, label, text, r):
+        font_lab = ('Times New Roman', 12, 'bold')
+        padx_lab = 30
+        font_text = ('Times New Roman', 12)
+        font_button = ('Times New Roman', 10)
         
-        self.text = tk.Entry(width=width, font=('New Roman', 12))
-        self.text.insert(tk.END, default_val)
-        self.text.pack()
+        self.label = tk.Label(frame, text=label, font=font_lab)
+        self.label.grid(row=r, column=0, sticky=tk.W, padx=padx_lab)
+        
+        self.text = tk.Entry(frame, width=60, font=font_text)
+        self.text.insert(tk.END, text)
+        self.text.grid(row=r, column=1, padx=10)
+        
+        self.button = tk.Button(frame, text='Browse', font=font_button, command=self.FileDialog, relief=tk.RAISED)
+        self.button.grid(row=r, column=2, sticky=tk.W)
 
-
-class Frame:
-    
-    def __init__(self, win):
-        self.frame = tk.Frame(win)
-        self.frame.pack()
-
+    def FileDialog(self):
+        fname = Fd.askopenfilename(filetypes=[('All Files', ('*'))])
+        if fname:
+            self.text.delete(0, tk.END)
+            self.text.insert(tk.END, fname)
+            
 
 class CheckBox:
     
-    def __init__(self, win, label, my_font, side=tk.TOP):
+    def __init__(self, frame, label, font, r, c, span):
         self.val = tk.BooleanVar()
         self.val.set(False)
-        self.box = tk.Checkbutton(text=label, font=my_font, variable=self.val)
-        self.box.pack(side=side)
+        self.box = tk.Checkbutton(frame, text=label, font=font, variable=self.val)
+        self.box.grid(row=r, column=c, columnspan=span, sticky=tk.W)
 
 
 class Button:
     
-    def __init__(self, win, label, my_font, command, side=tk.LEFT):
-        self.button = tk.Button(win, text=label, font=my_font)
+    def __init__(self, frame, text, font, command, r, c):
+        self.button = tk.Button(frame, width=12, text=text, font=font, justify=tk.CENTER, relief=tk.RAISED)
         self.button["command"] = command
-        self.button.pack(side=side)
+        self.button.grid(row=r, column=c, sticky=tk.W+tk.E)
+
+
+class ListBox:
+    
+    def __init__(self, frame, width, height, mode, font):
+        self.yScroll = tk.Scrollbar(frame, orient='vertical')
+        self.yScroll.grid(row=0, column=1, sticky=tk.N+tk.S)
+
+        self.xScroll = tk.Scrollbar(frame, orient='horizontal')
+        self.xScroll.grid(row=1, column=0, sticky=tk.E+tk.W)
+        
+        self.box = tk.Listbox(
+                frame,
+                width=width,
+                height=height,
+                selectmode=mode,
+                font = font,
+                xscrollcommand=self.xScroll.set,
+                yscrollcommand=self.yScroll.set
+        )
+        self.box.grid(row=0, column=0)
+        self.xScroll['command'] = self.box.xview
+        self.yScroll['command'] = self.box.yview
+
+
+class Console(ListBox):
+    
+    def GetConsole(self):
+        self.box.config(bg='black', fg='white')
+        self.box.insert(tk.END, '>>> Message...')
+        return self.box
+
 
 class App:
         
     def __init__(self):
+        self.bgcolor = 'LightCyan2'
         self.__InitializeInputHolder__()
         self.__InitializeUI__()
         self.win.mainloop()
@@ -58,24 +101,62 @@ class App:
         self.index_list = []
         self.outfile_list = []
         self.data_list = []
+    
+    def __GetFrame__(self):
+        frame = tk.Frame(self.win)
+        frame.config(bg=self.bgcolor)
+        return frame
+            
+    def __SetGUI__(self):
+        padx_lab = 30
         
-    def __SetTextBox__(self):
-        self.textExcel = TextBox(self.win, 'Excel file (Full path)', self.my_font, 'C:/Users/Takahiro/Desktop/layout_test.xlsx')
-        self.textSheetIndex = TextBox(self.win, 'Excel sheet index', self.my_font, '0')
-        self.textOutFileName = TextBox(self.win, 'Output file name (Full path)', self.my_font, 'C:/Users/Takahiro/Desktop/test/test')
-        self.textDataName = TextBox(self.win, 'Data name (Full path)', self.my_font, 'Data')
-        self.BaseFile = TextBox(self.win, 'Base Excel file', self.my_font, '')
+        # Frame for input information
+        self.frame_input = self.__GetFrame__()
         
-    def __SetCheckBox__(self):
-        self.csvCheckBox = CheckBox(self.win, 'Make CSV file?', self.my_font)
+        self.frame_lab = tk.Label(self.frame_input, text='Input information', font=('Times New Roman', 16, "bold"))
+        self.frame_lab.grid(row=0, column=0, columnspan=3, sticky=tk.W, pady=10, padx=padx_lab)
         
-    def __SetButton__(self):
-        self.frame_button = Frame(self.win).frame
-        self.AddButton = Button(self.frame_button, 'Add file', self.my_font, self.Add).button
-        self.CheckButton = Button(self.frame_button, 'Check', self.my_font, self.CheckSelection).button
-        self.DeleteButton = Button(self.frame_button, 'Delete file', self.my_font, self.Delete).button
-        self.RunButton = Button(self.frame_button, 'Make do-file', self.my_font, self.MakeDoFiles).button
+        self.ExcelFile = InputElement(self.frame_input, 'Excel file', 'C:/Users/Takahiro/Desktop/layout_test.xlsx', 1)
+        self.SheetIndex = InputElement(self.frame_input, 'Excel sheet index', '0', 2)
+        self.OutputFile = InputElement(self.frame_input, 'Output file', 'C:/Users/Takahiro/Desktop/test/test', 3)
+        self.DataFile = InputElement(self.frame_input, 'Data file', 'Data', 4)
+        self.BaseFile = InputElement(self.frame_input, 'Base file', '', 5)
         
+        self.frame_lab.config(bg=self.bgcolor)
+        for element in [self.ExcelFile, self.SheetIndex, self.OutputFile, self.DataFile, self.BaseFile]:
+            element.label.config(bg=self.bgcolor)
+            
+        self.frame_input.grid()
+        
+        # Frame for current input list
+        self.frame_listbox = tk.Frame(self.win)
+        self.InFileListBox = ListBox(self.frame_listbox, 50, 16, tk.EXTENDED, ('Times New Roman', 10)).box
+        self.frame_listbox.place(x=padx_lab, rely=0.4)
+        
+        # Frame for operation panel
+        self.frame_op = self.__GetFrame__()
+        
+        self.csvCheckBox = CheckBox(self.frame_op, 'Make CSV file? (Check if you are an R user)', self.my_font, 0, 0, 2)
+        self.csvCheckBox.box.config(bg=self.bgcolor)
+        self.AddButton = Button(self.frame_op, 'Add', self.my_font, self.Add, 1, 0)
+        self.RemoveButton = Button(self.frame_op, 'Remove', self.my_font, self.Remove, 1, 1)
+        self.CheckButton = Button(self.frame_op, 'Check', self.my_font, self.CheckSelection, 2, 0)
+        self.RunButton = Button(self.frame_op, 'Run', self.my_font, self.MakeDoFiles, 2, 1)
+        
+        self.frame_op.place(relx=0.5, rely=0.4)
+        
+        # Pseudo console
+        self.frame_console = self.__GetFrame__()
+        self.Console = Console(self.frame_console, 40, 9, tk.MULTIPLE, ('Lucida Console', 11)).GetConsole()
+        self.frame_console.place(relx=0.5, rely=0.62)
+
+    def __CloseSubWindow__(self):
+        try:
+            self.w.destroy()
+            self.subwin.destroy()
+        except AttributeError:
+            pass
+
     def CheckSelection(self):
         message = ''
         for cnt, idx in enumerate(self.InFileListBox.curselection()):
@@ -87,45 +168,24 @@ class App:
                 'Data name: ' + str(self.data_list[idx]) + '\n'*2
         
         if message != '':
-            subwin = tk.Tk()
-            w = tk.Label(subwin, text=message, font=('New Roman', 12), justify=tk.LEFT)
-            w.pack()
-        
-    def __SetListBox__(self):
-        self.frame_listbox = Frame(self.win).frame
-        self.yScroll = tk.Scrollbar(self.frame_listbox, orient='vertical')
-        self.yScroll.grid(row=0, column=1, sticky=tk.N+tk.S)
-    
-        self.xScroll = tk.Scrollbar(self.frame_listbox, orient='horizontal')
-        self.xScroll.grid(row=1, column=0, sticky=tk.E+tk.W)
-    
-        self.InFileListBox = tk.Listbox(
-            self.frame_listbox, width=80,
-            font = ('New Roman', 10),
-            selectmode=tk.MULTIPLE,
-            xscrollcommand=self.xScroll.set,
-            yscrollcommand=self.yScroll.set
-        )
-        self.InFileListBox.grid(row=0, column=0, sticky=tk.N+tk.S+tk.E+tk.W)
-        self.xScroll['command'] = self.InFileListBox.xview
-        self.yScroll['command'] = self.InFileListBox.yview
+            self.subwin = tk.Tk()
+            self.w = tk.Label(self.subwin, text=message, font=('Times New Roman', 12), justify=tk.LEFT)
+            self.w.pack()
 
     def __InitializeUI__(self):
         self.win = Base().win
-        self.my_font = font.Font(self.win,family="New Roman",size=12,weight="bold")
-        self.__SetTextBox__()
-        self.__SetCheckBox__()
-        self.__SetButton__()
-        self.__SetListBox__()
+        self.win.config(bg=self.bgcolor)
+        self.my_font = font.Font(self.win, family="Times New Roman", size=12, weight="bold")
+        self.__SetGUI__()
         
     def Add(self):
-        self.InFileListBox.insert(tk.END, self.textExcel.text.get())
+        self.InFileListBox.insert(tk.END, self.ExcelFile.text.get())
         self.InFileListBox.selection_clear(0, tk.END)
         
-        self.infile_list.append(self.textExcel.text.get())
-        self.index_list.append(int(self.textSheetIndex.text.get()))
-        self.outfile_list.append(self.textOutFileName.text.get())
-        self.data_list.append(self.textDataName.text.get())
+        self.infile_list.append(self.ExcelFile.text.get())
+        self.index_list.append(int(self.SheetIndex.text.get()))
+        self.outfile_list.append(self.OutputFile.text.get())
+        self.data_list.append(self.DataFile.text.get())
     
     def __UpdateInList__(self, inlist, indexes):
         return [val for i, val in enumerate(inlist) if not i in indexes]
@@ -142,7 +202,7 @@ class App:
             self.InFileListBox.delete(i-cnt)
             cnt = cnt + 1
         
-    def Delete(self):
+    def Remove(self):
         selcted_indexes = self.InFileListBox.curselection()
         self.__UpdateInputHolder__(selcted_indexes)
         self.__UpdateListBox__(selcted_indexes)
@@ -157,9 +217,20 @@ class App:
             basefile=self.BaseFile.text.get(),
             csv=self.csvCheckBox.val.get()
         )
-        main.run()
-        self.win.quit()
-        self.win.destroy()
+        
+        try:
+            main.run()
+        except:
+            ok_click = mbox.showerror('Error', 'Error in program')
+        else:
+            ok_click = mbox.showinfo('Result', 'do-files were succesuflly made')
+        finally:
+            if ok_click == 'ok':
+                exit_yesno = mbox.askyesno('Message', 'Exit?')
+                if exit_yesno:
+                    self.__CloseSubWindow__()
+                    self.win.quit()
+                    self.win.destroy()
 
 if __name__ == '__main__':
     app = App()
