@@ -201,7 +201,7 @@ class App:
 
     def __InitializeUI__(self):
         self.win = Base().win
-#        self.win.wm_iconbitmap(default='')
+        self.win.wm_iconbitmap(default='./images/icon_test.ico')
         self.win.config(bg=self.bgcolor)
         self.my_font = font.Font(self.win, family="Times New Roman", size=12, weight="bold")
         self.__SetGUI__()
