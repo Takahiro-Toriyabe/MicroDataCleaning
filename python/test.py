@@ -5,6 +5,7 @@ import sys
 import os
 import tkinter as tk
 import tkinter.font as font
+import tkinter.scrolledtext as st
 from tkinter import messagebox as mbox
 from tkinter import filedialog as Fd
 
@@ -36,10 +37,14 @@ class InputElement:
         self.button.grid(row=r, column=2, sticky=tk.W)
 
     def FileDialog(self):
+        stdout_tmp = sys.stdout
+        sys.stdout = sys.__stdout__
         fname = Fd.askopenfilename(filetypes=[('All Files', ('*'))])
         if fname:
             self.text.delete(0, tk.END)
             self.text.insert(tk.END, fname)
+
+        sys.stdout = stdout_tmp
 
 
 class CheckBox:
@@ -82,12 +87,30 @@ class ListBox:
         self.yScroll['command'] = self.box.yview
 
 
-class Console(ListBox):
+class Console():
 
-    def GetConsole(self):
-        self.box.config(bg='black', fg='white')
-        self.box.insert(tk.END, '>>> Message...')
-        return self.box
+    # def GetConsole(self):
+    #     self.box.config(bg='black', fg='white')
+    #     self.box.insert(tk.END, '>>> Message...')
+    #     return self.box
+
+    def __init__(self, frame, width, height, font=('Lucida Console', 11)):
+        self.console = st.ScrolledText(frame, width=width, height=height, font=font, fg='white', bg='black', insertbackground='red')
+        self.console.grid()
+        self.console.insert(tk.END, 'Initial Message\n\n')
+        self.console.config(state=tk.DISABLED)
+
+
+class Mystdout:
+
+    def __init__(self, Console):
+        self.console = Console
+
+    def write(self, arg):
+        self.console.config(state=tk.NORMAL)
+        self.console.insert(tk.END, arg)
+        self.console.yview_scroll(arg.count("\n") + 1, "units")
+        self.console.config(state=tk.DISABLED)
 
 
 class App:
@@ -149,8 +172,16 @@ class App:
 
         # Pseudo console
         self.frame_console = self.__GetFrame__()
-        self.Console = Console(self.frame_console, 40, 9, tk.MULTIPLE, ('Lucida Console', 11)).GetConsole()
+        # self.Console = Console(self.frame_console, 40, 9, tk.MULTIPLE, ('Lucida Console', 11)).GetConsole()
+        # self.Console = st.ScrolledText(self.frame_console, width=40, height=10)
+        # self.Console.config(fg='white', bg='black', font=('Lucida Console', 11), insertbackground='red')
+        # self.Console.grid()
+        # self.Console.insert(tk.END, '>>>')
+        self.Console = Console(self.frame_console, width=40, height=10).console
+        # self.Console.config(state=tk.DISABLED)
         self.frame_console.place(relx=0.5, rely=0.62)
+
+
 
     def __CloseSubWindow__(self):
         try:
@@ -181,16 +212,39 @@ class App:
         self.__SetGUI__()
 
     def Add(self):
-        self.InFileListBox.insert(tk.END, self.ExcelFile.text.get())
+        excel_file = repr(self.ExcelFile.text.get())[1:-1]
+        output_file = repr(self.OutputFile.text.get())[1:-1]
+        data_file = repr(self.DataFile.text.get())[1:-1]
+
+        self.InFileListBox.insert(tk.END, excel_file)
         self.InFileListBox.selection_clear(0, tk.END)
 
-        self.infile_list.append(self.ExcelFile.text.get())
+        self.infile_list.append(excel_file)
         self.index_list.append(int(self.SheetIndex.text.get()))
-        self.outfile_list.append(self.OutputFile.text.get())
-        self.data_list.append(self.DataFile.text.get())
+        self.outfile_list.append(output_file)
+        self.data_list.append(data_file)
+
+        self.Console.config(state=tk.NORMAL)
+        self.Console.insert(tk.END, '>>> Add\n')
+        self.Console.insert(tk.END, excel_file + 'is added\n\n')
+        self.Console.see(tk.END)
+        self.Console.config(state=tk.DISABLED)
 
     def __UpdateInList__(self, inlist, indexes):
         return [val for i, val in enumerate(inlist) if not i in indexes]
+
+    def __PrintRemoveMessage__(self, indexes):
+        removed_files = [val for i, val in enumerate(self.infile_list) if i in indexes]
+
+        self.Console.config(state=tk.NORMAL)
+        self.Console.insert(tk.END, '>>> Remove\n')
+        self.Console.insert(tk.END, 'Removed follwing input(s):\n')
+        for file in removed_files:
+            self.Console.insert(tk.END, file + '\n')
+
+        self.Consol.insert(tk.END, '\n')
+        self.Console.see(tk.END)
+        self.Console.config(state=tk.DISABLED)
 
     def __UpdateInputHolder__(self, indexes):
         self.infile_list = self.__UpdateInList__(self.infile_list, indexes)
@@ -206,11 +260,17 @@ class App:
 
     def Remove(self):
         selcted_indexes = self.InFileListBox.curselection()
+        self.__PrintRemoveMessage__(selcted_indexes)
         self.__UpdateInputHolder__(selcted_indexes)
         self.__UpdateListBox__(selcted_indexes)
         self.InFileListBox.selection_clear(0, tk.END)
 
     def MakeDoFiles(self):
+        self.Console.config(state=tk.NORMAL)
+        self.Console.insert(tk.END, '>>> Run\n')
+        self.Console.see(tk.END)
+        self.Console.config(state=tk.DISABLED)
+
         main = Main(
             self.infile_list,
             self.index_list,
@@ -220,30 +280,20 @@ class App:
             csv=self.csvCheckBox.val.get()
         )
 
-        logdir = os.getcwd().replace('\\','/') + '/tmp'
-        #pwd = 'C:/Users/takah/Desktop'
-        logfile = logdir + '/log.txt'
-        os.makedirs(logdir, exist_ok=True)
-        sys.stdout = open(logfile,"w")
+        mystdout = Mystdout(self.Console)
+        sys.stdout = mystdout
 
         try:
             main.run()
         except:
-            print('Error')
+            result = 'Error'
         else:
-            print('Success')
+            result = 'Success'
         finally:
-            sys.stdout.close()
+            print(result + '\n'*2)
             sys.stdout = sys.__stdout__
 
-            with open(logfile, 'r') as log_read:
-                for l in log_read:
-                    self.Console.insert(tk.END, l)
-
-            os.remove(logfile)
-            os.rmdir(logdir)
-
-            exit_yesno = mbox.askyesno('Message', 'Exit?')
+            exit_yesno = mbox.askyesno(result, 'Exit?')
             if exit_yesno:
                 self.__CloseSubWindow__()
                 self.win.quit()
