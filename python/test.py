@@ -172,13 +172,7 @@ class App:
 
         # Pseudo console
         self.frame_console = self.__GetFrame__()
-        # self.Console = Console(self.frame_console, 40, 9, tk.MULTIPLE, ('Lucida Console', 11)).GetConsole()
-        # self.Console = st.ScrolledText(self.frame_console, width=40, height=10)
-        # self.Console.config(fg='white', bg='black', font=('Lucida Console', 11), insertbackground='red')
-        # self.Console.grid()
-        # self.Console.insert(tk.END, '>>>')
         self.Console = Console(self.frame_console, width=40, height=10).console
-        # self.Console.config(state=tk.DISABLED)
         self.frame_console.place(relx=0.5, rely=0.62)
 
 
@@ -207,6 +201,7 @@ class App:
 
     def __InitializeUI__(self):
         self.win = Base().win
+#        self.win.wm_iconbitmap(default='')
         self.win.config(bg=self.bgcolor)
         self.my_font = font.Font(self.win, family="Times New Roman", size=12, weight="bold")
         self.__SetGUI__()
