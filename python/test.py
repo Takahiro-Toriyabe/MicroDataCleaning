@@ -16,6 +16,7 @@ class Base:
         self.win = tk.Tk()
         self.win.title("Make data-import do-files")
         self.win.geometry("800x500")
+        self.win.resizable(width=False, height=False)
 
 
 class InputElement:
@@ -88,11 +89,6 @@ class ListBox:
 
 
 class Console():
-
-    # def GetConsole(self):
-    #     self.box.config(bg='black', fg='white')
-    #     self.box.insert(tk.END, '>>> Message...')
-    #     return self.box
 
     def __init__(self, frame, width, height, font=('Lucida Console', 11)):
         self.console = st.ScrolledText(frame, width=width, height=height, font=font, fg='white', bg='black', insertbackground='red')
@@ -176,7 +172,6 @@ class App:
         self.frame_console.place(relx=0.5, rely=0.62)
 
 
-
     def __CloseSubWindow__(self):
         try:
             self.w.destroy()
@@ -237,7 +232,7 @@ class App:
         for file in removed_files:
             self.Console.insert(tk.END, file + '\n')
 
-        self.Consol.insert(tk.END, '\n')
+        self.Console.insert(tk.END, '\n')
         self.Console.see(tk.END)
         self.Console.config(state=tk.DISABLED)
 
