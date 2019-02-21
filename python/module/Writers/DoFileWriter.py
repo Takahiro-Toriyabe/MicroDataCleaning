@@ -2,6 +2,7 @@
 
 import codecs
 import sys
+import os
 import unicodedata
 from datetime import datetime
 from .StrDistMeasure import StrDistMeasure
@@ -19,17 +20,17 @@ class DoFileWriterBase:
 
     def __CleanFileName__(self, filename):
         for trash in [
-                '.do', '.txt', '.dat', '.dta', 
+                '.do', '.txt', '.dat', '.dta',
                 '_const', '_val', '_var', '_validate', '_rename',
                 ' ', '　', '.'
                 ]:
             filename = str(filename).replace(trash, '')
 
         return unicodedata.normalize('NFKC', filename)
-    
+
     def __SetFileNameTag__(self):
         self.tag = ''
-        
+
     def __OpenFile__(self):
         self.file = codecs.open(self.filename + self.tag + '.do', 'w', 'utf-8')
 
@@ -63,7 +64,7 @@ class DoFileWriterBase:
             self.indent + 'Date: '+ datetime.now().strftime("%Y/%m/%d %H:%M:%S") + '\n' + \
             '-'*70 + '*/' + '\n'*3
         )
-    
+
     def __WriteMainPart__(self):
         pass
 
@@ -133,7 +134,7 @@ class ValFileWriter(DoFileWriterBase):
                     'capture label values '
                     + var.name + ' ' + var.name + '\n'*2
                 )
-                
+
 
 class ValidateFileWriter(DoFileWriterBase):
 
@@ -143,14 +144,24 @@ class ValidateFileWriter(DoFileWriterBase):
     def __WriteMainPart__(self):
         for var in self.source:
             if len(var.val_list) != 0:
-                self.file.write('assert inlist(' + var.name)
+                self.file.write('capture assert inlist(' + var.name)
                 for val in var.val_list:
                     self.file.write(', ' + str(int(float(val))))
 
                 self.file.write(', .)\n')
+                self.file.write('if _rc!=0 {\n')
+                self.file.write(
+                    self.indent + 'display as error "WARNING: {bf:' + var.name
+                    + '} (' + var.description + ') may have invalid values '
+                    + '(Check layout sheet)"\n'
+                )
+                self.file.write('}\n')
                 self.file.write('count if ' + var.name + '==.\n')
                 self.file.write('if r(N)==_N {\n')
-                self.file.write(self.indent + 'display as error "Only missing value: {bf:' + var.name + '}"\n')
+                self.file.write(
+                    self.indent + 'display as error "Only missing value: '
+                    + '{bf:' + var.name + '} (' + var.description + ')"\n'
+                )
                 self.file.write('}' + '\n'*2)
 
 
@@ -177,7 +188,7 @@ class DoFileWriter(DoFileWriterBase):
 
 
 class RenameFileWriter(DoFileWriterBase, StrDistMeasure):
-    
+
     def __SetFileNameTag__(self):
         self.tag = '_rename'
 
@@ -185,7 +196,7 @@ class RenameFileWriter(DoFileWriterBase, StrDistMeasure):
         self.file.write('/*' + '-'*70 + '\n')
         self.file.write(self.indent*6 + 'Base data .vs. Match data\n\n')
         self.file.write(
-            self.indent + 'Description:     "' + str(Variable1.description) 
+            self.indent + 'Description:     "' + str(Variable1.description)
             + '"' + self.indent + '"' + str(Variable2.description) + '"\n'
         )
         self.file.write(
@@ -193,7 +204,7 @@ class RenameFileWriter(DoFileWriterBase, StrDistMeasure):
             + '"' + self.indent + '"' + str(Variable2.name) + '" \n')
         self.file.write(self.indent + 'Variable values:' + '\n')
         self.file.write(self.indent*2 + 'Base data:  ')
-        
+
     def __WriteValues__(self, Variable):
         min_length = min(len(Variable.val_list), len(Variable.val_label_list))
         for i in range(min_length):
@@ -201,7 +212,7 @@ class RenameFileWriter(DoFileWriterBase, StrDistMeasure):
                 ' ' + str(Variable.val_list[i])
                 + ': ' + str(Variable.val_label_list[i]) + ','
             )
-    
+
     def __WriteRenamePart__(self, Variable1, Variable2):
         self.file.write(
             '\n\n' + '-'*70 + '*/\n'
@@ -210,7 +221,7 @@ class RenameFileWriter(DoFileWriterBase, StrDistMeasure):
             'capture rename ' + Variable2.name + ' ' + Variable1.name + '\n'
         )
         self.file.write('\n'*2)
-        
+
     def __WriteMainPartSub__(self, cleaned_source, row, Variable1, Variable2):
         if Variable2 != 'None':
             self.__WriteVarInfo__(Variable1, Variable2)
@@ -218,9 +229,9 @@ class RenameFileWriter(DoFileWriterBase, StrDistMeasure):
             self.file.write('\n' + self.indent*2 + 'Match data: ')
             if len(cleaned_source[row][1].val_list) != 0:
                 self.__WriteValues__(Variable2)
-                    
+
             self.__WriteRenamePart__(Variable1, Variable2)
-        
+
     def __WriteMainPart__(self, tol = 0.75):
         cleaned_source = self.MatchVarList(*self.source[:2], tol)
         basefile = self.source[2]
@@ -229,28 +240,35 @@ class RenameFileWriter(DoFileWriterBase, StrDistMeasure):
             var1 = cleaned_source[row][0]
             var2 = cleaned_source[row][1]
             self.__WriteMainPartSub__(cleaned_source, row, var1, var2)
-                
+
         print(self.filename + '_rename: Done')
 
 
 class MasterFileWriter(DoFileWriterBase):
-    
+
     def __WriteMainPart__(self):
+        root = os.path.dirname(self.filename)
+
+        self.file.write('global DoFilePathTemp = "' + root + '"\n')
+        self.file.write('global DataFilePathTemp = ""\n\n')
         self.file.write('clear' + '\n')
         self.file.write('set more off' + '\n'*2)
         for outfile, data in zip(*self.source):
-            outfile = self.__CleanFileName__(outfile)
-            data = self.__CleanFileName__(data)
-            
-            for tag in ['_const', '_var', '_val', '_validate']:
-                self.file.write('do "' + str(outfile) + tag + '.do"' + '\n')
+            outfile_cleaned = self.__CleanFileName__(outfile).replace(root, '${DoFilePathTemp}')
+            datafile_cleaned = '${DataFilePathTemp}/' + os.path.basename(self.__CleanFileName__(data))
 
-            self.file.write('*do "' + str(outfile) + '_rename.do"' + '\n')
-            self.file.write('save "' + str(data) + '.dta", replace' + '\n'*2)
+            for tag in ['_const', '_var', '_val', '_validate']:
+                self.file.write('run "' + str(outfile_cleaned) + tag + '.do"' + '\n')
+
+            self.file.write('*run "' + str(outfile_cleaned) + '_rename.do"' + '\n')
+            self.file.write('save "' + str(datafile_cleaned) + '.dta", replace' + '\n'*2)
             self.file.write('clear' + '\n'*3)
-            
+
+        self.file.write('macro drop DoFilePathTemp\n')
+        self.file.write('macro drop DataFilePathTemp\n')
+
         print(self.filename + ': Done')
-    
+
 
 class DimensionChecker:
 
