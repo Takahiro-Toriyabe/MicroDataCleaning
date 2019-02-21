@@ -2,6 +2,7 @@
 
 from main import Main
 import sys
+import codecs
 import csv
 import tkinter as tk
 import tkinter.font as font
@@ -211,11 +212,6 @@ class App:
         
         self.win.config(menu = self.menu)
         
-    def ImportInputInfo(self, event=None):
-        fname = Fd.askopenfilename(filetypes=[('All Files', ('*'))])
-        if fname:
-            self.__ImportCSV__(fname)
-    
     def __AppendFileInfo__(self, excel_file, index, output_file, data_file):
         self.InFileListBox.insert(tk.END, excel_file)
         self.InFileListBox.selection_clear(0, tk.END)
@@ -232,7 +228,7 @@ class App:
         self.Console.config(state=tk.DISABLED)
         
     def __ImportCSV__(self, fname):
-        csv_file = open(fname, "r", newline="")
+        csv_file = codecs.open(fname, "r", "Shift-JIS", "ignore")
         f = csv.DictReader(
             csv_file, delimiter=",", doublequote=True,
             lineterminator="\r\n", quotechar='"', skipinitialspace=True
@@ -246,6 +242,11 @@ class App:
             self.__AppendFileInfo__(excel_file, index, output_file, data_file)
         
         csv_file.close()
+        
+    def ImportInputInfo(self, event=None):
+        fname = Fd.askopenfilename(filetypes=[('All Files', ('*'))])
+        if fname:
+            self.__ImportCSV__(fname)
 
     def ClearConsole(self, event=None):
         self.Console.config(state=tk.NORMAL)
