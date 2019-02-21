@@ -1,7 +1,7 @@
 @echo off
 cd /d %~dp0
 
-pyinstaller --onefile --windowed --icon="./images/icon_test.ico" test.py
+pyinstaller --onefile --icon="./images/icon_test.ico" test.py
 
 xcopy dist "../dist"
 xcopy "./images" "../dist/images"
