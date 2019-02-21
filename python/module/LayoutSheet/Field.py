@@ -4,7 +4,7 @@ import sys
 import copy
 from enum import IntEnum
 import unicodedata
-from .ExcelImporter import LayoutSheetImporter 
+from .ExcelImporter import LayoutSheetImporter
 from .HeaderInfo import HeaderInfoFactory
 from .VariableCollector import Variable
 from .RepeatInfo import RepeatInfoFactory
@@ -61,9 +61,10 @@ class Field:
 
     # Check the status of the current row
     def IsVariableRow(self, row):
-        if len(str(self.GetValue(row, 'keta'))) == 0:
+        val_keta = str(self.GetValue(row, 'keta'))
+        if len(val_keta) == 0:
             return False
-        if self.GetValue(row, 'keta') == 0:
+        if val_keta.replace('.', '').isdigit() and float(val_keta) == 0:
             return False
         return True
 
@@ -71,7 +72,7 @@ class Field:
         return len(str(self.GetValue(row, 'varname'))) == 0
 
     def IsRepeat(self, row):
-        if not 'repeat' in self.info.__members__:
+        if 'repeat' not in self.info.__members__:
             return False
 
         num_repeat = str(self.GetValue(row, 'repeat'))
@@ -126,7 +127,7 @@ class FieldCleaner():
         Field.info = IntEnum('HeaderInfo', new_mems)
 
     def __AddVarNameCol__(self, Field):
-        if not 'varname' in Field.info.__members__:
+        if 'varname' not in Field.info.__members__:
             self.__AddVarNameToHeaderInfo__(Field)
             for row, val in enumerate(Field.value):
                 Field.value[row].append('')
@@ -135,7 +136,8 @@ class FieldCleaner():
         self.__AddVarNameCol__(Field)
         var_counter = 0
         for row, val in enumerate(Field.value):
-            if Field.IsVariableRow(row) and Field.IsEmptyVarName(row):
+            # First row is the header
+            if row != 0 and Field.IsVariableRow(row) and Field.IsEmptyVarName(row):
                 var_counter = int(var_counter + 1)
                 Field.value[row][Field.info.varname] = 'var' + str(var_counter)
                 # Do not replace this line with GetValue() as this line update
