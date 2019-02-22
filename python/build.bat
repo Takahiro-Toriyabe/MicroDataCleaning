@@ -1,10 +1,10 @@
 @echo off
 cd /d %~dp0
 
-pyinstaller --onefile --icon="./images/icon_test.ico" test.py
+pyinstaller --icon="./images/icon_test.ico" test.py
 
-xcopy dist "../dist"
-xcopy "./images" "../dist/images"
+xcopy /E dist "../dist"
+xcopy /E "./images" "../dist/test/images"
 
 cd ../
 7z a dist.zip dist
