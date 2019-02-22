@@ -28,52 +28,52 @@
 
 
     Source: （参考）符号表_雇用動向調査（事業所票）h16-28.xlsx
-    Date: 2019/02/21 18:51:58
+    Date: 2019/02/22 13:15:19
 ----------------------------------------------------------------------*/
 
 
 capture assert inlist(var3, 1, .)
 if _rc!=0 {
-    display as error "WARNING:{bf:var3} (調査月) may have invalid values(Check layout sheet)"
+    display as error "WARNING: {bf:var3} (調査月) may have invalid values (Check layout sheet)"
 }
 count if var3==.
 if r(N)==_N {
-    display as error "Only missing value:{bf:var3} (調査月)"
+    display as error "Only missing value: {bf:var3} (調査月)"
 }
 
 capture assert inlist(var7, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, .)
 if _rc!=0 {
-    display as error "WARNING:{bf:var7} (地域番号) may have invalid values(Check layout sheet)"
+    display as error "WARNING: {bf:var7} (地域番号) may have invalid values (Check layout sheet)"
 }
 count if var7==.
 if r(N)==_N {
-    display as error "Only missing value:{bf:var7} (地域番号)"
+    display as error "Only missing value: {bf:var7} (地域番号)"
 }
 
 capture assert inlist(var15, 1, 2, 3, 4, .)
 if _rc!=0 {
-    display as error "WARNING:{bf:var15} (事業所規模) may have invalid values(Check layout sheet)"
+    display as error "WARNING: {bf:var15} (事業所規模) may have invalid values (Check layout sheet)"
 }
 count if var15==.
 if r(N)==_N {
-    display as error "Only missing value:{bf:var15} (事業所規模)"
+    display as error "Only missing value: {bf:var15} (事業所規模)"
 }
 
 capture assert inlist(var16, 1, 2, 3, 4, 5, 6, .)
 if _rc!=0 {
-    display as error "WARNING:{bf:var16} (企業規模) may have invalid values(Check layout sheet)"
+    display as error "WARNING: {bf:var16} (企業規模) may have invalid values (Check layout sheet)"
 }
 count if var16==.
 if r(N)==_N {
-    display as error "Only missing value:{bf:var16} (企業規模)"
+    display as error "Only missing value: {bf:var16} (企業規模)"
 }
 
 capture assert inlist(var19, 1, 2, 3, 4, .)
 if _rc!=0 {
-    display as error "WARNING:{bf:var19} (乗率用事業所規模) may have invalid values(Check layout sheet)"
+    display as error "WARNING: {bf:var19} (乗率用事業所規模) may have invalid values (Check layout sheet)"
 }
 count if var19==.
 if r(N)==_N {
-    display as error "Only missing value:{bf:var19} (乗率用事業所規模)"
+    display as error "Only missing value: {bf:var19} (乗率用事業所規模)"
 }
 

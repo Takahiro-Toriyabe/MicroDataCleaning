@@ -42,11 +42,9 @@ for i in range(17, 30):
 master_name = str(outpath) + '/賃金構造基本統計調査/個人票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list,
-    basefile=infile_list[-1], csv=True
+    infile_list, sheet_index_list, outfile_list, data_list, csv=False
 )
 main.run()
-
 
 # Wage Census (Jigyosho-hyo)
 os.chdir(inpath + "/賃金構造基本統計調査/符号表（事業所票（初任給票））")
@@ -76,8 +74,7 @@ for i in range(17, 30):
 master_name = str(outpath) + '/賃金構造基本統計調査/事業所票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list,
-    basefile=infile_list[-1], csv=True
+    infile_list, sheet_index_list, outfile_list, data_list, csv=True
 )
 main.run()
 
@@ -126,8 +123,7 @@ for i in range(16, 29):
 master_name = str(outpath) + '/雇用動向調査/事業所票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list,
-    basefile=infile_list[-1], csv=True
+    infile_list, sheet_index_list, outfile_list, data_list, csv=True
 )
 main.run()
 
@@ -176,8 +172,7 @@ for i in range(16, 29):
 master_name = str(outpath) + '/雇用動向調査/入職者票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list,
-    basefile=infile_list[-1], csv=True
+    infile_list, sheet_index_list, outfile_list, data_list, csv=True
 )
 main.run()
 
@@ -239,7 +234,6 @@ for i in range(7, 29):
 master_name = str(outpath) + '/雇用動向調査/離職者票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list,
-    basefile=infile_list[-1], csv=True
+    infile_list, sheet_index_list, outfile_list, data_list, csv=True
 )
 main.run()

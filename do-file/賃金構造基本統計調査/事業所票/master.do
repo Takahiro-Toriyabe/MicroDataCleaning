@@ -28,12 +28,12 @@
 
 
     Source: 
-    Date: 2019/02/21 18:51:54
+    Date: 2019/02/22 13:15:18
 ----------------------------------------------------------------------*/
 
 
-global DoFilePathTemp = "/media/USB DISK/20190221/do-file/賃金構造基本統計調査/事業所票"
-global DataFilePathTemp = "/media/HD-LXU3/WageCensus_EmploymentTrend/dta/WageCensus/Jigyosho"
+global DoFilePathTemp = "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/事業所票"
+global DataFilePathTemp = ""
 
 clear
 set more off

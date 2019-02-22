@@ -62,7 +62,7 @@ class GeneralizedWriter:
         for vals in zip(
             InLists.infile_list, InLists.index_list, InLists.outfile_list
         ):
-            if vals[0] != InLists.basefile:
+            if vals[0] != InLists.basefile or vals[1] != InLists.baseindex:
                 self.writer2.Write(
                     InLists.basefile, InLists.baseindex, *vals
                 )
