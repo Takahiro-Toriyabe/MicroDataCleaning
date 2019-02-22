@@ -28,12 +28,12 @@
 
 
     Source: 
-    Date: 2019/02/21 18:52:33
+    Date: 2019/02/22 13:15:55
 ----------------------------------------------------------------------*/
 
 
-global DoFilePathTemp = "/media/USB DISK/20190221/do-file/雇用動向調査/離職者票"
-global DataFilePathTemp = "/media/HD-LXU3/WageCensus_EmploymentTrend/dta/EmpTrend/Rishokusha"
+global DoFilePathTemp = "D:/GitHub/MicroDataCleaning/do-file/雇用動向調査/離職者票"
+global DataFilePathTemp = ""
 
 clear
 set more off

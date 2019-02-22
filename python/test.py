@@ -223,7 +223,7 @@ class App:
     
         self.Console.config(state=tk.NORMAL)
         self.Console.insert(tk.END, '>>> Add\n')
-        self.Console.insert(tk.END, excel_file + 'is added\n\n')
+        self.Console.insert(tk.END, excel_file + ' is added\n\n')
         self.Console.see(tk.END)
         self.Console.config(state=tk.DISABLED)
         
