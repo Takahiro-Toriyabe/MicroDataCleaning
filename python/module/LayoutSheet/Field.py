@@ -4,11 +4,14 @@ import sys
 import copy
 from enum import IntEnum
 import unicodedata
-from .ExcelImporter import LayoutSheetImporter
-from .HeaderInfo import HeaderInfoFactory
-from .VariableCollector import Variable
-from .RepeatInfo import RepeatInfoFactory
-
+#from .ExcelImporter import LayoutSheetImporter
+#from .HeaderInfo import HeaderInfoFactory
+#from .VariableCollector import Variable
+#from .RepeatInfo import RepeatInfoFactory
+from ExcelImporter import LayoutSheetImporter
+from HeaderInfo import HeaderInfoFactory
+from VariableCollector import Variable
+from RepeatInfo import RepeatInfoFactory
 
 class Field:
 
@@ -47,6 +50,8 @@ class Field:
             return list_tmp[self.info.ichi]
         if key == 'keta':
             return list_tmp[self.info.keta]
+        if key == 'kaiso':
+            return list_tmp[self.info.kaiso]
         if key == 'repeat':
             return list_tmp[self.info.repeat]
         if key == 'varname':
@@ -65,6 +70,13 @@ class Field:
         if len(val_keta) == 0:
             return False
         if val_keta.replace('.', '').isdigit() and float(val_keta) == 0:
+            return False
+        return True
+    
+    def IsVariableGroup(self, row):
+        if len(str(self.GetValue(row, 'komoku'))) == 0:
+            return False
+        if self.IsVariableRow(row):
             return False
         return True
 
@@ -177,7 +189,8 @@ class FieldCleaner():
     def __CompressField__(self, Field):
         list_tmp = []
         for row, val in enumerate(Field.value):
-            if row == 0 or Field.IsVariableRow(row) or Field.IsRepeat(row):
+            if row == 0 or Field.IsVariableRow(row) \
+                    or Field.IsVariableGroup(row) or Field.IsRepeat(row):
                 list_tmp.append(val)
         Field.value = list_tmp
 
