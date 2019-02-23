@@ -13,6 +13,7 @@ class HeaderKeywords(Enum):
     komoku = ['項目名']
     ichi = ['位置', '位置左端', 'カラム']
     keta = ['バイト数', '桁数']
+    kaiso = ['階層', 'レベル', 'ﾚﾍﾞﾙ', 'レベル番号']
     repeat = ['繰返し', '繰返', '繰り返し', '繰り返']
     varname = ['変数名']
     fugo = ['符号', 'コード']
