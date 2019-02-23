@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from enum import IntEnum, Enum
+from enum import IntEnum
 from itertools import zip_longest
 from .HeaderKeywordsClass import HeaderKeywords
 
@@ -34,6 +34,7 @@ class HeaderInfoFactory:
             komoku = self.__GetIndex__(header, HKW.komoku.value)
             ichi = self.__GetIndex__(header, HKW.ichi.value)
             keta = self.__GetIndex__(header, HKW.keta.value)
+            kaiso = self.__GetIndex__(header, HKW.kaiso.value)
             if self.__GetIndex__(header, HKW.repeat.value) is not None:
                 repeat = self.__GetIndex__(header, HKW.repeat.value)
             if self.__GetIndex__(header, HKW.varname.value) is not None:
