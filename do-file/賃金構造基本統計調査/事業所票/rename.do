@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/25 04:50:19
+    Date: 2019/02/25 05:59:43
 ----------------------------------------------------------------------*/
 
 
@@ -122,7 +122,7 @@ local val_lab: value label var2
 capture replace Ken_NEWVARIABLE = var2  if `data'==1
 capture replace Ken_NEWVARIABLE = var2  if `data'==2
 capture replace Ken_NEWVARIABLE = var2  if `data'==3
-capture replace Ken_NEWVARIABLE = var2  if `data'==4
+capture replace Ken_NEWVARIABLE = var3  if `data'==4
 capture replace Ken_NEWVARIABLE = Ken  if `data'==5
 capture replace Ken_NEWVARIABLE = Ken  if `data'==6
 capture replace Ken_NEWVARIABLE = Ken  if `data'==7
@@ -174,7 +174,7 @@ local val_lab: value label var3
 capture replace JigyoRen_NEWVARIABLE = var3  if `data'==1
 capture replace JigyoRen_NEWVARIABLE = var3  if `data'==2
 capture replace JigyoRen_NEWVARIABLE = var3  if `data'==3
-capture replace JigyoRen_NEWVARIABLE = var3  if `data'==4
+capture replace JigyoRen_NEWVARIABLE = var4  if `data'==4
 capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==5
 capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==6
 capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==7
@@ -226,7 +226,7 @@ local val_lab: value label var4
 capture replace M_Shi_NEWVARIABLE = var4  if `data'==1
 capture replace M_Shi_NEWVARIABLE = var4  if `data'==2
 capture replace M_Shi_NEWVARIABLE = var4  if `data'==3
-capture replace M_Shi_NEWVARIABLE = var5  if `data'==4
+capture replace M_Shi_NEWVARIABLE = var7  if `data'==4
 capture replace M_Shi_NEWVARIABLE = M_Shi  if `data'==5
 capture replace M_Shi_NEWVARIABLE = M_Shi  if `data'==6
 capture replace M_Shi_NEWVARIABLE = M_Shi  if `data'==7
@@ -278,7 +278,7 @@ local val_lab: value label var5
 capture replace M_Chosaku_NEWVARIABLE = var5  if `data'==1
 capture replace M_Chosaku_NEWVARIABLE = var5  if `data'==2
 capture replace M_Chosaku_NEWVARIABLE = var5  if `data'==3
-capture replace M_Chosaku_NEWVARIABLE = var6  if `data'==4
+capture replace M_Chosaku_NEWVARIABLE = var8  if `data'==4
 capture replace M_Chosaku_NEWVARIABLE = M_Chosaku  if `data'==5
 capture replace M_Chosaku_NEWVARIABLE = M_Chosaku  if `data'==6
 capture replace M_Chosaku_NEWVARIABLE = M_Chosaku  if `data'==7
@@ -316,9 +316,9 @@ capture label values M_Chosaku_NEWVARIABLE `val_lab'
     Values (Data 8):  
     Values (Data 9):  
     Values (Data 10): 
-    Values (Data 11):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 12):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 13):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
+    Values (Data 11):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 12):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 13):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
 
 ----------------------------------------------------------------------*/
 gen M_JigyoBan_NEWVARIABLE = .
@@ -327,7 +327,7 @@ local val_lab: value label var6
 capture replace M_JigyoBan_NEWVARIABLE = var6  if `data'==1
 capture replace M_JigyoBan_NEWVARIABLE = var6  if `data'==2
 capture replace M_JigyoBan_NEWVARIABLE = var6  if `data'==3
-capture replace M_JigyoBan_NEWVARIABLE = var7  if `data'==4
+capture replace M_JigyoBan_NEWVARIABLE = var10  if `data'==4
 capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if `data'==5
 capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if `data'==6
 capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if `data'==7
@@ -379,7 +379,7 @@ local val_lab: value label var7
 capture replace M_Sangyo_NEWVARIABLE = var7  if `data'==1
 capture replace M_Sangyo_NEWVARIABLE = var7  if `data'==2
 capture replace M_Sangyo_NEWVARIABLE = var7  if `data'==3
-capture replace M_Sangyo_NEWVARIABLE = var8  if `data'==4
+capture replace M_Sangyo_NEWVARIABLE = var12  if `data'==4
 capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==5
 capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==6
 capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==7
@@ -409,17 +409,17 @@ capture label values M_Sangyo_NEWVARIABLE `val_lab'
     Description (Data 12): None
     Description (Data 13): None
 
-    Values (Base):     0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 1):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 2):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 3):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 4):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 5):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 6):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 7):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 8):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 9):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 10):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
+    Values (Base):     0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 1):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 2):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 3):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 4):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 5):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 6):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 7):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 8):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 9):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 10):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
     Values (Data 11): None
     Values (Data 12): None
     Values (Data 13): None
@@ -431,7 +431,7 @@ local val_lab: value label var8
 capture replace M_JigyoKibo_NEWVARIABLE = var8  if `data'==1
 capture replace M_JigyoKibo_NEWVARIABLE = var8  if `data'==2
 capture replace M_JigyoKibo_NEWVARIABLE = var8  if `data'==3
-capture replace M_JigyoKibo_NEWVARIABLE = var9  if `data'==4
+capture replace M_JigyoKibo_NEWVARIABLE = var13  if `data'==4
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==5
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==6
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==7
@@ -458,20 +458,20 @@ capture label values M_JigyoKibo_NEWVARIABLE `val_lab'
     Description (Data 12): "母集団: 臨時雇用者規模番号"
     Description (Data 13): "母集団: 臨時雇用者規模番号"
 
-    Values (Base):     1: 0~9人, 3: 100人以上
-    Values (Data 1):   1: 0~9人, 3: 100人以上
-    Values (Data 2):   1: 0~9人, 3: 100人以上
-    Values (Data 3):   1: 0~9人, 3: 100人以上
-    Values (Data 4):   1: 0~9人, 3: 100人以上
-    Values (Data 5):   1: 0~9人, 3: 100人以上
-    Values (Data 6):   1: 0~9人, 3: 100人以上
-    Values (Data 7):   1: 0~9人, 3: 100人以上
-    Values (Data 8):   1: 0~9人, 3: 100人以上
-    Values (Data 9):   1: 0~9人, 3: 100人以上
-    Values (Data 10):  1: 0~9人, 3: 100人以上
-    Values (Data 11):  1: 0~9人, 3: 100人以上
-    Values (Data 12):  1: 0~9人, 3: 100人以上
-    Values (Data 13):  1: 0~9人, 3: 100人以上
+    Values (Base):     1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 1):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 2):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 3):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 4):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 5):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 6):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 7):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 8):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 9):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 10):  1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 11):  1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 12):  1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 13):  1: 0~9人, 2: 10~99人, 3: 100人以上
 
 ----------------------------------------------------------------------*/
 gen M_RinjiKibo_NEWVARIABLE = .
@@ -480,7 +480,7 @@ local val_lab: value label var9
 capture replace M_RinjiKibo_NEWVARIABLE = var9  if `data'==1
 capture replace M_RinjiKibo_NEWVARIABLE = var9  if `data'==2
 capture replace M_RinjiKibo_NEWVARIABLE = var9  if `data'==3
-capture replace M_RinjiKibo_NEWVARIABLE = var10  if `data'==4
+capture replace M_RinjiKibo_NEWVARIABLE = var14  if `data'==4
 capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==5
 capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==6
 capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==7
@@ -510,20 +510,20 @@ capture label values M_RinjiKibo_NEWVARIABLE `val_lab'
     Description (Data 12): "母集団: 企業規模番号"
     Description (Data 13): "母集団: 企業規模番号"
 
-    Values (Base):     1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 1):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 2):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 3):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 4):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 5):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 6):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 7):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 8):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 9):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 10):  1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 11):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 12):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 13):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
+    Values (Base):     1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 1):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 2):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 3):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 4):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 5):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 6):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 7):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 8):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 9):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 10):  1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 11):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 12):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 13):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
 
 ----------------------------------------------------------------------*/
 gen M_KigyoKibo_NEWVARIABLE = .
@@ -532,7 +532,7 @@ local val_lab: value label var10
 capture replace M_KigyoKibo_NEWVARIABLE = var10  if `data'==1
 capture replace M_KigyoKibo_NEWVARIABLE = var10  if `data'==2
 capture replace M_KigyoKibo_NEWVARIABLE = var10  if `data'==3
-capture replace M_KigyoKibo_NEWVARIABLE = var11  if `data'==4
+capture replace M_KigyoKibo_NEWVARIABLE = var15  if `data'==4
 capture replace M_KigyoKibo_NEWVARIABLE = M_KigyoKibo  if `data'==5
 capture replace M_KigyoKibo_NEWVARIABLE = M_KigyoKibo  if `data'==6
 capture replace M_KigyoKibo_NEWVARIABLE = M_KigyoKibo  if `data'==7
@@ -584,7 +584,7 @@ local val_lab: value label var11
 capture replace Sangyo_NEWVARIABLE = var11  if `data'==1
 capture replace Sangyo_NEWVARIABLE = var11  if `data'==2
 capture replace Sangyo_NEWVARIABLE = var11  if `data'==3
-capture replace Sangyo_NEWVARIABLE = var13  if `data'==4
+capture replace Sangyo_NEWVARIABLE = var18  if `data'==4
 capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==5
 capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==6
 capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==7
@@ -614,20 +614,20 @@ capture label values Sangyo_NEWVARIABLE `val_lab'
     Description (Data 12): "調査票: 事業所規模番号"
     Description (Data 13): "調査票: 事業所規模番号"
 
-    Values (Base):     0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 1):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 2):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 3):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 4):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 5):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 6):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 7):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 8):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 9):   0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 10):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 11):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 12):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
-    Values (Data 13):  0: 15,000人以上, 2: 1,000~4,999人, 4: 300~499人, 6: 50~99人, 8: 10~29人
+    Values (Base):     0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 1):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 2):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 3):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 4):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 5):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 6):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 7):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 8):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 9):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 10):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 11):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 12):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 13):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
 
 ----------------------------------------------------------------------*/
 gen JigyoKibo_NEWVARIABLE = .
@@ -636,7 +636,7 @@ local val_lab: value label var12
 capture replace JigyoKibo_NEWVARIABLE = var12  if `data'==1
 capture replace JigyoKibo_NEWVARIABLE = var12  if `data'==2
 capture replace JigyoKibo_NEWVARIABLE = var12  if `data'==3
-capture replace JigyoKibo_NEWVARIABLE = var14  if `data'==4
+capture replace JigyoKibo_NEWVARIABLE = var19  if `data'==4
 capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==5
 capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==6
 capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==7
@@ -666,20 +666,20 @@ capture label values JigyoKibo_NEWVARIABLE `val_lab'
     Description (Data 12): "調査票: 臨時雇用者規模番号"
     Description (Data 13): "調査票: 臨時雇用者規模番号"
 
-    Values (Base):     1: 0~9人, 3: 100人以上
-    Values (Data 1):   1: 0~9人, 3: 100人以上
-    Values (Data 2):   1: 0~9人, 3: 100人以上
-    Values (Data 3):   1: 0~9人, 3: 100人以上
-    Values (Data 4):   1: 0~9人, 3: 100人以上
-    Values (Data 5):   1: 0~9人, 3: 100人以上
-    Values (Data 6):   1: 0~9人, 3: 100人以上
-    Values (Data 7):   1: 0~9人, 3: 100人以上
-    Values (Data 8):   1: 0~9人, 3: 100人以上
-    Values (Data 9):   1: 0~9人, 3: 100人以上
-    Values (Data 10):  1: 0~9人, 3: 100人以上
-    Values (Data 11):  1: 0~9人, 3: 100人以上
-    Values (Data 12):  1: 0~9人, 3: 100人以上
-    Values (Data 13):  1: 0~9人, 3: 100人以上
+    Values (Base):     1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 1):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 2):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 3):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 4):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 5):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 6):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 7):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 8):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 9):   1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 10):  1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 11):  1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 12):  1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 13):  1: 0~9人, 2: 10~99人, 3: 100人以上
 
 ----------------------------------------------------------------------*/
 gen RinjiKibo_NEWVARIABLE = .
@@ -688,7 +688,7 @@ local val_lab: value label var13
 capture replace RinjiKibo_NEWVARIABLE = var13  if `data'==1
 capture replace RinjiKibo_NEWVARIABLE = var13  if `data'==2
 capture replace RinjiKibo_NEWVARIABLE = var13  if `data'==3
-capture replace RinjiKibo_NEWVARIABLE = var15  if `data'==4
+capture replace RinjiKibo_NEWVARIABLE = var20  if `data'==4
 capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==5
 capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==6
 capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==7
@@ -718,20 +718,20 @@ capture label values RinjiKibo_NEWVARIABLE `val_lab'
     Description (Data 12): "調査票: 企業規模番号"
     Description (Data 13): "調査票: 企業規模番号"
 
-    Values (Base):     1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 1):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 2):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 3):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 4):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 5):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 6):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 7):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 8):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 9):   1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 10):  1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 11):  1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 12):  1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
-    Values (Data 13):  1: 5,000人以上, 3: 500~999人, 5: 100~299人, 7: 10~29人
+    Values (Base):     1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 1):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 2):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 3):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 4):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 5):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 6):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 7):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 8):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 9):   1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 10):  1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 11):  1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 12):  1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
+    Values (Data 13):  1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
 
 ----------------------------------------------------------------------*/
 gen KigyoKibo_NEWVARIABLE = .
@@ -740,7 +740,7 @@ local val_lab: value label var14
 capture replace KigyoKibo_NEWVARIABLE = var14  if `data'==1
 capture replace KigyoKibo_NEWVARIABLE = var14  if `data'==2
 capture replace KigyoKibo_NEWVARIABLE = var14  if `data'==3
-capture replace KigyoKibo_NEWVARIABLE = var16  if `data'==4
+capture replace KigyoKibo_NEWVARIABLE = var21  if `data'==4
 capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==5
 capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==6
 capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==7
@@ -792,7 +792,7 @@ local val_lab: value label var15
 capture replace JigyoRitsu_NEWVARIABLE = var15  if `data'==1
 capture replace JigyoRitsu_NEWVARIABLE = var15  if `data'==2
 capture replace JigyoRitsu_NEWVARIABLE = var15  if `data'==3
-capture replace JigyoRitsu_NEWVARIABLE = var17  if `data'==4
+capture replace JigyoRitsu_NEWVARIABLE = var22  if `data'==4
 capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==5
 capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==6
 capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==7
@@ -844,7 +844,7 @@ local val_lab: value label var16
 capture replace RodoRitsu_NEWVARIABLE = var16  if `data'==1
 capture replace RodoRitsu_NEWVARIABLE = var16  if `data'==2
 capture replace RodoRitsu_NEWVARIABLE = var16  if `data'==3
-capture replace RodoRitsu_NEWVARIABLE = var18  if `data'==4
+capture replace RodoRitsu_NEWVARIABLE = var23  if `data'==4
 capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==5
 capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==6
 capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==7
@@ -896,7 +896,7 @@ local val_lab: value label var17
 capture replace RinjiRitsu_NEWVARIABLE = var17  if `data'==1
 capture replace RinjiRitsu_NEWVARIABLE = var17  if `data'==2
 capture replace RinjiRitsu_NEWVARIABLE = var17  if `data'==3
-capture replace RinjiRitsu_NEWVARIABLE = var19  if `data'==4
+capture replace RinjiRitsu_NEWVARIABLE = var24  if `data'==4
 capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==5
 capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==6
 capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==7
@@ -911,32 +911,32 @@ capture label values RinjiRitsu_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "抽出率: 本・支区分"
+    Description (Base):    "本・支区分"
     Description (Data 1):  "本支区分"
     Description (Data 2):  "本支区分"
     Description (Data 3):  "本支区分"
-    Description (Data 4):  "抽出率: 本・支区分"
-    Description (Data 5):  "抽出率: 本・支区分"
-    Description (Data 6):  "抽出率: 本・支区分"
-    Description (Data 7):  "抽出率: 本・支区分"
-    Description (Data 8):  "抽出率: 本・支区分"
-    Description (Data 9):  "抽出率: 本・支区分"
-    Description (Data 10): "抽出率: 本・支区分"
+    Description (Data 4):  "本・支区分"
+    Description (Data 5):  "本・支区分"
+    Description (Data 6):  "本・支区分"
+    Description (Data 7):  "本・支区分"
+    Description (Data 8):  "本・支区分"
+    Description (Data 9):  "本・支区分"
+    Description (Data 10): "本・支区分"
     Description (Data 11): None
     Description (Data 12): None
     Description (Data 13): None
 
-    Values (Base):     1: 単独事業所, 3: 支社
-    Values (Data 1):   1: 単独, 3: 支社
-    Values (Data 2):   1: 単独, 3: 支社
-    Values (Data 3):   1: 単独, 3: 支社
-    Values (Data 4):   1: 単独事業所, 3: 支社
-    Values (Data 5):   1: 単独事業所, 3: 支社
-    Values (Data 6):   1: 単独事業所, 3: 支社
-    Values (Data 7):   1: 単独事業所, 3: 支社
-    Values (Data 8):   1: 単独事業所, 3: 支社
-    Values (Data 9):   1: 単独事業所, 3: 支社
-    Values (Data 10):  1: 単独事業所, 3: 支社
+    Values (Base):     1: 単独事業所, 2: 本社, 3: 支社
+    Values (Data 1):   1: 単独, 2: 本社, 3: 支社
+    Values (Data 2):   1: 単独, 2: 本社, 3: 支社
+    Values (Data 3):   1: 単独, 2: 本社, 3: 支社
+    Values (Data 4):   1: 単独事業所, 2: 本社, 3: 支社
+    Values (Data 5):   1: 単独事業所, 2: 本社, 3: 支社
+    Values (Data 6):   1: 単独事業所, 2: 本社, 3: 支社
+    Values (Data 7):   1: 単独事業所, 2: 本社, 3: 支社
+    Values (Data 8):   1: 単独事業所, 2: 本社, 3: 支社
+    Values (Data 9):   1: 単独事業所, 2: 本社, 3: 支社
+    Values (Data 10):  1: 単独事業所, 2: 本社, 3: 支社
     Values (Data 11): None
     Values (Data 12): None
     Values (Data 13): None
@@ -948,7 +948,7 @@ local val_lab: value label var18
 capture replace M_Honshi_NEWVARIABLE = var18  if `data'==1
 capture replace M_Honshi_NEWVARIABLE = var18  if `data'==2
 capture replace M_Honshi_NEWVARIABLE = var18  if `data'==3
-capture replace M_Honshi_NEWVARIABLE = var20  if `data'==4
+capture replace M_Honshi_NEWVARIABLE = var26  if `data'==4
 capture replace M_Honshi_NEWVARIABLE = M_Honshi  if `data'==5
 capture replace M_Honshi_NEWVARIABLE = M_Honshi  if `data'==6
 capture replace M_Honshi_NEWVARIABLE = M_Honshi  if `data'==7
@@ -960,35 +960,35 @@ capture label values M_Honshi_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "抽出率: 民・公区分"
+    Description (Base):    "民・公区分"
     Description (Data 1):  "民公区分"
     Description (Data 2):  "民公区分"
     Description (Data 3):  "民公区分"
-    Description (Data 4):  "抽出率: 民・公区分"
-    Description (Data 5):  "抽出率: 民・公区分"
-    Description (Data 6):  "抽出率: 民・公区分"
-    Description (Data 7):  "抽出率: 民・公区分"
-    Description (Data 8):  "抽出率: 民・公区分"
-    Description (Data 9):  "抽出率: 民・公区分"
-    Description (Data 10): "抽出率: 民・公区分"
-    Description (Data 11): "抽出率: 民・公区分"
-    Description (Data 12): "抽出率: 母集団時の民・公区分"
-    Description (Data 13): "抽出率: 母集団時の民・公区分"
+    Description (Data 4):  "民・公区分"
+    Description (Data 5):  "民・公区分"
+    Description (Data 6):  "民・公区分"
+    Description (Data 7):  "民・公区分"
+    Description (Data 8):  "民・公区分"
+    Description (Data 9):  "民・公区分"
+    Description (Data 10): "民・公区分"
+    Description (Data 11): "民・公区分"
+    Description (Data 12): "母集団時の民・公区分"
+    Description (Data 13): "母集団時の民・公区分"
 
-    Values (Base):     4: 民営事業所
-    Values (Data 1):   4: 民営事業所
-    Values (Data 2):   4: 民営事業所
-    Values (Data 3):   4: 民営事業所
-    Values (Data 4):   4: 民営事業所
-    Values (Data 5):   4: 民営事業所
-    Values (Data 6):   4: 民営事業所
-    Values (Data 7):   4: 民営事業所
-    Values (Data 8):   4: 民営事業所
-    Values (Data 9):   4: 民営事業所
-    Values (Data 10):  4: 民営事業所
-    Values (Data 11):  4: 民営事業所
-    Values (Data 12):  4: 民営事業所
-    Values (Data 13):  4: 民営事業所
+    Values (Base):     4: 民営事業所, 5: 公営事業所
+    Values (Data 1):   4: 民営事業所, 5: 公営事業所
+    Values (Data 2):   4: 民営事業所, 5: 公営事業所
+    Values (Data 3):   4: 民営事業所, 5: 公営事業所
+    Values (Data 4):   4: 民営事業所, 5: 公営事業所
+    Values (Data 5):   4: 民営事業所, 5: 公営事業所
+    Values (Data 6):   4: 民営事業所, 5: 公営事業所
+    Values (Data 7):   4: 民営事業所, 5: 公営事業所
+    Values (Data 8):   4: 民営事業所, 5: 公営事業所
+    Values (Data 9):   4: 民営事業所, 5: 公営事業所
+    Values (Data 10):  4: 民営事業所, 5: 公営事業所
+    Values (Data 11):  4: 民営事業所, 5: 公営事業所
+    Values (Data 12):  4: 民営事業所, 5: 公営事業所
+    Values (Data 13):  4: 民営事業所, 5: 公営事業所
 
 ----------------------------------------------------------------------*/
 gen M_Minko_NEWVARIABLE = .
@@ -997,7 +997,7 @@ local val_lab: value label var19
 capture replace M_Minko_NEWVARIABLE = var19  if `data'==1
 capture replace M_Minko_NEWVARIABLE = var19  if `data'==2
 capture replace M_Minko_NEWVARIABLE = var19  if `data'==3
-capture replace M_Minko_NEWVARIABLE = var21  if `data'==4
+capture replace M_Minko_NEWVARIABLE = var27  if `data'==4
 capture replace M_Minko_NEWVARIABLE = M_Minko  if `data'==5
 capture replace M_Minko_NEWVARIABLE = M_Minko  if `data'==6
 capture replace M_Minko_NEWVARIABLE = M_Minko  if `data'==7
@@ -1012,32 +1012,32 @@ capture label values M_Minko_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "抽出率: 種類"
+    Description (Base):    "種類"
     Description (Data 1):  "種類"
     Description (Data 2):  "種類"
     Description (Data 3):  "種類"
-    Description (Data 4):  "抽出率: 種類"
-    Description (Data 5):  "抽出率: 種類"
-    Description (Data 6):  "抽出率: 種類"
-    Description (Data 7):  "抽出率: 種類"
-    Description (Data 8):  "抽出率: 種類"
-    Description (Data 9):  "抽出率: 種類"
-    Description (Data 10): "抽出率: 種類"
+    Description (Data 4):  "種類"
+    Description (Data 5):  "種類"
+    Description (Data 6):  "種類"
+    Description (Data 7):  "種類"
+    Description (Data 8):  "種類"
+    Description (Data 9):  "種類"
+    Description (Data 10): "種類"
     Description (Data 11): None
     Description (Data 12): None
     Description (Data 13): None
 
-    Values (Base):     1: 国, 3: 市区町村, 5: その他
-    Values (Data 1):   1: 国, 3: 市区町村, 5: その他
-    Values (Data 2):   1: 国, 3: 市区町村, 5: その他
-    Values (Data 3):   1: 国, 3: 市区町村, 5: その他
-    Values (Data 4):   1: 国, 3: 市区町村, 5: その他
-    Values (Data 5):   1: 国, 3: 市区町村, 5: その他
-    Values (Data 6):   1: 国, 3: 市区町村, 5: その他
-    Values (Data 7):   1: 国, 3: 市区町村, 5: その他
-    Values (Data 8):   1: 国, 3: 市区町村, 5: その他
-    Values (Data 9):   1: 国, 3: 市区町村, 5: その他
-    Values (Data 10):  1: 国, 3: 市区町村, 5: その他
+    Values (Base):     1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
+    Values (Data 1):   1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
+    Values (Data 2):   1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
+    Values (Data 3):   1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
+    Values (Data 4):   1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
+    Values (Data 5):   1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
+    Values (Data 6):   1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
+    Values (Data 7):   1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
+    Values (Data 8):   1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
+    Values (Data 9):   1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
+    Values (Data 10):  1: 国, 2: 都道府県, 3: 市区町村, 4: 独立行政法人, 5: その他
     Values (Data 11): None
     Values (Data 12): None
     Values (Data 13): None
@@ -1049,7 +1049,7 @@ local val_lab: value label var20
 capture replace M_Syurui_NEWVARIABLE = var20  if `data'==1
 capture replace M_Syurui_NEWVARIABLE = var20  if `data'==2
 capture replace M_Syurui_NEWVARIABLE = var20  if `data'==3
-capture replace M_Syurui_NEWVARIABLE = var22  if `data'==4
+capture replace M_Syurui_NEWVARIABLE = var28  if `data'==4
 capture replace M_Syurui_NEWVARIABLE = M_Syurui  if `data'==5
 capture replace M_Syurui_NEWVARIABLE = M_Syurui  if `data'==6
 capture replace M_Syurui_NEWVARIABLE = M_Syurui  if `data'==7
@@ -1058,48 +1058,6 @@ capture replace M_Syurui_NEWVARIABLE = M_Syurui  if `data'==9
 capture replace M_Syurui_NEWVARIABLE = M_Syurui  if `data'==10
 capture label variable M_Syurui_NEWVARIABLE `var_lab'
 capture label values M_Syurui_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "スペース"
-    Description (Data 1):  "スペース"
-    Description (Data 2):  "スペース"
-    Description (Data 3):  "スペース"
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-
-----------------------------------------------------------------------*/
-gen v1_NEWVARIABLE = .
-local var_lab: variable label var21
-local val_lab: value label var21
-capture replace v1_NEWVARIABLE = var21  if `data'==1
-capture replace v1_NEWVARIABLE = var21  if `data'==2
-capture replace v1_NEWVARIABLE = var21  if `data'==3
-capture label variable v1_NEWVARIABLE `var_lab'
-capture label values v1_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -1135,12 +1093,12 @@ capture label values v1_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Syain_M_NEWVARIABLE = .
-local var_lab: variable label var22
-local val_lab: value label var22
-capture replace Syain_M_NEWVARIABLE = var22  if `data'==1
-capture replace Syain_M_NEWVARIABLE = var22  if `data'==2
-capture replace Syain_M_NEWVARIABLE = var22  if `data'==3
-capture replace Syain_M_NEWVARIABLE = var24  if `data'==4
+local var_lab: variable label var21
+local val_lab: value label var21
+capture replace Syain_M_NEWVARIABLE = var21  if `data'==1
+capture replace Syain_M_NEWVARIABLE = var21  if `data'==2
+capture replace Syain_M_NEWVARIABLE = var21  if `data'==3
+capture replace Syain_M_NEWVARIABLE = var30  if `data'==4
 capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==5
 capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==6
 capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==7
@@ -1187,12 +1145,12 @@ capture label values Syain_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Syain_W_NEWVARIABLE = .
-local var_lab: variable label var23
-local val_lab: value label var23
-capture replace Syain_W_NEWVARIABLE = var23  if `data'==1
-capture replace Syain_W_NEWVARIABLE = var23  if `data'==2
-capture replace Syain_W_NEWVARIABLE = var23  if `data'==3
-capture replace Syain_W_NEWVARIABLE = var25  if `data'==4
+local var_lab: variable label var22
+local val_lab: value label var22
+capture replace Syain_W_NEWVARIABLE = var22  if `data'==1
+capture replace Syain_W_NEWVARIABLE = var22  if `data'==2
+capture replace Syain_W_NEWVARIABLE = var22  if `data'==3
+capture replace Syain_W_NEWVARIABLE = var31  if `data'==4
 capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==5
 capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==6
 capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==7
@@ -1239,12 +1197,12 @@ capture label values Syain_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Hisyain_M_NEWVARIABLE = .
-local var_lab: variable label var24
-local val_lab: value label var24
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==1
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==2
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==3
-capture replace Hisyain_M_NEWVARIABLE = var26  if `data'==4
+local var_lab: variable label var23
+local val_lab: value label var23
+capture replace Hisyain_M_NEWVARIABLE = var23  if `data'==1
+capture replace Hisyain_M_NEWVARIABLE = var23  if `data'==2
+capture replace Hisyain_M_NEWVARIABLE = var23  if `data'==3
+capture replace Hisyain_M_NEWVARIABLE = var32  if `data'==4
 capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==5
 capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==6
 capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==7
@@ -1291,12 +1249,12 @@ capture label values Hisyain_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Hisyain_W_NEWVARIABLE = .
-local var_lab: variable label var25
-local val_lab: value label var25
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==1
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==2
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==3
-capture replace Hisyain_W_NEWVARIABLE = var27  if `data'==4
+local var_lab: variable label var24
+local val_lab: value label var24
+capture replace Hisyain_W_NEWVARIABLE = var24  if `data'==1
+capture replace Hisyain_W_NEWVARIABLE = var24  if `data'==2
+capture replace Hisyain_W_NEWVARIABLE = var24  if `data'==3
+capture replace Hisyain_W_NEWVARIABLE = var33  if `data'==4
 capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==5
 capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==6
 capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==7
@@ -1311,20 +1269,20 @@ capture label values Hisyain_W_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者数正社員・正職員以外: 臨時労働者数"
+    Description (Base):    "臨時労働者数"
     Description (Data 1):  "臨時労働者数"
     Description (Data 2):  "臨時労働者数"
     Description (Data 3):  "臨時労働者数"
-    Description (Data 4):  "常用労働者数正社員・正職員以外: 臨時労働者数"
-    Description (Data 5):  "常用労働者数正社員・正職員以外: 臨時労働者数"
-    Description (Data 6):  "常用労働者数正社員・正職員以外: 臨時労働者数"
-    Description (Data 7):  "常用労働者数正社員・正職員以外: 臨時労働者数"
-    Description (Data 8):  "常用労働者数正社員・正職員以外: 臨時労働者数"
-    Description (Data 9):  "常用労働者数正社員・正職員以外: 臨時労働者数"
-    Description (Data 10): "常用労働者数正社員・正職員以外: 臨時労働者数"
-    Description (Data 11): "常用労働者数正社員・正職員以外: 臨時労働者数"
-    Description (Data 12): "常用労働者数正社員・正職員以外: 臨時労働者数"
-    Description (Data 13): "常用労働者数正社員・正職員以外: 臨時労働者数"
+    Description (Data 4):  "臨時労働者数"
+    Description (Data 5):  "臨時労働者数"
+    Description (Data 6):  "臨時労働者数"
+    Description (Data 7):  "臨時労働者数"
+    Description (Data 8):  "臨時労働者数"
+    Description (Data 9):  "臨時労働者数"
+    Description (Data 10): "臨時労働者数"
+    Description (Data 11): "臨時労働者数"
+    Description (Data 12): "臨時労働者数"
+    Description (Data 13): "臨時労働者数"
 
     Values (Base):    
     Values (Data 1):  
@@ -1343,12 +1301,12 @@ capture label values Hisyain_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Rinji_NEWVARIABLE = .
-local var_lab: variable label var26
-local val_lab: value label var26
-capture replace Rinji_NEWVARIABLE = var26  if `data'==1
-capture replace Rinji_NEWVARIABLE = var26  if `data'==2
-capture replace Rinji_NEWVARIABLE = var26  if `data'==3
-capture replace Rinji_NEWVARIABLE = var28  if `data'==4
+local var_lab: variable label var25
+local val_lab: value label var25
+capture replace Rinji_NEWVARIABLE = var25  if `data'==1
+capture replace Rinji_NEWVARIABLE = var25  if `data'==2
+capture replace Rinji_NEWVARIABLE = var25  if `data'==3
+capture replace Rinji_NEWVARIABLE = var34  if `data'==4
 capture replace Rinji_NEWVARIABLE = Rinji  if `data'==5
 capture replace Rinji_NEWVARIABLE = Rinji  if `data'==6
 capture replace Rinji_NEWVARIABLE = Rinji  if `data'==7
@@ -1395,12 +1353,12 @@ capture label values Rinji_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen SangyoD_NEWVARIABLE = .
-local var_lab: variable label var27
-local val_lab: value label var27
-capture replace SangyoD_NEWVARIABLE = var27  if `data'==1
-capture replace SangyoD_NEWVARIABLE = var27  if `data'==2
-capture replace SangyoD_NEWVARIABLE = var27  if `data'==3
-capture replace SangyoD_NEWVARIABLE = var29  if `data'==4
+local var_lab: variable label var26
+local val_lab: value label var26
+capture replace SangyoD_NEWVARIABLE = var26  if `data'==1
+capture replace SangyoD_NEWVARIABLE = var26  if `data'==2
+capture replace SangyoD_NEWVARIABLE = var26  if `data'==3
+capture replace SangyoD_NEWVARIABLE = var35  if `data'==4
 capture replace SangyoD_NEWVARIABLE = SangyoD  if `data'==5
 capture replace SangyoD_NEWVARIABLE = SangyoD  if `data'==6
 capture replace SangyoD_NEWVARIABLE = SangyoD  if `data'==7
@@ -1447,12 +1405,12 @@ capture label values SangyoD_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen SangyoC_NEWVARIABLE = .
-local var_lab: variable label var28
-local val_lab: value label var28
-capture replace SangyoC_NEWVARIABLE = var28  if `data'==1
-capture replace SangyoC_NEWVARIABLE = var28  if `data'==2
-capture replace SangyoC_NEWVARIABLE = var28  if `data'==3
-capture replace SangyoC_NEWVARIABLE = var30  if `data'==4
+local var_lab: variable label var27
+local val_lab: value label var27
+capture replace SangyoC_NEWVARIABLE = var27  if `data'==1
+capture replace SangyoC_NEWVARIABLE = var27  if `data'==2
+capture replace SangyoC_NEWVARIABLE = var27  if `data'==3
+capture replace SangyoC_NEWVARIABLE = var36  if `data'==4
 capture replace SangyoC_NEWVARIABLE = SangyoC  if `data'==5
 capture replace SangyoC_NEWVARIABLE = SangyoC  if `data'==6
 capture replace SangyoC_NEWVARIABLE = SangyoC  if `data'==7
@@ -1499,12 +1457,12 @@ capture label values SangyoC_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen SangyoS_NEWVARIABLE = .
-local var_lab: variable label var29
-local val_lab: value label var29
-capture replace SangyoS_NEWVARIABLE = var29  if `data'==1
-capture replace SangyoS_NEWVARIABLE = var29  if `data'==2
-capture replace SangyoS_NEWVARIABLE = var29  if `data'==3
-capture replace SangyoS_NEWVARIABLE = var31  if `data'==4
+local var_lab: variable label var28
+local val_lab: value label var28
+capture replace SangyoS_NEWVARIABLE = var28  if `data'==1
+capture replace SangyoS_NEWVARIABLE = var28  if `data'==2
+capture replace SangyoS_NEWVARIABLE = var28  if `data'==3
+capture replace SangyoS_NEWVARIABLE = var37  if `data'==4
 capture replace SangyoS_NEWVARIABLE = SangyoS  if `data'==5
 capture replace SangyoS_NEWVARIABLE = SangyoS  if `data'==6
 capture replace SangyoS_NEWVARIABLE = SangyoS  if `data'==7
@@ -1519,20 +1477,20 @@ capture label values SangyoS_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "初任給用産業番号: 企業規模"
+    Description (Base):    "初任給用: 企業規模"
     Description (Data 1):  "初任給用企業規模"
     Description (Data 2):  "初任給用企業規模"
     Description (Data 3):  "初任給用企業規模"
-    Description (Data 4):  "初任給用産業番号: 企業規模"
-    Description (Data 5):  "初任給用産業番号: 企業規模"
-    Description (Data 6):  "初任給用産業番号: 企業規模"
-    Description (Data 7):  "初任給用産業番号: 企業規模"
-    Description (Data 8):  "初任給用産業番号: 企業規模"
-    Description (Data 9):  "初任給用産業分類番号: 企業規模"
-    Description (Data 10): "初任給用産業分類番号: 企業規模"
-    Description (Data 11): "初任給用産業分類番号: 企業規模"
-    Description (Data 12): "初任給用産業分類番号: 企業規模"
-    Description (Data 13): "初任給用産業分類番号: 企業規模"
+    Description (Data 4):  "初任給用: 企業規模"
+    Description (Data 5):  "初任給用: 企業規模"
+    Description (Data 6):  "初任給用: 企業規模"
+    Description (Data 7):  "初任給用: 企業規模"
+    Description (Data 8):  "初任給用: 企業規模"
+    Description (Data 9):  "初任給用: 企業規模"
+    Description (Data 10): "初任給用: 企業規模"
+    Description (Data 11): "初任給用: 企業規模"
+    Description (Data 12): "初任給用: 企業規模"
+    Description (Data 13): "初任給用: 企業規模"
 
     Values (Base):    
     Values (Data 1):  
@@ -1551,12 +1509,12 @@ capture label values SangyoS_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen KigyoKiboKbn_NEWVARIABLE = .
-local var_lab: variable label var30
-local val_lab: value label var30
-capture replace KigyoKiboKbn_NEWVARIABLE = var30  if `data'==1
-capture replace KigyoKiboKbn_NEWVARIABLE = var30  if `data'==2
-capture replace KigyoKiboKbn_NEWVARIABLE = var30  if `data'==3
-capture replace KigyoKiboKbn_NEWVARIABLE = var32  if `data'==4
+local var_lab: variable label var29
+local val_lab: value label var29
+capture replace KigyoKiboKbn_NEWVARIABLE = var29  if `data'==1
+capture replace KigyoKiboKbn_NEWVARIABLE = var29  if `data'==2
+capture replace KigyoKiboKbn_NEWVARIABLE = var29  if `data'==3
+capture replace KigyoKiboKbn_NEWVARIABLE = var38  if `data'==4
 capture replace KigyoKiboKbn_NEWVARIABLE = KigyoKiboKbn  if `data'==5
 capture replace KigyoKiboKbn_NEWVARIABLE = KigyoKiboKbn  if `data'==6
 capture replace KigyoKiboKbn_NEWVARIABLE = KigyoKiboKbn  if `data'==7
@@ -1571,44 +1529,44 @@ capture label values KigyoKiboKbn_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "初任給用産業番号: 確定・未確定"
+    Description (Base):    "確定・未確定"
     Description (Data 1):  "確定・未確定"
     Description (Data 2):  "確定・未確定"
     Description (Data 3):  "確定・未確定"
-    Description (Data 4):  "初任給用産業番号: 確定・未確定"
-    Description (Data 5):  "初任給用産業番号: 確定・未確定"
-    Description (Data 6):  "初任給用産業番号: 確定・未確定"
-    Description (Data 7):  "初任給用産業番号: 確定・未確定"
-    Description (Data 8):  "初任給用産業番号: 確定・未確定"
-    Description (Data 9):  "初任給用産業分類番号: 確定・未確定"
-    Description (Data 10): "初任給用産業分類番号: 確定・未確定"
-    Description (Data 11): "初任給用産業分類番号: 確定・未確定"
-    Description (Data 12): "初任給用産業分類番号: 確定・未確定"
-    Description (Data 13): "初任給用産業分類番号: 確定・未確定"
+    Description (Data 4):  "確定・未確定"
+    Description (Data 5):  "確定・未確定"
+    Description (Data 6):  "確定・未確定"
+    Description (Data 7):  "確定・未確定"
+    Description (Data 8):  "確定・未確定"
+    Description (Data 9):  "確定・未確定"
+    Description (Data 10): "確定・未確定"
+    Description (Data 11): "確定・未確定"
+    Description (Data 12): "確定・未確定"
+    Description (Data 13): "確定・未確定"
 
-    Values (Base):     1: 確定
-    Values (Data 1):   1: 確定
-    Values (Data 2):   1: 確定
-    Values (Data 3):   1: 確定
-    Values (Data 4):   1: 確定
-    Values (Data 5):   1: 確定
-    Values (Data 6):   1: 確定
-    Values (Data 7):   1: 確定
-    Values (Data 8):   1: 確定
-    Values (Data 9):   1: 確定
-    Values (Data 10):  1: 確定
-    Values (Data 11):  1: 確定
-    Values (Data 12):  1: 確定
-    Values (Data 13):  1: 確定
+    Values (Base):     1: 確定, 2: 未確定
+    Values (Data 1):   1: 確定, 2: 未確定
+    Values (Data 2):   1: 確定, 2: 未確定
+    Values (Data 3):   1: 確定, 2: 未確定
+    Values (Data 4):   1: 確定, 2: 未確定
+    Values (Data 5):   1: 確定, 2: 未確定
+    Values (Data 6):   1: 確定, 2: 未確定
+    Values (Data 7):   1: 確定, 2: 未確定
+    Values (Data 8):   1: 確定, 2: 未確定
+    Values (Data 9):   1: 確定, 2: 未確定
+    Values (Data 10):  1: 確定, 2: 未確定
+    Values (Data 11):  1: 確定, 2: 未確定
+    Values (Data 12):  1: 確定, 2: 未確定
+    Values (Data 13):  1: 確定, 2: 未確定
 
 ----------------------------------------------------------------------*/
 gen Kakutei_NEWVARIABLE = .
-local var_lab: variable label var31
-local val_lab: value label var31
-capture replace Kakutei_NEWVARIABLE = var31  if `data'==1
-capture replace Kakutei_NEWVARIABLE = var31  if `data'==2
-capture replace Kakutei_NEWVARIABLE = var31  if `data'==3
-capture replace Kakutei_NEWVARIABLE = var33  if `data'==4
+local var_lab: variable label var30
+local val_lab: value label var30
+capture replace Kakutei_NEWVARIABLE = var30  if `data'==1
+capture replace Kakutei_NEWVARIABLE = var30  if `data'==2
+capture replace Kakutei_NEWVARIABLE = var30  if `data'==3
+capture replace Kakutei_NEWVARIABLE = var39  if `data'==4
 capture replace Kakutei_NEWVARIABLE = Kakutei  if `data'==5
 capture replace Kakutei_NEWVARIABLE = Kakutei  if `data'==6
 capture replace Kakutei_NEWVARIABLE = Kakutei  if `data'==7
@@ -1655,12 +1613,12 @@ capture label values Kakutei_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Kou_Gaku_M_NEWVARIABLE = .
-local var_lab: variable label var32
-local val_lab: value label var32
-capture replace Kou_Gaku_M_NEWVARIABLE = var32  if `data'==1
-capture replace Kou_Gaku_M_NEWVARIABLE = var32  if `data'==2
-capture replace Kou_Gaku_M_NEWVARIABLE = var32  if `data'==3
-capture replace Kou_Gaku_M_NEWVARIABLE = var34  if `data'==4
+local var_lab: variable label var31
+local val_lab: value label var31
+capture replace Kou_Gaku_M_NEWVARIABLE = var31  if `data'==1
+capture replace Kou_Gaku_M_NEWVARIABLE = var31  if `data'==2
+capture replace Kou_Gaku_M_NEWVARIABLE = var31  if `data'==3
+capture replace Kou_Gaku_M_NEWVARIABLE = var41  if `data'==4
 capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if `data'==5
 capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if `data'==6
 capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if `data'==7
@@ -1707,12 +1665,12 @@ capture label values Kou_Gaku_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Kou_Jin_M_NEWVARIABLE = .
-local var_lab: variable label var33
-local val_lab: value label var33
-capture replace Kou_Jin_M_NEWVARIABLE = var33  if `data'==1
-capture replace Kou_Jin_M_NEWVARIABLE = var33  if `data'==2
-capture replace Kou_Jin_M_NEWVARIABLE = var33  if `data'==3
-capture replace Kou_Jin_M_NEWVARIABLE = var35  if `data'==4
+local var_lab: variable label var32
+local val_lab: value label var32
+capture replace Kou_Jin_M_NEWVARIABLE = var32  if `data'==1
+capture replace Kou_Jin_M_NEWVARIABLE = var32  if `data'==2
+capture replace Kou_Jin_M_NEWVARIABLE = var32  if `data'==3
+capture replace Kou_Jin_M_NEWVARIABLE = var42  if `data'==4
 capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if `data'==5
 capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if `data'==6
 capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if `data'==7
@@ -1759,12 +1717,12 @@ capture label values Kou_Jin_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Kou_Gaku_W_NEWVARIABLE = .
-local var_lab: variable label var34
-local val_lab: value label var34
-capture replace Kou_Gaku_W_NEWVARIABLE = var34  if `data'==1
-capture replace Kou_Gaku_W_NEWVARIABLE = var34  if `data'==2
-capture replace Kou_Gaku_W_NEWVARIABLE = var34  if `data'==3
-capture replace Kou_Gaku_W_NEWVARIABLE = var36  if `data'==4
+local var_lab: variable label var33
+local val_lab: value label var33
+capture replace Kou_Gaku_W_NEWVARIABLE = var33  if `data'==1
+capture replace Kou_Gaku_W_NEWVARIABLE = var33  if `data'==2
+capture replace Kou_Gaku_W_NEWVARIABLE = var33  if `data'==3
+capture replace Kou_Gaku_W_NEWVARIABLE = var43  if `data'==4
 capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if `data'==5
 capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if `data'==6
 capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if `data'==7
@@ -1811,12 +1769,12 @@ capture label values Kou_Gaku_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Kou_Jin_W_NEWVARIABLE = .
-local var_lab: variable label var35
-local val_lab: value label var35
-capture replace Kou_Jin_W_NEWVARIABLE = var35  if `data'==1
-capture replace Kou_Jin_W_NEWVARIABLE = var35  if `data'==2
-capture replace Kou_Jin_W_NEWVARIABLE = var35  if `data'==3
-capture replace Kou_Jin_W_NEWVARIABLE = var37  if `data'==4
+local var_lab: variable label var34
+local val_lab: value label var34
+capture replace Kou_Jin_W_NEWVARIABLE = var34  if `data'==1
+capture replace Kou_Jin_W_NEWVARIABLE = var34  if `data'==2
+capture replace Kou_Jin_W_NEWVARIABLE = var34  if `data'==3
+capture replace Kou_Jin_W_NEWVARIABLE = var44  if `data'==4
 capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if `data'==5
 capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if `data'==6
 capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if `data'==7
@@ -1863,12 +1821,12 @@ capture label values Kou_Jin_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Tan_Gaku_M_NEWVARIABLE = .
-local var_lab: variable label var36
-local val_lab: value label var36
-capture replace Tan_Gaku_M_NEWVARIABLE = var36  if `data'==1
-capture replace Tan_Gaku_M_NEWVARIABLE = var36  if `data'==2
-capture replace Tan_Gaku_M_NEWVARIABLE = var36  if `data'==3
-capture replace Tan_Gaku_M_NEWVARIABLE = var38  if `data'==4
+local var_lab: variable label var35
+local val_lab: value label var35
+capture replace Tan_Gaku_M_NEWVARIABLE = var35  if `data'==1
+capture replace Tan_Gaku_M_NEWVARIABLE = var35  if `data'==2
+capture replace Tan_Gaku_M_NEWVARIABLE = var35  if `data'==3
+capture replace Tan_Gaku_M_NEWVARIABLE = var45  if `data'==4
 capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if `data'==5
 capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if `data'==6
 capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if `data'==7
@@ -1915,12 +1873,12 @@ capture label values Tan_Gaku_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Tan_Jin_M_NEWVARIABLE = .
-local var_lab: variable label var37
-local val_lab: value label var37
-capture replace Tan_Jin_M_NEWVARIABLE = var37  if `data'==1
-capture replace Tan_Jin_M_NEWVARIABLE = var37  if `data'==2
-capture replace Tan_Jin_M_NEWVARIABLE = var37  if `data'==3
-capture replace Tan_Jin_M_NEWVARIABLE = var39  if `data'==4
+local var_lab: variable label var36
+local val_lab: value label var36
+capture replace Tan_Jin_M_NEWVARIABLE = var36  if `data'==1
+capture replace Tan_Jin_M_NEWVARIABLE = var36  if `data'==2
+capture replace Tan_Jin_M_NEWVARIABLE = var36  if `data'==3
+capture replace Tan_Jin_M_NEWVARIABLE = var46  if `data'==4
 capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if `data'==5
 capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if `data'==6
 capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if `data'==7
@@ -1967,12 +1925,12 @@ capture label values Tan_Jin_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Tan_Gaku_W_NEWVARIABLE = .
-local var_lab: variable label var38
-local val_lab: value label var38
-capture replace Tan_Gaku_W_NEWVARIABLE = var38  if `data'==1
-capture replace Tan_Gaku_W_NEWVARIABLE = var38  if `data'==2
-capture replace Tan_Gaku_W_NEWVARIABLE = var38  if `data'==3
-capture replace Tan_Gaku_W_NEWVARIABLE = var40  if `data'==4
+local var_lab: variable label var37
+local val_lab: value label var37
+capture replace Tan_Gaku_W_NEWVARIABLE = var37  if `data'==1
+capture replace Tan_Gaku_W_NEWVARIABLE = var37  if `data'==2
+capture replace Tan_Gaku_W_NEWVARIABLE = var37  if `data'==3
+capture replace Tan_Gaku_W_NEWVARIABLE = var47  if `data'==4
 capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if `data'==5
 capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if `data'==6
 capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if `data'==7
@@ -2019,12 +1977,12 @@ capture label values Tan_Gaku_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Tan_Jin_W_NEWVARIABLE = .
-local var_lab: variable label var39
-local val_lab: value label var39
-capture replace Tan_Jin_W_NEWVARIABLE = var39  if `data'==1
-capture replace Tan_Jin_W_NEWVARIABLE = var39  if `data'==2
-capture replace Tan_Jin_W_NEWVARIABLE = var39  if `data'==3
-capture replace Tan_Jin_W_NEWVARIABLE = var41  if `data'==4
+local var_lab: variable label var38
+local val_lab: value label var38
+capture replace Tan_Jin_W_NEWVARIABLE = var38  if `data'==1
+capture replace Tan_Jin_W_NEWVARIABLE = var38  if `data'==2
+capture replace Tan_Jin_W_NEWVARIABLE = var38  if `data'==3
+capture replace Tan_Jin_W_NEWVARIABLE = var48  if `data'==4
 capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if `data'==5
 capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if `data'==6
 capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if `data'==7
@@ -2071,12 +2029,12 @@ capture label values Tan_Jin_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Dai_Jimu_Gaku_M_NEWVARIABLE = .
-local var_lab: variable label var40
-local val_lab: value label var40
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var40  if `data'==1
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var40  if `data'==2
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var40  if `data'==3
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var42  if `data'==4
+local var_lab: variable label var39
+local val_lab: value label var39
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if `data'==1
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if `data'==2
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if `data'==3
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var49  if `data'==4
 capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if `data'==5
 capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if `data'==6
 capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if `data'==7
@@ -2123,12 +2081,12 @@ capture label values Dai_Jimu_Gaku_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Dai_Jimu_Jin_M_NEWVARIABLE = .
-local var_lab: variable label var41
-local val_lab: value label var41
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var41  if `data'==1
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var41  if `data'==2
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var41  if `data'==3
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var43  if `data'==4
+local var_lab: variable label var40
+local val_lab: value label var40
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var40  if `data'==1
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var40  if `data'==2
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var40  if `data'==3
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var50  if `data'==4
 capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if `data'==5
 capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if `data'==6
 capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if `data'==7
@@ -2175,12 +2133,12 @@ capture label values Dai_Jimu_Jin_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Dai_Jimu_Gaku_W_NEWVARIABLE = .
-local var_lab: variable label var42
-local val_lab: value label var42
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var42  if `data'==1
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var42  if `data'==2
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var42  if `data'==3
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var44  if `data'==4
+local var_lab: variable label var41
+local val_lab: value label var41
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var41  if `data'==1
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var41  if `data'==2
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var41  if `data'==3
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var51  if `data'==4
 capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if `data'==5
 capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if `data'==6
 capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if `data'==7
@@ -2227,12 +2185,12 @@ capture label values Dai_Jimu_Gaku_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Dai_Jimu_Jin_W_NEWVARIABLE = .
-local var_lab: variable label var43
-local val_lab: value label var43
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var43  if `data'==1
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var43  if `data'==2
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var43  if `data'==3
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var45  if `data'==4
+local var_lab: variable label var42
+local val_lab: value label var42
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var42  if `data'==1
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var42  if `data'==2
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var42  if `data'==3
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var52  if `data'==4
 capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if `data'==5
 capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if `data'==6
 capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if `data'==7
@@ -2279,12 +2237,12 @@ capture label values Dai_Jimu_Jin_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Dai_Gijyu_Gaku_M_NEWVARIABLE = .
-local var_lab: variable label var44
-local val_lab: value label var44
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var44  if `data'==1
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var44  if `data'==2
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var44  if `data'==3
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var46  if `data'==4
+local var_lab: variable label var43
+local val_lab: value label var43
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var43  if `data'==1
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var43  if `data'==2
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var43  if `data'==3
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var53  if `data'==4
 capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if `data'==5
 capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if `data'==6
 capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if `data'==7
@@ -2331,12 +2289,12 @@ capture label values Dai_Gijyu_Gaku_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Dai_Gijyu_Jin_M_NEWVARIABLE = .
-local var_lab: variable label var45
-local val_lab: value label var45
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var45  if `data'==1
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var45  if `data'==2
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var45  if `data'==3
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var47  if `data'==4
+local var_lab: variable label var44
+local val_lab: value label var44
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var44  if `data'==1
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var44  if `data'==2
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var44  if `data'==3
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var54  if `data'==4
 capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if `data'==5
 capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if `data'==6
 capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if `data'==7
@@ -2383,12 +2341,12 @@ capture label values Dai_Gijyu_Jin_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Dai_Gijyu_Gaku_W_NEWVARIABLE = .
-local var_lab: variable label var46
-local val_lab: value label var46
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var46  if `data'==1
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var46  if `data'==2
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var46  if `data'==3
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var48  if `data'==4
+local var_lab: variable label var45
+local val_lab: value label var45
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var45  if `data'==1
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var45  if `data'==2
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var45  if `data'==3
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var55  if `data'==4
 capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if `data'==5
 capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if `data'==6
 capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if `data'==7
@@ -2435,12 +2393,12 @@ capture label values Dai_Gijyu_Gaku_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Dai_Gijyu_Jin_W_NEWVARIABLE = .
-local var_lab: variable label var47
-local val_lab: value label var47
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var47  if `data'==1
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var47  if `data'==2
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var47  if `data'==3
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var49  if `data'==4
+local var_lab: variable label var46
+local val_lab: value label var46
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var46  if `data'==1
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var46  if `data'==2
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var46  if `data'==3
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var56  if `data'==4
 capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if `data'==5
 capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if `data'==6
 capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if `data'==7
@@ -2487,12 +2445,12 @@ capture label values Dai_Gijyu_Jin_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen In_Gaku_M_NEWVARIABLE = .
-local var_lab: variable label var48
-local val_lab: value label var48
-capture replace In_Gaku_M_NEWVARIABLE = var48  if `data'==1
-capture replace In_Gaku_M_NEWVARIABLE = var48  if `data'==2
-capture replace In_Gaku_M_NEWVARIABLE = var48  if `data'==3
-capture replace In_Gaku_M_NEWVARIABLE = var50  if `data'==4
+local var_lab: variable label var47
+local val_lab: value label var47
+capture replace In_Gaku_M_NEWVARIABLE = var47  if `data'==1
+capture replace In_Gaku_M_NEWVARIABLE = var47  if `data'==2
+capture replace In_Gaku_M_NEWVARIABLE = var47  if `data'==3
+capture replace In_Gaku_M_NEWVARIABLE = var57  if `data'==4
 capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if `data'==5
 capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if `data'==6
 capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if `data'==7
@@ -2539,12 +2497,12 @@ capture label values In_Gaku_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen In_Jimu_M_NEWVARIABLE = .
-local var_lab: variable label var49
-local val_lab: value label var49
-capture replace In_Jimu_M_NEWVARIABLE = var49  if `data'==1
-capture replace In_Jimu_M_NEWVARIABLE = var49  if `data'==2
-capture replace In_Jimu_M_NEWVARIABLE = var49  if `data'==3
-capture replace In_Jimu_M_NEWVARIABLE = var51  if `data'==4
+local var_lab: variable label var48
+local val_lab: value label var48
+capture replace In_Jimu_M_NEWVARIABLE = var48  if `data'==1
+capture replace In_Jimu_M_NEWVARIABLE = var48  if `data'==2
+capture replace In_Jimu_M_NEWVARIABLE = var48  if `data'==3
+capture replace In_Jimu_M_NEWVARIABLE = var58  if `data'==4
 capture replace In_Jimu_M_NEWVARIABLE = In_Jimu_M  if `data'==5
 capture replace In_Jimu_M_NEWVARIABLE = In_Jimu_M  if `data'==6
 capture replace In_Jimu_M_NEWVARIABLE = In_Jimu_M  if `data'==7
@@ -2570,9 +2528,9 @@ capture label values In_Jimu_M_NEWVARIABLE `val_lab'
     Description (Data 8):  "大学院修士課程修了女: 初任給額"
     Description (Data 9):  "大学院修士課程修了女: 初任給額"
     Description (Data 10): "大学院修士課程修了女: 初任給額"
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
+    Description (Data 11): "大学院修士課程修了女: 初任給額"
+    Description (Data 12): "大学院修士課程修了女: 初任給額"
+    Description (Data 13): "大学院修士課程修了女: 初任給額"
 
     Values (Base):    
     Values (Data 1):  
@@ -2585,24 +2543,27 @@ capture label values In_Jimu_M_NEWVARIABLE `val_lab'
     Values (Data 8):  
     Values (Data 9):  
     Values (Data 10): 
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
 
 ----------------------------------------------------------------------*/
 gen In_Gaku_W_NEWVARIABLE = .
-local var_lab: variable label var50
-local val_lab: value label var50
-capture replace In_Gaku_W_NEWVARIABLE = var50  if `data'==1
-capture replace In_Gaku_W_NEWVARIABLE = var50  if `data'==2
-capture replace In_Gaku_W_NEWVARIABLE = var50  if `data'==3
-capture replace In_Gaku_W_NEWVARIABLE = var52  if `data'==4
+local var_lab: variable label var49
+local val_lab: value label var49
+capture replace In_Gaku_W_NEWVARIABLE = var49  if `data'==1
+capture replace In_Gaku_W_NEWVARIABLE = var49  if `data'==2
+capture replace In_Gaku_W_NEWVARIABLE = var49  if `data'==3
+capture replace In_Gaku_W_NEWVARIABLE = var59  if `data'==4
 capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if `data'==5
 capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if `data'==6
 capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if `data'==7
 capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if `data'==8
 capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if `data'==9
 capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if `data'==10
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if `data'==11
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if `data'==12
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if `data'==13
 capture label variable In_Gaku_W_NEWVARIABLE `var_lab'
 capture label values In_Gaku_W_NEWVARIABLE `val_lab'
 
@@ -2640,12 +2601,12 @@ capture label values In_Gaku_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen In_Jin_W_NEWVARIABLE = .
-local var_lab: variable label var51
-local val_lab: value label var51
-capture replace In_Jin_W_NEWVARIABLE = var51  if `data'==1
-capture replace In_Jin_W_NEWVARIABLE = var51  if `data'==2
-capture replace In_Jin_W_NEWVARIABLE = var51  if `data'==3
-capture replace In_Jin_W_NEWVARIABLE = var53  if `data'==4
+local var_lab: variable label var50
+local val_lab: value label var50
+capture replace In_Jin_W_NEWVARIABLE = var50  if `data'==1
+capture replace In_Jin_W_NEWVARIABLE = var50  if `data'==2
+capture replace In_Jin_W_NEWVARIABLE = var50  if `data'==3
+capture replace In_Jin_W_NEWVARIABLE = var60  if `data'==4
 capture replace In_Jin_W_NEWVARIABLE = In_Jin_W  if `data'==5
 capture replace In_Jin_W_NEWVARIABLE = In_Jin_W  if `data'==6
 capture replace In_Jin_W_NEWVARIABLE = In_Jin_W  if `data'==7
@@ -2669,8 +2630,8 @@ capture label values In_Jin_W_NEWVARIABLE `val_lab'
     Description (Data 6):  None
     Description (Data 7):  None
     Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
+    Description (Data 9):  "共通事業所コード"
+    Description (Data 10): "共通事業所コード"
     Description (Data 11): "母集団: 共通事業所コード"
     Description (Data 12): "母集団: 共通事業所コード"
     Description (Data 13): "母集団: 共通事業所コード"
@@ -2684,24 +2645,26 @@ capture label values In_Jin_W_NEWVARIABLE `val_lab'
     Values (Data 6):  None
     Values (Data 7):  None
     Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
+    Values (Data 9):  
+    Values (Data 10): 
     Values (Data 11): 
     Values (Data 12): 
     Values (Data 13): 
 
 ----------------------------------------------------------------------*/
-gen v2_NEWVARIABLE = .
-local var_lab: variable label var52
-local val_lab: value label var52
-capture replace v2_NEWVARIABLE = var52  if `data'==1
-capture replace v2_NEWVARIABLE = var52  if `data'==2
-capture replace v2_NEWVARIABLE = var52  if `data'==3
-capture replace v2_NEWVARIABLE = M_JigyoBan  if `data'==11
-capture replace v2_NEWVARIABLE = M_JigyoBan  if `data'==12
-capture replace v2_NEWVARIABLE = M_JigyoBan  if `data'==13
-capture label variable v2_NEWVARIABLE `var_lab'
-capture label values v2_NEWVARIABLE `val_lab'
+gen v1_NEWVARIABLE = .
+local var_lab: variable label var51
+local val_lab: value label var51
+capture replace v1_NEWVARIABLE = var51  if `data'==1
+capture replace v1_NEWVARIABLE = var51  if `data'==2
+capture replace v1_NEWVARIABLE = var51  if `data'==3
+capture replace v1_NEWVARIABLE = var2  if `data'==9
+capture replace v1_NEWVARIABLE = var2  if `data'==10
+capture replace v1_NEWVARIABLE = M_JigyoBan  if `data'==11
+capture replace v1_NEWVARIABLE = M_JigyoBan  if `data'==12
+capture replace v1_NEWVARIABLE = M_JigyoBan  if `data'==13
+capture label variable v1_NEWVARIABLE `var_lab'
+capture label values v1_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -2737,9 +2700,9 @@ capture label values v2_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen Digit_NEWVARIABLE = .
-local var_lab: variable label var4
-local val_lab: value label var4
-capture replace Digit_NEWVARIABLE = var4  if `data'==4
+local var_lab: variable label var5
+local val_lab: value label var5
+capture replace Digit_NEWVARIABLE = var5  if `data'==4
 capture replace Digit_NEWVARIABLE = Digit  if `data'==5
 capture replace Digit_NEWVARIABLE = Digit  if `data'==6
 capture replace Digit_NEWVARIABLE = Digit  if `data'==7
@@ -2751,50 +2714,6 @@ capture replace Digit_NEWVARIABLE = Digit  if `data'==12
 capture replace Digit_NEWVARIABLE = Digit  if `data'==13
 capture label variable Digit_NEWVARIABLE `var_lab'
 capture label values Digit_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学院修士課程修了女: 共通事業所コード"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  "大学院修士課程修了女: 共通事業所コード"
-    Description (Data 10): "大学院修士課程修了女: 共通事業所コード"
-    Description (Data 11): "大学院修士課程修了女: 初任給額"
-    Description (Data 12): "大学院修士課程修了女: 初任給額"
-    Description (Data 13): "大学院修士課程修了女: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-
-----------------------------------------------------------------------*/
-gen v3_NEWVARIABLE = .
-local var_lab: variable label var4
-local val_lab: value label var4
-capture replace v3_NEWVARIABLE = var4  if `data'==9
-capture replace v3_NEWVARIABLE = var4  if `data'==10
-capture replace v3_NEWVARIABLE = In_Gaku_W  if `data'==11
-capture replace v3_NEWVARIABLE = In_Gaku_W  if `data'==12
-capture replace v3_NEWVARIABLE = In_Gaku_W  if `data'==13
-capture label variable v3_NEWVARIABLE `var_lab'
-capture label values v3_NEWVARIABLE `val_lab'
 
 
 keep *_NEWVARIABLE

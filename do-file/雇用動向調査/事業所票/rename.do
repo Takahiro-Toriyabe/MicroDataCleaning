@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/25 04:50:46
+    Date: 2019/02/25 06:00:07
 ----------------------------------------------------------------------*/
 
 
@@ -258,18 +258,18 @@ capture label values v2_NEWVARIABLE `val_lab'
     Values (Data 12):  7: 下期
     Values (Data 13):  1: 上期
     Values (Data 14):  7: 下期
-    Values (Data 15):  1: 上期
-    Values (Data 16):  1: 上期
-    Values (Data 17):  1: 上期
-    Values (Data 18):  1: 上期
-    Values (Data 19):  1: 上期
-    Values (Data 20):  1: 上期
-    Values (Data 21):  1: 上期
-    Values (Data 22):  1: 上期
-    Values (Data 23):  1: 上期
-    Values (Data 24):  1: 上期
-    Values (Data 25):  1: 上期
-    Values (Data 26):  1: 上期
+    Values (Data 15):  1: 上期, 7: 下期
+    Values (Data 16):  1: 上期, 7: 下期
+    Values (Data 17):  1: 上期, 7: 下期
+    Values (Data 18):  1: 上期, 7: 下期
+    Values (Data 19):  1: 上期, 7: 下期
+    Values (Data 20):  1: 上期, 7: 下期
+    Values (Data 21):  1: 上期, 7: 下期
+    Values (Data 22):  1: 上期, 7: 下期
+    Values (Data 23):  1: 上期, 7: 下期
+    Values (Data 24):  1: 上期, 7: 下期
+    Values (Data 25):  1: 上期, 7: 下期
+    Values (Data 26):  1: 上期, 7: 下期
 
 ----------------------------------------------------------------------*/
 gen v3_NEWVARIABLE = .
@@ -306,33 +306,33 @@ capture label values v3_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "調査年月: 調査票区分"
-    Description (Data 1):  "調査年月: 調査票区分"
-    Description (Data 2):  "調査年月: 調査票区分"
-    Description (Data 3):  "調査年月: 調査票区分"
-    Description (Data 4):  "調査年月: 調査票区分"
-    Description (Data 5):  "調査年月: 調査票区分"
-    Description (Data 6):  "調査年月: 調査票区分"
-    Description (Data 7):  "調査年月: 調査票区分"
-    Description (Data 8):  "調査年月: 調査票区分"
+    Description (Base):    "調査票区分"
+    Description (Data 1):  "調査票区分"
+    Description (Data 2):  "調査票区分"
+    Description (Data 3):  "調査票区分"
+    Description (Data 4):  "調査票区分"
+    Description (Data 5):  "調査票区分"
+    Description (Data 6):  "調査票区分"
+    Description (Data 7):  "調査票区分"
+    Description (Data 8):  "調査票区分"
     Description (Data 9):  "調査票区分"
     Description (Data 10): "調査票区分"
-    Description (Data 11): "調査情報: 調査票区分"
-    Description (Data 12): "調査情報: 調査票区分"
-    Description (Data 13): "調査情報: 調査票区分"
-    Description (Data 14): "調査情報: 調査票区分"
-    Description (Data 15): "調査情報: 調査票区分"
-    Description (Data 16): "調査情報: 調査票区分"
-    Description (Data 17): "調査情報: 調査票区分"
-    Description (Data 18): "調査情報: 調査票区分"
-    Description (Data 19): "調査情報: 調査票区分"
-    Description (Data 20): "調査情報: 調査票区分"
-    Description (Data 21): "調査情報: 調査票区分"
-    Description (Data 22): "調査情報: 調査票区分"
-    Description (Data 23): "調査情報: 調査票区分"
-    Description (Data 24): "調査情報: 調査票区分"
-    Description (Data 25): "調査情報: 調査票区分"
-    Description (Data 26): "調査情報: 調査票区分"
+    Description (Data 11): "調査票区分"
+    Description (Data 12): "調査票区分"
+    Description (Data 13): "調査票区分"
+    Description (Data 14): "調査票区分"
+    Description (Data 15): "調査票区分"
+    Description (Data 16): "調査票区分"
+    Description (Data 17): "調査票区分"
+    Description (Data 18): "調査票区分"
+    Description (Data 19): "調査票区分"
+    Description (Data 20): "調査票区分"
+    Description (Data 21): "調査票区分"
+    Description (Data 22): "調査票区分"
+    Description (Data 23): "調査票区分"
+    Description (Data 24): "調査票区分"
+    Description (Data 25): "調査票区分"
+    Description (Data 26): "調査票区分"
 
     Values (Base):    
     Values (Data 1):  
@@ -397,15 +397,15 @@ capture label values v4_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "調査年月: DLM1"
-    Description (Data 1):  "調査年月: DLM1"
-    Description (Data 2):  "調査年月: DLM1"
-    Description (Data 3):  "調査年月: DLM1"
-    Description (Data 4):  "調査年月: DLM1"
-    Description (Data 5):  "調査年月: DLM1"
-    Description (Data 6):  "調査年月: DLM1"
-    Description (Data 7):  "調査年月: DLM1"
-    Description (Data 8):  "調査年月: DLM1"
+    Description (Base):    "DLM1"
+    Description (Data 1):  "DLM1"
+    Description (Data 2):  "DLM1"
+    Description (Data 3):  "DLM1"
+    Description (Data 4):  "DLM1"
+    Description (Data 5):  "DLM1"
+    Description (Data 6):  "DLM1"
+    Description (Data 7):  "DLM1"
+    Description (Data 8):  "DLM1"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -470,15 +470,15 @@ capture label values v5_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "調査年月: 空白1"
-    Description (Data 1):  "調査年月: 空白1"
-    Description (Data 2):  "調査年月: 空白1"
-    Description (Data 3):  "調査年月: 空白1"
-    Description (Data 4):  "調査年月: 空白1"
-    Description (Data 5):  "調査年月: 空白1"
-    Description (Data 6):  "調査年月: 空白1"
-    Description (Data 7):  "調査年月: 空白1"
-    Description (Data 8):  "調査年月: 空白1"
+    Description (Base):    "空白1"
+    Description (Data 1):  "空白1"
+    Description (Data 2):  "空白1"
+    Description (Data 3):  "空白1"
+    Description (Data 4):  "空白1"
+    Description (Data 5):  "空白1"
+    Description (Data 6):  "空白1"
+    Description (Data 7):  "空白1"
+    Description (Data 8):  "空白1"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -571,15 +571,15 @@ capture label values v6_NEWVARIABLE `val_lab'
     Description (Data 25): "共通項目: 層番号"
     Description (Data 26): "共通項目: 層番号"
 
-    Values (Base):     1: 県番号:01, 3: 県番号:08~10,19,20, 5: 県番号:15~18, 7: 県番号:25,29,30, 9: 県番号:31,32, 11: 県番号:36~39, 13: 県番号:43,45~47
-    Values (Data 1):   1: 県番号:01, 3: 県番号:08~10,19,20, 5: 県番号:15~18, 7: 県番号:25,29,30, 9: 県番号:31,32, 11: 県番号:36~39, 13: 県番号:43,45~47
-    Values (Data 2):   1: 県番号:01, 3: 県番号:08~10,19,20, 5: 県番号:15~18, 7: 県番号:25,29,30, 9: 県番号:31,32, 11: 県番号:36~39, 13: 県番号:43,45~47
-    Values (Data 3):   1: 県番号:01, 3: 県番号:08~10,19,20, 5: 県番号:15~18, 7: 県番号:25,29,30, 9: 県番号:31,32, 11: 県番号:36~39, 13: 県番号:43,45~47
-    Values (Data 4):   1: 県番号:01, 3: 県番号:08~10,19,20, 5: 県番号:15~18, 7: 県番号:25,29,30, 9: 県番号:31,32, 11: 県番号:36~39, 13: 県番号:43,45~47
-    Values (Data 5):   1: 県番号:01, 3: 県番号:08~10,19,20, 5: 県番号:15~18, 7: 県番号:25,29,30, 9: 県番号:31,32, 11: 県番号:36~39, 13: 県番号:43,45~47
-    Values (Data 6):   1: 県番号:01, 3: 県番号:08~10,19,20, 5: 県番号:15~18, 7: 県番号:25,29,30, 9: 県番号:31,32, 11: 県番号:36~39, 13: 県番号:43,45~47
-    Values (Data 7):   1: 県番号:01, 3: 県番号:08~10,19,20, 5: 県番号:15~18, 7: 県番号:25,29,30, 9: 県番号:31,32, 11: 県番号:36~39, 13: 県番号:43,45~47
-    Values (Data 8):   1: 県番号:01, 3: 県番号:08~10,19,20, 5: 県番号:15~18, 7: 県番号:25,29,30, 9: 県番号:31,32, 11: 県番号:36~39, 13: 県番号:43,45~47
+    Values (Base):     1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
+    Values (Data 1):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
+    Values (Data 2):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
+    Values (Data 3):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
+    Values (Data 4):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
+    Values (Data 5):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 6):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 7):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 8):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
     Values (Data 9):  None
     Values (Data 10): None
     Values (Data 11): None
@@ -717,15 +717,15 @@ capture label values v8_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "所在地: 事業所番号"
-    Description (Data 1):  "所在地: 事業所番号"
-    Description (Data 2):  "所在地: 事業所番号"
-    Description (Data 3):  "所在地: 事業所番号"
-    Description (Data 4):  "所在地: 事業所番号"
-    Description (Data 5):  "所在地: 事業所番号"
-    Description (Data 6):  "所在地: 事業所番号"
-    Description (Data 7):  "所在地: 事業所番号"
-    Description (Data 8):  "所在地: 事業所番号"
+    Description (Base):    "事業所番号"
+    Description (Data 1):  "事業所番号"
+    Description (Data 2):  "事業所番号"
+    Description (Data 3):  "事業所番号"
+    Description (Data 4):  "事業所番号"
+    Description (Data 5):  "事業所番号"
+    Description (Data 6):  "事業所番号"
+    Description (Data 7):  "事業所番号"
+    Description (Data 8):  "事業所番号"
     Description (Data 9):  "事業所番号"
     Description (Data 10): "事業所番号"
     Description (Data 11): "共通項目: 事業所番号"
@@ -882,8 +882,8 @@ capture replace v10_NEWVARIABLE = var152  if `data'==21
 capture replace v10_NEWVARIABLE = var152  if `data'==22
 capture replace v10_NEWVARIABLE = var152  if `data'==23
 capture replace v10_NEWVARIABLE = var152  if `data'==24
-capture replace v10_NEWVARIABLE = var154  if `data'==25
-capture replace v10_NEWVARIABLE = var154  if `data'==26
+capture replace v10_NEWVARIABLE = var153  if `data'==25
+capture replace v10_NEWVARIABLE = var153  if `data'==26
 capture label variable v10_NEWVARIABLE `var_lab'
 capture label values v10_NEWVARIABLE `val_lab'
 
@@ -980,15 +980,15 @@ capture label values v11_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "産業: DLM2"
-    Description (Data 1):  "産業: DLM2"
-    Description (Data 2):  "産業: DLM2"
-    Description (Data 3):  "産業: DLM2"
-    Description (Data 4):  "産業: DLM2"
-    Description (Data 5):  "産業: DLM2"
-    Description (Data 6):  "産業: DLM2"
-    Description (Data 7):  "産業: DLM2"
-    Description (Data 8):  "産業: DLM2"
+    Description (Base):    "DLM2"
+    Description (Data 1):  "DLM2"
+    Description (Data 2):  "DLM2"
+    Description (Data 3):  "DLM2"
+    Description (Data 4):  "DLM2"
+    Description (Data 5):  "DLM2"
+    Description (Data 6):  "DLM2"
+    Description (Data 7):  "DLM2"
+    Description (Data 8):  "DLM2"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -1053,17 +1053,17 @@ capture label values v12_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "産業: 抽出符号"
-    Description (Data 1):  "産業: 抽出符号"
-    Description (Data 2):  "産業: 抽出符号"
-    Description (Data 3):  "産業: 抽出符号"
-    Description (Data 4):  "産業: 抽出符号"
-    Description (Data 5):  "産業: 抽出符号"
-    Description (Data 6):  "産業: 抽出符号"
-    Description (Data 7):  "産業: 抽出符号"
-    Description (Data 8):  "産業: 抽出符号"
-    Description (Data 9):  "産業: 抽出番号"
-    Description (Data 10): "産業: 抽出番号"
+    Description (Base):    "抽出符号"
+    Description (Data 1):  "抽出符号"
+    Description (Data 2):  "抽出符号"
+    Description (Data 3):  "抽出符号"
+    Description (Data 4):  "抽出符号"
+    Description (Data 5):  "抽出符号"
+    Description (Data 6):  "抽出符号"
+    Description (Data 7):  "抽出符号"
+    Description (Data 8):  "抽出符号"
+    Description (Data 9):  "抽出番号"
+    Description (Data 10): "抽出番号"
     Description (Data 11): "共通項目: 抽出番号"
     Description (Data 12): "共通項目: 抽出番号"
     Description (Data 13): "共通項目: 抽出番号"
@@ -1144,15 +1144,15 @@ capture label values v13_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "産業: DLM3"
-    Description (Data 1):  "産業: DLM3"
-    Description (Data 2):  "産業: DLM3"
-    Description (Data 3):  "産業: DLM3"
-    Description (Data 4):  "産業: DLM3"
-    Description (Data 5):  "産業: DLM3"
-    Description (Data 6):  "産業: DLM3"
-    Description (Data 7):  "産業: DLM3"
-    Description (Data 8):  "産業: DLM3"
+    Description (Base):    "DLM3"
+    Description (Data 1):  "DLM3"
+    Description (Data 2):  "DLM3"
+    Description (Data 3):  "DLM3"
+    Description (Data 4):  "DLM3"
+    Description (Data 5):  "DLM3"
+    Description (Data 6):  "DLM3"
+    Description (Data 7):  "DLM3"
+    Description (Data 8):  "DLM3"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -1217,17 +1217,17 @@ capture label values v14_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "産業: 事業所規模"
-    Description (Data 1):  "産業: 事業所規模"
-    Description (Data 2):  "産業: 事業所規模"
-    Description (Data 3):  "産業: 事業所規模"
-    Description (Data 4):  "産業: 事業所規模"
-    Description (Data 5):  "産業: 事業所規模"
-    Description (Data 6):  "産業: 事業所規模"
-    Description (Data 7):  "産業: 事業所規模"
-    Description (Data 8):  "産業: 事業所規模"
-    Description (Data 9):  "産業: 事業所規模"
-    Description (Data 10): "産業: 事業所規模"
+    Description (Base):    "事業所規模"
+    Description (Data 1):  "事業所規模"
+    Description (Data 2):  "事業所規模"
+    Description (Data 3):  "事業所規模"
+    Description (Data 4):  "事業所規模"
+    Description (Data 5):  "事業所規模"
+    Description (Data 6):  "事業所規模"
+    Description (Data 7):  "事業所規模"
+    Description (Data 8):  "事業所規模"
+    Description (Data 9):  "事業所規模"
+    Description (Data 10): "事業所規模"
     Description (Data 11): "共通項目: 事業所規模"
     Description (Data 12): "共通項目: 事業所規模"
     Description (Data 13): "共通項目: 事業所規模"
@@ -1245,33 +1245,33 @@ capture label values v14_NEWVARIABLE `val_lab'
     Description (Data 25): "共通項目: 事業所規模"
     Description (Data 26): "共通項目: 事業所規模"
 
-    Values (Base):     1: 500人以上, 3: 30~99人
-    Values (Data 1):   1: 500人以上, 3: 30~99人
-    Values (Data 2):   1: 500人以上, 3: 30~99人
-    Values (Data 3):   1: 500人以上, 3: 30~99人
-    Values (Data 4):   1: 500人以上, 3: 30~99人
-    Values (Data 5):   1: 500人以上, 3: 30~99人
-    Values (Data 6):   1: 500人以上, 3: 30~99人
-    Values (Data 7):   1: 500人以上, 3: 30~99人
-    Values (Data 8):   1: 500人以上, 3: 30~99人
-    Values (Data 9):   1: 500人以上, 3: 30~99人
-    Values (Data 10):  1: 500人以上, 3: 30~99人
-    Values (Data 11):  1: 500人以上, 3: 30~99人
-    Values (Data 12):  1: 500人以上, 3: 30~99人
-    Values (Data 13):  1: 500人以上, 3: 30~99人
-    Values (Data 14):  1: 500人以上, 3: 30~99人
-    Values (Data 15):  1: 500人以上, 3: 30~99人
-    Values (Data 16):  1: 500人以上, 3: 30~99人
-    Values (Data 17):  1: 500人以上, 3: 30~99人
-    Values (Data 18):  1: 500人以上, 3: 30~99人
-    Values (Data 19):  1: 500人以上, 3: 30~99人
-    Values (Data 20):  1: 500人以上, 3: 30~99人
-    Values (Data 21):  1: 500人以上, 3: 30~99人
-    Values (Data 22):  1: 500人以上, 3: 30~99人
-    Values (Data 23):  1: 500人以上, 3: 30~99人
-    Values (Data 24):  1: 500人以上, 3: 30~99人
-    Values (Data 25):  1: 500人以上, 3: 30~99人
-    Values (Data 26):  1: 500人以上, 3: 30~99人
+    Values (Base):     1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 1):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 2):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 3):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 4):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 5):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 6):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 7):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 8):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 9):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 10):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 11):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 12):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 13):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 14):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 15):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 16):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 17):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 18):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 19):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 20):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 21):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 22):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 23):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 24):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 25):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 26):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
 
 ----------------------------------------------------------------------*/
 gen v15_NEWVARIABLE = .
@@ -1308,17 +1308,17 @@ capture label values v15_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "産業: 企業規模"
-    Description (Data 1):  "産業: 企業規模"
-    Description (Data 2):  "産業: 企業規模"
-    Description (Data 3):  "産業: 企業規模"
-    Description (Data 4):  "産業: 企業規模"
-    Description (Data 5):  "産業: 企業規模"
-    Description (Data 6):  "産業: 企業規模"
-    Description (Data 7):  "産業: 企業規模"
-    Description (Data 8):  "産業: 企業規模"
-    Description (Data 9):  "産業: 企業規模"
-    Description (Data 10): "産業: 企業規模"
+    Description (Base):    "企業規模"
+    Description (Data 1):  "企業規模"
+    Description (Data 2):  "企業規模"
+    Description (Data 3):  "企業規模"
+    Description (Data 4):  "企業規模"
+    Description (Data 5):  "企業規模"
+    Description (Data 6):  "企業規模"
+    Description (Data 7):  "企業規模"
+    Description (Data 8):  "企業規模"
+    Description (Data 9):  "企業規模"
+    Description (Data 10): "企業規模"
     Description (Data 11): "共通項目: 企業規模"
     Description (Data 12): "共通項目: 企業規模"
     Description (Data 13): "共通項目: 企業規模"
@@ -1336,33 +1336,33 @@ capture label values v15_NEWVARIABLE `val_lab'
     Description (Data 25): "共通項目: 企業規模"
     Description (Data 26): "共通項目: 企業規模"
 
-    Values (Base):     1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 1):   1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 2):   1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 3):   1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 4):   1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 5):   1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 6):   1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 7):   1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 8):   1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 9):   1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 10):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 11):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 12):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 13):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 14):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 15):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 16):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 17):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 18):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 19):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 20):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 21):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 22):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 23):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 24):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 25):  1: 1000人以上, 3: 100~299人, 5: 5~29人
-    Values (Data 26):  1: 1000人以上, 3: 100~299人, 5: 5~29人
+    Values (Base):     1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 1):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 2):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 3):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 4):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 5):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 6):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 7):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 8):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 9):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 10):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 11):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 12):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 13):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 14):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 15):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 16):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 17):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 18):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 19):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 20):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 21):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 22):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 23):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 24):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 25):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 26):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
 
 ----------------------------------------------------------------------*/
 gen v16_NEWVARIABLE = .
@@ -1399,15 +1399,15 @@ capture label values v16_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "産業: DLM4"
-    Description (Data 1):  "産業: DLM4"
-    Description (Data 2):  "産業: DLM4"
-    Description (Data 3):  "産業: DLM4"
-    Description (Data 4):  "産業: DLM4"
-    Description (Data 5):  "産業: DLM4"
-    Description (Data 6):  "産業: DLM4"
-    Description (Data 7):  "産業: DLM4"
-    Description (Data 8):  "産業: DLM4"
+    Description (Base):    "DLM4"
+    Description (Data 1):  "DLM4"
+    Description (Data 2):  "DLM4"
+    Description (Data 3):  "DLM4"
+    Description (Data 4):  "DLM4"
+    Description (Data 5):  "DLM4"
+    Description (Data 6):  "DLM4"
+    Description (Data 7):  "DLM4"
+    Description (Data 8):  "DLM4"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -1573,15 +1573,15 @@ capture label values v18_NEWVARIABLE `val_lab'
     Description (Data 25): None
     Description (Data 26): None
 
-    Values (Base):     1: 500人以上, 3: 30~99人
-    Values (Data 1):   1: 500人以上, 3: 30~99人
-    Values (Data 2):   1: 500人以上, 3: 30~99人
-    Values (Data 3):   1: 500人以上, 3: 30~99人
-    Values (Data 4):   1: 500人以上, 3: 30~99人
-    Values (Data 5):   1: 500人以上, 3: 30~99人
-    Values (Data 6):   1: 500人以上, 3: 30~99人
-    Values (Data 7):   1: 500人以上, 3: 30~99人
-    Values (Data 8):   1: 500人以上, 3: 30~99人
+    Values (Base):     1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 1):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 2):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 3):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 4):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 5):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 6):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 7):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 8):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
     Values (Data 9):  None
     Values (Data 10): None
     Values (Data 11): None
@@ -1764,15 +1764,15 @@ capture label values v21_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "乗率マトリックス用: DLM5"
-    Description (Data 1):  "乗率マトリックス用: DLM5"
-    Description (Data 2):  "乗率マトリックス用: DLM5"
-    Description (Data 3):  "乗率マトリックス用: DLM5"
-    Description (Data 4):  "乗率マトリックス用: DLM5"
-    Description (Data 5):  "乗率マトリックス用: DLM5"
-    Description (Data 6):  "乗率マトリックス用: DLM5"
-    Description (Data 7):  "乗率マトリックス用: DLM5"
-    Description (Data 8):  "乗率マトリックス用: DLM5"
+    Description (Base):    "DLM5"
+    Description (Data 1):  "DLM5"
+    Description (Data 2):  "DLM5"
+    Description (Data 3):  "DLM5"
+    Description (Data 4):  "DLM5"
+    Description (Data 5):  "DLM5"
+    Description (Data 6):  "DLM5"
+    Description (Data 7):  "DLM5"
+    Description (Data 8):  "DLM5"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -1837,15 +1837,15 @@ capture label values v22_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "乗率マトリックス用: 空白2"
-    Description (Data 1):  "乗率マトリックス用: 空白2"
-    Description (Data 2):  "乗率マトリックス用: 空白2"
-    Description (Data 3):  "乗率マトリックス用: 空白2"
-    Description (Data 4):  "乗率マトリックス用: 空白2"
-    Description (Data 5):  "乗率マトリックス用: 空白2"
-    Description (Data 6):  "乗率マトリックス用: 空白2"
-    Description (Data 7):  "乗率マトリックス用: 空白2"
-    Description (Data 8):  "乗率マトリックス用: 空白2"
+    Description (Base):    "空白2"
+    Description (Data 1):  "空白2"
+    Description (Data 2):  "空白2"
+    Description (Data 3):  "空白2"
+    Description (Data 4):  "空白2"
+    Description (Data 5):  "空白2"
+    Description (Data 6):  "空白2"
+    Description (Data 7):  "空白2"
+    Description (Data 8):  "空白2"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -1910,15 +1910,15 @@ capture label values v23_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "乗率マトリックス用: DLM6"
-    Description (Data 1):  "乗率マトリックス用: DLM6"
-    Description (Data 2):  "乗率マトリックス用: DLM6"
-    Description (Data 3):  "乗率マトリックス用: DLM6"
-    Description (Data 4):  "乗率マトリックス用: DLM6"
-    Description (Data 5):  "乗率マトリックス用: DLM6"
-    Description (Data 6):  "乗率マトリックス用: DLM6"
-    Description (Data 7):  "乗率マトリックス用: DLM6"
-    Description (Data 8):  "乗率マトリックス用: DLM6"
+    Description (Base):    "DLM6"
+    Description (Data 1):  "DLM6"
+    Description (Data 2):  "DLM6"
+    Description (Data 3):  "DLM6"
+    Description (Data 4):  "DLM6"
+    Description (Data 5):  "DLM6"
+    Description (Data 6):  "DLM6"
+    Description (Data 7):  "DLM6"
+    Description (Data 8):  "DLM6"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -1983,33 +1983,33 @@ capture label values v24_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "乗率マトリックス用: 乗率"
-    Description (Data 1):  "乗率マトリックス用: 乗率"
-    Description (Data 2):  "乗率マトリックス用: 乗率"
-    Description (Data 3):  "乗率マトリックス用: 乗率"
-    Description (Data 4):  "乗率マトリックス用: 乗率"
-    Description (Data 5):  "乗率マトリックス用: 乗率"
-    Description (Data 6):  "乗率マトリックス用: 乗率"
-    Description (Data 7):  "乗率マトリックス用: 乗率"
-    Description (Data 8):  "乗率マトリックス用: 乗率"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "乗率"
+    Description (Data 1):  "乗率"
+    Description (Data 2):  "乗率"
+    Description (Data 3):  "乗率"
+    Description (Data 4):  "乗率"
+    Description (Data 5):  "乗率"
+    Description (Data 6):  "乗率"
+    Description (Data 7):  "乗率"
+    Description (Data 8):  "乗率"
+    Description (Data 9):  "乗率"
+    Description (Data 10): "乗率"
+    Description (Data 11): "乗率"
+    Description (Data 12): "乗率"
+    Description (Data 13): "乗率"
+    Description (Data 14): "乗率"
+    Description (Data 15): "乗率"
+    Description (Data 16): "乗率"
+    Description (Data 17): "乗率"
+    Description (Data 18): "乗率"
+    Description (Data 19): "乗率"
+    Description (Data 20): "乗率"
+    Description (Data 21): "乗率"
+    Description (Data 22): "乗率"
+    Description (Data 23): "乗率"
+    Description (Data 24): "乗率"
+    Description (Data 25): "乗率"
+    Description (Data 26): "乗率"
 
     Values (Base):    
     Values (Data 1):  
@@ -2020,24 +2020,24 @@ capture label values v24_NEWVARIABLE `val_lab'
     Values (Data 6):  
     Values (Data 7):  
     Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
 
 ----------------------------------------------------------------------*/
 gen v25_NEWVARIABLE = .
@@ -2051,20 +2051,38 @@ capture replace v25_NEWVARIABLE = var25  if `data'==5
 capture replace v25_NEWVARIABLE = var25  if `data'==6
 capture replace v25_NEWVARIABLE = var25  if `data'==7
 capture replace v25_NEWVARIABLE = var25  if `data'==8
+capture replace v25_NEWVARIABLE = var7  if `data'==9
+capture replace v25_NEWVARIABLE = var7  if `data'==10
+capture replace v25_NEWVARIABLE = var7  if `data'==11
+capture replace v25_NEWVARIABLE = var7  if `data'==12
+capture replace v25_NEWVARIABLE = var7  if `data'==13
+capture replace v25_NEWVARIABLE = var7  if `data'==14
+capture replace v25_NEWVARIABLE = var7  if `data'==15
+capture replace v25_NEWVARIABLE = var7  if `data'==16
+capture replace v25_NEWVARIABLE = var7  if `data'==17
+capture replace v25_NEWVARIABLE = var7  if `data'==18
+capture replace v25_NEWVARIABLE = var7  if `data'==19
+capture replace v25_NEWVARIABLE = var7  if `data'==20
+capture replace v25_NEWVARIABLE = var7  if `data'==21
+capture replace v25_NEWVARIABLE = var7  if `data'==22
+capture replace v25_NEWVARIABLE = var7  if `data'==23
+capture replace v25_NEWVARIABLE = var7  if `data'==24
+capture replace v25_NEWVARIABLE = var7  if `data'==25
+capture replace v25_NEWVARIABLE = var7  if `data'==26
 capture label variable v25_NEWVARIABLE `var_lab'
 capture label values v25_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "乗率マトリックス用: DLM7"
-    Description (Data 1):  "乗率マトリックス用: DLM7"
-    Description (Data 2):  "乗率マトリックス用: DLM7"
-    Description (Data 3):  "乗率マトリックス用: DLM7"
-    Description (Data 4):  "乗率マトリックス用: DLM7"
-    Description (Data 5):  "乗率マトリックス用: DLM7"
-    Description (Data 6):  "乗率マトリックス用: DLM7"
-    Description (Data 7):  "乗率マトリックス用: DLM7"
-    Description (Data 8):  "乗率マトリックス用: DLM7"
+    Description (Base):    "DLM7"
+    Description (Data 1):  "DLM7"
+    Description (Data 2):  "DLM7"
+    Description (Data 3):  "DLM7"
+    Description (Data 4):  "DLM7"
+    Description (Data 5):  "DLM7"
+    Description (Data 6):  "DLM7"
+    Description (Data 7):  "DLM7"
+    Description (Data 8):  "DLM7"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -2311,33 +2329,33 @@ capture label values v28_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 1):  "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 2):  "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 3):  "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 4):  "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 5):  "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 6):  "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 7):  "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 8):  "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 9):  "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 10): "常用労働者の異動状況区分1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 11): "異動状況1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 12): "異動状況1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 13): "異動状況1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 14): "異動状況1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 15): "異動状況1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 16): "異動状況1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 17): "異動状況1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 18): "異動状況1常用名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 19): "異動状況1雇用期間の定めなし男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 20): "異動状況1雇用期間の定めなし男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 21): "異動状況1雇用期間の定めなし男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 22): "異動状況1雇用期間の定めなし男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 23): "異動状況1雇用期間の定めなし男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 24): "異動状況1雇用期間の定めなし男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 25): "異動状況1雇用期間の定めなし男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 26): "異動状況1雇用期間の定めなし男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Base):    "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 1):  "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 2):  "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 3):  "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 4):  "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 5):  "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 6):  "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 7):  "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 8):  "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 9):  "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 10): "常用労働者の異動状況区分1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 11): "異動状況1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 12): "異動状況1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 13): "異動状況1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 14): "異動状況1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 15): "異動状況1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 16): "異動状況1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 17): "異動状況1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 18): "異動状況1常用名義男: (3)常用に切り替えられた者"
+    Description (Data 19): "異動状況1雇用期間の定めなし男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 20): "異動状況1雇用期間の定めなし男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 21): "異動状況1雇用期間の定めなし男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 22): "異動状況1雇用期間の定めなし男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 23): "異動状況1雇用期間の定めなし男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 24): "異動状況1雇用期間の定めなし男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 25): "異動状況1雇用期間の定めなし男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 26): "異動状況1雇用期間の定めなし男: (3)「定めあり」から「定めなし」に切り替えられた者"
 
     Values (Base):    
     Values (Data 1):  
@@ -2584,33 +2602,33 @@ capture label values v31_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 1):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 2):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 3):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 4):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 5):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 6):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 7):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 8):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 9):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 10): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 11): "異動状況1常用名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 12): "異動状況1常用名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 13): "異動状況1常用名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 14): "異動状況1常用名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 15): "異動状況1常用名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 16): "異動状況1常用名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 17): "異動状況1常用名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 18): "異動状況1常用名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 19): "異動状況1雇用期間の定めなし男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 20): "異動状況1雇用期間の定めなし男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 21): "異動状況1雇用期間の定めなし男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 22): "異動状況1雇用期間の定めなし男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 23): "異動状況1雇用期間の定めなし男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 24): "異動状況1雇用期間の定めなし男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 25): "異動状況1雇用期間の定めなし男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 26): "異動状況1雇用期間の定めなし男(4)減少常用労働者: (5)期末常用労働者"
+    Description (Base):    "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 1):  "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 2):  "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 3):  "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 4):  "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 5):  "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 6):  "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 7):  "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 8):  "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 9):  "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 10): "常用労働者の異動状況区分1常用名義男: (5)期末常用労働者"
+    Description (Data 11): "異動状況1常用名義男: (5)期末常用労働者"
+    Description (Data 12): "異動状況1常用名義男: (5)期末常用労働者"
+    Description (Data 13): "異動状況1常用名義男: (5)期末常用労働者"
+    Description (Data 14): "異動状況1常用名義男: (5)期末常用労働者"
+    Description (Data 15): "異動状況1常用名義男: (5)期末常用労働者"
+    Description (Data 16): "異動状況1常用名義男: (5)期末常用労働者"
+    Description (Data 17): "異動状況1常用名義男: (5)期末常用労働者"
+    Description (Data 18): "異動状況1常用名義男: (5)期末常用労働者"
+    Description (Data 19): "異動状況1雇用期間の定めなし男: (5)期末常用労働者"
+    Description (Data 20): "異動状況1雇用期間の定めなし男: (5)期末常用労働者"
+    Description (Data 21): "異動状況1雇用期間の定めなし男: (5)期末常用労働者"
+    Description (Data 22): "異動状況1雇用期間の定めなし男: (5)期末常用労働者"
+    Description (Data 23): "異動状況1雇用期間の定めなし男: (5)期末常用労働者"
+    Description (Data 24): "異動状況1雇用期間の定めなし男: (5)期末常用労働者"
+    Description (Data 25): "異動状況1雇用期間の定めなし男: (5)期末常用労働者"
+    Description (Data 26): "異動状況1雇用期間の定めなし男: (5)期末常用労働者"
 
     Values (Base):    
     Values (Data 1):  
@@ -2857,25 +2875,25 @@ capture label values v34_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 1):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 2):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 3):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 4):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 5):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 6):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 7):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 8):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 9):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 10): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 11): "異動状況2臨時・日雇い名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 12): "異動状況2臨時・日雇い名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 13): "異動状況2臨時・日雇い名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 14): "異動状況2臨時・日雇い名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 15): "異動状況2臨時・日雇い名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 16): "異動状況2臨時・日雇い名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 17): "異動状況2臨時・日雇い名義男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 18): "異動状況2臨時・日雇い名義男(2)増加常用労働者: (3)常用に切り替えられた者"
+    Description (Base):    "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 1):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 2):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 3):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 4):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 5):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 6):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 7):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 8):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 9):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 10): "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 11): "異動状況2臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 12): "異動状況2臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 13): "異動状況2臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 14): "異動状況2臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 15): "異動状況2臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 16): "異動状況2臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 17): "異動状況2臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 18): "異動状況2臨時・日雇い名義男: (3)常用に切り替えられた者"
     Description (Data 19): None
     Description (Data 20): None
     Description (Data 21): None
@@ -3122,33 +3140,33 @@ capture label values v37_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 1):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 2):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 3):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 4):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 5):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 6):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 7):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 8):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 9):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 10): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 11): "異動状況2臨時・日雇い名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 12): "異動状況2臨時・日雇い名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 13): "異動状況2臨時・日雇い名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 14): "異動状況2臨時・日雇い名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 15): "異動状況2臨時・日雇い名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 16): "異動状況2臨時・日雇い名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 17): "異動状況2臨時・日雇い名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 18): "異動状況2臨時・日雇い名義男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 19): "異動状況2雇用期間の定めあり男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 20): "異動状況2雇用期間の定めあり男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 21): "異動状況2雇用期間の定めあり男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 22): "異動状況2雇用期間の定めあり男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 23): "異動状況2雇用期間の定めあり男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 24): "異動状況2雇用期間の定めあり男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 25): "異動状況2雇用期間の定めあり男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 26): "異動状況2雇用期間の定めあり男(4)減少常用労働者: (5)期末常用労働者"
+    Description (Base):    "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 1):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 2):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 3):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 4):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 5):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 6):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 7):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 8):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 9):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 10): "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 11): "異動状況2臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 12): "異動状況2臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 13): "異動状況2臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 14): "異動状況2臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 15): "異動状況2臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 16): "異動状況2臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 17): "異動状況2臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 18): "異動状況2臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 19): "異動状況2雇用期間の定めあり男: (5)期末常用労働者"
+    Description (Data 20): "異動状況2雇用期間の定めあり男: (5)期末常用労働者"
+    Description (Data 21): "異動状況2雇用期間の定めあり男: (5)期末常用労働者"
+    Description (Data 22): "異動状況2雇用期間の定めあり男: (5)期末常用労働者"
+    Description (Data 23): "異動状況2雇用期間の定めあり男: (5)期末常用労働者"
+    Description (Data 24): "異動状況2雇用期間の定めあり男: (5)期末常用労働者"
+    Description (Data 25): "異動状況2雇用期間の定めあり男: (5)期末常用労働者"
+    Description (Data 26): "異動状況2雇用期間の定めあり男: (5)期末常用労働者"
 
     Values (Base):    
     Values (Data 1):  
@@ -3395,33 +3413,33 @@ capture label values v40_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 1):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 2):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 3):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 4):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 5):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 6):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 7):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 8):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 9):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 10): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 11): "異動状況3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 12): "異動状況3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 13): "異動状況3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 14): "異動状況3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 15): "異動状況3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 16): "異動状況3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 17): "異動状況3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 18): "異動状況3常用名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 19): "異動状況3雇用期間の定めなし女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 20): "異動状況3雇用期間の定めなし女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 21): "異動状況3雇用期間の定めなし女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 22): "異動状況3雇用期間の定めなし女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 23): "異動状況3雇用期間の定めなし女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 24): "異動状況3雇用期間の定めなし女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 25): "異動状況3雇用期間の定めなし女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 26): "異動状況3雇用期間の定めなし女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Base):    "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 1):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 2):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 3):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 4):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 5):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 6):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 7):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 8):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 9):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 10): "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 11): "異動状況3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 12): "異動状況3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 13): "異動状況3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 14): "異動状況3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 15): "異動状況3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 16): "異動状況3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 17): "異動状況3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 18): "異動状況3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 19): "異動状況3雇用期間の定めなし女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 20): "異動状況3雇用期間の定めなし女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 21): "異動状況3雇用期間の定めなし女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 22): "異動状況3雇用期間の定めなし女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 23): "異動状況3雇用期間の定めなし女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 24): "異動状況3雇用期間の定めなし女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 25): "異動状況3雇用期間の定めなし女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 26): "異動状況3雇用期間の定めなし女: (3)「定めあり」から「定めなし」に切り替えられた者"
 
     Values (Base):    
     Values (Data 1):  
@@ -3668,33 +3686,33 @@ capture label values v43_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 1):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 2):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 3):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 4):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 5):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 6):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 7):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 8):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 9):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 10): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 11): "異動状況3常用名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 12): "異動状況3常用名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 13): "異動状況3常用名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 14): "異動状況3常用名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 15): "異動状況3常用名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 16): "異動状況3常用名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 17): "異動状況3常用名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 18): "異動状況3常用名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 19): "異動状況3雇用期間の定めなし女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 20): "異動状況3雇用期間の定めなし女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 21): "異動状況3雇用期間の定めなし女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 22): "異動状況3雇用期間の定めなし女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 23): "異動状況3雇用期間の定めなし女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 24): "異動状況3雇用期間の定めなし女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 25): "異動状況3雇用期間の定めなし女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 26): "異動状況3雇用期間の定めなし女(4)減少常用労働者: (5)期末常用労働者"
+    Description (Base):    "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 1):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 2):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 3):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 4):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 5):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 6):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 7):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 8):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 9):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 10): "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 11): "異動状況3常用名義女: (5)期末常用労働者"
+    Description (Data 12): "異動状況3常用名義女: (5)期末常用労働者"
+    Description (Data 13): "異動状況3常用名義女: (5)期末常用労働者"
+    Description (Data 14): "異動状況3常用名義女: (5)期末常用労働者"
+    Description (Data 15): "異動状況3常用名義女: (5)期末常用労働者"
+    Description (Data 16): "異動状況3常用名義女: (5)期末常用労働者"
+    Description (Data 17): "異動状況3常用名義女: (5)期末常用労働者"
+    Description (Data 18): "異動状況3常用名義女: (5)期末常用労働者"
+    Description (Data 19): "異動状況3雇用期間の定めなし女: (5)期末常用労働者"
+    Description (Data 20): "異動状況3雇用期間の定めなし女: (5)期末常用労働者"
+    Description (Data 21): "異動状況3雇用期間の定めなし女: (5)期末常用労働者"
+    Description (Data 22): "異動状況3雇用期間の定めなし女: (5)期末常用労働者"
+    Description (Data 23): "異動状況3雇用期間の定めなし女: (5)期末常用労働者"
+    Description (Data 24): "異動状況3雇用期間の定めなし女: (5)期末常用労働者"
+    Description (Data 25): "異動状況3雇用期間の定めなし女: (5)期末常用労働者"
+    Description (Data 26): "異動状況3雇用期間の定めなし女: (5)期末常用労働者"
 
     Values (Base):    
     Values (Data 1):  
@@ -3941,33 +3959,33 @@ capture label values v46_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 1):  "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 2):  "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 3):  "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 4):  "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 5):  "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 6):  "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 7):  "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 8):  "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 9):  "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 10): "常用労働者の異動状況区分4臨時・日雇名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 11): "異動状況4臨時・日雇い名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 12): "異動状況4臨時・日雇い名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 13): "異動状況4臨時・日雇い名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 14): "異動状況4臨時・日雇い名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 15): "異動状況4臨時・日雇い名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 16): "異動状況4臨時・日雇い名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 17): "異動状況4臨時・日雇い名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 18): "異動状況4臨時・日雇い名義女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 19): "異動状況4雇用期間の定めあり女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 20): "異動状況4雇用期間の定めあり女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 21): "異動状況4雇用期間の定めあり女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 22): "異動状況4雇用期間の定めあり女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 23): "異動状況4雇用期間の定めあり女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 24): "異動状況4雇用期間の定めあり女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 25): "異動状況4雇用期間の定めあり女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 26): "異動状況4雇用期間の定めあり女(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Base):    "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 1):  "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 2):  "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 3):  "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 4):  "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 5):  "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 6):  "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 7):  "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 8):  "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 9):  "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 10): "常用労働者の異動状況区分4臨時・日雇名義女: (3)常用に切り替えられた者"
+    Description (Data 11): "異動状況4臨時・日雇い名義女: (3)常用に切り替えられた者"
+    Description (Data 12): "異動状況4臨時・日雇い名義女: (3)常用に切り替えられた者"
+    Description (Data 13): "異動状況4臨時・日雇い名義女: (3)常用に切り替えられた者"
+    Description (Data 14): "異動状況4臨時・日雇い名義女: (3)常用に切り替えられた者"
+    Description (Data 15): "異動状況4臨時・日雇い名義女: (3)常用に切り替えられた者"
+    Description (Data 16): "異動状況4臨時・日雇い名義女: (3)常用に切り替えられた者"
+    Description (Data 17): "異動状況4臨時・日雇い名義女: (3)常用に切り替えられた者"
+    Description (Data 18): "異動状況4臨時・日雇い名義女: (3)常用に切り替えられた者"
+    Description (Data 19): "異動状況4雇用期間の定めあり女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 20): "異動状況4雇用期間の定めあり女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 21): "異動状況4雇用期間の定めあり女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 22): "異動状況4雇用期間の定めあり女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 23): "異動状況4雇用期間の定めあり女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 24): "異動状況4雇用期間の定めあり女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 25): "異動状況4雇用期間の定めあり女: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 26): "異動状況4雇用期間の定めあり女: (3)「定めあり」から「定めなし」に切り替えられた者"
 
     Values (Base):    
     Values (Data 1):  
@@ -4214,33 +4232,33 @@ capture label values v49_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 1):  "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 2):  "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 3):  "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 4):  "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 5):  "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 6):  "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 7):  "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 8):  "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 9):  "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 10): "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 11): "異動状況4臨時・日雇い名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 12): "異動状況4臨時・日雇い名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 13): "異動状況4臨時・日雇い名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 14): "異動状況4臨時・日雇い名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 15): "異動状況4臨時・日雇い名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 16): "異動状況4臨時・日雇い名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 17): "異動状況4臨時・日雇い名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 18): "異動状況4臨時・日雇い名義女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 19): "異動状況4雇用期間の定めあり女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 20): "異動状況4雇用期間の定めあり女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 21): "異動状況4雇用期間の定めあり女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 22): "異動状況4雇用期間の定めあり女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 23): "異動状況4雇用期間の定めあり女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 24): "異動状況4雇用期間の定めあり女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 25): "異動状況4雇用期間の定めあり女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 26): "異動状況4雇用期間の定めあり女(4)減少常用労働者: (5)期末常用労働者"
+    Description (Base):    "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 1):  "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 2):  "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 3):  "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 4):  "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 5):  "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 6):  "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 7):  "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 8):  "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 9):  "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 10): "常用労働者の異動状況区分4臨時・日雇名義女: (5)期末常用労働者"
+    Description (Data 11): "異動状況4臨時・日雇い名義女: (5)期末常用労働者"
+    Description (Data 12): "異動状況4臨時・日雇い名義女: (5)期末常用労働者"
+    Description (Data 13): "異動状況4臨時・日雇い名義女: (5)期末常用労働者"
+    Description (Data 14): "異動状況4臨時・日雇い名義女: (5)期末常用労働者"
+    Description (Data 15): "異動状況4臨時・日雇い名義女: (5)期末常用労働者"
+    Description (Data 16): "異動状況4臨時・日雇い名義女: (5)期末常用労働者"
+    Description (Data 17): "異動状況4臨時・日雇い名義女: (5)期末常用労働者"
+    Description (Data 18): "異動状況4臨時・日雇い名義女: (5)期末常用労働者"
+    Description (Data 19): "異動状況4雇用期間の定めあり女: (5)期末常用労働者"
+    Description (Data 20): "異動状況4雇用期間の定めあり女: (5)期末常用労働者"
+    Description (Data 21): "異動状況4雇用期間の定めあり女: (5)期末常用労働者"
+    Description (Data 22): "異動状況4雇用期間の定めあり女: (5)期末常用労働者"
+    Description (Data 23): "異動状況4雇用期間の定めあり女: (5)期末常用労働者"
+    Description (Data 24): "異動状況4雇用期間の定めあり女: (5)期末常用労働者"
+    Description (Data 25): "異動状況4雇用期間の定めあり女: (5)期末常用労働者"
+    Description (Data 26): "異動状況4雇用期間の定めあり女: (5)期末常用労働者"
 
     Values (Base):    
     Values (Data 1):  
@@ -4487,15 +4505,15 @@ capture label values v52_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分5合計(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 1):  "常用労働者の異動状況区分5合計(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 2):  "常用労働者の異動状況区分5合計(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 3):  "常用労働者の異動状況区分5合計(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 4):  "常用労働者の異動状況区分5合計(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 5):  "常用労働者の異動状況区分5合計(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 6):  "常用労働者の異動状況区分5合計(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 7):  "常用労働者の異動状況区分5合計(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 8):  "常用労働者の異動状況区分5合計(2)増加常用労働者: (3)常用に切り替えられた者"
+    Description (Base):    "常用労働者の異動状況区分5合計: (3)常用に切り替えられた者"
+    Description (Data 1):  "常用労働者の異動状況区分5合計: (3)常用に切り替えられた者"
+    Description (Data 2):  "常用労働者の異動状況区分5合計: (3)常用に切り替えられた者"
+    Description (Data 3):  "常用労働者の異動状況区分5合計: (3)常用に切り替えられた者"
+    Description (Data 4):  "常用労働者の異動状況区分5合計: (3)常用に切り替えられた者"
+    Description (Data 5):  "常用労働者の異動状況区分5合計: (3)常用に切り替えられた者"
+    Description (Data 6):  "常用労働者の異動状況区分5合計: (3)常用に切り替えられた者"
+    Description (Data 7):  "常用労働者の異動状況区分5合計: (3)常用に切り替えられた者"
+    Description (Data 8):  "常用労働者の異動状況区分5合計: (3)常用に切り替えられた者"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -4506,14 +4524,14 @@ capture label values v52_NEWVARIABLE `val_lab'
     Description (Data 16): None
     Description (Data 17): None
     Description (Data 18): None
-    Description (Data 19): "異動状況2雇用期間の定めあり男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 20): "異動状況2雇用期間の定めあり男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 21): "異動状況2雇用期間の定めあり男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 22): "異動状況2雇用期間の定めあり男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 23): "異動状況2雇用期間の定めあり男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 24): "異動状況2雇用期間の定めあり男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 25): "異動状況2雇用期間の定めあり男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
-    Description (Data 26): "異動状況2雇用期間の定めあり男(2)増加常用労働者: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 19): "異動状況2雇用期間の定めあり男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 20): "異動状況2雇用期間の定めあり男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 21): "異動状況2雇用期間の定めあり男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 22): "異動状況2雇用期間の定めあり男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 23): "異動状況2雇用期間の定めあり男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 24): "異動状況2雇用期間の定めあり男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 25): "異動状況2雇用期間の定めあり男: (3)「定めあり」から「定めなし」に切り替えられた者"
+    Description (Data 26): "異動状況2雇用期間の定めあり男: (3)「定めあり」から「定めなし」に切り替えられた者"
 
     Values (Base):    
     Values (Data 1):  
@@ -4750,33 +4768,33 @@ capture label values v55_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 1):  "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 2):  "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 3):  "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 4):  "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 5):  "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 6):  "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 7):  "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 8):  "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 9):  "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 10): "常用労働者の異動状況区分5合計(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 11): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 12): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 13): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 14): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 15): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 16): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 17): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 18): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 19): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 20): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 21): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 22): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 23): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 24): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 25): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 26): "異動状況5合計(4)減少常用労働者: (5)期末常用労働者"
+    Description (Base):    "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 1):  "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 2):  "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 3):  "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 4):  "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 5):  "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 6):  "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 7):  "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 8):  "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 9):  "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 10): "常用労働者の異動状況区分5合計: (5)期末常用労働者"
+    Description (Data 11): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 12): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 13): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 14): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 15): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 16): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 17): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 18): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 19): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 20): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 21): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 22): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 23): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 24): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 25): "異動状況5合計: (5)期末常用労働者"
+    Description (Data 26): "異動状況5合計: (5)期末常用労働者"
 
     Values (Base):    
     Values (Data 1):  
@@ -5023,15 +5041,15 @@ capture label values v58_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分6うちパートタイム男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 1):  "常用労働者の異動状況区分6うちパートタイム男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 2):  "常用労働者の異動状況区分6うちパートタイム男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 3):  "常用労働者の異動状況区分6うちパートタイム男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 4):  "常用労働者の異動状況区分6うちパートタイム男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 5):  "常用労働者の異動状況区分6うちパートタイム男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 6):  "常用労働者の異動状況区分6うちパートタイム男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 7):  "常用労働者の異動状況区分6うちパートタイム男(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 8):  "常用労働者の異動状況区分6うちパートタイム男(2)増加常用労働者: (3)常用に切り替えられた者"
+    Description (Base):    "常用労働者の異動状況区分6うちパートタイム男: (3)常用に切り替えられた者"
+    Description (Data 1):  "常用労働者の異動状況区分6うちパートタイム男: (3)常用に切り替えられた者"
+    Description (Data 2):  "常用労働者の異動状況区分6うちパートタイム男: (3)常用に切り替えられた者"
+    Description (Data 3):  "常用労働者の異動状況区分6うちパートタイム男: (3)常用に切り替えられた者"
+    Description (Data 4):  "常用労働者の異動状況区分6うちパートタイム男: (3)常用に切り替えられた者"
+    Description (Data 5):  "常用労働者の異動状況区分6うちパートタイム男: (3)常用に切り替えられた者"
+    Description (Data 6):  "常用労働者の異動状況区分6うちパートタイム男: (3)常用に切り替えられた者"
+    Description (Data 7):  "常用労働者の異動状況区分6うちパートタイム男: (3)常用に切り替えられた者"
+    Description (Data 8):  "常用労働者の異動状況区分6うちパートタイム男: (3)常用に切り替えられた者"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -5278,33 +5296,33 @@ capture label values v61_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 1):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 2):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 3):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 4):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 5):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 6):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 7):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 8):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 9):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 10): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 11): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 12): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 13): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 14): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 15): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 16): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 17): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 18): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 19): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 20): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 21): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 22): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 23): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 24): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 25): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 26): "異動状況6うちパートタイム男(4)減少常用労働者: (5)期末常用労働者"
+    Description (Base):    "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 1):  "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 2):  "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 3):  "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 4):  "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 5):  "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 6):  "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 7):  "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 8):  "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 9):  "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 10): "常用労働者の異動状況区分6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 11): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 12): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 13): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 14): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 15): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 16): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 17): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 18): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 19): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 20): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 21): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 22): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 23): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 24): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 25): "異動状況6うちパートタイム男: (5)期末常用労働者"
+    Description (Data 26): "異動状況6うちパートタイム男: (5)期末常用労働者"
 
     Values (Base):    
     Values (Data 1):  
@@ -5551,33 +5569,33 @@ capture label values v64_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分7うちパートタイム女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 1):  "常用労働者の異動状況区分7うちパートタイム女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 2):  "常用労働者の異動状況区分7うちパートタイム女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 3):  "常用労働者の異動状況区分7うちパートタイム女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 4):  "常用労働者の異動状況区分7うちパートタイム女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 5):  "常用労働者の異動状況区分7うちパートタイム女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 6):  "常用労働者の異動状況区分7うちパートタイム女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 7):  "常用労働者の異動状況区分7うちパートタイム女(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 8):  "常用労働者の異動状況区分7うちパートタイム女(2)増加常用労働者: (3)常用に切り替えられた者"
+    Description (Base):    "常用労働者の異動状況区分7うちパートタイム女: (3)常用に切り替えられた者"
+    Description (Data 1):  "常用労働者の異動状況区分7うちパートタイム女: (3)常用に切り替えられた者"
+    Description (Data 2):  "常用労働者の異動状況区分7うちパートタイム女: (3)常用に切り替えられた者"
+    Description (Data 3):  "常用労働者の異動状況区分7うちパートタイム女: (3)常用に切り替えられた者"
+    Description (Data 4):  "常用労働者の異動状況区分7うちパートタイム女: (3)常用に切り替えられた者"
+    Description (Data 5):  "常用労働者の異動状況区分7うちパートタイム女: (3)常用に切り替えられた者"
+    Description (Data 6):  "常用労働者の異動状況区分7うちパートタイム女: (3)常用に切り替えられた者"
+    Description (Data 7):  "常用労働者の異動状況区分7うちパートタイム女: (3)常用に切り替えられた者"
+    Description (Data 8):  "常用労働者の異動状況区分7うちパートタイム女: (3)常用に切り替えられた者"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
     Description (Data 12): None
     Description (Data 13): None
     Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Data 15): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 16): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 17): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 18): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 19): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 20): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 21): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 22): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 23): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 24): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 25): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 26): "異動状況: 17うち、4~6(10~12)月離職者"
 
     Values (Base):    
     Values (Data 1):  
@@ -5594,18 +5612,18 @@ capture label values v64_NEWVARIABLE `val_lab'
     Values (Data 12): None
     Values (Data 13): None
     Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
 
 ----------------------------------------------------------------------*/
 gen v65_NEWVARIABLE = .
@@ -5619,6 +5637,18 @@ capture replace v65_NEWVARIABLE = var65  if `data'==5
 capture replace v65_NEWVARIABLE = var65  if `data'==6
 capture replace v65_NEWVARIABLE = var65  if `data'==7
 capture replace v65_NEWVARIABLE = var65  if `data'==8
+capture replace v65_NEWVARIABLE = var56  if `data'==15
+capture replace v65_NEWVARIABLE = var56  if `data'==16
+capture replace v65_NEWVARIABLE = var57  if `data'==17
+capture replace v65_NEWVARIABLE = var57  if `data'==18
+capture replace v65_NEWVARIABLE = var57  if `data'==19
+capture replace v65_NEWVARIABLE = var57  if `data'==20
+capture replace v65_NEWVARIABLE = var57  if `data'==21
+capture replace v65_NEWVARIABLE = var57  if `data'==22
+capture replace v65_NEWVARIABLE = var57  if `data'==23
+capture replace v65_NEWVARIABLE = var57  if `data'==24
+capture replace v65_NEWVARIABLE = var57  if `data'==25
+capture replace v65_NEWVARIABLE = var57  if `data'==26
 capture label variable v65_NEWVARIABLE `var_lab'
 capture label values v65_NEWVARIABLE `val_lab'
 
@@ -5806,33 +5836,33 @@ capture label values v67_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 1):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 2):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 3):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 4):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 5):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 6):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 7):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 8):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 9):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 10): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 11): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 12): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 13): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 14): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 15): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 16): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 17): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 18): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 19): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 20): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 21): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 22): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 23): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 24): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 25): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
-    Description (Data 26): "異動状況7うちパートタイム女(4)減少常用労働者: (5)期末常用労働者"
+    Description (Base):    "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 1):  "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 2):  "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 3):  "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 4):  "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 5):  "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 6):  "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 7):  "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 8):  "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 9):  "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 10): "常用労働者の異動状況区分7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 11): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 12): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 13): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 14): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 15): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 16): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 17): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 18): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 19): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 20): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 21): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 22): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 23): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 24): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 25): "異動状況7うちパートタイム女: (5)期末常用労働者"
+    Description (Data 26): "異動状況7うちパートタイム女: (5)期末常用労働者"
 
     Values (Base):    
     Values (Data 1):  
@@ -6061,33 +6091,33 @@ capture label values v70_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分8うち出向者(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 1):  "常用労働者の異動状況区分8うち出向者(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 2):  "常用労働者の異動状況区分8うち出向者(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 3):  "常用労働者の異動状況区分8うち出向者(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 4):  "常用労働者の異動状況区分8うち出向者(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 5):  "常用労働者の異動状況区分8うち出向者(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 6):  "常用労働者の異動状況区分8うち出向者(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 7):  "常用労働者の異動状況区分8うち出向者(2)増加常用労働者: (3)常用に切り替えられた者"
-    Description (Data 8):  "常用労働者の異動状況区分8うち出向者(2)増加常用労働者: (3)常用に切り替えられた者"
+    Description (Base):    "常用労働者の異動状況区分8うち出向者: (3)常用に切り替えられた者"
+    Description (Data 1):  "常用労働者の異動状況区分8うち出向者: (3)常用に切り替えられた者"
+    Description (Data 2):  "常用労働者の異動状況区分8うち出向者: (3)常用に切り替えられた者"
+    Description (Data 3):  "常用労働者の異動状況区分8うち出向者: (3)常用に切り替えられた者"
+    Description (Data 4):  "常用労働者の異動状況区分8うち出向者: (3)常用に切り替えられた者"
+    Description (Data 5):  "常用労働者の異動状況区分8うち出向者: (3)常用に切り替えられた者"
+    Description (Data 6):  "常用労働者の異動状況区分8うち出向者: (3)常用に切り替えられた者"
+    Description (Data 7):  "常用労働者の異動状況区分8うち出向者: (3)常用に切り替えられた者"
+    Description (Data 8):  "常用労働者の異動状況区分8うち出向者: (3)常用に切り替えられた者"
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
     Description (Data 12): None
     Description (Data 13): None
     Description (Data 14): None
-    Description (Data 15): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 16): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 17): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 18): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 19): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 20): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 21): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 22): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 23): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 24): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 25): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
-    Description (Data 26): "異動状況8うち出向者: 17うち、4~6(10~12)月離職者"
+    Description (Data 15): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 16): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 17): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 18): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 19): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 20): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 21): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 22): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 23): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 24): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 25): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 26): "異動状況: 18うち、4~6(10~12)月出向者"
 
     Values (Base):    
     Values (Data 1):  
@@ -6129,18 +6159,18 @@ capture replace v71_NEWVARIABLE = var71  if `data'==5
 capture replace v71_NEWVARIABLE = var71  if `data'==6
 capture replace v71_NEWVARIABLE = var71  if `data'==7
 capture replace v71_NEWVARIABLE = var71  if `data'==8
-capture replace v71_NEWVARIABLE = var56  if `data'==15
-capture replace v71_NEWVARIABLE = var56  if `data'==16
-capture replace v71_NEWVARIABLE = var57  if `data'==17
-capture replace v71_NEWVARIABLE = var57  if `data'==18
-capture replace v71_NEWVARIABLE = var57  if `data'==19
-capture replace v71_NEWVARIABLE = var57  if `data'==20
-capture replace v71_NEWVARIABLE = var57  if `data'==21
-capture replace v71_NEWVARIABLE = var57  if `data'==22
-capture replace v71_NEWVARIABLE = var57  if `data'==23
-capture replace v71_NEWVARIABLE = var57  if `data'==24
-capture replace v71_NEWVARIABLE = var57  if `data'==25
-capture replace v71_NEWVARIABLE = var57  if `data'==26
+capture replace v71_NEWVARIABLE = var57  if `data'==15
+capture replace v71_NEWVARIABLE = var57  if `data'==16
+capture replace v71_NEWVARIABLE = var58  if `data'==17
+capture replace v71_NEWVARIABLE = var58  if `data'==18
+capture replace v71_NEWVARIABLE = var58  if `data'==19
+capture replace v71_NEWVARIABLE = var58  if `data'==20
+capture replace v71_NEWVARIABLE = var58  if `data'==21
+capture replace v71_NEWVARIABLE = var58  if `data'==22
+capture replace v71_NEWVARIABLE = var58  if `data'==23
+capture replace v71_NEWVARIABLE = var58  if `data'==24
+capture replace v71_NEWVARIABLE = var58  if `data'==25
+capture replace v71_NEWVARIABLE = var58  if `data'==26
 capture label variable v71_NEWVARIABLE `var_lab'
 capture label values v71_NEWVARIABLE `val_lab'
 
@@ -6252,18 +6282,18 @@ capture label values v72_NEWVARIABLE `val_lab'
     Description (Data 12): None
     Description (Data 13): None
     Description (Data 14): None
-    Description (Data 15): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 16): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 17): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 18): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 19): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 20): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 21): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 22): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 23): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 24): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 25): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
-    Description (Data 26): "異動状況8うち出向者: 18うち、4~6(10~12)月出向者"
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
 
     Values (Base):    
     Values (Data 1):  
@@ -6280,18 +6310,18 @@ capture label values v72_NEWVARIABLE `val_lab'
     Values (Data 12): None
     Values (Data 13): None
     Values (Data 14): None
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
 
 ----------------------------------------------------------------------*/
 gen v73_NEWVARIABLE = .
@@ -6305,34 +6335,22 @@ capture replace v73_NEWVARIABLE = var73  if `data'==5
 capture replace v73_NEWVARIABLE = var73  if `data'==6
 capture replace v73_NEWVARIABLE = var73  if `data'==7
 capture replace v73_NEWVARIABLE = var73  if `data'==8
-capture replace v73_NEWVARIABLE = var57  if `data'==15
-capture replace v73_NEWVARIABLE = var57  if `data'==16
-capture replace v73_NEWVARIABLE = var58  if `data'==17
-capture replace v73_NEWVARIABLE = var58  if `data'==18
-capture replace v73_NEWVARIABLE = var58  if `data'==19
-capture replace v73_NEWVARIABLE = var58  if `data'==20
-capture replace v73_NEWVARIABLE = var58  if `data'==21
-capture replace v73_NEWVARIABLE = var58  if `data'==22
-capture replace v73_NEWVARIABLE = var58  if `data'==23
-capture replace v73_NEWVARIABLE = var58  if `data'==24
-capture replace v73_NEWVARIABLE = var58  if `data'==25
-capture replace v73_NEWVARIABLE = var58  if `data'==26
 capture label variable v73_NEWVARIABLE `var_lab'
 capture label values v73_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 1):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 2):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 3):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 4):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 5):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 6):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 7):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 8):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 9):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
-    Description (Data 10): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: (5)期末常用労働者"
+    Description (Base):    "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
+    Description (Data 1):  "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
+    Description (Data 2):  "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
+    Description (Data 3):  "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
+    Description (Data 4):  "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
+    Description (Data 5):  "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
+    Description (Data 6):  "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
+    Description (Data 7):  "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
+    Description (Data 8):  "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
+    Description (Data 9):  "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
+    Description (Data 10): "常用労働者の異動状況区分8うち出向者: (5)期末常用労働者"
     Description (Data 11): "異動状況8うち出向者: (5)期末常用労働者"
     Description (Data 12): "異動状況8うち出向者: (5)期末常用労働者"
     Description (Data 13): "異動状況8うち出向者: (5)期末常用労働者"
@@ -12489,8 +12507,8 @@ capture label values v141_NEWVARIABLE `val_lab'
     Description (Data 6):  "職業別常用労働者数区分14うちパート: 合計"
     Description (Data 7):  "職業別常用労働者数区分14うちパート: 合計"
     Description (Data 8):  "職業別常用労働者数区分14うちパート: 合計"
-    Description (Data 9):  "職業別常用労働者数区分16うちパート: 調査離職者数"
-    Description (Data 10): "職業別常用労働者数区分16うちパート: 調査離職者数"
+    Description (Data 9):  None
+    Description (Data 10): None
     Description (Data 11): None
     Description (Data 12): None
     Description (Data 13): None
@@ -12517,8 +12535,8 @@ capture label values v141_NEWVARIABLE `val_lab'
     Values (Data 6):  
     Values (Data 7):  
     Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
+    Values (Data 9):  None
+    Values (Data 10): None
     Values (Data 11): None
     Values (Data 12): None
     Values (Data 13): None
@@ -12548,8 +12566,6 @@ capture replace v142_NEWVARIABLE = var142  if `data'==5
 capture replace v142_NEWVARIABLE = var142  if `data'==6
 capture replace v142_NEWVARIABLE = var142  if `data'==7
 capture replace v142_NEWVARIABLE = var142  if `data'==8
-capture replace v142_NEWVARIABLE = var138  if `data'==9
-capture replace v142_NEWVARIABLE = var138  if `data'==10
 capture replace v142_NEWVARIABLE = var122  if `data'==15
 capture replace v142_NEWVARIABLE = var122  if `data'==16
 capture replace v142_NEWVARIABLE = var123  if `data'==17
@@ -14299,8 +14315,8 @@ capture label values v161_NEWVARIABLE `val_lab'
     Description (Data 6):  "職業別常用労働者数区分16うちパート: 合計"
     Description (Data 7):  "職業別常用労働者数区分16うちパート: 合計"
     Description (Data 8):  "職業別常用労働者数区分16うちパート: 合計"
-    Description (Data 9):  "職業別常用労働者数区分16うちパート: 調査入職者数"
-    Description (Data 10): "職業別常用労働者数区分16うちパート: 調査入職者数"
+    Description (Data 9):  None
+    Description (Data 10): None
     Description (Data 11): None
     Description (Data 12): None
     Description (Data 13): None
@@ -14327,8 +14343,8 @@ capture label values v161_NEWVARIABLE `val_lab'
     Values (Data 6):  
     Values (Data 7):  
     Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
+    Values (Data 9):  None
+    Values (Data 10): None
     Values (Data 11): None
     Values (Data 12): None
     Values (Data 13): None
@@ -14358,8 +14374,6 @@ capture replace v162_NEWVARIABLE = var162  if `data'==5
 capture replace v162_NEWVARIABLE = var162  if `data'==6
 capture replace v162_NEWVARIABLE = var162  if `data'==7
 capture replace v162_NEWVARIABLE = var162  if `data'==8
-capture replace v162_NEWVARIABLE = var137  if `data'==9
-capture replace v162_NEWVARIABLE = var137  if `data'==10
 capture replace v162_NEWVARIABLE = var144  if `data'==15
 capture replace v162_NEWVARIABLE = var144  if `data'==16
 capture replace v162_NEWVARIABLE = var145  if `data'==17
@@ -14386,24 +14400,24 @@ capture label values v162_NEWVARIABLE `val_lab'
     Description (Data 6):  "区分17調査入職者数及び離職者数: 調査入職者数"
     Description (Data 7):  "区分17調査入職者数及び離職者数: 調査入職者数"
     Description (Data 8):  "区分17調査入職者数及び離職者数: 調査入職者数"
-    Description (Data 9):  None
-    Description (Data 10): None
+    Description (Data 9):  "調査入職者数"
+    Description (Data 10): "調査入職者数"
     Description (Data 11): "入・離の抽出: 調査入職者数"
     Description (Data 12): "入・離の抽出: 調査入職者数"
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Data 13): "入・離の抽出: 調査入職者数"
+    Description (Data 14): "入・離の抽出: 調査入職者数"
+    Description (Data 15): "入・離の抽出: 調査入職者数"
+    Description (Data 16): "入・離の抽出: 調査入職者数"
+    Description (Data 17): "入・離の抽出: 調査入職者数"
+    Description (Data 18): "入・離の抽出: 調査入職者数"
+    Description (Data 19): "入・離の抽出: 調査入職者数"
+    Description (Data 20): "入・離の抽出: 調査入職者数"
+    Description (Data 21): "入・離の抽出: 調査入職者数"
+    Description (Data 22): "入・離の抽出: 調査入職者数"
+    Description (Data 23): "入・離の抽出: 調査入職者数"
+    Description (Data 24): "入・離の抽出: 調査入職者数"
+    Description (Data 25): "入・離の抽出: 調査入職者数"
+    Description (Data 26): "入・離の抽出: 調査入職者数"
 
     Values (Base):    
     Values (Data 1):  None
@@ -14414,24 +14428,24 @@ capture label values v162_NEWVARIABLE `val_lab'
     Values (Data 6):  
     Values (Data 7):  
     Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
+    Values (Data 9):  
+    Values (Data 10): 
     Values (Data 11): 
     Values (Data 12): 
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
 
 ----------------------------------------------------------------------*/
 gen v163_NEWVARIABLE = .
@@ -14443,8 +14457,24 @@ capture replace v163_NEWVARIABLE = var163  if `data'==5
 capture replace v163_NEWVARIABLE = var163  if `data'==6
 capture replace v163_NEWVARIABLE = var163  if `data'==7
 capture replace v163_NEWVARIABLE = var163  if `data'==8
+capture replace v163_NEWVARIABLE = var137  if `data'==9
+capture replace v163_NEWVARIABLE = var137  if `data'==10
 capture replace v163_NEWVARIABLE = var136  if `data'==11
 capture replace v163_NEWVARIABLE = var136  if `data'==12
+capture replace v163_NEWVARIABLE = var136  if `data'==13
+capture replace v163_NEWVARIABLE = var136  if `data'==14
+capture replace v163_NEWVARIABLE = var146  if `data'==15
+capture replace v163_NEWVARIABLE = var146  if `data'==16
+capture replace v163_NEWVARIABLE = var147  if `data'==17
+capture replace v163_NEWVARIABLE = var147  if `data'==18
+capture replace v163_NEWVARIABLE = var147  if `data'==19
+capture replace v163_NEWVARIABLE = var147  if `data'==20
+capture replace v163_NEWVARIABLE = var147  if `data'==21
+capture replace v163_NEWVARIABLE = var147  if `data'==22
+capture replace v163_NEWVARIABLE = var147  if `data'==23
+capture replace v163_NEWVARIABLE = var147  if `data'==24
+capture replace v163_NEWVARIABLE = var147  if `data'==25
+capture replace v163_NEWVARIABLE = var147  if `data'==26
 capture label variable v163_NEWVARIABLE `var_lab'
 capture label values v163_NEWVARIABLE `val_lab'
 
@@ -14459,8 +14489,8 @@ capture label values v163_NEWVARIABLE `val_lab'
     Description (Data 6):  "区分17調査入職者数及び離職者数: 調査離職者数"
     Description (Data 7):  "区分17調査入職者数及び離職者数: 調査離職者数"
     Description (Data 8):  "区分17調査入職者数及び離職者数: 調査離職者数"
-    Description (Data 9):  None
-    Description (Data 10): None
+    Description (Data 9):  "調査離職者数"
+    Description (Data 10): "調査離職者数"
     Description (Data 11): "入・離の抽出: 調査離職者数"
     Description (Data 12): "入・離の抽出: 調査離職者数"
     Description (Data 13): "入・離の抽出: 調査離職者数"
@@ -14487,8 +14517,8 @@ capture label values v163_NEWVARIABLE `val_lab'
     Values (Data 6):  
     Values (Data 7):  
     Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
+    Values (Data 9):  
+    Values (Data 10): 
     Values (Data 11): 
     Values (Data 12): 
     Values (Data 13): 
@@ -14516,6 +14546,8 @@ capture replace v164_NEWVARIABLE = var164  if `data'==5
 capture replace v164_NEWVARIABLE = var164  if `data'==6
 capture replace v164_NEWVARIABLE = var164  if `data'==7
 capture replace v164_NEWVARIABLE = var164  if `data'==8
+capture replace v164_NEWVARIABLE = var138  if `data'==9
+capture replace v164_NEWVARIABLE = var138  if `data'==10
 capture replace v164_NEWVARIABLE = var137  if `data'==11
 capture replace v164_NEWVARIABLE = var137  if `data'==12
 capture replace v164_NEWVARIABLE = var137  if `data'==13
@@ -14548,22 +14580,22 @@ capture label values v164_NEWVARIABLE `val_lab'
     Description (Data 8):  None
     Description (Data 9):  "スペース1"
     Description (Data 10): "スペース1"
-    Description (Data 11): "調査情報: スペース1"
-    Description (Data 12): "調査情報: スペース1"
-    Description (Data 13): "調査情報: スペース1"
-    Description (Data 14): "調査情報: スペース1"
-    Description (Data 15): "調査情報: スペース1"
-    Description (Data 16): "調査情報: スペース1"
-    Description (Data 17): "調査情報: スペース1"
-    Description (Data 18): "調査情報: スペース1"
-    Description (Data 19): "調査情報: スペース1"
-    Description (Data 20): "調査情報: スペース1"
-    Description (Data 21): "調査情報: スペース1"
-    Description (Data 22): "調査情報: スペース1"
-    Description (Data 23): "調査情報: スペース1"
-    Description (Data 24): "調査情報: スペース1"
-    Description (Data 25): "調査情報: スペース1"
-    Description (Data 26): "調査情報: スペース1"
+    Description (Data 11): "スペース1"
+    Description (Data 12): "スペース1"
+    Description (Data 13): "スペース1"
+    Description (Data 14): "スペース1"
+    Description (Data 15): "スペース1"
+    Description (Data 16): "スペース1"
+    Description (Data 17): "スペース1"
+    Description (Data 18): "スペース1"
+    Description (Data 19): "スペース1"
+    Description (Data 20): "スペース1"
+    Description (Data 21): "スペース1"
+    Description (Data 22): "スペース1"
+    Description (Data 23): "スペース1"
+    Description (Data 24): "スペース1"
+    Description (Data 25): "スペース1"
+    Description (Data 26): "スペース1"
 
     Values (Base):    
     Values (Data 1):  None
@@ -14631,22 +14663,22 @@ capture label values v165_NEWVARIABLE `val_lab'
     Description (Data 8):  None
     Description (Data 9):  "スペース2"
     Description (Data 10): "スペース2"
-    Description (Data 11): "調査情報: スペース2"
-    Description (Data 12): "調査情報: スペース2"
-    Description (Data 13): "調査情報: スペース2"
-    Description (Data 14): "調査情報: スペース2"
-    Description (Data 15): "調査情報: スペース2"
-    Description (Data 16): "調査情報: スペース2"
-    Description (Data 17): "調査情報: スペース2"
-    Description (Data 18): "調査情報: スペース2"
-    Description (Data 19): "調査情報: スペース2"
-    Description (Data 20): "調査情報: スペース2"
-    Description (Data 21): "調査情報: スペース2"
-    Description (Data 22): "調査情報: スペース2"
-    Description (Data 23): "調査情報: スペース2"
-    Description (Data 24): "調査情報: スペース2"
-    Description (Data 25): "調査情報: スペース2"
-    Description (Data 26): "調査情報: スペース2"
+    Description (Data 11): "スペース2"
+    Description (Data 12): "スペース2"
+    Description (Data 13): "スペース2"
+    Description (Data 14): "スペース2"
+    Description (Data 15): "スペース2"
+    Description (Data 16): "スペース2"
+    Description (Data 17): "スペース2"
+    Description (Data 18): "スペース2"
+    Description (Data 19): "スペース2"
+    Description (Data 20): "スペース2"
+    Description (Data 21): "スペース2"
+    Description (Data 22): "スペース2"
+    Description (Data 23): "スペース2"
+    Description (Data 24): "スペース2"
+    Description (Data 25): "スペース2"
+    Description (Data 26): "スペース2"
 
     Values (Base):    
     Values (Data 1):  None
@@ -14703,90 +14735,7 @@ capture label values v166_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "乗率"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  "乗率"
-    Description (Data 10): "乗率"
-    Description (Data 11): "調査情報: 乗率"
-    Description (Data 12): "調査情報: 乗率"
-    Description (Data 13): "調査情報: 乗率"
-    Description (Data 14): "調査情報: 乗率"
-    Description (Data 15): "調査情報: 乗率"
-    Description (Data 16): "調査情報: 乗率"
-    Description (Data 17): "調査情報: 乗率"
-    Description (Data 18): "調査情報: 乗率"
-    Description (Data 19): "調査情報: 乗率"
-    Description (Data 20): "調査情報: 乗率"
-    Description (Data 21): "調査情報: 乗率"
-    Description (Data 22): "調査情報: 乗率"
-    Description (Data 23): "調査情報: 乗率"
-    Description (Data 24): "調査情報: 乗率"
-    Description (Data 25): "調査情報: 乗率"
-    Description (Data 26): "調査情報: 乗率"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-
-----------------------------------------------------------------------*/
-gen v167_NEWVARIABLE = .
-local var_lab: variable label var7
-local val_lab: value label var7
-capture replace v167_NEWVARIABLE = var7  if `data'==9
-capture replace v167_NEWVARIABLE = var7  if `data'==10
-capture replace v167_NEWVARIABLE = var7  if `data'==11
-capture replace v167_NEWVARIABLE = var7  if `data'==12
-capture replace v167_NEWVARIABLE = var7  if `data'==13
-capture replace v167_NEWVARIABLE = var7  if `data'==14
-capture replace v167_NEWVARIABLE = var7  if `data'==15
-capture replace v167_NEWVARIABLE = var7  if `data'==16
-capture replace v167_NEWVARIABLE = var7  if `data'==17
-capture replace v167_NEWVARIABLE = var7  if `data'==18
-capture replace v167_NEWVARIABLE = var7  if `data'==19
-capture replace v167_NEWVARIABLE = var7  if `data'==20
-capture replace v167_NEWVARIABLE = var7  if `data'==21
-capture replace v167_NEWVARIABLE = var7  if `data'==22
-capture replace v167_NEWVARIABLE = var7  if `data'==23
-capture replace v167_NEWVARIABLE = var7  if `data'==24
-capture replace v167_NEWVARIABLE = var7  if `data'==25
-capture replace v167_NEWVARIABLE = var7  if `data'==26
-capture label variable v167_NEWVARIABLE `var_lab'
-capture label values v167_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "入・離の抽出: 別掲産業乗率"
+    Description (Base):    "別掲産業乗率"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
@@ -14797,22 +14746,22 @@ capture label values v167_NEWVARIABLE `val_lab'
     Description (Data 8):  None
     Description (Data 9):  None
     Description (Data 10): None
-    Description (Data 11): "入・離の抽出: 別掲産業乗率"
-    Description (Data 12): "入・離の抽出: 別掲産業乗率"
-    Description (Data 13): "入・離の抽出: 調査入職者数"
-    Description (Data 14): "入・離の抽出: 調査入職者数"
-    Description (Data 15): "入・離の抽出: 調査入職者数"
-    Description (Data 16): "入・離の抽出: 調査入職者数"
-    Description (Data 17): "入・離の抽出: 調査入職者数"
-    Description (Data 18): "入・離の抽出: 調査入職者数"
-    Description (Data 19): "入・離の抽出: 調査入職者数"
-    Description (Data 20): "入・離の抽出: 調査入職者数"
-    Description (Data 21): "入・離の抽出: 調査入職者数"
-    Description (Data 22): "入・離の抽出: 調査入職者数"
-    Description (Data 23): "入・離の抽出: 調査入職者数"
-    Description (Data 24): "入・離の抽出: 調査入職者数"
-    Description (Data 25): "入・離の抽出: 調査入職者数"
-    Description (Data 26): "入・離の抽出: 調査入職者数"
+    Description (Data 11): "別掲産業乗率"
+    Description (Data 12): "別掲産業乗率"
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -14827,43 +14776,29 @@ capture label values v167_NEWVARIABLE `val_lab'
     Values (Data 10): None
     Values (Data 11): 
     Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
 
 ----------------------------------------------------------------------*/
-gen v168_NEWVARIABLE = .
+gen v167_NEWVARIABLE = .
 local var_lab: variable label var138
 local val_lab: value label var138
-capture replace v168_NEWVARIABLE = var138  if `data'==11
-capture replace v168_NEWVARIABLE = var138  if `data'==12
-capture replace v168_NEWVARIABLE = var136  if `data'==13
-capture replace v168_NEWVARIABLE = var136  if `data'==14
-capture replace v168_NEWVARIABLE = var146  if `data'==15
-capture replace v168_NEWVARIABLE = var146  if `data'==16
-capture replace v168_NEWVARIABLE = var147  if `data'==17
-capture replace v168_NEWVARIABLE = var147  if `data'==18
-capture replace v168_NEWVARIABLE = var147  if `data'==19
-capture replace v168_NEWVARIABLE = var147  if `data'==20
-capture replace v168_NEWVARIABLE = var147  if `data'==21
-capture replace v168_NEWVARIABLE = var147  if `data'==22
-capture replace v168_NEWVARIABLE = var147  if `data'==23
-capture replace v168_NEWVARIABLE = var147  if `data'==24
-capture replace v168_NEWVARIABLE = var147  if `data'==25
-capture replace v168_NEWVARIABLE = var147  if `data'==26
-capture label variable v168_NEWVARIABLE `var_lab'
-capture label values v168_NEWVARIABLE `val_lab'
+capture replace v167_NEWVARIABLE = var138  if `data'==11
+capture replace v167_NEWVARIABLE = var138  if `data'==12
+capture label variable v167_NEWVARIABLE `var_lab'
+capture label values v167_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -14924,23 +14859,23 @@ capture label values v168_NEWVARIABLE `val_lab'
     Values (Data 26): 
 
 ----------------------------------------------------------------------*/
-gen v169_NEWVARIABLE = .
+gen v168_NEWVARIABLE = .
 local var_lab: variable label var148
 local val_lab: value label var148
-capture replace v169_NEWVARIABLE = var148  if `data'==15
-capture replace v169_NEWVARIABLE = var148  if `data'==16
-capture replace v169_NEWVARIABLE = var149  if `data'==17
-capture replace v169_NEWVARIABLE = var149  if `data'==18
-capture replace v169_NEWVARIABLE = var149  if `data'==19
-capture replace v169_NEWVARIABLE = var149  if `data'==20
-capture replace v169_NEWVARIABLE = var149  if `data'==21
-capture replace v169_NEWVARIABLE = var149  if `data'==22
-capture replace v169_NEWVARIABLE = var149  if `data'==23
-capture replace v169_NEWVARIABLE = var149  if `data'==24
-capture replace v169_NEWVARIABLE = var149  if `data'==25
-capture replace v169_NEWVARIABLE = var149  if `data'==26
-capture label variable v169_NEWVARIABLE `var_lab'
-capture label values v169_NEWVARIABLE `val_lab'
+capture replace v168_NEWVARIABLE = var148  if `data'==15
+capture replace v168_NEWVARIABLE = var148  if `data'==16
+capture replace v168_NEWVARIABLE = var149  if `data'==17
+capture replace v168_NEWVARIABLE = var149  if `data'==18
+capture replace v168_NEWVARIABLE = var149  if `data'==19
+capture replace v168_NEWVARIABLE = var149  if `data'==20
+capture replace v168_NEWVARIABLE = var149  if `data'==21
+capture replace v168_NEWVARIABLE = var149  if `data'==22
+capture replace v168_NEWVARIABLE = var149  if `data'==23
+capture replace v168_NEWVARIABLE = var149  if `data'==24
+capture replace v168_NEWVARIABLE = var149  if `data'==25
+capture replace v168_NEWVARIABLE = var149  if `data'==26
+capture label variable v168_NEWVARIABLE `var_lab'
+capture label values v168_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -15001,27 +14936,27 @@ capture label values v169_NEWVARIABLE `val_lab'
     Values (Data 26): 
 
 ----------------------------------------------------------------------*/
-gen v170_NEWVARIABLE = .
+gen v169_NEWVARIABLE = .
 local var_lab: variable label var149
 local val_lab: value label var149
-capture replace v170_NEWVARIABLE = var149  if `data'==15
-capture replace v170_NEWVARIABLE = var149  if `data'==16
-capture replace v170_NEWVARIABLE = var150  if `data'==17
-capture replace v170_NEWVARIABLE = var150  if `data'==18
-capture replace v170_NEWVARIABLE = var150  if `data'==19
-capture replace v170_NEWVARIABLE = var150  if `data'==20
-capture replace v170_NEWVARIABLE = var150  if `data'==21
-capture replace v170_NEWVARIABLE = var150  if `data'==22
-capture replace v170_NEWVARIABLE = var150  if `data'==23
-capture replace v170_NEWVARIABLE = var150  if `data'==24
-capture replace v170_NEWVARIABLE = var150  if `data'==25
-capture replace v170_NEWVARIABLE = var150  if `data'==26
-capture label variable v170_NEWVARIABLE `var_lab'
-capture label values v170_NEWVARIABLE `val_lab'
+capture replace v169_NEWVARIABLE = var149  if `data'==15
+capture replace v169_NEWVARIABLE = var149  if `data'==16
+capture replace v169_NEWVARIABLE = var150  if `data'==17
+capture replace v169_NEWVARIABLE = var150  if `data'==18
+capture replace v169_NEWVARIABLE = var150  if `data'==19
+capture replace v169_NEWVARIABLE = var150  if `data'==20
+capture replace v169_NEWVARIABLE = var150  if `data'==21
+capture replace v169_NEWVARIABLE = var150  if `data'==22
+capture replace v169_NEWVARIABLE = var150  if `data'==23
+capture replace v169_NEWVARIABLE = var150  if `data'==24
+capture replace v169_NEWVARIABLE = var150  if `data'==25
+capture replace v169_NEWVARIABLE = var150  if `data'==26
+capture label variable v169_NEWVARIABLE `var_lab'
+capture label values v169_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人票抽出率: 共通事業所コード"
+    Description (Base):    "共通事業所コード"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
@@ -15040,14 +14975,14 @@ capture label values v170_NEWVARIABLE `val_lab'
     Description (Data 16): None
     Description (Data 17): None
     Description (Data 18): None
-    Description (Data 19): "個人票抽出率: 共通事業所コード"
-    Description (Data 20): "個人票抽出率: 共通事業所コード"
-    Description (Data 21): "個人票抽出率: 共通事業所コード"
-    Description (Data 22): "個人票抽出率: 共通事業所コード"
-    Description (Data 23): "個人票抽出率: 共通事業所コード"
-    Description (Data 24): "個人票抽出率: 共通事業所コード"
-    Description (Data 25): "個人票抽出率: 共通事業所コード"
-    Description (Data 26): "個人票抽出率: 共通事業所コード"
+    Description (Data 19): "共通事業所コード"
+    Description (Data 20): "共通事業所コード"
+    Description (Data 21): "共通事業所コード"
+    Description (Data 22): "共通事業所コード"
+    Description (Data 23): "共通事業所コード"
+    Description (Data 24): "共通事業所コード"
+    Description (Data 25): "共通事業所コード"
+    Description (Data 26): "共通事業所コード"
 
     Values (Base):    
     Values (Data 1):  None
@@ -15078,19 +15013,19 @@ capture label values v170_NEWVARIABLE `val_lab'
     Values (Data 26): 
 
 ----------------------------------------------------------------------*/
-gen v171_NEWVARIABLE = .
+gen v170_NEWVARIABLE = .
 local var_lab: variable label var151
 local val_lab: value label var151
-capture replace v171_NEWVARIABLE = var151  if `data'==19
-capture replace v171_NEWVARIABLE = var151  if `data'==20
-capture replace v171_NEWVARIABLE = var151  if `data'==21
-capture replace v171_NEWVARIABLE = var151  if `data'==22
-capture replace v171_NEWVARIABLE = var151  if `data'==23
-capture replace v171_NEWVARIABLE = var151  if `data'==24
-capture replace v171_NEWVARIABLE = var153  if `data'==25
-capture replace v171_NEWVARIABLE = var153  if `data'==26
-capture label variable v171_NEWVARIABLE `var_lab'
-capture label values v171_NEWVARIABLE `val_lab'
+capture replace v170_NEWVARIABLE = var151  if `data'==19
+capture replace v170_NEWVARIABLE = var151  if `data'==20
+capture replace v170_NEWVARIABLE = var151  if `data'==21
+capture replace v170_NEWVARIABLE = var151  if `data'==22
+capture replace v170_NEWVARIABLE = var151  if `data'==23
+capture replace v170_NEWVARIABLE = var151  if `data'==24
+capture replace v170_NEWVARIABLE = var152  if `data'==25
+capture replace v170_NEWVARIABLE = var152  if `data'==26
+capture label variable v170_NEWVARIABLE `var_lab'
+capture label values v170_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -15151,23 +15086,23 @@ capture label values v171_NEWVARIABLE `val_lab'
     Values (Data 26): 
 
 ----------------------------------------------------------------------*/
-gen v172_NEWVARIABLE = .
+gen v171_NEWVARIABLE = .
 local var_lab: variable label var153
 local val_lab: value label var153
-capture replace v172_NEWVARIABLE = var153  if `data'==19
-capture replace v172_NEWVARIABLE = var153  if `data'==20
-capture replace v172_NEWVARIABLE = var153  if `data'==21
-capture replace v172_NEWVARIABLE = var153  if `data'==22
-capture replace v172_NEWVARIABLE = var153  if `data'==23
-capture replace v172_NEWVARIABLE = var153  if `data'==24
-capture replace v172_NEWVARIABLE = var155  if `data'==25
-capture replace v172_NEWVARIABLE = var155  if `data'==26
-capture label variable v172_NEWVARIABLE `var_lab'
-capture label values v172_NEWVARIABLE `val_lab'
+capture replace v171_NEWVARIABLE = var153  if `data'==19
+capture replace v171_NEWVARIABLE = var153  if `data'==20
+capture replace v171_NEWVARIABLE = var153  if `data'==21
+capture replace v171_NEWVARIABLE = var153  if `data'==22
+capture replace v171_NEWVARIABLE = var153  if `data'==23
+capture replace v171_NEWVARIABLE = var153  if `data'==24
+capture replace v171_NEWVARIABLE = var154  if `data'==25
+capture replace v171_NEWVARIABLE = var154  if `data'==26
+capture label variable v171_NEWVARIABLE `var_lab'
+capture label values v171_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人票抽出率: 打鍵フラグ"
+    Description (Base):    "打鍵フラグ"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
@@ -15192,8 +15127,8 @@ capture label values v172_NEWVARIABLE `val_lab'
     Description (Data 22): None
     Description (Data 23): None
     Description (Data 24): None
-    Description (Data 25): "個人票抽出率: 打鍵フラグ"
-    Description (Data 26): "個人票抽出率: 打鍵フラグ"
+    Description (Data 25): "打鍵フラグ"
+    Description (Data 26): "打鍵フラグ"
 
     Values (Base):     1: 打鍵データ
     Values (Data 1):  None
@@ -15224,13 +15159,13 @@ capture label values v172_NEWVARIABLE `val_lab'
     Values (Data 26):  1: 打鍵データ
 
 ----------------------------------------------------------------------*/
-gen v173_NEWVARIABLE = .
+gen v172_NEWVARIABLE = .
 local var_lab: variable label var151
 local val_lab: value label var151
-capture replace v173_NEWVARIABLE = var151  if `data'==25
-capture replace v173_NEWVARIABLE = var151  if `data'==26
-capture label variable v173_NEWVARIABLE `var_lab'
-capture label values v173_NEWVARIABLE `val_lab'
+capture replace v172_NEWVARIABLE = var151  if `data'==25
+capture replace v172_NEWVARIABLE = var151  if `data'==26
+capture label variable v172_NEWVARIABLE `var_lab'
+capture label values v172_NEWVARIABLE `val_lab'
 
 
 keep *_NEWVARIABLE

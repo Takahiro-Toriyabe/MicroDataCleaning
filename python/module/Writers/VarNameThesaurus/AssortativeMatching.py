@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import numpy as np
 from .StrDistMeasure import StrDistMeasureFactory as Factory
 
 
@@ -16,6 +15,9 @@ class Agent:
         self.search = 1
         self.partner = None
     
+    def __ArgMax__(self, alist):
+        return alist.index(max(alist))
+        
     def MatchUtil(self, partner, wt=0.6):
 #        d_e = self.measure.StrDist(self.endowment, partner.endowment)
 #        d_g = self.measure.StrDist(self.group, partner.group)
@@ -34,7 +36,7 @@ class Agent:
         return 1 - d_tot 
     
     def Propose(self, agents):
-        i = np.argmax([self.MatchUtil(agent) for agent in agents])
+        i = self.__ArgMax__([self.MatchUtil(agent) for agent in agents])
         return agents[i]
 
     

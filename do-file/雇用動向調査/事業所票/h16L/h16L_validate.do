@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（事業所票）h16-28.xlsx
-    Date: 2019/02/25 04:50:19
+    Date: 2019/02/25 05:59:43
 ----------------------------------------------------------------------*/
 
 
@@ -41,7 +41,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var3} (調査月)"
 }
 
-capture assert inlist(var7, 1, 3, 5, 7, 9, 11, 13, .)
+capture assert inlist(var7, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var7} (地域番号) may have invalid values (Check layout sheet)"
 }
@@ -50,7 +50,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var7} (地域番号)"
 }
 
-capture assert inlist(var15, 1, 3, .)
+capture assert inlist(var15, 1, 2, 3, 4, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var15} (事業所規模) may have invalid values (Check layout sheet)"
 }
@@ -59,7 +59,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var15} (事業所規模)"
 }
 
-capture assert inlist(var16, 1, 3, 5, .)
+capture assert inlist(var16, 1, 2, 3, 4, 5, 6, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var16} (企業規模) may have invalid values (Check layout sheet)"
 }
@@ -68,7 +68,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var16} (企業規模)"
 }
 
-capture assert inlist(var19, 1, 3, .)
+capture assert inlist(var19, 1, 2, 3, 4, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var19} (乗率用事業所規模) may have invalid values (Check layout sheet)"
 }

@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（事業所票）h16-28.xlsx
-    Date: 2019/02/25 04:50:23
+    Date: 2019/02/25 05:59:46
 ----------------------------------------------------------------------*/
 
 
@@ -41,7 +41,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var3} (調査月)"
 }
 
-capture assert inlist(var12, 1, 3, .)
+capture assert inlist(var12, 1, 2, 3, 4, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var12} (事業所規模) may have invalid values (Check layout sheet)"
 }
@@ -50,7 +50,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var12} (事業所規模)"
 }
 
-capture assert inlist(var13, 1, 3, 5, .)
+capture assert inlist(var13, 1, 2, 3, 4, 5, 6, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var13} (企業規模) may have invalid values (Check layout sheet)"
 }

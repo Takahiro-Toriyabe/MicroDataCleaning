@@ -4,7 +4,6 @@ import codecs
 import sys
 import os
 from datetime import datetime
-from .StrDistMeasure import StrDistMeasure
 
 
 class DoFileWriterBase:
@@ -189,7 +188,7 @@ class DoFileWriter(DoFileWriterBase):
             writer.WriteDoFile()
 
 
-class RenameFileWriter(DoFileWriterBase, StrDistMeasure):
+class RenameFileWriter(DoFileWriterBase):
     
     def __GetValues__(self, var):
         vals = ''

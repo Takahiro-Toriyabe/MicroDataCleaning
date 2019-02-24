@@ -28,7 +28,7 @@
 
 
     Source: 平成16～29年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/02/25 04:50:12
+    Date: 2019/02/25 05:59:37
 ----------------------------------------------------------------------*/
 
 
@@ -86,6 +86,6 @@
         Seikin 146-148
         Kazoku 149-151
         Tokubetsu 152-157
-        var4 158-166
+        var2 158-166
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_k-chin/h25_k-chin.txt";
 #delimit cr

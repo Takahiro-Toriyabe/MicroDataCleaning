@@ -42,6 +42,9 @@ class VariableCollector:
                 kaiso = int(float(kaiso))
                 del self.current_group[kaiso-1:]
                 self.current_group.append(komoku)
+                
+        kaiso_next = int(float(self.field.GetValue(row_next, 'kaiso')))
+        del self.current_group[kaiso_next-1:]
     
     def __GetVarGroup__(self):
         group = ''

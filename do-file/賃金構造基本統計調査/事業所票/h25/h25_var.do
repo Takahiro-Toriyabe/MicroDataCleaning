@@ -28,7 +28,7 @@
 
 
     Source: 平成17～29年_賃金構造基本統計調査_事業所票（初任給）.xls
-    Date: 2019/02/25 04:50:17
+    Date: 2019/02/25 05:59:41
 ----------------------------------------------------------------------*/
 
 
@@ -83,4 +83,4 @@ capture label variable In_Gaku_M "初任給額"
 capture label variable In_Jimu_M "採用人員"
 capture label variable In_Gaku_W "初任給額"
 capture label variable In_Jin_W "採用人員"
-capture label variable var4 "共通事業所コード"
+capture label variable var2 "共通事業所コード"
