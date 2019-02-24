@@ -138,10 +138,10 @@ class App:
         self.SheetIndex = InputElement(self.frame_input, 'Excel sheet index', '0', 2)
         self.OutputFile = InputElement(self.frame_input, 'Output file', 'C:/Users/Takahiro/Desktop/test/test', 3)
         self.DataFile = InputElement(self.frame_input, 'Data file', 'Data', 4)
-        self.BaseFile = InputElement(self.frame_input, 'Base file', '', 5)
+        self.SurveyName = InputElement(self.frame_input, 'Survey name', '', 5)
 
         self.frame_lab.config(bg=self.bgcolor)
-        for element in [self.ExcelFile, self.SheetIndex, self.OutputFile, self.DataFile, self.BaseFile]:
+        for element in [self.ExcelFile, self.SheetIndex, self.OutputFile, self.DataFile, self.SurveyName]:
             element.label.config(bg=self.bgcolor)
 
         self.frame_input.grid()
@@ -154,8 +154,8 @@ class App:
         # Frame for operation panel
         self.frame_op = self.__GetFrame__()
 
-        self.csvCheckBox = CheckBox(self.frame_op, 'Make CSV file? (Check if you are an R user)', self.my_font, 0, 0, 2)
-        self.csvCheckBox.box.config(bg=self.bgcolor)
+        self.xlsCheckBox = CheckBox(self.frame_op, 'Make Excel file? (Check if you are an R user)', self.my_font, 0, 0, 2)
+        self.xlsCheckBox.box.config(bg=self.bgcolor)
         self.AddButton = Button(self.frame_op, 'Add', self.my_font, self.Add, 1, 0)
         self.RemoveButton = Button(self.frame_op, 'Remove', self.my_font, self.Remove, 1, 1)
         self.CheckButton = Button(self.frame_op, 'Check', self.my_font, self.CheckSelection, 2, 0)
@@ -358,8 +358,8 @@ class App:
             self.index_list,
             self.outfile_list,
             self.data_list,
-            basefile=self.BaseFile.text.get(),
-            csv=self.csvCheckBox.val.get()
+            xls=self.xlsCheckBox.val.get(),
+            SurveyName=self.SurveyName.text.get()
         )
 
         mystdout = Mystdout(self.Console)

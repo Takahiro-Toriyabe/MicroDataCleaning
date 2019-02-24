@@ -28,7 +28,7 @@
 
 
     Source: 平成17～29年_賃金構造基本統計調査_事業所票（初任給）.xls
-    Date: 2019/02/22 13:15:16
+    Date: 2019/02/25 04:50:17
 ----------------------------------------------------------------------*/
 
 
@@ -41,7 +41,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:Nen} (調査年)"
 }
 
-capture assert inlist(M_JigyoKibo, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
+capture assert inlist(M_JigyoKibo, 0, 2, 4, 6, 8, .)
 if _rc!=0 {
     display as error "WARNING: {bf:M_JigyoKibo} (事業所規模番号) may have invalid values (Check layout sheet)"
 }
@@ -50,7 +50,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:M_JigyoKibo} (事業所規模番号)"
 }
 
-capture assert inlist(M_RinjiKibo, 1, 2, 3, .)
+capture assert inlist(M_RinjiKibo, 1, 3, .)
 if _rc!=0 {
     display as error "WARNING: {bf:M_RinjiKibo} (臨時雇用者規模番号) may have invalid values (Check layout sheet)"
 }
@@ -59,7 +59,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:M_RinjiKibo} (臨時雇用者規模番号)"
 }
 
-capture assert inlist(M_KigyoKibo, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
+capture assert inlist(M_KigyoKibo, 0, 2, 4, 6, 8, .)
 if _rc!=0 {
     display as error "WARNING: {bf:M_KigyoKibo} (企業規模番号) may have invalid values (Check layout sheet)"
 }
@@ -68,7 +68,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:M_KigyoKibo} (企業規模番号)"
 }
 
-capture assert inlist(JigyoKibo, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
+capture assert inlist(JigyoKibo, 0, 2, 4, 6, 8, .)
 if _rc!=0 {
     display as error "WARNING: {bf:JigyoKibo} (事業所規模番号) may have invalid values (Check layout sheet)"
 }
@@ -77,7 +77,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:JigyoKibo} (事業所規模番号)"
 }
 
-capture assert inlist(RinjiKibo, 1, 2, 3, .)
+capture assert inlist(RinjiKibo, 1, 3, .)
 if _rc!=0 {
     display as error "WARNING: {bf:RinjiKibo} (臨時雇用者規模番号) may have invalid values (Check layout sheet)"
 }
@@ -86,7 +86,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:RinjiKibo} (臨時雇用者規模番号)"
 }
 
-capture assert inlist(KigyoKibo, 1, 2, 3, 4, 5, 6, 7, 8, .)
+capture assert inlist(KigyoKibo, 1, 3, 5, 7, .)
 if _rc!=0 {
     display as error "WARNING: {bf:KigyoKibo} (企業規模番号) may have invalid values (Check layout sheet)"
 }
@@ -95,7 +95,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:KigyoKibo} (企業規模番号)"
 }
 
-capture assert inlist(M_Minko, 4, 5, .)
+capture assert inlist(M_Minko, 4, .)
 if _rc!=0 {
     display as error "WARNING: {bf:M_Minko} (民・公区分) may have invalid values (Check layout sheet)"
 }
@@ -113,7 +113,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:SangyoS} (小)"
 }
 
-capture assert inlist(Kakutei, 1, 2, .)
+capture assert inlist(Kakutei, 1, .)
 if _rc!=0 {
     display as error "WARNING: {bf:Kakutei} (確定・未確定) may have invalid values (Check layout sheet)"
 }

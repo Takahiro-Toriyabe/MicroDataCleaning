@@ -28,21 +28,20 @@
 
 
     Source: 
-    Date: 2019/02/21 18:51:51
+    Date: 2019/02/25 04:50:16
 ----------------------------------------------------------------------*/
 
 
-global DoFilePathTemp = "/media/USB DISK/20190221/do-file/賃金構造基本統計調査/個人票"
-global DataFilePathTemp = "/media/HD-LXU3/WageCensus_EmploymentTrend/dta/WageCensus/Kojin"
+global DoFilePathTemp = "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/個人票"
+global DataFilePathTemp = ""
 
-clear
+tempvar dataclear
 set more off
 
 run "${DoFilePathTemp}/h17/h17_const.do"
 run "${DoFilePathTemp}/h17/h17_var.do"
 run "${DoFilePathTemp}/h17/h17_val.do"
 run "${DoFilePathTemp}/h17/h17_validate.do"
-*run "${DoFilePathTemp}/h17/h17_rename.do"
 save "${DataFilePathTemp}/h17_k-chin.dta", replace
 
 clear
@@ -52,7 +51,6 @@ run "${DoFilePathTemp}/h18/h18_const.do"
 run "${DoFilePathTemp}/h18/h18_var.do"
 run "${DoFilePathTemp}/h18/h18_val.do"
 run "${DoFilePathTemp}/h18/h18_validate.do"
-*run "${DoFilePathTemp}/h18/h18_rename.do"
 save "${DataFilePathTemp}/h18_k-chin.dta", replace
 
 clear
@@ -62,7 +60,6 @@ run "${DoFilePathTemp}/h19/h19_const.do"
 run "${DoFilePathTemp}/h19/h19_var.do"
 run "${DoFilePathTemp}/h19/h19_val.do"
 run "${DoFilePathTemp}/h19/h19_validate.do"
-*run "${DoFilePathTemp}/h19/h19_rename.do"
 save "${DataFilePathTemp}/h19_k-chin.dta", replace
 
 clear
@@ -72,7 +69,6 @@ run "${DoFilePathTemp}/h20/h20_const.do"
 run "${DoFilePathTemp}/h20/h20_var.do"
 run "${DoFilePathTemp}/h20/h20_val.do"
 run "${DoFilePathTemp}/h20/h20_validate.do"
-*run "${DoFilePathTemp}/h20/h20_rename.do"
 save "${DataFilePathTemp}/h20_k-chin.dta", replace
 
 clear
@@ -82,7 +78,6 @@ run "${DoFilePathTemp}/h21/h21_const.do"
 run "${DoFilePathTemp}/h21/h21_var.do"
 run "${DoFilePathTemp}/h21/h21_val.do"
 run "${DoFilePathTemp}/h21/h21_validate.do"
-*run "${DoFilePathTemp}/h21/h21_rename.do"
 save "${DataFilePathTemp}/h21_k-chin.dta", replace
 
 clear
@@ -92,7 +87,6 @@ run "${DoFilePathTemp}/h22/h22_const.do"
 run "${DoFilePathTemp}/h22/h22_var.do"
 run "${DoFilePathTemp}/h22/h22_val.do"
 run "${DoFilePathTemp}/h22/h22_validate.do"
-*run "${DoFilePathTemp}/h22/h22_rename.do"
 save "${DataFilePathTemp}/h22_k-chin.dta", replace
 
 clear
@@ -102,7 +96,6 @@ run "${DoFilePathTemp}/h23/h23_const.do"
 run "${DoFilePathTemp}/h23/h23_var.do"
 run "${DoFilePathTemp}/h23/h23_val.do"
 run "${DoFilePathTemp}/h23/h23_validate.do"
-*run "${DoFilePathTemp}/h23/h23_rename.do"
 save "${DataFilePathTemp}/h23_k-chin.dta", replace
 
 clear
@@ -112,7 +105,6 @@ run "${DoFilePathTemp}/h24/h24_const.do"
 run "${DoFilePathTemp}/h24/h24_var.do"
 run "${DoFilePathTemp}/h24/h24_val.do"
 run "${DoFilePathTemp}/h24/h24_validate.do"
-*run "${DoFilePathTemp}/h24/h24_rename.do"
 save "${DataFilePathTemp}/h24_k-chin.dta", replace
 
 clear
@@ -122,7 +114,6 @@ run "${DoFilePathTemp}/h25/h25_const.do"
 run "${DoFilePathTemp}/h25/h25_var.do"
 run "${DoFilePathTemp}/h25/h25_val.do"
 run "${DoFilePathTemp}/h25/h25_validate.do"
-*run "${DoFilePathTemp}/h25/h25_rename.do"
 save "${DataFilePathTemp}/h25_k-chin.dta", replace
 
 clear
@@ -132,7 +123,6 @@ run "${DoFilePathTemp}/h26/h26_const.do"
 run "${DoFilePathTemp}/h26/h26_var.do"
 run "${DoFilePathTemp}/h26/h26_val.do"
 run "${DoFilePathTemp}/h26/h26_validate.do"
-*run "${DoFilePathTemp}/h26/h26_rename.do"
 save "${DataFilePathTemp}/h26_k-chin.dta", replace
 
 clear
@@ -142,7 +132,6 @@ run "${DoFilePathTemp}/h27/h27_const.do"
 run "${DoFilePathTemp}/h27/h27_var.do"
 run "${DoFilePathTemp}/h27/h27_val.do"
 run "${DoFilePathTemp}/h27/h27_validate.do"
-*run "${DoFilePathTemp}/h27/h27_rename.do"
 save "${DataFilePathTemp}/h27_k-chin.dta", replace
 
 clear
@@ -152,7 +141,6 @@ run "${DoFilePathTemp}/h28/h28_const.do"
 run "${DoFilePathTemp}/h28/h28_var.do"
 run "${DoFilePathTemp}/h28/h28_val.do"
 run "${DoFilePathTemp}/h28/h28_validate.do"
-*run "${DoFilePathTemp}/h28/h28_rename.do"
 save "${DataFilePathTemp}/h28_k-chin.dta", replace
 
 clear
@@ -162,11 +150,28 @@ run "${DoFilePathTemp}/h29/h29_const.do"
 run "${DoFilePathTemp}/h29/h29_var.do"
 run "${DoFilePathTemp}/h29/h29_val.do"
 run "${DoFilePathTemp}/h29/h29_validate.do"
-*run "${DoFilePathTemp}/h29/h29_rename.do"
 save "${DataFilePathTemp}/h29_k-chin.dta", replace
 
 clear
 
+
+append using ///
+    "${DataFilePathTemp}/h17_k-chin.dta" ///
+    "${DataFilePathTemp}/h18_k-chin.dta" ///
+    "${DataFilePathTemp}/h19_k-chin.dta" ///
+    "${DataFilePathTemp}/h20_k-chin.dta" ///
+    "${DataFilePathTemp}/h21_k-chin.dta" ///
+    "${DataFilePathTemp}/h22_k-chin.dta" ///
+    "${DataFilePathTemp}/h23_k-chin.dta" ///
+    "${DataFilePathTemp}/h24_k-chin.dta" ///
+    "${DataFilePathTemp}/h25_k-chin.dta" ///
+    "${DataFilePathTemp}/h26_k-chin.dta" ///
+    "${DataFilePathTemp}/h27_k-chin.dta" ///
+    "${DataFilePathTemp}/h28_k-chin.dta" ///
+    "${DataFilePathTemp}/h29_k-chin.dta" ///
+    , gen(`data')
+
+run "${DoFilePathTemp}/rename.do"
 
 macro drop DoFilePathTemp
 macro drop DataFilePathTemp

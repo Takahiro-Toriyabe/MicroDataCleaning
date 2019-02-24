@@ -4,14 +4,10 @@ import sys
 import copy
 from enum import IntEnum
 import unicodedata
-#from .ExcelImporter import LayoutSheetImporter
-#from .HeaderInfo import HeaderInfoFactory
-#from .VariableCollector import Variable
-#from .RepeatInfo import RepeatInfoFactory
-from ExcelImporter import LayoutSheetImporter
-from HeaderInfo import HeaderInfoFactory
-from VariableCollector import Variable
-from RepeatInfo import RepeatInfoFactory
+from .ExcelImporter import LayoutSheetImporter
+from .HeaderInfo import HeaderInfoFactory
+from .VariableCollector import Variable
+from .RepeatInfo import RepeatInfoFactory
 
 class Field:
 
@@ -124,7 +120,7 @@ class FieldCleaner():
 
     def __KillFiller__(self, Field):
         for row, val in enumerate(Field.value):
-            if val[Field.info.komoku] in ['FILLER', 'Filler']:
+            if val[Field.info.komoku] in ['FILLER', 'Filler', 'スペース', 'ブランク', '**', '']:
                 del Field.value[row]
 
     # Normalize cell values

@@ -28,7 +28,7 @@
 
 
     Source: 平成17～29年_賃金構造基本統計調査_事業所票（初任給）.xls
-    Date: 2019/02/22 13:15:17
+    Date: 2019/02/25 04:50:17
 ----------------------------------------------------------------------*/
 
 
@@ -44,7 +44,6 @@
         M_JigyoKibo 32-32
         M_RinjiKibo 33-33
         M_KigyoKibo 34-34
-        var1 38-38
         Sangyo 39-41
         JigyoKibo 42-42
         RinjiKibo 43-43
@@ -83,6 +82,5 @@
         In_Jimu_M 159-162
         In_Gaku_W 163-166
         In_Jin_W 167-170
-        var2 172-180
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_j-chin/h29_j-chin.txt";
 #delimit cr

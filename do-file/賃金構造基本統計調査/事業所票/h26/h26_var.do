@@ -28,7 +28,7 @@
 
 
     Source: 平成17～29年_賃金構造基本統計調査_事業所票（初任給）.xls
-    Date: 2019/02/22 13:15:16
+    Date: 2019/02/25 04:50:17
 ----------------------------------------------------------------------*/
 
 
@@ -43,7 +43,6 @@ capture label variable M_Sangyo "産業分類番号"
 capture label variable M_JigyoKibo "事業所規模番号"
 capture label variable M_RinjiKibo "臨時雇用者規模番号"
 capture label variable M_KigyoKibo "企業規模番号"
-capture label variable var1 "FILLER"
 capture label variable Sangyo "産業分類番号"
 capture label variable JigyoKibo "事業所規模番号"
 capture label variable RinjiKibo "臨時雇用者規模番号"
@@ -84,4 +83,4 @@ capture label variable In_Gaku_M "初任給額"
 capture label variable In_Jimu_M "採用人員"
 capture label variable In_Gaku_W "初任給額"
 capture label variable In_Jin_W "採用人員"
-capture label variable var2 "共通事業所コード"
+capture label variable var4 "共通事業所コード"

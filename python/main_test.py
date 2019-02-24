@@ -42,7 +42,7 @@ for i in range(17, 30):
 master_name = str(outpath) + '/賃金構造基本統計調査/個人票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list, csv=False
+    infile_list, sheet_index_list, outfile_list, data_list, xls=False
 )
 main.run()
 
@@ -74,7 +74,7 @@ for i in range(17, 30):
 master_name = str(outpath) + '/賃金構造基本統計調査/事業所票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list, csv=True
+    infile_list, sheet_index_list, outfile_list, data_list, xls=True
 )
 main.run()
 
@@ -123,7 +123,7 @@ for i in range(16, 29):
 master_name = str(outpath) + '/雇用動向調査/事業所票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list, csv=True
+    infile_list, sheet_index_list, outfile_list, data_list, xls=True, SurveyName='雇用動向調査'
 )
 main.run()
 
@@ -172,7 +172,7 @@ for i in range(16, 29):
 master_name = str(outpath) + '/雇用動向調査/入職者票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list, csv=True
+    infile_list, sheet_index_list, outfile_list, data_list, xls=True, SurveyName='雇用動向調査'
 )
 main.run()
 
@@ -234,6 +234,6 @@ for i in range(7, 29):
 master_name = str(outpath) + '/雇用動向調査/離職者票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list, csv=True
+    infile_list, sheet_index_list, outfile_list, data_list, xls=True, SurveyName='雇用動向調査'
 )
 main.run()
