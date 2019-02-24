@@ -56,8 +56,9 @@ class VariableCollector:
         while row_current != row_next:
             self.__UpdateGroup__(row_current, row_next)
             var = self.field.GetVariable(row_next)
-            var.SetGroup(self.__GetVarGroup__())
-            self.__AddVariable__(var)
+            if var.description not in ['', 'FILLER']:
+                var.SetGroup(self.__GetVarGroup__())
+                self.__AddVariable__(var)
             row_current = row_next
             row_next = self.field.GetNextVarPlace(row_current)
 

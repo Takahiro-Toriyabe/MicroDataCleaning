@@ -7,17 +7,19 @@ class Main(GeneralizedWriter):
     
     def __init__(
         self, infile_list, index_list, outfile_list,
-        data_list = '', master = '', basefile = '', csv = False
+        data_list='', master='', xls=False, reservation=0.2, SurveyName=None
     ):
         self.inlists = InLists(
             infile_list, index_list, outfile_list,
-            data_list, master = master, basefile = basefile
+            data_list, master = master
         )
-        self.csv = csv
+        self.xls = xls
+        self.reservation = reservation
+        self.survey_name = SurveyName
     
     def run(self):
-        writer = GeneralizedWriter(self.csv)
-        writer.Write(self.inlists)
+        writer = GeneralizedWriter()
+        writer.Write(self.inlists, self.xls, self.reservation, self.survey_name)
 
 
 if __name__ == '__main__':
@@ -39,6 +41,6 @@ if __name__ == '__main__':
     master = root_path + '/do-file/master'
         
     main = Main(
-        infile_list, index_list, outfile_list, data_list, basefile = infile2, csv = True
+        infile_list, index_list, outfile_list, data_list, xls=True
     )
     main.run()

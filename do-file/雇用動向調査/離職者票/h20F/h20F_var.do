@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h7-28.xlsx
-    Date: 2019/02/22 13:15:52
+    Date: 2019/02/25 04:50:59
 ----------------------------------------------------------------------*/
 
 
@@ -37,21 +37,20 @@ capture label variable var2 "調査年"
 capture label variable var3 "調査月"
 capture label variable var4 "**"
 capture label variable var5 "調査票区分"
-capture label variable var6 "**"
-capture label variable var7 "乗率"
-capture label variable var8 "都道府県番号"
-capture label variable var9 "事業所番号"
-capture label variable var10 "産業中分類"
-capture label variable var11 "抽出番号"
-capture label variable var12 "事業所規模"
-capture label variable var13 "企業規模"
-capture label variable var14 "性別"
-capture label variable var15 "年齢"
-capture label variable var16 "学歴"
-capture label variable var17 "卒業時期"
-capture label variable var18 "就業形態"
-capture label variable var19 "仕事の内容"
-capture label variable var20 "勤続期間"
-capture label variable var21 "離職理由"
-capture label variable var22 "枚目"
-capture label variable var23 "番号"
+capture label variable var6 "乗率"
+capture label variable var7 "都道府県番号"
+capture label variable var8 "事業所番号"
+capture label variable var9 "産業中分類"
+capture label variable var10 "抽出番号"
+capture label variable var11 "事業所規模"
+capture label variable var12 "企業規模"
+capture label variable var13 "性別"
+capture label variable var14 "年齢"
+capture label variable var15 "学歴"
+capture label variable var16 "卒業時期"
+capture label variable var17 "就業形態"
+capture label variable var18 "仕事の内容"
+capture label variable var19 "勤続期間"
+capture label variable var20 "離職理由"
+capture label variable var21 "枚目"
+capture label variable var22 "番号"

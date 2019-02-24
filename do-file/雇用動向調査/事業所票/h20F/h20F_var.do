@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（事業所票）h16-28.xlsx
-    Date: 2019/02/22 13:15:20
+    Date: 2019/02/25 04:50:22
 ----------------------------------------------------------------------*/
 
 
@@ -39,7 +39,6 @@ capture label variable var4 "スペース1"
 capture label variable var5 "調査票区分"
 capture label variable var6 "スペース2"
 capture label variable var7 "乗率"
-capture label variable var8 "FILLER"
 capture label variable var9 "都道府県番号"
 capture label variable var10 "事業所番号"
 capture label variable var11 "中分類"
@@ -170,4 +169,3 @@ capture label variable var135 "生産・労務"
 capture label variable var136 "その他"
 capture label variable var137 "調査入職者数"
 capture label variable var138 "調査離職者数"
-capture label variable var139 "FILLER"
