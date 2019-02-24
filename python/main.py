@@ -41,6 +41,6 @@ if __name__ == '__main__':
     master = root_path + '/do-file/master'
         
     main = Main(
-        infile_list, index_list, outfile_list, data_list, xls=True
+        infile_list, index_list, outfile_list, data_list, xls=True, reservation=0.5
     )
     main.run()

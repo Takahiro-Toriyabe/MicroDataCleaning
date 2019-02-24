@@ -28,40 +28,40 @@
 
 
     Source: 平成17～29年_賃金構造基本統計調査_事業所票（初任給）.xls
-    Date: 2019/02/25 04:50:17
+    Date: 2019/02/25 05:59:41
 ----------------------------------------------------------------------*/
 
 
 capture label define var1 2008 "" 
 capture label values var1 var1
 
-capture label define var9 0 "15,000人以上" 2 "1,000~4,999人" 4 "300~499人" 6 "50~99人" 8 "10~29人" 
-capture label values var9 var9
+capture label define var13 0 "15,000人以上" 1 "5,000~14,999人" 2 "1,000~4,999人" 3 "500~999人" 4 "300~499人" 5 "100~299人" 6 "50~99人" 7 "30~49人" 8 "10~29人" 9 "5~9人" 
+capture label values var13 var13
 
-capture label define var10 1 "0~9人" 3 "100人以上" 
-capture label values var10 var10
-
-capture label define var11 1 "5,000人以上" 3 "500~999人" 5 "100~299人" 7 "10~29人" 
-capture label values var11 var11
-
-capture label define var14 0 "15,000人以上" 2 "1,000~4,999人" 4 "300~499人" 6 "50~99人" 8 "10~29人" 
+capture label define var14 1 "0~9人" 2 "10~99人" 3 "100人以上" 
 capture label values var14 var14
 
-capture label define var15 1 "0~9人" 3 "100人以上" 
+capture label define var15 1 "5,000人以上" 2 "1,000~4,999人" 3 "500~999人" 4 "300~499人" 5 "100~299人" 6 "30~99人" 7 "10~29人" 8 "5~9人" 
 capture label values var15 var15
 
-capture label define var16 1 "5,000人以上" 3 "500~999人" 5 "100~299人" 7 "10~29人" 
-capture label values var16 var16
+capture label define var19 0 "15,000人以上" 1 "5,000~14,999人" 2 "1,000~4,999人" 3 "500~999人" 4 "300~499人" 5 "100~299人" 6 "50~99人" 7 "30~49人" 8 "10~29人" 9 "5~9人" 
+capture label values var19 var19
 
-capture label define var20 1 "単独事業所" 3 "支社" 
+capture label define var20 1 "0~9人" 2 "10~99人" 3 "100人以上" 
 capture label values var20 var20
 
-capture label define var21 4 "民営事業所" 
+capture label define var21 1 "5,000人以上" 2 "1,000~4,999人" 3 "500~999人" 4 "300~499人" 5 "100~299人" 6 "30~99人" 7 "10~29人" 8 "5~9人" 
 capture label values var21 var21
 
-capture label define var22 1 "国" 3 "市区町村" 5 "その他" 
-capture label values var22 var22
+capture label define var26 1 "単独事業所" 2 "本社" 3 "支社" 
+capture label values var26 var26
 
-capture label define var33 1 "確定" 
-capture label values var33 var33
+capture label define var27 4 "民営事業所" 5 "公営事業所" 
+capture label values var27 var27
+
+capture label define var28 1 "国" 2 "都道府県" 3 "市区町村" 4 "独立行政法人" 5 "その他" 
+capture label values var28 var28
+
+capture label define var39 1 "確定" 2 "未確定" 
+capture label values var39 var39
 

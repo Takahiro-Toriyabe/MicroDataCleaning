@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（事業所票）h16-28.xlsx
-    Date: 2019/02/25 04:50:28
+    Date: 2019/02/25 05:59:51
 ----------------------------------------------------------------------*/
 
 
@@ -183,6 +183,6 @@ capture label variable var148 "調査離職者数"
 capture label variable var149 "調査入職者数用抽出率"
 capture label variable var150 "調査離職者数用抽出率"
 capture label variable var151 "打鍵フラグ"
-capture label variable var153 "共通事業所コード"
-capture label variable var154 "中分類"
-capture label variable var155 "小分類"
+capture label variable var152 "共通事業所コード"
+capture label variable var153 "中分類"
+capture label variable var154 "小分類"

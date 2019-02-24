@@ -28,7 +28,7 @@
 
 
     Source: 平成16～29年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/02/25 04:50:12
+    Date: 2019/02/25 05:59:37
 ----------------------------------------------------------------------*/
 
 
@@ -84,4 +84,4 @@ capture label variable Tsukin "通勤手当"
 capture label variable Seikin "精皆勤手当"
 capture label variable Kazoku "家族手当"
 capture label variable Tokubetsu "昨年1年間の賞与期末手当等特別給与額"
-capture label variable var4 "共通事業所コード"
+capture label variable var2 "共通事業所コード"

@@ -28,11 +28,11 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h7-28.xlsx
-    Date: 2019/02/25 04:51:00
+    Date: 2019/02/25 06:00:19
 ----------------------------------------------------------------------*/
 
 
-capture assert inlist(var3, 1, .)
+capture assert inlist(var3, 1, 7, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var3} (調査月) may have invalid values (Check layout sheet)"
 }
@@ -41,7 +41,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var3} (調査月)"
 }
 
-capture assert inlist(var12, 1, 3, .)
+capture assert inlist(var12, 1, 2, 3, 4, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var12} (事業所規模) may have invalid values (Check layout sheet)"
 }
@@ -50,7 +50,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var12} (事業所規模)"
 }
 
-capture assert inlist(var13, 1, 3, 5, .)
+capture assert inlist(var13, 1, 2, 3, 4, 5, 6, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var13} (企業規模) may have invalid values (Check layout sheet)"
 }
@@ -59,7 +59,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var13} (企業規模)"
 }
 
-capture assert inlist(var14, 1, .)
+capture assert inlist(var14, 1, 2, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var14} (性別) may have invalid values (Check layout sheet)"
 }
@@ -68,7 +68,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var14} (性別)"
 }
 
-capture assert inlist(var15, 1, 3, 5, 7, 9, 11, .)
+capture assert inlist(var15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var15} (年齢) may have invalid values (Check layout sheet)"
 }
@@ -77,7 +77,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var15} (年齢)"
 }
 
-capture assert inlist(var16, 1, 3, 5, .)
+capture assert inlist(var16, 1, 2, 3, 4, 5, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var16} (最終学歴) may have invalid values (Check layout sheet)"
 }
@@ -86,7 +86,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var16} (最終学歴)"
 }
 
-capture assert inlist(var17, 1, .)
+capture assert inlist(var17, 1, 2, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var17} (卒業年度) may have invalid values (Check layout sheet)"
 }
@@ -95,7 +95,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var17} (卒業年度)"
 }
 
-capture assert inlist(var18, 1, .)
+capture assert inlist(var18, 1, 2, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var18} (就業形態) may have invalid values (Check layout sheet)"
 }
@@ -104,7 +104,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var18} (就業形態)"
 }
 
-capture assert inlist(var19, 1, 3, 5, 7, 9, .)
+capture assert inlist(var19, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var19} (仕事の内容) may have invalid values (Check layout sheet)"
 }
@@ -113,7 +113,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var19} (仕事の内容)"
 }
 
-capture assert inlist(var20, 1, 3, 5, .)
+capture assert inlist(var20, 1, 2, 3, 4, 5, 6, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var20} (勤続期間) may have invalid values (Check layout sheet)"
 }
@@ -122,7 +122,7 @@ if r(N)==_N {
     display as error "Only missing value: {bf:var20} (勤続期間)"
 }
 
-capture assert inlist(var21, 1, 3, 5, 7, 9, 11, .)
+capture assert inlist(var21, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var21} (離職理由) may have invalid values (Check layout sheet)"
 }

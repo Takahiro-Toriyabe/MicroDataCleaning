@@ -120,7 +120,7 @@ class FieldCleaner():
 
     def __KillFiller__(self, Field):
         for row, val in enumerate(Field.value):
-            if val[Field.info.komoku] in ['FILLER', 'Filler', 'スペース', 'ブランク', '**', '']:
+            if val[Field.info.komoku] in ['FILLER', 'Filler', 'スペース', 'ブランク', '**']:
                 del Field.value[row]
 
     # Normalize cell values

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import Levenshtein
+from Levenshtein import distance as LD
 
 
 class StrDistMeasure:
@@ -24,7 +24,7 @@ class StrDistMeasure:
         if d_max == 0:
             return 1
         
-        d = Levenshtein.distance(str1_synonym, str2_synonym) / d_max
+        d = LD(str1_synonym, str2_synonym) / d_max
         return d + (replace_flag1 or replace_flag2)*0.0001
         # The last term is penalty term: Any small value is ok
     
