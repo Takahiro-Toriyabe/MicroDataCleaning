@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import xlwt
+import openpyxl
+from openpyxl.styles import PatternFill
 
 
 class ExcelWriterBase:
@@ -31,8 +32,8 @@ class ExcelWriterBase:
         pass
 
     def __WriteFooter__(self):
-        self.wb.save(self.filename + self.tag + '.xls')
-
+        self.wb.save(self.filename + self.tag + '.xlsx')
+        
     def __PrintEndMessage__(self):
         pass
 
@@ -51,13 +52,13 @@ class CleanLayoutWriter(ExcelWriterBase):
         self.tag = '_layout'
     
     def __OpenFile__(self):
-        self.wb = xlwt.Workbook()
-        self.sheet = self.wb.add_sheet('Layout')
+        self.wb = openpyxl.Workbook()
+        self.ws = self.wb.active
         
     def __WriteHeader__(self):
         header = ['Description', 'Varname', 'Begin' , 'End', 'Value']
         for c, word in enumerate(header):
-            self.sheet.write(0, c, word)
+            self.ws.cell(row=1, column=c+1, value=word)
         
     def __GetValues__(self, var):
         vals = ''
@@ -68,19 +69,20 @@ class CleanLayoutWriter(ExcelWriterBase):
             
     def __WriteMainPart__(self):
         for r, var in enumerate(self.source):
-            self.sheet.write(r+1, 0, str(var.GetFullDescription()))
-            self.sheet.write(r+1, 1, str(var.name))
-            self.sheet.write(r+1, 2, str(int(float(var.pos_s))))
-            self.sheet.write(r+1, 3, str(int(float(var.pos_e))))
-            self.sheet.write(r+1, 4, str(self.__GetValues__(var)))
+            self.ws.cell(row=r+2, column=1, value=str(var.GetFullDescription()))
+            self.ws.cell(row=r+2, column=2, value=str(var.name))
+            self.ws.cell(row=r+2, column=3, value=str(int(float(var.pos_s))))
+            self.ws.cell(row=r+2, column=4, value=str(int(float(var.pos_e))))
+            self.ws.cell(row=r+2, column=5, value=str(self.__GetValues__(var)))
 
 
 class RenameExcelWriter(ExcelWriterBase):
 
     def __OpenFile__(self):
-        self.wb = xlwt.Workbook()
-        self.sheet1 = self.wb.add_sheet('Description')
-        self.sheet2 = self.wb.add_sheet('VarName')
+        self.wb = openpyxl.Workbook()
+        self.ws1 = self.wb.active
+        self.ws1.title = 'Description'
+        self.ws2 = self.wb.create_sheet(title='VarName')
     
     def __GetNumFiles__(self):
         first_key = sorted(self.source.keys())[0]
@@ -88,21 +90,31 @@ class RenameExcelWriter(ExcelWriterBase):
         
     def __WriteHeader__(self):
         self.row = 0
-        self.sheet1.write(self.row, 0, 'Description: Base')
-        self.sheet2.write(self.row, 0, 'VarName: Base')
+        self.ws1.cell(row=self.row+1, column=1, value='Description: Base')
+        self.ws2.cell(row=self.row+1, column=1, value='VarName: Base')
         for c in range(self.__GetNumFiles__()):
-            self.sheet1.write(self.row, c+1, 'Description: InFile ' + str(c))
-            self.sheet2.write(self.row, c+1, 'VarName: InFile ' + str(c))
+            self.ws1.cell(self.row+1, column=c+2, value='Description: InFile ' + str(c))
+            self.ws2.cell(self.row+1, column=c+2, value='VarName: InFile ' + str(c))
 
     def __WriteMainPart__(self):
+        fill = PatternFill(patternType='solid', fgColor='ffc040')
         for key, synonym in self.source.items():
             self.row = self.row + 1
-            self.sheet1.write(self.row, 0, synonym.baseinfo.GetFullDescription())
-            self.sheet2.write(self.row, 0, synonym.baseinfo.name)
+            self.ws1.cell(row=self.row+1, column=1, value=synonym.baseinfo.GetFullDescription())
+            self.ws2.cell(row=self.row+1, column=1, value=synonym.baseinfo.name)
             for c, var in enumerate(synonym.list):
-                if var is not None:
-                    self.sheet1.write(self.row, c+1, var.GetFullDescription())
-                    self.sheet2.write(self.row, c+1, var.name)
+                try:
+                    self.ws1.cell(row=self.row+1, column=c+2, value=var.GetFullDescription())
+                    self.ws2.cell(row=self.row+1, column=c+2, value=var.name)
+
+                    # Put color to cells 
+                    if c != 0 and var.GetFullDescription() != synonym.list[c-1].GetFullDescription():
+                        for ws in [self.ws1, self.ws2]:
+                            ws.cell(row=self.row+1, column=c+1).fill = fill
+                            ws.cell(row=self.row+1, column=c+2).fill = fill
+                except (IndexError, AttributeError):
+                    pass
+                        
 
     def __PrintEndMessage__(self):
-        print('Rename table (.xls): Done')
+        print('Rename table (.xlsx): Done')

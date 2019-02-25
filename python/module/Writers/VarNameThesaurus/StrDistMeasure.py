@@ -10,8 +10,9 @@ class StrDistMeasure:
         
     def __GetSynonym__(self, chars):
         synonym = chars
-        for pair in self.thesaurus:
-            synonym = synonym.replace(str(pair[0]), str(pair[1]))
+        for words in self.thesaurus:
+            for word in words[1:]:
+                synonym = synonym.replace(str(word), str(words[0]))
         
         replace_flag = synonym != chars
         return synonym, replace_flag

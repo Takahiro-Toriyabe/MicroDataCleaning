@@ -144,6 +144,13 @@ class ValidateFileWriter(DoFileWriterBase):
 
     def __WriteMainPart__(self):
         for var in self.source:
+            self.file.write('count if ' + var.name + '==.\n')
+            self.file.write('if r(N)==_N {\n')
+            self.file.write(
+                self.indent + 'display as error "Only missing value: '
+                + '{bf:' + var.name + '} (' + var.description + ')"\n'
+            )
+            self.file.write('}' + '\n')
             if len(var.val_list) != 0:
                 self.file.write('capture assert inlist(' + var.name)
                 for val in var.val_list:
@@ -157,13 +164,7 @@ class ValidateFileWriter(DoFileWriterBase):
                     + '(Check layout sheet)"\n'
                 )
                 self.file.write('}\n')
-                self.file.write('count if ' + var.name + '==.\n')
-                self.file.write('if r(N)==_N {\n')
-                self.file.write(
-                    self.indent + 'display as error "Only missing value: '
-                    + '{bf:' + var.name + '} (' + var.description + ')"\n'
-                )
-                self.file.write('}' + '\n'*2)
+            self.file.write('\n'*2)
 
 
 class DoFileWriter(DoFileWriterBase):
@@ -302,7 +303,9 @@ class MasterFileWriter(DoFileWriterBase):
                 + '"' + str(datafile_cleaned) + '.dta" ///'
         
         self.file.write(append_command + "\n" + self.indent + ", gen(`data')\n\n")
-        self.file.write('run "${DoFilePathTemp}/rename.do"' + '\n\n')
+        self.file.write('run "${DoFilePathTemp}/rename.do"\n')
+        self.file.write('CheckAppendValidatity, data_id(`data\') tol(0.2) stats("mean sd")\n\n')
+        self.file.write('save "${DataFilePathTemp}/data_appended.dta"\n\n')
         self.file.write('macro drop DoFilePathTemp\n')
         self.file.write('macro drop DataFilePathTemp\n')
 

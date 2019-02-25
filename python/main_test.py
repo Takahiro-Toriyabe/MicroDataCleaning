@@ -42,7 +42,7 @@ for i in range(17, 30):
 master_name = str(outpath) + '/賃金構造基本統計調査/個人票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list, xls=False
+    infile_list, sheet_index_list, outfile_list, data_list, xls=True
 )
 main.run()
 
@@ -83,12 +83,17 @@ main.run()
 os.chdir(inpath + "/雇用動向調査/事業所票")
 
 # List of layout tables
-infile_list = [
+infile_list = ['（参考）符号表_雇用動向調査（事業所票）h03-04' for i in range(2*2)]
+infile_list = infile_list + ['（参考）符号表_雇用動向調査（事業所票）h5-10' for i in range(6*2)]
+infile_list = infile_list + ['（参考）符号表_雇用動向調査（事業所票）h11' for i in range(1*2)]
+infile_list = infile_list + ['（参考）符号表_雇用動向調査（事業所票）h12-15' for i in range(4*2)]
+infile_list = infile_list + [
     "（参考）符号表_雇用動向調査（事業所票）h16-28.xlsx" for i in range((28-15)*2)
 ]
 
 # List of indices of each sheet
-sheet_index_list = [
+sheet_index_list = [0 for i in range((2+6+1+4)*2)]
+sheet_index_list = sheet_index_list + [
     0, 1,
     0, 1,
     2, 3,
@@ -106,7 +111,7 @@ sheet_index_list = [
 
 # List of output file names
 outfile_list = []
-for i in range(16, 29):
+for i in range(3, 29):
     for j in ["F", "L"]:
         outfile = "h" + str(i) + str(j) + "/h" + str(i) + str(j)
         outfile_list.append(
@@ -114,9 +119,13 @@ for i in range(16, 29):
         )
 
 data_list = []
-for i in range(16, 29):
+for i in range(3, 29):
+    if i < 10:
+        year = '0' + str(i)
+    else:
+        year = str(i)
     for j in ["01", "07"]:
-        data = str(datapath) + "/雇用動向調査/H03-28_j-koyo/H" + str(i) \
+        data = str(datapath) + "/雇用動向調査/H03-28_j-koyo/H" + year \
             + "_j-koyo" + str(j) + ".txt"
         data_list.append(data)
 
