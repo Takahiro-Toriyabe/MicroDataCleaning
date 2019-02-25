@@ -42,7 +42,7 @@ for i in range(17, 30):
 master_name = str(outpath) + '/賃金構造基本統計調査/個人票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list, xls=True
+    infile_list, sheet_index_list, outfile_list, data_list, xls=True, SurveyName='賃金構造基本統計調査'
 )
 main.run()
 
@@ -74,7 +74,7 @@ for i in range(17, 30):
 master_name = str(outpath) + '/賃金構造基本統計調査/事業所票/master.do'
 
 main = Main(
-    infile_list, sheet_index_list, outfile_list, data_list, xls=True
+    infile_list, sheet_index_list, outfile_list, data_list, xls=True, SurveyName='賃金構造基本統計調査'
 )
 main.run()
 

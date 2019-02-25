@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/25 22:08:20
+    Date: 2019/02/26 01:21:47
 ----------------------------------------------------------------------*/
 
 
@@ -457,9 +457,9 @@ capture label values Kihon_NEWVARIABLE `val_lab'
     Description (Data 8):  "事業所番号"
     Description (Data 9):  "事業所番号"
     Description (Data 10): "事業所番号"
-    Description (Data 11): "母集団: 事業所規模番号"
-    Description (Data 12): "事業所票: 産業分類番号"
-    Description (Data 13): "事業所票: 産業分類番号"
+    Description (Data 11): "母集団: 共通事業所コード"
+    Description (Data 12): "母集団: 共通事業所コード"
+    Description (Data 13): "母集団: 共通事業所コード"
 
     Values (Base):    
     Values (Data 1):  
@@ -472,7 +472,7 @@ capture label values Kihon_NEWVARIABLE `val_lab'
     Values (Data 8):  
     Values (Data 9):  
     Values (Data 10): 
-    Values (Data 11):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 11): 
     Values (Data 12): 
     Values (Data 13): 
 
@@ -490,9 +490,9 @@ capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if `data'==7
 capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if `data'==8
 capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if `data'==9
 capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if `data'==10
-capture replace Jigyosyo_NEWVARIABLE = M_JigyoKibo  if `data'==11
-capture replace Jigyosyo_NEWVARIABLE = Sangyo  if `data'==12
-capture replace Jigyosyo_NEWVARIABLE = Sangyo  if `data'==13
+capture replace Jigyosyo_NEWVARIABLE = Jigyousho  if `data'==11
+capture replace Jigyosyo_NEWVARIABLE = Jigyousho  if `data'==12
+capture replace Jigyosyo_NEWVARIABLE = Jigyousho  if `data'==13
 capture label variable Jigyosyo_NEWVARIABLE `var_lab'
 capture label values Jigyosyo_NEWVARIABLE `val_lab'
 
@@ -510,8 +510,8 @@ capture label values Jigyosyo_NEWVARIABLE `val_lab'
     Description (Data 9):  "マスター: 産業分類番号"
     Description (Data 10): "マスター: 産業分類番号"
     Description (Data 11): "母集団: 産業分類番号"
-    Description (Data 12): None
-    Description (Data 13): None
+    Description (Data 12): "母集団: 産業分類番号"
+    Description (Data 13): "母集団: 産業分類番号"
 
     Values (Base):    
     Values (Data 1):  
@@ -525,8 +525,8 @@ capture label values Jigyosyo_NEWVARIABLE `val_lab'
     Values (Data 9):  
     Values (Data 10): 
     Values (Data 11): 
-    Values (Data 12): None
-    Values (Data 13): None
+    Values (Data 12): 
+    Values (Data 13): 
 
 ----------------------------------------------------------------------*/
 gen M_Sangyo_NEWVARIABLE = .
@@ -543,6 +543,8 @@ capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==8
 capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==9
 capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==10
 capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==11
+capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==12
+capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==13
 capture label variable M_Sangyo_NEWVARIABLE `var_lab'
 capture label values M_Sangyo_NEWVARIABLE `val_lab'
 
@@ -559,7 +561,7 @@ capture label values M_Sangyo_NEWVARIABLE `val_lab'
     Description (Data 8):  "マスター: 事業所規模"
     Description (Data 9):  "マスター: 事業所規模"
     Description (Data 10): "マスター: 事業所規模"
-    Description (Data 11): None
+    Description (Data 11): "母集団: 事業所規模番号"
     Description (Data 12): "母集団: 事業所規模"
     Description (Data 13): "母集団: 事業所規模"
 
@@ -574,7 +576,7 @@ capture label values M_Sangyo_NEWVARIABLE `val_lab'
     Values (Data 8):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
     Values (Data 9):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
     Values (Data 10):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
-    Values (Data 11): None
+    Values (Data 11):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
     Values (Data 12):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
     Values (Data 13):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
 
@@ -592,6 +594,7 @@ capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==7
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==8
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==9
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==10
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==11
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==12
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==13
 capture label variable M_JigyoKibo_NEWVARIABLE `var_lab'
@@ -715,8 +718,8 @@ capture label values M_Kigyokibo_NEWVARIABLE `val_lab'
     Description (Data 9):  "事業所票: 産業分類番号"
     Description (Data 10): "事業所票: 産業分類番号"
     Description (Data 11): "事業所票: 産業分類番号"
-    Description (Data 12): "母集団: 産業分類番号"
-    Description (Data 13): "母集団: 産業分類番号"
+    Description (Data 12): "事業所票: 産業分類番号"
+    Description (Data 13): "事業所票: 産業分類番号"
 
     Values (Base):    
     Values (Data 1):  
@@ -748,8 +751,8 @@ capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==8
 capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==9
 capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==10
 capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==11
-capture replace Sangyo_NEWVARIABLE = M_Sangyo  if `data'==12
-capture replace Sangyo_NEWVARIABLE = M_Sangyo  if `data'==13
+capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==12
+capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==13
 capture label variable Sangyo_NEWVARIABLE `var_lab'
 capture label values Sangyo_NEWVARIABLE `val_lab'
 
@@ -2722,7 +2725,7 @@ capture label values Digit_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "母集団: 共通事業所コード"
+    Description (Base):    "共通事業所コード"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
@@ -2733,9 +2736,9 @@ capture label values Digit_NEWVARIABLE `val_lab'
     Description (Data 8):  None
     Description (Data 9):  "共通事業所コード"
     Description (Data 10): "共通事業所コード"
-    Description (Data 11): "母集団: 共通事業所コード"
-    Description (Data 12): "母集団: 共通事業所コード"
-    Description (Data 13): "母集団: 共通事業所コード"
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -2748,21 +2751,18 @@ capture label values Digit_NEWVARIABLE `val_lab'
     Values (Data 8):  None
     Values (Data 9):  
     Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
 
 ----------------------------------------------------------------------*/
-gen Jigyousho_NEWVARIABLE = .
+gen v1_NEWVARIABLE = .
 local var_lab: variable label var2
 local val_lab: value label var2
-capture replace Jigyousho_NEWVARIABLE = var2  if `data'==9
-capture replace Jigyousho_NEWVARIABLE = var2  if `data'==10
-capture replace Jigyousho_NEWVARIABLE = Jigyousho  if `data'==11
-capture replace Jigyousho_NEWVARIABLE = Jigyousho  if `data'==12
-capture replace Jigyousho_NEWVARIABLE = Jigyousho  if `data'==13
-capture label variable Jigyousho_NEWVARIABLE `var_lab'
-capture label values Jigyousho_NEWVARIABLE `val_lab'
+capture replace v1_NEWVARIABLE = var2  if `data'==9
+capture replace v1_NEWVARIABLE = var2  if `data'==10
+capture label variable v1_NEWVARIABLE `var_lab'
+capture label values v1_NEWVARIABLE `val_lab'
 
 
 keep *_NEWVARIABLE

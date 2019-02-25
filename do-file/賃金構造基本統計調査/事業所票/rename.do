@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/25 22:08:23
+    Date: 2019/02/26 01:21:49
 ----------------------------------------------------------------------*/
 
 
@@ -301,9 +301,9 @@ capture label values M_Chosaku_NEWVARIABLE `val_lab'
     Description (Data 8):  "事業所番号"
     Description (Data 9):  "事業所番号"
     Description (Data 10): "事業所番号"
-    Description (Data 11): "母集団: 事業所規模番号"
-    Description (Data 12): "母集団: 事業所規模番号"
-    Description (Data 13): "母集団: 事業所規模番号"
+    Description (Data 11): "母集団: 共通事業所コード"
+    Description (Data 12): "母集団: 共通事業所コード"
+    Description (Data 13): "母集団: 共通事業所コード"
 
     Values (Base):    
     Values (Data 1):  
@@ -316,9 +316,9 @@ capture label values M_Chosaku_NEWVARIABLE `val_lab'
     Values (Data 8):  
     Values (Data 9):  
     Values (Data 10): 
-    Values (Data 11):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
-    Values (Data 12):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
-    Values (Data 13):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
 
 ----------------------------------------------------------------------*/
 gen M_JigyoBan_NEWVARIABLE = .
@@ -334,9 +334,9 @@ capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if `data'==7
 capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if `data'==8
 capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if `data'==9
 capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if `data'==10
-capture replace M_JigyoBan_NEWVARIABLE = M_JigyoKibo  if `data'==11
-capture replace M_JigyoBan_NEWVARIABLE = M_JigyoKibo  if `data'==12
-capture replace M_JigyoBan_NEWVARIABLE = M_JigyoKibo  if `data'==13
+capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if `data'==11
+capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if `data'==12
+capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if `data'==13
 capture label variable M_JigyoBan_NEWVARIABLE `var_lab'
 capture label values M_JigyoBan_NEWVARIABLE `val_lab'
 
@@ -405,9 +405,9 @@ capture label values M_Sangyo_NEWVARIABLE `val_lab'
     Description (Data 8):  "マスター: 事業所規模番号"
     Description (Data 9):  "マスター: 事業所規模番号"
     Description (Data 10): "マスター: 事業所規模番号"
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
+    Description (Data 11): "母集団: 事業所規模番号"
+    Description (Data 12): "母集団: 事業所規模番号"
+    Description (Data 13): "母集団: 事業所規模番号"
 
     Values (Base):     0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
     Values (Data 1):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
@@ -420,9 +420,9 @@ capture label values M_Sangyo_NEWVARIABLE `val_lab'
     Values (Data 8):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
     Values (Data 9):   0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
     Values (Data 10):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
+    Values (Data 11):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 12):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
+    Values (Data 13):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
 
 ----------------------------------------------------------------------*/
 gen M_JigyoKibo_NEWVARIABLE = .
@@ -438,6 +438,9 @@ capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==7
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==8
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==9
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==10
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==11
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==12
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==13
 capture label variable M_JigyoKibo_NEWVARIABLE `var_lab'
 capture label values M_JigyoKibo_NEWVARIABLE `val_lab'
 
@@ -2632,9 +2635,9 @@ capture label values In_Jin_W_NEWVARIABLE `val_lab'
     Description (Data 8):  None
     Description (Data 9):  "共通事業所コード"
     Description (Data 10): "共通事業所コード"
-    Description (Data 11): "母集団: 共通事業所コード"
-    Description (Data 12): "母集団: 共通事業所コード"
-    Description (Data 13): "母集団: 共通事業所コード"
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
 
     Values (Base):    
     Values (Data 1):  
@@ -2647,9 +2650,9 @@ capture label values In_Jin_W_NEWVARIABLE `val_lab'
     Values (Data 8):  None
     Values (Data 9):  
     Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
 
 ----------------------------------------------------------------------*/
 gen v1_NEWVARIABLE = .
@@ -2660,9 +2663,6 @@ capture replace v1_NEWVARIABLE = var51  if `data'==2
 capture replace v1_NEWVARIABLE = var51  if `data'==3
 capture replace v1_NEWVARIABLE = var2  if `data'==9
 capture replace v1_NEWVARIABLE = var2  if `data'==10
-capture replace v1_NEWVARIABLE = M_JigyoBan  if `data'==11
-capture replace v1_NEWVARIABLE = M_JigyoBan  if `data'==12
-capture replace v1_NEWVARIABLE = M_JigyoBan  if `data'==13
 capture label variable v1_NEWVARIABLE `var_lab'
 capture label values v1_NEWVARIABLE `val_lab'
 
