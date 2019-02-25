@@ -18,9 +18,7 @@ class Agent:
     def __ArgMax__(self, alist):
         return alist.index(max(alist))
         
-    def MatchUtil(self, partner, wt=0.6):
-#        d_e = self.measure.StrDist(self.endowment, partner.endowment)
-#        d_g = self.measure.StrDist(self.group, partner.group)
+    def MatchUtil(self, partner, wt=0.5):
         d_e = self.measure.StrDist(
             self.group + self.endowment, partner.group + partner.endowment
         )
