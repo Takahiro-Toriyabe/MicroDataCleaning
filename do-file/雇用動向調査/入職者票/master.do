@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/25 06:00:17
+    Date: 2019/02/25 22:09:15
 ----------------------------------------------------------------------*/
 
 
@@ -302,6 +302,9 @@ append using ///
     , gen(`data')
 
 run "${DoFilePathTemp}/rename.do"
+CheckAppendValidatity, data_id(`data') tol(0.2) stats("mean sd")
+
+save "${DataFilePathTemp}/data_appended.dta"
 
 macro drop DoFilePathTemp
 macro drop DataFilePathTemp

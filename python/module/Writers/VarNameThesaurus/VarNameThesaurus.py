@@ -69,7 +69,7 @@ class VarNameThesaurus:
         cnt = 0
         for key, synonym in self.dict.items():
             var_list = [
-                var for var in synonym.list if var != None and 
+                var for var in synonym.list if var is not None and 
                 var.name not in registered_names
             ]
             var_list_withname = [v for v in var_list if 'var' not in v.name]

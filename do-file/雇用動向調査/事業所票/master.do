@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/25 06:00:07
+    Date: 2019/02/25 22:09:02
 ----------------------------------------------------------------------*/
 
 
@@ -37,6 +37,240 @@ global DataFilePathTemp = ""
 
 tempvar dataclear
 set more off
+
+run "${DoFilePathTemp}/h3F/h3F_const.do"
+run "${DoFilePathTemp}/h3F/h3F_var.do"
+run "${DoFilePathTemp}/h3F/h3F_val.do"
+run "${DoFilePathTemp}/h3F/h3F_validate.do"
+save "${DataFilePathTemp}/H03_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h3L/h3L_const.do"
+run "${DoFilePathTemp}/h3L/h3L_var.do"
+run "${DoFilePathTemp}/h3L/h3L_val.do"
+run "${DoFilePathTemp}/h3L/h3L_validate.do"
+save "${DataFilePathTemp}/H03_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h4F/h4F_const.do"
+run "${DoFilePathTemp}/h4F/h4F_var.do"
+run "${DoFilePathTemp}/h4F/h4F_val.do"
+run "${DoFilePathTemp}/h4F/h4F_validate.do"
+save "${DataFilePathTemp}/H04_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h4L/h4L_const.do"
+run "${DoFilePathTemp}/h4L/h4L_var.do"
+run "${DoFilePathTemp}/h4L/h4L_val.do"
+run "${DoFilePathTemp}/h4L/h4L_validate.do"
+save "${DataFilePathTemp}/H04_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h5F/h5F_const.do"
+run "${DoFilePathTemp}/h5F/h5F_var.do"
+run "${DoFilePathTemp}/h5F/h5F_val.do"
+run "${DoFilePathTemp}/h5F/h5F_validate.do"
+save "${DataFilePathTemp}/H05_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h5L/h5L_const.do"
+run "${DoFilePathTemp}/h5L/h5L_var.do"
+run "${DoFilePathTemp}/h5L/h5L_val.do"
+run "${DoFilePathTemp}/h5L/h5L_validate.do"
+save "${DataFilePathTemp}/H05_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h6F/h6F_const.do"
+run "${DoFilePathTemp}/h6F/h6F_var.do"
+run "${DoFilePathTemp}/h6F/h6F_val.do"
+run "${DoFilePathTemp}/h6F/h6F_validate.do"
+save "${DataFilePathTemp}/H06_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h6L/h6L_const.do"
+run "${DoFilePathTemp}/h6L/h6L_var.do"
+run "${DoFilePathTemp}/h6L/h6L_val.do"
+run "${DoFilePathTemp}/h6L/h6L_validate.do"
+save "${DataFilePathTemp}/H06_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h7F/h7F_const.do"
+run "${DoFilePathTemp}/h7F/h7F_var.do"
+run "${DoFilePathTemp}/h7F/h7F_val.do"
+run "${DoFilePathTemp}/h7F/h7F_validate.do"
+save "${DataFilePathTemp}/H07_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h7L/h7L_const.do"
+run "${DoFilePathTemp}/h7L/h7L_var.do"
+run "${DoFilePathTemp}/h7L/h7L_val.do"
+run "${DoFilePathTemp}/h7L/h7L_validate.do"
+save "${DataFilePathTemp}/H07_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h8F/h8F_const.do"
+run "${DoFilePathTemp}/h8F/h8F_var.do"
+run "${DoFilePathTemp}/h8F/h8F_val.do"
+run "${DoFilePathTemp}/h8F/h8F_validate.do"
+save "${DataFilePathTemp}/H08_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h8L/h8L_const.do"
+run "${DoFilePathTemp}/h8L/h8L_var.do"
+run "${DoFilePathTemp}/h8L/h8L_val.do"
+run "${DoFilePathTemp}/h8L/h8L_validate.do"
+save "${DataFilePathTemp}/H08_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h9F/h9F_const.do"
+run "${DoFilePathTemp}/h9F/h9F_var.do"
+run "${DoFilePathTemp}/h9F/h9F_val.do"
+run "${DoFilePathTemp}/h9F/h9F_validate.do"
+save "${DataFilePathTemp}/H09_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h9L/h9L_const.do"
+run "${DoFilePathTemp}/h9L/h9L_var.do"
+run "${DoFilePathTemp}/h9L/h9L_val.do"
+run "${DoFilePathTemp}/h9L/h9L_validate.do"
+save "${DataFilePathTemp}/H09_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h10F/h10F_const.do"
+run "${DoFilePathTemp}/h10F/h10F_var.do"
+run "${DoFilePathTemp}/h10F/h10F_val.do"
+run "${DoFilePathTemp}/h10F/h10F_validate.do"
+save "${DataFilePathTemp}/H10_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h10L/h10L_const.do"
+run "${DoFilePathTemp}/h10L/h10L_var.do"
+run "${DoFilePathTemp}/h10L/h10L_val.do"
+run "${DoFilePathTemp}/h10L/h10L_validate.do"
+save "${DataFilePathTemp}/H10_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h11F/h11F_const.do"
+run "${DoFilePathTemp}/h11F/h11F_var.do"
+run "${DoFilePathTemp}/h11F/h11F_val.do"
+run "${DoFilePathTemp}/h11F/h11F_validate.do"
+save "${DataFilePathTemp}/H11_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h11L/h11L_const.do"
+run "${DoFilePathTemp}/h11L/h11L_var.do"
+run "${DoFilePathTemp}/h11L/h11L_val.do"
+run "${DoFilePathTemp}/h11L/h11L_validate.do"
+save "${DataFilePathTemp}/H11_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h12F/h12F_const.do"
+run "${DoFilePathTemp}/h12F/h12F_var.do"
+run "${DoFilePathTemp}/h12F/h12F_val.do"
+run "${DoFilePathTemp}/h12F/h12F_validate.do"
+save "${DataFilePathTemp}/H12_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h12L/h12L_const.do"
+run "${DoFilePathTemp}/h12L/h12L_var.do"
+run "${DoFilePathTemp}/h12L/h12L_val.do"
+run "${DoFilePathTemp}/h12L/h12L_validate.do"
+save "${DataFilePathTemp}/H12_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h13F/h13F_const.do"
+run "${DoFilePathTemp}/h13F/h13F_var.do"
+run "${DoFilePathTemp}/h13F/h13F_val.do"
+run "${DoFilePathTemp}/h13F/h13F_validate.do"
+save "${DataFilePathTemp}/H13_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h13L/h13L_const.do"
+run "${DoFilePathTemp}/h13L/h13L_var.do"
+run "${DoFilePathTemp}/h13L/h13L_val.do"
+run "${DoFilePathTemp}/h13L/h13L_validate.do"
+save "${DataFilePathTemp}/H13_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h14F/h14F_const.do"
+run "${DoFilePathTemp}/h14F/h14F_var.do"
+run "${DoFilePathTemp}/h14F/h14F_val.do"
+run "${DoFilePathTemp}/h14F/h14F_validate.do"
+save "${DataFilePathTemp}/H14_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h14L/h14L_const.do"
+run "${DoFilePathTemp}/h14L/h14L_var.do"
+run "${DoFilePathTemp}/h14L/h14L_val.do"
+run "${DoFilePathTemp}/h14L/h14L_validate.do"
+save "${DataFilePathTemp}/H14_j-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h15F/h15F_const.do"
+run "${DoFilePathTemp}/h15F/h15F_var.do"
+run "${DoFilePathTemp}/h15F/h15F_val.do"
+run "${DoFilePathTemp}/h15F/h15F_validate.do"
+save "${DataFilePathTemp}/H15_j-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h15L/h15L_const.do"
+run "${DoFilePathTemp}/h15L/h15L_var.do"
+run "${DoFilePathTemp}/h15L/h15L_val.do"
+run "${DoFilePathTemp}/h15L/h15L_validate.do"
+save "${DataFilePathTemp}/H15_j-koyo07.dta", replace
+
+clear
+
 
 run "${DoFilePathTemp}/h16F/h16F_const.do"
 run "${DoFilePathTemp}/h16F/h16F_var.do"
@@ -273,6 +507,32 @@ clear
 
 
 append using ///
+    "${DataFilePathTemp}/H03_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H03_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H04_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H04_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H05_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H05_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H06_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H06_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H07_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H07_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H08_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H08_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H09_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H09_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H10_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H10_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H11_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H11_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H12_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H12_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H13_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H13_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H14_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H14_j-koyo07.dta" ///
+    "${DataFilePathTemp}/H15_j-koyo01.dta" ///
+    "${DataFilePathTemp}/H15_j-koyo07.dta" ///
     "${DataFilePathTemp}/H16_j-koyo01.dta" ///
     "${DataFilePathTemp}/H16_j-koyo07.dta" ///
     "${DataFilePathTemp}/H17_j-koyo01.dta" ///
@@ -302,6 +562,9 @@ append using ///
     , gen(`data')
 
 run "${DoFilePathTemp}/rename.do"
+CheckAppendValidatity, data_id(`data') tol(0.2) stats("mean sd")
+
+save "${DataFilePathTemp}/data_appended.dta"
 
 macro drop DoFilePathTemp
 macro drop DataFilePathTemp
