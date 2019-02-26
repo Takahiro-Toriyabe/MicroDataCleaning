@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/26 16:04:58
+    Date: 2019/02/26 18:09:11
 ----------------------------------------------------------------------*/
 
 
@@ -99,35 +99,35 @@
 gen Chosa_Nen_NEWVARIABLE = .
 local var_lab: variable label var1
 local val_lab: value label var1
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==1
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==2
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==3
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==4
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==5
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==6
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==7
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==8
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==9
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==10
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==11
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==12
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==13
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==14
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==15
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==16
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==17
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==18
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==19
-capture replace Chosa_Nen_NEWVARIABLE = var1  if `data'==20
-capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if `data'==21
-capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if `data'==22
-capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if `data'==23
-capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if `data'==24
-capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if `data'==25
-capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if `data'==26
-capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if `data'==27
-capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if `data'==28
-capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if `data'==29
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==1
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==2
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==3
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==4
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==5
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==6
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==7
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==8
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==9
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==10
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==11
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==12
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==13
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==14
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==15
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==16
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==17
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==18
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==19
+capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==20
+capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==21
+capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==22
+capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==23
+capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==24
+capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==25
+capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==26
+capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==27
+capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==28
+capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==29
 capture label variable Chosa_Nen_NEWVARIABLE `var_lab'
 capture label values Chosa_Nen_NEWVARIABLE `val_lab'
 
@@ -199,35 +199,35 @@ capture label values Chosa_Nen_NEWVARIABLE `val_lab'
 gen Katsu_NEWVARIABLE = .
 local var_lab: variable label var2
 local val_lab: value label var2
-capture replace Katsu_NEWVARIABLE = var2  if `data'==1
-capture replace Katsu_NEWVARIABLE = var2  if `data'==2
-capture replace Katsu_NEWVARIABLE = var2  if `data'==3
-capture replace Katsu_NEWVARIABLE = var2  if `data'==4
-capture replace Katsu_NEWVARIABLE = var2  if `data'==5
-capture replace Katsu_NEWVARIABLE = var2  if `data'==6
-capture replace Katsu_NEWVARIABLE = var2  if `data'==7
-capture replace Katsu_NEWVARIABLE = var2  if `data'==8
-capture replace Katsu_NEWVARIABLE = var2  if `data'==9
-capture replace Katsu_NEWVARIABLE = var2  if `data'==10
-capture replace Katsu_NEWVARIABLE = var2  if `data'==11
-capture replace Katsu_NEWVARIABLE = var2  if `data'==12
-capture replace Katsu_NEWVARIABLE = var2  if `data'==13
-capture replace Katsu_NEWVARIABLE = var2  if `data'==14
-capture replace Katsu_NEWVARIABLE = var2  if `data'==15
-capture replace Katsu_NEWVARIABLE = var2  if `data'==16
-capture replace Katsu_NEWVARIABLE = var2  if `data'==17
-capture replace Katsu_NEWVARIABLE = var2  if `data'==18
-capture replace Katsu_NEWVARIABLE = var2  if `data'==19
-capture replace Katsu_NEWVARIABLE = var2  if `data'==20
-capture replace Katsu_NEWVARIABLE = Katsu  if `data'==21
-capture replace Katsu_NEWVARIABLE = Katsu  if `data'==22
-capture replace Katsu_NEWVARIABLE = Katsu  if `data'==23
-capture replace Katsu_NEWVARIABLE = Katsu  if `data'==24
-capture replace Katsu_NEWVARIABLE = Katsu  if `data'==25
-capture replace Katsu_NEWVARIABLE = Katsu  if `data'==26
-capture replace Katsu_NEWVARIABLE = Katsu  if `data'==27
-capture replace Katsu_NEWVARIABLE = Katsu  if `data'==28
-capture replace Katsu_NEWVARIABLE = Katsu  if `data'==29
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==1
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==2
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==3
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==4
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==5
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==6
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==7
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==8
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==9
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==10
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==11
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==12
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==13
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==14
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==15
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==16
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==17
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==18
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==19
+capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==20
+capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==21
+capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==22
+capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==23
+capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==24
+capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==25
+capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==26
+capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==27
+capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==28
+capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==29
 capture label variable Katsu_NEWVARIABLE `var_lab'
 capture label values Katsu_NEWVARIABLE `val_lab'
 
@@ -299,21 +299,21 @@ capture label values Katsu_NEWVARIABLE `val_lab'
 gen v1_NEWVARIABLE = .
 local var_lab: variable label var3
 local val_lab: value label var3
-capture replace v1_NEWVARIABLE = var3  if `data'==1
-capture replace v1_NEWVARIABLE = var3  if `data'==2
-capture replace v1_NEWVARIABLE = var3  if `data'==3
-capture replace v1_NEWVARIABLE = var3  if `data'==4
-capture replace v1_NEWVARIABLE = var3  if `data'==5
-capture replace v1_NEWVARIABLE = var3  if `data'==6
-capture replace v1_NEWVARIABLE = var3  if `data'==7
-capture replace v1_NEWVARIABLE = var3  if `data'==8
-capture replace v1_NEWVARIABLE = var3  if `data'==9
-capture replace v1_NEWVARIABLE = var3  if `data'==10
-capture replace v1_NEWVARIABLE = var3  if `data'==11
-capture replace v1_NEWVARIABLE = var3  if `data'==12
-capture replace v1_NEWVARIABLE = var3  if `data'==13
-capture replace v1_NEWVARIABLE = var2  if `data'==25
-capture replace v1_NEWVARIABLE = var2  if `data'==26
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==1
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==2
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==3
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==4
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==5
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==6
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==7
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==8
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==9
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==10
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==11
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==12
+capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==13
+capture replace v1_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==25
+capture replace v1_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==26
 capture label variable v1_NEWVARIABLE `var_lab'
 capture label values v1_NEWVARIABLE `val_lab'
 
@@ -385,35 +385,35 @@ capture label values v1_NEWVARIABLE `val_lab'
 gen Ken_NEWVARIABLE = .
 local var_lab: variable label var4
 local val_lab: value label var4
-capture replace Ken_NEWVARIABLE = var4  if `data'==1
-capture replace Ken_NEWVARIABLE = var4  if `data'==2
-capture replace Ken_NEWVARIABLE = var4  if `data'==3
-capture replace Ken_NEWVARIABLE = var4  if `data'==4
-capture replace Ken_NEWVARIABLE = var4  if `data'==5
-capture replace Ken_NEWVARIABLE = var4  if `data'==6
-capture replace Ken_NEWVARIABLE = var4  if `data'==7
-capture replace Ken_NEWVARIABLE = var4  if `data'==8
-capture replace Ken_NEWVARIABLE = var4  if `data'==9
-capture replace Ken_NEWVARIABLE = var4  if `data'==10
-capture replace Ken_NEWVARIABLE = var4  if `data'==11
-capture replace Ken_NEWVARIABLE = var4  if `data'==12
-capture replace Ken_NEWVARIABLE = var4  if `data'==13
-capture replace Ken_NEWVARIABLE = var3  if `data'==14
-capture replace Ken_NEWVARIABLE = var3  if `data'==15
-capture replace Ken_NEWVARIABLE = var3  if `data'==16
-capture replace Ken_NEWVARIABLE = var3  if `data'==17
-capture replace Ken_NEWVARIABLE = var3  if `data'==18
-capture replace Ken_NEWVARIABLE = var3  if `data'==19
-capture replace Ken_NEWVARIABLE = var4  if `data'==20
-capture replace Ken_NEWVARIABLE = Ken  if `data'==21
-capture replace Ken_NEWVARIABLE = Ken  if `data'==22
-capture replace Ken_NEWVARIABLE = Ken  if `data'==23
-capture replace Ken_NEWVARIABLE = Ken  if `data'==24
-capture replace Ken_NEWVARIABLE = Ken  if `data'==25
-capture replace Ken_NEWVARIABLE = Ken  if `data'==26
-capture replace Ken_NEWVARIABLE = Ken  if `data'==27
-capture replace Ken_NEWVARIABLE = Ken  if `data'==28
-capture replace Ken_NEWVARIABLE = Ken  if `data'==29
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==1
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==2
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==3
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==4
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==5
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==6
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==7
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==8
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==9
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==10
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==11
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==12
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==13
+capture replace Ken_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==14
+capture replace Ken_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==15
+capture replace Ken_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==16
+capture replace Ken_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==17
+capture replace Ken_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==18
+capture replace Ken_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==19
+capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==20
+capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==21
+capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==22
+capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==23
+capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==24
+capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==25
+capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==26
+capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==27
+capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==28
+capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==29
 capture label variable Ken_NEWVARIABLE `var_lab'
 capture label values Ken_NEWVARIABLE `val_lab'
 
@@ -485,35 +485,35 @@ capture label values Ken_NEWVARIABLE `val_lab'
 gen JigyoRen_NEWVARIABLE = .
 local var_lab: variable label var5
 local val_lab: value label var5
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==1
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==2
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==3
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==4
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==5
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==6
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==7
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==8
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==9
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==10
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==11
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==12
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==13
-capture replace JigyoRen_NEWVARIABLE = var4  if `data'==14
-capture replace JigyoRen_NEWVARIABLE = var4  if `data'==15
-capture replace JigyoRen_NEWVARIABLE = var4  if `data'==16
-capture replace JigyoRen_NEWVARIABLE = var4  if `data'==17
-capture replace JigyoRen_NEWVARIABLE = var4  if `data'==18
-capture replace JigyoRen_NEWVARIABLE = var4  if `data'==19
-capture replace JigyoRen_NEWVARIABLE = var5  if `data'==20
-capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==21
-capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==22
-capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==23
-capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==24
-capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==25
-capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==26
-capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==27
-capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==28
-capture replace JigyoRen_NEWVARIABLE = JigyoRen  if `data'==29
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==1
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==2
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==3
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==4
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==5
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==6
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==7
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==8
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==9
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==10
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==11
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==12
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==13
+capture replace JigyoRen_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==14
+capture replace JigyoRen_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==15
+capture replace JigyoRen_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==16
+capture replace JigyoRen_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==17
+capture replace JigyoRen_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==18
+capture replace JigyoRen_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==19
+capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==20
+capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==21
+capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==22
+capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==23
+capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==24
+capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==25
+capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==26
+capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==27
+capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==28
+capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==29
 capture label variable JigyoRen_NEWVARIABLE `var_lab'
 capture label values JigyoRen_NEWVARIABLE `val_lab'
 
@@ -585,35 +585,35 @@ capture label values JigyoRen_NEWVARIABLE `val_lab'
 gen Maime_NEWVARIABLE = .
 local var_lab: variable label var6
 local val_lab: value label var6
-capture replace Maime_NEWVARIABLE = var6  if `data'==1
-capture replace Maime_NEWVARIABLE = var6  if `data'==2
-capture replace Maime_NEWVARIABLE = var6  if `data'==3
-capture replace Maime_NEWVARIABLE = var6  if `data'==4
-capture replace Maime_NEWVARIABLE = var6  if `data'==5
-capture replace Maime_NEWVARIABLE = var6  if `data'==6
-capture replace Maime_NEWVARIABLE = var6  if `data'==7
-capture replace Maime_NEWVARIABLE = var6  if `data'==8
-capture replace Maime_NEWVARIABLE = var6  if `data'==9
-capture replace Maime_NEWVARIABLE = var6  if `data'==10
-capture replace Maime_NEWVARIABLE = var6  if `data'==11
-capture replace Maime_NEWVARIABLE = var6  if `data'==12
-capture replace Maime_NEWVARIABLE = var6  if `data'==13
-capture replace Maime_NEWVARIABLE = var5  if `data'==14
-capture replace Maime_NEWVARIABLE = var5  if `data'==15
-capture replace Maime_NEWVARIABLE = var5  if `data'==16
-capture replace Maime_NEWVARIABLE = var5  if `data'==17
-capture replace Maime_NEWVARIABLE = var5  if `data'==18
-capture replace Maime_NEWVARIABLE = var5  if `data'==19
-capture replace Maime_NEWVARIABLE = var7  if `data'==20
-capture replace Maime_NEWVARIABLE = Maime  if `data'==21
-capture replace Maime_NEWVARIABLE = Maime  if `data'==22
-capture replace Maime_NEWVARIABLE = Maime  if `data'==23
-capture replace Maime_NEWVARIABLE = Maime  if `data'==24
-capture replace Maime_NEWVARIABLE = Maime  if `data'==25
-capture replace Maime_NEWVARIABLE = Maime  if `data'==26
-capture replace Maime_NEWVARIABLE = Maime  if `data'==27
-capture replace Maime_NEWVARIABLE = Maime  if `data'==28
-capture replace Maime_NEWVARIABLE = Maime  if `data'==29
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==1
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==2
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==3
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==4
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==5
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==6
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==7
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==8
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==9
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==10
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==11
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==12
+capture replace Maime_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==13
+capture replace Maime_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==14
+capture replace Maime_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==15
+capture replace Maime_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==16
+capture replace Maime_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==17
+capture replace Maime_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==18
+capture replace Maime_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==19
+capture replace Maime_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==20
+capture replace Maime_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==21
+capture replace Maime_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==22
+capture replace Maime_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==23
+capture replace Maime_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==24
+capture replace Maime_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==25
+capture replace Maime_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==26
+capture replace Maime_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==27
+capture replace Maime_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==28
+capture replace Maime_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==29
 capture label variable Maime_NEWVARIABLE `var_lab'
 capture label values Maime_NEWVARIABLE `val_lab'
 
@@ -685,35 +685,35 @@ capture label values Maime_NEWVARIABLE `val_lab'
 gen RouRen_NEWVARIABLE = .
 local var_lab: variable label var7
 local val_lab: value label var7
-capture replace RouRen_NEWVARIABLE = var7  if `data'==1
-capture replace RouRen_NEWVARIABLE = var7  if `data'==2
-capture replace RouRen_NEWVARIABLE = var7  if `data'==3
-capture replace RouRen_NEWVARIABLE = var7  if `data'==4
-capture replace RouRen_NEWVARIABLE = var7  if `data'==5
-capture replace RouRen_NEWVARIABLE = var7  if `data'==6
-capture replace RouRen_NEWVARIABLE = var7  if `data'==7
-capture replace RouRen_NEWVARIABLE = var7  if `data'==8
-capture replace RouRen_NEWVARIABLE = var7  if `data'==9
-capture replace RouRen_NEWVARIABLE = var7  if `data'==10
-capture replace RouRen_NEWVARIABLE = var7  if `data'==11
-capture replace RouRen_NEWVARIABLE = var7  if `data'==12
-capture replace RouRen_NEWVARIABLE = var7  if `data'==13
-capture replace RouRen_NEWVARIABLE = var6  if `data'==14
-capture replace RouRen_NEWVARIABLE = var6  if `data'==15
-capture replace RouRen_NEWVARIABLE = var6  if `data'==16
-capture replace RouRen_NEWVARIABLE = var6  if `data'==17
-capture replace RouRen_NEWVARIABLE = var6  if `data'==18
-capture replace RouRen_NEWVARIABLE = var6  if `data'==19
-capture replace RouRen_NEWVARIABLE = var8  if `data'==20
-capture replace RouRen_NEWVARIABLE = RouRen  if `data'==21
-capture replace RouRen_NEWVARIABLE = RouRen  if `data'==22
-capture replace RouRen_NEWVARIABLE = RouRen  if `data'==23
-capture replace RouRen_NEWVARIABLE = RouRen  if `data'==24
-capture replace RouRen_NEWVARIABLE = RouRen  if `data'==25
-capture replace RouRen_NEWVARIABLE = RouRen  if `data'==26
-capture replace RouRen_NEWVARIABLE = RouRen  if `data'==27
-capture replace RouRen_NEWVARIABLE = RouRen  if `data'==28
-capture replace RouRen_NEWVARIABLE = RouRen  if `data'==29
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==1
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==2
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==3
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==4
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==5
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==6
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==7
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==8
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==9
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==10
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==11
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==12
+capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==13
+capture replace RouRen_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==14
+capture replace RouRen_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==15
+capture replace RouRen_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==16
+capture replace RouRen_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==17
+capture replace RouRen_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==18
+capture replace RouRen_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==19
+capture replace RouRen_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==20
+capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==21
+capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==22
+capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==23
+capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==24
+capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==25
+capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==26
+capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==27
+capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==28
+capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==29
 capture label variable RouRen_NEWVARIABLE `var_lab'
 capture label values RouRen_NEWVARIABLE `val_lab'
 
@@ -785,35 +785,35 @@ capture label values RouRen_NEWVARIABLE `val_lab'
 gen Shiku_NEWVARIABLE = .
 local var_lab: variable label var8
 local val_lab: value label var8
-capture replace Shiku_NEWVARIABLE = var8  if `data'==1
-capture replace Shiku_NEWVARIABLE = var8  if `data'==2
-capture replace Shiku_NEWVARIABLE = var8  if `data'==3
-capture replace Shiku_NEWVARIABLE = var8  if `data'==4
-capture replace Shiku_NEWVARIABLE = var8  if `data'==5
-capture replace Shiku_NEWVARIABLE = var8  if `data'==6
-capture replace Shiku_NEWVARIABLE = var8  if `data'==7
-capture replace Shiku_NEWVARIABLE = var8  if `data'==8
-capture replace Shiku_NEWVARIABLE = var8  if `data'==9
-capture replace Shiku_NEWVARIABLE = var8  if `data'==10
-capture replace Shiku_NEWVARIABLE = var8  if `data'==11
-capture replace Shiku_NEWVARIABLE = var8  if `data'==12
-capture replace Shiku_NEWVARIABLE = var8  if `data'==13
-capture replace Shiku_NEWVARIABLE = var7  if `data'==14
-capture replace Shiku_NEWVARIABLE = var7  if `data'==15
-capture replace Shiku_NEWVARIABLE = var7  if `data'==16
-capture replace Shiku_NEWVARIABLE = var7  if `data'==17
-capture replace Shiku_NEWVARIABLE = var7  if `data'==18
-capture replace Shiku_NEWVARIABLE = var7  if `data'==19
-capture replace Shiku_NEWVARIABLE = var9  if `data'==20
-capture replace Shiku_NEWVARIABLE = Shiku  if `data'==21
-capture replace Shiku_NEWVARIABLE = Shiku  if `data'==22
-capture replace Shiku_NEWVARIABLE = Shiku  if `data'==23
-capture replace Shiku_NEWVARIABLE = Shiku  if `data'==24
-capture replace Shiku_NEWVARIABLE = Shiku  if `data'==25
-capture replace Shiku_NEWVARIABLE = Shiku  if `data'==26
-capture replace Shiku_NEWVARIABLE = Shiku  if `data'==27
-capture replace Shiku_NEWVARIABLE = Shiku  if `data'==28
-capture replace Shiku_NEWVARIABLE = Shiku  if `data'==29
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==1
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==2
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==3
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==4
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==5
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==6
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==7
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==8
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==9
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==10
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==11
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==12
+capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==13
+capture replace Shiku_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==14
+capture replace Shiku_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==15
+capture replace Shiku_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==16
+capture replace Shiku_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==17
+capture replace Shiku_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==18
+capture replace Shiku_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==19
+capture replace Shiku_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==20
+capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==21
+capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==22
+capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==23
+capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==24
+capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==25
+capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==26
+capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==27
+capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==28
+capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==29
 capture label variable Shiku_NEWVARIABLE `var_lab'
 capture label values Shiku_NEWVARIABLE `val_lab'
 
@@ -885,32 +885,32 @@ capture label values Shiku_NEWVARIABLE `val_lab'
 gen Kihon_NEWVARIABLE = .
 local var_lab: variable label var9
 local val_lab: value label var9
-capture replace Kihon_NEWVARIABLE = var9  if `data'==1
-capture replace Kihon_NEWVARIABLE = var9  if `data'==2
-capture replace Kihon_NEWVARIABLE = var9  if `data'==3
-capture replace Kihon_NEWVARIABLE = var9  if `data'==4
-capture replace Kihon_NEWVARIABLE = var9  if `data'==5
-capture replace Kihon_NEWVARIABLE = var9  if `data'==6
-capture replace Kihon_NEWVARIABLE = var9  if `data'==7
-capture replace Kihon_NEWVARIABLE = var9  if `data'==8
-capture replace Kihon_NEWVARIABLE = var9  if `data'==9
-capture replace Kihon_NEWVARIABLE = var9  if `data'==10
-capture replace Kihon_NEWVARIABLE = var9  if `data'==11
-capture replace Kihon_NEWVARIABLE = var9  if `data'==12
-capture replace Kihon_NEWVARIABLE = var9  if `data'==13
-capture replace Kihon_NEWVARIABLE = var8  if `data'==14
-capture replace Kihon_NEWVARIABLE = var8  if `data'==15
-capture replace Kihon_NEWVARIABLE = var8  if `data'==16
-capture replace Kihon_NEWVARIABLE = var8  if `data'==17
-capture replace Kihon_NEWVARIABLE = var8  if `data'==18
-capture replace Kihon_NEWVARIABLE = var8  if `data'==19
-capture replace Kihon_NEWVARIABLE = var10  if `data'==20
-capture replace Kihon_NEWVARIABLE = Kihon  if `data'==21
-capture replace Kihon_NEWVARIABLE = Kihon  if `data'==22
-capture replace Kihon_NEWVARIABLE = Kihon  if `data'==23
-capture replace Kihon_NEWVARIABLE = Kihon  if `data'==24
-capture replace Kihon_NEWVARIABLE = Kihon  if `data'==25
-capture replace Kihon_NEWVARIABLE = Kihon  if `data'==26
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==1
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==2
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==3
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==4
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==5
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==6
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==7
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==8
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==9
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==10
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==11
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==12
+capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==13
+capture replace Kihon_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==14
+capture replace Kihon_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==15
+capture replace Kihon_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==16
+capture replace Kihon_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==17
+capture replace Kihon_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==18
+capture replace Kihon_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==19
+capture replace Kihon_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==20
+capture replace Kihon_NEWVARIABLE = Kihon  if flag_tmp_NEWVARIABLE==21
+capture replace Kihon_NEWVARIABLE = Kihon  if flag_tmp_NEWVARIABLE==22
+capture replace Kihon_NEWVARIABLE = Kihon  if flag_tmp_NEWVARIABLE==23
+capture replace Kihon_NEWVARIABLE = Kihon  if flag_tmp_NEWVARIABLE==24
+capture replace Kihon_NEWVARIABLE = Kihon  if flag_tmp_NEWVARIABLE==25
+capture replace Kihon_NEWVARIABLE = Kihon  if flag_tmp_NEWVARIABLE==26
 capture label variable Kihon_NEWVARIABLE `var_lab'
 capture label values Kihon_NEWVARIABLE `val_lab'
 
@@ -982,35 +982,35 @@ capture label values Kihon_NEWVARIABLE `val_lab'
 gen Jigyosyo_NEWVARIABLE = .
 local var_lab: variable label var10
 local val_lab: value label var10
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==1
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==2
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==3
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==4
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==5
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==6
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==7
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==8
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==9
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==10
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==11
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==12
-capture replace Jigyosyo_NEWVARIABLE = var10  if `data'==13
-capture replace Jigyosyo_NEWVARIABLE = var9  if `data'==14
-capture replace Jigyosyo_NEWVARIABLE = var9  if `data'==15
-capture replace Jigyosyo_NEWVARIABLE = var9  if `data'==16
-capture replace Jigyosyo_NEWVARIABLE = var9  if `data'==17
-capture replace Jigyosyo_NEWVARIABLE = var9  if `data'==18
-capture replace Jigyosyo_NEWVARIABLE = var9  if `data'==19
-capture replace Jigyosyo_NEWVARIABLE = var11  if `data'==20
-capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if `data'==21
-capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if `data'==22
-capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if `data'==23
-capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if `data'==24
-capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if `data'==25
-capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if `data'==26
-capture replace Jigyosyo_NEWVARIABLE = Jigyousho  if `data'==27
-capture replace Jigyosyo_NEWVARIABLE = Jigyousho  if `data'==28
-capture replace Jigyosyo_NEWVARIABLE = Jigyousho  if `data'==29
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==1
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==2
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==3
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==4
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==5
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==6
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==7
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==8
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==9
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==10
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==11
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==12
+capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==13
+capture replace Jigyosyo_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==14
+capture replace Jigyosyo_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==15
+capture replace Jigyosyo_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==16
+capture replace Jigyosyo_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==17
+capture replace Jigyosyo_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==18
+capture replace Jigyosyo_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==19
+capture replace Jigyosyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==20
+capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if flag_tmp_NEWVARIABLE==21
+capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if flag_tmp_NEWVARIABLE==22
+capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if flag_tmp_NEWVARIABLE==23
+capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if flag_tmp_NEWVARIABLE==24
+capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if flag_tmp_NEWVARIABLE==25
+capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if flag_tmp_NEWVARIABLE==26
+capture replace Jigyosyo_NEWVARIABLE = Jigyousho  if flag_tmp_NEWVARIABLE==27
+capture replace Jigyosyo_NEWVARIABLE = Jigyousho  if flag_tmp_NEWVARIABLE==28
+capture replace Jigyosyo_NEWVARIABLE = Jigyousho  if flag_tmp_NEWVARIABLE==29
 capture label variable Jigyosyo_NEWVARIABLE `var_lab'
 capture label values Jigyosyo_NEWVARIABLE `val_lab'
 
@@ -1082,32 +1082,32 @@ capture label values Jigyosyo_NEWVARIABLE `val_lab'
 gen M_Sangyo_NEWVARIABLE = .
 local var_lab: variable label var11
 local val_lab: value label var11
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==1
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==2
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==3
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==4
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==5
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==6
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==7
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==8
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==9
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==10
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==11
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==12
-capture replace M_Sangyo_NEWVARIABLE = var11  if `data'==13
-capture replace M_Sangyo_NEWVARIABLE = var10  if `data'==14
-capture replace M_Sangyo_NEWVARIABLE = var10  if `data'==15
-capture replace M_Sangyo_NEWVARIABLE = var10  if `data'==16
-capture replace M_Sangyo_NEWVARIABLE = var10  if `data'==17
-capture replace M_Sangyo_NEWVARIABLE = var10  if `data'==18
-capture replace M_Sangyo_NEWVARIABLE = var10  if `data'==19
-capture replace M_Sangyo_NEWVARIABLE = var13  if `data'==20
-capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==21
-capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==22
-capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==23
-capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==24
-capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==25
-capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if `data'==26
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==1
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==2
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==3
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==4
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==5
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==6
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==7
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==8
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==9
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==10
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==11
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==12
+capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==13
+capture replace M_Sangyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==14
+capture replace M_Sangyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==15
+capture replace M_Sangyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==16
+capture replace M_Sangyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==17
+capture replace M_Sangyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==18
+capture replace M_Sangyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==19
+capture replace M_Sangyo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==20
+capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==21
+capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==22
+capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==23
+capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==24
+capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==25
+capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==26
 capture label variable M_Sangyo_NEWVARIABLE `var_lab'
 capture label values M_Sangyo_NEWVARIABLE `val_lab'
 
@@ -1179,35 +1179,35 @@ capture label values M_Sangyo_NEWVARIABLE `val_lab'
 gen M_JigyoKibo_NEWVARIABLE = .
 local var_lab: variable label var12
 local val_lab: value label var12
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==1
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==2
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==3
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==4
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==5
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==6
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==7
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==8
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==9
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==10
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==11
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==12
-capture replace M_JigyoKibo_NEWVARIABLE = var12  if `data'==13
-capture replace M_JigyoKibo_NEWVARIABLE = var11  if `data'==14
-capture replace M_JigyoKibo_NEWVARIABLE = var11  if `data'==15
-capture replace M_JigyoKibo_NEWVARIABLE = var11  if `data'==16
-capture replace M_JigyoKibo_NEWVARIABLE = var11  if `data'==17
-capture replace M_JigyoKibo_NEWVARIABLE = var11  if `data'==18
-capture replace M_JigyoKibo_NEWVARIABLE = var11  if `data'==19
-capture replace M_JigyoKibo_NEWVARIABLE = var14  if `data'==20
-capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==21
-capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==22
-capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==23
-capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==24
-capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==25
-capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==26
-capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==27
-capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==28
-capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if `data'==29
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==1
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==2
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==3
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==4
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==5
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==6
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==7
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==8
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==9
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==10
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==11
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==12
+capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==13
+capture replace M_JigyoKibo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==14
+capture replace M_JigyoKibo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==15
+capture replace M_JigyoKibo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==16
+capture replace M_JigyoKibo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==17
+capture replace M_JigyoKibo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==18
+capture replace M_JigyoKibo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==19
+capture replace M_JigyoKibo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==20
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==21
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==22
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==23
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==24
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==25
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==26
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==27
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==28
+capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==29
 capture label variable M_JigyoKibo_NEWVARIABLE `var_lab'
 capture label values M_JigyoKibo_NEWVARIABLE `val_lab'
 
@@ -1279,35 +1279,35 @@ capture label values M_JigyoKibo_NEWVARIABLE `val_lab'
 gen M_Kigyokibo_NEWVARIABLE = .
 local var_lab: variable label var13
 local val_lab: value label var13
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==1
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==2
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==3
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==4
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==5
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==6
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==7
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==8
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==9
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==10
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==11
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==12
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==13
-capture replace M_Kigyokibo_NEWVARIABLE = var12  if `data'==14
-capture replace M_Kigyokibo_NEWVARIABLE = var12  if `data'==15
-capture replace M_Kigyokibo_NEWVARIABLE = var12  if `data'==16
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==17
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==18
-capture replace M_Kigyokibo_NEWVARIABLE = var13  if `data'==19
-capture replace M_Kigyokibo_NEWVARIABLE = var16  if `data'==20
-capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if `data'==21
-capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if `data'==22
-capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if `data'==23
-capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if `data'==24
-capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if `data'==25
-capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if `data'==26
-capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if `data'==27
-capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if `data'==28
-capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if `data'==29
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==1
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==2
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==3
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==4
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==5
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==6
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==7
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==8
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==9
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==10
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==11
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==12
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==13
+capture replace M_Kigyokibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==14
+capture replace M_Kigyokibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==15
+capture replace M_Kigyokibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==16
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==17
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==18
+capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==19
+capture replace M_Kigyokibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==20
+capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==21
+capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==22
+capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==23
+capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==24
+capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==25
+capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==26
+capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==27
+capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==28
+capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==29
 capture label variable M_Kigyokibo_NEWVARIABLE `var_lab'
 capture label values M_Kigyokibo_NEWVARIABLE `val_lab'
 
@@ -1379,35 +1379,35 @@ capture label values M_Kigyokibo_NEWVARIABLE `val_lab'
 gen Sangyo_NEWVARIABLE = .
 local var_lab: variable label var14
 local val_lab: value label var14
-capture replace Sangyo_NEWVARIABLE = var14  if `data'==1
-capture replace Sangyo_NEWVARIABLE = var14  if `data'==2
-capture replace Sangyo_NEWVARIABLE = var14  if `data'==3
-capture replace Sangyo_NEWVARIABLE = var14  if `data'==4
-capture replace Sangyo_NEWVARIABLE = var15  if `data'==5
-capture replace Sangyo_NEWVARIABLE = var15  if `data'==6
-capture replace Sangyo_NEWVARIABLE = var15  if `data'==7
-capture replace Sangyo_NEWVARIABLE = var15  if `data'==8
-capture replace Sangyo_NEWVARIABLE = var15  if `data'==9
-capture replace Sangyo_NEWVARIABLE = var15  if `data'==10
-capture replace Sangyo_NEWVARIABLE = var15  if `data'==11
-capture replace Sangyo_NEWVARIABLE = var15  if `data'==12
-capture replace Sangyo_NEWVARIABLE = var15  if `data'==13
-capture replace Sangyo_NEWVARIABLE = var13  if `data'==14
-capture replace Sangyo_NEWVARIABLE = var13  if `data'==15
-capture replace Sangyo_NEWVARIABLE = var13  if `data'==16
-capture replace Sangyo_NEWVARIABLE = var14  if `data'==17
-capture replace Sangyo_NEWVARIABLE = var14  if `data'==18
-capture replace Sangyo_NEWVARIABLE = var14  if `data'==19
-capture replace Sangyo_NEWVARIABLE = var19  if `data'==20
-capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==21
-capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==22
-capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==23
-capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==24
-capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==25
-capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==26
-capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==27
-capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==28
-capture replace Sangyo_NEWVARIABLE = Sangyo  if `data'==29
+capture replace Sangyo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==1
+capture replace Sangyo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==2
+capture replace Sangyo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==3
+capture replace Sangyo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==4
+capture replace Sangyo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==5
+capture replace Sangyo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==6
+capture replace Sangyo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==7
+capture replace Sangyo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==8
+capture replace Sangyo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==9
+capture replace Sangyo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==10
+capture replace Sangyo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==11
+capture replace Sangyo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==12
+capture replace Sangyo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==13
+capture replace Sangyo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==14
+capture replace Sangyo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==15
+capture replace Sangyo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==16
+capture replace Sangyo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==17
+capture replace Sangyo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==18
+capture replace Sangyo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==19
+capture replace Sangyo_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==20
+capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==21
+capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==22
+capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==23
+capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==24
+capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==25
+capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==26
+capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==27
+capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==28
+capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==29
 capture label variable Sangyo_NEWVARIABLE `var_lab'
 capture label values Sangyo_NEWVARIABLE `val_lab'
 
@@ -1479,35 +1479,35 @@ capture label values Sangyo_NEWVARIABLE `val_lab'
 gen JigyoKibo_NEWVARIABLE = .
 local var_lab: variable label var15
 local val_lab: value label var15
-capture replace JigyoKibo_NEWVARIABLE = var15  if `data'==1
-capture replace JigyoKibo_NEWVARIABLE = var15  if `data'==2
-capture replace JigyoKibo_NEWVARIABLE = var15  if `data'==3
-capture replace JigyoKibo_NEWVARIABLE = var15  if `data'==4
-capture replace JigyoKibo_NEWVARIABLE = var16  if `data'==5
-capture replace JigyoKibo_NEWVARIABLE = var16  if `data'==6
-capture replace JigyoKibo_NEWVARIABLE = var16  if `data'==7
-capture replace JigyoKibo_NEWVARIABLE = var16  if `data'==8
-capture replace JigyoKibo_NEWVARIABLE = var16  if `data'==9
-capture replace JigyoKibo_NEWVARIABLE = var16  if `data'==10
-capture replace JigyoKibo_NEWVARIABLE = var16  if `data'==11
-capture replace JigyoKibo_NEWVARIABLE = var16  if `data'==12
-capture replace JigyoKibo_NEWVARIABLE = var16  if `data'==13
-capture replace JigyoKibo_NEWVARIABLE = var14  if `data'==14
-capture replace JigyoKibo_NEWVARIABLE = var14  if `data'==15
-capture replace JigyoKibo_NEWVARIABLE = var14  if `data'==16
-capture replace JigyoKibo_NEWVARIABLE = var15  if `data'==17
-capture replace JigyoKibo_NEWVARIABLE = var15  if `data'==18
-capture replace JigyoKibo_NEWVARIABLE = var15  if `data'==19
-capture replace JigyoKibo_NEWVARIABLE = var20  if `data'==20
-capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==21
-capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==22
-capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==23
-capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==24
-capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==25
-capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==26
-capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==27
-capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==28
-capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if `data'==29
+capture replace JigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==1
+capture replace JigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==2
+capture replace JigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==3
+capture replace JigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==4
+capture replace JigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==5
+capture replace JigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==6
+capture replace JigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==7
+capture replace JigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==8
+capture replace JigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==9
+capture replace JigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==10
+capture replace JigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==11
+capture replace JigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==12
+capture replace JigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==13
+capture replace JigyoKibo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==14
+capture replace JigyoKibo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==15
+capture replace JigyoKibo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==16
+capture replace JigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==17
+capture replace JigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==18
+capture replace JigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==19
+capture replace JigyoKibo_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==20
+capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==21
+capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==22
+capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==23
+capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==24
+capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==25
+capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==26
+capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==27
+capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==28
+capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==29
 capture label variable JigyoKibo_NEWVARIABLE `var_lab'
 capture label values JigyoKibo_NEWVARIABLE `val_lab'
 
@@ -1579,35 +1579,35 @@ capture label values JigyoKibo_NEWVARIABLE `val_lab'
 gen KigyoKibo_NEWVARIABLE = .
 local var_lab: variable label var16
 local val_lab: value label var16
-capture replace KigyoKibo_NEWVARIABLE = var16  if `data'==1
-capture replace KigyoKibo_NEWVARIABLE = var16  if `data'==2
-capture replace KigyoKibo_NEWVARIABLE = var16  if `data'==3
-capture replace KigyoKibo_NEWVARIABLE = var16  if `data'==4
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==5
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==6
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==7
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==8
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==9
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==10
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==11
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==12
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==13
-capture replace KigyoKibo_NEWVARIABLE = var15  if `data'==14
-capture replace KigyoKibo_NEWVARIABLE = var15  if `data'==15
-capture replace KigyoKibo_NEWVARIABLE = var15  if `data'==16
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==17
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==18
-capture replace KigyoKibo_NEWVARIABLE = var17  if `data'==19
-capture replace KigyoKibo_NEWVARIABLE = var22  if `data'==20
-capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==21
-capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==22
-capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==23
-capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==24
-capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==25
-capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==26
-capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==27
-capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==28
-capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if `data'==29
+capture replace KigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==1
+capture replace KigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==2
+capture replace KigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==3
+capture replace KigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==4
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==5
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==6
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==7
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==8
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==9
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==10
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==11
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==12
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==13
+capture replace KigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==14
+capture replace KigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==15
+capture replace KigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==16
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==17
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==18
+capture replace KigyoKibo_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==19
+capture replace KigyoKibo_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==20
+capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==21
+capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==22
+capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==23
+capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==24
+capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==25
+capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==26
+capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==27
+capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==28
+capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==29
 capture label variable KigyoKibo_NEWVARIABLE `var_lab'
 capture label values KigyoKibo_NEWVARIABLE `val_lab'
 
@@ -1679,22 +1679,22 @@ capture label values KigyoKibo_NEWVARIABLE `val_lab'
 gen v2_NEWVARIABLE = .
 local var_lab: variable label var17
 local val_lab: value label var17
-capture replace v2_NEWVARIABLE = var17  if `data'==1
-capture replace v2_NEWVARIABLE = var17  if `data'==2
-capture replace v2_NEWVARIABLE = var17  if `data'==3
-capture replace v2_NEWVARIABLE = var17  if `data'==4
-capture replace v2_NEWVARIABLE = var18  if `data'==5
-capture replace v2_NEWVARIABLE = var18  if `data'==6
-capture replace v2_NEWVARIABLE = var18  if `data'==7
-capture replace v2_NEWVARIABLE = var18  if `data'==8
-capture replace v2_NEWVARIABLE = var18  if `data'==9
-capture replace v2_NEWVARIABLE = var18  if `data'==10
-capture replace v2_NEWVARIABLE = var18  if `data'==11
-capture replace v2_NEWVARIABLE = var18  if `data'==12
-capture replace v2_NEWVARIABLE = var18  if `data'==13
-capture replace v2_NEWVARIABLE = var16  if `data'==14
-capture replace v2_NEWVARIABLE = var16  if `data'==15
-capture replace v2_NEWVARIABLE = var16  if `data'==16
+capture replace v2_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==1
+capture replace v2_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==2
+capture replace v2_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==3
+capture replace v2_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==4
+capture replace v2_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==5
+capture replace v2_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==6
+capture replace v2_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==7
+capture replace v2_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==8
+capture replace v2_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==9
+capture replace v2_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==10
+capture replace v2_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==11
+capture replace v2_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==12
+capture replace v2_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==13
+capture replace v2_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==14
+capture replace v2_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==15
+capture replace v2_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==16
 capture label variable v2_NEWVARIABLE `var_lab'
 capture label values v2_NEWVARIABLE `val_lab'
 
@@ -1766,35 +1766,35 @@ capture label values v2_NEWVARIABLE `val_lab'
 gen JigyoRitsu_NEWVARIABLE = .
 local var_lab: variable label var18
 local val_lab: value label var18
-capture replace JigyoRitsu_NEWVARIABLE = var18  if `data'==1
-capture replace JigyoRitsu_NEWVARIABLE = var18  if `data'==2
-capture replace JigyoRitsu_NEWVARIABLE = var18  if `data'==3
-capture replace JigyoRitsu_NEWVARIABLE = var18  if `data'==4
-capture replace JigyoRitsu_NEWVARIABLE = var19  if `data'==5
-capture replace JigyoRitsu_NEWVARIABLE = var19  if `data'==6
-capture replace JigyoRitsu_NEWVARIABLE = var19  if `data'==7
-capture replace JigyoRitsu_NEWVARIABLE = var19  if `data'==8
-capture replace JigyoRitsu_NEWVARIABLE = var19  if `data'==9
-capture replace JigyoRitsu_NEWVARIABLE = var19  if `data'==10
-capture replace JigyoRitsu_NEWVARIABLE = var19  if `data'==11
-capture replace JigyoRitsu_NEWVARIABLE = var19  if `data'==12
-capture replace JigyoRitsu_NEWVARIABLE = var19  if `data'==13
-capture replace JigyoRitsu_NEWVARIABLE = var17  if `data'==14
-capture replace JigyoRitsu_NEWVARIABLE = var17  if `data'==15
-capture replace JigyoRitsu_NEWVARIABLE = var17  if `data'==16
-capture replace JigyoRitsu_NEWVARIABLE = var18  if `data'==17
-capture replace JigyoRitsu_NEWVARIABLE = var18  if `data'==18
-capture replace JigyoRitsu_NEWVARIABLE = var18  if `data'==19
-capture replace JigyoRitsu_NEWVARIABLE = var23  if `data'==20
-capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==21
-capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==22
-capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==23
-capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==24
-capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==25
-capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==26
-capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==27
-capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==28
-capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if `data'==29
+capture replace JigyoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==1
+capture replace JigyoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==2
+capture replace JigyoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==3
+capture replace JigyoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==4
+capture replace JigyoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==5
+capture replace JigyoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==6
+capture replace JigyoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==7
+capture replace JigyoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==8
+capture replace JigyoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==9
+capture replace JigyoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==10
+capture replace JigyoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==11
+capture replace JigyoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==12
+capture replace JigyoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==13
+capture replace JigyoRitsu_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==14
+capture replace JigyoRitsu_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==15
+capture replace JigyoRitsu_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==16
+capture replace JigyoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==17
+capture replace JigyoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==18
+capture replace JigyoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==19
+capture replace JigyoRitsu_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==20
+capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==21
+capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==22
+capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==23
+capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==24
+capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==25
+capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==26
+capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==27
+capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==28
+capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==29
 capture label variable JigyoRitsu_NEWVARIABLE `var_lab'
 capture label values JigyoRitsu_NEWVARIABLE `val_lab'
 
@@ -1866,35 +1866,35 @@ capture label values JigyoRitsu_NEWVARIABLE `val_lab'
 gen RodoRitsu_NEWVARIABLE = .
 local var_lab: variable label var19
 local val_lab: value label var19
-capture replace RodoRitsu_NEWVARIABLE = var19  if `data'==1
-capture replace RodoRitsu_NEWVARIABLE = var19  if `data'==2
-capture replace RodoRitsu_NEWVARIABLE = var19  if `data'==3
-capture replace RodoRitsu_NEWVARIABLE = var19  if `data'==4
-capture replace RodoRitsu_NEWVARIABLE = var20  if `data'==5
-capture replace RodoRitsu_NEWVARIABLE = var20  if `data'==6
-capture replace RodoRitsu_NEWVARIABLE = var20  if `data'==7
-capture replace RodoRitsu_NEWVARIABLE = var20  if `data'==8
-capture replace RodoRitsu_NEWVARIABLE = var20  if `data'==9
-capture replace RodoRitsu_NEWVARIABLE = var20  if `data'==10
-capture replace RodoRitsu_NEWVARIABLE = var20  if `data'==11
-capture replace RodoRitsu_NEWVARIABLE = var20  if `data'==12
-capture replace RodoRitsu_NEWVARIABLE = var20  if `data'==13
-capture replace RodoRitsu_NEWVARIABLE = var18  if `data'==14
-capture replace RodoRitsu_NEWVARIABLE = var18  if `data'==15
-capture replace RodoRitsu_NEWVARIABLE = var18  if `data'==16
-capture replace RodoRitsu_NEWVARIABLE = var19  if `data'==17
-capture replace RodoRitsu_NEWVARIABLE = var19  if `data'==18
-capture replace RodoRitsu_NEWVARIABLE = var19  if `data'==19
-capture replace RodoRitsu_NEWVARIABLE = var24  if `data'==20
-capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==21
-capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==22
-capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==23
-capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==24
-capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==25
-capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==26
-capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==27
-capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==28
-capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if `data'==29
+capture replace RodoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==1
+capture replace RodoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==2
+capture replace RodoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==3
+capture replace RodoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==4
+capture replace RodoRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==5
+capture replace RodoRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==6
+capture replace RodoRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==7
+capture replace RodoRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==8
+capture replace RodoRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==9
+capture replace RodoRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==10
+capture replace RodoRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==11
+capture replace RodoRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==12
+capture replace RodoRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==13
+capture replace RodoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==14
+capture replace RodoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==15
+capture replace RodoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==16
+capture replace RodoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==17
+capture replace RodoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==18
+capture replace RodoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==19
+capture replace RodoRitsu_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==20
+capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==21
+capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==22
+capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==23
+capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==24
+capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==25
+capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==26
+capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==27
+capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==28
+capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==29
 capture label variable RodoRitsu_NEWVARIABLE `var_lab'
 capture label values RodoRitsu_NEWVARIABLE `val_lab'
 
@@ -1966,35 +1966,35 @@ capture label values RodoRitsu_NEWVARIABLE `val_lab'
 gen Fukugen_NEWVARIABLE = .
 local var_lab: variable label var20
 local val_lab: value label var20
-capture replace Fukugen_NEWVARIABLE = var20  if `data'==1
-capture replace Fukugen_NEWVARIABLE = var20  if `data'==2
-capture replace Fukugen_NEWVARIABLE = var20  if `data'==3
-capture replace Fukugen_NEWVARIABLE = var20  if `data'==4
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==5
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==6
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==7
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==8
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==9
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==10
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==11
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==12
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==13
-capture replace Fukugen_NEWVARIABLE = var19  if `data'==14
-capture replace Fukugen_NEWVARIABLE = var19  if `data'==15
-capture replace Fukugen_NEWVARIABLE = var19  if `data'==16
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==17
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==18
-capture replace Fukugen_NEWVARIABLE = var21  if `data'==19
-capture replace Fukugen_NEWVARIABLE = var26  if `data'==20
-capture replace Fukugen_NEWVARIABLE = Fukugen  if `data'==21
-capture replace Fukugen_NEWVARIABLE = Fukugen  if `data'==22
-capture replace Fukugen_NEWVARIABLE = Fukugen  if `data'==23
-capture replace Fukugen_NEWVARIABLE = Fukugen  if `data'==24
-capture replace Fukugen_NEWVARIABLE = Fukugen  if `data'==25
-capture replace Fukugen_NEWVARIABLE = Fukugen  if `data'==26
-capture replace Fukugen_NEWVARIABLE = Fukugen  if `data'==27
-capture replace Fukugen_NEWVARIABLE = Fukugen  if `data'==28
-capture replace Fukugen_NEWVARIABLE = Fukugen  if `data'==29
+capture replace Fukugen_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==1
+capture replace Fukugen_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==2
+capture replace Fukugen_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==3
+capture replace Fukugen_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==4
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==5
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==6
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==7
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==8
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==9
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==10
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==11
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==12
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==13
+capture replace Fukugen_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==14
+capture replace Fukugen_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==15
+capture replace Fukugen_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==16
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==17
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==18
+capture replace Fukugen_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==19
+capture replace Fukugen_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==20
+capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==21
+capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==22
+capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==23
+capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==24
+capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==25
+capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==26
+capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==27
+capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==28
+capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==29
 capture label variable Fukugen_NEWVARIABLE `var_lab'
 capture label values Fukugen_NEWVARIABLE `val_lab'
 
@@ -2066,32 +2066,32 @@ capture label values Fukugen_NEWVARIABLE `val_lab'
 gen Honshi_NEWVARIABLE = .
 local var_lab: variable label var21
 local val_lab: value label var21
-capture replace Honshi_NEWVARIABLE = var21  if `data'==1
-capture replace Honshi_NEWVARIABLE = var21  if `data'==2
-capture replace Honshi_NEWVARIABLE = var21  if `data'==3
-capture replace Honshi_NEWVARIABLE = var21  if `data'==4
-capture replace Honshi_NEWVARIABLE = var22  if `data'==5
-capture replace Honshi_NEWVARIABLE = var22  if `data'==6
-capture replace Honshi_NEWVARIABLE = var22  if `data'==7
-capture replace Honshi_NEWVARIABLE = var22  if `data'==8
-capture replace Honshi_NEWVARIABLE = var22  if `data'==9
-capture replace Honshi_NEWVARIABLE = var22  if `data'==10
-capture replace Honshi_NEWVARIABLE = var22  if `data'==11
-capture replace Honshi_NEWVARIABLE = var22  if `data'==12
-capture replace Honshi_NEWVARIABLE = var22  if `data'==13
-capture replace Honshi_NEWVARIABLE = var20  if `data'==14
-capture replace Honshi_NEWVARIABLE = var20  if `data'==15
-capture replace Honshi_NEWVARIABLE = var20  if `data'==16
-capture replace Honshi_NEWVARIABLE = var22  if `data'==17
-capture replace Honshi_NEWVARIABLE = var22  if `data'==18
-capture replace Honshi_NEWVARIABLE = var22  if `data'==19
-capture replace Honshi_NEWVARIABLE = var27  if `data'==20
-capture replace Honshi_NEWVARIABLE = Honshi  if `data'==21
-capture replace Honshi_NEWVARIABLE = Honshi  if `data'==22
-capture replace Honshi_NEWVARIABLE = Honshi  if `data'==23
-capture replace Honshi_NEWVARIABLE = Honshi  if `data'==24
-capture replace Honshi_NEWVARIABLE = Honshi  if `data'==25
-capture replace Honshi_NEWVARIABLE = Honshi  if `data'==26
+capture replace Honshi_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==1
+capture replace Honshi_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==2
+capture replace Honshi_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==3
+capture replace Honshi_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==4
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==5
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==6
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==7
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==8
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==9
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==10
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==11
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==12
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==13
+capture replace Honshi_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==14
+capture replace Honshi_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==15
+capture replace Honshi_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==16
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==17
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==18
+capture replace Honshi_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==19
+capture replace Honshi_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==20
+capture replace Honshi_NEWVARIABLE = Honshi  if flag_tmp_NEWVARIABLE==21
+capture replace Honshi_NEWVARIABLE = Honshi  if flag_tmp_NEWVARIABLE==22
+capture replace Honshi_NEWVARIABLE = Honshi  if flag_tmp_NEWVARIABLE==23
+capture replace Honshi_NEWVARIABLE = Honshi  if flag_tmp_NEWVARIABLE==24
+capture replace Honshi_NEWVARIABLE = Honshi  if flag_tmp_NEWVARIABLE==25
+capture replace Honshi_NEWVARIABLE = Honshi  if flag_tmp_NEWVARIABLE==26
 capture label variable Honshi_NEWVARIABLE `var_lab'
 capture label values Honshi_NEWVARIABLE `val_lab'
 
@@ -2163,35 +2163,35 @@ capture label values Honshi_NEWVARIABLE `val_lab'
 gen Minko_NEWVARIABLE = .
 local var_lab: variable label var22
 local val_lab: value label var22
-capture replace Minko_NEWVARIABLE = var22  if `data'==1
-capture replace Minko_NEWVARIABLE = var22  if `data'==2
-capture replace Minko_NEWVARIABLE = var22  if `data'==3
-capture replace Minko_NEWVARIABLE = var22  if `data'==4
-capture replace Minko_NEWVARIABLE = var23  if `data'==5
-capture replace Minko_NEWVARIABLE = var23  if `data'==6
-capture replace Minko_NEWVARIABLE = var23  if `data'==7
-capture replace Minko_NEWVARIABLE = var23  if `data'==8
-capture replace Minko_NEWVARIABLE = var23  if `data'==9
-capture replace Minko_NEWVARIABLE = var23  if `data'==10
-capture replace Minko_NEWVARIABLE = var23  if `data'==11
-capture replace Minko_NEWVARIABLE = var23  if `data'==12
-capture replace Minko_NEWVARIABLE = var23  if `data'==13
-capture replace Minko_NEWVARIABLE = var21  if `data'==14
-capture replace Minko_NEWVARIABLE = var21  if `data'==15
-capture replace Minko_NEWVARIABLE = var21  if `data'==16
-capture replace Minko_NEWVARIABLE = var23  if `data'==17
-capture replace Minko_NEWVARIABLE = var23  if `data'==18
-capture replace Minko_NEWVARIABLE = var23  if `data'==19
-capture replace Minko_NEWVARIABLE = var28  if `data'==20
-capture replace Minko_NEWVARIABLE = Minko  if `data'==21
-capture replace Minko_NEWVARIABLE = Minko  if `data'==22
-capture replace Minko_NEWVARIABLE = Minko  if `data'==23
-capture replace Minko_NEWVARIABLE = Minko  if `data'==24
-capture replace Minko_NEWVARIABLE = Minko  if `data'==25
-capture replace Minko_NEWVARIABLE = Minko  if `data'==26
-capture replace Minko_NEWVARIABLE = Minko  if `data'==27
-capture replace Minko_NEWVARIABLE = Minko  if `data'==28
-capture replace Minko_NEWVARIABLE = Minko  if `data'==29
+capture replace Minko_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==1
+capture replace Minko_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==2
+capture replace Minko_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==3
+capture replace Minko_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==4
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==5
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==6
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==7
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==8
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==9
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==10
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==11
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==12
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==13
+capture replace Minko_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==14
+capture replace Minko_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==15
+capture replace Minko_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==16
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==17
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==18
+capture replace Minko_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==19
+capture replace Minko_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==20
+capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==21
+capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==22
+capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==23
+capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==24
+capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==25
+capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==26
+capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==27
+capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==28
+capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==29
 capture label variable Minko_NEWVARIABLE `var_lab'
 capture label values Minko_NEWVARIABLE `val_lab'
 
@@ -2263,35 +2263,35 @@ capture label values Minko_NEWVARIABLE `val_lab'
 gen Hisyain_M_NEWVARIABLE = .
 local var_lab: variable label var23
 local val_lab: value label var23
-capture replace Hisyain_M_NEWVARIABLE = var23  if `data'==1
-capture replace Hisyain_M_NEWVARIABLE = var23  if `data'==2
-capture replace Hisyain_M_NEWVARIABLE = var23  if `data'==3
-capture replace Hisyain_M_NEWVARIABLE = var23  if `data'==4
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==5
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==6
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==7
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==8
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==9
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==10
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==11
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==12
-capture replace Hisyain_M_NEWVARIABLE = var24  if `data'==13
-capture replace Hisyain_M_NEWVARIABLE = var22  if `data'==14
-capture replace Hisyain_M_NEWVARIABLE = var22  if `data'==15
-capture replace Hisyain_M_NEWVARIABLE = var22  if `data'==16
-capture replace Hisyain_M_NEWVARIABLE = var25  if `data'==17
-capture replace Hisyain_M_NEWVARIABLE = var25  if `data'==18
-capture replace Hisyain_M_NEWVARIABLE = var25  if `data'==19
-capture replace Hisyain_M_NEWVARIABLE = var33  if `data'==20
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==21
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==22
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==23
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==24
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==25
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==26
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==27
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==28
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if `data'==29
+capture replace Hisyain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==1
+capture replace Hisyain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==2
+capture replace Hisyain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==3
+capture replace Hisyain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==4
+capture replace Hisyain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==5
+capture replace Hisyain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==6
+capture replace Hisyain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==7
+capture replace Hisyain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==8
+capture replace Hisyain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==9
+capture replace Hisyain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==10
+capture replace Hisyain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==11
+capture replace Hisyain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==12
+capture replace Hisyain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==13
+capture replace Hisyain_M_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==14
+capture replace Hisyain_M_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==15
+capture replace Hisyain_M_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==16
+capture replace Hisyain_M_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==17
+capture replace Hisyain_M_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==18
+capture replace Hisyain_M_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==19
+capture replace Hisyain_M_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==20
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==21
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==22
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==23
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==24
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==25
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==26
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==27
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==28
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==29
 capture label variable Hisyain_M_NEWVARIABLE `var_lab'
 capture label values Hisyain_M_NEWVARIABLE `val_lab'
 
@@ -2363,35 +2363,35 @@ capture label values Hisyain_M_NEWVARIABLE `val_lab'
 gen Hisyain_W_NEWVARIABLE = .
 local var_lab: variable label var24
 local val_lab: value label var24
-capture replace Hisyain_W_NEWVARIABLE = var24  if `data'==1
-capture replace Hisyain_W_NEWVARIABLE = var24  if `data'==2
-capture replace Hisyain_W_NEWVARIABLE = var24  if `data'==3
-capture replace Hisyain_W_NEWVARIABLE = var24  if `data'==4
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==5
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==6
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==7
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==8
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==9
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==10
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==11
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==12
-capture replace Hisyain_W_NEWVARIABLE = var25  if `data'==13
-capture replace Hisyain_W_NEWVARIABLE = var23  if `data'==14
-capture replace Hisyain_W_NEWVARIABLE = var23  if `data'==15
-capture replace Hisyain_W_NEWVARIABLE = var23  if `data'==16
-capture replace Hisyain_W_NEWVARIABLE = var26  if `data'==17
-capture replace Hisyain_W_NEWVARIABLE = var26  if `data'==18
-capture replace Hisyain_W_NEWVARIABLE = var26  if `data'==19
-capture replace Hisyain_W_NEWVARIABLE = var34  if `data'==20
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==21
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==22
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==23
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==24
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==25
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==26
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==27
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==28
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if `data'==29
+capture replace Hisyain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==1
+capture replace Hisyain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==2
+capture replace Hisyain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==3
+capture replace Hisyain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==4
+capture replace Hisyain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==5
+capture replace Hisyain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==6
+capture replace Hisyain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==7
+capture replace Hisyain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==8
+capture replace Hisyain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==9
+capture replace Hisyain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==10
+capture replace Hisyain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==11
+capture replace Hisyain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==12
+capture replace Hisyain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==13
+capture replace Hisyain_W_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==14
+capture replace Hisyain_W_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==15
+capture replace Hisyain_W_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==16
+capture replace Hisyain_W_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==17
+capture replace Hisyain_W_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==18
+capture replace Hisyain_W_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==19
+capture replace Hisyain_W_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==20
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==21
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==22
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==23
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==24
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==25
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==26
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==27
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==28
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==29
 capture label variable Hisyain_W_NEWVARIABLE `var_lab'
 capture label values Hisyain_W_NEWVARIABLE `val_lab'
 
@@ -2463,35 +2463,35 @@ capture label values Hisyain_W_NEWVARIABLE `val_lab'
 gen SangyoChu_NEWVARIABLE = .
 local var_lab: variable label var25
 local val_lab: value label var25
-capture replace SangyoChu_NEWVARIABLE = var25  if `data'==1
-capture replace SangyoChu_NEWVARIABLE = var25  if `data'==2
-capture replace SangyoChu_NEWVARIABLE = var25  if `data'==3
-capture replace SangyoChu_NEWVARIABLE = var25  if `data'==4
-capture replace SangyoChu_NEWVARIABLE = var26  if `data'==5
-capture replace SangyoChu_NEWVARIABLE = var26  if `data'==6
-capture replace SangyoChu_NEWVARIABLE = var26  if `data'==7
-capture replace SangyoChu_NEWVARIABLE = var26  if `data'==8
-capture replace SangyoChu_NEWVARIABLE = var26  if `data'==9
-capture replace SangyoChu_NEWVARIABLE = var26  if `data'==10
-capture replace SangyoChu_NEWVARIABLE = var26  if `data'==11
-capture replace SangyoChu_NEWVARIABLE = var26  if `data'==12
-capture replace SangyoChu_NEWVARIABLE = var26  if `data'==13
-capture replace SangyoChu_NEWVARIABLE = var24  if `data'==14
-capture replace SangyoChu_NEWVARIABLE = var24  if `data'==15
-capture replace SangyoChu_NEWVARIABLE = var24  if `data'==16
-capture replace SangyoChu_NEWVARIABLE = var30  if `data'==17
-capture replace SangyoChu_NEWVARIABLE = var30  if `data'==18
-capture replace SangyoChu_NEWVARIABLE = var30  if `data'==19
-capture replace SangyoChu_NEWVARIABLE = var37  if `data'==20
-capture replace SangyoChu_NEWVARIABLE = SangyoChu  if `data'==21
-capture replace SangyoChu_NEWVARIABLE = SangyoChu  if `data'==22
-capture replace SangyoChu_NEWVARIABLE = SangyoChu  if `data'==23
-capture replace SangyoChu_NEWVARIABLE = SangyoChu  if `data'==24
-capture replace SangyoChu_NEWVARIABLE = SangyoDai  if `data'==25
-capture replace SangyoChu_NEWVARIABLE = SangyoDai  if `data'==26
-capture replace SangyoChu_NEWVARIABLE = SangyoDai  if `data'==27
-capture replace SangyoChu_NEWVARIABLE = SangyoDai  if `data'==28
-capture replace SangyoChu_NEWVARIABLE = SangyoDai  if `data'==29
+capture replace SangyoChu_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==1
+capture replace SangyoChu_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==2
+capture replace SangyoChu_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==3
+capture replace SangyoChu_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==4
+capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==5
+capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==6
+capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==7
+capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==8
+capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==9
+capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==10
+capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==11
+capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==12
+capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==13
+capture replace SangyoChu_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==14
+capture replace SangyoChu_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==15
+capture replace SangyoChu_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==16
+capture replace SangyoChu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==17
+capture replace SangyoChu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==18
+capture replace SangyoChu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==19
+capture replace SangyoChu_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==20
+capture replace SangyoChu_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==21
+capture replace SangyoChu_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==22
+capture replace SangyoChu_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==23
+capture replace SangyoChu_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==24
+capture replace SangyoChu_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==25
+capture replace SangyoChu_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==26
+capture replace SangyoChu_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==27
+capture replace SangyoChu_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==28
+capture replace SangyoChu_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==29
 capture label variable SangyoChu_NEWVARIABLE `var_lab'
 capture label values SangyoChu_NEWVARIABLE `val_lab'
 
@@ -2563,35 +2563,35 @@ capture label values SangyoChu_NEWVARIABLE `val_lab'
 gen SangyoSyo_NEWVARIABLE = .
 local var_lab: variable label var26
 local val_lab: value label var26
-capture replace SangyoSyo_NEWVARIABLE = var26  if `data'==1
-capture replace SangyoSyo_NEWVARIABLE = var26  if `data'==2
-capture replace SangyoSyo_NEWVARIABLE = var26  if `data'==3
-capture replace SangyoSyo_NEWVARIABLE = var26  if `data'==4
-capture replace SangyoSyo_NEWVARIABLE = var27  if `data'==5
-capture replace SangyoSyo_NEWVARIABLE = var27  if `data'==6
-capture replace SangyoSyo_NEWVARIABLE = var27  if `data'==7
-capture replace SangyoSyo_NEWVARIABLE = var27  if `data'==8
-capture replace SangyoSyo_NEWVARIABLE = var27  if `data'==9
-capture replace SangyoSyo_NEWVARIABLE = var27  if `data'==10
-capture replace SangyoSyo_NEWVARIABLE = var27  if `data'==11
-capture replace SangyoSyo_NEWVARIABLE = var27  if `data'==12
-capture replace SangyoSyo_NEWVARIABLE = var27  if `data'==13
-capture replace SangyoSyo_NEWVARIABLE = var25  if `data'==14
-capture replace SangyoSyo_NEWVARIABLE = var25  if `data'==15
-capture replace SangyoSyo_NEWVARIABLE = var25  if `data'==16
-capture replace SangyoSyo_NEWVARIABLE = var31  if `data'==17
-capture replace SangyoSyo_NEWVARIABLE = var31  if `data'==18
-capture replace SangyoSyo_NEWVARIABLE = var31  if `data'==19
-capture replace SangyoSyo_NEWVARIABLE = var38  if `data'==20
-capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if `data'==21
-capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if `data'==22
-capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if `data'==23
-capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if `data'==24
-capture replace SangyoSyo_NEWVARIABLE = SangyoChu  if `data'==25
-capture replace SangyoSyo_NEWVARIABLE = SangyoChu  if `data'==26
-capture replace SangyoSyo_NEWVARIABLE = SangyoChu  if `data'==27
-capture replace SangyoSyo_NEWVARIABLE = SangyoChu  if `data'==28
-capture replace SangyoSyo_NEWVARIABLE = SangyoChu  if `data'==29
+capture replace SangyoSyo_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==1
+capture replace SangyoSyo_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==2
+capture replace SangyoSyo_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==3
+capture replace SangyoSyo_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==4
+capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==5
+capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==6
+capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==7
+capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==8
+capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==9
+capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==10
+capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==11
+capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==12
+capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==13
+capture replace SangyoSyo_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==14
+capture replace SangyoSyo_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==15
+capture replace SangyoSyo_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==16
+capture replace SangyoSyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==17
+capture replace SangyoSyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==18
+capture replace SangyoSyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==19
+capture replace SangyoSyo_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==20
+capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==21
+capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==22
+capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==23
+capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==24
+capture replace SangyoSyo_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==25
+capture replace SangyoSyo_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==26
+capture replace SangyoSyo_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==27
+capture replace SangyoSyo_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==28
+capture replace SangyoSyo_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==29
 capture label variable SangyoSyo_NEWVARIABLE `var_lab'
 capture label values SangyoSyo_NEWVARIABLE `val_lab'
 
@@ -2663,30 +2663,30 @@ capture label values SangyoSyo_NEWVARIABLE `val_lab'
 gen v3_NEWVARIABLE = .
 local var_lab: variable label var27
 local val_lab: value label var27
-capture replace v3_NEWVARIABLE = var27  if `data'==1
-capture replace v3_NEWVARIABLE = var27  if `data'==2
-capture replace v3_NEWVARIABLE = var27  if `data'==3
-capture replace v3_NEWVARIABLE = var27  if `data'==4
-capture replace v3_NEWVARIABLE = var28  if `data'==5
-capture replace v3_NEWVARIABLE = var28  if `data'==6
-capture replace v3_NEWVARIABLE = var28  if `data'==7
-capture replace v3_NEWVARIABLE = var28  if `data'==8
-capture replace v3_NEWVARIABLE = var28  if `data'==9
-capture replace v3_NEWVARIABLE = var28  if `data'==10
-capture replace v3_NEWVARIABLE = var28  if `data'==11
-capture replace v3_NEWVARIABLE = var28  if `data'==12
-capture replace v3_NEWVARIABLE = var28  if `data'==13
-capture replace v3_NEWVARIABLE = var26  if `data'==14
-capture replace v3_NEWVARIABLE = var26  if `data'==15
-capture replace v3_NEWVARIABLE = var26  if `data'==16
-capture replace v3_NEWVARIABLE = var32  if `data'==17
-capture replace v3_NEWVARIABLE = var32  if `data'==18
-capture replace v3_NEWVARIABLE = var32  if `data'==19
-capture replace v3_NEWVARIABLE = SangyoSyo  if `data'==25
-capture replace v3_NEWVARIABLE = SangyoSyo  if `data'==26
-capture replace v3_NEWVARIABLE = SangyoSyo  if `data'==27
-capture replace v3_NEWVARIABLE = SangyoSyo  if `data'==28
-capture replace v3_NEWVARIABLE = SangyoSyo  if `data'==29
+capture replace v3_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==1
+capture replace v3_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==2
+capture replace v3_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==3
+capture replace v3_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==4
+capture replace v3_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==5
+capture replace v3_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==6
+capture replace v3_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==7
+capture replace v3_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==8
+capture replace v3_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==9
+capture replace v3_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==10
+capture replace v3_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==11
+capture replace v3_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==12
+capture replace v3_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==13
+capture replace v3_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==14
+capture replace v3_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==15
+capture replace v3_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==16
+capture replace v3_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==17
+capture replace v3_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==18
+capture replace v3_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==19
+capture replace v3_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==25
+capture replace v3_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==26
+capture replace v3_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==27
+capture replace v3_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==28
+capture replace v3_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==29
 capture label variable v3_NEWVARIABLE `var_lab'
 capture label values v3_NEWVARIABLE `val_lab'
 
@@ -2758,35 +2758,35 @@ capture label values v3_NEWVARIABLE `val_lab'
 gen Sei_NEWVARIABLE = .
 local var_lab: variable label var28
 local val_lab: value label var28
-capture replace Sei_NEWVARIABLE = var28  if `data'==1
-capture replace Sei_NEWVARIABLE = var28  if `data'==2
-capture replace Sei_NEWVARIABLE = var28  if `data'==3
-capture replace Sei_NEWVARIABLE = var28  if `data'==4
-capture replace Sei_NEWVARIABLE = var29  if `data'==5
-capture replace Sei_NEWVARIABLE = var29  if `data'==6
-capture replace Sei_NEWVARIABLE = var29  if `data'==7
-capture replace Sei_NEWVARIABLE = var29  if `data'==8
-capture replace Sei_NEWVARIABLE = var29  if `data'==9
-capture replace Sei_NEWVARIABLE = var29  if `data'==10
-capture replace Sei_NEWVARIABLE = var29  if `data'==11
-capture replace Sei_NEWVARIABLE = var29  if `data'==12
-capture replace Sei_NEWVARIABLE = var29  if `data'==13
-capture replace Sei_NEWVARIABLE = var27  if `data'==14
-capture replace Sei_NEWVARIABLE = var27  if `data'==15
-capture replace Sei_NEWVARIABLE = var27  if `data'==16
-capture replace Sei_NEWVARIABLE = var33  if `data'==17
-capture replace Sei_NEWVARIABLE = var33  if `data'==18
-capture replace Sei_NEWVARIABLE = var33  if `data'==19
-capture replace Sei_NEWVARIABLE = var40  if `data'==20
-capture replace Sei_NEWVARIABLE = Sei  if `data'==21
-capture replace Sei_NEWVARIABLE = Sei  if `data'==22
-capture replace Sei_NEWVARIABLE = Sei  if `data'==23
-capture replace Sei_NEWVARIABLE = Sei  if `data'==24
-capture replace Sei_NEWVARIABLE = Sei  if `data'==25
-capture replace Sei_NEWVARIABLE = Sei  if `data'==26
-capture replace Sei_NEWVARIABLE = Sei  if `data'==27
-capture replace Sei_NEWVARIABLE = Sei  if `data'==28
-capture replace Sei_NEWVARIABLE = Sei  if `data'==29
+capture replace Sei_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==1
+capture replace Sei_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==2
+capture replace Sei_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==3
+capture replace Sei_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==4
+capture replace Sei_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==5
+capture replace Sei_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==6
+capture replace Sei_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==7
+capture replace Sei_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==8
+capture replace Sei_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==9
+capture replace Sei_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==10
+capture replace Sei_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==11
+capture replace Sei_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==12
+capture replace Sei_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==13
+capture replace Sei_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==14
+capture replace Sei_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==15
+capture replace Sei_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==16
+capture replace Sei_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==17
+capture replace Sei_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==18
+capture replace Sei_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==19
+capture replace Sei_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==20
+capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==21
+capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==22
+capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==23
+capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==24
+capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==25
+capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==26
+capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==27
+capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==28
+capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==29
 capture label variable Sei_NEWVARIABLE `var_lab'
 capture label values Sei_NEWVARIABLE `val_lab'
 
@@ -2858,35 +2858,35 @@ capture label values Sei_NEWVARIABLE `val_lab'
 gen RouSyu_NEWVARIABLE = .
 local var_lab: variable label var29
 local val_lab: value label var29
-capture replace RouSyu_NEWVARIABLE = var29  if `data'==1
-capture replace RouSyu_NEWVARIABLE = var29  if `data'==2
-capture replace RouSyu_NEWVARIABLE = var29  if `data'==3
-capture replace RouSyu_NEWVARIABLE = var29  if `data'==4
-capture replace RouSyu_NEWVARIABLE = var30  if `data'==5
-capture replace RouSyu_NEWVARIABLE = var30  if `data'==6
-capture replace RouSyu_NEWVARIABLE = var30  if `data'==7
-capture replace RouSyu_NEWVARIABLE = var30  if `data'==8
-capture replace RouSyu_NEWVARIABLE = var30  if `data'==9
-capture replace RouSyu_NEWVARIABLE = var30  if `data'==10
-capture replace RouSyu_NEWVARIABLE = var30  if `data'==11
-capture replace RouSyu_NEWVARIABLE = var30  if `data'==12
-capture replace RouSyu_NEWVARIABLE = var30  if `data'==13
-capture replace RouSyu_NEWVARIABLE = var28  if `data'==14
-capture replace RouSyu_NEWVARIABLE = var28  if `data'==15
-capture replace RouSyu_NEWVARIABLE = var28  if `data'==16
-capture replace RouSyu_NEWVARIABLE = var39  if `data'==17
-capture replace RouSyu_NEWVARIABLE = var39  if `data'==18
-capture replace RouSyu_NEWVARIABLE = var39  if `data'==19
-capture replace RouSyu_NEWVARIABLE = var46  if `data'==20
-capture replace RouSyu_NEWVARIABLE = RouSyu  if `data'==21
-capture replace RouSyu_NEWVARIABLE = RouSyu  if `data'==22
-capture replace RouSyu_NEWVARIABLE = RouSyu  if `data'==23
-capture replace RouSyu_NEWVARIABLE = RouSyu  if `data'==24
-capture replace RouSyu_NEWVARIABLE = RouSyu  if `data'==25
-capture replace RouSyu_NEWVARIABLE = RouSyu  if `data'==26
-capture replace RouSyu_NEWVARIABLE = RouSyu  if `data'==27
-capture replace RouSyu_NEWVARIABLE = RouSyu  if `data'==28
-capture replace RouSyu_NEWVARIABLE = RouSyu  if `data'==29
+capture replace RouSyu_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==1
+capture replace RouSyu_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==2
+capture replace RouSyu_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==3
+capture replace RouSyu_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==4
+capture replace RouSyu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==5
+capture replace RouSyu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==6
+capture replace RouSyu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==7
+capture replace RouSyu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==8
+capture replace RouSyu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==9
+capture replace RouSyu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==10
+capture replace RouSyu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==11
+capture replace RouSyu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==12
+capture replace RouSyu_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==13
+capture replace RouSyu_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==14
+capture replace RouSyu_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==15
+capture replace RouSyu_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==16
+capture replace RouSyu_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==17
+capture replace RouSyu_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==18
+capture replace RouSyu_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==19
+capture replace RouSyu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==20
+capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==21
+capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==22
+capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==23
+capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==24
+capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==25
+capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==26
+capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==27
+capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==28
+capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==29
 capture label variable RouSyu_NEWVARIABLE `var_lab'
 capture label values RouSyu_NEWVARIABLE `val_lab'
 
@@ -2958,35 +2958,35 @@ capture label values RouSyu_NEWVARIABLE `val_lab'
 gen Koyo_NEWVARIABLE = .
 local var_lab: variable label var30
 local val_lab: value label var30
-capture replace Koyo_NEWVARIABLE = var30  if `data'==1
-capture replace Koyo_NEWVARIABLE = var30  if `data'==2
-capture replace Koyo_NEWVARIABLE = var30  if `data'==3
-capture replace Koyo_NEWVARIABLE = var30  if `data'==4
-capture replace Koyo_NEWVARIABLE = var31  if `data'==5
-capture replace Koyo_NEWVARIABLE = var31  if `data'==6
-capture replace Koyo_NEWVARIABLE = var31  if `data'==7
-capture replace Koyo_NEWVARIABLE = var31  if `data'==8
-capture replace Koyo_NEWVARIABLE = var31  if `data'==9
-capture replace Koyo_NEWVARIABLE = var31  if `data'==10
-capture replace Koyo_NEWVARIABLE = var31  if `data'==11
-capture replace Koyo_NEWVARIABLE = var31  if `data'==12
-capture replace Koyo_NEWVARIABLE = var31  if `data'==13
-capture replace Koyo_NEWVARIABLE = var29  if `data'==14
-capture replace Koyo_NEWVARIABLE = var29  if `data'==15
-capture replace Koyo_NEWVARIABLE = var29  if `data'==16
-capture replace Koyo_NEWVARIABLE = var34  if `data'==17
-capture replace Koyo_NEWVARIABLE = var34  if `data'==18
-capture replace Koyo_NEWVARIABLE = var34  if `data'==19
-capture replace Koyo_NEWVARIABLE = var41  if `data'==20
-capture replace Koyo_NEWVARIABLE = Koyo  if `data'==21
-capture replace Koyo_NEWVARIABLE = Koyo  if `data'==22
-capture replace Koyo_NEWVARIABLE = Koyo  if `data'==23
-capture replace Koyo_NEWVARIABLE = Koyo  if `data'==24
-capture replace Koyo_NEWVARIABLE = Koyo  if `data'==25
-capture replace Koyo_NEWVARIABLE = Koyo  if `data'==26
-capture replace Koyo_NEWVARIABLE = Koyo  if `data'==27
-capture replace Koyo_NEWVARIABLE = Koyo  if `data'==28
-capture replace Koyo_NEWVARIABLE = Koyo  if `data'==29
+capture replace Koyo_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==1
+capture replace Koyo_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==2
+capture replace Koyo_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==3
+capture replace Koyo_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==4
+capture replace Koyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==5
+capture replace Koyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==6
+capture replace Koyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==7
+capture replace Koyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==8
+capture replace Koyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==9
+capture replace Koyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==10
+capture replace Koyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==11
+capture replace Koyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==12
+capture replace Koyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==13
+capture replace Koyo_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==14
+capture replace Koyo_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==15
+capture replace Koyo_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==16
+capture replace Koyo_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==17
+capture replace Koyo_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==18
+capture replace Koyo_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==19
+capture replace Koyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==20
+capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==21
+capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==22
+capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==23
+capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==24
+capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==25
+capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==26
+capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==27
+capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==28
+capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==29
 capture label variable Koyo_NEWVARIABLE `var_lab'
 capture label values Koyo_NEWVARIABLE `val_lab'
 
@@ -3058,35 +3058,35 @@ capture label values Koyo_NEWVARIABLE `val_lab'
 gen Syugyo_NEWVARIABLE = .
 local var_lab: variable label var31
 local val_lab: value label var31
-capture replace Syugyo_NEWVARIABLE = var31  if `data'==1
-capture replace Syugyo_NEWVARIABLE = var31  if `data'==2
-capture replace Syugyo_NEWVARIABLE = var31  if `data'==3
-capture replace Syugyo_NEWVARIABLE = var31  if `data'==4
-capture replace Syugyo_NEWVARIABLE = var32  if `data'==5
-capture replace Syugyo_NEWVARIABLE = var32  if `data'==6
-capture replace Syugyo_NEWVARIABLE = var32  if `data'==7
-capture replace Syugyo_NEWVARIABLE = var32  if `data'==8
-capture replace Syugyo_NEWVARIABLE = var32  if `data'==9
-capture replace Syugyo_NEWVARIABLE = var32  if `data'==10
-capture replace Syugyo_NEWVARIABLE = var32  if `data'==11
-capture replace Syugyo_NEWVARIABLE = var32  if `data'==12
-capture replace Syugyo_NEWVARIABLE = var32  if `data'==13
-capture replace Syugyo_NEWVARIABLE = var30  if `data'==14
-capture replace Syugyo_NEWVARIABLE = var30  if `data'==15
-capture replace Syugyo_NEWVARIABLE = var30  if `data'==16
-capture replace Syugyo_NEWVARIABLE = var35  if `data'==17
-capture replace Syugyo_NEWVARIABLE = var35  if `data'==18
-capture replace Syugyo_NEWVARIABLE = var35  if `data'==19
-capture replace Syugyo_NEWVARIABLE = var42  if `data'==20
-capture replace Syugyo_NEWVARIABLE = Syugyo  if `data'==21
-capture replace Syugyo_NEWVARIABLE = Syugyo  if `data'==22
-capture replace Syugyo_NEWVARIABLE = Syugyo  if `data'==23
-capture replace Syugyo_NEWVARIABLE = Syugyo  if `data'==24
-capture replace Syugyo_NEWVARIABLE = Syugyo  if `data'==25
-capture replace Syugyo_NEWVARIABLE = Syugyo  if `data'==26
-capture replace Syugyo_NEWVARIABLE = Syugyo  if `data'==27
-capture replace Syugyo_NEWVARIABLE = Syugyo  if `data'==28
-capture replace Syugyo_NEWVARIABLE = Syugyo  if `data'==29
+capture replace Syugyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==1
+capture replace Syugyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==2
+capture replace Syugyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==3
+capture replace Syugyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==4
+capture replace Syugyo_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==5
+capture replace Syugyo_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==6
+capture replace Syugyo_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==7
+capture replace Syugyo_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==8
+capture replace Syugyo_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==9
+capture replace Syugyo_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==10
+capture replace Syugyo_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==11
+capture replace Syugyo_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==12
+capture replace Syugyo_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==13
+capture replace Syugyo_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==14
+capture replace Syugyo_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==15
+capture replace Syugyo_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==16
+capture replace Syugyo_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==17
+capture replace Syugyo_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==18
+capture replace Syugyo_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==19
+capture replace Syugyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==20
+capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==21
+capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==22
+capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==23
+capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==24
+capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==25
+capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==26
+capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==27
+capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==28
+capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==29
 capture label variable Syugyo_NEWVARIABLE `var_lab'
 capture label values Syugyo_NEWVARIABLE `val_lab'
 
@@ -3158,35 +3158,35 @@ capture label values Syugyo_NEWVARIABLE `val_lab'
 gen Gakureki_NEWVARIABLE = .
 local var_lab: variable label var32
 local val_lab: value label var32
-capture replace Gakureki_NEWVARIABLE = var32  if `data'==1
-capture replace Gakureki_NEWVARIABLE = var32  if `data'==2
-capture replace Gakureki_NEWVARIABLE = var32  if `data'==3
-capture replace Gakureki_NEWVARIABLE = var32  if `data'==4
-capture replace Gakureki_NEWVARIABLE = var33  if `data'==5
-capture replace Gakureki_NEWVARIABLE = var33  if `data'==6
-capture replace Gakureki_NEWVARIABLE = var33  if `data'==7
-capture replace Gakureki_NEWVARIABLE = var33  if `data'==8
-capture replace Gakureki_NEWVARIABLE = var33  if `data'==9
-capture replace Gakureki_NEWVARIABLE = var33  if `data'==10
-capture replace Gakureki_NEWVARIABLE = var33  if `data'==11
-capture replace Gakureki_NEWVARIABLE = var33  if `data'==12
-capture replace Gakureki_NEWVARIABLE = var33  if `data'==13
-capture replace Gakureki_NEWVARIABLE = var31  if `data'==14
-capture replace Gakureki_NEWVARIABLE = var31  if `data'==15
-capture replace Gakureki_NEWVARIABLE = var31  if `data'==16
-capture replace Gakureki_NEWVARIABLE = var36  if `data'==17
-capture replace Gakureki_NEWVARIABLE = var36  if `data'==18
-capture replace Gakureki_NEWVARIABLE = var36  if `data'==19
-capture replace Gakureki_NEWVARIABLE = var43  if `data'==20
-capture replace Gakureki_NEWVARIABLE = Gakureki  if `data'==21
-capture replace Gakureki_NEWVARIABLE = Gakureki  if `data'==22
-capture replace Gakureki_NEWVARIABLE = Gakureki  if `data'==23
-capture replace Gakureki_NEWVARIABLE = Gakureki  if `data'==24
-capture replace Gakureki_NEWVARIABLE = Gakureki  if `data'==25
-capture replace Gakureki_NEWVARIABLE = Gakureki  if `data'==26
-capture replace Gakureki_NEWVARIABLE = Gakureki  if `data'==27
-capture replace Gakureki_NEWVARIABLE = Gakureki  if `data'==28
-capture replace Gakureki_NEWVARIABLE = Gakureki  if `data'==29
+capture replace Gakureki_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==1
+capture replace Gakureki_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==2
+capture replace Gakureki_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==3
+capture replace Gakureki_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==4
+capture replace Gakureki_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==5
+capture replace Gakureki_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==6
+capture replace Gakureki_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==7
+capture replace Gakureki_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==8
+capture replace Gakureki_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==9
+capture replace Gakureki_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==10
+capture replace Gakureki_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==11
+capture replace Gakureki_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==12
+capture replace Gakureki_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==13
+capture replace Gakureki_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==14
+capture replace Gakureki_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==15
+capture replace Gakureki_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==16
+capture replace Gakureki_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==17
+capture replace Gakureki_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==18
+capture replace Gakureki_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==19
+capture replace Gakureki_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==20
+capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==21
+capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==22
+capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==23
+capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==24
+capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==25
+capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==26
+capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==27
+capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==28
+capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==29
 capture label variable Gakureki_NEWVARIABLE `var_lab'
 capture label values Gakureki_NEWVARIABLE `val_lab'
 
@@ -3258,35 +3258,35 @@ capture label values Gakureki_NEWVARIABLE `val_lab'
 gen Nenrei_NEWVARIABLE = .
 local var_lab: variable label var33
 local val_lab: value label var33
-capture replace Nenrei_NEWVARIABLE = var33  if `data'==1
-capture replace Nenrei_NEWVARIABLE = var33  if `data'==2
-capture replace Nenrei_NEWVARIABLE = var33  if `data'==3
-capture replace Nenrei_NEWVARIABLE = var33  if `data'==4
-capture replace Nenrei_NEWVARIABLE = var34  if `data'==5
-capture replace Nenrei_NEWVARIABLE = var34  if `data'==6
-capture replace Nenrei_NEWVARIABLE = var34  if `data'==7
-capture replace Nenrei_NEWVARIABLE = var34  if `data'==8
-capture replace Nenrei_NEWVARIABLE = var34  if `data'==9
-capture replace Nenrei_NEWVARIABLE = var34  if `data'==10
-capture replace Nenrei_NEWVARIABLE = var34  if `data'==11
-capture replace Nenrei_NEWVARIABLE = var34  if `data'==12
-capture replace Nenrei_NEWVARIABLE = var34  if `data'==13
-capture replace Nenrei_NEWVARIABLE = var32  if `data'==14
-capture replace Nenrei_NEWVARIABLE = var32  if `data'==15
-capture replace Nenrei_NEWVARIABLE = var32  if `data'==16
-capture replace Nenrei_NEWVARIABLE = var37  if `data'==17
-capture replace Nenrei_NEWVARIABLE = var37  if `data'==18
-capture replace Nenrei_NEWVARIABLE = var37  if `data'==19
-capture replace Nenrei_NEWVARIABLE = var44  if `data'==20
-capture replace Nenrei_NEWVARIABLE = Nenrei  if `data'==21
-capture replace Nenrei_NEWVARIABLE = Nenrei  if `data'==22
-capture replace Nenrei_NEWVARIABLE = Nenrei  if `data'==23
-capture replace Nenrei_NEWVARIABLE = Nenrei  if `data'==24
-capture replace Nenrei_NEWVARIABLE = Nenrei  if `data'==25
-capture replace Nenrei_NEWVARIABLE = Nenrei  if `data'==26
-capture replace Nenrei_NEWVARIABLE = Nenrei  if `data'==27
-capture replace Nenrei_NEWVARIABLE = Nenrei  if `data'==28
-capture replace Nenrei_NEWVARIABLE = Nenrei  if `data'==29
+capture replace Nenrei_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==1
+capture replace Nenrei_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==2
+capture replace Nenrei_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==3
+capture replace Nenrei_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==4
+capture replace Nenrei_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==5
+capture replace Nenrei_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==6
+capture replace Nenrei_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==7
+capture replace Nenrei_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==8
+capture replace Nenrei_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==9
+capture replace Nenrei_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==10
+capture replace Nenrei_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==11
+capture replace Nenrei_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==12
+capture replace Nenrei_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==13
+capture replace Nenrei_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==14
+capture replace Nenrei_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==15
+capture replace Nenrei_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==16
+capture replace Nenrei_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==17
+capture replace Nenrei_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==18
+capture replace Nenrei_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==19
+capture replace Nenrei_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==20
+capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==21
+capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==22
+capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==23
+capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==24
+capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==25
+capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==26
+capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==27
+capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==28
+capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==29
 capture label variable Nenrei_NEWVARIABLE `var_lab'
 capture label values Nenrei_NEWVARIABLE `val_lab'
 
@@ -3358,35 +3358,35 @@ capture label values Nenrei_NEWVARIABLE `val_lab'
 gen Kinzoku_NEWVARIABLE = .
 local var_lab: variable label var34
 local val_lab: value label var34
-capture replace Kinzoku_NEWVARIABLE = var34  if `data'==1
-capture replace Kinzoku_NEWVARIABLE = var34  if `data'==2
-capture replace Kinzoku_NEWVARIABLE = var34  if `data'==3
-capture replace Kinzoku_NEWVARIABLE = var34  if `data'==4
-capture replace Kinzoku_NEWVARIABLE = var35  if `data'==5
-capture replace Kinzoku_NEWVARIABLE = var35  if `data'==6
-capture replace Kinzoku_NEWVARIABLE = var35  if `data'==7
-capture replace Kinzoku_NEWVARIABLE = var35  if `data'==8
-capture replace Kinzoku_NEWVARIABLE = var35  if `data'==9
-capture replace Kinzoku_NEWVARIABLE = var35  if `data'==10
-capture replace Kinzoku_NEWVARIABLE = var35  if `data'==11
-capture replace Kinzoku_NEWVARIABLE = var35  if `data'==12
-capture replace Kinzoku_NEWVARIABLE = var35  if `data'==13
-capture replace Kinzoku_NEWVARIABLE = var33  if `data'==14
-capture replace Kinzoku_NEWVARIABLE = var33  if `data'==15
-capture replace Kinzoku_NEWVARIABLE = var33  if `data'==16
-capture replace Kinzoku_NEWVARIABLE = var38  if `data'==17
-capture replace Kinzoku_NEWVARIABLE = var38  if `data'==18
-capture replace Kinzoku_NEWVARIABLE = var38  if `data'==19
-capture replace Kinzoku_NEWVARIABLE = var45  if `data'==20
-capture replace Kinzoku_NEWVARIABLE = Kinzoku  if `data'==21
-capture replace Kinzoku_NEWVARIABLE = Kinzoku  if `data'==22
-capture replace Kinzoku_NEWVARIABLE = Kinzoku  if `data'==23
-capture replace Kinzoku_NEWVARIABLE = Kinzoku  if `data'==24
-capture replace Kinzoku_NEWVARIABLE = Kinzoku  if `data'==25
-capture replace Kinzoku_NEWVARIABLE = Kinzoku  if `data'==26
-capture replace Kinzoku_NEWVARIABLE = Kinzoku  if `data'==27
-capture replace Kinzoku_NEWVARIABLE = Kinzoku  if `data'==28
-capture replace Kinzoku_NEWVARIABLE = Kinzoku  if `data'==29
+capture replace Kinzoku_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==1
+capture replace Kinzoku_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==2
+capture replace Kinzoku_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==3
+capture replace Kinzoku_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==4
+capture replace Kinzoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==5
+capture replace Kinzoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==6
+capture replace Kinzoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==7
+capture replace Kinzoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==8
+capture replace Kinzoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==9
+capture replace Kinzoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==10
+capture replace Kinzoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==11
+capture replace Kinzoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==12
+capture replace Kinzoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==13
+capture replace Kinzoku_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==14
+capture replace Kinzoku_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==15
+capture replace Kinzoku_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==16
+capture replace Kinzoku_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==17
+capture replace Kinzoku_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==18
+capture replace Kinzoku_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==19
+capture replace Kinzoku_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==20
+capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==21
+capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==22
+capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==23
+capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==24
+capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==25
+capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==26
+capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==27
+capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==28
+capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==29
 capture label variable Kinzoku_NEWVARIABLE `var_lab'
 capture label values Kinzoku_NEWVARIABLE `val_lab'
 
@@ -3458,35 +3458,35 @@ capture label values Kinzoku_NEWVARIABLE `val_lab'
 gen Syoku_NEWVARIABLE = .
 local var_lab: variable label var35
 local val_lab: value label var35
-capture replace Syoku_NEWVARIABLE = var35  if `data'==1
-capture replace Syoku_NEWVARIABLE = var35  if `data'==2
-capture replace Syoku_NEWVARIABLE = var35  if `data'==3
-capture replace Syoku_NEWVARIABLE = var35  if `data'==4
-capture replace Syoku_NEWVARIABLE = var36  if `data'==5
-capture replace Syoku_NEWVARIABLE = var36  if `data'==6
-capture replace Syoku_NEWVARIABLE = var36  if `data'==7
-capture replace Syoku_NEWVARIABLE = var36  if `data'==8
-capture replace Syoku_NEWVARIABLE = var36  if `data'==9
-capture replace Syoku_NEWVARIABLE = var36  if `data'==10
-capture replace Syoku_NEWVARIABLE = var36  if `data'==11
-capture replace Syoku_NEWVARIABLE = var36  if `data'==12
-capture replace Syoku_NEWVARIABLE = var36  if `data'==13
-capture replace Syoku_NEWVARIABLE = var34  if `data'==14
-capture replace Syoku_NEWVARIABLE = var34  if `data'==15
-capture replace Syoku_NEWVARIABLE = var34  if `data'==16
-capture replace Syoku_NEWVARIABLE = var40  if `data'==17
-capture replace Syoku_NEWVARIABLE = var40  if `data'==18
-capture replace Syoku_NEWVARIABLE = var40  if `data'==19
-capture replace Syoku_NEWVARIABLE = var47  if `data'==20
-capture replace Syoku_NEWVARIABLE = Syoku  if `data'==21
-capture replace Syoku_NEWVARIABLE = Syoku  if `data'==22
-capture replace Syoku_NEWVARIABLE = Syoku  if `data'==23
-capture replace Syoku_NEWVARIABLE = Syoku  if `data'==24
-capture replace Syoku_NEWVARIABLE = Syoku  if `data'==25
-capture replace Syoku_NEWVARIABLE = Syoku  if `data'==26
-capture replace Syoku_NEWVARIABLE = Syoku  if `data'==27
-capture replace Syoku_NEWVARIABLE = Syoku  if `data'==28
-capture replace Syoku_NEWVARIABLE = Syoku  if `data'==29
+capture replace Syoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==1
+capture replace Syoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==2
+capture replace Syoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==3
+capture replace Syoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==4
+capture replace Syoku_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==5
+capture replace Syoku_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==6
+capture replace Syoku_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==7
+capture replace Syoku_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==8
+capture replace Syoku_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==9
+capture replace Syoku_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==10
+capture replace Syoku_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==11
+capture replace Syoku_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==12
+capture replace Syoku_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==13
+capture replace Syoku_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==14
+capture replace Syoku_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==15
+capture replace Syoku_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==16
+capture replace Syoku_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==17
+capture replace Syoku_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==18
+capture replace Syoku_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==19
+capture replace Syoku_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==20
+capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==21
+capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==22
+capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==23
+capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==24
+capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==25
+capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==26
+capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==27
+capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==28
+capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==29
 capture label variable Syoku_NEWVARIABLE `var_lab'
 capture label values Syoku_NEWVARIABLE `val_lab'
 
@@ -3558,35 +3558,35 @@ capture label values Syoku_NEWVARIABLE `val_lab'
 gen Keiken_NEWVARIABLE = .
 local var_lab: variable label var36
 local val_lab: value label var36
-capture replace Keiken_NEWVARIABLE = var36  if `data'==1
-capture replace Keiken_NEWVARIABLE = var36  if `data'==2
-capture replace Keiken_NEWVARIABLE = var36  if `data'==3
-capture replace Keiken_NEWVARIABLE = var36  if `data'==4
-capture replace Keiken_NEWVARIABLE = var37  if `data'==5
-capture replace Keiken_NEWVARIABLE = var37  if `data'==6
-capture replace Keiken_NEWVARIABLE = var37  if `data'==7
-capture replace Keiken_NEWVARIABLE = var37  if `data'==8
-capture replace Keiken_NEWVARIABLE = var37  if `data'==9
-capture replace Keiken_NEWVARIABLE = var37  if `data'==10
-capture replace Keiken_NEWVARIABLE = var37  if `data'==11
-capture replace Keiken_NEWVARIABLE = var37  if `data'==12
-capture replace Keiken_NEWVARIABLE = var37  if `data'==13
-capture replace Keiken_NEWVARIABLE = var35  if `data'==14
-capture replace Keiken_NEWVARIABLE = var35  if `data'==15
-capture replace Keiken_NEWVARIABLE = var35  if `data'==16
-capture replace Keiken_NEWVARIABLE = var41  if `data'==17
-capture replace Keiken_NEWVARIABLE = var41  if `data'==18
-capture replace Keiken_NEWVARIABLE = var41  if `data'==19
-capture replace Keiken_NEWVARIABLE = var48  if `data'==20
-capture replace Keiken_NEWVARIABLE = Keiken  if `data'==21
-capture replace Keiken_NEWVARIABLE = Keiken  if `data'==22
-capture replace Keiken_NEWVARIABLE = Keiken  if `data'==23
-capture replace Keiken_NEWVARIABLE = Keiken  if `data'==24
-capture replace Keiken_NEWVARIABLE = Keiken  if `data'==25
-capture replace Keiken_NEWVARIABLE = Keiken  if `data'==26
-capture replace Keiken_NEWVARIABLE = Keiken  if `data'==27
-capture replace Keiken_NEWVARIABLE = Keiken  if `data'==28
-capture replace Keiken_NEWVARIABLE = Keiken  if `data'==29
+capture replace Keiken_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==1
+capture replace Keiken_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==2
+capture replace Keiken_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==3
+capture replace Keiken_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==4
+capture replace Keiken_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==5
+capture replace Keiken_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==6
+capture replace Keiken_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==7
+capture replace Keiken_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==8
+capture replace Keiken_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==9
+capture replace Keiken_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==10
+capture replace Keiken_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==11
+capture replace Keiken_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==12
+capture replace Keiken_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==13
+capture replace Keiken_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==14
+capture replace Keiken_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==15
+capture replace Keiken_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==16
+capture replace Keiken_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==17
+capture replace Keiken_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==18
+capture replace Keiken_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==19
+capture replace Keiken_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==20
+capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==21
+capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==22
+capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==23
+capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==24
+capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==25
+capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==26
+capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==27
+capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==28
+capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==29
 capture label variable Keiken_NEWVARIABLE `var_lab'
 capture label values Keiken_NEWVARIABLE `val_lab'
 
@@ -3658,35 +3658,35 @@ capture label values Keiken_NEWVARIABLE `val_lab'
 gen RouNissu_NEWVARIABLE = .
 local var_lab: variable label var37
 local val_lab: value label var37
-capture replace RouNissu_NEWVARIABLE = var37  if `data'==1
-capture replace RouNissu_NEWVARIABLE = var37  if `data'==2
-capture replace RouNissu_NEWVARIABLE = var37  if `data'==3
-capture replace RouNissu_NEWVARIABLE = var37  if `data'==4
-capture replace RouNissu_NEWVARIABLE = var38  if `data'==5
-capture replace RouNissu_NEWVARIABLE = var38  if `data'==6
-capture replace RouNissu_NEWVARIABLE = var38  if `data'==7
-capture replace RouNissu_NEWVARIABLE = var38  if `data'==8
-capture replace RouNissu_NEWVARIABLE = var38  if `data'==9
-capture replace RouNissu_NEWVARIABLE = var38  if `data'==10
-capture replace RouNissu_NEWVARIABLE = var38  if `data'==11
-capture replace RouNissu_NEWVARIABLE = var38  if `data'==12
-capture replace RouNissu_NEWVARIABLE = var38  if `data'==13
-capture replace RouNissu_NEWVARIABLE = var36  if `data'==14
-capture replace RouNissu_NEWVARIABLE = var36  if `data'==15
-capture replace RouNissu_NEWVARIABLE = var36  if `data'==16
-capture replace RouNissu_NEWVARIABLE = var42  if `data'==17
-capture replace RouNissu_NEWVARIABLE = var42  if `data'==18
-capture replace RouNissu_NEWVARIABLE = var42  if `data'==19
-capture replace RouNissu_NEWVARIABLE = var49  if `data'==20
-capture replace RouNissu_NEWVARIABLE = RouNissu  if `data'==21
-capture replace RouNissu_NEWVARIABLE = RouNissu  if `data'==22
-capture replace RouNissu_NEWVARIABLE = RouNissu  if `data'==23
-capture replace RouNissu_NEWVARIABLE = RouNissu  if `data'==24
-capture replace RouNissu_NEWVARIABLE = RouNissu  if `data'==25
-capture replace RouNissu_NEWVARIABLE = RouNissu  if `data'==26
-capture replace RouNissu_NEWVARIABLE = RouNissu  if `data'==27
-capture replace RouNissu_NEWVARIABLE = RouNissu  if `data'==28
-capture replace RouNissu_NEWVARIABLE = RouNissu  if `data'==29
+capture replace RouNissu_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==1
+capture replace RouNissu_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==2
+capture replace RouNissu_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==3
+capture replace RouNissu_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==4
+capture replace RouNissu_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==5
+capture replace RouNissu_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==6
+capture replace RouNissu_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==7
+capture replace RouNissu_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==8
+capture replace RouNissu_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==9
+capture replace RouNissu_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==10
+capture replace RouNissu_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==11
+capture replace RouNissu_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==12
+capture replace RouNissu_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==13
+capture replace RouNissu_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==14
+capture replace RouNissu_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==15
+capture replace RouNissu_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==16
+capture replace RouNissu_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==17
+capture replace RouNissu_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==18
+capture replace RouNissu_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==19
+capture replace RouNissu_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==20
+capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==21
+capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==22
+capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==23
+capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==24
+capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==25
+capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==26
+capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==27
+capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==28
+capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==29
 capture label variable RouNissu_NEWVARIABLE `var_lab'
 capture label values RouNissu_NEWVARIABLE `val_lab'
 
@@ -3758,35 +3758,35 @@ capture label values RouNissu_NEWVARIABLE `val_lab'
 gen SyoteiJikan_NEWVARIABLE = .
 local var_lab: variable label var38
 local val_lab: value label var38
-capture replace SyoteiJikan_NEWVARIABLE = var38  if `data'==1
-capture replace SyoteiJikan_NEWVARIABLE = var38  if `data'==2
-capture replace SyoteiJikan_NEWVARIABLE = var38  if `data'==3
-capture replace SyoteiJikan_NEWVARIABLE = var38  if `data'==4
-capture replace SyoteiJikan_NEWVARIABLE = var39  if `data'==5
-capture replace SyoteiJikan_NEWVARIABLE = var39  if `data'==6
-capture replace SyoteiJikan_NEWVARIABLE = var39  if `data'==7
-capture replace SyoteiJikan_NEWVARIABLE = var39  if `data'==8
-capture replace SyoteiJikan_NEWVARIABLE = var39  if `data'==9
-capture replace SyoteiJikan_NEWVARIABLE = var39  if `data'==10
-capture replace SyoteiJikan_NEWVARIABLE = var39  if `data'==11
-capture replace SyoteiJikan_NEWVARIABLE = var39  if `data'==12
-capture replace SyoteiJikan_NEWVARIABLE = var39  if `data'==13
-capture replace SyoteiJikan_NEWVARIABLE = var37  if `data'==14
-capture replace SyoteiJikan_NEWVARIABLE = var37  if `data'==15
-capture replace SyoteiJikan_NEWVARIABLE = var37  if `data'==16
-capture replace SyoteiJikan_NEWVARIABLE = var43  if `data'==17
-capture replace SyoteiJikan_NEWVARIABLE = var43  if `data'==18
-capture replace SyoteiJikan_NEWVARIABLE = var43  if `data'==19
-capture replace SyoteiJikan_NEWVARIABLE = var50  if `data'==20
-capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if `data'==21
-capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if `data'==22
-capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if `data'==23
-capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if `data'==24
-capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if `data'==25
-capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if `data'==26
-capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if `data'==27
-capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if `data'==28
-capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if `data'==29
+capture replace SyoteiJikan_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==1
+capture replace SyoteiJikan_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==2
+capture replace SyoteiJikan_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==3
+capture replace SyoteiJikan_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==4
+capture replace SyoteiJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==5
+capture replace SyoteiJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==6
+capture replace SyoteiJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==7
+capture replace SyoteiJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==8
+capture replace SyoteiJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==9
+capture replace SyoteiJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==10
+capture replace SyoteiJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==11
+capture replace SyoteiJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==12
+capture replace SyoteiJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==13
+capture replace SyoteiJikan_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==14
+capture replace SyoteiJikan_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==15
+capture replace SyoteiJikan_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==16
+capture replace SyoteiJikan_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==17
+capture replace SyoteiJikan_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==18
+capture replace SyoteiJikan_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==19
+capture replace SyoteiJikan_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==20
+capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==21
+capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==22
+capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==23
+capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==24
+capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==25
+capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==26
+capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==27
+capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==28
+capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==29
 capture label variable SyoteiJikan_NEWVARIABLE `var_lab'
 capture label values SyoteiJikan_NEWVARIABLE `val_lab'
 
@@ -3858,35 +3858,35 @@ capture label values SyoteiJikan_NEWVARIABLE `val_lab'
 gen ChokaJikan_NEWVARIABLE = .
 local var_lab: variable label var39
 local val_lab: value label var39
-capture replace ChokaJikan_NEWVARIABLE = var39  if `data'==1
-capture replace ChokaJikan_NEWVARIABLE = var39  if `data'==2
-capture replace ChokaJikan_NEWVARIABLE = var39  if `data'==3
-capture replace ChokaJikan_NEWVARIABLE = var39  if `data'==4
-capture replace ChokaJikan_NEWVARIABLE = var40  if `data'==5
-capture replace ChokaJikan_NEWVARIABLE = var40  if `data'==6
-capture replace ChokaJikan_NEWVARIABLE = var40  if `data'==7
-capture replace ChokaJikan_NEWVARIABLE = var40  if `data'==8
-capture replace ChokaJikan_NEWVARIABLE = var40  if `data'==9
-capture replace ChokaJikan_NEWVARIABLE = var40  if `data'==10
-capture replace ChokaJikan_NEWVARIABLE = var40  if `data'==11
-capture replace ChokaJikan_NEWVARIABLE = var40  if `data'==12
-capture replace ChokaJikan_NEWVARIABLE = var40  if `data'==13
-capture replace ChokaJikan_NEWVARIABLE = var38  if `data'==14
-capture replace ChokaJikan_NEWVARIABLE = var38  if `data'==15
-capture replace ChokaJikan_NEWVARIABLE = var38  if `data'==16
-capture replace ChokaJikan_NEWVARIABLE = var44  if `data'==17
-capture replace ChokaJikan_NEWVARIABLE = var44  if `data'==18
-capture replace ChokaJikan_NEWVARIABLE = var44  if `data'==19
-capture replace ChokaJikan_NEWVARIABLE = var51  if `data'==20
-capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if `data'==21
-capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if `data'==22
-capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if `data'==23
-capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if `data'==24
-capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if `data'==25
-capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if `data'==26
-capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if `data'==27
-capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if `data'==28
-capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if `data'==29
+capture replace ChokaJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==1
+capture replace ChokaJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==2
+capture replace ChokaJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==3
+capture replace ChokaJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==4
+capture replace ChokaJikan_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==5
+capture replace ChokaJikan_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==6
+capture replace ChokaJikan_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==7
+capture replace ChokaJikan_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==8
+capture replace ChokaJikan_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==9
+capture replace ChokaJikan_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==10
+capture replace ChokaJikan_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==11
+capture replace ChokaJikan_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==12
+capture replace ChokaJikan_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==13
+capture replace ChokaJikan_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==14
+capture replace ChokaJikan_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==15
+capture replace ChokaJikan_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==16
+capture replace ChokaJikan_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==17
+capture replace ChokaJikan_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==18
+capture replace ChokaJikan_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==19
+capture replace ChokaJikan_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==20
+capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==21
+capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==22
+capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==23
+capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==24
+capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==25
+capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==26
+capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==27
+capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==28
+capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==29
 capture label variable ChokaJikan_NEWVARIABLE `var_lab'
 capture label values ChokaJikan_NEWVARIABLE `val_lab'
 
@@ -3958,35 +3958,35 @@ capture label values ChokaJikan_NEWVARIABLE `val_lab'
 gen Genkin_NEWVARIABLE = .
 local var_lab: variable label var40
 local val_lab: value label var40
-capture replace Genkin_NEWVARIABLE = var40  if `data'==1
-capture replace Genkin_NEWVARIABLE = var40  if `data'==2
-capture replace Genkin_NEWVARIABLE = var40  if `data'==3
-capture replace Genkin_NEWVARIABLE = var40  if `data'==4
-capture replace Genkin_NEWVARIABLE = var41  if `data'==5
-capture replace Genkin_NEWVARIABLE = var41  if `data'==6
-capture replace Genkin_NEWVARIABLE = var41  if `data'==7
-capture replace Genkin_NEWVARIABLE = var41  if `data'==8
-capture replace Genkin_NEWVARIABLE = var41  if `data'==9
-capture replace Genkin_NEWVARIABLE = var41  if `data'==10
-capture replace Genkin_NEWVARIABLE = var41  if `data'==11
-capture replace Genkin_NEWVARIABLE = var41  if `data'==12
-capture replace Genkin_NEWVARIABLE = var41  if `data'==13
-capture replace Genkin_NEWVARIABLE = var39  if `data'==14
-capture replace Genkin_NEWVARIABLE = var39  if `data'==15
-capture replace Genkin_NEWVARIABLE = var39  if `data'==16
-capture replace Genkin_NEWVARIABLE = var45  if `data'==17
-capture replace Genkin_NEWVARIABLE = var45  if `data'==18
-capture replace Genkin_NEWVARIABLE = var45  if `data'==19
-capture replace Genkin_NEWVARIABLE = var52  if `data'==20
-capture replace Genkin_NEWVARIABLE = Genkin  if `data'==21
-capture replace Genkin_NEWVARIABLE = Genkin  if `data'==22
-capture replace Genkin_NEWVARIABLE = Genkin  if `data'==23
-capture replace Genkin_NEWVARIABLE = Genkin  if `data'==24
-capture replace Genkin_NEWVARIABLE = Genkin  if `data'==25
-capture replace Genkin_NEWVARIABLE = Genkin  if `data'==26
-capture replace Genkin_NEWVARIABLE = Genkin  if `data'==27
-capture replace Genkin_NEWVARIABLE = Genkin  if `data'==28
-capture replace Genkin_NEWVARIABLE = Genkin  if `data'==29
+capture replace Genkin_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==1
+capture replace Genkin_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==2
+capture replace Genkin_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==3
+capture replace Genkin_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==4
+capture replace Genkin_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==5
+capture replace Genkin_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==6
+capture replace Genkin_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==7
+capture replace Genkin_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==8
+capture replace Genkin_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==9
+capture replace Genkin_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==10
+capture replace Genkin_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==11
+capture replace Genkin_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==12
+capture replace Genkin_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==13
+capture replace Genkin_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==14
+capture replace Genkin_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==15
+capture replace Genkin_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==16
+capture replace Genkin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==17
+capture replace Genkin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==18
+capture replace Genkin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==19
+capture replace Genkin_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==20
+capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==21
+capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==22
+capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==23
+capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==24
+capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==25
+capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==26
+capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==27
+capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==28
+capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==29
 capture label variable Genkin_NEWVARIABLE `var_lab'
 capture label values Genkin_NEWVARIABLE `val_lab'
 
@@ -4058,35 +4058,35 @@ capture label values Genkin_NEWVARIABLE `val_lab'
 gen ChokaKyuyo_NEWVARIABLE = .
 local var_lab: variable label var41
 local val_lab: value label var41
-capture replace ChokaKyuyo_NEWVARIABLE = var41  if `data'==1
-capture replace ChokaKyuyo_NEWVARIABLE = var41  if `data'==2
-capture replace ChokaKyuyo_NEWVARIABLE = var41  if `data'==3
-capture replace ChokaKyuyo_NEWVARIABLE = var41  if `data'==4
-capture replace ChokaKyuyo_NEWVARIABLE = var42  if `data'==5
-capture replace ChokaKyuyo_NEWVARIABLE = var42  if `data'==6
-capture replace ChokaKyuyo_NEWVARIABLE = var42  if `data'==7
-capture replace ChokaKyuyo_NEWVARIABLE = var42  if `data'==8
-capture replace ChokaKyuyo_NEWVARIABLE = var42  if `data'==9
-capture replace ChokaKyuyo_NEWVARIABLE = var42  if `data'==10
-capture replace ChokaKyuyo_NEWVARIABLE = var42  if `data'==11
-capture replace ChokaKyuyo_NEWVARIABLE = var42  if `data'==12
-capture replace ChokaKyuyo_NEWVARIABLE = var42  if `data'==13
-capture replace ChokaKyuyo_NEWVARIABLE = var40  if `data'==14
-capture replace ChokaKyuyo_NEWVARIABLE = var40  if `data'==15
-capture replace ChokaKyuyo_NEWVARIABLE = var40  if `data'==16
-capture replace ChokaKyuyo_NEWVARIABLE = var46  if `data'==17
-capture replace ChokaKyuyo_NEWVARIABLE = var46  if `data'==18
-capture replace ChokaKyuyo_NEWVARIABLE = var46  if `data'==19
-capture replace ChokaKyuyo_NEWVARIABLE = var53  if `data'==20
-capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if `data'==21
-capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if `data'==22
-capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if `data'==23
-capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if `data'==24
-capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if `data'==25
-capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if `data'==26
-capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if `data'==27
-capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if `data'==28
-capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if `data'==29
+capture replace ChokaKyuyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==1
+capture replace ChokaKyuyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==2
+capture replace ChokaKyuyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==3
+capture replace ChokaKyuyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==4
+capture replace ChokaKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==5
+capture replace ChokaKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==6
+capture replace ChokaKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==7
+capture replace ChokaKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==8
+capture replace ChokaKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==9
+capture replace ChokaKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==10
+capture replace ChokaKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==11
+capture replace ChokaKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==12
+capture replace ChokaKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==13
+capture replace ChokaKyuyo_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==14
+capture replace ChokaKyuyo_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==15
+capture replace ChokaKyuyo_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==16
+capture replace ChokaKyuyo_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==17
+capture replace ChokaKyuyo_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==18
+capture replace ChokaKyuyo_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==19
+capture replace ChokaKyuyo_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==20
+capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==21
+capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==22
+capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==23
+capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==24
+capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==25
+capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==26
+capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==27
+capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==28
+capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==29
 capture label variable ChokaKyuyo_NEWVARIABLE `var_lab'
 capture label values ChokaKyuyo_NEWVARIABLE `val_lab'
 
@@ -4158,35 +4158,35 @@ capture label values ChokaKyuyo_NEWVARIABLE `val_lab'
 gen SyoteiKyuyo_NEWVARIABLE = .
 local var_lab: variable label var42
 local val_lab: value label var42
-capture replace SyoteiKyuyo_NEWVARIABLE = var42  if `data'==1
-capture replace SyoteiKyuyo_NEWVARIABLE = var42  if `data'==2
-capture replace SyoteiKyuyo_NEWVARIABLE = var42  if `data'==3
-capture replace SyoteiKyuyo_NEWVARIABLE = var42  if `data'==4
-capture replace SyoteiKyuyo_NEWVARIABLE = var43  if `data'==5
-capture replace SyoteiKyuyo_NEWVARIABLE = var43  if `data'==6
-capture replace SyoteiKyuyo_NEWVARIABLE = var43  if `data'==7
-capture replace SyoteiKyuyo_NEWVARIABLE = var43  if `data'==8
-capture replace SyoteiKyuyo_NEWVARIABLE = var43  if `data'==9
-capture replace SyoteiKyuyo_NEWVARIABLE = var43  if `data'==10
-capture replace SyoteiKyuyo_NEWVARIABLE = var43  if `data'==11
-capture replace SyoteiKyuyo_NEWVARIABLE = var43  if `data'==12
-capture replace SyoteiKyuyo_NEWVARIABLE = var43  if `data'==13
-capture replace SyoteiKyuyo_NEWVARIABLE = var41  if `data'==14
-capture replace SyoteiKyuyo_NEWVARIABLE = var41  if `data'==15
-capture replace SyoteiKyuyo_NEWVARIABLE = var41  if `data'==16
-capture replace SyoteiKyuyo_NEWVARIABLE = var47  if `data'==17
-capture replace SyoteiKyuyo_NEWVARIABLE = var47  if `data'==18
-capture replace SyoteiKyuyo_NEWVARIABLE = var47  if `data'==19
-capture replace SyoteiKyuyo_NEWVARIABLE = var54  if `data'==20
-capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if `data'==21
-capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if `data'==22
-capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if `data'==23
-capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if `data'==24
-capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if `data'==25
-capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if `data'==26
-capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if `data'==27
-capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if `data'==28
-capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if `data'==29
+capture replace SyoteiKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==1
+capture replace SyoteiKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==2
+capture replace SyoteiKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==3
+capture replace SyoteiKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==4
+capture replace SyoteiKyuyo_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==5
+capture replace SyoteiKyuyo_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==6
+capture replace SyoteiKyuyo_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==7
+capture replace SyoteiKyuyo_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==8
+capture replace SyoteiKyuyo_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==9
+capture replace SyoteiKyuyo_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==10
+capture replace SyoteiKyuyo_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==11
+capture replace SyoteiKyuyo_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==12
+capture replace SyoteiKyuyo_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==13
+capture replace SyoteiKyuyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==14
+capture replace SyoteiKyuyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==15
+capture replace SyoteiKyuyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==16
+capture replace SyoteiKyuyo_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==17
+capture replace SyoteiKyuyo_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==18
+capture replace SyoteiKyuyo_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==19
+capture replace SyoteiKyuyo_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==20
+capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==21
+capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==22
+capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==23
+capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==24
+capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==25
+capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==26
+capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==27
+capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==28
+capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==29
 capture label variable SyoteiKyuyo_NEWVARIABLE `var_lab'
 capture label values SyoteiKyuyo_NEWVARIABLE `val_lab'
 
@@ -4258,35 +4258,35 @@ capture label values SyoteiKyuyo_NEWVARIABLE `val_lab'
 gen Tsukin_NEWVARIABLE = .
 local var_lab: variable label var43
 local val_lab: value label var43
-capture replace Tsukin_NEWVARIABLE = var43  if `data'==1
-capture replace Tsukin_NEWVARIABLE = var43  if `data'==2
-capture replace Tsukin_NEWVARIABLE = var43  if `data'==3
-capture replace Tsukin_NEWVARIABLE = var43  if `data'==4
-capture replace Tsukin_NEWVARIABLE = var44  if `data'==5
-capture replace Tsukin_NEWVARIABLE = var44  if `data'==6
-capture replace Tsukin_NEWVARIABLE = var44  if `data'==7
-capture replace Tsukin_NEWVARIABLE = var44  if `data'==8
-capture replace Tsukin_NEWVARIABLE = var44  if `data'==9
-capture replace Tsukin_NEWVARIABLE = var44  if `data'==10
-capture replace Tsukin_NEWVARIABLE = var44  if `data'==11
-capture replace Tsukin_NEWVARIABLE = var44  if `data'==12
-capture replace Tsukin_NEWVARIABLE = var44  if `data'==13
-capture replace Tsukin_NEWVARIABLE = var42  if `data'==14
-capture replace Tsukin_NEWVARIABLE = var42  if `data'==15
-capture replace Tsukin_NEWVARIABLE = var42  if `data'==16
-capture replace Tsukin_NEWVARIABLE = var48  if `data'==17
-capture replace Tsukin_NEWVARIABLE = var48  if `data'==18
-capture replace Tsukin_NEWVARIABLE = var48  if `data'==19
-capture replace Tsukin_NEWVARIABLE = var55  if `data'==20
-capture replace Tsukin_NEWVARIABLE = Tsukin  if `data'==21
-capture replace Tsukin_NEWVARIABLE = Tsukin  if `data'==22
-capture replace Tsukin_NEWVARIABLE = Tsukin  if `data'==23
-capture replace Tsukin_NEWVARIABLE = Tsukin  if `data'==24
-capture replace Tsukin_NEWVARIABLE = Tsukin  if `data'==25
-capture replace Tsukin_NEWVARIABLE = Tsukin  if `data'==26
-capture replace Tsukin_NEWVARIABLE = Tsukin  if `data'==27
-capture replace Tsukin_NEWVARIABLE = Tsukin  if `data'==28
-capture replace Tsukin_NEWVARIABLE = Tsukin  if `data'==29
+capture replace Tsukin_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==1
+capture replace Tsukin_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==2
+capture replace Tsukin_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==3
+capture replace Tsukin_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==4
+capture replace Tsukin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==5
+capture replace Tsukin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==6
+capture replace Tsukin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==7
+capture replace Tsukin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==8
+capture replace Tsukin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==9
+capture replace Tsukin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==10
+capture replace Tsukin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==11
+capture replace Tsukin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==12
+capture replace Tsukin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==13
+capture replace Tsukin_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==14
+capture replace Tsukin_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==15
+capture replace Tsukin_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==16
+capture replace Tsukin_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==17
+capture replace Tsukin_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==18
+capture replace Tsukin_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==19
+capture replace Tsukin_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==20
+capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==21
+capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==22
+capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==23
+capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==24
+capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==25
+capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==26
+capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==27
+capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==28
+capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==29
 capture label variable Tsukin_NEWVARIABLE `var_lab'
 capture label values Tsukin_NEWVARIABLE `val_lab'
 
@@ -4358,35 +4358,35 @@ capture label values Tsukin_NEWVARIABLE `val_lab'
 gen Seikin_NEWVARIABLE = .
 local var_lab: variable label var44
 local val_lab: value label var44
-capture replace Seikin_NEWVARIABLE = var44  if `data'==1
-capture replace Seikin_NEWVARIABLE = var44  if `data'==2
-capture replace Seikin_NEWVARIABLE = var44  if `data'==3
-capture replace Seikin_NEWVARIABLE = var44  if `data'==4
-capture replace Seikin_NEWVARIABLE = var45  if `data'==5
-capture replace Seikin_NEWVARIABLE = var45  if `data'==6
-capture replace Seikin_NEWVARIABLE = var45  if `data'==7
-capture replace Seikin_NEWVARIABLE = var45  if `data'==8
-capture replace Seikin_NEWVARIABLE = var45  if `data'==9
-capture replace Seikin_NEWVARIABLE = var45  if `data'==10
-capture replace Seikin_NEWVARIABLE = var45  if `data'==11
-capture replace Seikin_NEWVARIABLE = var45  if `data'==12
-capture replace Seikin_NEWVARIABLE = var45  if `data'==13
-capture replace Seikin_NEWVARIABLE = var43  if `data'==14
-capture replace Seikin_NEWVARIABLE = var43  if `data'==15
-capture replace Seikin_NEWVARIABLE = var43  if `data'==16
-capture replace Seikin_NEWVARIABLE = var49  if `data'==17
-capture replace Seikin_NEWVARIABLE = var49  if `data'==18
-capture replace Seikin_NEWVARIABLE = var49  if `data'==19
-capture replace Seikin_NEWVARIABLE = var56  if `data'==20
-capture replace Seikin_NEWVARIABLE = Seikin  if `data'==21
-capture replace Seikin_NEWVARIABLE = Seikin  if `data'==22
-capture replace Seikin_NEWVARIABLE = Seikin  if `data'==23
-capture replace Seikin_NEWVARIABLE = Seikin  if `data'==24
-capture replace Seikin_NEWVARIABLE = Seikin  if `data'==25
-capture replace Seikin_NEWVARIABLE = Seikin  if `data'==26
-capture replace Seikin_NEWVARIABLE = Seikin  if `data'==27
-capture replace Seikin_NEWVARIABLE = Seikin  if `data'==28
-capture replace Seikin_NEWVARIABLE = Seikin  if `data'==29
+capture replace Seikin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==1
+capture replace Seikin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==2
+capture replace Seikin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==3
+capture replace Seikin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==4
+capture replace Seikin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==5
+capture replace Seikin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==6
+capture replace Seikin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==7
+capture replace Seikin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==8
+capture replace Seikin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==9
+capture replace Seikin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==10
+capture replace Seikin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==11
+capture replace Seikin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==12
+capture replace Seikin_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==13
+capture replace Seikin_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==14
+capture replace Seikin_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==15
+capture replace Seikin_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==16
+capture replace Seikin_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==17
+capture replace Seikin_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==18
+capture replace Seikin_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==19
+capture replace Seikin_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==20
+capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==21
+capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==22
+capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==23
+capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==24
+capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==25
+capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==26
+capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==27
+capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==28
+capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==29
 capture label variable Seikin_NEWVARIABLE `var_lab'
 capture label values Seikin_NEWVARIABLE `val_lab'
 
@@ -4458,35 +4458,35 @@ capture label values Seikin_NEWVARIABLE `val_lab'
 gen Kazoku_NEWVARIABLE = .
 local var_lab: variable label var45
 local val_lab: value label var45
-capture replace Kazoku_NEWVARIABLE = var45  if `data'==1
-capture replace Kazoku_NEWVARIABLE = var45  if `data'==2
-capture replace Kazoku_NEWVARIABLE = var45  if `data'==3
-capture replace Kazoku_NEWVARIABLE = var45  if `data'==4
-capture replace Kazoku_NEWVARIABLE = var46  if `data'==5
-capture replace Kazoku_NEWVARIABLE = var46  if `data'==6
-capture replace Kazoku_NEWVARIABLE = var46  if `data'==7
-capture replace Kazoku_NEWVARIABLE = var46  if `data'==8
-capture replace Kazoku_NEWVARIABLE = var46  if `data'==9
-capture replace Kazoku_NEWVARIABLE = var46  if `data'==10
-capture replace Kazoku_NEWVARIABLE = var46  if `data'==11
-capture replace Kazoku_NEWVARIABLE = var46  if `data'==12
-capture replace Kazoku_NEWVARIABLE = var46  if `data'==13
-capture replace Kazoku_NEWVARIABLE = var44  if `data'==14
-capture replace Kazoku_NEWVARIABLE = var44  if `data'==15
-capture replace Kazoku_NEWVARIABLE = var44  if `data'==16
-capture replace Kazoku_NEWVARIABLE = var50  if `data'==17
-capture replace Kazoku_NEWVARIABLE = var50  if `data'==18
-capture replace Kazoku_NEWVARIABLE = var50  if `data'==19
-capture replace Kazoku_NEWVARIABLE = var57  if `data'==20
-capture replace Kazoku_NEWVARIABLE = Kazoku  if `data'==21
-capture replace Kazoku_NEWVARIABLE = Kazoku  if `data'==22
-capture replace Kazoku_NEWVARIABLE = Kazoku  if `data'==23
-capture replace Kazoku_NEWVARIABLE = Kazoku  if `data'==24
-capture replace Kazoku_NEWVARIABLE = Kazoku  if `data'==25
-capture replace Kazoku_NEWVARIABLE = Kazoku  if `data'==26
-capture replace Kazoku_NEWVARIABLE = Kazoku  if `data'==27
-capture replace Kazoku_NEWVARIABLE = Kazoku  if `data'==28
-capture replace Kazoku_NEWVARIABLE = Kazoku  if `data'==29
+capture replace Kazoku_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==1
+capture replace Kazoku_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==2
+capture replace Kazoku_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==3
+capture replace Kazoku_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==4
+capture replace Kazoku_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==5
+capture replace Kazoku_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==6
+capture replace Kazoku_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==7
+capture replace Kazoku_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==8
+capture replace Kazoku_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==9
+capture replace Kazoku_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==10
+capture replace Kazoku_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==11
+capture replace Kazoku_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==12
+capture replace Kazoku_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==13
+capture replace Kazoku_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==14
+capture replace Kazoku_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==15
+capture replace Kazoku_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==16
+capture replace Kazoku_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==17
+capture replace Kazoku_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==18
+capture replace Kazoku_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==19
+capture replace Kazoku_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==20
+capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==21
+capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==22
+capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==23
+capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==24
+capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==25
+capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==26
+capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==27
+capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==28
+capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==29
 capture label variable Kazoku_NEWVARIABLE `var_lab'
 capture label values Kazoku_NEWVARIABLE `val_lab'
 
@@ -4558,35 +4558,35 @@ capture label values Kazoku_NEWVARIABLE `val_lab'
 gen Tokubetsu_NEWVARIABLE = .
 local var_lab: variable label var46
 local val_lab: value label var46
-capture replace Tokubetsu_NEWVARIABLE = var46  if `data'==1
-capture replace Tokubetsu_NEWVARIABLE = var46  if `data'==2
-capture replace Tokubetsu_NEWVARIABLE = var46  if `data'==3
-capture replace Tokubetsu_NEWVARIABLE = var46  if `data'==4
-capture replace Tokubetsu_NEWVARIABLE = var47  if `data'==5
-capture replace Tokubetsu_NEWVARIABLE = var47  if `data'==6
-capture replace Tokubetsu_NEWVARIABLE = var47  if `data'==7
-capture replace Tokubetsu_NEWVARIABLE = var47  if `data'==8
-capture replace Tokubetsu_NEWVARIABLE = var47  if `data'==9
-capture replace Tokubetsu_NEWVARIABLE = var47  if `data'==10
-capture replace Tokubetsu_NEWVARIABLE = var47  if `data'==11
-capture replace Tokubetsu_NEWVARIABLE = var47  if `data'==12
-capture replace Tokubetsu_NEWVARIABLE = var47  if `data'==13
-capture replace Tokubetsu_NEWVARIABLE = var45  if `data'==14
-capture replace Tokubetsu_NEWVARIABLE = var45  if `data'==15
-capture replace Tokubetsu_NEWVARIABLE = var45  if `data'==16
-capture replace Tokubetsu_NEWVARIABLE = var51  if `data'==17
-capture replace Tokubetsu_NEWVARIABLE = var51  if `data'==18
-capture replace Tokubetsu_NEWVARIABLE = var51  if `data'==19
-capture replace Tokubetsu_NEWVARIABLE = var58  if `data'==20
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if `data'==21
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if `data'==22
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if `data'==23
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if `data'==24
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if `data'==25
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if `data'==26
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if `data'==27
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if `data'==28
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if `data'==29
+capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==1
+capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==2
+capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==3
+capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==4
+capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==5
+capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==6
+capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==7
+capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==8
+capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==9
+capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==10
+capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==11
+capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==12
+capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==13
+capture replace Tokubetsu_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==14
+capture replace Tokubetsu_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==15
+capture replace Tokubetsu_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==16
+capture replace Tokubetsu_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==17
+capture replace Tokubetsu_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==18
+capture replace Tokubetsu_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==19
+capture replace Tokubetsu_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==20
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==21
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==22
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==23
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==24
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==25
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==26
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==27
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==28
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==29
 capture label variable Tokubetsu_NEWVARIABLE `var_lab'
 capture label values Tokubetsu_NEWVARIABLE `val_lab'
 
@@ -4658,26 +4658,26 @@ capture label values Tokubetsu_NEWVARIABLE `val_lab'
 gen SangyoDai_NEWVARIABLE = .
 local var_lab: variable label var14
 local val_lab: value label var14
-capture replace SangyoDai_NEWVARIABLE = var14  if `data'==5
-capture replace SangyoDai_NEWVARIABLE = var14  if `data'==6
-capture replace SangyoDai_NEWVARIABLE = var14  if `data'==7
-capture replace SangyoDai_NEWVARIABLE = var14  if `data'==8
-capture replace SangyoDai_NEWVARIABLE = var14  if `data'==9
-capture replace SangyoDai_NEWVARIABLE = var14  if `data'==10
-capture replace SangyoDai_NEWVARIABLE = var14  if `data'==11
-capture replace SangyoDai_NEWVARIABLE = var14  if `data'==12
-capture replace SangyoDai_NEWVARIABLE = var14  if `data'==13
-capture replace SangyoDai_NEWVARIABLE = var20  if `data'==17
-capture replace SangyoDai_NEWVARIABLE = var20  if `data'==18
-capture replace SangyoDai_NEWVARIABLE = var20  if `data'==19
-capture replace SangyoDai_NEWVARIABLE = var36  if `data'==20
-capture replace SangyoDai_NEWVARIABLE = SangyoDai  if `data'==21
-capture replace SangyoDai_NEWVARIABLE = SangyoDai  if `data'==22
-capture replace SangyoDai_NEWVARIABLE = SangyoDai  if `data'==23
-capture replace SangyoDai_NEWVARIABLE = SangyoDai  if `data'==24
-capture replace SangyoDai_NEWVARIABLE = M_Sangyo  if `data'==27
-capture replace SangyoDai_NEWVARIABLE = M_Sangyo  if `data'==28
-capture replace SangyoDai_NEWVARIABLE = M_Sangyo  if `data'==29
+capture replace SangyoDai_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==5
+capture replace SangyoDai_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==6
+capture replace SangyoDai_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==7
+capture replace SangyoDai_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==8
+capture replace SangyoDai_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==9
+capture replace SangyoDai_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==10
+capture replace SangyoDai_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==11
+capture replace SangyoDai_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==12
+capture replace SangyoDai_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==13
+capture replace SangyoDai_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==17
+capture replace SangyoDai_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==18
+capture replace SangyoDai_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==19
+capture replace SangyoDai_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==20
+capture replace SangyoDai_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==21
+capture replace SangyoDai_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==22
+capture replace SangyoDai_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==23
+capture replace SangyoDai_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==24
+capture replace SangyoDai_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==27
+capture replace SangyoDai_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==28
+capture replace SangyoDai_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==29
 capture label variable SangyoDai_NEWVARIABLE `var_lab'
 capture label values SangyoDai_NEWVARIABLE `val_lab'
 
@@ -4749,19 +4749,19 @@ capture label values SangyoDai_NEWVARIABLE `val_lab'
 gen M_RinjiKibo_NEWVARIABLE = .
 local var_lab: variable label var12
 local val_lab: value label var12
-capture replace M_RinjiKibo_NEWVARIABLE = var12  if `data'==17
-capture replace M_RinjiKibo_NEWVARIABLE = var12  if `data'==18
-capture replace M_RinjiKibo_NEWVARIABLE = var12  if `data'==19
-capture replace M_RinjiKibo_NEWVARIABLE = var15  if `data'==20
-capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==21
-capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==22
-capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==23
-capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==24
-capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==25
-capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==26
-capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==27
-capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==28
-capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if `data'==29
+capture replace M_RinjiKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==17
+capture replace M_RinjiKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==18
+capture replace M_RinjiKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==19
+capture replace M_RinjiKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==20
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==21
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==22
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==23
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==24
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==25
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==26
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==27
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==28
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==29
 capture label variable M_RinjiKibo_NEWVARIABLE `var_lab'
 capture label values M_RinjiKibo_NEWVARIABLE `val_lab'
 
@@ -4833,19 +4833,19 @@ capture label values M_RinjiKibo_NEWVARIABLE `val_lab'
 gen RinjiKibo_NEWVARIABLE = .
 local var_lab: variable label var16
 local val_lab: value label var16
-capture replace RinjiKibo_NEWVARIABLE = var16  if `data'==17
-capture replace RinjiKibo_NEWVARIABLE = var16  if `data'==18
-capture replace RinjiKibo_NEWVARIABLE = var16  if `data'==19
-capture replace RinjiKibo_NEWVARIABLE = var21  if `data'==20
-capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==21
-capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==22
-capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==23
-capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==24
-capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==25
-capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==26
-capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==27
-capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==28
-capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if `data'==29
+capture replace RinjiKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==17
+capture replace RinjiKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==18
+capture replace RinjiKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==19
+capture replace RinjiKibo_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==20
+capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==21
+capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==22
+capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==23
+capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==24
+capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==25
+capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==26
+capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==27
+capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==28
+capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==29
 capture label variable RinjiKibo_NEWVARIABLE `var_lab'
 capture label values RinjiKibo_NEWVARIABLE `val_lab'
 
@@ -4917,16 +4917,16 @@ capture label values RinjiKibo_NEWVARIABLE `val_lab'
 gen Syurui_NEWVARIABLE = .
 local var_lab: variable label var24
 local val_lab: value label var24
-capture replace Syurui_NEWVARIABLE = var24  if `data'==17
-capture replace Syurui_NEWVARIABLE = var24  if `data'==18
-capture replace Syurui_NEWVARIABLE = var24  if `data'==19
-capture replace Syurui_NEWVARIABLE = var29  if `data'==20
-capture replace Syurui_NEWVARIABLE = Syurui  if `data'==21
-capture replace Syurui_NEWVARIABLE = Syurui  if `data'==22
-capture replace Syurui_NEWVARIABLE = Syurui  if `data'==23
-capture replace Syurui_NEWVARIABLE = Syurui  if `data'==24
-capture replace Syurui_NEWVARIABLE = Syurui  if `data'==25
-capture replace Syurui_NEWVARIABLE = Syurui  if `data'==26
+capture replace Syurui_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==17
+capture replace Syurui_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==18
+capture replace Syurui_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==19
+capture replace Syurui_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==20
+capture replace Syurui_NEWVARIABLE = Syurui  if flag_tmp_NEWVARIABLE==21
+capture replace Syurui_NEWVARIABLE = Syurui  if flag_tmp_NEWVARIABLE==22
+capture replace Syurui_NEWVARIABLE = Syurui  if flag_tmp_NEWVARIABLE==23
+capture replace Syurui_NEWVARIABLE = Syurui  if flag_tmp_NEWVARIABLE==24
+capture replace Syurui_NEWVARIABLE = Syurui  if flag_tmp_NEWVARIABLE==25
+capture replace Syurui_NEWVARIABLE = Syurui  if flag_tmp_NEWVARIABLE==26
 capture label variable Syurui_NEWVARIABLE `var_lab'
 capture label values Syurui_NEWVARIABLE `val_lab'
 
@@ -4998,19 +4998,19 @@ capture label values Syurui_NEWVARIABLE `val_lab'
 gen Syain_M_NEWVARIABLE = .
 local var_lab: variable label var27
 local val_lab: value label var27
-capture replace Syain_M_NEWVARIABLE = var27  if `data'==17
-capture replace Syain_M_NEWVARIABLE = var27  if `data'==18
-capture replace Syain_M_NEWVARIABLE = var27  if `data'==19
-capture replace Syain_M_NEWVARIABLE = var31  if `data'==20
-capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==21
-capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==22
-capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==23
-capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==24
-capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==25
-capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==26
-capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==27
-capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==28
-capture replace Syain_M_NEWVARIABLE = Syain_M  if `data'==29
+capture replace Syain_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==17
+capture replace Syain_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==18
+capture replace Syain_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==19
+capture replace Syain_M_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==20
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==21
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==22
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==23
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==24
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==25
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==26
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==27
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==28
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==29
 capture label variable Syain_M_NEWVARIABLE `var_lab'
 capture label values Syain_M_NEWVARIABLE `val_lab'
 
@@ -5082,19 +5082,19 @@ capture label values Syain_M_NEWVARIABLE `val_lab'
 gen Syain_W_NEWVARIABLE = .
 local var_lab: variable label var28
 local val_lab: value label var28
-capture replace Syain_W_NEWVARIABLE = var28  if `data'==17
-capture replace Syain_W_NEWVARIABLE = var28  if `data'==18
-capture replace Syain_W_NEWVARIABLE = var28  if `data'==19
-capture replace Syain_W_NEWVARIABLE = var32  if `data'==20
-capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==21
-capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==22
-capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==23
-capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==24
-capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==25
-capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==26
-capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==27
-capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==28
-capture replace Syain_W_NEWVARIABLE = Syain_W  if `data'==29
+capture replace Syain_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==17
+capture replace Syain_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==18
+capture replace Syain_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==19
+capture replace Syain_W_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==20
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==21
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==22
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==23
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==24
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==25
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==26
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==27
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==28
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==29
 capture label variable Syain_W_NEWVARIABLE `var_lab'
 capture label values Syain_W_NEWVARIABLE `val_lab'
 
@@ -5166,19 +5166,19 @@ capture label values Syain_W_NEWVARIABLE `val_lab'
 gen Rinji_NEWVARIABLE = .
 local var_lab: variable label var29
 local val_lab: value label var29
-capture replace Rinji_NEWVARIABLE = var29  if `data'==17
-capture replace Rinji_NEWVARIABLE = var29  if `data'==18
-capture replace Rinji_NEWVARIABLE = var29  if `data'==19
-capture replace Rinji_NEWVARIABLE = var35  if `data'==20
-capture replace Rinji_NEWVARIABLE = Rinji  if `data'==21
-capture replace Rinji_NEWVARIABLE = Rinji  if `data'==22
-capture replace Rinji_NEWVARIABLE = Rinji  if `data'==23
-capture replace Rinji_NEWVARIABLE = Rinji  if `data'==24
-capture replace Rinji_NEWVARIABLE = Rinji  if `data'==25
-capture replace Rinji_NEWVARIABLE = Rinji  if `data'==26
-capture replace Rinji_NEWVARIABLE = Rinji  if `data'==27
-capture replace Rinji_NEWVARIABLE = Rinji  if `data'==28
-capture replace Rinji_NEWVARIABLE = Rinji  if `data'==29
+capture replace Rinji_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==17
+capture replace Rinji_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==18
+capture replace Rinji_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==19
+capture replace Rinji_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==20
+capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==21
+capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==22
+capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==23
+capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==24
+capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==25
+capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==26
+capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==27
+capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==28
+capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==29
 capture label variable Rinji_NEWVARIABLE `var_lab'
 capture label values Rinji_NEWVARIABLE `val_lab'
 
@@ -5250,16 +5250,16 @@ capture label values Rinji_NEWVARIABLE `val_lab'
 gen Digit_NEWVARIABLE = .
 local var_lab: variable label var6
 local val_lab: value label var6
-capture replace Digit_NEWVARIABLE = var6  if `data'==20
-capture replace Digit_NEWVARIABLE = Digit  if `data'==21
-capture replace Digit_NEWVARIABLE = Digit  if `data'==22
-capture replace Digit_NEWVARIABLE = Digit  if `data'==23
-capture replace Digit_NEWVARIABLE = Digit  if `data'==24
-capture replace Digit_NEWVARIABLE = Digit  if `data'==25
-capture replace Digit_NEWVARIABLE = Digit  if `data'==26
-capture replace Digit_NEWVARIABLE = Digit  if `data'==27
-capture replace Digit_NEWVARIABLE = Digit  if `data'==28
-capture replace Digit_NEWVARIABLE = Digit  if `data'==29
+capture replace Digit_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==20
+capture replace Digit_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==21
+capture replace Digit_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==22
+capture replace Digit_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==23
+capture replace Digit_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==24
+capture replace Digit_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==25
+capture replace Digit_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==26
+capture replace Digit_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==27
+capture replace Digit_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==28
+capture replace Digit_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==29
 capture label variable Digit_NEWVARIABLE `var_lab'
 capture label values Digit_NEWVARIABLE `val_lab'
 
@@ -5331,16 +5331,16 @@ capture label values Digit_NEWVARIABLE `val_lab'
 gen RinjiRitsu_NEWVARIABLE = .
 local var_lab: variable label var25
 local val_lab: value label var25
-capture replace RinjiRitsu_NEWVARIABLE = var25  if `data'==20
-capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==21
-capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==22
-capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==23
-capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==24
-capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==25
-capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==26
-capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==27
-capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==28
-capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if `data'==29
+capture replace RinjiRitsu_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==20
+capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==21
+capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==22
+capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==23
+capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==24
+capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==25
+capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==26
+capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==27
+capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==28
+capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==29
 capture label variable RinjiRitsu_NEWVARIABLE `var_lab'
 capture label values RinjiRitsu_NEWVARIABLE `val_lab'
 
