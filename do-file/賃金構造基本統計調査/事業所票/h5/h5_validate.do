@@ -28,7 +28,7 @@
 
 
     Source: 平成05〜07 年_賃金構造基本統計調査_事業所票（初任給）.xlsx
-    Date: 2019/02/26 18:09:11
+    Date: 2019/02/27 01:39:00
 ----------------------------------------------------------------------*/
 
 
@@ -222,103 +222,199 @@ if _rc!=0 {
 
 count if var27==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var27} (男)"
+    display as error "Only missing value: {bf:var27} (男初任給額)"
 }
 
 
 count if var28==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var28} (女)"
+    display as error "Only missing value: {bf:var28} (男採用人員)"
 }
 
 
 count if var29==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var29} (男)"
+    display as error "Only missing value: {bf:var29} (女初任給額)"
 }
 
 
 count if var30==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var30} (女)"
+    display as error "Only missing value: {bf:var30} (女採用人員)"
 }
 
 
 count if var31==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var31} (男)"
+    display as error "Only missing value: {bf:var31} (男初任給額)"
 }
 
 
 count if var32==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var32} (女)"
+    display as error "Only missing value: {bf:var32} (男採用人員)"
 }
 
 
 count if var33==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var33} (男)"
+    display as error "Only missing value: {bf:var33} (女初任給額)"
 }
 
 
 count if var34==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var34} (女)"
+    display as error "Only missing value: {bf:var34} (女採用人員)"
 }
 
 
 count if var35==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var35} (男)"
+    display as error "Only missing value: {bf:var35} (男初任給額)"
 }
 
 
 count if var36==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var36} (女)"
+    display as error "Only missing value: {bf:var36} (男採用人員)"
 }
 
 
 count if var37==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var37} (男)"
+    display as error "Only missing value: {bf:var37} (女初任給額)"
 }
 
 
 count if var38==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var38} (女)"
+    display as error "Only missing value: {bf:var38} (女採用人員)"
 }
 
 
 count if var39==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var39} (男)"
+    display as error "Only missing value: {bf:var39} (男初任給額)"
 }
 
 
 count if var40==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var40} (女)"
+    display as error "Only missing value: {bf:var40} (男採用人員)"
 }
 
 
 count if var41==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var41} (男)"
+    display as error "Only missing value: {bf:var41} (女初任給額)"
 }
 
 
 count if var42==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var42} (女)"
+    display as error "Only missing value: {bf:var42} (女採用人員)"
 }
 
 
 count if var43==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var43} (集計不能コード)"
+    display as error "Only missing value: {bf:var43} (男初任給額)"
+}
+
+
+count if var44==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var44} (男採用人員)"
+}
+
+
+count if var45==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var45} (女初任給額)"
+}
+
+
+count if var46==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var46} (女採用人員)"
+}
+
+
+count if var47==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var47} (男初任給額)"
+}
+
+
+count if var48==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var48} (男採用人員)"
+}
+
+
+count if var49==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var49} (女初任給額)"
+}
+
+
+count if var50==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var50} (女採用人員)"
+}
+
+
+count if var51==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var51} (男初任給額)"
+}
+
+
+count if var52==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var52} (男採用人員)"
+}
+
+
+count if var53==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var53} (女初任給額)"
+}
+
+
+count if var54==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var54} (女採用人員)"
+}
+
+
+count if var55==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var55} (男初任給額)"
+}
+
+
+count if var56==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var56} (男採用人員)"
+}
+
+
+count if var57==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var57} (女初任給額)"
+}
+
+
+count if var58==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var58} (女採用人員)"
+}
+
+
+count if var59==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var59} (集計不能コード)"
 }
 
 

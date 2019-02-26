@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h11.xlsx
-    Date: 2019/02/26 18:10:16
+    Date: 2019/02/27 01:44:09
 ----------------------------------------------------------------------*/
 
 
@@ -62,20 +62,11 @@ capture label values var18 var18
 capture label define var19 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 
 capture label values var19 var19
 
-capture label define var20 1 "年齢チェック済:01" 2 "年齢チェック済:02" 3 "年齢チェック済:03" 4 "年齢チェック済:04" 5 "年齢チェック済:05" 6 "年齢チェック済:06" 7 "年齢チェック済:07" 8 "年齢チェック済:08" 9 "年齢チェック済:09" 11 "年齢チェック済:10" 12 "年齢チェック済:11" 
-capture label values var20 var20
-
 capture label define var21 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 
 capture label values var21 var21
 
 capture label define var23 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 
 capture label values var23 var23
-
-capture label define var24 1 "学歴チェック済:1" 2 "学歴チェック済:2" 3 "学歴チェック済:3" 4 "学歴チェック済:4" 5 "学歴チェック済:5,6" 
-capture label values var24 var24
-
-capture label define var25 1 "学歴チェック済:1" 2 "学歴チェック済:2" 3 "学歴チェック済:3" 4 "学歴チェック済:4" 6 "学歴チェック済:5" 7 "学歴チェック済:6" 
-capture label values var25 var25
 
 capture label define var26 1 "" 2 "" 
 capture label values var26 var26
@@ -83,29 +74,14 @@ capture label values var26 var26
 capture label define var27 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 
 capture label values var27 var27
 
-capture label define var28 1 "入職経路チェック済:1" 2 "入職経路チェック済:2" 3 "入職経路チェック済:7" 4 "入職経路チェック済:8" 5 "入職経路チェック済:6" 6 "入職経路チェック済:3" 7 "入職経路チェック済:4" 8 "入職経路チェック済:5" 
-capture label values var28 var28
-
 capture label define var29 1 "" 2 "" 
 capture label values var29 var29
 
 capture label define var30 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 
 capture label values var30 var30
 
-capture label define var31 1 "仕事の内容チェック済:1~4" 2 "仕事の内容チェック済:6,7" 3 "仕事の内容チェック済:5,8,9" 
-capture label values var31 var31
-
 capture label define var32 1 "" 2 "" 
 capture label values var32 var32
-
-capture label define var33 2 "就業の経験:2、卒業年度:1" 3 "就業の経験:2、卒業年度:2" 4 "就業の経験:1" 
-capture label values var33 var33
-
-capture label define var34 3 "就業の経験:2、卒業年度:1,学歴:1" 4 "就業の経験:3、卒業年度:1,学歴:2" 5 "就業の経験:2、卒業年度:2,学歴:3" 6 "就業の経験:3、卒業年度:2,学歴:4" 7 "就業の経験:1、卒業年度:1,学歴:5,6" 8 "就業の経験:1、卒業年度:2" 
-capture label values var34 var34
-
-capture label define var35 2 "就業の経験:2、卒業年度:1" 3 "就業の経験:2、卒業年度:2" 5 "就業の経験:1、卒業年度:1" 6 "就業の経験:1、卒業年度:2" 
-capture label values var35 var35
 
 capture label define var38 1 "" 2 "" 
 capture label values var38 var38
@@ -119,20 +95,8 @@ capture label values var40 var40
 capture label define var41 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 
 capture label values var41 var41
 
-capture label define var42 1 "前職の仕事の内容チェック済:1~4" 2 "前職の仕事の内容チェック済:6,7" 3 "前職の仕事の内容チェック済:5,8" 
-capture label values var42 var42
-
 capture label define var43 1 "" 2 "" 3 "" 
 capture label values var43 var43
-
-capture label define var44 2 "前職の従業上の地位チェック済:1" 3 "前職の従業上の地位チェック済:2" 4 "前職の従業上の地位チェック済:3" 
-capture label values var44 var44
-
-capture label define var45 0 "" 1 "" 11 "" 
-capture label values var45 var45
-
-capture label define var46 0 "" 11 "" 22 "" 
-capture label values var46 var46
 
 capture label define var47 1 "" 2 "" 3 "" 4 "" 5 "" 
 capture label values var47 var47
@@ -146,24 +110,12 @@ capture label values var49 var49
 capture label define var50 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
 capture label values var50 var50
 
-capture label define var51 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
-capture label values var51 var51
-
 capture label define var52 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
 capture label values var52 var52
-
-capture label define var53 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
-capture label values var53 var53
 
 capture label define var54 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
 capture label values var54 var54
 
-capture label define var55 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
-capture label values var55 var55
-
 capture label define var56 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 
 capture label values var56 var56
-
-capture label define var57 1 "賃金変動チェック済:1,2" 2 "賃金変動チェック済:3" 3 "賃金変動チェック済:4" 4 "賃金変動チェック済:5" 5 "賃金変動チェック済:6,7" 
-capture label values var57 var57
 

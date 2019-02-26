@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/26 18:10:15
+    Date: 2019/02/27 01:44:08
 ----------------------------------------------------------------------*/
 
 
@@ -752,16 +752,16 @@ capture label values v4_NEWVARIABLE `val_lab'
     Description (Data 40): None
     Description (Data 41): None
     Description (Data 42): None
-    Description (Data 43): "共通項目: 層番号"
-    Description (Data 44): "共通項目: 層番号"
-    Description (Data 45): "共通項目: 層番号"
-    Description (Data 46): "共通項目: 層番号"
-    Description (Data 47): "共通項目: 層番号"
-    Description (Data 48): "共通項目: 層番号"
-    Description (Data 49): "共通項目: 層番号"
-    Description (Data 50): "共通項目: 層番号"
-    Description (Data 51): "共通項目: 層番号"
-    Description (Data 52): "共通項目: 層番号"
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):     1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
     Values (Data 1):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
@@ -806,16 +806,16 @@ capture label values v4_NEWVARIABLE `val_lab'
     Values (Data 40): None
     Values (Data 41): None
     Values (Data 42): None
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v5_NEWVARIABLE = .
@@ -855,16 +855,6 @@ capture replace v5_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==31
 capture replace v5_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==32
 capture replace v5_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==33
 capture replace v5_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==34
-capture replace v5_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==43
-capture replace v5_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==44
-capture replace v5_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==45
-capture replace v5_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==46
-capture replace v5_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==47
-capture replace v5_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==48
-capture replace v5_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==49
-capture replace v5_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==50
-capture replace v5_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==51
-capture replace v5_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==52
 capture label variable v5_NEWVARIABLE `var_lab'
 capture label values v5_NEWVARIABLE `val_lab'
 
@@ -1253,14 +1243,14 @@ capture label values v7_NEWVARIABLE `val_lab'
     Description (Data 42): None
     Description (Data 43): None
     Description (Data 44): None
-    Description (Data 45): "日本標準産業分類: 中分類"
-    Description (Data 46): "日本標準産業分類: 中分類"
-    Description (Data 47): "日本標準産業分類: 中分類"
-    Description (Data 48): "日本標準産業分類: 中分類"
-    Description (Data 49): "日本標準産業分類: 中分類"
-    Description (Data 50): "日本標準産業分類: 中分類"
-    Description (Data 51): "日本標準産業分類: 中分類"
-    Description (Data 52): "日本標準産業分類: 中分類"
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
@@ -1307,14 +1297,14 @@ capture label values v7_NEWVARIABLE `val_lab'
     Values (Data 42): None
     Values (Data 43): None
     Values (Data 44): None
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v8_NEWVARIABLE = .
@@ -1354,14 +1344,6 @@ capture replace v8_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==31
 capture replace v8_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==32
 capture replace v8_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==33
 capture replace v8_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==34
-capture replace v8_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==45
-capture replace v8_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==46
-capture replace v8_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==47
-capture replace v8_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==48
-capture replace v8_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==49
-capture replace v8_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==50
-capture replace v8_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==51
-capture replace v8_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==52
 capture label variable v8_NEWVARIABLE `var_lab'
 capture label values v8_NEWVARIABLE `val_lab'
 
@@ -2372,14 +2354,14 @@ capture label values v14_NEWVARIABLE `val_lab'
     Description (Data 24): "乗率マトリックス用: 性別"
     Description (Data 25): "乗率マトリックス用: 性別"
     Description (Data 26): "乗率マトリックス用: 性別"
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-    Description (Data 30): None
-    Description (Data 31): None
-    Description (Data 32): None
-    Description (Data 33): None
-    Description (Data 34): None
+    Description (Data 27): "乗率マトリックス用: 乗率用性別"
+    Description (Data 28): "乗率マトリックス用: 乗率用性別"
+    Description (Data 29): "乗率マトリックス用: 乗率用性別"
+    Description (Data 30): "乗率マトリックス用: 乗率用性別"
+    Description (Data 31): "乗率マトリックス用: 乗率用性別"
+    Description (Data 32): "乗率マトリックス用: 乗率用性別"
+    Description (Data 33): "乗率マトリックス用: 乗率用性別"
+    Description (Data 34): "乗率マトリックス用: 乗率用性別"
     Description (Data 35): None
     Description (Data 36): None
     Description (Data 37): None
@@ -2426,14 +2408,14 @@ capture label values v14_NEWVARIABLE `val_lab'
     Values (Data 24): 
     Values (Data 25): 
     Values (Data 26): 
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-    Values (Data 30): None
-    Values (Data 31): None
-    Values (Data 32): None
-    Values (Data 33): None
-    Values (Data 34): None
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
     Values (Data 35): None
     Values (Data 36): None
     Values (Data 37): None
@@ -2483,6 +2465,14 @@ capture replace v15_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==23
 capture replace v15_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==24
 capture replace v15_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==25
 capture replace v15_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==26
+capture replace v15_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==27
+capture replace v15_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==28
+capture replace v15_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==29
+capture replace v15_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==30
+capture replace v15_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==31
+capture replace v15_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==32
+capture replace v15_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==33
+capture replace v15_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==34
 capture label variable v15_NEWVARIABLE `var_lab'
 capture label values v15_NEWVARIABLE `val_lab'
 
@@ -2644,28 +2634,28 @@ capture label values v16_NEWVARIABLE `val_lab'
     Description (Data 2):  "乗率"
     Description (Data 3):  "乗率"
     Description (Data 4):  "乗率"
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Data 5):  "乗率マトリックス用: 乗率"
+    Description (Data 6):  "乗率マトリックス用: 乗率"
+    Description (Data 7):  "乗率マトリックス用: 乗率"
+    Description (Data 8):  "乗率マトリックス用: 乗率"
+    Description (Data 9):  "乗率マトリックス用: 乗率"
+    Description (Data 10): "乗率マトリックス用: 乗率"
+    Description (Data 11): "乗率マトリックス用: 乗率"
+    Description (Data 12): "乗率マトリックス用: 乗率"
+    Description (Data 13): "乗率マトリックス用: 乗率"
+    Description (Data 14): "乗率マトリックス用: 乗率"
+    Description (Data 15): "乗率マトリックス用: 乗率"
+    Description (Data 16): "乗率マトリックス用: 乗率"
+    Description (Data 17): "乗率マトリックス用: 乗率"
+    Description (Data 18): "乗率マトリックス用: 乗率"
+    Description (Data 19): "乗率マトリックス用: 乗率"
+    Description (Data 20): "乗率マトリックス用: 乗率"
+    Description (Data 21): "乗率マトリックス用: 乗率"
+    Description (Data 22): "乗率マトリックス用: 乗率"
+    Description (Data 23): "乗率マトリックス用: 乗率"
+    Description (Data 24): "乗率マトリックス用: 乗率"
+    Description (Data 25): "乗率マトリックス用: 乗率"
+    Description (Data 26): "乗率マトリックス用: 乗率"
     Description (Data 27): "乗率"
     Description (Data 28): "乗率"
     Description (Data 29): "乗率"
@@ -2698,28 +2688,28 @@ capture label values v16_NEWVARIABLE `val_lab'
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
     Values (Data 27): 
     Values (Data 28): 
     Values (Data 29): 
@@ -2755,6 +2745,28 @@ capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==1
 capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==2
 capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==3
 capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==4
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==5
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==6
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==7
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==8
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==9
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==10
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==11
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==12
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==13
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==14
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==15
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==16
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==17
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==18
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==19
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==20
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==21
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==22
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==23
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==24
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==25
+capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==26
 capture replace v17_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==27
 capture replace v17_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==28
 capture replace v17_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==29
@@ -8217,18 +8229,18 @@ capture label values v49_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 42): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 43): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 44): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 45): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 46): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 47): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 48): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 49): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 50): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 51): "異動状況: 18うち、4~6(10~12)月出向者"
-    Description (Data 52): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 41): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 42): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 43): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 44): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 45): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 46): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 47): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 48): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 49): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 50): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 51): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 52): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
 
     Values (Base):    
     Values (Data 1):  
@@ -8322,18 +8334,18 @@ capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==31
 capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==32
 capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==33
 capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==34
-capture replace v50_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==41
-capture replace v50_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==42
-capture replace v50_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==43
-capture replace v50_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==44
-capture replace v50_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==45
-capture replace v50_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==46
-capture replace v50_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==47
-capture replace v50_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==48
-capture replace v50_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==49
-capture replace v50_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==50
-capture replace v50_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==51
-capture replace v50_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==52
+capture replace v50_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==41
+capture replace v50_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==42
+capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==43
+capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==44
+capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==45
+capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==46
+capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==47
+capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==48
+capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==49
+capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==50
+capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==51
+capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==52
 capture label variable v50_NEWVARIABLE `var_lab'
 capture label values v50_NEWVARIABLE `val_lab'
 
@@ -9225,18 +9237,18 @@ capture label values v55_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 42): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 43): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 44): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 45): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 46): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 47): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 48): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 49): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 50): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 51): "異動状況: 17うち、4~6(10~12)月離職者"
-    Description (Data 52): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 41): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 42): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 43): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 44): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 45): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 46): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 47): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 48): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 49): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 50): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 51): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 52): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
 
     Values (Base):    
     Values (Data 1):  
@@ -9330,18 +9342,18 @@ capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==31
 capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==32
 capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==33
 capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==34
-capture replace v56_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==41
-capture replace v56_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==42
-capture replace v56_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==43
-capture replace v56_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==44
-capture replace v56_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==45
-capture replace v56_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==46
-capture replace v56_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==47
-capture replace v56_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==48
-capture replace v56_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==49
-capture replace v56_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==50
-capture replace v56_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==51
-capture replace v56_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==52
+capture replace v56_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==41
+capture replace v56_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==42
+capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==43
+capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==44
+capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==45
+capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==46
+capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==47
+capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==48
+capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==49
+capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==50
+capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==51
+capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==52
 capture label variable v56_NEWVARIABLE `var_lab'
 capture label values v56_NEWVARIABLE `val_lab'
 
@@ -11495,108 +11507,108 @@ capture label values v69_NEWVARIABLE `val_lab'
     Description (Data 2):  "年齢別常用労働者数区分9常用労働者男: 35~44歳"
     Description (Data 3):  "年齢別常用労働者数区分9常用労働者男: 35~44歳"
     Description (Data 4):  "年齢別常用労働者数区分9常用労働者男: 35~44歳"
-    Description (Data 5):  "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 6):  "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 7):  "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 8):  "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 9):  "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 10): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 11): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 12): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 13): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 14): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 15): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 16): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 17): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 18): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 19): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 20): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 21): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 22): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 23): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 24): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 25): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 26): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 27): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 28): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 29): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 30): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 31): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 32): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 33): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 34): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 35): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 36): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
-    Description (Data 37): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 38): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 39): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 40): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 41): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 42): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 43): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 44): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 45): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 46): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 47): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 48): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 49): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 50): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 51): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
-    Description (Data 52): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
-    Values (Data 31): 
-    Values (Data 32): 
-    Values (Data 33): 
-    Values (Data 34): 
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v70_NEWVARIABLE = .
@@ -11606,54 +11618,6 @@ capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==1
 capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==2
 capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==3
 capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==4
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==5
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==6
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==7
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==8
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==9
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==10
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==11
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==12
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==13
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==14
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==15
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==16
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==17
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==18
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==19
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==20
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==21
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==22
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==23
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==24
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==25
-capture replace v70_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==26
-capture replace v70_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==27
-capture replace v70_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==28
-capture replace v70_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==29
-capture replace v70_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==30
-capture replace v70_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==31
-capture replace v70_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==32
-capture replace v70_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==33
-capture replace v70_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==34
-capture replace v70_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==35
-capture replace v70_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==36
-capture replace v70_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==37
-capture replace v70_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==38
-capture replace v70_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==39
-capture replace v70_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==40
-capture replace v70_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==41
-capture replace v70_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==42
-capture replace v70_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==43
-capture replace v70_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==44
-capture replace v70_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==45
-capture replace v70_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==46
-capture replace v70_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==47
-capture replace v70_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==48
-capture replace v70_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==49
-capture replace v70_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==50
-capture replace v70_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==51
-capture replace v70_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==52
 capture label variable v70_NEWVARIABLE `var_lab'
 capture label values v70_NEWVARIABLE `val_lab'
 
@@ -11664,108 +11628,108 @@ capture label values v70_NEWVARIABLE `val_lab'
     Description (Data 2):  "年齢別常用労働者数区分9常用労働者男: 45~54歳"
     Description (Data 3):  "年齢別常用労働者数区分9常用労働者男: 45~54歳"
     Description (Data 4):  "年齢別常用労働者数区分9常用労働者男: 45~54歳"
-    Description (Data 5):  "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 6):  "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 7):  "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 8):  "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 9):  "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 10): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 11): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 12): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 13): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 14): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 15): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 16): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 17): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 18): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 19): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 20): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 21): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 22): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 23): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 24): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 25): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 26): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 27): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 28): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 29): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 30): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 31): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 32): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 33): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 34): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 35): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 36): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
-    Description (Data 37): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 38): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 39): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 40): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 41): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 42): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 43): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 44): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 45): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 46): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 47): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 48): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 49): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 50): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 51): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
-    Description (Data 52): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
-    Values (Data 31): 
-    Values (Data 32): 
-    Values (Data 33): 
-    Values (Data 34): 
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v71_NEWVARIABLE = .
@@ -11775,54 +11739,6 @@ capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==1
 capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==2
 capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==3
 capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==4
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==5
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==6
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==7
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==8
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==9
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==10
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==11
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==12
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==13
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==14
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==15
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==16
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==17
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==18
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==19
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==20
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==21
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==22
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==23
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==24
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==25
-capture replace v71_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==26
-capture replace v71_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==27
-capture replace v71_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==28
-capture replace v71_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==29
-capture replace v71_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==30
-capture replace v71_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==31
-capture replace v71_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==32
-capture replace v71_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==33
-capture replace v71_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==34
-capture replace v71_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==35
-capture replace v71_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==36
-capture replace v71_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==37
-capture replace v71_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==38
-capture replace v71_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==39
-capture replace v71_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==40
-capture replace v71_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==41
-capture replace v71_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==42
-capture replace v71_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==43
-capture replace v71_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==44
-capture replace v71_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==45
-capture replace v71_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==46
-capture replace v71_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==47
-capture replace v71_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==48
-capture replace v71_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==49
-capture replace v71_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==50
-capture replace v71_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==51
-capture replace v71_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==52
 capture label variable v71_NEWVARIABLE `var_lab'
 capture label values v71_NEWVARIABLE `val_lab'
 
@@ -13016,108 +12932,108 @@ capture label values v78_NEWVARIABLE `val_lab'
     Description (Data 2):  "年齢別常用労働者数区分10うちパートタイム男: 35~44歳"
     Description (Data 3):  "年齢別常用労働者数区分10うちパートタイム男: 35~44歳"
     Description (Data 4):  "年齢別常用労働者数区分10うちパートタイム男: 35~44歳"
-    Description (Data 5):  "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 6):  "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 7):  "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 8):  "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 9):  "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 10): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 11): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 12): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 13): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 14): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 15): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 16): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 17): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 18): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 19): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 20): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 21): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 22): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 23): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 24): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 25): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 26): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 27): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 28): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 29): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 30): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 31): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 32): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 33): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 34): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 35): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 36): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
-    Description (Data 37): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 38): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 39): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 40): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 41): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 42): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 43): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 44): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 45): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 46): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 47): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 48): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 49): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 50): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 51): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
-    Description (Data 52): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
-    Values (Data 31): 
-    Values (Data 32): 
-    Values (Data 33): 
-    Values (Data 34): 
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v79_NEWVARIABLE = .
@@ -13127,54 +13043,6 @@ capture replace v79_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==1
 capture replace v79_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==2
 capture replace v79_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==3
 capture replace v79_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==4
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==5
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==6
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==7
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==8
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==9
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==10
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==11
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==12
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==13
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==14
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==15
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==16
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==17
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==18
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==19
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==20
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==21
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==22
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==23
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==24
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==25
-capture replace v79_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==26
-capture replace v79_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==27
-capture replace v79_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==28
-capture replace v79_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==29
-capture replace v79_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==30
-capture replace v79_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==31
-capture replace v79_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==32
-capture replace v79_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==33
-capture replace v79_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==34
-capture replace v79_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==35
-capture replace v79_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==36
-capture replace v79_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==37
-capture replace v79_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==38
-capture replace v79_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==39
-capture replace v79_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==40
-capture replace v79_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==41
-capture replace v79_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==42
-capture replace v79_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==43
-capture replace v79_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==44
-capture replace v79_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==45
-capture replace v79_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==46
-capture replace v79_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==47
-capture replace v79_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==48
-capture replace v79_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==49
-capture replace v79_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==50
-capture replace v79_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==51
-capture replace v79_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==52
 capture label variable v79_NEWVARIABLE `var_lab'
 capture label values v79_NEWVARIABLE `val_lab'
 
@@ -13185,108 +13053,108 @@ capture label values v79_NEWVARIABLE `val_lab'
     Description (Data 2):  "年齢別常用労働者数区分10うちパートタイム男: 45~54歳"
     Description (Data 3):  "年齢別常用労働者数区分10うちパートタイム男: 45~54歳"
     Description (Data 4):  "年齢別常用労働者数区分10うちパートタイム男: 45~54歳"
-    Description (Data 5):  "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 6):  "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 7):  "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 8):  "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 9):  "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 10): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 11): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 12): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 13): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 14): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 15): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 16): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 17): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 18): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 19): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 20): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 21): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 22): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 23): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 24): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 25): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 26): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 27): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 28): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 29): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 30): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 31): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 32): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 33): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 34): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 35): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 36): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
-    Description (Data 37): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 38): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 39): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 40): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 41): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 42): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 43): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 44): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 45): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 46): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 47): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 48): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 49): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 50): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 51): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
-    Description (Data 52): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
-    Values (Data 31): 
-    Values (Data 32): 
-    Values (Data 33): 
-    Values (Data 34): 
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v80_NEWVARIABLE = .
@@ -13296,54 +13164,6 @@ capture replace v80_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==1
 capture replace v80_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==2
 capture replace v80_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==3
 capture replace v80_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==4
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==5
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==6
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==7
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==8
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==9
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==10
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==11
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==12
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==13
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==14
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==15
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==16
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==17
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==18
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==19
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==20
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==21
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==22
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==23
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==24
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==25
-capture replace v80_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==26
-capture replace v80_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==27
-capture replace v80_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==28
-capture replace v80_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==29
-capture replace v80_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==30
-capture replace v80_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==31
-capture replace v80_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==32
-capture replace v80_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==33
-capture replace v80_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==34
-capture replace v80_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==35
-capture replace v80_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==36
-capture replace v80_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==37
-capture replace v80_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==38
-capture replace v80_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==39
-capture replace v80_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==40
-capture replace v80_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==41
-capture replace v80_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==42
-capture replace v80_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==43
-capture replace v80_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==44
-capture replace v80_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==45
-capture replace v80_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==46
-capture replace v80_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==47
-capture replace v80_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==48
-capture replace v80_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==49
-capture replace v80_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==50
-capture replace v80_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==51
-capture replace v80_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==52
 capture label variable v80_NEWVARIABLE `var_lab'
 capture label values v80_NEWVARIABLE `val_lab'
 
@@ -14537,108 +14357,108 @@ capture label values v87_NEWVARIABLE `val_lab'
     Description (Data 2):  "年齢別常用労働者数区分11常用労働者女: 35~44歳"
     Description (Data 3):  "年齢別常用労働者数区分11常用労働者女: 35~44歳"
     Description (Data 4):  "年齢別常用労働者数区分11常用労働者女: 35~44歳"
-    Description (Data 5):  "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 6):  "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 7):  "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 8):  "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 9):  "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 10): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 11): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 12): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 13): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 14): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 15): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 16): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 17): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 18): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 19): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 20): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 21): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 22): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 23): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 24): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 25): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 26): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 27): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 28): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 29): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 30): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 31): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 32): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 33): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 34): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 35): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 36): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
-    Description (Data 37): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 38): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 39): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 40): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 41): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 42): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 43): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 44): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 45): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 46): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 47): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 48): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 49): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 50): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 51): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
-    Description (Data 52): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
-    Values (Data 31): 
-    Values (Data 32): 
-    Values (Data 33): 
-    Values (Data 34): 
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v88_NEWVARIABLE = .
@@ -14648,54 +14468,6 @@ capture replace v88_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==1
 capture replace v88_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==2
 capture replace v88_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==3
 capture replace v88_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==4
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==5
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==6
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==7
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==8
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==9
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==10
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==11
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==12
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==13
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==14
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==15
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==16
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==17
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==18
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==19
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==20
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==21
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==22
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==23
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==24
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==25
-capture replace v88_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==26
-capture replace v88_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==27
-capture replace v88_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==28
-capture replace v88_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==29
-capture replace v88_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==30
-capture replace v88_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==31
-capture replace v88_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==32
-capture replace v88_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==33
-capture replace v88_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==34
-capture replace v88_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==35
-capture replace v88_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==36
-capture replace v88_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==37
-capture replace v88_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==38
-capture replace v88_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==39
-capture replace v88_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==40
-capture replace v88_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==41
-capture replace v88_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==42
-capture replace v88_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==43
-capture replace v88_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==44
-capture replace v88_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==45
-capture replace v88_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==46
-capture replace v88_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==47
-capture replace v88_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==48
-capture replace v88_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==49
-capture replace v88_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==50
-capture replace v88_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==51
-capture replace v88_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==52
 capture label variable v88_NEWVARIABLE `var_lab'
 capture label values v88_NEWVARIABLE `val_lab'
 
@@ -14706,108 +14478,108 @@ capture label values v88_NEWVARIABLE `val_lab'
     Description (Data 2):  "年齢別常用労働者数区分11常用労働者女: 45~54歳"
     Description (Data 3):  "年齢別常用労働者数区分11常用労働者女: 45~54歳"
     Description (Data 4):  "年齢別常用労働者数区分11常用労働者女: 45~54歳"
-    Description (Data 5):  "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 6):  "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 7):  "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 8):  "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 9):  "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 10): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 11): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 12): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 13): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 14): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 15): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 16): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 17): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 18): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 19): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 20): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 21): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 22): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 23): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 24): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 25): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 26): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 27): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 28): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 29): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 30): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 31): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 32): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 33): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 34): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 35): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 36): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
-    Description (Data 37): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 38): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 39): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 40): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 41): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 42): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 43): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 44): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 45): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 46): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 47): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 48): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 49): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 50): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 51): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
-    Description (Data 52): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
-    Values (Data 31): 
-    Values (Data 32): 
-    Values (Data 33): 
-    Values (Data 34): 
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v89_NEWVARIABLE = .
@@ -14817,54 +14589,6 @@ capture replace v89_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==1
 capture replace v89_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==2
 capture replace v89_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==3
 capture replace v89_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==4
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==5
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==6
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==7
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==8
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==9
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==10
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==11
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==12
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==13
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==14
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==15
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==16
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==17
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==18
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==19
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==20
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==21
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==22
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==23
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==24
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==25
-capture replace v89_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==26
-capture replace v89_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==27
-capture replace v89_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==28
-capture replace v89_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==29
-capture replace v89_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==30
-capture replace v89_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==31
-capture replace v89_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==32
-capture replace v89_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==33
-capture replace v89_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==34
-capture replace v89_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==35
-capture replace v89_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==36
-capture replace v89_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==37
-capture replace v89_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==38
-capture replace v89_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==39
-capture replace v89_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==40
-capture replace v89_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==41
-capture replace v89_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==42
-capture replace v89_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==43
-capture replace v89_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==44
-capture replace v89_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==45
-capture replace v89_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==46
-capture replace v89_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==47
-capture replace v89_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==48
-capture replace v89_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==49
-capture replace v89_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==50
-capture replace v89_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==51
-capture replace v89_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==52
 capture label variable v89_NEWVARIABLE `var_lab'
 capture label values v89_NEWVARIABLE `val_lab'
 
@@ -16058,108 +15782,108 @@ capture label values v96_NEWVARIABLE `val_lab'
     Description (Data 2):  "年齢別常用労働者数区分12うちパートタイム女: 35~44歳"
     Description (Data 3):  "年齢別常用労働者数区分12うちパートタイム女: 35~44歳"
     Description (Data 4):  "年齢別常用労働者数区分12うちパートタイム女: 35~44歳"
-    Description (Data 5):  "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 6):  "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 7):  "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 8):  "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 9):  "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 10): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 11): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 12): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 13): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 14): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 15): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 16): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 17): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 18): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 19): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 20): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 21): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 22): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 23): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 24): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 25): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 26): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 27): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 28): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 29): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 30): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 31): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 32): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 33): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 34): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 35): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 36): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
-    Description (Data 37): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 38): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 39): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 40): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 41): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 42): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 43): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 44): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 45): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 46): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 47): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 48): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 49): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 50): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 51): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
-    Description (Data 52): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
-    Values (Data 31): 
-    Values (Data 32): 
-    Values (Data 33): 
-    Values (Data 34): 
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v97_NEWVARIABLE = .
@@ -16169,54 +15893,6 @@ capture replace v97_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==1
 capture replace v97_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==2
 capture replace v97_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==3
 capture replace v97_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==4
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==5
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==6
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==7
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==8
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==9
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==10
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==11
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==12
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==13
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==14
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==15
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==16
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==17
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==18
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==19
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==20
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==21
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==22
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==23
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==24
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==25
-capture replace v97_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==26
-capture replace v97_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==27
-capture replace v97_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==28
-capture replace v97_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==29
-capture replace v97_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==30
-capture replace v97_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==31
-capture replace v97_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==32
-capture replace v97_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==33
-capture replace v97_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==34
-capture replace v97_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==35
-capture replace v97_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==36
-capture replace v97_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==37
-capture replace v97_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==38
-capture replace v97_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==39
-capture replace v97_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==40
-capture replace v97_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==41
-capture replace v97_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==42
-capture replace v97_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==43
-capture replace v97_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==44
-capture replace v97_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==45
-capture replace v97_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==46
-capture replace v97_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==47
-capture replace v97_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==48
-capture replace v97_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==49
-capture replace v97_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==50
-capture replace v97_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==51
-capture replace v97_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==52
 capture label variable v97_NEWVARIABLE `var_lab'
 capture label values v97_NEWVARIABLE `val_lab'
 
@@ -16227,108 +15903,108 @@ capture label values v97_NEWVARIABLE `val_lab'
     Description (Data 2):  "年齢別常用労働者数区分12うちパートタイム女: 45~54歳"
     Description (Data 3):  "年齢別常用労働者数区分12うちパートタイム女: 45~54歳"
     Description (Data 4):  "年齢別常用労働者数区分12うちパートタイム女: 45~54歳"
-    Description (Data 5):  "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 6):  "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 7):  "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 8):  "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 9):  "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 10): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 11): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 12): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 13): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 14): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 15): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 16): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 17): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 18): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 19): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 20): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 21): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 22): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 23): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 24): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 25): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 26): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 27): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 28): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 29): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 30): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 31): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 32): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 33): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 34): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 35): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 36): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
-    Description (Data 37): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 38): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 39): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 40): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 41): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 42): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 43): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 44): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 45): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 46): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 47): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 48): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 49): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 50): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 51): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
-    Description (Data 52): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
-    Values (Data 31): 
-    Values (Data 32): 
-    Values (Data 33): 
-    Values (Data 34): 
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v98_NEWVARIABLE = .
@@ -16338,54 +16014,6 @@ capture replace v98_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==1
 capture replace v98_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==2
 capture replace v98_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==3
 capture replace v98_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==4
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==5
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==6
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==7
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==8
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==9
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==10
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==11
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==12
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==13
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==14
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==15
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==16
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==17
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==18
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==19
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==20
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==21
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==22
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==23
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==24
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==25
-capture replace v98_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==26
-capture replace v98_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==27
-capture replace v98_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==28
-capture replace v98_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==29
-capture replace v98_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==30
-capture replace v98_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==31
-capture replace v98_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==32
-capture replace v98_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==33
-capture replace v98_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==34
-capture replace v98_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==35
-capture replace v98_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==36
-capture replace v98_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==37
-capture replace v98_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==38
-capture replace v98_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==39
-capture replace v98_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==40
-capture replace v98_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==41
-capture replace v98_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==42
-capture replace v98_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==43
-capture replace v98_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==44
-capture replace v98_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==45
-capture replace v98_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==46
-capture replace v98_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==47
-capture replace v98_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==48
-capture replace v98_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==49
-capture replace v98_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==50
-capture replace v98_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==51
-capture replace v98_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==52
 capture label variable v98_NEWVARIABLE `var_lab'
 capture label values v98_NEWVARIABLE `val_lab'
 
@@ -16898,59 +16526,59 @@ capture label values v101_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "乗率マトリックス用: 乗率"
+    Description (Base):    "年齢別常用労働者数区分9常用労働者男: 35~39歳"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
     Description (Data 4):  None
-    Description (Data 5):  "乗率マトリックス用: 乗率"
-    Description (Data 6):  "乗率マトリックス用: 乗率"
-    Description (Data 7):  "乗率マトリックス用: 乗率"
-    Description (Data 8):  "乗率マトリックス用: 乗率"
-    Description (Data 9):  "乗率マトリックス用: 乗率"
-    Description (Data 10): "乗率マトリックス用: 乗率"
-    Description (Data 11): "乗率マトリックス用: 乗率"
-    Description (Data 12): "乗率マトリックス用: 乗率"
-    Description (Data 13): "乗率マトリックス用: 乗率"
-    Description (Data 14): "乗率マトリックス用: 乗率"
-    Description (Data 15): "乗率マトリックス用: 乗率"
-    Description (Data 16): "乗率マトリックス用: 乗率"
-    Description (Data 17): "乗率マトリックス用: 乗率"
-    Description (Data 18): "乗率マトリックス用: 乗率"
-    Description (Data 19): "乗率マトリックス用: 乗率"
-    Description (Data 20): "乗率マトリックス用: 乗率"
-    Description (Data 21): "乗率マトリックス用: 乗率"
-    Description (Data 22): "乗率マトリックス用: 乗率"
-    Description (Data 23): "乗率マトリックス用: 乗率"
-    Description (Data 24): "乗率マトリックス用: 乗率"
-    Description (Data 25): "乗率マトリックス用: 乗率"
-    Description (Data 26): "乗率マトリックス用: 乗率"
-    Description (Data 27): "乗率マトリックス用: 乗率用性別"
-    Description (Data 28): "乗率マトリックス用: 乗率用性別"
-    Description (Data 29): "乗率マトリックス用: 乗率用性別"
-    Description (Data 30): "乗率マトリックス用: 乗率用性別"
-    Description (Data 31): "乗率マトリックス用: 乗率用性別"
-    Description (Data 32): "乗率マトリックス用: 乗率用性別"
-    Description (Data 33): "乗率マトリックス用: 乗率用性別"
-    Description (Data 34): "乗率マトリックス用: 乗率用性別"
-    Description (Data 35): None
-    Description (Data 36): None
-    Description (Data 37): None
-    Description (Data 38): None
-    Description (Data 39): None
-    Description (Data 40): None
-    Description (Data 41): None
-    Description (Data 42): None
-    Description (Data 43): None
-    Description (Data 44): None
-    Description (Data 45): None
-    Description (Data 46): None
-    Description (Data 47): None
-    Description (Data 48): None
-    Description (Data 49): None
-    Description (Data 50): None
-    Description (Data 51): None
-    Description (Data 52): None
+    Description (Data 5):  "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 6):  "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 7):  "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 8):  "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 9):  "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 10): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 11): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 12): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 13): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 14): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 15): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 16): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 17): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 18): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 19): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 20): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 21): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 22): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 23): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 24): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 25): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 26): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 27): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 28): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 29): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 30): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 31): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 32): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 33): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 34): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 35): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 36): "年齢別常用労働者数区分9常用労働者男: 35~39歳"
+    Description (Data 37): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 38): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 39): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 40): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 41): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 42): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 43): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 44): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 45): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 46): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 47): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 48): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 49): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 50): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 51): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
+    Description (Data 52): "性・年齢階級別常用労働者数9常用労働者男5: 35~39歳"
 
     Values (Base):    
     Values (Data 1):  None
@@ -16987,61 +16615,244 @@ capture label values v101_NEWVARIABLE `val_lab'
     Values (Data 32): 
     Values (Data 33): 
     Values (Data 34): 
-    Values (Data 35): None
-    Values (Data 36): None
-    Values (Data 37): None
-    Values (Data 38): None
-    Values (Data 39): None
-    Values (Data 40): None
-    Values (Data 41): None
-    Values (Data 42): None
-    Values (Data 43): None
-    Values (Data 44): None
-    Values (Data 45): None
-    Values (Data 46): None
-    Values (Data 47): None
-    Values (Data 48): None
-    Values (Data 49): None
-    Values (Data 50): None
-    Values (Data 51): None
-    Values (Data 52): None
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
 
 ----------------------------------------------------------------------*/
 gen v102_NEWVARIABLE = .
-local var_lab: variable label var17
-local val_lab: value label var17
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==5
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==6
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==7
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==8
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==9
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==10
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==11
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==12
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==13
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==14
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==15
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==16
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==17
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==18
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==19
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==20
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==21
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==22
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==23
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==24
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==25
-capture replace v102_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==26
-capture replace v102_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==27
-capture replace v102_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==28
-capture replace v102_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==29
-capture replace v102_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==30
-capture replace v102_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==31
-capture replace v102_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==32
-capture replace v102_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==33
-capture replace v102_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==34
+local var_lab: variable label var70
+local val_lab: value label var70
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==5
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==6
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==7
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==8
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==9
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==10
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==11
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==12
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==13
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==14
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==15
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==16
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==17
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==18
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==19
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==20
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==21
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==22
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==23
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==24
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==25
+capture replace v102_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==26
+capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==27
+capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==28
+capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==29
+capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==30
+capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==31
+capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==32
+capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==33
+capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==34
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==35
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==36
+capture replace v102_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==37
+capture replace v102_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==38
+capture replace v102_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==39
+capture replace v102_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==40
+capture replace v102_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==41
+capture replace v102_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==42
+capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==43
+capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==44
+capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==45
+capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==46
+capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==47
+capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==48
+capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==49
+capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==50
+capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==51
+capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==52
 capture label variable v102_NEWVARIABLE `var_lab'
 capture label values v102_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 6):  "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 7):  "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 8):  "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 9):  "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 10): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 11): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 12): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 13): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 14): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 15): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 16): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 17): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 18): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 19): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 20): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 21): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 22): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 23): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 24): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 25): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 26): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 27): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 28): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 29): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 30): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 31): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 32): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 33): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 34): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 35): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 36): "年齢別常用労働者数区分9常用労働者男: 40~44歳"
+    Description (Data 37): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 38): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 39): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 40): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 41): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 42): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 43): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 44): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 45): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 46): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 47): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 48): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 49): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 50): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 51): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+    Description (Data 52): "性・年齢階級別常用労働者数9常用労働者男6: 40~44歳"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v103_NEWVARIABLE = .
+local var_lab: variable label var71
+local val_lab: value label var71
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==5
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==6
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==7
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==8
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==9
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==10
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==11
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==12
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==13
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==14
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==15
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==16
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==17
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==18
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==19
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==20
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==21
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==22
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==23
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==24
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==25
+capture replace v103_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==26
+capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==27
+capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==28
+capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==29
+capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==30
+capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==31
+capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==32
+capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==33
+capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==34
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==35
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==36
+capture replace v103_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==37
+capture replace v103_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==38
+capture replace v103_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==39
+capture replace v103_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==40
+capture replace v103_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==41
+capture replace v103_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==42
+capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==43
+capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==44
+capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==45
+capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==46
+capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==47
+capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==48
+capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==49
+capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==50
+capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==51
+capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==52
+capture label variable v103_NEWVARIABLE `var_lab'
+capture label values v103_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -17154,59 +16965,59 @@ capture label values v102_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v103_NEWVARIABLE = .
+gen v104_NEWVARIABLE = .
 local var_lab: variable label var72
 local val_lab: value label var72
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==5
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==6
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==7
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==8
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==9
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==10
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==11
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==12
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==13
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==14
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==15
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==16
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==17
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==18
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==19
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==20
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==21
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==22
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==23
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==24
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==25
-capture replace v103_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==26
-capture replace v103_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==27
-capture replace v103_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==28
-capture replace v103_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==29
-capture replace v103_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==30
-capture replace v103_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==31
-capture replace v103_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==32
-capture replace v103_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==33
-capture replace v103_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==34
-capture replace v103_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==35
-capture replace v103_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==36
-capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==37
-capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==38
-capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==39
-capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==40
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==41
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==42
-capture replace v103_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==43
-capture replace v103_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==44
-capture replace v103_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==45
-capture replace v103_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==46
-capture replace v103_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==47
-capture replace v103_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==48
-capture replace v103_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==49
-capture replace v103_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==50
-capture replace v103_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==51
-capture replace v103_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==52
-capture label variable v103_NEWVARIABLE `var_lab'
-capture label values v103_NEWVARIABLE `val_lab'
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==5
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==6
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==7
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==8
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==9
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==10
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==11
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==12
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==13
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==14
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==15
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==16
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==17
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==18
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==19
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==20
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==21
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==22
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==23
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==24
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==25
+capture replace v104_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==26
+capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==27
+capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==28
+capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==29
+capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==30
+capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==31
+capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==32
+capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==33
+capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==34
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==35
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==36
+capture replace v104_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==37
+capture replace v104_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==38
+capture replace v104_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==39
+capture replace v104_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==40
+capture replace v104_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==41
+capture replace v104_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==42
+capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==43
+capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==44
+capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==45
+capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==46
+capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==47
+capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==48
+capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==49
+capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==50
+capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==51
+capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==52
+capture label variable v104_NEWVARIABLE `var_lab'
+capture label values v104_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -17319,59 +17130,59 @@ capture label values v103_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v104_NEWVARIABLE = .
+gen v105_NEWVARIABLE = .
 local var_lab: variable label var73
 local val_lab: value label var73
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==5
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==6
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==7
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==8
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==9
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==10
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==11
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==12
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==13
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==14
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==15
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==16
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==17
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==18
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==19
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==20
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==21
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==22
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==23
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==24
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==25
-capture replace v104_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==26
-capture replace v104_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==27
-capture replace v104_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==28
-capture replace v104_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==29
-capture replace v104_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==30
-capture replace v104_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==31
-capture replace v104_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==32
-capture replace v104_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==33
-capture replace v104_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==34
-capture replace v104_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==35
-capture replace v104_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==36
-capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==37
-capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==38
-capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==39
-capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==40
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==41
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==42
-capture replace v104_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==43
-capture replace v104_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==44
-capture replace v104_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==45
-capture replace v104_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==46
-capture replace v104_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==47
-capture replace v104_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==48
-capture replace v104_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==49
-capture replace v104_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==50
-capture replace v104_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==51
-capture replace v104_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==52
-capture label variable v104_NEWVARIABLE `var_lab'
-capture label values v104_NEWVARIABLE `val_lab'
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==5
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==6
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==7
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==8
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==9
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==10
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==11
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==12
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==13
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==14
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==15
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==16
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==17
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==18
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==19
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==20
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==21
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==22
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==23
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==24
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==25
+capture replace v105_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==26
+capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==27
+capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==28
+capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==29
+capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==30
+capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==31
+capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==32
+capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==33
+capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==34
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==35
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==36
+capture replace v105_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==37
+capture replace v105_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==38
+capture replace v105_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==39
+capture replace v105_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==40
+capture replace v105_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==41
+capture replace v105_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==42
+capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==43
+capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==44
+capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==45
+capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==46
+capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==47
+capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==48
+capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==49
+capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==50
+capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==51
+capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==52
+capture label variable v105_NEWVARIABLE `var_lab'
+capture label values v105_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -17416,18 +17227,18 @@ capture label values v104_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 42): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 43): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 44): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 45): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 46): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 47): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 48): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 49): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 50): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 51): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
-    Description (Data 52): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -17470,6 +17281,153 @@ capture label values v104_NEWVARIABLE `val_lab'
     Values (Data 38): None
     Values (Data 39): None
     Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
+
+----------------------------------------------------------------------*/
+gen v106_NEWVARIABLE = .
+local var_lab: variable label var77
+local val_lab: value label var77
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==5
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==6
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==7
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==8
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==9
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==10
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==11
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==12
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==13
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==14
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==15
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==16
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==17
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==18
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==19
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==20
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==21
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==22
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==23
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==24
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==25
+capture replace v106_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==26
+capture replace v106_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==27
+capture replace v106_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==28
+capture replace v106_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==29
+capture replace v106_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==30
+capture replace v106_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==31
+capture replace v106_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==32
+capture replace v106_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==33
+capture replace v106_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==34
+capture label variable v106_NEWVARIABLE `var_lab'
+capture label values v106_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 6):  "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 7):  "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 8):  "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 9):  "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 10): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 11): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 12): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 13): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 14): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 15): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 16): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 17): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 18): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 19): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 20): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 21): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 22): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 23): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 24): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 25): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 26): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 27): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 28): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 29): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 30): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 31): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 32): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 33): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 34): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 35): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 36): "年齢別常用労働者数区分10うちパートタイム男: 35~39歳"
+    Description (Data 37): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 38): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 39): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 40): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 41): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 42): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 43): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 44): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 45): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 46): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 47): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 48): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 49): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 50): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 51): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+    Description (Data 52): "性・年齢階級別常用労働者数10うちパートタイム男5: 35~39歳"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
     Values (Data 41): 
     Values (Data 42): 
     Values (Data 43): 
@@ -17484,53 +17442,224 @@ capture label values v104_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v105_NEWVARIABLE = .
-local var_lab: variable label var77
-local val_lab: value label var77
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==5
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==6
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==7
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==8
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==9
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==10
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==11
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==12
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==13
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==14
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==15
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==16
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==17
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==18
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==19
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==20
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==21
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==22
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==23
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==24
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==25
-capture replace v105_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==26
-capture replace v105_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==27
-capture replace v105_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==28
-capture replace v105_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==29
-capture replace v105_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==30
-capture replace v105_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==31
-capture replace v105_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==32
-capture replace v105_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==33
-capture replace v105_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==34
-capture replace v105_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==41
-capture replace v105_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==42
-capture replace v105_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==43
-capture replace v105_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==44
-capture replace v105_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==45
-capture replace v105_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==46
-capture replace v105_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==47
-capture replace v105_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==48
-capture replace v105_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==49
-capture replace v105_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==50
-capture replace v105_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==51
-capture replace v105_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==52
-capture label variable v105_NEWVARIABLE `var_lab'
-capture label values v105_NEWVARIABLE `val_lab'
+gen v107_NEWVARIABLE = .
+local var_lab: variable label var82
+local val_lab: value label var82
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==5
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==6
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==7
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==8
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==9
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==10
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==11
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==12
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==13
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==14
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==15
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==16
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==17
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==18
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==19
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==20
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==21
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==22
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==23
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==24
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==25
+capture replace v107_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==26
+capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==27
+capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==28
+capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==29
+capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==30
+capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==31
+capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==32
+capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==33
+capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==34
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==35
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==36
+capture replace v107_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==37
+capture replace v107_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==38
+capture replace v107_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==39
+capture replace v107_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==40
+capture replace v107_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==41
+capture replace v107_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==42
+capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==43
+capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==44
+capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==45
+capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==46
+capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==47
+capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==48
+capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==49
+capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==50
+capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==51
+capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==52
+capture label variable v107_NEWVARIABLE `var_lab'
+capture label values v107_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 6):  "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 7):  "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 8):  "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 9):  "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 10): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 11): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 12): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 13): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 14): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 15): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 16): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 17): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 18): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 19): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 20): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 21): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 22): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 23): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 24): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 25): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 26): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 27): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 28): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 29): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 30): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 31): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 32): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 33): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 34): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 35): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 36): "年齢別常用労働者数区分10うちパートタイム男: 40~44歳"
+    Description (Data 37): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 38): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 39): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 40): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 41): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 42): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 43): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 44): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 45): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 46): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 47): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 48): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 49): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 50): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 51): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+    Description (Data 52): "性・年齢階級別常用労働者数10うちパートタイム男6: 40~44歳"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v108_NEWVARIABLE = .
+local var_lab: variable label var83
+local val_lab: value label var83
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==5
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==6
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==7
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==8
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==9
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==10
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==11
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==12
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==13
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==14
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==15
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==16
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==17
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==18
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==19
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==20
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==21
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==22
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==23
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==24
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==25
+capture replace v108_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==26
+capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==27
+capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==28
+capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==29
+capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==30
+capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==31
+capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==32
+capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==33
+capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==34
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==35
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==36
+capture replace v108_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==37
+capture replace v108_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==38
+capture replace v108_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==39
+capture replace v108_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==40
+capture replace v108_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==41
+capture replace v108_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==42
+capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==43
+capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==44
+capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==45
+capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==46
+capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==47
+capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==48
+capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==49
+capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==50
+capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==51
+capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==52
+capture label variable v108_NEWVARIABLE `var_lab'
+capture label values v108_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -17643,59 +17772,59 @@ capture label values v105_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v106_NEWVARIABLE = .
+gen v109_NEWVARIABLE = .
 local var_lab: variable label var84
 local val_lab: value label var84
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==5
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==6
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==7
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==8
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==9
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==10
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==11
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==12
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==13
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==14
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==15
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==16
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==17
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==18
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==19
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==20
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==21
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==22
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==23
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==24
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==25
-capture replace v106_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==26
-capture replace v106_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==27
-capture replace v106_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==28
-capture replace v106_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==29
-capture replace v106_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==30
-capture replace v106_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==31
-capture replace v106_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==32
-capture replace v106_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==33
-capture replace v106_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==34
-capture replace v106_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==35
-capture replace v106_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==36
-capture replace v106_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==37
-capture replace v106_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==38
-capture replace v106_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==39
-capture replace v106_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==40
-capture replace v106_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==41
-capture replace v106_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==42
-capture replace v106_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==43
-capture replace v106_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==44
-capture replace v106_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==45
-capture replace v106_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==46
-capture replace v106_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==47
-capture replace v106_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==48
-capture replace v106_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==49
-capture replace v106_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==50
-capture replace v106_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==51
-capture replace v106_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==52
-capture label variable v106_NEWVARIABLE `var_lab'
-capture label values v106_NEWVARIABLE `val_lab'
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==5
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==6
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==7
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==8
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==9
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==10
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==11
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==12
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==13
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==14
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==15
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==16
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==17
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==18
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==19
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==20
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==21
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==22
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==23
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==24
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==25
+capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==26
+capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==27
+capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==28
+capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==29
+capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==30
+capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==31
+capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==32
+capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==33
+capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==34
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==35
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==36
+capture replace v109_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==37
+capture replace v109_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==38
+capture replace v109_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==39
+capture replace v109_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==40
+capture replace v109_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==41
+capture replace v109_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==42
+capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==43
+capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==44
+capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==45
+capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==46
+capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==47
+capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==48
+capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==49
+capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==50
+capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==51
+capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==52
+capture label variable v109_NEWVARIABLE `var_lab'
+capture label values v109_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -17808,59 +17937,59 @@ capture label values v106_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v107_NEWVARIABLE = .
+gen v110_NEWVARIABLE = .
 local var_lab: variable label var85
 local val_lab: value label var85
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==5
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==6
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==7
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==8
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==9
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==10
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==11
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==12
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==13
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==14
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==15
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==16
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==17
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==18
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==19
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==20
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==21
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==22
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==23
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==24
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==25
-capture replace v107_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==26
-capture replace v107_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==27
-capture replace v107_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==28
-capture replace v107_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==29
-capture replace v107_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==30
-capture replace v107_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==31
-capture replace v107_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==32
-capture replace v107_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==33
-capture replace v107_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==34
-capture replace v107_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==35
-capture replace v107_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==36
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==37
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==38
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==39
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==40
-capture replace v107_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==41
-capture replace v107_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==42
-capture replace v107_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==43
-capture replace v107_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==44
-capture replace v107_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==45
-capture replace v107_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==46
-capture replace v107_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==47
-capture replace v107_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==48
-capture replace v107_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==49
-capture replace v107_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==50
-capture replace v107_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==51
-capture replace v107_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==52
-capture label variable v107_NEWVARIABLE `var_lab'
-capture label values v107_NEWVARIABLE `val_lab'
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==5
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==6
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==7
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==8
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==9
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==10
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==11
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==12
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==13
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==14
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==15
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==16
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==17
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==18
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==19
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==20
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==21
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==22
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==23
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==24
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==25
+capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==26
+capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==27
+capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==28
+capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==29
+capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==30
+capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==31
+capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==32
+capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==33
+capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==34
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==35
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==36
+capture replace v110_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==37
+capture replace v110_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==38
+capture replace v110_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==39
+capture replace v110_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==40
+capture replace v110_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==41
+capture replace v110_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==42
+capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==43
+capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==44
+capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==45
+capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==46
+capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==47
+capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==48
+capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==49
+capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==50
+capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==51
+capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==52
+capture label variable v110_NEWVARIABLE `var_lab'
+capture label values v110_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -17905,18 +18034,18 @@ capture label values v107_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 42): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 43): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 44): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 45): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 46): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 47): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 48): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 49): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 50): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 51): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 52): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -17959,6 +18088,153 @@ capture label values v107_NEWVARIABLE `val_lab'
     Values (Data 38): None
     Values (Data 39): None
     Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
+
+----------------------------------------------------------------------*/
+gen v111_NEWVARIABLE = .
+local var_lab: variable label var89
+local val_lab: value label var89
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==5
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==6
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==7
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==8
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==9
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==10
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==11
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==12
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==13
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==14
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==15
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==16
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==17
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==18
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==19
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==20
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==21
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==22
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==23
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==24
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==25
+capture replace v111_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==26
+capture replace v111_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==27
+capture replace v111_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==28
+capture replace v111_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==29
+capture replace v111_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==30
+capture replace v111_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==31
+capture replace v111_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==32
+capture replace v111_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==33
+capture replace v111_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==34
+capture label variable v111_NEWVARIABLE `var_lab'
+capture label values v111_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 6):  "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 7):  "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 8):  "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 9):  "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 10): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 11): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 12): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 13): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 14): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 15): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 16): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 17): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 18): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 19): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 20): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 21): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 22): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 23): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 24): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 25): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 26): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 27): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 28): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 29): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 30): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 31): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 32): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 33): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 34): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 35): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 36): "年齢別常用労働者数区分11常用労働者女: 35~39歳"
+    Description (Data 37): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 38): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 39): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 40): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 41): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 42): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 43): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 44): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 45): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 46): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 47): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 48): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 49): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 50): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 51): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+    Description (Data 52): "性・年齢階級別常用労働者数11常用労働者女5: 35~39歳"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
     Values (Data 41): 
     Values (Data 42): 
     Values (Data 43): 
@@ -17973,53 +18249,224 @@ capture label values v107_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v108_NEWVARIABLE = .
-local var_lab: variable label var89
-local val_lab: value label var89
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==5
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==6
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==7
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==8
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==9
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==10
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==11
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==12
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==13
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==14
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==15
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==16
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==17
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==18
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==19
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==20
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==21
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==22
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==23
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==24
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==25
-capture replace v108_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==26
-capture replace v108_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==27
-capture replace v108_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==28
-capture replace v108_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==29
-capture replace v108_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==30
-capture replace v108_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==31
-capture replace v108_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==32
-capture replace v108_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==33
-capture replace v108_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==34
-capture replace v108_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==41
-capture replace v108_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==42
-capture replace v108_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==43
-capture replace v108_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==44
-capture replace v108_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==45
-capture replace v108_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==46
-capture replace v108_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==47
-capture replace v108_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==48
-capture replace v108_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==49
-capture replace v108_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==50
-capture replace v108_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==51
-capture replace v108_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==52
-capture label variable v108_NEWVARIABLE `var_lab'
-capture label values v108_NEWVARIABLE `val_lab'
+gen v112_NEWVARIABLE = .
+local var_lab: variable label var94
+local val_lab: value label var94
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==5
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==6
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==7
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==8
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==9
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==10
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==11
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==12
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==13
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==14
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==15
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==16
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==17
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==18
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==19
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==20
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==21
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==22
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==23
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==24
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==25
+capture replace v112_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==26
+capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==27
+capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==28
+capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==29
+capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==30
+capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==31
+capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==32
+capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==33
+capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==34
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==35
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==36
+capture replace v112_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==37
+capture replace v112_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==38
+capture replace v112_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==39
+capture replace v112_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==40
+capture replace v112_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==41
+capture replace v112_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==42
+capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==43
+capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==44
+capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==45
+capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==46
+capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==47
+capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==48
+capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==49
+capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==50
+capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==51
+capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==52
+capture label variable v112_NEWVARIABLE `var_lab'
+capture label values v112_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 6):  "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 7):  "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 8):  "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 9):  "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 10): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 11): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 12): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 13): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 14): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 15): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 16): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 17): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 18): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 19): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 20): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 21): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 22): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 23): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 24): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 25): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 26): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 27): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 28): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 29): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 30): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 31): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 32): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 33): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 34): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 35): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 36): "年齢別常用労働者数区分11常用労働者女: 40~44歳"
+    Description (Data 37): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 38): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 39): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 40): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 41): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 42): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 43): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 44): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 45): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 46): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 47): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 48): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 49): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 50): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 51): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+    Description (Data 52): "性・年齢階級別常用労働者数11常用労働者女6: 40~44歳"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v113_NEWVARIABLE = .
+local var_lab: variable label var95
+local val_lab: value label var95
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==5
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==6
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==7
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==8
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==9
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==10
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==11
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==12
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==13
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==14
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==15
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==16
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==17
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==18
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==19
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==20
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==21
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==22
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==23
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==24
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==25
+capture replace v113_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==26
+capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==27
+capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==28
+capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==29
+capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==30
+capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==31
+capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==32
+capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==33
+capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==34
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==35
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==36
+capture replace v113_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==37
+capture replace v113_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==38
+capture replace v113_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==39
+capture replace v113_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==40
+capture replace v113_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==41
+capture replace v113_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==42
+capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==43
+capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==44
+capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==45
+capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==46
+capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==47
+capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==48
+capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==49
+capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==50
+capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==51
+capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==52
+capture label variable v113_NEWVARIABLE `var_lab'
+capture label values v113_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -18132,59 +18579,59 @@ capture label values v108_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v109_NEWVARIABLE = .
+gen v114_NEWVARIABLE = .
 local var_lab: variable label var96
 local val_lab: value label var96
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==5
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==6
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==7
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==8
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==9
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==10
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==11
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==12
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==13
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==14
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==15
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==16
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==17
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==18
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==19
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==20
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==21
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==22
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==23
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==24
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==25
-capture replace v109_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==26
-capture replace v109_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==27
-capture replace v109_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==28
-capture replace v109_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==29
-capture replace v109_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==30
-capture replace v109_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==31
-capture replace v109_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==32
-capture replace v109_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==33
-capture replace v109_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==34
-capture replace v109_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==35
-capture replace v109_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==36
-capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==37
-capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==38
-capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==39
-capture replace v109_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==40
-capture replace v109_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==41
-capture replace v109_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==42
-capture replace v109_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==43
-capture replace v109_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==44
-capture replace v109_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==45
-capture replace v109_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==46
-capture replace v109_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==47
-capture replace v109_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==48
-capture replace v109_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==49
-capture replace v109_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==50
-capture replace v109_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==51
-capture replace v109_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==52
-capture label variable v109_NEWVARIABLE `var_lab'
-capture label values v109_NEWVARIABLE `val_lab'
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==5
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==6
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==7
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==8
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==9
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==10
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==11
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==12
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==13
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==14
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==15
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==16
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==17
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==18
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==19
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==20
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==21
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==22
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==23
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==24
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==25
+capture replace v114_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==26
+capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==27
+capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==28
+capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==29
+capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==30
+capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==31
+capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==32
+capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==33
+capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==34
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==35
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==36
+capture replace v114_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==37
+capture replace v114_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==38
+capture replace v114_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==39
+capture replace v114_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==40
+capture replace v114_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==41
+capture replace v114_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==42
+capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==43
+capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==44
+capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==45
+capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==46
+capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==47
+capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==48
+capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==49
+capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==50
+capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==51
+capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==52
+capture label variable v114_NEWVARIABLE `var_lab'
+capture label values v114_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -18297,59 +18744,59 @@ capture label values v109_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v110_NEWVARIABLE = .
+gen v115_NEWVARIABLE = .
 local var_lab: variable label var97
 local val_lab: value label var97
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==5
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==6
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==7
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==8
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==9
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==10
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==11
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==12
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==13
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==14
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==15
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==16
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==17
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==18
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==19
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==20
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==21
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==22
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==23
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==24
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==25
-capture replace v110_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==26
-capture replace v110_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==27
-capture replace v110_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==28
-capture replace v110_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==29
-capture replace v110_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==30
-capture replace v110_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==31
-capture replace v110_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==32
-capture replace v110_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==33
-capture replace v110_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==34
-capture replace v110_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==35
-capture replace v110_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==36
-capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==37
-capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==38
-capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==39
-capture replace v110_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==40
-capture replace v110_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==41
-capture replace v110_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==42
-capture replace v110_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==43
-capture replace v110_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==44
-capture replace v110_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==45
-capture replace v110_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==46
-capture replace v110_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==47
-capture replace v110_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==48
-capture replace v110_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==49
-capture replace v110_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==50
-capture replace v110_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==51
-capture replace v110_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==52
-capture label variable v110_NEWVARIABLE `var_lab'
-capture label values v110_NEWVARIABLE `val_lab'
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==5
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==6
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==7
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==8
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==9
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==10
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==11
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==12
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==13
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==14
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==15
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==16
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==17
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==18
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==19
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==20
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==21
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==22
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==23
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==24
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==25
+capture replace v115_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==26
+capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==27
+capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==28
+capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==29
+capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==30
+capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==31
+capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==32
+capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==33
+capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==34
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==35
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==36
+capture replace v115_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==37
+capture replace v115_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==38
+capture replace v115_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==39
+capture replace v115_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==40
+capture replace v115_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==41
+capture replace v115_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==42
+capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==43
+capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==44
+capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==45
+capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==46
+capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==47
+capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==48
+capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==49
+capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==50
+capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==51
+capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==52
+capture label variable v115_NEWVARIABLE `var_lab'
+capture label values v115_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -18394,18 +18841,18 @@ capture label values v110_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 42): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 43): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 44): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 45): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 46): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 47): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 48): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 49): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 50): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 51): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
-    Description (Data 52): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -18448,6 +18895,153 @@ capture label values v110_NEWVARIABLE `val_lab'
     Values (Data 38): None
     Values (Data 39): None
     Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
+
+----------------------------------------------------------------------*/
+gen v116_NEWVARIABLE = .
+local var_lab: variable label var101
+local val_lab: value label var101
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==5
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==6
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==7
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==8
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==9
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==10
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==11
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==12
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==13
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==14
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==15
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==16
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==17
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==18
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==19
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==20
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==21
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==22
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==23
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==24
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==25
+capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==26
+capture replace v116_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==27
+capture replace v116_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==28
+capture replace v116_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==29
+capture replace v116_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==30
+capture replace v116_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==31
+capture replace v116_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==32
+capture replace v116_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==33
+capture replace v116_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==34
+capture label variable v116_NEWVARIABLE `var_lab'
+capture label values v116_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 6):  "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 7):  "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 8):  "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 9):  "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 10): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 11): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 12): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 13): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 14): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 15): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 16): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 17): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 18): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 19): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 20): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 21): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 22): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 23): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 24): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 25): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 26): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 27): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 28): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 29): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 30): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 31): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 32): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 33): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 34): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 35): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 36): "年齢別常用労働者数区分12うちパートタイム女: 35~39歳"
+    Description (Data 37): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 38): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 39): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 40): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 41): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 42): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 43): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 44): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 45): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 46): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 47): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 48): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 49): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 50): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 51): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+    Description (Data 52): "性・年齢階級別常用労働者数12うちパートタイム女5: 35~39歳"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
     Values (Data 41): 
     Values (Data 42): 
     Values (Data 43): 
@@ -18462,53 +19056,224 @@ capture label values v110_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v111_NEWVARIABLE = .
-local var_lab: variable label var101
-local val_lab: value label var101
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==5
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==6
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==7
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==8
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==9
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==10
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==11
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==12
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==13
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==14
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==15
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==16
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==17
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==18
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==19
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==20
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==21
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==22
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==23
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==24
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==25
-capture replace v111_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==26
-capture replace v111_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==27
-capture replace v111_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==28
-capture replace v111_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==29
-capture replace v111_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==30
-capture replace v111_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==31
-capture replace v111_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==32
-capture replace v111_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==33
-capture replace v111_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==34
-capture replace v111_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==41
-capture replace v111_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==42
-capture replace v111_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==43
-capture replace v111_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==44
-capture replace v111_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==45
-capture replace v111_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==46
-capture replace v111_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==47
-capture replace v111_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==48
-capture replace v111_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==49
-capture replace v111_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==50
-capture replace v111_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==51
-capture replace v111_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==52
-capture label variable v111_NEWVARIABLE `var_lab'
-capture label values v111_NEWVARIABLE `val_lab'
+gen v117_NEWVARIABLE = .
+local var_lab: variable label var106
+local val_lab: value label var106
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==5
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==6
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==7
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==8
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==9
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==10
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==11
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==12
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==13
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==14
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==15
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==16
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==17
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==18
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==19
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==20
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==21
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==22
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==23
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==24
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==25
+capture replace v117_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==26
+capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==27
+capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==28
+capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==29
+capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==30
+capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==31
+capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==32
+capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==33
+capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==34
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==35
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==36
+capture replace v117_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==37
+capture replace v117_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==38
+capture replace v117_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==39
+capture replace v117_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==40
+capture replace v117_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==41
+capture replace v117_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==42
+capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==43
+capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==44
+capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==45
+capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==46
+capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==47
+capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==48
+capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==49
+capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==50
+capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==51
+capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==52
+capture label variable v117_NEWVARIABLE `var_lab'
+capture label values v117_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 6):  "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 7):  "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 8):  "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 9):  "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 10): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 11): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 12): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 13): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 14): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 15): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 16): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 17): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 18): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 19): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 20): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 21): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 22): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 23): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 24): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 25): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 26): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 27): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 28): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 29): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 30): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 31): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 32): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 33): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 34): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 35): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 36): "年齢別常用労働者数区分12うちパートタイム女: 40~44歳"
+    Description (Data 37): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 38): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 39): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 40): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 41): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 42): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 43): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 44): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 45): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 46): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 47): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 48): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 49): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 50): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 51): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+    Description (Data 52): "性・年齢階級別常用労働者数12うちパートタイム女6: 40~44歳"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v118_NEWVARIABLE = .
+local var_lab: variable label var107
+local val_lab: value label var107
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==5
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==6
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==7
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==8
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==9
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==10
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==11
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==12
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==13
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==14
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==15
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==16
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==17
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==18
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==19
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==20
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==21
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==22
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==23
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==24
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==25
+capture replace v118_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==26
+capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==27
+capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==28
+capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==29
+capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==30
+capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==31
+capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==32
+capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==33
+capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==34
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==35
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==36
+capture replace v118_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==37
+capture replace v118_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==38
+capture replace v118_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==39
+capture replace v118_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==40
+capture replace v118_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==41
+capture replace v118_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==42
+capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==43
+capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==44
+capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==45
+capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==46
+capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==47
+capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==48
+capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==49
+capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==50
+capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==51
+capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==52
+capture label variable v118_NEWVARIABLE `var_lab'
+capture label values v118_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -18621,59 +19386,59 @@ capture label values v111_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v112_NEWVARIABLE = .
+gen v119_NEWVARIABLE = .
 local var_lab: variable label var108
 local val_lab: value label var108
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==5
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==6
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==7
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==8
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==9
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==10
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==11
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==12
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==13
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==14
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==15
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==16
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==17
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==18
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==19
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==20
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==21
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==22
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==23
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==24
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==25
-capture replace v112_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==26
-capture replace v112_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==27
-capture replace v112_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==28
-capture replace v112_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==29
-capture replace v112_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==30
-capture replace v112_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==31
-capture replace v112_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==32
-capture replace v112_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==33
-capture replace v112_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==34
-capture replace v112_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==35
-capture replace v112_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==36
-capture replace v112_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==37
-capture replace v112_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==38
-capture replace v112_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==39
-capture replace v112_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==40
-capture replace v112_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==41
-capture replace v112_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==42
-capture replace v112_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==43
-capture replace v112_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==44
-capture replace v112_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==45
-capture replace v112_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==46
-capture replace v112_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==47
-capture replace v112_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==48
-capture replace v112_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==49
-capture replace v112_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==50
-capture replace v112_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==51
-capture replace v112_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==52
-capture label variable v112_NEWVARIABLE `var_lab'
-capture label values v112_NEWVARIABLE `val_lab'
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==5
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==6
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==7
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==8
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==9
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==10
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==11
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==12
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==13
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==14
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==15
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==16
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==17
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==18
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==19
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==20
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==21
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==22
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==23
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==24
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==25
+capture replace v119_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==26
+capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==27
+capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==28
+capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==29
+capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==30
+capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==31
+capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==32
+capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==33
+capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==34
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==35
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==36
+capture replace v119_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==37
+capture replace v119_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==38
+capture replace v119_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==39
+capture replace v119_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==40
+capture replace v119_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==41
+capture replace v119_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==42
+capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==43
+capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==44
+capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==45
+capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==46
+capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==47
+capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==48
+capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==49
+capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==50
+capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==51
+capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==52
+capture label variable v119_NEWVARIABLE `var_lab'
+capture label values v119_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -18786,59 +19551,59 @@ capture label values v112_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v113_NEWVARIABLE = .
+gen v120_NEWVARIABLE = .
 local var_lab: variable label var109
 local val_lab: value label var109
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==5
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==6
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==7
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==8
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==9
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==10
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==11
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==12
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==13
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==14
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==15
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==16
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==17
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==18
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==19
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==20
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==21
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==22
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==23
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==24
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==25
-capture replace v113_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==26
-capture replace v113_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==27
-capture replace v113_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==28
-capture replace v113_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==29
-capture replace v113_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==30
-capture replace v113_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==31
-capture replace v113_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==32
-capture replace v113_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==33
-capture replace v113_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==34
-capture replace v113_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==35
-capture replace v113_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==36
-capture replace v113_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==37
-capture replace v113_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==38
-capture replace v113_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==39
-capture replace v113_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==40
-capture replace v113_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==41
-capture replace v113_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==42
-capture replace v113_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==43
-capture replace v113_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==44
-capture replace v113_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==45
-capture replace v113_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==46
-capture replace v113_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==47
-capture replace v113_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==48
-capture replace v113_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==49
-capture replace v113_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==50
-capture replace v113_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==51
-capture replace v113_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==52
-capture label variable v113_NEWVARIABLE `var_lab'
-capture label values v113_NEWVARIABLE `val_lab'
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==5
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==6
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==7
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==8
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==9
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==10
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==11
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==12
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==13
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==14
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==15
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==16
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==17
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==18
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==19
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==20
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==21
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==22
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==23
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==24
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==25
+capture replace v120_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==26
+capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==27
+capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==28
+capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==29
+capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==30
+capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==31
+capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==32
+capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==33
+capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==34
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==35
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==36
+capture replace v120_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==37
+capture replace v120_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==38
+capture replace v120_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==39
+capture replace v120_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==40
+capture replace v120_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==41
+capture replace v120_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==42
+capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==43
+capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==44
+capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==45
+capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==46
+capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==47
+capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==48
+capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==49
+capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==50
+capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==51
+capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==52
+capture label variable v120_NEWVARIABLE `var_lab'
+capture label values v120_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -18883,18 +19648,18 @@ capture label values v113_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 42): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 43): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 44): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 45): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 46): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 47): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 48): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 49): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 50): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 51): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 52): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -18937,67 +19702,55 @@ capture label values v113_NEWVARIABLE `val_lab'
     Values (Data 38): None
     Values (Data 39): None
     Values (Data 40): None
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v114_NEWVARIABLE = .
+gen v121_NEWVARIABLE = .
 local var_lab: variable label var113
 local val_lab: value label var113
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==5
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==6
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==7
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==8
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==9
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==10
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==11
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==12
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==13
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==14
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==15
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==16
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==17
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==18
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==19
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==20
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==21
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==22
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==23
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==24
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==25
-capture replace v114_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==26
-capture replace v114_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==27
-capture replace v114_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==28
-capture replace v114_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==29
-capture replace v114_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==30
-capture replace v114_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==31
-capture replace v114_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==32
-capture replace v114_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==33
-capture replace v114_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==34
-capture replace v114_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==41
-capture replace v114_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==42
-capture replace v114_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==43
-capture replace v114_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==44
-capture replace v114_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==45
-capture replace v114_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==46
-capture replace v114_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==47
-capture replace v114_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==48
-capture replace v114_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==49
-capture replace v114_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==50
-capture replace v114_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==51
-capture replace v114_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==52
-capture label variable v114_NEWVARIABLE `var_lab'
-capture label values v114_NEWVARIABLE `val_lab'
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==5
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==6
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==7
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==8
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==9
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==10
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==11
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==12
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==13
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==14
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==15
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==16
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==17
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==18
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==19
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==20
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==21
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==22
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==23
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==24
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==25
+capture replace v121_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==26
+capture replace v121_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==27
+capture replace v121_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==28
+capture replace v121_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==29
+capture replace v121_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==30
+capture replace v121_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==31
+capture replace v121_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==32
+capture replace v121_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==33
+capture replace v121_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==34
+capture label variable v121_NEWVARIABLE `var_lab'
+capture label values v121_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -19110,45 +19863,45 @@ capture label values v114_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v115_NEWVARIABLE = .
+gen v122_NEWVARIABLE = .
 local var_lab: variable label var114
 local val_lab: value label var114
-capture replace v115_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==19
-capture replace v115_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==20
-capture replace v115_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==21
-capture replace v115_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==22
-capture replace v115_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==23
-capture replace v115_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==24
-capture replace v115_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==25
-capture replace v115_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==26
-capture replace v115_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==27
-capture replace v115_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==28
-capture replace v115_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==29
-capture replace v115_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==30
-capture replace v115_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==31
-capture replace v115_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==32
-capture replace v115_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==33
-capture replace v115_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==34
-capture replace v115_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==35
-capture replace v115_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==36
-capture replace v115_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==37
-capture replace v115_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==38
-capture replace v115_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==39
-capture replace v115_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==40
-capture replace v115_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==41
-capture replace v115_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==42
-capture replace v115_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==43
-capture replace v115_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==44
-capture replace v115_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==45
-capture replace v115_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==46
-capture replace v115_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==47
-capture replace v115_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==48
-capture replace v115_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==49
-capture replace v115_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==50
-capture replace v115_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==51
-capture replace v115_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==52
-capture label variable v115_NEWVARIABLE `var_lab'
-capture label values v115_NEWVARIABLE `val_lab'
+capture replace v122_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==19
+capture replace v122_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==20
+capture replace v122_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==21
+capture replace v122_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==22
+capture replace v122_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==23
+capture replace v122_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==24
+capture replace v122_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==25
+capture replace v122_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==26
+capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==27
+capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==28
+capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==29
+capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==30
+capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==31
+capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==32
+capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==33
+capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==34
+capture replace v122_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==35
+capture replace v122_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==36
+capture replace v122_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==37
+capture replace v122_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==38
+capture replace v122_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==39
+capture replace v122_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==40
+capture replace v122_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==41
+capture replace v122_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==42
+capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==43
+capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==44
+capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==45
+capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==46
+capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==47
+capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==48
+capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==49
+capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==50
+capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==51
+capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==52
+capture label variable v122_NEWVARIABLE `var_lab'
+capture label values v122_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -19261,45 +20014,45 @@ capture label values v115_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v116_NEWVARIABLE = .
+gen v123_NEWVARIABLE = .
 local var_lab: variable label var115
 local val_lab: value label var115
-capture replace v116_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==19
-capture replace v116_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==20
-capture replace v116_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==21
-capture replace v116_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==22
-capture replace v116_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==23
-capture replace v116_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==24
-capture replace v116_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==25
-capture replace v116_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==26
-capture replace v116_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==27
-capture replace v116_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==28
-capture replace v116_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==29
-capture replace v116_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==30
-capture replace v116_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==31
-capture replace v116_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==32
-capture replace v116_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==33
-capture replace v116_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==34
-capture replace v116_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==35
-capture replace v116_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==36
-capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==37
-capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==38
-capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==39
-capture replace v116_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==40
-capture replace v116_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==41
-capture replace v116_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==42
-capture replace v116_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==43
-capture replace v116_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==44
-capture replace v116_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==45
-capture replace v116_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==46
-capture replace v116_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==47
-capture replace v116_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==48
-capture replace v116_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==49
-capture replace v116_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==50
-capture replace v116_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==51
-capture replace v116_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==52
-capture label variable v116_NEWVARIABLE `var_lab'
-capture label values v116_NEWVARIABLE `val_lab'
+capture replace v123_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==19
+capture replace v123_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==20
+capture replace v123_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==21
+capture replace v123_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==22
+capture replace v123_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==23
+capture replace v123_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==24
+capture replace v123_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==25
+capture replace v123_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==26
+capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==27
+capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==28
+capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==29
+capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==30
+capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==31
+capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==32
+capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==33
+capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==34
+capture replace v123_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==35
+capture replace v123_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==36
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==37
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==38
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==39
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==40
+capture replace v123_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==41
+capture replace v123_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==42
+capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==43
+capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==44
+capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==45
+capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==46
+capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==47
+capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==48
+capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==49
+capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==50
+capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==51
+capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==52
+capture label variable v123_NEWVARIABLE `var_lab'
+capture label values v123_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -19412,45 +20165,45 @@ capture label values v116_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v117_NEWVARIABLE = .
+gen v124_NEWVARIABLE = .
 local var_lab: variable label var116
 local val_lab: value label var116
-capture replace v117_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==19
-capture replace v117_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==20
-capture replace v117_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==21
-capture replace v117_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==22
-capture replace v117_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==23
-capture replace v117_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==24
-capture replace v117_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==25
-capture replace v117_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==26
-capture replace v117_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==27
-capture replace v117_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==28
-capture replace v117_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==29
-capture replace v117_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==30
-capture replace v117_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==31
-capture replace v117_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==32
-capture replace v117_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==33
-capture replace v117_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==34
-capture replace v117_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==35
-capture replace v117_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==36
-capture replace v117_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==37
-capture replace v117_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==38
-capture replace v117_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==39
-capture replace v117_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==40
-capture replace v117_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==41
-capture replace v117_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==42
-capture replace v117_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==43
-capture replace v117_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==44
-capture replace v117_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==45
-capture replace v117_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==46
-capture replace v117_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==47
-capture replace v117_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==48
-capture replace v117_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==49
-capture replace v117_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==50
-capture replace v117_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==51
-capture replace v117_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==52
-capture label variable v117_NEWVARIABLE `var_lab'
-capture label values v117_NEWVARIABLE `val_lab'
+capture replace v124_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==19
+capture replace v124_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==20
+capture replace v124_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==21
+capture replace v124_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==22
+capture replace v124_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==23
+capture replace v124_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==24
+capture replace v124_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==25
+capture replace v124_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==26
+capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==27
+capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==28
+capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==29
+capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==30
+capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==31
+capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==32
+capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==33
+capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==34
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==35
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==36
+capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==37
+capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==38
+capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==39
+capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==40
+capture replace v124_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==41
+capture replace v124_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==42
+capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==43
+capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==44
+capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==45
+capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==46
+capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==47
+capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==48
+capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==49
+capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==50
+capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==51
+capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==52
+capture label variable v124_NEWVARIABLE `var_lab'
+capture label values v124_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -19563,45 +20316,45 @@ capture label values v117_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v118_NEWVARIABLE = .
+gen v125_NEWVARIABLE = .
 local var_lab: variable label var117
 local val_lab: value label var117
-capture replace v118_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==19
-capture replace v118_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==20
-capture replace v118_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==21
-capture replace v118_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==22
-capture replace v118_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==23
-capture replace v118_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==24
-capture replace v118_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==25
-capture replace v118_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==26
-capture replace v118_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==27
-capture replace v118_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==28
-capture replace v118_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==29
-capture replace v118_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==30
-capture replace v118_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==31
-capture replace v118_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==32
-capture replace v118_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==33
-capture replace v118_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==34
-capture replace v118_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==35
-capture replace v118_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==36
-capture replace v118_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==37
-capture replace v118_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==38
-capture replace v118_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==39
-capture replace v118_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==40
-capture replace v118_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==41
-capture replace v118_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==42
-capture replace v118_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==43
-capture replace v118_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==44
-capture replace v118_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==45
-capture replace v118_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==46
-capture replace v118_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==47
-capture replace v118_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==48
-capture replace v118_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==49
-capture replace v118_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==50
-capture replace v118_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==51
-capture replace v118_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==52
-capture label variable v118_NEWVARIABLE `var_lab'
-capture label values v118_NEWVARIABLE `val_lab'
+capture replace v125_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==19
+capture replace v125_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==20
+capture replace v125_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==21
+capture replace v125_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==22
+capture replace v125_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==23
+capture replace v125_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==24
+capture replace v125_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==25
+capture replace v125_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==26
+capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==27
+capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==28
+capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==29
+capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==30
+capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==31
+capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==32
+capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==33
+capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==34
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==35
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==36
+capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==37
+capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==38
+capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==39
+capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==40
+capture replace v125_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==41
+capture replace v125_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==42
+capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==43
+capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==44
+capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==45
+capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==46
+capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==47
+capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==48
+capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==49
+capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==50
+capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==51
+capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==52
+capture label variable v125_NEWVARIABLE `var_lab'
+capture label values v125_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -19714,45 +20467,45 @@ capture label values v118_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v119_NEWVARIABLE = .
+gen v126_NEWVARIABLE = .
 local var_lab: variable label var118
 local val_lab: value label var118
-capture replace v119_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==19
-capture replace v119_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==20
-capture replace v119_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==21
-capture replace v119_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==22
-capture replace v119_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==23
-capture replace v119_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==24
-capture replace v119_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==25
-capture replace v119_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==26
-capture replace v119_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==27
-capture replace v119_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==28
-capture replace v119_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==29
-capture replace v119_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==30
-capture replace v119_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==31
-capture replace v119_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==32
-capture replace v119_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==33
-capture replace v119_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==34
-capture replace v119_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==35
-capture replace v119_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==36
-capture replace v119_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==37
-capture replace v119_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==38
-capture replace v119_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==39
-capture replace v119_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==40
-capture replace v119_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==41
-capture replace v119_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==42
-capture replace v119_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==43
-capture replace v119_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==44
-capture replace v119_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==45
-capture replace v119_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==46
-capture replace v119_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==47
-capture replace v119_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==48
-capture replace v119_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==49
-capture replace v119_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==50
-capture replace v119_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==51
-capture replace v119_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==52
-capture label variable v119_NEWVARIABLE `var_lab'
-capture label values v119_NEWVARIABLE `val_lab'
+capture replace v126_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==19
+capture replace v126_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==20
+capture replace v126_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==21
+capture replace v126_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==22
+capture replace v126_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==23
+capture replace v126_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==24
+capture replace v126_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==25
+capture replace v126_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==26
+capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==27
+capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==28
+capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==29
+capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==30
+capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==31
+capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==32
+capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==33
+capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==34
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==35
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==36
+capture replace v126_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==37
+capture replace v126_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==38
+capture replace v126_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==39
+capture replace v126_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==40
+capture replace v126_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==41
+capture replace v126_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==42
+capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==43
+capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==44
+capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==45
+capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==46
+capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==47
+capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==48
+capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==49
+capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==50
+capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==51
+capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==52
+capture label variable v126_NEWVARIABLE `var_lab'
+capture label values v126_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -19865,45 +20618,45 @@ capture label values v119_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v120_NEWVARIABLE = .
+gen v127_NEWVARIABLE = .
 local var_lab: variable label var119
 local val_lab: value label var119
-capture replace v120_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==19
-capture replace v120_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==20
-capture replace v120_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==21
-capture replace v120_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==22
-capture replace v120_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==23
-capture replace v120_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==24
-capture replace v120_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==25
-capture replace v120_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==26
-capture replace v120_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==27
-capture replace v120_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==28
-capture replace v120_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==29
-capture replace v120_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==30
-capture replace v120_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==31
-capture replace v120_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==32
-capture replace v120_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==33
-capture replace v120_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==34
-capture replace v120_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==35
-capture replace v120_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==36
-capture replace v120_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==37
-capture replace v120_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==38
-capture replace v120_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==39
-capture replace v120_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==40
-capture replace v120_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==41
-capture replace v120_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==42
-capture replace v120_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==43
-capture replace v120_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==44
-capture replace v120_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==45
-capture replace v120_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==46
-capture replace v120_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==47
-capture replace v120_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==48
-capture replace v120_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==49
-capture replace v120_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==50
-capture replace v120_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==51
-capture replace v120_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==52
-capture label variable v120_NEWVARIABLE `var_lab'
-capture label values v120_NEWVARIABLE `val_lab'
+capture replace v127_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==19
+capture replace v127_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==20
+capture replace v127_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==21
+capture replace v127_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==22
+capture replace v127_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==23
+capture replace v127_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==24
+capture replace v127_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==25
+capture replace v127_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==26
+capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==27
+capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==28
+capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==29
+capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==30
+capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==31
+capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==32
+capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==33
+capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==34
+capture replace v127_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==35
+capture replace v127_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==36
+capture replace v127_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==37
+capture replace v127_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==38
+capture replace v127_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==39
+capture replace v127_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==40
+capture replace v127_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==41
+capture replace v127_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==42
+capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==43
+capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==44
+capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==45
+capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==46
+capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==47
+capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==48
+capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==49
+capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==50
+capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==51
+capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==52
+capture label variable v127_NEWVARIABLE `var_lab'
+capture label values v127_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -20016,45 +20769,45 @@ capture label values v120_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v121_NEWVARIABLE = .
+gen v128_NEWVARIABLE = .
 local var_lab: variable label var120
 local val_lab: value label var120
-capture replace v121_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==19
-capture replace v121_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==20
-capture replace v121_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==21
-capture replace v121_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==22
-capture replace v121_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==23
-capture replace v121_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==24
-capture replace v121_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==25
-capture replace v121_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==26
-capture replace v121_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==27
-capture replace v121_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==28
-capture replace v121_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==29
-capture replace v121_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==30
-capture replace v121_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==31
-capture replace v121_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==32
-capture replace v121_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==33
-capture replace v121_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==34
-capture replace v121_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==35
-capture replace v121_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==36
-capture replace v121_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==37
-capture replace v121_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==38
-capture replace v121_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==39
-capture replace v121_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==40
-capture replace v121_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==41
-capture replace v121_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==42
-capture replace v121_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==43
-capture replace v121_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==44
-capture replace v121_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==45
-capture replace v121_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==46
-capture replace v121_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==47
-capture replace v121_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==48
-capture replace v121_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==49
-capture replace v121_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==50
-capture replace v121_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==51
-capture replace v121_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==52
-capture label variable v121_NEWVARIABLE `var_lab'
-capture label values v121_NEWVARIABLE `val_lab'
+capture replace v128_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==19
+capture replace v128_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==20
+capture replace v128_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==21
+capture replace v128_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==22
+capture replace v128_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==23
+capture replace v128_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==24
+capture replace v128_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==25
+capture replace v128_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==26
+capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==27
+capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==28
+capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==29
+capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==30
+capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==31
+capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==32
+capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==33
+capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==34
+capture replace v128_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==35
+capture replace v128_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==36
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==37
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==38
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==39
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==40
+capture replace v128_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==41
+capture replace v128_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==42
+capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==43
+capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==44
+capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==45
+capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==46
+capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==47
+capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==48
+capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==49
+capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==50
+capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==51
+capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==52
+capture label variable v128_NEWVARIABLE `var_lab'
+capture label values v128_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -20167,45 +20920,45 @@ capture label values v121_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v122_NEWVARIABLE = .
+gen v129_NEWVARIABLE = .
 local var_lab: variable label var121
 local val_lab: value label var121
-capture replace v122_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==19
-capture replace v122_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==20
-capture replace v122_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==21
-capture replace v122_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==22
-capture replace v122_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==23
-capture replace v122_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==24
-capture replace v122_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==25
-capture replace v122_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==26
-capture replace v122_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==27
-capture replace v122_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==28
-capture replace v122_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==29
-capture replace v122_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==30
-capture replace v122_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==31
-capture replace v122_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==32
-capture replace v122_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==33
-capture replace v122_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==34
-capture replace v122_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==35
-capture replace v122_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==36
-capture replace v122_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==37
-capture replace v122_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==38
-capture replace v122_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==39
-capture replace v122_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==40
-capture replace v122_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==41
-capture replace v122_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==42
-capture replace v122_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==43
-capture replace v122_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==44
-capture replace v122_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==45
-capture replace v122_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==46
-capture replace v122_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==47
-capture replace v122_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==48
-capture replace v122_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==49
-capture replace v122_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==50
-capture replace v122_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==51
-capture replace v122_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==52
-capture label variable v122_NEWVARIABLE `var_lab'
-capture label values v122_NEWVARIABLE `val_lab'
+capture replace v129_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==19
+capture replace v129_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==20
+capture replace v129_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==21
+capture replace v129_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==22
+capture replace v129_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==23
+capture replace v129_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==24
+capture replace v129_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==25
+capture replace v129_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==26
+capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==27
+capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==28
+capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==29
+capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==30
+capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==31
+capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==32
+capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==33
+capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==34
+capture replace v129_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==35
+capture replace v129_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==36
+capture replace v129_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==37
+capture replace v129_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==38
+capture replace v129_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==39
+capture replace v129_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==40
+capture replace v129_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==41
+capture replace v129_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==42
+capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==43
+capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==44
+capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==45
+capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==46
+capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==47
+capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==48
+capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==49
+capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==50
+capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==51
+capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==52
+capture label variable v129_NEWVARIABLE `var_lab'
+capture label values v129_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -20250,18 +21003,18 @@ capture label values v122_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 42): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 43): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 44): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 45): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 46): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 47): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 48): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 49): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 50): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 51): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
-    Description (Data 52): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -20304,53 +21057,41 @@ capture label values v122_NEWVARIABLE `val_lab'
     Values (Data 38): None
     Values (Data 39): None
     Values (Data 40): None
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v123_NEWVARIABLE = .
+gen v130_NEWVARIABLE = .
 local var_lab: variable label var122
 local val_lab: value label var122
-capture replace v123_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==19
-capture replace v123_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==20
-capture replace v123_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==21
-capture replace v123_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==22
-capture replace v123_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==23
-capture replace v123_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==24
-capture replace v123_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==25
-capture replace v123_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==26
-capture replace v123_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==27
-capture replace v123_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==28
-capture replace v123_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==29
-capture replace v123_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==30
-capture replace v123_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==31
-capture replace v123_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==32
-capture replace v123_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==33
-capture replace v123_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==34
-capture replace v123_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==41
-capture replace v123_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==42
-capture replace v123_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==43
-capture replace v123_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==44
-capture replace v123_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==45
-capture replace v123_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==46
-capture replace v123_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==47
-capture replace v123_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==48
-capture replace v123_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==49
-capture replace v123_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==50
-capture replace v123_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==51
-capture replace v123_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==52
-capture label variable v123_NEWVARIABLE `var_lab'
-capture label values v123_NEWVARIABLE `val_lab'
+capture replace v130_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==19
+capture replace v130_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==20
+capture replace v130_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==21
+capture replace v130_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==22
+capture replace v130_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==23
+capture replace v130_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==24
+capture replace v130_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==25
+capture replace v130_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==26
+capture replace v130_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==27
+capture replace v130_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==28
+capture replace v130_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==29
+capture replace v130_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==30
+capture replace v130_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==31
+capture replace v130_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==32
+capture replace v130_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==33
+capture replace v130_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==34
+capture label variable v130_NEWVARIABLE `var_lab'
+capture label values v130_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -20463,45 +21204,45 @@ capture label values v123_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v124_NEWVARIABLE = .
+gen v131_NEWVARIABLE = .
 local var_lab: variable label var123
 local val_lab: value label var123
-capture replace v124_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==19
-capture replace v124_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==20
-capture replace v124_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==21
-capture replace v124_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==22
-capture replace v124_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==23
-capture replace v124_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==24
-capture replace v124_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==25
-capture replace v124_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==26
-capture replace v124_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==27
-capture replace v124_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==28
-capture replace v124_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==29
-capture replace v124_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==30
-capture replace v124_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==31
-capture replace v124_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==32
-capture replace v124_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==33
-capture replace v124_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==34
-capture replace v124_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==35
-capture replace v124_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==36
-capture replace v124_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==37
-capture replace v124_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==38
-capture replace v124_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==39
-capture replace v124_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==40
-capture replace v124_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==41
-capture replace v124_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==42
-capture replace v124_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==43
-capture replace v124_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==44
-capture replace v124_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==45
-capture replace v124_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==46
-capture replace v124_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==47
-capture replace v124_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==48
-capture replace v124_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==49
-capture replace v124_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==50
-capture replace v124_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==51
-capture replace v124_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==52
-capture label variable v124_NEWVARIABLE `var_lab'
-capture label values v124_NEWVARIABLE `val_lab'
+capture replace v131_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==19
+capture replace v131_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==20
+capture replace v131_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==21
+capture replace v131_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==22
+capture replace v131_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==23
+capture replace v131_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==24
+capture replace v131_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==25
+capture replace v131_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==26
+capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==27
+capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==28
+capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==29
+capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==30
+capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==31
+capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==32
+capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==33
+capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==34
+capture replace v131_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==35
+capture replace v131_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==36
+capture replace v131_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==37
+capture replace v131_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==38
+capture replace v131_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==39
+capture replace v131_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==40
+capture replace v131_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==41
+capture replace v131_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==42
+capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==43
+capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==44
+capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==45
+capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==46
+capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==47
+capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==48
+capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==49
+capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==50
+capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==51
+capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==52
+capture label variable v131_NEWVARIABLE `var_lab'
+capture label values v131_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -20614,45 +21355,45 @@ capture label values v124_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v125_NEWVARIABLE = .
+gen v132_NEWVARIABLE = .
 local var_lab: variable label var124
 local val_lab: value label var124
-capture replace v125_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==19
-capture replace v125_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==20
-capture replace v125_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==21
-capture replace v125_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==22
-capture replace v125_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==23
-capture replace v125_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==24
-capture replace v125_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==25
-capture replace v125_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==26
-capture replace v125_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==27
-capture replace v125_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==28
-capture replace v125_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==29
-capture replace v125_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==30
-capture replace v125_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==31
-capture replace v125_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==32
-capture replace v125_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==33
-capture replace v125_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==34
-capture replace v125_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==35
-capture replace v125_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==36
-capture replace v125_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==37
-capture replace v125_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==38
-capture replace v125_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==39
-capture replace v125_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==40
-capture replace v125_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==41
-capture replace v125_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==42
-capture replace v125_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==43
-capture replace v125_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==44
-capture replace v125_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==45
-capture replace v125_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==46
-capture replace v125_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==47
-capture replace v125_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==48
-capture replace v125_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==49
-capture replace v125_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==50
-capture replace v125_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==51
-capture replace v125_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==52
-capture label variable v125_NEWVARIABLE `var_lab'
-capture label values v125_NEWVARIABLE `val_lab'
+capture replace v132_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==19
+capture replace v132_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==20
+capture replace v132_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==21
+capture replace v132_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==22
+capture replace v132_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==23
+capture replace v132_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==24
+capture replace v132_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==25
+capture replace v132_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==26
+capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==27
+capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==28
+capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==29
+capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==30
+capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==31
+capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==32
+capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==33
+capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==34
+capture replace v132_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==35
+capture replace v132_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==36
+capture replace v132_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==37
+capture replace v132_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==38
+capture replace v132_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==39
+capture replace v132_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==40
+capture replace v132_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==41
+capture replace v132_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==42
+capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==43
+capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==44
+capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==45
+capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==46
+capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==47
+capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==48
+capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==49
+capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==50
+capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==51
+capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==52
+capture label variable v132_NEWVARIABLE `var_lab'
+capture label values v132_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -20765,45 +21506,45 @@ capture label values v125_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v126_NEWVARIABLE = .
+gen v133_NEWVARIABLE = .
 local var_lab: variable label var125
 local val_lab: value label var125
-capture replace v126_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==19
-capture replace v126_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==20
-capture replace v126_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==21
-capture replace v126_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==22
-capture replace v126_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==23
-capture replace v126_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==24
-capture replace v126_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==25
-capture replace v126_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==26
-capture replace v126_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==27
-capture replace v126_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==28
-capture replace v126_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==29
-capture replace v126_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==30
-capture replace v126_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==31
-capture replace v126_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==32
-capture replace v126_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==33
-capture replace v126_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==34
-capture replace v126_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==35
-capture replace v126_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==36
-capture replace v126_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==37
-capture replace v126_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==38
-capture replace v126_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==39
-capture replace v126_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==40
-capture replace v126_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==41
-capture replace v126_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==42
-capture replace v126_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==43
-capture replace v126_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==44
-capture replace v126_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==45
-capture replace v126_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==46
-capture replace v126_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==47
-capture replace v126_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==48
-capture replace v126_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==49
-capture replace v126_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==50
-capture replace v126_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==51
-capture replace v126_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==52
-capture label variable v126_NEWVARIABLE `var_lab'
-capture label values v126_NEWVARIABLE `val_lab'
+capture replace v133_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==19
+capture replace v133_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==20
+capture replace v133_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==21
+capture replace v133_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==22
+capture replace v133_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==23
+capture replace v133_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==24
+capture replace v133_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==25
+capture replace v133_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==26
+capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==27
+capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==28
+capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==29
+capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==30
+capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==31
+capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==32
+capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==33
+capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==34
+capture replace v133_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==35
+capture replace v133_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==36
+capture replace v133_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==37
+capture replace v133_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==38
+capture replace v133_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==39
+capture replace v133_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==40
+capture replace v133_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==41
+capture replace v133_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==42
+capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==43
+capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==44
+capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==45
+capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==46
+capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==47
+capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==48
+capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==49
+capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==50
+capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==51
+capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==52
+capture label variable v133_NEWVARIABLE `var_lab'
+capture label values v133_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -20916,45 +21657,45 @@ capture label values v126_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v127_NEWVARIABLE = .
+gen v134_NEWVARIABLE = .
 local var_lab: variable label var126
 local val_lab: value label var126
-capture replace v127_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==19
-capture replace v127_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==20
-capture replace v127_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==21
-capture replace v127_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==22
-capture replace v127_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==23
-capture replace v127_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==24
-capture replace v127_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==25
-capture replace v127_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==26
-capture replace v127_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==27
-capture replace v127_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==28
-capture replace v127_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==29
-capture replace v127_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==30
-capture replace v127_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==31
-capture replace v127_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==32
-capture replace v127_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==33
-capture replace v127_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==34
-capture replace v127_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==35
-capture replace v127_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==36
-capture replace v127_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==37
-capture replace v127_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==38
-capture replace v127_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==39
-capture replace v127_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==40
-capture replace v127_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==41
-capture replace v127_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==42
-capture replace v127_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==43
-capture replace v127_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==44
-capture replace v127_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==45
-capture replace v127_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==46
-capture replace v127_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==47
-capture replace v127_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==48
-capture replace v127_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==49
-capture replace v127_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==50
-capture replace v127_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==51
-capture replace v127_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==52
-capture label variable v127_NEWVARIABLE `var_lab'
-capture label values v127_NEWVARIABLE `val_lab'
+capture replace v134_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==19
+capture replace v134_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==20
+capture replace v134_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==21
+capture replace v134_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==22
+capture replace v134_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==23
+capture replace v134_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==24
+capture replace v134_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==25
+capture replace v134_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==26
+capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==27
+capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==28
+capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==29
+capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==30
+capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==31
+capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==32
+capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==33
+capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==34
+capture replace v134_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==35
+capture replace v134_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==36
+capture replace v134_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==37
+capture replace v134_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==38
+capture replace v134_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==39
+capture replace v134_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==40
+capture replace v134_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==41
+capture replace v134_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==42
+capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==43
+capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==44
+capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==45
+capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==46
+capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==47
+capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==48
+capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==49
+capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==50
+capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==51
+capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==52
+capture label variable v134_NEWVARIABLE `var_lab'
+capture label values v134_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -21067,45 +21808,45 @@ capture label values v127_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v128_NEWVARIABLE = .
+gen v135_NEWVARIABLE = .
 local var_lab: variable label var127
 local val_lab: value label var127
-capture replace v128_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==19
-capture replace v128_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==20
-capture replace v128_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==21
-capture replace v128_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==22
-capture replace v128_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==23
-capture replace v128_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==24
-capture replace v128_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==25
-capture replace v128_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==26
-capture replace v128_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==27
-capture replace v128_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==28
-capture replace v128_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==29
-capture replace v128_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==30
-capture replace v128_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==31
-capture replace v128_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==32
-capture replace v128_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==33
-capture replace v128_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==34
-capture replace v128_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==35
-capture replace v128_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==36
-capture replace v128_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==37
-capture replace v128_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==38
-capture replace v128_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==39
-capture replace v128_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==40
-capture replace v128_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==41
-capture replace v128_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==42
-capture replace v128_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==43
-capture replace v128_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==44
-capture replace v128_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==45
-capture replace v128_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==46
-capture replace v128_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==47
-capture replace v128_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==48
-capture replace v128_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==49
-capture replace v128_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==50
-capture replace v128_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==51
-capture replace v128_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==52
-capture label variable v128_NEWVARIABLE `var_lab'
-capture label values v128_NEWVARIABLE `val_lab'
+capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==19
+capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==20
+capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==21
+capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==22
+capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==23
+capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==24
+capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==25
+capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==26
+capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==27
+capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==28
+capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==29
+capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==30
+capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==31
+capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==32
+capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==33
+capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==34
+capture replace v135_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==35
+capture replace v135_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==36
+capture replace v135_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==37
+capture replace v135_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==38
+capture replace v135_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==39
+capture replace v135_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==40
+capture replace v135_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==41
+capture replace v135_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==42
+capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==43
+capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==44
+capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==45
+capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==46
+capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==47
+capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==48
+capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==49
+capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==50
+capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==51
+capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==52
+capture label variable v135_NEWVARIABLE `var_lab'
+capture label values v135_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -21150,18 +21891,18 @@ capture label values v128_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数14うちパート7: 運輸・通信"
     Description (Data 39): "職業別常用労働者数14うちパート7: 運輸・通信"
     Description (Data 40): "職業別常用労働者数14うちパート7: 運輸・通信"
-    Description (Data 41): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 42): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 43): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 44): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 45): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 46): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 47): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 48): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 49): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 50): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 51): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
-    Description (Data 52): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 41): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 42): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 43): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 44): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 45): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 46): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 47): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 48): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 49): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 50): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 51): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 52): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
 
     Values (Base):    
     Values (Data 1):  None
@@ -21218,45 +21959,45 @@ capture label values v128_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v129_NEWVARIABLE = .
+gen v136_NEWVARIABLE = .
 local var_lab: variable label var128
 local val_lab: value label var128
-capture replace v129_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==19
-capture replace v129_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==20
-capture replace v129_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==21
-capture replace v129_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==22
-capture replace v129_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==23
-capture replace v129_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==24
-capture replace v129_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==25
-capture replace v129_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==26
-capture replace v129_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==27
-capture replace v129_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==28
-capture replace v129_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==29
-capture replace v129_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==30
-capture replace v129_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==31
-capture replace v129_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==32
-capture replace v129_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==33
-capture replace v129_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==34
-capture replace v129_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==35
-capture replace v129_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==36
-capture replace v129_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==37
-capture replace v129_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==38
-capture replace v129_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==39
-capture replace v129_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==40
-capture replace v129_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==41
-capture replace v129_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==42
-capture replace v129_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==43
-capture replace v129_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==44
-capture replace v129_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==45
-capture replace v129_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==46
-capture replace v129_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==47
-capture replace v129_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==48
-capture replace v129_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==49
-capture replace v129_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==50
-capture replace v129_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==51
-capture replace v129_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==52
-capture label variable v129_NEWVARIABLE `var_lab'
-capture label values v129_NEWVARIABLE `val_lab'
+capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==19
+capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==20
+capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==21
+capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==22
+capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==23
+capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==24
+capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==25
+capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==26
+capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==27
+capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==28
+capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==29
+capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==30
+capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==31
+capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==32
+capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==33
+capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==34
+capture replace v136_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==35
+capture replace v136_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==36
+capture replace v136_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==37
+capture replace v136_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==38
+capture replace v136_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==39
+capture replace v136_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==40
+capture replace v136_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==41
+capture replace v136_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==42
+capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==43
+capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==44
+capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==45
+capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==46
+capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==47
+capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==48
+capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==49
+capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==50
+capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==51
+capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==52
+capture label variable v136_NEWVARIABLE `var_lab'
+capture label values v136_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -21369,45 +22110,45 @@ capture label values v129_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v130_NEWVARIABLE = .
+gen v137_NEWVARIABLE = .
 local var_lab: variable label var129
 local val_lab: value label var129
-capture replace v130_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==19
-capture replace v130_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==20
-capture replace v130_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==21
-capture replace v130_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==22
-capture replace v130_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==23
-capture replace v130_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==24
-capture replace v130_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==25
-capture replace v130_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==26
-capture replace v130_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==27
-capture replace v130_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==28
-capture replace v130_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==29
-capture replace v130_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==30
-capture replace v130_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==31
-capture replace v130_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==32
-capture replace v130_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==33
-capture replace v130_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==34
-capture replace v130_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==35
-capture replace v130_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==36
-capture replace v130_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==37
-capture replace v130_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==38
-capture replace v130_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==39
-capture replace v130_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==40
-capture replace v130_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==41
-capture replace v130_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==42
-capture replace v130_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==43
-capture replace v130_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==44
-capture replace v130_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==45
-capture replace v130_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==46
-capture replace v130_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==47
-capture replace v130_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==48
-capture replace v130_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==49
-capture replace v130_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==50
-capture replace v130_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==51
-capture replace v130_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==52
-capture label variable v130_NEWVARIABLE `var_lab'
-capture label values v130_NEWVARIABLE `val_lab'
+capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==19
+capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==20
+capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==21
+capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==22
+capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==23
+capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==24
+capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==25
+capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==26
+capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==27
+capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==28
+capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==29
+capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==30
+capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==31
+capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==32
+capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==33
+capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==34
+capture replace v137_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==35
+capture replace v137_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==36
+capture replace v137_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==37
+capture replace v137_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==38
+capture replace v137_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==39
+capture replace v137_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==40
+capture replace v137_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==41
+capture replace v137_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==42
+capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==43
+capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==44
+capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==45
+capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==46
+capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==47
+capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==48
+capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==49
+capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==50
+capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==51
+capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==52
+capture label variable v137_NEWVARIABLE `var_lab'
+capture label values v137_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -21520,45 +22261,45 @@ capture label values v130_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v131_NEWVARIABLE = .
+gen v138_NEWVARIABLE = .
 local var_lab: variable label var130
 local val_lab: value label var130
-capture replace v131_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==19
-capture replace v131_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==20
-capture replace v131_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==21
-capture replace v131_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==22
-capture replace v131_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==23
-capture replace v131_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==24
-capture replace v131_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==25
-capture replace v131_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==26
-capture replace v131_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==27
-capture replace v131_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==28
-capture replace v131_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==29
-capture replace v131_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==30
-capture replace v131_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==31
-capture replace v131_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==32
-capture replace v131_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==33
-capture replace v131_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==34
-capture replace v131_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==35
-capture replace v131_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==36
-capture replace v131_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==37
-capture replace v131_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==38
-capture replace v131_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==39
-capture replace v131_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==40
-capture replace v131_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==41
-capture replace v131_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==42
-capture replace v131_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==43
-capture replace v131_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==44
-capture replace v131_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==45
-capture replace v131_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==46
-capture replace v131_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==47
-capture replace v131_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==48
-capture replace v131_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==49
-capture replace v131_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==50
-capture replace v131_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==51
-capture replace v131_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==52
-capture label variable v131_NEWVARIABLE `var_lab'
-capture label values v131_NEWVARIABLE `val_lab'
+capture replace v138_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==19
+capture replace v138_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==20
+capture replace v138_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==21
+capture replace v138_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==22
+capture replace v138_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==23
+capture replace v138_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==24
+capture replace v138_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==25
+capture replace v138_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==26
+capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==27
+capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==28
+capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==29
+capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==30
+capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==31
+capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==32
+capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==33
+capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==34
+capture replace v138_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==35
+capture replace v138_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==36
+capture replace v138_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==37
+capture replace v138_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==38
+capture replace v138_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==39
+capture replace v138_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==40
+capture replace v138_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==41
+capture replace v138_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==42
+capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==43
+capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==44
+capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==45
+capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==46
+capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==47
+capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==48
+capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==49
+capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==50
+capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==51
+capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==52
+capture label variable v138_NEWVARIABLE `var_lab'
+capture label values v138_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -21603,18 +22344,18 @@ capture label values v131_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 42): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 43): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 44): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 45): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 46): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 47): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 48): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 49): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 50): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 51): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 52): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -21657,53 +22398,41 @@ capture label values v131_NEWVARIABLE `val_lab'
     Values (Data 38): None
     Values (Data 39): None
     Values (Data 40): None
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v132_NEWVARIABLE = .
+gen v139_NEWVARIABLE = .
 local var_lab: variable label var131
 local val_lab: value label var131
-capture replace v132_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==19
-capture replace v132_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==20
-capture replace v132_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==21
-capture replace v132_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==22
-capture replace v132_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==23
-capture replace v132_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==24
-capture replace v132_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==25
-capture replace v132_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==26
-capture replace v132_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==27
-capture replace v132_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==28
-capture replace v132_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==29
-capture replace v132_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==30
-capture replace v132_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==31
-capture replace v132_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==32
-capture replace v132_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==33
-capture replace v132_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==34
-capture replace v132_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==41
-capture replace v132_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==42
-capture replace v132_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==43
-capture replace v132_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==44
-capture replace v132_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==45
-capture replace v132_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==46
-capture replace v132_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==47
-capture replace v132_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==48
-capture replace v132_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==49
-capture replace v132_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==50
-capture replace v132_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==51
-capture replace v132_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==52
-capture label variable v132_NEWVARIABLE `var_lab'
-capture label values v132_NEWVARIABLE `val_lab'
+capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==19
+capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==20
+capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==21
+capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==22
+capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==23
+capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==24
+capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==25
+capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==26
+capture replace v139_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==27
+capture replace v139_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==28
+capture replace v139_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==29
+capture replace v139_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==30
+capture replace v139_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==31
+capture replace v139_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==32
+capture replace v139_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==33
+capture replace v139_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==34
+capture label variable v139_NEWVARIABLE `var_lab'
+capture label values v139_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -21816,45 +22545,45 @@ capture label values v132_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v133_NEWVARIABLE = .
+gen v140_NEWVARIABLE = .
 local var_lab: variable label var132
 local val_lab: value label var132
-capture replace v133_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==19
-capture replace v133_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==20
-capture replace v133_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==21
-capture replace v133_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==22
-capture replace v133_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==23
-capture replace v133_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==24
-capture replace v133_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==25
-capture replace v133_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==26
-capture replace v133_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==27
-capture replace v133_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==28
-capture replace v133_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==29
-capture replace v133_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==30
-capture replace v133_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==31
-capture replace v133_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==32
-capture replace v133_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==33
-capture replace v133_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==34
-capture replace v133_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==35
-capture replace v133_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==36
-capture replace v133_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==37
-capture replace v133_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==38
-capture replace v133_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==39
-capture replace v133_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==40
-capture replace v133_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==41
-capture replace v133_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==42
-capture replace v133_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==43
-capture replace v133_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==44
-capture replace v133_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==45
-capture replace v133_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==46
-capture replace v133_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==47
-capture replace v133_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==48
-capture replace v133_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==49
-capture replace v133_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==50
-capture replace v133_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==51
-capture replace v133_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==52
-capture label variable v133_NEWVARIABLE `var_lab'
-capture label values v133_NEWVARIABLE `val_lab'
+capture replace v140_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==19
+capture replace v140_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==20
+capture replace v140_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==21
+capture replace v140_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==22
+capture replace v140_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==23
+capture replace v140_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==24
+capture replace v140_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==25
+capture replace v140_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==26
+capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==27
+capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==28
+capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==29
+capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==30
+capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==31
+capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==32
+capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==33
+capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==34
+capture replace v140_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==35
+capture replace v140_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==36
+capture replace v140_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==37
+capture replace v140_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==38
+capture replace v140_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==39
+capture replace v140_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==40
+capture replace v140_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==41
+capture replace v140_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==42
+capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==43
+capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==44
+capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==45
+capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==46
+capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==47
+capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==48
+capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==49
+capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==50
+capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==51
+capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==52
+capture label variable v140_NEWVARIABLE `var_lab'
+capture label values v140_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -21967,45 +22696,45 @@ capture label values v133_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v134_NEWVARIABLE = .
+gen v141_NEWVARIABLE = .
 local var_lab: variable label var133
 local val_lab: value label var133
-capture replace v134_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==19
-capture replace v134_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==20
-capture replace v134_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==21
-capture replace v134_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==22
-capture replace v134_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==23
-capture replace v134_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==24
-capture replace v134_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==25
-capture replace v134_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==26
-capture replace v134_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==27
-capture replace v134_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==28
-capture replace v134_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==29
-capture replace v134_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==30
-capture replace v134_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==31
-capture replace v134_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==32
-capture replace v134_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==33
-capture replace v134_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==34
-capture replace v134_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==35
-capture replace v134_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==36
-capture replace v134_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==37
-capture replace v134_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==38
-capture replace v134_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==39
-capture replace v134_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==40
-capture replace v134_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==41
-capture replace v134_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==42
-capture replace v134_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==43
-capture replace v134_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==44
-capture replace v134_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==45
-capture replace v134_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==46
-capture replace v134_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==47
-capture replace v134_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==48
-capture replace v134_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==49
-capture replace v134_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==50
-capture replace v134_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==51
-capture replace v134_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==52
-capture label variable v134_NEWVARIABLE `var_lab'
-capture label values v134_NEWVARIABLE `val_lab'
+capture replace v141_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==19
+capture replace v141_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==20
+capture replace v141_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==21
+capture replace v141_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==22
+capture replace v141_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==23
+capture replace v141_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==24
+capture replace v141_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==25
+capture replace v141_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==26
+capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==27
+capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==28
+capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==29
+capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==30
+capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==31
+capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==32
+capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==33
+capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==34
+capture replace v141_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==35
+capture replace v141_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==36
+capture replace v141_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==37
+capture replace v141_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==38
+capture replace v141_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==39
+capture replace v141_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==40
+capture replace v141_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==41
+capture replace v141_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==42
+capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==43
+capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==44
+capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==45
+capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==46
+capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==47
+capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==48
+capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==49
+capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==50
+capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==51
+capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==52
+capture label variable v141_NEWVARIABLE `var_lab'
+capture label values v141_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -22118,45 +22847,45 @@ capture label values v134_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v135_NEWVARIABLE = .
+gen v142_NEWVARIABLE = .
 local var_lab: variable label var134
 local val_lab: value label var134
-capture replace v135_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==19
-capture replace v135_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==20
-capture replace v135_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==21
-capture replace v135_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==22
-capture replace v135_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==23
-capture replace v135_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==24
-capture replace v135_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==25
-capture replace v135_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==26
-capture replace v135_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==27
-capture replace v135_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==28
-capture replace v135_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==29
-capture replace v135_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==30
-capture replace v135_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==31
-capture replace v135_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==32
-capture replace v135_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==33
-capture replace v135_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==34
-capture replace v135_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==35
-capture replace v135_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==36
-capture replace v135_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==37
-capture replace v135_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==38
-capture replace v135_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==39
-capture replace v135_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==40
-capture replace v135_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==41
-capture replace v135_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==42
-capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==43
-capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==44
-capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==45
-capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==46
-capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==47
-capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==48
-capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==49
-capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==50
-capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==51
-capture replace v135_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==52
-capture label variable v135_NEWVARIABLE `var_lab'
-capture label values v135_NEWVARIABLE `val_lab'
+capture replace v142_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==19
+capture replace v142_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==20
+capture replace v142_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==21
+capture replace v142_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==22
+capture replace v142_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==23
+capture replace v142_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==24
+capture replace v142_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==25
+capture replace v142_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==26
+capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==27
+capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==28
+capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==29
+capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==30
+capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==31
+capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==32
+capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==33
+capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==34
+capture replace v142_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==35
+capture replace v142_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==36
+capture replace v142_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==37
+capture replace v142_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==38
+capture replace v142_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==39
+capture replace v142_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==40
+capture replace v142_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==41
+capture replace v142_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==42
+capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==43
+capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==44
+capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==45
+capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==46
+capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==47
+capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==48
+capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==49
+capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==50
+capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==51
+capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==52
+capture label variable v142_NEWVARIABLE `var_lab'
+capture label values v142_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -22269,45 +22998,45 @@ capture label values v135_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v136_NEWVARIABLE = .
+gen v143_NEWVARIABLE = .
 local var_lab: variable label var135
 local val_lab: value label var135
-capture replace v136_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==19
-capture replace v136_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==20
-capture replace v136_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==21
-capture replace v136_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==22
-capture replace v136_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==23
-capture replace v136_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==24
-capture replace v136_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==25
-capture replace v136_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==26
-capture replace v136_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==27
-capture replace v136_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==28
-capture replace v136_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==29
-capture replace v136_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==30
-capture replace v136_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==31
-capture replace v136_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==32
-capture replace v136_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==33
-capture replace v136_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==34
-capture replace v136_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==35
-capture replace v136_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==36
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==37
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==38
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==39
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==40
-capture replace v136_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==41
-capture replace v136_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==42
-capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==43
-capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==44
-capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==45
-capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==46
-capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==47
-capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==48
-capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==49
-capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==50
-capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==51
-capture replace v136_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==52
-capture label variable v136_NEWVARIABLE `var_lab'
-capture label values v136_NEWVARIABLE `val_lab'
+capture replace v143_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==19
+capture replace v143_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==20
+capture replace v143_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==21
+capture replace v143_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==22
+capture replace v143_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==23
+capture replace v143_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==24
+capture replace v143_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==25
+capture replace v143_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==26
+capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==27
+capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==28
+capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==29
+capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==30
+capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==31
+capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==32
+capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==33
+capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==34
+capture replace v143_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==35
+capture replace v143_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==36
+capture replace v143_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==37
+capture replace v143_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==38
+capture replace v143_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==39
+capture replace v143_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==40
+capture replace v143_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==41
+capture replace v143_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==42
+capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==43
+capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==44
+capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==45
+capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==46
+capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==47
+capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==48
+capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==49
+capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==50
+capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==51
+capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==52
+capture label variable v143_NEWVARIABLE `var_lab'
+capture label values v143_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -22420,45 +23149,45 @@ capture label values v136_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v137_NEWVARIABLE = .
+gen v144_NEWVARIABLE = .
 local var_lab: variable label var136
 local val_lab: value label var136
-capture replace v137_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==19
-capture replace v137_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==20
-capture replace v137_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==21
-capture replace v137_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==22
-capture replace v137_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==23
-capture replace v137_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==24
-capture replace v137_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==25
-capture replace v137_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==26
-capture replace v137_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==27
-capture replace v137_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==28
-capture replace v137_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==29
-capture replace v137_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==30
-capture replace v137_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==31
-capture replace v137_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==32
-capture replace v137_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==33
-capture replace v137_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==34
-capture replace v137_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==35
-capture replace v137_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==36
-capture replace v137_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==37
-capture replace v137_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==38
-capture replace v137_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==39
-capture replace v137_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==40
-capture replace v137_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==41
-capture replace v137_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==42
-capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==43
-capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==44
-capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==45
-capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==46
-capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==47
-capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==48
-capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==49
-capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==50
-capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==51
-capture replace v137_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==52
-capture label variable v137_NEWVARIABLE `var_lab'
-capture label values v137_NEWVARIABLE `val_lab'
+capture replace v144_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==19
+capture replace v144_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==20
+capture replace v144_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==21
+capture replace v144_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==22
+capture replace v144_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==23
+capture replace v144_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==24
+capture replace v144_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==25
+capture replace v144_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==26
+capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==27
+capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==28
+capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==29
+capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==30
+capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==31
+capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==32
+capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==33
+capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==34
+capture replace v144_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==35
+capture replace v144_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==36
+capture replace v144_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==37
+capture replace v144_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==38
+capture replace v144_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==39
+capture replace v144_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==40
+capture replace v144_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==41
+capture replace v144_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==42
+capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==43
+capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==44
+capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==45
+capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==46
+capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==47
+capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==48
+capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==49
+capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==50
+capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==51
+capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==52
+capture label variable v144_NEWVARIABLE `var_lab'
+capture label values v144_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -22571,45 +23300,45 @@ capture label values v137_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v138_NEWVARIABLE = .
+gen v145_NEWVARIABLE = .
 local var_lab: variable label var137
 local val_lab: value label var137
-capture replace v138_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==19
-capture replace v138_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==20
-capture replace v138_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==21
-capture replace v138_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==22
-capture replace v138_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==23
-capture replace v138_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==24
-capture replace v138_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==25
-capture replace v138_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==26
-capture replace v138_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==27
-capture replace v138_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==28
-capture replace v138_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==29
-capture replace v138_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==30
-capture replace v138_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==31
-capture replace v138_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==32
-capture replace v138_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==33
-capture replace v138_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==34
-capture replace v138_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==35
-capture replace v138_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==36
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==37
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==38
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==39
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==40
-capture replace v138_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==41
-capture replace v138_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==42
-capture replace v138_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==43
-capture replace v138_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==44
-capture replace v138_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==45
-capture replace v138_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==46
-capture replace v138_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==47
-capture replace v138_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==48
-capture replace v138_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==49
-capture replace v138_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==50
-capture replace v138_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==51
-capture replace v138_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==52
-capture label variable v138_NEWVARIABLE `var_lab'
-capture label values v138_NEWVARIABLE `val_lab'
+capture replace v145_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==19
+capture replace v145_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==20
+capture replace v145_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==21
+capture replace v145_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==22
+capture replace v145_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==23
+capture replace v145_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==24
+capture replace v145_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==25
+capture replace v145_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==26
+capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==27
+capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==28
+capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==29
+capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==30
+capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==31
+capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==32
+capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==33
+capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==34
+capture replace v145_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==35
+capture replace v145_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==36
+capture replace v145_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==37
+capture replace v145_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==38
+capture replace v145_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==39
+capture replace v145_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==40
+capture replace v145_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==41
+capture replace v145_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==42
+capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==43
+capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==44
+capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==45
+capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==46
+capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==47
+capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==48
+capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==49
+capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==50
+capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==51
+capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==52
+capture label variable v145_NEWVARIABLE `var_lab'
+capture label values v145_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -22722,45 +23451,45 @@ capture label values v138_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v139_NEWVARIABLE = .
+gen v146_NEWVARIABLE = .
 local var_lab: variable label var138
 local val_lab: value label var138
-capture replace v139_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==19
-capture replace v139_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==20
-capture replace v139_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==21
-capture replace v139_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==22
-capture replace v139_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==23
-capture replace v139_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==24
-capture replace v139_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==25
-capture replace v139_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==26
-capture replace v139_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==27
-capture replace v139_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==28
-capture replace v139_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==29
-capture replace v139_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==30
-capture replace v139_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==31
-capture replace v139_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==32
-capture replace v139_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==33
-capture replace v139_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==34
-capture replace v139_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==35
-capture replace v139_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==36
-capture replace v139_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==37
-capture replace v139_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==38
-capture replace v139_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==39
-capture replace v139_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==40
-capture replace v139_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==41
-capture replace v139_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==42
-capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==43
-capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==44
-capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==45
-capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==46
-capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==47
-capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==48
-capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==49
-capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==50
-capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==51
-capture replace v139_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==52
-capture label variable v139_NEWVARIABLE `var_lab'
-capture label values v139_NEWVARIABLE `val_lab'
+capture replace v146_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==19
+capture replace v146_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==20
+capture replace v146_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==21
+capture replace v146_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==22
+capture replace v146_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==23
+capture replace v146_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==24
+capture replace v146_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==25
+capture replace v146_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==26
+capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==27
+capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==28
+capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==29
+capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==30
+capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==31
+capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==32
+capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==33
+capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==34
+capture replace v146_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==35
+capture replace v146_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==36
+capture replace v146_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==37
+capture replace v146_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==38
+capture replace v146_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==39
+capture replace v146_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==40
+capture replace v146_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==41
+capture replace v146_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==42
+capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==43
+capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==44
+capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==45
+capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==46
+capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==47
+capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==48
+capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==49
+capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==50
+capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==51
+capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==52
+capture label variable v146_NEWVARIABLE `var_lab'
+capture label values v146_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -22873,45 +23602,45 @@ capture label values v139_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v140_NEWVARIABLE = .
+gen v147_NEWVARIABLE = .
 local var_lab: variable label var139
 local val_lab: value label var139
-capture replace v140_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==19
-capture replace v140_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==20
-capture replace v140_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==21
-capture replace v140_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==22
-capture replace v140_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==23
-capture replace v140_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==24
-capture replace v140_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==25
-capture replace v140_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==26
-capture replace v140_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==27
-capture replace v140_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==28
-capture replace v140_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==29
-capture replace v140_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==30
-capture replace v140_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==31
-capture replace v140_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==32
-capture replace v140_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==33
-capture replace v140_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==34
-capture replace v140_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==35
-capture replace v140_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==36
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==37
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==38
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==39
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==40
-capture replace v140_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==41
-capture replace v140_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==42
-capture replace v140_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==43
-capture replace v140_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==44
-capture replace v140_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==45
-capture replace v140_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==46
-capture replace v140_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==47
-capture replace v140_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==48
-capture replace v140_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==49
-capture replace v140_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==50
-capture replace v140_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==51
-capture replace v140_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==52
-capture label variable v140_NEWVARIABLE `var_lab'
-capture label values v140_NEWVARIABLE `val_lab'
+capture replace v147_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==19
+capture replace v147_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==20
+capture replace v147_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==21
+capture replace v147_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==22
+capture replace v147_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==23
+capture replace v147_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==24
+capture replace v147_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==25
+capture replace v147_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==26
+capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==27
+capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==28
+capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==29
+capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==30
+capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==31
+capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==32
+capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==33
+capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==34
+capture replace v147_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==35
+capture replace v147_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==36
+capture replace v147_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==37
+capture replace v147_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==38
+capture replace v147_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==39
+capture replace v147_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==40
+capture replace v147_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==41
+capture replace v147_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==42
+capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==43
+capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==44
+capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==45
+capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==46
+capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==47
+capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==48
+capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==49
+capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==50
+capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==51
+capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==52
+capture label variable v147_NEWVARIABLE `var_lab'
+capture label values v147_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -22956,18 +23685,18 @@ capture label values v140_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 42): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 43): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 44): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 45): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 46): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 47): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 48): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 49): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 50): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 51): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
-    Description (Data 52): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -23010,53 +23739,41 @@ capture label values v140_NEWVARIABLE `val_lab'
     Values (Data 38): None
     Values (Data 39): None
     Values (Data 40): None
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v141_NEWVARIABLE = .
+gen v148_NEWVARIABLE = .
 local var_lab: variable label var140
 local val_lab: value label var140
-capture replace v141_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==19
-capture replace v141_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==20
-capture replace v141_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==21
-capture replace v141_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==22
-capture replace v141_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==23
-capture replace v141_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==24
-capture replace v141_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==25
-capture replace v141_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==26
-capture replace v141_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==27
-capture replace v141_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==28
-capture replace v141_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==29
-capture replace v141_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==30
-capture replace v141_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==31
-capture replace v141_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==32
-capture replace v141_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==33
-capture replace v141_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==34
-capture replace v141_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==41
-capture replace v141_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==42
-capture replace v141_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==43
-capture replace v141_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==44
-capture replace v141_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==45
-capture replace v141_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==46
-capture replace v141_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==47
-capture replace v141_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==48
-capture replace v141_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==49
-capture replace v141_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==50
-capture replace v141_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==51
-capture replace v141_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==52
-capture label variable v141_NEWVARIABLE `var_lab'
-capture label values v141_NEWVARIABLE `val_lab'
+capture replace v148_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==19
+capture replace v148_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==20
+capture replace v148_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==21
+capture replace v148_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==22
+capture replace v148_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==23
+capture replace v148_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==24
+capture replace v148_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==25
+capture replace v148_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==26
+capture replace v148_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==27
+capture replace v148_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==28
+capture replace v148_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==29
+capture replace v148_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==30
+capture replace v148_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==31
+capture replace v148_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==32
+capture replace v148_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==33
+capture replace v148_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==34
+capture label variable v148_NEWVARIABLE `var_lab'
+capture label values v148_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -23169,45 +23886,45 @@ capture label values v141_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v142_NEWVARIABLE = .
+gen v149_NEWVARIABLE = .
 local var_lab: variable label var141
 local val_lab: value label var141
-capture replace v142_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==19
-capture replace v142_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==20
-capture replace v142_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==21
-capture replace v142_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==22
-capture replace v142_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==23
-capture replace v142_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==24
-capture replace v142_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==25
-capture replace v142_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==26
-capture replace v142_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==27
-capture replace v142_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==28
-capture replace v142_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==29
-capture replace v142_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==30
-capture replace v142_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==31
-capture replace v142_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==32
-capture replace v142_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==33
-capture replace v142_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==34
-capture replace v142_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==35
-capture replace v142_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==36
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==37
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==38
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==39
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==40
-capture replace v142_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==41
-capture replace v142_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==42
-capture replace v142_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==43
-capture replace v142_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==44
-capture replace v142_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==45
-capture replace v142_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==46
-capture replace v142_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==47
-capture replace v142_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==48
-capture replace v142_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==49
-capture replace v142_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==50
-capture replace v142_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==51
-capture replace v142_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==52
-capture label variable v142_NEWVARIABLE `var_lab'
-capture label values v142_NEWVARIABLE `val_lab'
+capture replace v149_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==19
+capture replace v149_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==20
+capture replace v149_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==21
+capture replace v149_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==22
+capture replace v149_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==23
+capture replace v149_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==24
+capture replace v149_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==25
+capture replace v149_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==26
+capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==27
+capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==28
+capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==29
+capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==30
+capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==31
+capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==32
+capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==33
+capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==34
+capture replace v149_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==35
+capture replace v149_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==36
+capture replace v149_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==37
+capture replace v149_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==38
+capture replace v149_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==39
+capture replace v149_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==40
+capture replace v149_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==41
+capture replace v149_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==42
+capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==43
+capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==44
+capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==45
+capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==46
+capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==47
+capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==48
+capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==49
+capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==50
+capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==51
+capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==52
+capture label variable v149_NEWVARIABLE `var_lab'
+capture label values v149_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -23320,45 +24037,45 @@ capture label values v142_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v143_NEWVARIABLE = .
+gen v150_NEWVARIABLE = .
 local var_lab: variable label var142
 local val_lab: value label var142
-capture replace v143_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==19
-capture replace v143_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==20
-capture replace v143_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==21
-capture replace v143_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==22
-capture replace v143_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==23
-capture replace v143_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==24
-capture replace v143_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==25
-capture replace v143_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==26
-capture replace v143_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==27
-capture replace v143_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==28
-capture replace v143_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==29
-capture replace v143_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==30
-capture replace v143_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==31
-capture replace v143_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==32
-capture replace v143_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==33
-capture replace v143_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==34
-capture replace v143_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==35
-capture replace v143_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==36
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==37
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==38
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==39
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==40
-capture replace v143_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==41
-capture replace v143_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==42
-capture replace v143_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==43
-capture replace v143_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==44
-capture replace v143_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==45
-capture replace v143_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==46
-capture replace v143_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==47
-capture replace v143_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==48
-capture replace v143_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==49
-capture replace v143_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==50
-capture replace v143_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==51
-capture replace v143_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==52
-capture label variable v143_NEWVARIABLE `var_lab'
-capture label values v143_NEWVARIABLE `val_lab'
+capture replace v150_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==19
+capture replace v150_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==20
+capture replace v150_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==21
+capture replace v150_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==22
+capture replace v150_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==23
+capture replace v150_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==24
+capture replace v150_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==25
+capture replace v150_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==26
+capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==27
+capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==28
+capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==29
+capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==30
+capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==31
+capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==32
+capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==33
+capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==34
+capture replace v150_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==35
+capture replace v150_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==36
+capture replace v150_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==37
+capture replace v150_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==38
+capture replace v150_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==39
+capture replace v150_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==40
+capture replace v150_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==41
+capture replace v150_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==42
+capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==43
+capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==44
+capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==45
+capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==46
+capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==47
+capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==48
+capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==49
+capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==50
+capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==51
+capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==52
+capture label variable v150_NEWVARIABLE `var_lab'
+capture label values v150_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -23471,45 +24188,45 @@ capture label values v143_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v144_NEWVARIABLE = .
+gen v151_NEWVARIABLE = .
 local var_lab: variable label var143
 local val_lab: value label var143
-capture replace v144_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==19
-capture replace v144_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==20
-capture replace v144_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==21
-capture replace v144_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==22
-capture replace v144_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==23
-capture replace v144_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==24
-capture replace v144_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==25
-capture replace v144_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==26
-capture replace v144_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==27
-capture replace v144_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==28
-capture replace v144_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==29
-capture replace v144_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==30
-capture replace v144_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==31
-capture replace v144_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==32
-capture replace v144_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==33
-capture replace v144_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==34
-capture replace v144_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==35
-capture replace v144_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==36
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==37
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==38
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==39
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==40
-capture replace v144_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==41
-capture replace v144_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==42
-capture replace v144_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==43
-capture replace v144_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==44
-capture replace v144_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==45
-capture replace v144_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==46
-capture replace v144_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==47
-capture replace v144_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==48
-capture replace v144_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==49
-capture replace v144_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==50
-capture replace v144_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==51
-capture replace v144_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==52
-capture label variable v144_NEWVARIABLE `var_lab'
-capture label values v144_NEWVARIABLE `val_lab'
+capture replace v151_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==19
+capture replace v151_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==20
+capture replace v151_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==21
+capture replace v151_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==22
+capture replace v151_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==23
+capture replace v151_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==24
+capture replace v151_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==25
+capture replace v151_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==26
+capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==27
+capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==28
+capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==29
+capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==30
+capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==31
+capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==32
+capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==33
+capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==34
+capture replace v151_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==35
+capture replace v151_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==36
+capture replace v151_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==37
+capture replace v151_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==38
+capture replace v151_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==39
+capture replace v151_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==40
+capture replace v151_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==41
+capture replace v151_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==42
+capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==43
+capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==44
+capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==45
+capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==46
+capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==47
+capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==48
+capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==49
+capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==50
+capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==51
+capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==52
+capture label variable v151_NEWVARIABLE `var_lab'
+capture label values v151_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -23622,45 +24339,45 @@ capture label values v144_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v145_NEWVARIABLE = .
+gen v152_NEWVARIABLE = .
 local var_lab: variable label var144
 local val_lab: value label var144
-capture replace v145_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==19
-capture replace v145_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==20
-capture replace v145_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==21
-capture replace v145_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==22
-capture replace v145_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==23
-capture replace v145_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==24
-capture replace v145_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==25
-capture replace v145_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==26
-capture replace v145_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==27
-capture replace v145_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==28
-capture replace v145_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==29
-capture replace v145_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==30
-capture replace v145_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==31
-capture replace v145_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==32
-capture replace v145_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==33
-capture replace v145_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==34
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==35
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==36
-capture replace v145_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==37
-capture replace v145_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==38
-capture replace v145_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==39
-capture replace v145_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==40
-capture replace v145_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==41
-capture replace v145_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==42
-capture replace v145_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==43
-capture replace v145_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==44
-capture replace v145_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==45
-capture replace v145_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==46
-capture replace v145_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==47
-capture replace v145_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==48
-capture replace v145_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==49
-capture replace v145_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==50
-capture replace v145_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==51
-capture replace v145_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==52
-capture label variable v145_NEWVARIABLE `var_lab'
-capture label values v145_NEWVARIABLE `val_lab'
+capture replace v152_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==19
+capture replace v152_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==20
+capture replace v152_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==21
+capture replace v152_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==22
+capture replace v152_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==23
+capture replace v152_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==24
+capture replace v152_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==25
+capture replace v152_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==26
+capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==27
+capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==28
+capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==29
+capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==30
+capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==31
+capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==32
+capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==33
+capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==34
+capture replace v152_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==35
+capture replace v152_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==36
+capture replace v152_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==37
+capture replace v152_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==38
+capture replace v152_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==39
+capture replace v152_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==40
+capture replace v152_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==41
+capture replace v152_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==42
+capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==43
+capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==44
+capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==45
+capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==46
+capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==47
+capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==48
+capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==49
+capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==50
+capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==51
+capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==52
+capture label variable v152_NEWVARIABLE `var_lab'
+capture label values v152_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -23773,45 +24490,45 @@ capture label values v145_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v146_NEWVARIABLE = .
+gen v153_NEWVARIABLE = .
 local var_lab: variable label var145
 local val_lab: value label var145
-capture replace v146_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==19
-capture replace v146_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==20
-capture replace v146_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==21
-capture replace v146_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==22
-capture replace v146_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==23
-capture replace v146_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==24
-capture replace v146_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==25
-capture replace v146_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==26
-capture replace v146_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==27
-capture replace v146_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==28
-capture replace v146_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==29
-capture replace v146_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==30
-capture replace v146_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==31
-capture replace v146_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==32
-capture replace v146_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==33
-capture replace v146_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==34
-capture replace v146_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==35
-capture replace v146_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==36
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==37
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==38
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==39
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==40
-capture replace v146_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==41
-capture replace v146_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==42
-capture replace v146_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==43
-capture replace v146_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==44
-capture replace v146_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==45
-capture replace v146_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==46
-capture replace v146_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==47
-capture replace v146_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==48
-capture replace v146_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==49
-capture replace v146_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==50
-capture replace v146_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==51
-capture replace v146_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==52
-capture label variable v146_NEWVARIABLE `var_lab'
-capture label values v146_NEWVARIABLE `val_lab'
+capture replace v153_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==19
+capture replace v153_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==20
+capture replace v153_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==21
+capture replace v153_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==22
+capture replace v153_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==23
+capture replace v153_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==24
+capture replace v153_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==25
+capture replace v153_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==26
+capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==27
+capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==28
+capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==29
+capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==30
+capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==31
+capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==32
+capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==33
+capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==34
+capture replace v153_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==35
+capture replace v153_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==36
+capture replace v153_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==37
+capture replace v153_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==38
+capture replace v153_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==39
+capture replace v153_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==40
+capture replace v153_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==41
+capture replace v153_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==42
+capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==43
+capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==44
+capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==45
+capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==46
+capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==47
+capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==48
+capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==49
+capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==50
+capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==51
+capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==52
+capture label variable v153_NEWVARIABLE `var_lab'
+capture label values v153_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -23856,18 +24573,18 @@ capture label values v146_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数16うちパート7: 運輸・通信"
     Description (Data 39): "職業別常用労働者数16うちパート7: 運輸・通信"
     Description (Data 40): "職業別常用労働者数16うちパート7: 運輸・通信"
-    Description (Data 41): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 42): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 43): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 44): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 45): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 46): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 47): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 48): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 49): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 50): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 51): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
-    Description (Data 52): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 41): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 42): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 43): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 44): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 45): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 46): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 47): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 48): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 49): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 50): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 51): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 52): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
 
     Values (Base):    
     Values (Data 1):  None
@@ -23924,45 +24641,45 @@ capture label values v146_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v147_NEWVARIABLE = .
+gen v154_NEWVARIABLE = .
 local var_lab: variable label var146
 local val_lab: value label var146
-capture replace v147_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==19
-capture replace v147_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==20
-capture replace v147_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==21
-capture replace v147_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==22
-capture replace v147_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==23
-capture replace v147_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==24
-capture replace v147_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==25
-capture replace v147_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==26
-capture replace v147_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==27
-capture replace v147_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==28
-capture replace v147_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==29
-capture replace v147_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==30
-capture replace v147_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==31
-capture replace v147_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==32
-capture replace v147_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==33
-capture replace v147_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==34
-capture replace v147_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==35
-capture replace v147_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==36
-capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==37
-capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==38
-capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==39
-capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==40
-capture replace v147_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==41
-capture replace v147_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==42
-capture replace v147_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==43
-capture replace v147_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==44
-capture replace v147_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==45
-capture replace v147_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==46
-capture replace v147_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==47
-capture replace v147_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==48
-capture replace v147_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==49
-capture replace v147_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==50
-capture replace v147_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==51
-capture replace v147_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==52
-capture label variable v147_NEWVARIABLE `var_lab'
-capture label values v147_NEWVARIABLE `val_lab'
+capture replace v154_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==19
+capture replace v154_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==20
+capture replace v154_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==21
+capture replace v154_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==22
+capture replace v154_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==23
+capture replace v154_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==24
+capture replace v154_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==25
+capture replace v154_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==26
+capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==27
+capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==28
+capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==29
+capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==30
+capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==31
+capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==32
+capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==33
+capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==34
+capture replace v154_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==35
+capture replace v154_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==36
+capture replace v154_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==37
+capture replace v154_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==38
+capture replace v154_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==39
+capture replace v154_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==40
+capture replace v154_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==41
+capture replace v154_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==42
+capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==43
+capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==44
+capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==45
+capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==46
+capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==47
+capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==48
+capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==49
+capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==50
+capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==51
+capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==52
+capture label variable v154_NEWVARIABLE `var_lab'
+capture label values v154_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -24075,45 +24792,45 @@ capture label values v147_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v148_NEWVARIABLE = .
+gen v155_NEWVARIABLE = .
 local var_lab: variable label var147
 local val_lab: value label var147
-capture replace v148_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==19
-capture replace v148_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==20
-capture replace v148_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==21
-capture replace v148_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==22
-capture replace v148_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==23
-capture replace v148_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==24
-capture replace v148_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==25
-capture replace v148_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==26
-capture replace v148_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==27
-capture replace v148_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==28
-capture replace v148_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==29
-capture replace v148_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==30
-capture replace v148_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==31
-capture replace v148_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==32
-capture replace v148_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==33
-capture replace v148_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==34
-capture replace v148_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==35
-capture replace v148_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==36
-capture replace v148_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==37
-capture replace v148_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==38
-capture replace v148_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==39
-capture replace v148_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==40
-capture replace v148_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==41
-capture replace v148_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==42
-capture replace v148_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==43
-capture replace v148_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==44
-capture replace v148_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==45
-capture replace v148_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==46
-capture replace v148_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==47
-capture replace v148_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==48
-capture replace v148_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==49
-capture replace v148_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==50
-capture replace v148_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==51
-capture replace v148_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==52
-capture label variable v148_NEWVARIABLE `var_lab'
-capture label values v148_NEWVARIABLE `val_lab'
+capture replace v155_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==19
+capture replace v155_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==20
+capture replace v155_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==21
+capture replace v155_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==22
+capture replace v155_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==23
+capture replace v155_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==24
+capture replace v155_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==25
+capture replace v155_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==26
+capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==27
+capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==28
+capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==29
+capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==30
+capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==31
+capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==32
+capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==33
+capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==34
+capture replace v155_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==35
+capture replace v155_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==36
+capture replace v155_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==37
+capture replace v155_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==38
+capture replace v155_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==39
+capture replace v155_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==40
+capture replace v155_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==41
+capture replace v155_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==42
+capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==43
+capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==44
+capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==45
+capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==46
+capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==47
+capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==48
+capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==49
+capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==50
+capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==51
+capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==52
+capture label variable v155_NEWVARIABLE `var_lab'
+capture label values v155_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -24226,45 +24943,45 @@ capture label values v148_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v149_NEWVARIABLE = .
+gen v156_NEWVARIABLE = .
 local var_lab: variable label var148
 local val_lab: value label var148
-capture replace v149_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==19
-capture replace v149_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==20
-capture replace v149_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==21
-capture replace v149_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==22
-capture replace v149_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==23
-capture replace v149_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==24
-capture replace v149_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==25
-capture replace v149_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==26
-capture replace v149_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==27
-capture replace v149_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==28
-capture replace v149_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==29
-capture replace v149_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==30
-capture replace v149_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==31
-capture replace v149_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==32
-capture replace v149_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==33
-capture replace v149_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==34
-capture replace v149_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==35
-capture replace v149_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==36
-capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==37
-capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==38
-capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==39
-capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==40
-capture replace v149_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==41
-capture replace v149_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==42
-capture replace v149_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==43
-capture replace v149_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==44
-capture replace v149_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==45
-capture replace v149_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==46
-capture replace v149_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==47
-capture replace v149_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==48
-capture replace v149_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==49
-capture replace v149_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==50
-capture replace v149_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==51
-capture replace v149_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==52
-capture label variable v149_NEWVARIABLE `var_lab'
-capture label values v149_NEWVARIABLE `val_lab'
+capture replace v156_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==19
+capture replace v156_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==20
+capture replace v156_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==21
+capture replace v156_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==22
+capture replace v156_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==23
+capture replace v156_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==24
+capture replace v156_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==25
+capture replace v156_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==26
+capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==27
+capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==28
+capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==29
+capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==30
+capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==31
+capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==32
+capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==33
+capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==34
+capture replace v156_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==35
+capture replace v156_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==36
+capture replace v156_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==37
+capture replace v156_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==38
+capture replace v156_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==39
+capture replace v156_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==40
+capture replace v156_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==41
+capture replace v156_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==42
+capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==43
+capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==44
+capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==45
+capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==46
+capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==47
+capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==48
+capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==49
+capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==50
+capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==51
+capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==52
+capture label variable v156_NEWVARIABLE `var_lab'
+capture label values v156_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -24309,18 +25026,18 @@ capture label values v149_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 42): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 43): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 44): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 45): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 46): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 47): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 48): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 49): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 50): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 51): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 52): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -24363,53 +25080,41 @@ capture label values v149_NEWVARIABLE `val_lab'
     Values (Data 38): None
     Values (Data 39): None
     Values (Data 40): None
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v150_NEWVARIABLE = .
+gen v157_NEWVARIABLE = .
 local var_lab: variable label var149
 local val_lab: value label var149
-capture replace v150_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==19
-capture replace v150_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==20
-capture replace v150_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==21
-capture replace v150_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==22
-capture replace v150_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==23
-capture replace v150_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==24
-capture replace v150_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==25
-capture replace v150_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==26
-capture replace v150_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==27
-capture replace v150_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==28
-capture replace v150_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==29
-capture replace v150_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==30
-capture replace v150_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==31
-capture replace v150_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==32
-capture replace v150_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==33
-capture replace v150_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==34
-capture replace v150_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==41
-capture replace v150_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==42
-capture replace v150_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==43
-capture replace v150_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==44
-capture replace v150_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==45
-capture replace v150_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==46
-capture replace v150_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==47
-capture replace v150_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==48
-capture replace v150_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==49
-capture replace v150_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==50
-capture replace v150_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==51
-capture replace v150_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==52
-capture label variable v150_NEWVARIABLE `var_lab'
-capture label values v150_NEWVARIABLE `val_lab'
+capture replace v157_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==19
+capture replace v157_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==20
+capture replace v157_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==21
+capture replace v157_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==22
+capture replace v157_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==23
+capture replace v157_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==24
+capture replace v157_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==25
+capture replace v157_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==26
+capture replace v157_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==27
+capture replace v157_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==28
+capture replace v157_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==29
+capture replace v157_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==30
+capture replace v157_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==31
+capture replace v157_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==32
+capture replace v157_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==33
+capture replace v157_NEWVARIABLE = var162  if flag_tmp_NEWVARIABLE==34
+capture label variable v157_NEWVARIABLE `var_lab'
+capture label values v157_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -24522,19 +25227,19 @@ capture label values v150_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v151_NEWVARIABLE = .
+gen v158_NEWVARIABLE = .
 local var_lab: variable label var5
 local val_lab: value label var5
-capture replace v151_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==27
-capture replace v151_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==28
-capture replace v151_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==29
-capture replace v151_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==30
-capture replace v151_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==31
-capture replace v151_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==32
-capture replace v151_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==33
-capture replace v151_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==34
-capture label variable v151_NEWVARIABLE `var_lab'
-capture label values v151_NEWVARIABLE `val_lab'
+capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==27
+capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==28
+capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==29
+capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==30
+capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==31
+capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==32
+capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==33
+capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==34
+capture label variable v158_NEWVARIABLE `var_lab'
+capture label values v158_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -24647,19 +25352,19 @@ capture label values v151_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v152_NEWVARIABLE = .
+gen v159_NEWVARIABLE = .
 local var_lab: variable label var6
 local val_lab: value label var6
-capture replace v152_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==27
-capture replace v152_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==28
-capture replace v152_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==29
-capture replace v152_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==30
-capture replace v152_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==31
-capture replace v152_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==32
-capture replace v152_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==33
-capture replace v152_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==34
-capture label variable v152_NEWVARIABLE `var_lab'
-capture label values v152_NEWVARIABLE `val_lab'
+capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==27
+capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==28
+capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==29
+capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==30
+capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==31
+capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==32
+capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==33
+capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==34
+capture label variable v159_NEWVARIABLE `var_lab'
+capture label values v159_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -24772,19 +25477,19 @@ capture label values v152_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v153_NEWVARIABLE = .
+gen v160_NEWVARIABLE = .
 local var_lab: variable label var12
 local val_lab: value label var12
-capture replace v153_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==27
-capture replace v153_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==28
-capture replace v153_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==29
-capture replace v153_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==30
-capture replace v153_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==31
-capture replace v153_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==32
-capture replace v153_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==33
-capture replace v153_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==34
-capture label variable v153_NEWVARIABLE `var_lab'
-capture label values v153_NEWVARIABLE `val_lab'
+capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==27
+capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==28
+capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==29
+capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==30
+capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==31
+capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==32
+capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==33
+capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==34
+capture label variable v160_NEWVARIABLE `var_lab'
+capture label values v160_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -24897,19 +25602,19 @@ capture label values v153_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v154_NEWVARIABLE = .
+gen v161_NEWVARIABLE = .
 local var_lab: variable label var14
 local val_lab: value label var14
-capture replace v154_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==27
-capture replace v154_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==28
-capture replace v154_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==29
-capture replace v154_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==30
-capture replace v154_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==31
-capture replace v154_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==32
-capture replace v154_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==33
-capture replace v154_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==34
-capture label variable v154_NEWVARIABLE `var_lab'
-capture label values v154_NEWVARIABLE `val_lab'
+capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==27
+capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==28
+capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==29
+capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==30
+capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==31
+capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==32
+capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==33
+capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==34
+capture label variable v161_NEWVARIABLE `var_lab'
+capture label values v161_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25022,19 +25727,19 @@ capture label values v154_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v155_NEWVARIABLE = .
+gen v162_NEWVARIABLE = .
 local var_lab: variable label var17
 local val_lab: value label var17
-capture replace v155_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==27
-capture replace v155_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==28
-capture replace v155_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==29
-capture replace v155_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==30
-capture replace v155_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==31
-capture replace v155_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==32
-capture replace v155_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==33
-capture replace v155_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==34
-capture label variable v155_NEWVARIABLE `var_lab'
-capture label values v155_NEWVARIABLE `val_lab'
+capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==27
+capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==28
+capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==29
+capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==30
+capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==31
+capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==32
+capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==33
+capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==34
+capture label variable v162_NEWVARIABLE `var_lab'
+capture label values v162_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25147,19 +25852,19 @@ capture label values v155_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v156_NEWVARIABLE = .
+gen v163_NEWVARIABLE = .
 local var_lab: variable label var22
 local val_lab: value label var22
-capture replace v156_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==27
-capture replace v156_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==28
-capture replace v156_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==29
-capture replace v156_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==30
-capture replace v156_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==31
-capture replace v156_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==32
-capture replace v156_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==33
-capture replace v156_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==34
-capture label variable v156_NEWVARIABLE `var_lab'
-capture label values v156_NEWVARIABLE `val_lab'
+capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==27
+capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==28
+capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==29
+capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==30
+capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==31
+capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==32
+capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==33
+capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==34
+capture label variable v163_NEWVARIABLE `var_lab'
+capture label values v163_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25272,19 +25977,19 @@ capture label values v156_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v157_NEWVARIABLE = .
+gen v164_NEWVARIABLE = .
 local var_lab: variable label var23
 local val_lab: value label var23
-capture replace v157_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==27
-capture replace v157_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==28
-capture replace v157_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==29
-capture replace v157_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==30
-capture replace v157_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==31
-capture replace v157_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==32
-capture replace v157_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==33
-capture replace v157_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==34
-capture label variable v157_NEWVARIABLE `var_lab'
-capture label values v157_NEWVARIABLE `val_lab'
+capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==27
+capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==28
+capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==29
+capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==30
+capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==31
+capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==32
+capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==33
+capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==34
+capture label variable v164_NEWVARIABLE `var_lab'
+capture label values v164_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25397,19 +26102,19 @@ capture label values v157_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v158_NEWVARIABLE = .
+gen v165_NEWVARIABLE = .
 local var_lab: variable label var24
 local val_lab: value label var24
-capture replace v158_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==27
-capture replace v158_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==28
-capture replace v158_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==29
-capture replace v158_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==30
-capture replace v158_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==31
-capture replace v158_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==32
-capture replace v158_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==33
-capture replace v158_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==34
-capture label variable v158_NEWVARIABLE `var_lab'
-capture label values v158_NEWVARIABLE `val_lab'
+capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==27
+capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==28
+capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==29
+capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==30
+capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==31
+capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==32
+capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==33
+capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==34
+capture label variable v165_NEWVARIABLE `var_lab'
+capture label values v165_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25522,19 +26227,19 @@ capture label values v158_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v159_NEWVARIABLE = .
+gen v166_NEWVARIABLE = .
 local var_lab: variable label var26
 local val_lab: value label var26
-capture replace v159_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==27
-capture replace v159_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==28
-capture replace v159_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==29
-capture replace v159_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==30
-capture replace v159_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==31
-capture replace v159_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==32
-capture replace v159_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==33
-capture replace v159_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==34
-capture label variable v159_NEWVARIABLE `var_lab'
-capture label values v159_NEWVARIABLE `val_lab'
+capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==27
+capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==28
+capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==29
+capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==30
+capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==31
+capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==32
+capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==33
+capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==34
+capture label variable v166_NEWVARIABLE `var_lab'
+capture label values v166_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25647,37 +26352,37 @@ capture label values v159_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v160_NEWVARIABLE = .
+gen v167_NEWVARIABLE = .
 local var_lab: variable label var128
 local val_lab: value label var128
-capture replace v160_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==27
-capture replace v160_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==28
-capture replace v160_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==29
-capture replace v160_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==30
-capture replace v160_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==31
-capture replace v160_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==32
-capture replace v160_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==33
-capture replace v160_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==34
-capture replace v160_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==35
-capture replace v160_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==36
-capture replace v160_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==37
-capture replace v160_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==38
-capture replace v160_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==39
-capture replace v160_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==40
-capture replace v160_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==41
-capture replace v160_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==42
-capture replace v160_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==43
-capture replace v160_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==44
-capture replace v160_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==45
-capture replace v160_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==46
-capture replace v160_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==47
-capture replace v160_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==48
-capture replace v160_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==49
-capture replace v160_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==50
-capture replace v160_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==51
-capture replace v160_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==52
-capture label variable v160_NEWVARIABLE `var_lab'
-capture label values v160_NEWVARIABLE `val_lab'
+capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==27
+capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==28
+capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==29
+capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==30
+capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==31
+capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==32
+capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==33
+capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==34
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==35
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==36
+capture replace v167_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==37
+capture replace v167_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==38
+capture replace v167_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==39
+capture replace v167_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==40
+capture replace v167_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==41
+capture replace v167_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==42
+capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==43
+capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==44
+capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==45
+capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==46
+capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==47
+capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==48
+capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==49
+capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==50
+capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==51
+capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==52
+capture label variable v167_NEWVARIABLE `var_lab'
+capture label values v167_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25790,37 +26495,37 @@ capture label values v160_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v161_NEWVARIABLE = .
+gen v168_NEWVARIABLE = .
 local var_lab: variable label var138
 local val_lab: value label var138
-capture replace v161_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==27
-capture replace v161_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==28
-capture replace v161_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==29
-capture replace v161_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==30
-capture replace v161_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==31
-capture replace v161_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==32
-capture replace v161_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==33
-capture replace v161_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==34
-capture replace v161_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==35
-capture replace v161_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==36
-capture replace v161_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==37
-capture replace v161_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==38
-capture replace v161_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==39
-capture replace v161_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==40
-capture replace v161_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==41
-capture replace v161_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==42
-capture replace v161_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==43
-capture replace v161_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==44
-capture replace v161_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==45
-capture replace v161_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==46
-capture replace v161_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==47
-capture replace v161_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==48
-capture replace v161_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==49
-capture replace v161_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==50
-capture replace v161_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==51
-capture replace v161_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==52
-capture label variable v161_NEWVARIABLE `var_lab'
-capture label values v161_NEWVARIABLE `val_lab'
+capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==27
+capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==28
+capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==29
+capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==30
+capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==31
+capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==32
+capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==33
+capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==34
+capture replace v168_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==35
+capture replace v168_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==36
+capture replace v168_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==37
+capture replace v168_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==38
+capture replace v168_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==39
+capture replace v168_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==40
+capture replace v168_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==41
+capture replace v168_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==42
+capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==43
+capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==44
+capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==45
+capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==46
+capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==47
+capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==48
+capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==49
+capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==50
+capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==51
+capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==52
+capture label variable v168_NEWVARIABLE `var_lab'
+capture label values v168_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25933,37 +26638,37 @@ capture label values v161_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v162_NEWVARIABLE = .
+gen v169_NEWVARIABLE = .
 local var_lab: variable label var148
 local val_lab: value label var148
-capture replace v162_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==27
-capture replace v162_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==28
-capture replace v162_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==29
-capture replace v162_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==30
-capture replace v162_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==31
-capture replace v162_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==32
-capture replace v162_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==33
-capture replace v162_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==34
-capture replace v162_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==35
-capture replace v162_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==36
-capture replace v162_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==37
-capture replace v162_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==38
-capture replace v162_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==39
-capture replace v162_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==40
-capture replace v162_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==41
-capture replace v162_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==42
-capture replace v162_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==43
-capture replace v162_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==44
-capture replace v162_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==45
-capture replace v162_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==46
-capture replace v162_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==47
-capture replace v162_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==48
-capture replace v162_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==49
-capture replace v162_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==50
-capture replace v162_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==51
-capture replace v162_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==52
-capture label variable v162_NEWVARIABLE `var_lab'
-capture label values v162_NEWVARIABLE `val_lab'
+capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==27
+capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==28
+capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==29
+capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==30
+capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==31
+capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==32
+capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==33
+capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==34
+capture replace v169_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==35
+capture replace v169_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==36
+capture replace v169_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==37
+capture replace v169_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==38
+capture replace v169_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==39
+capture replace v169_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==40
+capture replace v169_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==41
+capture replace v169_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==42
+capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==43
+capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==44
+capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==45
+capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==46
+capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==47
+capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==48
+capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==49
+capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==50
+capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==51
+capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==52
+capture label variable v169_NEWVARIABLE `var_lab'
+capture label values v169_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -26076,37 +26781,37 @@ capture label values v162_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v163_NEWVARIABLE = .
+gen v170_NEWVARIABLE = .
 local var_lab: variable label var158
 local val_lab: value label var158
-capture replace v163_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==27
-capture replace v163_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==28
-capture replace v163_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==29
-capture replace v163_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==30
-capture replace v163_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==31
-capture replace v163_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==32
-capture replace v163_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==33
-capture replace v163_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==34
-capture replace v163_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==35
-capture replace v163_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==36
-capture replace v163_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==37
-capture replace v163_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==38
-capture replace v163_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==39
-capture replace v163_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==40
-capture replace v163_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==41
-capture replace v163_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==42
-capture replace v163_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==43
-capture replace v163_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==44
-capture replace v163_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==45
-capture replace v163_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==46
-capture replace v163_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==47
-capture replace v163_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==48
-capture replace v163_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==49
-capture replace v163_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==50
-capture replace v163_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==51
-capture replace v163_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==52
-capture label variable v163_NEWVARIABLE `var_lab'
-capture label values v163_NEWVARIABLE `val_lab'
+capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==27
+capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==28
+capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==29
+capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==30
+capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==31
+capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==32
+capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==33
+capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==34
+capture replace v170_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==35
+capture replace v170_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==36
+capture replace v170_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==37
+capture replace v170_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==38
+capture replace v170_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==39
+capture replace v170_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==40
+capture replace v170_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==41
+capture replace v170_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==42
+capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==43
+capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==44
+capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==45
+capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==46
+capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==47
+capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==48
+capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==49
+capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==50
+capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==51
+capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==52
+capture label variable v170_NEWVARIABLE `var_lab'
+capture label values v170_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -26219,35 +26924,35 @@ capture label values v163_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v164_NEWVARIABLE = .
+gen v171_NEWVARIABLE = .
 local var_lab: variable label var163
 local val_lab: value label var163
-capture replace v164_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==28
-capture replace v164_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==30
-capture replace v164_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==31
-capture replace v164_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==32
-capture replace v164_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==33
-capture replace v164_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==34
-capture replace v164_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==35
-capture replace v164_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==36
-capture replace v164_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==37
-capture replace v164_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==38
-capture replace v164_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==39
-capture replace v164_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==40
-capture replace v164_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==41
-capture replace v164_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==42
-capture replace v164_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==43
-capture replace v164_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==44
-capture replace v164_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==45
-capture replace v164_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==46
-capture replace v164_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==47
-capture replace v164_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==48
-capture replace v164_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==49
-capture replace v164_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==50
-capture replace v164_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==51
-capture replace v164_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==52
-capture label variable v164_NEWVARIABLE `var_lab'
-capture label values v164_NEWVARIABLE `val_lab'
+capture replace v171_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==28
+capture replace v171_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==30
+capture replace v171_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==31
+capture replace v171_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==32
+capture replace v171_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==33
+capture replace v171_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==34
+capture replace v171_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==35
+capture replace v171_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==36
+capture replace v171_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==37
+capture replace v171_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==38
+capture replace v171_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==39
+capture replace v171_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==40
+capture replace v171_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==41
+capture replace v171_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==42
+capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==43
+capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==44
+capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==45
+capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==46
+capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==47
+capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==48
+capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==49
+capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==50
+capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==51
+capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==52
+capture label variable v171_NEWVARIABLE `var_lab'
+capture label values v171_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -26360,35 +27065,35 @@ capture label values v164_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v165_NEWVARIABLE = .
+gen v172_NEWVARIABLE = .
 local var_lab: variable label var164
 local val_lab: value label var164
-capture replace v165_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==28
-capture replace v165_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==30
-capture replace v165_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==31
-capture replace v165_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==32
-capture replace v165_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==33
-capture replace v165_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==34
-capture replace v165_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==35
-capture replace v165_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==36
-capture replace v165_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==37
-capture replace v165_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==38
-capture replace v165_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==39
-capture replace v165_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==40
-capture replace v165_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==41
-capture replace v165_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==42
-capture replace v165_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==43
-capture replace v165_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==44
-capture replace v165_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==45
-capture replace v165_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==46
-capture replace v165_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==47
-capture replace v165_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==48
-capture replace v165_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==49
-capture replace v165_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==50
-capture replace v165_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==51
-capture replace v165_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==52
-capture label variable v165_NEWVARIABLE `var_lab'
-capture label values v165_NEWVARIABLE `val_lab'
+capture replace v172_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==28
+capture replace v172_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==30
+capture replace v172_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==31
+capture replace v172_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==32
+capture replace v172_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==33
+capture replace v172_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==34
+capture replace v172_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==35
+capture replace v172_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==36
+capture replace v172_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==37
+capture replace v172_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==38
+capture replace v172_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==39
+capture replace v172_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==40
+capture replace v172_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==41
+capture replace v172_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==42
+capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==43
+capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==44
+capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==45
+capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==46
+capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==47
+capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==48
+capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==49
+capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==50
+capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==51
+capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==52
+capture label variable v172_NEWVARIABLE `var_lab'
+capture label values v172_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -26501,29 +27206,29 @@ capture label values v165_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v166_NEWVARIABLE = .
+gen v173_NEWVARIABLE = .
 local var_lab: variable label var4
 local val_lab: value label var4
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==35
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==36
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==37
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==38
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==39
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==40
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==41
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==42
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==43
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==44
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==45
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==46
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==47
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==48
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==49
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==50
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==51
-capture replace v166_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==52
-capture label variable v166_NEWVARIABLE `var_lab'
-capture label values v166_NEWVARIABLE `val_lab'
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==35
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==36
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==37
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==38
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==39
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==40
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==41
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==42
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==43
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==44
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==45
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==46
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==47
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==48
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==49
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==50
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==51
+capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==52
+capture label variable v173_NEWVARIABLE `var_lab'
+capture label values v173_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -26636,29 +27341,29 @@ capture label values v166_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v167_NEWVARIABLE = .
+gen v174_NEWVARIABLE = .
 local var_lab: variable label var6
 local val_lab: value label var6
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==35
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==36
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==37
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==38
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==39
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==40
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==41
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==42
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==43
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==44
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==45
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==46
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==47
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==48
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==49
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==50
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==51
-capture replace v167_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==52
-capture label variable v167_NEWVARIABLE `var_lab'
-capture label values v167_NEWVARIABLE `val_lab'
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==35
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==36
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==37
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==38
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==39
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==40
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==41
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==42
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==43
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==44
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==45
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==46
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==47
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==48
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==49
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==50
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==51
+capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==52
+capture label variable v174_NEWVARIABLE `var_lab'
+capture label values v174_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -26771,13 +27476,1045 @@ capture label values v167_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v168_NEWVARIABLE = .
+gen v175_NEWVARIABLE = .
 local var_lab: variable label var138
 local val_lab: value label var138
-capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==37
-capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==38
-capture label variable v168_NEWVARIABLE `var_lab'
-capture label values v168_NEWVARIABLE `val_lab'
+capture replace v175_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==37
+capture replace v175_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==38
+capture label variable v175_NEWVARIABLE `var_lab'
+capture label values v175_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 42): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 43): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 44): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 45): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 46): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 47): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 48): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 49): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 50): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 51): "異動状況: 17うち、4~6(10~12)月離職者"
+    Description (Data 52): "異動状況: 17うち、4~6(10~12)月離職者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v176_NEWVARIABLE = .
+local var_lab: variable label var56
+local val_lab: value label var56
+capture replace v176_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==41
+capture replace v176_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==42
+capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==43
+capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==44
+capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==45
+capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==46
+capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==47
+capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==48
+capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==49
+capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==50
+capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==51
+capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==52
+capture label variable v176_NEWVARIABLE `var_lab'
+capture label values v176_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 42): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 43): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 44): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 45): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 46): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 47): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 48): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 49): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 50): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 51): "異動状況: 18うち、4~6(10~12)月出向者"
+    Description (Data 52): "異動状況: 18うち、4~6(10~12)月出向者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v177_NEWVARIABLE = .
+local var_lab: variable label var57
+local val_lab: value label var57
+capture replace v177_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==41
+capture replace v177_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==42
+capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==43
+capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==44
+capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==45
+capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==46
+capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==47
+capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==48
+capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==49
+capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==50
+capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==51
+capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==52
+capture label variable v177_NEWVARIABLE `var_lab'
+capture label values v177_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 42): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 43): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 44): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 45): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 46): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 47): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 48): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 49): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 50): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 51): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+    Description (Data 52): "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v178_NEWVARIABLE = .
+local var_lab: variable label var109
+local val_lab: value label var109
+capture replace v178_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==41
+capture replace v178_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==42
+capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==43
+capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==44
+capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==45
+capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==46
+capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==47
+capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==48
+capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==49
+capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==50
+capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==51
+capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==52
+capture label variable v178_NEWVARIABLE `var_lab'
+capture label values v178_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 42): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 43): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 44): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 45): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 46): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 47): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 48): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 49): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 50): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 51): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+    Description (Data 52): "職業別常用労働者数13常用労働者10: 運搬・清掃・包装等従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v179_NEWVARIABLE = .
+local var_lab: variable label var111
+local val_lab: value label var111
+capture replace v179_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==41
+capture replace v179_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==42
+capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==43
+capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==44
+capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==45
+capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==46
+capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==47
+capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==48
+capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==49
+capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==50
+capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==51
+capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==52
+capture label variable v179_NEWVARIABLE `var_lab'
+capture label values v179_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 42): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 43): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 44): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 45): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 46): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 47): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 48): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 49): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 50): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 51): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+    Description (Data 52): "職業別常用労働者数14うちパートタイム09: 建設・採掘従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v180_NEWVARIABLE = .
+local var_lab: variable label var121
+local val_lab: value label var121
+capture replace v180_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==41
+capture replace v180_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==42
+capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==43
+capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==44
+capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==45
+capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==46
+capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==47
+capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==48
+capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==49
+capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==50
+capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==51
+capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==52
+capture label variable v180_NEWVARIABLE `var_lab'
+capture label values v180_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 42): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 43): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 44): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 45): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 46): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 47): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 48): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 49): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 50): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 51): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+    Description (Data 52): "職業別常用労働者数15未充足求人数08: 輸送・機械運転従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v181_NEWVARIABLE = .
+local var_lab: variable label var131
+local val_lab: value label var131
+capture replace v181_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==41
+capture replace v181_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==42
+capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==43
+capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==44
+capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==45
+capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==46
+capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==47
+capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==48
+capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==49
+capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==50
+capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==51
+capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==52
+capture label variable v181_NEWVARIABLE `var_lab'
+capture label values v181_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 42): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 43): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 44): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 45): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 46): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 47): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 48): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 49): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 50): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 51): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+    Description (Data 52): "職業別常用労働者数15未充足求人数10: 運搬・清掃・包装等従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v182_NEWVARIABLE = .
+local var_lab: variable label var133
+local val_lab: value label var133
+capture replace v182_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==41
+capture replace v182_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==42
+capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==43
+capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==44
+capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==45
+capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==46
+capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==47
+capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==48
+capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==49
+capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==50
+capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==51
+capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==52
+capture label variable v182_NEWVARIABLE `var_lab'
+capture label values v182_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 42): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 43): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 44): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 45): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 46): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 47): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 48): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 49): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 50): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 51): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+    Description (Data 52): "職業別常用労働者数16うちパートタイム09: 建設・採掘従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v183_NEWVARIABLE = .
+local var_lab: variable label var143
+local val_lab: value label var143
+capture replace v183_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==41
+capture replace v183_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==42
+capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==43
+capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==44
+capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==45
+capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==46
+capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==47
+capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==48
+capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==49
+capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==50
+capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==51
+capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==52
+capture label variable v183_NEWVARIABLE `var_lab'
+capture label values v183_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -26890,23 +28627,23 @@ capture label values v168_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v169_NEWVARIABLE = .
+gen v184_NEWVARIABLE = .
 local var_lab: variable label var148
 local val_lab: value label var148
-capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==41
-capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==42
-capture replace v169_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==43
-capture replace v169_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==44
-capture replace v169_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==45
-capture replace v169_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==46
-capture replace v169_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==47
-capture replace v169_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==48
-capture replace v169_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==49
-capture replace v169_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==50
-capture replace v169_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==51
-capture replace v169_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==52
-capture label variable v169_NEWVARIABLE `var_lab'
-capture label values v169_NEWVARIABLE `val_lab'
+capture replace v184_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==41
+capture replace v184_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==42
+capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==43
+capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==44
+capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==45
+capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==46
+capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==47
+capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==48
+capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==49
+capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==50
+capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==51
+capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==52
+capture label variable v184_NEWVARIABLE `var_lab'
+capture label values v184_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27019,23 +28756,150 @@ capture label values v169_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v170_NEWVARIABLE = .
+gen v185_NEWVARIABLE = .
 local var_lab: variable label var149
 local val_lab: value label var149
-capture replace v170_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==41
-capture replace v170_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==42
-capture replace v170_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==43
-capture replace v170_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==44
-capture replace v170_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==45
-capture replace v170_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==46
-capture replace v170_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==47
-capture replace v170_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==48
-capture replace v170_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==49
-capture replace v170_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==50
-capture replace v170_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==51
-capture replace v170_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==52
-capture label variable v170_NEWVARIABLE `var_lab'
-capture label values v170_NEWVARIABLE `val_lab'
+capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==41
+capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==42
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==43
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==44
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==45
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==46
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==47
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==48
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==49
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==50
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==51
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==52
+capture label variable v185_NEWVARIABLE `var_lab'
+capture label values v185_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "共通項目: 層番号"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): "共通項目: 層番号"
+    Description (Data 44): "共通項目: 層番号"
+    Description (Data 45): "共通項目: 層番号"
+    Description (Data 46): "共通項目: 層番号"
+    Description (Data 47): "共通項目: 層番号"
+    Description (Data 48): "共通項目: 層番号"
+    Description (Data 49): "共通項目: 層番号"
+    Description (Data 50): "共通項目: 層番号"
+    Description (Data 51): "共通項目: 層番号"
+    Description (Data 52): "共通項目: 層番号"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v186_NEWVARIABLE = .
+local var_lab: variable label var14
+local val_lab: value label var14
+capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==43
+capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==44
+capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==45
+capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==46
+capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==47
+capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==48
+capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==49
+capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==50
+capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==51
+capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==52
+capture label variable v186_NEWVARIABLE `var_lab'
+capture label values v186_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27148,19 +29012,144 @@ capture label values v170_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v171_NEWVARIABLE = .
+gen v187_NEWVARIABLE = .
 local var_lab: variable label var151
 local val_lab: value label var151
-capture replace v171_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==45
-capture replace v171_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==46
-capture replace v171_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==47
-capture replace v171_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==48
-capture replace v171_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==49
-capture replace v171_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==50
-capture replace v171_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==51
-capture replace v171_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==52
-capture label variable v171_NEWVARIABLE `var_lab'
-capture label values v171_NEWVARIABLE `val_lab'
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==45
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==46
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==47
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==48
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==49
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==50
+capture replace v187_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==51
+capture replace v187_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==52
+capture label variable v187_NEWVARIABLE `var_lab'
+capture label values v187_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "日本標準産業分類: 中分類"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): "日本標準産業分類: 中分類"
+    Description (Data 46): "日本標準産業分類: 中分類"
+    Description (Data 47): "日本標準産業分類: 中分類"
+    Description (Data 48): "日本標準産業分類: 中分類"
+    Description (Data 49): "日本標準産業分類: 中分類"
+    Description (Data 50): "日本標準産業分類: 中分類"
+    Description (Data 51): "日本標準産業分類: 中分類"
+    Description (Data 52): "日本標準産業分類: 中分類"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v188_NEWVARIABLE = .
+local var_lab: variable label var152
+local val_lab: value label var152
+capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==45
+capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==46
+capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==47
+capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==48
+capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==49
+capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==50
+capture replace v188_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==51
+capture replace v188_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==52
+capture label variable v188_NEWVARIABLE `var_lab'
+capture label values v188_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27273,19 +29262,19 @@ capture label values v171_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v172_NEWVARIABLE = .
+gen v189_NEWVARIABLE = .
 local var_lab: variable label var153
 local val_lab: value label var153
-capture replace v172_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==45
-capture replace v172_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==46
-capture replace v172_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==47
-capture replace v172_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==48
-capture replace v172_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==49
-capture replace v172_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==50
-capture replace v172_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==51
-capture replace v172_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==52
-capture label variable v172_NEWVARIABLE `var_lab'
-capture label values v172_NEWVARIABLE `val_lab'
+capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==45
+capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==46
+capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==47
+capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==48
+capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==49
+capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==50
+capture replace v189_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==51
+capture replace v189_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==52
+capture label variable v189_NEWVARIABLE `var_lab'
+capture label values v189_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27398,13 +29387,13 @@ capture label values v172_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 打鍵データ
 
 ----------------------------------------------------------------------*/
-gen v173_NEWVARIABLE = .
+gen v190_NEWVARIABLE = .
 local var_lab: variable label var151
 local val_lab: value label var151
-capture replace v173_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==51
-capture replace v173_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==52
-capture label variable v173_NEWVARIABLE `var_lab'
-capture label values v173_NEWVARIABLE `val_lab'
+capture replace v190_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==51
+capture replace v190_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==52
+capture label variable v190_NEWVARIABLE `var_lab'
+capture label values v190_NEWVARIABLE `val_lab'
 
 
 keep *_NEWVARIABLE
