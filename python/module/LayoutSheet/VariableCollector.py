@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import sys
 
 class Variable:
 
@@ -42,9 +43,16 @@ class VariableCollector:
                 kaiso = int(float(kaiso))
                 del self.current_group[kaiso-1:]
                 self.current_group.append(komoku)
-                
-        kaiso_next = int(float(self.field.GetValue(row_next, 'kaiso')))
-        del self.current_group[kaiso_next-1:]
+        
+#        print(str(self.field.GetValue(row_next, 'kaiso')))
+        try:
+            kaiso_next = int(float(self.field.GetValue(row_next, 'kaiso')))
+            del self.current_group[kaiso_next-1:]
+        except ValueError:
+            print(
+                'Kaiso is empty: ' + self.field.GetValue(row_next, 'varname')
+            )
+            sys.exit()
     
     def __GetVarGroup__(self):
         group = ''

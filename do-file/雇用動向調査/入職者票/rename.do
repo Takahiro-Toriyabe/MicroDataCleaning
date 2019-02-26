@@ -28,66 +28,102 @@
 
 
     Source: 
-    Date: 2019/02/26 01:23:02
+    Date: 2019/02/26 16:06:21
 ----------------------------------------------------------------------*/
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "調査IDT"
-    Description (Data 1):  "調査IDT"
-    Description (Data 2):  "調査IDT"
-    Description (Data 3):  "調査IDT"
-    Description (Data 4):  "調査IDT"
-    Description (Data 5):  "調査IDT"
-    Description (Data 6):  "調査IDT"
-    Description (Data 7):  "調査IDT"
-    Description (Data 8):  "調査IDT"
-    Description (Data 9):  "調査IDT"
-    Description (Data 10): "調査IDT"
-    Description (Data 11): "調査情報: 調査IDT"
-    Description (Data 12): "調査情報: 調査IDT"
-    Description (Data 13): "調査情報: 調査IDT"
-    Description (Data 14): "調査情報: 調査IDT"
-    Description (Data 15): "調査情報: 調査IDT"
-    Description (Data 16): "調査情報: 調査IDT"
-    Description (Data 17): "調査情報: 調査IDT"
-    Description (Data 18): "調査情報: 調査IDT"
-    Description (Data 19): "調査情報: 調査IDT"
-    Description (Data 20): "調査情報: 調査IDT"
-    Description (Data 21): "調査情報: 調査IDT"
-    Description (Data 22): "調査情報: 調査IDT"
-    Description (Data 23): "調査情報: 調査IDT"
-    Description (Data 24): "調査情報: 調査IDT"
-    Description (Data 25): "調査情報: 調査IDT"
-    Description (Data 26): "調査情報: 調査IDT"
+    Description (Base):    "共通項目集計ID: 業務分類"
+    Description (Data 1):  "共通項目集計ID: 業務分類"
+    Description (Data 2):  "共通項目集計ID: 業務分類"
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  "個人項目就業の経験: 分類表14"
+    Description (Data 10): "個人項目就業の経験: 分類表14"
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):   3: 就業の経験:2、卒業年度:1,学歴:1, 4: 就業の経験:3、卒業年度:1,学歴:2, 5: 就業の経験:2、卒業年度:2,学歴:3, 6: 就業の経験:3、卒業年度:2,学歴:4, 7: 就業の経験:1、卒業年度:1,学歴:5,6, 8: 就業の経験:1、卒業年度:2
+    Values (Data 10):  3: 就業の経験:2、卒業年度:1,学歴:1, 4: 就業の経験:3、卒業年度:1,学歴:2, 5: 就業の経験:2、卒業年度:2,学歴:3, 6: 就業の経験:3、卒業年度:2,学歴:4, 7: 就業の経験:1、卒業年度:1,学歴:5,6, 8: 就業の経験:1、卒業年度:2
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v1_NEWVARIABLE = .
@@ -95,90 +131,104 @@ local var_lab: variable label var1
 local val_lab: value label var1
 capture replace v1_NEWVARIABLE = var1  if `data'==1
 capture replace v1_NEWVARIABLE = var1  if `data'==2
-capture replace v1_NEWVARIABLE = var1  if `data'==3
-capture replace v1_NEWVARIABLE = var1  if `data'==4
-capture replace v1_NEWVARIABLE = var1  if `data'==5
-capture replace v1_NEWVARIABLE = var1  if `data'==6
-capture replace v1_NEWVARIABLE = var1  if `data'==7
-capture replace v1_NEWVARIABLE = var1  if `data'==8
-capture replace v1_NEWVARIABLE = var1  if `data'==9
-capture replace v1_NEWVARIABLE = var1  if `data'==10
-capture replace v1_NEWVARIABLE = var1  if `data'==11
-capture replace v1_NEWVARIABLE = var1  if `data'==12
-capture replace v1_NEWVARIABLE = var1  if `data'==13
-capture replace v1_NEWVARIABLE = var1  if `data'==14
-capture replace v1_NEWVARIABLE = var1  if `data'==15
-capture replace v1_NEWVARIABLE = var1  if `data'==16
-capture replace v1_NEWVARIABLE = var1  if `data'==17
-capture replace v1_NEWVARIABLE = var1  if `data'==18
-capture replace v1_NEWVARIABLE = var1  if `data'==19
-capture replace v1_NEWVARIABLE = var1  if `data'==20
-capture replace v1_NEWVARIABLE = var1  if `data'==21
-capture replace v1_NEWVARIABLE = var1  if `data'==22
-capture replace v1_NEWVARIABLE = var1  if `data'==23
-capture replace v1_NEWVARIABLE = var1  if `data'==24
-capture replace v1_NEWVARIABLE = var1  if `data'==25
-capture replace v1_NEWVARIABLE = var1  if `data'==26
+capture replace v1_NEWVARIABLE = var34  if `data'==9
+capture replace v1_NEWVARIABLE = var34  if `data'==10
 capture label variable v1_NEWVARIABLE `var_lab'
 capture label values v1_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "調査年月: 調査年"
-    Description (Data 1):  "調査年月: 調査年"
-    Description (Data 2):  "調査年月: 調査年"
-    Description (Data 3):  "調査年月: 調査年"
-    Description (Data 4):  "調査年月: 調査年"
-    Description (Data 5):  "調査年月: 調査年"
-    Description (Data 6):  "調査年月: 調査年"
-    Description (Data 7):  "調査年月: 調査年"
-    Description (Data 8):  "調査年月: 調査年"
-    Description (Data 9):  "調査年"
-    Description (Data 10): "調査年"
-    Description (Data 11): "調査情報: 調査年"
-    Description (Data 12): "調査情報: 調査年"
-    Description (Data 13): "調査情報: 調査年"
-    Description (Data 14): "調査情報: 調査年"
-    Description (Data 15): "調査情報: 調査年"
-    Description (Data 16): "調査情報: 調査年"
-    Description (Data 17): "調査情報: 調査年"
-    Description (Data 18): "調査情報: 調査年"
-    Description (Data 19): "調査情報: 調査年"
-    Description (Data 20): "調査情報: 調査年"
-    Description (Data 21): "調査情報: 調査年"
-    Description (Data 22): "調査情報: 調査年"
-    Description (Data 23): "調査情報: 調査年"
-    Description (Data 24): "調査情報: 調査年"
-    Description (Data 25): "調査情報: 調査年"
-    Description (Data 26): "調査情報: 調査年"
+    Description (Base):    "共通項目集計ID: 調査集計名"
+    Description (Data 1):  "共通項目集計ID: 調査集計名"
+    Description (Data 2):  "共通項目集計ID: 調査集計名"
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):   2007: 
-    Values (Data 8):   2007: 
-    Values (Data 9):   2008: 
-    Values (Data 10):  2008: 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v2_NEWVARIABLE = .
@@ -186,62 +236,304 @@ local var_lab: variable label var2
 local val_lab: value label var2
 capture replace v2_NEWVARIABLE = var2  if `data'==1
 capture replace v2_NEWVARIABLE = var2  if `data'==2
-capture replace v2_NEWVARIABLE = var2  if `data'==3
-capture replace v2_NEWVARIABLE = var2  if `data'==4
-capture replace v2_NEWVARIABLE = var2  if `data'==5
-capture replace v2_NEWVARIABLE = var2  if `data'==6
-capture replace v2_NEWVARIABLE = var2  if `data'==7
-capture replace v2_NEWVARIABLE = var2  if `data'==8
-capture replace v2_NEWVARIABLE = var2  if `data'==9
-capture replace v2_NEWVARIABLE = var2  if `data'==10
-capture replace v2_NEWVARIABLE = var2  if `data'==11
-capture replace v2_NEWVARIABLE = var2  if `data'==12
-capture replace v2_NEWVARIABLE = var2  if `data'==13
-capture replace v2_NEWVARIABLE = var2  if `data'==14
-capture replace v2_NEWVARIABLE = var2  if `data'==15
-capture replace v2_NEWVARIABLE = var2  if `data'==16
-capture replace v2_NEWVARIABLE = var2  if `data'==17
-capture replace v2_NEWVARIABLE = var2  if `data'==18
-capture replace v2_NEWVARIABLE = var2  if `data'==19
-capture replace v2_NEWVARIABLE = var2  if `data'==20
-capture replace v2_NEWVARIABLE = var2  if `data'==21
-capture replace v2_NEWVARIABLE = var2  if `data'==22
-capture replace v2_NEWVARIABLE = var2  if `data'==23
-capture replace v2_NEWVARIABLE = var2  if `data'==24
-capture replace v2_NEWVARIABLE = var2  if `data'==25
-capture replace v2_NEWVARIABLE = var2  if `data'==26
 capture label variable v2_NEWVARIABLE `var_lab'
 capture label values v2_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "調査年月: 調査月"
-    Description (Data 1):  "調査年月: 調査月"
-    Description (Data 2):  "調査年月: 調査月"
+    Description (Base):    "共通項目集計ID: 調査実施年"
+    Description (Data 1):  "共通項目集計ID: 調査実施年"
+    Description (Data 2):  "共通項目集計ID: 調査実施年"
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v3_NEWVARIABLE = .
+local var_lab: variable label var3
+local val_lab: value label var3
+capture replace v3_NEWVARIABLE = var3  if `data'==1
+capture replace v3_NEWVARIABLE = var3  if `data'==2
+capture label variable v3_NEWVARIABLE `var_lab'
+capture label values v3_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "共通項目調査年月: 年"
+    Description (Data 1):  "共通項目調査年月: 年"
+    Description (Data 2):  "共通項目調査年月: 年"
+    Description (Data 3):  "調査年月: 西暦年"
+    Description (Data 4):  "調査年月: 西暦年"
+    Description (Data 5):  "調査年月: 西暦年"
+    Description (Data 6):  "調査年月: 西暦年"
+    Description (Data 7):  "調査年月: 西暦年"
+    Description (Data 8):  "調査年月: 西暦年"
+    Description (Data 9):  "調査年月: 西暦年"
+    Description (Data 10): "調査年月: 西暦年"
+    Description (Data 11): "調査年月: 西暦年"
+    Description (Data 12): "調査年月: 西暦年"
+    Description (Data 13): "調査年月: 西暦年"
+    Description (Data 14): "調査年月: 西暦年"
+    Description (Data 15): "調査年月: 西暦年"
+    Description (Data 16): "調査年月: 西暦年"
+    Description (Data 17): "調査年月: 西暦年"
+    Description (Data 18): "調査年月: 西暦年"
+    Description (Data 19): "調査年月: 調査年"
+    Description (Data 20): "調査年月: 調査年"
+    Description (Data 21): "調査年月: 調査年"
+    Description (Data 22): "調査年月: 調査年"
+    Description (Data 23): "調査年月: 調査年"
+    Description (Data 24): "調査年月: 調査年"
+    Description (Data 25): "調査年月: 調査年"
+    Description (Data 26): "調査年月: 調査年"
+    Description (Data 27): "調査年"
+    Description (Data 28): "調査年"
+    Description (Data 29): "調査情報: 調査年"
+    Description (Data 30): "調査情報: 調査年"
+    Description (Data 31): "調査情報: 調査年"
+    Description (Data 32): "調査情報: 調査年"
+    Description (Data 33): "調査情報: 調査年"
+    Description (Data 34): "調査情報: 調査年"
+    Description (Data 35): "調査情報: 調査年"
+    Description (Data 36): "調査情報: 調査年"
+    Description (Data 37): "調査情報: 調査年"
+    Description (Data 38): "調査情報: 調査年"
+    Description (Data 39): "調査情報: 調査年"
+    Description (Data 40): "調査情報: 調査年"
+    Description (Data 41): "調査情報: 調査年"
+    Description (Data 42): "調査情報: 調査年"
+    Description (Data 43): "調査情報: 調査年"
+    Description (Data 44): "調査情報: 調査年"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):   1996: 
+    Values (Data 4):   1996: 
+    Values (Data 5):   1996: 
+    Values (Data 6):   1996: 
+    Values (Data 7):   1998: 
+    Values (Data 8):   1998: 
+    Values (Data 9):   1999: 
+    Values (Data 10):  1999: 
+    Values (Data 11):  2000: 
+    Values (Data 12):  2000: 
+    Values (Data 13):  2001: 
+    Values (Data 14):  2001: 
+    Values (Data 15):  2002: 
+    Values (Data 16):  2002: 
+    Values (Data 17):  2003: 
+    Values (Data 18):  2003: 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25):  2007: 
+    Values (Data 26):  2007: 
+    Values (Data 27):  2008: 
+    Values (Data 28):  2008: 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+
+----------------------------------------------------------------------*/
+gen v4_NEWVARIABLE = .
+local var_lab: variable label var4
+local val_lab: value label var4
+capture replace v4_NEWVARIABLE = var4  if `data'==1
+capture replace v4_NEWVARIABLE = var4  if `data'==2
+capture replace v4_NEWVARIABLE = var2  if `data'==3
+capture replace v4_NEWVARIABLE = var2  if `data'==4
+capture replace v4_NEWVARIABLE = var2  if `data'==5
+capture replace v4_NEWVARIABLE = var2  if `data'==6
+capture replace v4_NEWVARIABLE = var2  if `data'==7
+capture replace v4_NEWVARIABLE = var2  if `data'==8
+capture replace v4_NEWVARIABLE = var2  if `data'==9
+capture replace v4_NEWVARIABLE = var2  if `data'==10
+capture replace v4_NEWVARIABLE = var2  if `data'==11
+capture replace v4_NEWVARIABLE = var2  if `data'==12
+capture replace v4_NEWVARIABLE = var2  if `data'==13
+capture replace v4_NEWVARIABLE = var2  if `data'==14
+capture replace v4_NEWVARIABLE = var2  if `data'==15
+capture replace v4_NEWVARIABLE = var2  if `data'==16
+capture replace v4_NEWVARIABLE = var2  if `data'==17
+capture replace v4_NEWVARIABLE = var2  if `data'==18
+capture replace v4_NEWVARIABLE = var2  if `data'==19
+capture replace v4_NEWVARIABLE = var2  if `data'==20
+capture replace v4_NEWVARIABLE = var2  if `data'==21
+capture replace v4_NEWVARIABLE = var2  if `data'==22
+capture replace v4_NEWVARIABLE = var2  if `data'==23
+capture replace v4_NEWVARIABLE = var2  if `data'==24
+capture replace v4_NEWVARIABLE = var2  if `data'==25
+capture replace v4_NEWVARIABLE = var2  if `data'==26
+capture replace v4_NEWVARIABLE = var2  if `data'==27
+capture replace v4_NEWVARIABLE = var2  if `data'==28
+capture replace v4_NEWVARIABLE = var2  if `data'==29
+capture replace v4_NEWVARIABLE = var2  if `data'==30
+capture replace v4_NEWVARIABLE = var2  if `data'==31
+capture replace v4_NEWVARIABLE = var2  if `data'==32
+capture replace v4_NEWVARIABLE = var2  if `data'==33
+capture replace v4_NEWVARIABLE = var2  if `data'==34
+capture replace v4_NEWVARIABLE = var2  if `data'==35
+capture replace v4_NEWVARIABLE = var2  if `data'==36
+capture replace v4_NEWVARIABLE = var2  if `data'==37
+capture replace v4_NEWVARIABLE = var2  if `data'==38
+capture replace v4_NEWVARIABLE = var2  if `data'==39
+capture replace v4_NEWVARIABLE = var2  if `data'==40
+capture replace v4_NEWVARIABLE = var2  if `data'==41
+capture replace v4_NEWVARIABLE = var2  if `data'==42
+capture replace v4_NEWVARIABLE = var2  if `data'==43
+capture replace v4_NEWVARIABLE = var2  if `data'==44
+capture label variable v4_NEWVARIABLE `var_lab'
+capture label values v4_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "共通項目調査年月: 月(期)"
+    Description (Data 1):  "共通項目調査年月: 月(期)"
+    Description (Data 2):  "共通項目調査年月: 月(期)"
     Description (Data 3):  "調査年月: 調査月"
     Description (Data 4):  "調査年月: 調査月"
     Description (Data 5):  "調査年月: 調査月"
     Description (Data 6):  "調査年月: 調査月"
     Description (Data 7):  "調査年月: 調査月"
     Description (Data 8):  "調査年月: 調査月"
-    Description (Data 9):  "調査月"
-    Description (Data 10): "調査月"
-    Description (Data 11): "調査情報: 調査月"
-    Description (Data 12): "調査情報: 調査月"
-    Description (Data 13): "調査情報: 調査月"
-    Description (Data 14): "調査情報: 調査月"
-    Description (Data 15): "調査情報: 調査月"
-    Description (Data 16): "調査情報: 調査月"
-    Description (Data 17): "調査情報: 調査月"
-    Description (Data 18): "調査情報: 調査月"
-    Description (Data 19): "調査情報: 調査月"
-    Description (Data 20): "調査情報: 調査月"
-    Description (Data 21): "調査情報: 調査月"
-    Description (Data 22): "調査情報: 調査月"
-    Description (Data 23): "調査情報: 調査月"
-    Description (Data 24): "調査情報: 調査月"
-    Description (Data 25): "調査情報: 調査月"
-    Description (Data 26): "調査情報: 調査月"
+    Description (Data 9):  "調査年月: 調査月"
+    Description (Data 10): "調査年月: 調査月"
+    Description (Data 11): "調査年月: 調査月"
+    Description (Data 12): "調査年月: 調査月"
+    Description (Data 13): "調査年月: 調査月"
+    Description (Data 14): "調査年月: 調査月"
+    Description (Data 15): "調査年月: 調査月"
+    Description (Data 16): "調査年月: 調査月"
+    Description (Data 17): "調査年月: 調査月"
+    Description (Data 18): "調査年月: 調査月"
+    Description (Data 19): "調査年月: 調査月"
+    Description (Data 20): "調査年月: 調査月"
+    Description (Data 21): "調査年月: 調査月"
+    Description (Data 22): "調査年月: 調査月"
+    Description (Data 23): "調査年月: 調査月"
+    Description (Data 24): "調査年月: 調査月"
+    Description (Data 25): "調査年月: 調査月"
+    Description (Data 26): "調査年月: 調査月"
+    Description (Data 27): "調査月"
+    Description (Data 28): "調査月"
+    Description (Data 29): "調査情報: 調査月"
+    Description (Data 30): "調査情報: 調査月"
+    Description (Data 31): "調査情報: 調査月"
+    Description (Data 32): "調査情報: 調査月"
+    Description (Data 33): "調査情報: 調査月"
+    Description (Data 34): "調査情報: 調査月"
+    Description (Data 35): "調査情報: 調査月"
+    Description (Data 36): "調査情報: 調査月"
+    Description (Data 37): "調査情報: 調査月"
+    Description (Data 38): "調査情報: 調査月"
+    Description (Data 39): "調査情報: 調査月"
+    Description (Data 40): "調査情報: 調査月"
+    Description (Data 41): "調査情報: 調査月"
+    Description (Data 42): "調査情報: 調査月"
+    Description (Data 43): "調査情報: 調査月"
+    Description (Data 44): "調査情報: 調査月"
 
     Values (Base):     1: 上半期, 7: 下半期
     Values (Data 1):   1: 上半期, 7: 下半期
@@ -254,77 +546,113 @@ capture label values v2_NEWVARIABLE `val_lab'
     Values (Data 8):   1: 上半期, 7: 下半期
     Values (Data 9):   1: 上半期, 7: 下半期
     Values (Data 10):  1: 上半期, 7: 下半期
-    Values (Data 11):  1: 上期, 7: 下期
-    Values (Data 12):  1: 上期, 7: 下期
-    Values (Data 13):  1: 上期, 7: 下期
-    Values (Data 14):  1: 上期, 7: 下期
-    Values (Data 15):  1: 上期, 7: 下期
-    Values (Data 16):  1: 上期, 7: 下期
-    Values (Data 17):  1: 上期, 7: 下期
-    Values (Data 18):  1: 上期, 7: 下期
-    Values (Data 19):  1: 上期, 7: 下期
-    Values (Data 20):  1: 上期, 7: 下期
-    Values (Data 21):  1: 上期, 7: 下期
-    Values (Data 22):  1: 上期, 7: 下期
-    Values (Data 23):  1: 上期, 7: 下期
-    Values (Data 24):  1: 上期, 7: 下期
-    Values (Data 25):  1: 上期, 7: 下期
-    Values (Data 26):  1: 上期, 7: 下期
+    Values (Data 11):  1: 上半期, 7: 下半期
+    Values (Data 12):  1: 上半期, 7: 下半期
+    Values (Data 13):  1: 上半期, 7: 下半期
+    Values (Data 14):  1: 上半期, 7: 下半期
+    Values (Data 15):  1: 上半期, 7: 下半期
+    Values (Data 16):  1: 上半期, 7: 下半期
+    Values (Data 17):  1: 上半期, 7: 下半期
+    Values (Data 18):  1: 上半期, 7: 下半期
+    Values (Data 19):  1: 上半期, 7: 下半期
+    Values (Data 20):  1: 上半期, 7: 下半期
+    Values (Data 21):  1: 上半期, 7: 下半期
+    Values (Data 22):  1: 上半期, 7: 下半期
+    Values (Data 23):  1: 上半期, 7: 下半期
+    Values (Data 24):  1: 上半期, 7: 下半期
+    Values (Data 25):  1: 上半期, 7: 下半期
+    Values (Data 26):  1: 上半期, 7: 下半期
+    Values (Data 27):  1: 上半期, 7: 下半期
+    Values (Data 28):  1: 上半期, 7: 下半期
+    Values (Data 29):  1: 上期, 7: 下期
+    Values (Data 30):  1: 上期, 7: 下期
+    Values (Data 31):  1: 上期, 7: 下期
+    Values (Data 32):  1: 上期, 7: 下期
+    Values (Data 33):  1: 上期, 7: 下期
+    Values (Data 34):  1: 上期, 7: 下期
+    Values (Data 35):  1: 上期, 7: 下期
+    Values (Data 36):  1: 上期, 7: 下期
+    Values (Data 37):  1: 上期, 7: 下期
+    Values (Data 38):  1: 上期, 7: 下期
+    Values (Data 39):  1: 上期, 7: 下期
+    Values (Data 40):  1: 上期, 7: 下期
+    Values (Data 41):  1: 上期, 7: 下期
+    Values (Data 42):  1: 上期, 7: 下期
+    Values (Data 43):  1: 上期, 7: 下期
+    Values (Data 44):  1: 上期, 7: 下期
 
 ----------------------------------------------------------------------*/
-gen v3_NEWVARIABLE = .
-local var_lab: variable label var3
-local val_lab: value label var3
-capture replace v3_NEWVARIABLE = var3  if `data'==1
-capture replace v3_NEWVARIABLE = var3  if `data'==2
-capture replace v3_NEWVARIABLE = var3  if `data'==3
-capture replace v3_NEWVARIABLE = var3  if `data'==4
-capture replace v3_NEWVARIABLE = var3  if `data'==5
-capture replace v3_NEWVARIABLE = var3  if `data'==6
-capture replace v3_NEWVARIABLE = var3  if `data'==7
-capture replace v3_NEWVARIABLE = var3  if `data'==8
-capture replace v3_NEWVARIABLE = var3  if `data'==9
-capture replace v3_NEWVARIABLE = var3  if `data'==10
-capture replace v3_NEWVARIABLE = var3  if `data'==11
-capture replace v3_NEWVARIABLE = var3  if `data'==12
-capture replace v3_NEWVARIABLE = var3  if `data'==13
-capture replace v3_NEWVARIABLE = var3  if `data'==14
-capture replace v3_NEWVARIABLE = var3  if `data'==15
-capture replace v3_NEWVARIABLE = var3  if `data'==16
-capture replace v3_NEWVARIABLE = var3  if `data'==17
-capture replace v3_NEWVARIABLE = var3  if `data'==18
-capture replace v3_NEWVARIABLE = var3  if `data'==19
-capture replace v3_NEWVARIABLE = var3  if `data'==20
-capture replace v3_NEWVARIABLE = var3  if `data'==21
-capture replace v3_NEWVARIABLE = var3  if `data'==22
-capture replace v3_NEWVARIABLE = var3  if `data'==23
-capture replace v3_NEWVARIABLE = var3  if `data'==24
-capture replace v3_NEWVARIABLE = var3  if `data'==25
-capture replace v3_NEWVARIABLE = var3  if `data'==26
-capture label variable v3_NEWVARIABLE `var_lab'
-capture label values v3_NEWVARIABLE `val_lab'
+gen v5_NEWVARIABLE = .
+local var_lab: variable label var5
+local val_lab: value label var5
+capture replace v5_NEWVARIABLE = var5  if `data'==1
+capture replace v5_NEWVARIABLE = var5  if `data'==2
+capture replace v5_NEWVARIABLE = var3  if `data'==3
+capture replace v5_NEWVARIABLE = var3  if `data'==4
+capture replace v5_NEWVARIABLE = var3  if `data'==5
+capture replace v5_NEWVARIABLE = var3  if `data'==6
+capture replace v5_NEWVARIABLE = var3  if `data'==7
+capture replace v5_NEWVARIABLE = var3  if `data'==8
+capture replace v5_NEWVARIABLE = var3  if `data'==9
+capture replace v5_NEWVARIABLE = var3  if `data'==10
+capture replace v5_NEWVARIABLE = var3  if `data'==11
+capture replace v5_NEWVARIABLE = var3  if `data'==12
+capture replace v5_NEWVARIABLE = var3  if `data'==13
+capture replace v5_NEWVARIABLE = var3  if `data'==14
+capture replace v5_NEWVARIABLE = var3  if `data'==15
+capture replace v5_NEWVARIABLE = var3  if `data'==16
+capture replace v5_NEWVARIABLE = var3  if `data'==17
+capture replace v5_NEWVARIABLE = var3  if `data'==18
+capture replace v5_NEWVARIABLE = var3  if `data'==19
+capture replace v5_NEWVARIABLE = var3  if `data'==20
+capture replace v5_NEWVARIABLE = var3  if `data'==21
+capture replace v5_NEWVARIABLE = var3  if `data'==22
+capture replace v5_NEWVARIABLE = var3  if `data'==23
+capture replace v5_NEWVARIABLE = var3  if `data'==24
+capture replace v5_NEWVARIABLE = var3  if `data'==25
+capture replace v5_NEWVARIABLE = var3  if `data'==26
+capture replace v5_NEWVARIABLE = var3  if `data'==27
+capture replace v5_NEWVARIABLE = var3  if `data'==28
+capture replace v5_NEWVARIABLE = var3  if `data'==29
+capture replace v5_NEWVARIABLE = var3  if `data'==30
+capture replace v5_NEWVARIABLE = var3  if `data'==31
+capture replace v5_NEWVARIABLE = var3  if `data'==32
+capture replace v5_NEWVARIABLE = var3  if `data'==33
+capture replace v5_NEWVARIABLE = var3  if `data'==34
+capture replace v5_NEWVARIABLE = var3  if `data'==35
+capture replace v5_NEWVARIABLE = var3  if `data'==36
+capture replace v5_NEWVARIABLE = var3  if `data'==37
+capture replace v5_NEWVARIABLE = var3  if `data'==38
+capture replace v5_NEWVARIABLE = var3  if `data'==39
+capture replace v5_NEWVARIABLE = var3  if `data'==40
+capture replace v5_NEWVARIABLE = var3  if `data'==41
+capture replace v5_NEWVARIABLE = var3  if `data'==42
+capture replace v5_NEWVARIABLE = var3  if `data'==43
+capture replace v5_NEWVARIABLE = var3  if `data'==44
+capture label variable v5_NEWVARIABLE `var_lab'
+capture label values v5_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "調査票区分"
-    Description (Data 1):  "調査票区分"
-    Description (Data 2):  "調査票区分"
-    Description (Data 3):  "調査票区分"
-    Description (Data 4):  "調査票区分"
-    Description (Data 5):  "調査票区分"
-    Description (Data 6):  "調査票区分"
-    Description (Data 7):  "調査票区分"
-    Description (Data 8):  "調査票区分"
-    Description (Data 9):  "調査票区分"
-    Description (Data 10): "調査票区分"
-    Description (Data 11): "調査票区分"
-    Description (Data 12): "調査票区分"
-    Description (Data 13): "調査票区分"
-    Description (Data 14): "調査票区分"
-    Description (Data 15): "調査票区分"
-    Description (Data 16): "調査票区分"
-    Description (Data 17): "調査票区分"
-    Description (Data 18): "調査票区分"
+    Description (Base):    "共通項目: 調査区分"
+    Description (Data 1):  "共通項目: 調査区分"
+    Description (Data 2):  "共通項目: 調査区分"
+    Description (Data 3):  "調査区分"
+    Description (Data 4):  "調査区分"
+    Description (Data 5):  "調査区分"
+    Description (Data 6):  "調査区分"
+    Description (Data 7):  "調査区分"
+    Description (Data 8):  "調査区分"
+    Description (Data 9):  "調査区分"
+    Description (Data 10): "調査区分"
+    Description (Data 11): "調査区分"
+    Description (Data 12): "調査区分"
+    Description (Data 13): "調査区分"
+    Description (Data 14): "調査区分"
+    Description (Data 15): "調査区分"
+    Description (Data 16): "調査区分"
+    Description (Data 17): "調査区分"
+    Description (Data 18): "調査区分"
     Description (Data 19): "調査票区分"
     Description (Data 20): "調査票区分"
     Description (Data 21): "調査票区分"
@@ -333,6 +661,24 @@ capture label values v3_NEWVARIABLE `val_lab'
     Description (Data 24): "調査票区分"
     Description (Data 25): "調査票区分"
     Description (Data 26): "調査票区分"
+    Description (Data 27): "調査票区分"
+    Description (Data 28): "調査票区分"
+    Description (Data 29): "調査票区分"
+    Description (Data 30): "調査票区分"
+    Description (Data 31): "調査票区分"
+    Description (Data 32): "調査票区分"
+    Description (Data 33): "調査票区分"
+    Description (Data 34): "調査票区分"
+    Description (Data 35): "調査票区分"
+    Description (Data 36): "調査票区分"
+    Description (Data 37): "調査票区分"
+    Description (Data 38): "調査票区分"
+    Description (Data 39): "調査票区分"
+    Description (Data 40): "調査票区分"
+    Description (Data 41): "調査票区分"
+    Description (Data 42): "調査票区分"
+    Description (Data 43): "調査票区分"
+    Description (Data 44): "調査票区分"
 
     Values (Base):    
     Values (Data 1):  
@@ -361,170 +707,24 @@ capture label values v3_NEWVARIABLE `val_lab'
     Values (Data 24): 
     Values (Data 25): 
     Values (Data 26): 
-
-----------------------------------------------------------------------*/
-gen v4_NEWVARIABLE = .
-local var_lab: variable label var4
-local val_lab: value label var4
-capture replace v4_NEWVARIABLE = var4  if `data'==1
-capture replace v4_NEWVARIABLE = var4  if `data'==2
-capture replace v4_NEWVARIABLE = var4  if `data'==3
-capture replace v4_NEWVARIABLE = var4  if `data'==4
-capture replace v4_NEWVARIABLE = var4  if `data'==5
-capture replace v4_NEWVARIABLE = var4  if `data'==6
-capture replace v4_NEWVARIABLE = var4  if `data'==7
-capture replace v4_NEWVARIABLE = var4  if `data'==8
-capture replace v4_NEWVARIABLE = var4  if `data'==9
-capture replace v4_NEWVARIABLE = var4  if `data'==10
-capture replace v4_NEWVARIABLE = var5  if `data'==11
-capture replace v4_NEWVARIABLE = var5  if `data'==12
-capture replace v4_NEWVARIABLE = var5  if `data'==13
-capture replace v4_NEWVARIABLE = var5  if `data'==14
-capture replace v4_NEWVARIABLE = var5  if `data'==15
-capture replace v4_NEWVARIABLE = var5  if `data'==16
-capture replace v4_NEWVARIABLE = var5  if `data'==17
-capture replace v4_NEWVARIABLE = var5  if `data'==18
-capture replace v4_NEWVARIABLE = var5  if `data'==19
-capture replace v4_NEWVARIABLE = var5  if `data'==20
-capture replace v4_NEWVARIABLE = var5  if `data'==21
-capture replace v4_NEWVARIABLE = var5  if `data'==22
-capture replace v4_NEWVARIABLE = var5  if `data'==23
-capture replace v4_NEWVARIABLE = var5  if `data'==24
-capture replace v4_NEWVARIABLE = var5  if `data'==25
-capture replace v4_NEWVARIABLE = var5  if `data'==26
-capture label variable v4_NEWVARIABLE `var_lab'
-capture label values v4_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "DLM1"
-    Description (Data 1):  "DLM1"
-    Description (Data 2):  "DLM1"
-    Description (Data 3):  "DLM1"
-    Description (Data 4):  "DLM1"
-    Description (Data 5):  "DLM1"
-    Description (Data 6):  "DLM1"
-    Description (Data 7):  "DLM1"
-    Description (Data 8):  "DLM1"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v5_NEWVARIABLE = .
-local var_lab: variable label var5
-local val_lab: value label var5
-capture replace v5_NEWVARIABLE = var5  if `data'==1
-capture replace v5_NEWVARIABLE = var5  if `data'==2
-capture replace v5_NEWVARIABLE = var5  if `data'==3
-capture replace v5_NEWVARIABLE = var5  if `data'==4
-capture replace v5_NEWVARIABLE = var5  if `data'==5
-capture replace v5_NEWVARIABLE = var5  if `data'==6
-capture replace v5_NEWVARIABLE = var5  if `data'==7
-capture replace v5_NEWVARIABLE = var5  if `data'==8
-capture label variable v5_NEWVARIABLE `var_lab'
-capture label values v5_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "空白1"
-    Description (Data 1):  "空白1"
-    Description (Data 2):  "空白1"
-    Description (Data 3):  "空白1"
-    Description (Data 4):  "空白1"
-    Description (Data 5):  "空白1"
-    Description (Data 6):  "空白1"
-    Description (Data 7):  "空白1"
-    Description (Data 8):  "空白1"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
 
 ----------------------------------------------------------------------*/
 gen v6_NEWVARIABLE = .
@@ -532,72 +732,144 @@ local var_lab: variable label var6
 local val_lab: value label var6
 capture replace v6_NEWVARIABLE = var6  if `data'==1
 capture replace v6_NEWVARIABLE = var6  if `data'==2
-capture replace v6_NEWVARIABLE = var6  if `data'==3
-capture replace v6_NEWVARIABLE = var6  if `data'==4
-capture replace v6_NEWVARIABLE = var6  if `data'==5
-capture replace v6_NEWVARIABLE = var6  if `data'==6
-capture replace v6_NEWVARIABLE = var6  if `data'==7
-capture replace v6_NEWVARIABLE = var6  if `data'==8
+capture replace v6_NEWVARIABLE = var4  if `data'==3
+capture replace v6_NEWVARIABLE = var4  if `data'==4
+capture replace v6_NEWVARIABLE = var4  if `data'==5
+capture replace v6_NEWVARIABLE = var4  if `data'==6
+capture replace v6_NEWVARIABLE = var4  if `data'==7
+capture replace v6_NEWVARIABLE = var4  if `data'==8
+capture replace v6_NEWVARIABLE = var4  if `data'==9
+capture replace v6_NEWVARIABLE = var4  if `data'==10
+capture replace v6_NEWVARIABLE = var4  if `data'==11
+capture replace v6_NEWVARIABLE = var4  if `data'==12
+capture replace v6_NEWVARIABLE = var4  if `data'==13
+capture replace v6_NEWVARIABLE = var4  if `data'==14
+capture replace v6_NEWVARIABLE = var4  if `data'==15
+capture replace v6_NEWVARIABLE = var4  if `data'==16
+capture replace v6_NEWVARIABLE = var4  if `data'==17
+capture replace v6_NEWVARIABLE = var4  if `data'==18
+capture replace v6_NEWVARIABLE = var4  if `data'==19
+capture replace v6_NEWVARIABLE = var4  if `data'==20
+capture replace v6_NEWVARIABLE = var4  if `data'==21
+capture replace v6_NEWVARIABLE = var4  if `data'==22
+capture replace v6_NEWVARIABLE = var4  if `data'==23
+capture replace v6_NEWVARIABLE = var4  if `data'==24
+capture replace v6_NEWVARIABLE = var4  if `data'==25
+capture replace v6_NEWVARIABLE = var4  if `data'==26
+capture replace v6_NEWVARIABLE = var4  if `data'==27
+capture replace v6_NEWVARIABLE = var4  if `data'==28
+capture replace v6_NEWVARIABLE = var5  if `data'==29
+capture replace v6_NEWVARIABLE = var5  if `data'==30
+capture replace v6_NEWVARIABLE = var5  if `data'==31
+capture replace v6_NEWVARIABLE = var5  if `data'==32
+capture replace v6_NEWVARIABLE = var5  if `data'==33
+capture replace v6_NEWVARIABLE = var5  if `data'==34
+capture replace v6_NEWVARIABLE = var5  if `data'==35
+capture replace v6_NEWVARIABLE = var5  if `data'==36
+capture replace v6_NEWVARIABLE = var5  if `data'==37
+capture replace v6_NEWVARIABLE = var5  if `data'==38
+capture replace v6_NEWVARIABLE = var5  if `data'==39
+capture replace v6_NEWVARIABLE = var5  if `data'==40
+capture replace v6_NEWVARIABLE = var5  if `data'==41
+capture replace v6_NEWVARIABLE = var5  if `data'==42
+capture replace v6_NEWVARIABLE = var5  if `data'==43
+capture replace v6_NEWVARIABLE = var5  if `data'==44
 capture label variable v6_NEWVARIABLE `var_lab'
 capture label values v6_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "所在地: 地域9-4"
-    Description (Data 1):  "所在地: 地域9-4"
-    Description (Data 2):  "所在地: 地域9-4"
-    Description (Data 3):  "所在地: 地域9-4"
-    Description (Data 4):  "所在地: 地域9-4"
-    Description (Data 5):  "所在地: 地域9-4"
-    Description (Data 6):  "所在地: 地域9-4"
-    Description (Data 7):  "所在地: 地域9-4"
-    Description (Data 8):  "所在地: 地域9-4"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "共通項目所在地: 地域区分"
+    Description (Data 1):  "共通項目所在地: 地域区分"
+    Description (Data 2):  "共通項目所在地: 地域区分"
+    Description (Data 3):  "所在地: 地域番号"
+    Description (Data 4):  "所在地: 地域番号"
+    Description (Data 5):  "所在地: 地域番号"
+    Description (Data 6):  "所在地: 地域番号"
+    Description (Data 7):  "所在地: 地域番号"
+    Description (Data 8):  "所在地: 地域番号"
+    Description (Data 9):  "所在地: 地域番号"
+    Description (Data 10): "所在地: 地域番号"
+    Description (Data 11): "所在地: 地域番号"
+    Description (Data 12): "所在地: 地域番号"
+    Description (Data 13): "所在地: 地域番号"
+    Description (Data 14): "所在地: 地域番号"
+    Description (Data 15): "所在地: 地域9-4"
+    Description (Data 16): "所在地: 地域9-4"
+    Description (Data 17): "所在地: 地域9-4"
+    Description (Data 18): "所在地: 地域9-4"
+    Description (Data 19): "所在地: 地域9-4"
+    Description (Data 20): "所在地: 地域9-4"
+    Description (Data 21): "所在地: 地域9-4"
+    Description (Data 22): "所在地: 地域9-4"
+    Description (Data 23): "所在地: 地域9-4"
+    Description (Data 24): "所在地: 地域9-4"
+    Description (Data 25): "所在地: 地域9-4"
+    Description (Data 26): "所在地: 地域9-4"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):     1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
-    Values (Data 1):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
-    Values (Data 2):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
-    Values (Data 3):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
-    Values (Data 4):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
-    Values (Data 5):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
-    Values (Data 6):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
-    Values (Data 7):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
-    Values (Data 8):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 4):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 5):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 6):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 7):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 8):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 9):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 10):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 11):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 12):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 13):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 14):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 15):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 16):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 17):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 18):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 19):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 20):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 21):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 22):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 23):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 24):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 25):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 26):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25~30, 8: 県番号:31~35, 9: 県番号:36~39, 10: 県番号:40~47
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v7_NEWVARIABLE = .
@@ -605,117 +877,80 @@ local var_lab: variable label var7
 local val_lab: value label var7
 capture replace v7_NEWVARIABLE = var7  if `data'==1
 capture replace v7_NEWVARIABLE = var7  if `data'==2
-capture replace v7_NEWVARIABLE = var7  if `data'==3
-capture replace v7_NEWVARIABLE = var7  if `data'==4
-capture replace v7_NEWVARIABLE = var7  if `data'==5
-capture replace v7_NEWVARIABLE = var7  if `data'==6
-capture replace v7_NEWVARIABLE = var7  if `data'==7
-capture replace v7_NEWVARIABLE = var7  if `data'==8
+capture replace v7_NEWVARIABLE = var5  if `data'==3
+capture replace v7_NEWVARIABLE = var5  if `data'==4
+capture replace v7_NEWVARIABLE = var5  if `data'==5
+capture replace v7_NEWVARIABLE = var5  if `data'==6
+capture replace v7_NEWVARIABLE = var5  if `data'==7
+capture replace v7_NEWVARIABLE = var5  if `data'==8
+capture replace v7_NEWVARIABLE = var5  if `data'==9
+capture replace v7_NEWVARIABLE = var5  if `data'==10
+capture replace v7_NEWVARIABLE = var5  if `data'==11
+capture replace v7_NEWVARIABLE = var5  if `data'==12
+capture replace v7_NEWVARIABLE = var5  if `data'==13
+capture replace v7_NEWVARIABLE = var5  if `data'==14
+capture replace v7_NEWVARIABLE = var5  if `data'==15
+capture replace v7_NEWVARIABLE = var5  if `data'==16
+capture replace v7_NEWVARIABLE = var5  if `data'==17
+capture replace v7_NEWVARIABLE = var5  if `data'==18
+capture replace v7_NEWVARIABLE = var7  if `data'==19
+capture replace v7_NEWVARIABLE = var7  if `data'==20
+capture replace v7_NEWVARIABLE = var7  if `data'==21
+capture replace v7_NEWVARIABLE = var7  if `data'==22
+capture replace v7_NEWVARIABLE = var7  if `data'==23
+capture replace v7_NEWVARIABLE = var7  if `data'==24
+capture replace v7_NEWVARIABLE = var7  if `data'==25
+capture replace v7_NEWVARIABLE = var7  if `data'==26
 capture label variable v7_NEWVARIABLE `var_lab'
 capture label values v7_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "所在地: 地域9-2"
-    Description (Data 1):  "所在地: 地域9-2"
-    Description (Data 2):  "所在地: 地域9-2"
-    Description (Data 3):  "所在地: 地域9-2"
-    Description (Data 4):  "所在地: 地域9-2"
-    Description (Data 5):  "所在地: 地域9-2"
-    Description (Data 6):  "所在地: 地域9-2"
-    Description (Data 7):  "所在地: 地域9-2"
-    Description (Data 8):  "所在地: 地域9-2"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
-    Values (Data 1):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
-    Values (Data 2):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
-    Values (Data 3):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
-    Values (Data 4):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
-    Values (Data 5):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
-    Values (Data 6):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
-    Values (Data 7):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
-    Values (Data 8):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v8_NEWVARIABLE = .
-local var_lab: variable label var8
-local val_lab: value label var8
-capture replace v8_NEWVARIABLE = var8  if `data'==1
-capture replace v8_NEWVARIABLE = var8  if `data'==2
-capture replace v8_NEWVARIABLE = var8  if `data'==3
-capture replace v8_NEWVARIABLE = var8  if `data'==4
-capture replace v8_NEWVARIABLE = var8  if `data'==5
-capture replace v8_NEWVARIABLE = var8  if `data'==6
-capture replace v8_NEWVARIABLE = var8  if `data'==7
-capture replace v8_NEWVARIABLE = var8  if `data'==8
-capture label variable v8_NEWVARIABLE `var_lab'
-capture label values v8_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "所在地: 都道府県番号"
-    Description (Data 1):  "所在地: 都道府県番号"
-    Description (Data 2):  "所在地: 都道府県番号"
+    Description (Base):    "共通項目所在地: 都道府県番号"
+    Description (Data 1):  "共通項目所在地: 都道府県番号"
+    Description (Data 2):  "共通項目所在地: 都道府県番号"
     Description (Data 3):  "所在地: 都道府県番号"
     Description (Data 4):  "所在地: 都道府県番号"
     Description (Data 5):  "所在地: 都道府県番号"
     Description (Data 6):  "所在地: 都道府県番号"
     Description (Data 7):  "所在地: 都道府県番号"
     Description (Data 8):  "所在地: 都道府県番号"
-    Description (Data 9):  "都道府県番号"
-    Description (Data 10): "都道府県番号"
-    Description (Data 11): "共通項目: 都道府県番号"
-    Description (Data 12): "共通項目: 都道府県番号"
-    Description (Data 13): "共通項目: 都道府県番号"
-    Description (Data 14): "共通項目: 都道府県番号"
-    Description (Data 15): "共通項目: 都道府県番号"
-    Description (Data 16): "共通項目: 都道府県番号"
-    Description (Data 17): "共通項目: 都道府県番号"
-    Description (Data 18): "共通項目: 都道府県番号"
-    Description (Data 19): "共通項目: 都道府県番号"
-    Description (Data 20): "共通項目: 都道府県番号"
-    Description (Data 21): "共通項目: 都道府県番号"
-    Description (Data 22): "共通項目: 都道府県番号"
-    Description (Data 23): "共通項目: 都道府県番号"
-    Description (Data 24): "共通項目: 都道府県番号"
-    Description (Data 25): "共通項目: 都道府県番号"
-    Description (Data 26): "共通項目: 都道府県番号"
+    Description (Data 9):  "所在地: 都道府県番号"
+    Description (Data 10): "所在地: 都道府県番号"
+    Description (Data 11): "所在地: 都道府県番号"
+    Description (Data 12): "所在地: 都道府県番号"
+    Description (Data 13): "所在地: 都道府県番号"
+    Description (Data 14): "所在地: 都道府県番号"
+    Description (Data 15): "所在地: 都道府県番号"
+    Description (Data 16): "所在地: 都道府県番号"
+    Description (Data 17): "所在地: 都道府県番号"
+    Description (Data 18): "所在地: 都道府県番号"
+    Description (Data 19): "所在地: 都道府県番号"
+    Description (Data 20): "所在地: 都道府県番号"
+    Description (Data 21): "所在地: 都道府県番号"
+    Description (Data 22): "所在地: 都道府県番号"
+    Description (Data 23): "所在地: 都道府県番号"
+    Description (Data 24): "所在地: 都道府県番号"
+    Description (Data 25): "所在地: 都道府県番号"
+    Description (Data 26): "所在地: 都道府県番号"
+    Description (Data 27): "都道府県番号"
+    Description (Data 28): "都道府県番号"
+    Description (Data 29): "共通項目: 都道府県番号"
+    Description (Data 30): "共通項目: 都道府県番号"
+    Description (Data 31): "共通項目: 都道府県番号"
+    Description (Data 32): "共通項目: 都道府県番号"
+    Description (Data 33): "共通項目: 都道府県番号"
+    Description (Data 34): "共通項目: 都道府県番号"
+    Description (Data 35): "共通項目: 都道府県番号"
+    Description (Data 36): "共通項目: 都道府県番号"
+    Description (Data 37): "共通項目: 都道府県番号"
+    Description (Data 38): "共通項目: 都道府県番号"
+    Description (Data 39): "共通項目: 都道府県番号"
+    Description (Data 40): "共通項目: 都道府県番号"
+    Description (Data 41): "共通項目: 都道府県番号"
+    Description (Data 42): "共通項目: 都道府県番号"
+    Description (Data 43): "共通項目: 都道府県番号"
+    Description (Data 44): "共通項目: 都道府県番号"
 
     Values (Base):    
     Values (Data 1):  
@@ -744,45 +979,81 @@ capture label values v8_NEWVARIABLE `val_lab'
     Values (Data 24): 
     Values (Data 25): 
     Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
 
 ----------------------------------------------------------------------*/
-gen v9_NEWVARIABLE = .
-local var_lab: variable label var9
-local val_lab: value label var9
-capture replace v9_NEWVARIABLE = var9  if `data'==1
-capture replace v9_NEWVARIABLE = var9  if `data'==2
-capture replace v9_NEWVARIABLE = var9  if `data'==3
-capture replace v9_NEWVARIABLE = var9  if `data'==4
-capture replace v9_NEWVARIABLE = var9  if `data'==5
-capture replace v9_NEWVARIABLE = var9  if `data'==6
-capture replace v9_NEWVARIABLE = var9  if `data'==7
-capture replace v9_NEWVARIABLE = var9  if `data'==8
-capture replace v9_NEWVARIABLE = var7  if `data'==9
-capture replace v9_NEWVARIABLE = var7  if `data'==10
-capture replace v9_NEWVARIABLE = var8  if `data'==11
-capture replace v9_NEWVARIABLE = var8  if `data'==12
-capture replace v9_NEWVARIABLE = var8  if `data'==13
-capture replace v9_NEWVARIABLE = var8  if `data'==14
-capture replace v9_NEWVARIABLE = var8  if `data'==15
-capture replace v9_NEWVARIABLE = var8  if `data'==16
-capture replace v9_NEWVARIABLE = var8  if `data'==17
-capture replace v9_NEWVARIABLE = var8  if `data'==18
-capture replace v9_NEWVARIABLE = var8  if `data'==19
-capture replace v9_NEWVARIABLE = var8  if `data'==20
-capture replace v9_NEWVARIABLE = var8  if `data'==21
-capture replace v9_NEWVARIABLE = var8  if `data'==22
-capture replace v9_NEWVARIABLE = var8  if `data'==23
-capture replace v9_NEWVARIABLE = var8  if `data'==24
-capture replace v9_NEWVARIABLE = var8  if `data'==25
-capture replace v9_NEWVARIABLE = var8  if `data'==26
-capture label variable v9_NEWVARIABLE `var_lab'
-capture label values v9_NEWVARIABLE `val_lab'
+gen v8_NEWVARIABLE = .
+local var_lab: variable label var8
+local val_lab: value label var8
+capture replace v8_NEWVARIABLE = var8  if `data'==1
+capture replace v8_NEWVARIABLE = var8  if `data'==2
+capture replace v8_NEWVARIABLE = var6  if `data'==3
+capture replace v8_NEWVARIABLE = var6  if `data'==4
+capture replace v8_NEWVARIABLE = var6  if `data'==5
+capture replace v8_NEWVARIABLE = var6  if `data'==6
+capture replace v8_NEWVARIABLE = var6  if `data'==7
+capture replace v8_NEWVARIABLE = var6  if `data'==8
+capture replace v8_NEWVARIABLE = var6  if `data'==9
+capture replace v8_NEWVARIABLE = var6  if `data'==10
+capture replace v8_NEWVARIABLE = var6  if `data'==11
+capture replace v8_NEWVARIABLE = var6  if `data'==12
+capture replace v8_NEWVARIABLE = var6  if `data'==13
+capture replace v8_NEWVARIABLE = var6  if `data'==14
+capture replace v8_NEWVARIABLE = var7  if `data'==15
+capture replace v8_NEWVARIABLE = var7  if `data'==16
+capture replace v8_NEWVARIABLE = var7  if `data'==17
+capture replace v8_NEWVARIABLE = var7  if `data'==18
+capture replace v8_NEWVARIABLE = var9  if `data'==19
+capture replace v8_NEWVARIABLE = var9  if `data'==20
+capture replace v8_NEWVARIABLE = var9  if `data'==21
+capture replace v8_NEWVARIABLE = var9  if `data'==22
+capture replace v8_NEWVARIABLE = var9  if `data'==23
+capture replace v8_NEWVARIABLE = var9  if `data'==24
+capture replace v8_NEWVARIABLE = var9  if `data'==25
+capture replace v8_NEWVARIABLE = var9  if `data'==26
+capture replace v8_NEWVARIABLE = var7  if `data'==27
+capture replace v8_NEWVARIABLE = var7  if `data'==28
+capture replace v8_NEWVARIABLE = var8  if `data'==29
+capture replace v8_NEWVARIABLE = var8  if `data'==30
+capture replace v8_NEWVARIABLE = var8  if `data'==31
+capture replace v8_NEWVARIABLE = var8  if `data'==32
+capture replace v8_NEWVARIABLE = var8  if `data'==33
+capture replace v8_NEWVARIABLE = var8  if `data'==34
+capture replace v8_NEWVARIABLE = var8  if `data'==35
+capture replace v8_NEWVARIABLE = var8  if `data'==36
+capture replace v8_NEWVARIABLE = var8  if `data'==37
+capture replace v8_NEWVARIABLE = var8  if `data'==38
+capture replace v8_NEWVARIABLE = var8  if `data'==39
+capture replace v8_NEWVARIABLE = var8  if `data'==40
+capture replace v8_NEWVARIABLE = var8  if `data'==41
+capture replace v8_NEWVARIABLE = var8  if `data'==42
+capture replace v8_NEWVARIABLE = var8  if `data'==43
+capture replace v8_NEWVARIABLE = var8  if `data'==44
+capture label variable v8_NEWVARIABLE `var_lab'
+capture label values v8_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "事業所番号"
-    Description (Data 1):  "事業所番号"
-    Description (Data 2):  "事業所番号"
+    Description (Base):    "共通項目: 事業所番号"
+    Description (Data 1):  "共通項目: 事業所番号"
+    Description (Data 2):  "共通項目: 事業所番号"
     Description (Data 3):  "事業所番号"
     Description (Data 4):  "事業所番号"
     Description (Data 5):  "事業所番号"
@@ -791,22 +1062,40 @@ capture label values v9_NEWVARIABLE `val_lab'
     Description (Data 8):  "事業所番号"
     Description (Data 9):  "事業所番号"
     Description (Data 10): "事業所番号"
-    Description (Data 11): "共通項目: 事業所番号"
-    Description (Data 12): "共通項目: 事業所番号"
-    Description (Data 13): "共通項目: 事業所番号"
-    Description (Data 14): "共通項目: 事業所番号"
-    Description (Data 15): "共通項目: 事業所番号"
-    Description (Data 16): "共通項目: 事業所番号"
-    Description (Data 17): "共通項目: 事業所番号"
-    Description (Data 18): "共通項目: 事業所番号"
-    Description (Data 19): "共通項目: 事業所番号"
-    Description (Data 20): "共通項目: 事業所番号"
-    Description (Data 21): "共通項目: 事業所番号"
-    Description (Data 22): "共通項目: 事業所番号"
-    Description (Data 23): "共通項目: 事業所番号"
-    Description (Data 24): "共通項目: 事業所番号"
-    Description (Data 25): "共通項目: 事業所番号"
-    Description (Data 26): "共通項目: 事業所番号"
+    Description (Data 11): "事業所番号"
+    Description (Data 12): "事業所番号"
+    Description (Data 13): "事業所番号"
+    Description (Data 14): "事業所番号"
+    Description (Data 15): "事業所番号"
+    Description (Data 16): "事業所番号"
+    Description (Data 17): "事業所番号"
+    Description (Data 18): "事業所番号"
+    Description (Data 19): "事業所番号"
+    Description (Data 20): "事業所番号"
+    Description (Data 21): "事業所番号"
+    Description (Data 22): "事業所番号"
+    Description (Data 23): "事業所番号"
+    Description (Data 24): "事業所番号"
+    Description (Data 25): "事業所番号"
+    Description (Data 26): "事業所番号"
+    Description (Data 27): "事業所番号"
+    Description (Data 28): "事業所番号"
+    Description (Data 29): "共通項目: 事業所番号"
+    Description (Data 30): "共通項目: 事業所番号"
+    Description (Data 31): "共通項目: 事業所番号"
+    Description (Data 32): "共通項目: 事業所番号"
+    Description (Data 33): "共通項目: 事業所番号"
+    Description (Data 34): "共通項目: 事業所番号"
+    Description (Data 35): "共通項目: 事業所番号"
+    Description (Data 36): "共通項目: 事業所番号"
+    Description (Data 37): "共通項目: 事業所番号"
+    Description (Data 38): "共通項目: 事業所番号"
+    Description (Data 39): "共通項目: 事業所番号"
+    Description (Data 40): "共通項目: 事業所番号"
+    Description (Data 41): "共通項目: 事業所番号"
+    Description (Data 42): "共通項目: 事業所番号"
+    Description (Data 43): "共通項目: 事業所番号"
+    Description (Data 44): "共通項目: 事業所番号"
 
     Values (Base):    
     Values (Data 1):  
@@ -835,6 +1124,169 @@ capture label values v9_NEWVARIABLE `val_lab'
     Values (Data 24): 
     Values (Data 25): 
     Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+
+----------------------------------------------------------------------*/
+gen v9_NEWVARIABLE = .
+local var_lab: variable label var9
+local val_lab: value label var9
+capture replace v9_NEWVARIABLE = var9  if `data'==1
+capture replace v9_NEWVARIABLE = var9  if `data'==2
+capture replace v9_NEWVARIABLE = var7  if `data'==3
+capture replace v9_NEWVARIABLE = var7  if `data'==4
+capture replace v9_NEWVARIABLE = var7  if `data'==5
+capture replace v9_NEWVARIABLE = var7  if `data'==6
+capture replace v9_NEWVARIABLE = var7  if `data'==7
+capture replace v9_NEWVARIABLE = var7  if `data'==8
+capture replace v9_NEWVARIABLE = var7  if `data'==9
+capture replace v9_NEWVARIABLE = var7  if `data'==10
+capture replace v9_NEWVARIABLE = var7  if `data'==11
+capture replace v9_NEWVARIABLE = var7  if `data'==12
+capture replace v9_NEWVARIABLE = var7  if `data'==13
+capture replace v9_NEWVARIABLE = var7  if `data'==14
+capture replace v9_NEWVARIABLE = var8  if `data'==15
+capture replace v9_NEWVARIABLE = var8  if `data'==16
+capture replace v9_NEWVARIABLE = var8  if `data'==17
+capture replace v9_NEWVARIABLE = var8  if `data'==18
+capture replace v9_NEWVARIABLE = var10  if `data'==19
+capture replace v9_NEWVARIABLE = var10  if `data'==20
+capture replace v9_NEWVARIABLE = var10  if `data'==21
+capture replace v9_NEWVARIABLE = var10  if `data'==22
+capture replace v9_NEWVARIABLE = var10  if `data'==23
+capture replace v9_NEWVARIABLE = var10  if `data'==24
+capture replace v9_NEWVARIABLE = var10  if `data'==25
+capture replace v9_NEWVARIABLE = var10  if `data'==26
+capture replace v9_NEWVARIABLE = var8  if `data'==27
+capture replace v9_NEWVARIABLE = var8  if `data'==28
+capture replace v9_NEWVARIABLE = var9  if `data'==29
+capture replace v9_NEWVARIABLE = var9  if `data'==30
+capture replace v9_NEWVARIABLE = var9  if `data'==31
+capture replace v9_NEWVARIABLE = var9  if `data'==32
+capture replace v9_NEWVARIABLE = var9  if `data'==33
+capture replace v9_NEWVARIABLE = var9  if `data'==34
+capture replace v9_NEWVARIABLE = var9  if `data'==35
+capture replace v9_NEWVARIABLE = var9  if `data'==36
+capture replace v9_NEWVARIABLE = var9  if `data'==37
+capture replace v9_NEWVARIABLE = var9  if `data'==38
+capture replace v9_NEWVARIABLE = var9  if `data'==39
+capture replace v9_NEWVARIABLE = var9  if `data'==40
+capture replace v9_NEWVARIABLE = var9  if `data'==41
+capture replace v9_NEWVARIABLE = var9  if `data'==42
+capture replace v9_NEWVARIABLE = var9  if `data'==43
+capture replace v9_NEWVARIABLE = var9  if `data'==44
+capture label variable v9_NEWVARIABLE `var_lab'
+capture label values v9_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "共通項目産業区分: 大分類"
+    Description (Data 1):  "共通項目産業区分: 大分類"
+    Description (Data 2):  "共通項目産業区分: 大分類"
+    Description (Data 3):  "産業: 大分類"
+    Description (Data 4):  "産業: 大分類"
+    Description (Data 5):  "産業: 大分類"
+    Description (Data 6):  "産業: 大分類"
+    Description (Data 7):  "産業: 大分類"
+    Description (Data 8):  "産業: 大分類"
+    Description (Data 9):  "産業: 大分類"
+    Description (Data 10): "産業: 大分類"
+    Description (Data 11): "産業: 大分類"
+    Description (Data 12): "産業: 大分類"
+    Description (Data 13): "産業: 大分類"
+    Description (Data 14): "産業: 大分類"
+    Description (Data 15): "産業: 大分類"
+    Description (Data 16): "産業: 大分類"
+    Description (Data 17): "産業: 大分類"
+    Description (Data 18): "産業: 大分類"
+    Description (Data 19): "産業: 大分類"
+    Description (Data 20): "産業: 大分類"
+    Description (Data 21): "産業: 大分類"
+    Description (Data 22): "産業: 大分類"
+    Description (Data 23): "産業: 大分類"
+    Description (Data 24): "産業: 大分類"
+    Description (Data 25): "産業: 大分類"
+    Description (Data 26): "産業: 大分類"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v10_NEWVARIABLE = .
@@ -842,62 +1294,80 @@ local var_lab: variable label var10
 local val_lab: value label var10
 capture replace v10_NEWVARIABLE = var10  if `data'==1
 capture replace v10_NEWVARIABLE = var10  if `data'==2
-capture replace v10_NEWVARIABLE = var10  if `data'==3
-capture replace v10_NEWVARIABLE = var10  if `data'==4
-capture replace v10_NEWVARIABLE = var10  if `data'==5
-capture replace v10_NEWVARIABLE = var10  if `data'==6
-capture replace v10_NEWVARIABLE = var10  if `data'==7
-capture replace v10_NEWVARIABLE = var10  if `data'==8
+capture replace v10_NEWVARIABLE = var8  if `data'==3
+capture replace v10_NEWVARIABLE = var8  if `data'==4
+capture replace v10_NEWVARIABLE = var8  if `data'==5
+capture replace v10_NEWVARIABLE = var8  if `data'==6
+capture replace v10_NEWVARIABLE = var8  if `data'==7
+capture replace v10_NEWVARIABLE = var8  if `data'==8
 capture replace v10_NEWVARIABLE = var8  if `data'==9
 capture replace v10_NEWVARIABLE = var8  if `data'==10
-capture replace v10_NEWVARIABLE = var9  if `data'==11
-capture replace v10_NEWVARIABLE = var9  if `data'==12
-capture replace v10_NEWVARIABLE = var9  if `data'==13
-capture replace v10_NEWVARIABLE = var9  if `data'==14
+capture replace v10_NEWVARIABLE = var8  if `data'==11
+capture replace v10_NEWVARIABLE = var8  if `data'==12
+capture replace v10_NEWVARIABLE = var8  if `data'==13
+capture replace v10_NEWVARIABLE = var8  if `data'==14
 capture replace v10_NEWVARIABLE = var9  if `data'==15
 capture replace v10_NEWVARIABLE = var9  if `data'==16
 capture replace v10_NEWVARIABLE = var9  if `data'==17
 capture replace v10_NEWVARIABLE = var9  if `data'==18
-capture replace v10_NEWVARIABLE = var9  if `data'==19
-capture replace v10_NEWVARIABLE = var9  if `data'==20
-capture replace v10_NEWVARIABLE = var9  if `data'==21
-capture replace v10_NEWVARIABLE = var9  if `data'==22
-capture replace v10_NEWVARIABLE = var9  if `data'==23
-capture replace v10_NEWVARIABLE = var9  if `data'==24
-capture replace v10_NEWVARIABLE = var9  if `data'==25
-capture replace v10_NEWVARIABLE = var9  if `data'==26
+capture replace v10_NEWVARIABLE = var11  if `data'==19
+capture replace v10_NEWVARIABLE = var11  if `data'==20
+capture replace v10_NEWVARIABLE = var11  if `data'==21
+capture replace v10_NEWVARIABLE = var11  if `data'==22
+capture replace v10_NEWVARIABLE = var11  if `data'==23
+capture replace v10_NEWVARIABLE = var11  if `data'==24
+capture replace v10_NEWVARIABLE = var11  if `data'==25
+capture replace v10_NEWVARIABLE = var11  if `data'==26
 capture label variable v10_NEWVARIABLE `var_lab'
 capture label values v10_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "産業: 大分類"
-    Description (Data 1):  "産業: 大分類"
-    Description (Data 2):  "産業: 大分類"
-    Description (Data 3):  "産業: 大分類"
-    Description (Data 4):  "産業: 大分類"
-    Description (Data 5):  "産業: 大分類"
-    Description (Data 6):  "産業: 大分類"
-    Description (Data 7):  "産業: 大分類"
-    Description (Data 8):  "産業: 大分類"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "共通項目産業区分: 中分類"
+    Description (Data 1):  "共通項目産業区分: 中分類"
+    Description (Data 2):  "共通項目産業区分: 中分類"
+    Description (Data 3):  "産業: 中分類"
+    Description (Data 4):  "産業: 中分類"
+    Description (Data 5):  "産業: 中分類"
+    Description (Data 6):  "産業: 中分類"
+    Description (Data 7):  "産業: 中分類"
+    Description (Data 8):  "産業: 中分類"
+    Description (Data 9):  "産業: 中分類"
+    Description (Data 10): "産業: 中分類"
+    Description (Data 11): "産業: 中分類"
+    Description (Data 12): "産業: 中分類"
+    Description (Data 13): "産業: 中分類"
+    Description (Data 14): "産業: 中分類"
+    Description (Data 15): "産業: 中分類"
+    Description (Data 16): "産業: 中分類"
+    Description (Data 17): "産業: 中分類"
+    Description (Data 18): "産業: 中分類"
+    Description (Data 19): "産業: 中分類"
+    Description (Data 20): "産業: 中分類"
+    Description (Data 21): "産業: 中分類"
+    Description (Data 22): "産業: 中分類"
+    Description (Data 23): "産業: 中分類"
+    Description (Data 24): "産業: 中分類"
+    Description (Data 25): "産業: 中分類"
+    Description (Data 26): "産業: 中分類"
+    Description (Data 27): "中分類"
+    Description (Data 28): "中分類"
+    Description (Data 29): "共通項目: 産業中分類"
+    Description (Data 30): "共通項目: 産業中分類"
+    Description (Data 31): "共通項目: 産業中分類"
+    Description (Data 32): "共通項目: 産業中分類"
+    Description (Data 33): "共通項目: 産業中分類"
+    Description (Data 34): "共通項目: 産業中分類"
+    Description (Data 35): "共通項目: 産業中分類"
+    Description (Data 36): "共通項目: 産業中分類"
+    Description (Data 37): "共通項目: 産業中分類"
+    Description (Data 38): "共通項目: 産業中分類"
+    Description (Data 39): "共通項目: 産業中分類"
+    Description (Data 40): "共通項目: 産業中分類"
+    Description (Data 41): "共通項目: 産業中分類"
+    Description (Data 42): "共通項目: 産業中分類"
+    Description (Data 43): "共通項目: 産業中分類"
+    Description (Data 44): "共通項目: 産業中分類"
 
     Values (Base):    
     Values (Data 1):  
@@ -908,24 +1378,42 @@ capture label values v10_NEWVARIABLE `val_lab'
     Values (Data 6):  
     Values (Data 7):  
     Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
 
 ----------------------------------------------------------------------*/
 gen v11_NEWVARIABLE = .
@@ -933,44 +1421,98 @@ local var_lab: variable label var11
 local val_lab: value label var11
 capture replace v11_NEWVARIABLE = var11  if `data'==1
 capture replace v11_NEWVARIABLE = var11  if `data'==2
-capture replace v11_NEWVARIABLE = var11  if `data'==3
-capture replace v11_NEWVARIABLE = var11  if `data'==4
-capture replace v11_NEWVARIABLE = var11  if `data'==5
-capture replace v11_NEWVARIABLE = var11  if `data'==6
-capture replace v11_NEWVARIABLE = var11  if `data'==7
-capture replace v11_NEWVARIABLE = var11  if `data'==8
+capture replace v11_NEWVARIABLE = var9  if `data'==3
+capture replace v11_NEWVARIABLE = var9  if `data'==4
+capture replace v11_NEWVARIABLE = var9  if `data'==5
+capture replace v11_NEWVARIABLE = var9  if `data'==6
+capture replace v11_NEWVARIABLE = var9  if `data'==7
+capture replace v11_NEWVARIABLE = var9  if `data'==8
+capture replace v11_NEWVARIABLE = var9  if `data'==9
+capture replace v11_NEWVARIABLE = var9  if `data'==10
+capture replace v11_NEWVARIABLE = var9  if `data'==11
+capture replace v11_NEWVARIABLE = var9  if `data'==12
+capture replace v11_NEWVARIABLE = var9  if `data'==13
+capture replace v11_NEWVARIABLE = var9  if `data'==14
+capture replace v11_NEWVARIABLE = var10  if `data'==15
+capture replace v11_NEWVARIABLE = var10  if `data'==16
+capture replace v11_NEWVARIABLE = var10  if `data'==17
+capture replace v11_NEWVARIABLE = var10  if `data'==18
+capture replace v11_NEWVARIABLE = var12  if `data'==19
+capture replace v11_NEWVARIABLE = var12  if `data'==20
+capture replace v11_NEWVARIABLE = var12  if `data'==21
+capture replace v11_NEWVARIABLE = var12  if `data'==22
+capture replace v11_NEWVARIABLE = var12  if `data'==23
+capture replace v11_NEWVARIABLE = var12  if `data'==24
+capture replace v11_NEWVARIABLE = var12  if `data'==25
+capture replace v11_NEWVARIABLE = var12  if `data'==26
+capture replace v11_NEWVARIABLE = var9  if `data'==27
+capture replace v11_NEWVARIABLE = var9  if `data'==28
+capture replace v11_NEWVARIABLE = var10  if `data'==29
+capture replace v11_NEWVARIABLE = var10  if `data'==30
+capture replace v11_NEWVARIABLE = var10  if `data'==31
+capture replace v11_NEWVARIABLE = var10  if `data'==32
+capture replace v11_NEWVARIABLE = var10  if `data'==33
+capture replace v11_NEWVARIABLE = var10  if `data'==34
+capture replace v11_NEWVARIABLE = var10  if `data'==35
+capture replace v11_NEWVARIABLE = var10  if `data'==36
+capture replace v11_NEWVARIABLE = var10  if `data'==37
+capture replace v11_NEWVARIABLE = var10  if `data'==38
+capture replace v11_NEWVARIABLE = var10  if `data'==39
+capture replace v11_NEWVARIABLE = var10  if `data'==40
+capture replace v11_NEWVARIABLE = var10  if `data'==41
+capture replace v11_NEWVARIABLE = var10  if `data'==42
+capture replace v11_NEWVARIABLE = var10  if `data'==43
+capture replace v11_NEWVARIABLE = var10  if `data'==44
 capture label variable v11_NEWVARIABLE `var_lab'
 capture label values v11_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "産業: 中分類"
-    Description (Data 1):  "産業: 中分類"
-    Description (Data 2):  "産業: 中分類"
-    Description (Data 3):  "産業: 中分類"
-    Description (Data 4):  "産業: 中分類"
-    Description (Data 5):  "産業: 中分類"
-    Description (Data 6):  "産業: 中分類"
-    Description (Data 7):  "産業: 中分類"
-    Description (Data 8):  "産業: 中分類"
-    Description (Data 9):  "中分類"
-    Description (Data 10): "中分類"
-    Description (Data 11): "共通項目: 産業中分類"
-    Description (Data 12): "共通項目: 産業中分類"
-    Description (Data 13): "共通項目: 産業中分類"
-    Description (Data 14): "共通項目: 産業中分類"
-    Description (Data 15): "共通項目: 産業中分類"
-    Description (Data 16): "共通項目: 産業中分類"
-    Description (Data 17): "共通項目: 産業中分類"
-    Description (Data 18): "共通項目: 産業中分類"
-    Description (Data 19): "共通項目: 産業中分類"
-    Description (Data 20): "共通項目: 産業中分類"
-    Description (Data 21): "共通項目: 産業中分類"
-    Description (Data 22): "共通項目: 産業中分類"
-    Description (Data 23): "共通項目: 産業中分類"
-    Description (Data 24): "共通項目: 産業中分類"
-    Description (Data 25): "共通項目: 産業中分類"
-    Description (Data 26): "共通項目: 産業中分類"
+    Description (Base):    "共通項目: 抽出符号"
+    Description (Data 1):  "共通項目: 抽出符号"
+    Description (Data 2):  "共通項目: 抽出符号"
+    Description (Data 3):  "抽出符号"
+    Description (Data 4):  "抽出符号"
+    Description (Data 5):  "抽出符号"
+    Description (Data 6):  "抽出符号"
+    Description (Data 7):  "抽出符号"
+    Description (Data 8):  "抽出符号"
+    Description (Data 9):  "抽出符号"
+    Description (Data 10): "抽出符号"
+    Description (Data 11): "抽出符号"
+    Description (Data 12): "抽出符号"
+    Description (Data 13): "抽出符号"
+    Description (Data 14): "抽出符号"
+    Description (Data 15): "抽出符号"
+    Description (Data 16): "抽出符号"
+    Description (Data 17): "抽出符号"
+    Description (Data 18): "抽出符号"
+    Description (Data 19): "抽出符号"
+    Description (Data 20): "抽出符号"
+    Description (Data 21): "抽出符号"
+    Description (Data 22): "抽出符号"
+    Description (Data 23): "抽出符号"
+    Description (Data 24): "抽出符号"
+    Description (Data 25): "抽出符号"
+    Description (Data 26): "抽出符号"
+    Description (Data 27): "抽出番号"
+    Description (Data 28): "抽出番号"
+    Description (Data 29): "共通項目: 抽出番号"
+    Description (Data 30): "共通項目: 抽出番号"
+    Description (Data 31): "共通項目: 抽出番号"
+    Description (Data 32): "共通項目: 抽出番号"
+    Description (Data 33): "共通項目: 抽出番号"
+    Description (Data 34): "共通項目: 抽出番号"
+    Description (Data 35): "共通項目: 抽出番号"
+    Description (Data 36): "共通項目: 抽出番号"
+    Description (Data 37): "共通項目: 抽出番号"
+    Description (Data 38): "共通項目: 抽出番号"
+    Description (Data 39): "共通項目: 抽出番号"
+    Description (Data 40): "共通項目: 抽出番号"
+    Description (Data 41): "共通項目: 抽出番号"
+    Description (Data 42): "共通項目: 抽出番号"
+    Description (Data 43): "共通項目: 抽出番号"
+    Description (Data 44): "共通項目: 抽出番号"
 
     Values (Base):    
     Values (Data 1):  
@@ -999,6 +1541,24 @@ capture label values v11_NEWVARIABLE `val_lab'
     Values (Data 24): 
     Values (Data 25): 
     Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
 
 ----------------------------------------------------------------------*/
 gen v12_NEWVARIABLE = .
@@ -1006,319 +1566,118 @@ local var_lab: variable label var12
 local val_lab: value label var12
 capture replace v12_NEWVARIABLE = var12  if `data'==1
 capture replace v12_NEWVARIABLE = var12  if `data'==2
-capture replace v12_NEWVARIABLE = var12  if `data'==3
-capture replace v12_NEWVARIABLE = var12  if `data'==4
-capture replace v12_NEWVARIABLE = var12  if `data'==5
-capture replace v12_NEWVARIABLE = var12  if `data'==6
-capture replace v12_NEWVARIABLE = var12  if `data'==7
-capture replace v12_NEWVARIABLE = var12  if `data'==8
-capture replace v12_NEWVARIABLE = var9  if `data'==9
-capture replace v12_NEWVARIABLE = var9  if `data'==10
+capture replace v12_NEWVARIABLE = var10  if `data'==3
+capture replace v12_NEWVARIABLE = var10  if `data'==4
+capture replace v12_NEWVARIABLE = var10  if `data'==5
+capture replace v12_NEWVARIABLE = var10  if `data'==6
+capture replace v12_NEWVARIABLE = var10  if `data'==7
+capture replace v12_NEWVARIABLE = var10  if `data'==8
+capture replace v12_NEWVARIABLE = var10  if `data'==9
+capture replace v12_NEWVARIABLE = var10  if `data'==10
 capture replace v12_NEWVARIABLE = var10  if `data'==11
 capture replace v12_NEWVARIABLE = var10  if `data'==12
 capture replace v12_NEWVARIABLE = var10  if `data'==13
 capture replace v12_NEWVARIABLE = var10  if `data'==14
-capture replace v12_NEWVARIABLE = var10  if `data'==15
-capture replace v12_NEWVARIABLE = var10  if `data'==16
-capture replace v12_NEWVARIABLE = var10  if `data'==17
-capture replace v12_NEWVARIABLE = var10  if `data'==18
-capture replace v12_NEWVARIABLE = var10  if `data'==19
-capture replace v12_NEWVARIABLE = var10  if `data'==20
-capture replace v12_NEWVARIABLE = var10  if `data'==21
-capture replace v12_NEWVARIABLE = var10  if `data'==22
-capture replace v12_NEWVARIABLE = var10  if `data'==23
-capture replace v12_NEWVARIABLE = var10  if `data'==24
-capture replace v12_NEWVARIABLE = var10  if `data'==25
-capture replace v12_NEWVARIABLE = var10  if `data'==26
+capture replace v12_NEWVARIABLE = var11  if `data'==15
+capture replace v12_NEWVARIABLE = var11  if `data'==16
+capture replace v12_NEWVARIABLE = var11  if `data'==17
+capture replace v12_NEWVARIABLE = var11  if `data'==18
+capture replace v12_NEWVARIABLE = var14  if `data'==19
+capture replace v12_NEWVARIABLE = var14  if `data'==20
+capture replace v12_NEWVARIABLE = var14  if `data'==21
+capture replace v12_NEWVARIABLE = var14  if `data'==22
+capture replace v12_NEWVARIABLE = var14  if `data'==23
+capture replace v12_NEWVARIABLE = var14  if `data'==24
+capture replace v12_NEWVARIABLE = var14  if `data'==25
+capture replace v12_NEWVARIABLE = var14  if `data'==26
+capture replace v12_NEWVARIABLE = var10  if `data'==27
+capture replace v12_NEWVARIABLE = var10  if `data'==28
+capture replace v12_NEWVARIABLE = var11  if `data'==29
+capture replace v12_NEWVARIABLE = var11  if `data'==30
+capture replace v12_NEWVARIABLE = var11  if `data'==31
+capture replace v12_NEWVARIABLE = var11  if `data'==32
+capture replace v12_NEWVARIABLE = var11  if `data'==33
+capture replace v12_NEWVARIABLE = var11  if `data'==34
+capture replace v12_NEWVARIABLE = var11  if `data'==35
+capture replace v12_NEWVARIABLE = var11  if `data'==36
+capture replace v12_NEWVARIABLE = var11  if `data'==37
+capture replace v12_NEWVARIABLE = var11  if `data'==38
+capture replace v12_NEWVARIABLE = var11  if `data'==39
+capture replace v12_NEWVARIABLE = var11  if `data'==40
+capture replace v12_NEWVARIABLE = var11  if `data'==41
+capture replace v12_NEWVARIABLE = var11  if `data'==42
+capture replace v12_NEWVARIABLE = var11  if `data'==43
+capture replace v12_NEWVARIABLE = var11  if `data'==44
 capture label variable v12_NEWVARIABLE `var_lab'
 capture label values v12_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "DLM2"
-    Description (Data 1):  "DLM2"
-    Description (Data 2):  "DLM2"
-    Description (Data 3):  "DLM2"
-    Description (Data 4):  "DLM2"
-    Description (Data 5):  "DLM2"
-    Description (Data 6):  "DLM2"
-    Description (Data 7):  "DLM2"
-    Description (Data 8):  "DLM2"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v13_NEWVARIABLE = .
-local var_lab: variable label var13
-local val_lab: value label var13
-capture replace v13_NEWVARIABLE = var13  if `data'==1
-capture replace v13_NEWVARIABLE = var13  if `data'==2
-capture replace v13_NEWVARIABLE = var13  if `data'==3
-capture replace v13_NEWVARIABLE = var13  if `data'==4
-capture replace v13_NEWVARIABLE = var13  if `data'==5
-capture replace v13_NEWVARIABLE = var13  if `data'==6
-capture replace v13_NEWVARIABLE = var13  if `data'==7
-capture replace v13_NEWVARIABLE = var13  if `data'==8
-capture label variable v13_NEWVARIABLE `var_lab'
-capture label values v13_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "抽出符号"
-    Description (Data 1):  "抽出符号"
-    Description (Data 2):  "抽出符号"
-    Description (Data 3):  "抽出符号"
-    Description (Data 4):  "抽出符号"
-    Description (Data 5):  "抽出符号"
-    Description (Data 6):  "抽出符号"
-    Description (Data 7):  "抽出符号"
-    Description (Data 8):  "抽出符号"
-    Description (Data 9):  "抽出番号"
-    Description (Data 10): "抽出番号"
-    Description (Data 11): "共通項目: 抽出番号"
-    Description (Data 12): "共通項目: 抽出番号"
-    Description (Data 13): "共通項目: 抽出番号"
-    Description (Data 14): "共通項目: 抽出番号"
-    Description (Data 15): "共通項目: 抽出番号"
-    Description (Data 16): "共通項目: 抽出番号"
-    Description (Data 17): "共通項目: 抽出番号"
-    Description (Data 18): "共通項目: 抽出番号"
-    Description (Data 19): "共通項目: 抽出番号"
-    Description (Data 20): "共通項目: 抽出番号"
-    Description (Data 21): "共通項目: 抽出番号"
-    Description (Data 22): "共通項目: 抽出番号"
-    Description (Data 23): "共通項目: 抽出番号"
-    Description (Data 24): "共通項目: 抽出番号"
-    Description (Data 25): "共通項目: 抽出番号"
-    Description (Data 26): "共通項目: 抽出番号"
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-
-----------------------------------------------------------------------*/
-gen v14_NEWVARIABLE = .
-local var_lab: variable label var14
-local val_lab: value label var14
-capture replace v14_NEWVARIABLE = var14  if `data'==1
-capture replace v14_NEWVARIABLE = var14  if `data'==2
-capture replace v14_NEWVARIABLE = var14  if `data'==3
-capture replace v14_NEWVARIABLE = var14  if `data'==4
-capture replace v14_NEWVARIABLE = var14  if `data'==5
-capture replace v14_NEWVARIABLE = var14  if `data'==6
-capture replace v14_NEWVARIABLE = var14  if `data'==7
-capture replace v14_NEWVARIABLE = var14  if `data'==8
-capture replace v14_NEWVARIABLE = var10  if `data'==9
-capture replace v14_NEWVARIABLE = var10  if `data'==10
-capture replace v14_NEWVARIABLE = var11  if `data'==11
-capture replace v14_NEWVARIABLE = var11  if `data'==12
-capture replace v14_NEWVARIABLE = var11  if `data'==13
-capture replace v14_NEWVARIABLE = var11  if `data'==14
-capture replace v14_NEWVARIABLE = var11  if `data'==15
-capture replace v14_NEWVARIABLE = var11  if `data'==16
-capture replace v14_NEWVARIABLE = var11  if `data'==17
-capture replace v14_NEWVARIABLE = var11  if `data'==18
-capture replace v14_NEWVARIABLE = var11  if `data'==19
-capture replace v14_NEWVARIABLE = var11  if `data'==20
-capture replace v14_NEWVARIABLE = var11  if `data'==21
-capture replace v14_NEWVARIABLE = var11  if `data'==22
-capture replace v14_NEWVARIABLE = var11  if `data'==23
-capture replace v14_NEWVARIABLE = var11  if `data'==24
-capture replace v14_NEWVARIABLE = var11  if `data'==25
-capture replace v14_NEWVARIABLE = var11  if `data'==26
-capture label variable v14_NEWVARIABLE `var_lab'
-capture label values v14_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "DLM3"
-    Description (Data 1):  "DLM3"
-    Description (Data 2):  "DLM3"
-    Description (Data 3):  "DLM3"
-    Description (Data 4):  "DLM3"
-    Description (Data 5):  "DLM3"
-    Description (Data 6):  "DLM3"
-    Description (Data 7):  "DLM3"
-    Description (Data 8):  "DLM3"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v15_NEWVARIABLE = .
-local var_lab: variable label var15
-local val_lab: value label var15
-capture replace v15_NEWVARIABLE = var15  if `data'==1
-capture replace v15_NEWVARIABLE = var15  if `data'==2
-capture replace v15_NEWVARIABLE = var15  if `data'==3
-capture replace v15_NEWVARIABLE = var15  if `data'==4
-capture replace v15_NEWVARIABLE = var15  if `data'==5
-capture replace v15_NEWVARIABLE = var15  if `data'==6
-capture replace v15_NEWVARIABLE = var15  if `data'==7
-capture replace v15_NEWVARIABLE = var15  if `data'==8
-capture label variable v15_NEWVARIABLE `var_lab'
-capture label values v15_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "事業所規模"
-    Description (Data 1):  "事業所規模"
-    Description (Data 2):  "事業所規模"
-    Description (Data 3):  "事業所規模"
-    Description (Data 4):  "事業所規模"
-    Description (Data 5):  "事業所規模"
-    Description (Data 6):  "事業所規模"
+    Description (Base):    "共通項目: 事業所規模区分"
+    Description (Data 1):  "共通項目: 事業所規模区分"
+    Description (Data 2):  "共通項目: 事業所規模区分"
+    Description (Data 3):  "規模: 事業所規模"
+    Description (Data 4):  "規模: 事業所規模"
+    Description (Data 5):  "規模: 事業所規模"
+    Description (Data 6):  "規模: 事業所規模"
     Description (Data 7):  "事業所規模"
     Description (Data 8):  "事業所規模"
     Description (Data 9):  "事業所規模"
     Description (Data 10): "事業所規模"
-    Description (Data 11): "共通項目: 事業所規模"
-    Description (Data 12): "共通項目: 事業所規模"
-    Description (Data 13): "共通項目: 事業所規模"
-    Description (Data 14): "共通項目: 事業所規模"
-    Description (Data 15): "共通項目: 事業所規模"
-    Description (Data 16): "共通項目: 事業所規模"
-    Description (Data 17): "共通項目: 事業所規模"
-    Description (Data 18): "共通項目: 事業所規模"
-    Description (Data 19): "共通項目: 事業所規模"
-    Description (Data 20): "共通項目: 事業所規模"
-    Description (Data 21): "共通項目: 事業所規模"
-    Description (Data 22): "共通項目: 事業所規模"
-    Description (Data 23): "共通項目: 事業所規模"
-    Description (Data 24): "共通項目: 事業所規模"
-    Description (Data 25): "共通項目: 事業所規模"
-    Description (Data 26): "共通項目: 事業所規模"
+    Description (Data 11): "規模: 事業所"
+    Description (Data 12): "規模: 事業所"
+    Description (Data 13): "規模: 事業所"
+    Description (Data 14): "規模: 事業所"
+    Description (Data 15): "規模: 事業所"
+    Description (Data 16): "規模: 事業所"
+    Description (Data 17): "規模: 事業所"
+    Description (Data 18): "規模: 事業所"
+    Description (Data 19): "事業所規模"
+    Description (Data 20): "事業所規模"
+    Description (Data 21): "事業所規模"
+    Description (Data 22): "事業所規模"
+    Description (Data 23): "事業所規模"
+    Description (Data 24): "事業所規模"
+    Description (Data 25): "事業所規模"
+    Description (Data 26): "事業所規模"
+    Description (Data 27): "事業所規模"
+    Description (Data 28): "事業所規模"
+    Description (Data 29): "共通項目: 事業所規模"
+    Description (Data 30): "共通項目: 事業所規模"
+    Description (Data 31): "共通項目: 事業所規模"
+    Description (Data 32): "共通項目: 事業所規模"
+    Description (Data 33): "共通項目: 事業所規模"
+    Description (Data 34): "共通項目: 事業所規模"
+    Description (Data 35): "共通項目: 事業所規模"
+    Description (Data 36): "共通項目: 事業所規模"
+    Description (Data 37): "共通項目: 事業所規模"
+    Description (Data 38): "共通項目: 事業所規模"
+    Description (Data 39): "共通項目: 事業所規模"
+    Description (Data 40): "共通項目: 事業所規模"
+    Description (Data 41): "共通項目: 事業所規模"
+    Description (Data 42): "共通項目: 事業所規模"
+    Description (Data 43): "共通項目: 事業所規模"
+    Description (Data 44): "共通項目: 事業所規模"
 
-    Values (Base):     1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 1):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 2):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 3):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 4):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 5):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 6):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 7):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 8):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 9):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 10):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 11):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 12):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 13):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 14):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 15):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 16):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 17):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 18):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Base):     1: 500人以上, 2: 100-499人, 3: 30-99人, 4: 5-29人
+    Values (Data 1):   1: 500人以上, 2: 100-499人, 3: 30-99人, 4: 5-29人
+    Values (Data 2):   1: 500人以上, 2: 100-499人, 3: 30-99人, 4: 5-29人
+    Values (Data 3):   1: , 2: , 3: , 4: 
+    Values (Data 4):   1: , 2: , 3: , 4: 
+    Values (Data 5):   1: , 2: , 3: , 4: 
+    Values (Data 6):   1: , 2: , 3: , 4: 
+    Values (Data 7):   1: , 2: , 3: , 4: 
+    Values (Data 8):   1: , 2: , 3: , 4: 
+    Values (Data 9):   1: , 2: , 3: , 4: 
+    Values (Data 10):  1: , 2: , 3: , 4: 
+    Values (Data 11):  1: , 2: , 3: , 4: 
+    Values (Data 12):  1: , 2: , 3: , 4: 
+    Values (Data 13):  1: , 2: , 3: , 4: 
+    Values (Data 14):  1: , 2: , 3: , 4: 
+    Values (Data 15):  1: , 2: , 3: , 4: 
+    Values (Data 16):  1: , 2: , 3: , 4: 
+    Values (Data 17):  1: , 2: , 3: , 4: 
+    Values (Data 18):  1: , 2: , 3: , 4: 
     Values (Data 19):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
     Values (Data 20):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
     Values (Data 21):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
@@ -1327,89 +1686,143 @@ capture label values v15_NEWVARIABLE `val_lab'
     Values (Data 24):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
     Values (Data 25):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
     Values (Data 26):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 27):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 28):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 29):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 30):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 31):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 32):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 33):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 34):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 35):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 36):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 37):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 38):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 39):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 40):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 41):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 42):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 43):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 44):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
 
 ----------------------------------------------------------------------*/
-gen v16_NEWVARIABLE = .
-local var_lab: variable label var16
-local val_lab: value label var16
-capture replace v16_NEWVARIABLE = var16  if `data'==1
-capture replace v16_NEWVARIABLE = var16  if `data'==2
-capture replace v16_NEWVARIABLE = var16  if `data'==3
-capture replace v16_NEWVARIABLE = var16  if `data'==4
-capture replace v16_NEWVARIABLE = var16  if `data'==5
-capture replace v16_NEWVARIABLE = var16  if `data'==6
-capture replace v16_NEWVARIABLE = var16  if `data'==7
-capture replace v16_NEWVARIABLE = var16  if `data'==8
-capture replace v16_NEWVARIABLE = var11  if `data'==9
-capture replace v16_NEWVARIABLE = var11  if `data'==10
-capture replace v16_NEWVARIABLE = var12  if `data'==11
-capture replace v16_NEWVARIABLE = var12  if `data'==12
-capture replace v16_NEWVARIABLE = var12  if `data'==13
-capture replace v16_NEWVARIABLE = var12  if `data'==14
-capture replace v16_NEWVARIABLE = var12  if `data'==15
-capture replace v16_NEWVARIABLE = var12  if `data'==16
-capture replace v16_NEWVARIABLE = var12  if `data'==17
-capture replace v16_NEWVARIABLE = var12  if `data'==18
-capture replace v16_NEWVARIABLE = var12  if `data'==19
-capture replace v16_NEWVARIABLE = var12  if `data'==20
-capture replace v16_NEWVARIABLE = var12  if `data'==21
-capture replace v16_NEWVARIABLE = var12  if `data'==22
-capture replace v16_NEWVARIABLE = var12  if `data'==23
-capture replace v16_NEWVARIABLE = var12  if `data'==24
-capture replace v16_NEWVARIABLE = var12  if `data'==25
-capture replace v16_NEWVARIABLE = var12  if `data'==26
-capture label variable v16_NEWVARIABLE `var_lab'
-capture label values v16_NEWVARIABLE `val_lab'
+gen v13_NEWVARIABLE = .
+local var_lab: variable label var13
+local val_lab: value label var13
+capture replace v13_NEWVARIABLE = var13  if `data'==1
+capture replace v13_NEWVARIABLE = var13  if `data'==2
+capture replace v13_NEWVARIABLE = var11  if `data'==3
+capture replace v13_NEWVARIABLE = var11  if `data'==4
+capture replace v13_NEWVARIABLE = var11  if `data'==5
+capture replace v13_NEWVARIABLE = var11  if `data'==6
+capture replace v13_NEWVARIABLE = var11  if `data'==7
+capture replace v13_NEWVARIABLE = var11  if `data'==8
+capture replace v13_NEWVARIABLE = var11  if `data'==9
+capture replace v13_NEWVARIABLE = var11  if `data'==10
+capture replace v13_NEWVARIABLE = var11  if `data'==11
+capture replace v13_NEWVARIABLE = var11  if `data'==12
+capture replace v13_NEWVARIABLE = var11  if `data'==13
+capture replace v13_NEWVARIABLE = var11  if `data'==14
+capture replace v13_NEWVARIABLE = var12  if `data'==15
+capture replace v13_NEWVARIABLE = var12  if `data'==16
+capture replace v13_NEWVARIABLE = var12  if `data'==17
+capture replace v13_NEWVARIABLE = var12  if `data'==18
+capture replace v13_NEWVARIABLE = var16  if `data'==19
+capture replace v13_NEWVARIABLE = var16  if `data'==20
+capture replace v13_NEWVARIABLE = var16  if `data'==21
+capture replace v13_NEWVARIABLE = var16  if `data'==22
+capture replace v13_NEWVARIABLE = var16  if `data'==23
+capture replace v13_NEWVARIABLE = var16  if `data'==24
+capture replace v13_NEWVARIABLE = var16  if `data'==25
+capture replace v13_NEWVARIABLE = var16  if `data'==26
+capture replace v13_NEWVARIABLE = var11  if `data'==27
+capture replace v13_NEWVARIABLE = var11  if `data'==28
+capture replace v13_NEWVARIABLE = var12  if `data'==29
+capture replace v13_NEWVARIABLE = var12  if `data'==30
+capture replace v13_NEWVARIABLE = var12  if `data'==31
+capture replace v13_NEWVARIABLE = var12  if `data'==32
+capture replace v13_NEWVARIABLE = var12  if `data'==33
+capture replace v13_NEWVARIABLE = var12  if `data'==34
+capture replace v13_NEWVARIABLE = var12  if `data'==35
+capture replace v13_NEWVARIABLE = var12  if `data'==36
+capture replace v13_NEWVARIABLE = var12  if `data'==37
+capture replace v13_NEWVARIABLE = var12  if `data'==38
+capture replace v13_NEWVARIABLE = var12  if `data'==39
+capture replace v13_NEWVARIABLE = var12  if `data'==40
+capture replace v13_NEWVARIABLE = var12  if `data'==41
+capture replace v13_NEWVARIABLE = var12  if `data'==42
+capture replace v13_NEWVARIABLE = var12  if `data'==43
+capture replace v13_NEWVARIABLE = var12  if `data'==44
+capture label variable v13_NEWVARIABLE `var_lab'
+capture label values v13_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "企業規模"
-    Description (Data 1):  "企業規模"
-    Description (Data 2):  "企業規模"
-    Description (Data 3):  "企業規模"
-    Description (Data 4):  "企業規模"
-    Description (Data 5):  "企業規模"
-    Description (Data 6):  "企業規模"
+    Description (Base):    "共通項目: 企業規模区分"
+    Description (Data 1):  "共通項目: 企業規模区分"
+    Description (Data 2):  "共通項目: 企業規模区分"
+    Description (Data 3):  "規模: 企業規模"
+    Description (Data 4):  "規模: 企業規模"
+    Description (Data 5):  "規模: 企業規模"
+    Description (Data 6):  "規模: 企業規模"
     Description (Data 7):  "企業規模"
     Description (Data 8):  "企業規模"
     Description (Data 9):  "企業規模"
     Description (Data 10): "企業規模"
-    Description (Data 11): "共通項目: 企業規模"
-    Description (Data 12): "共通項目: 企業規模"
-    Description (Data 13): "共通項目: 企業規模"
-    Description (Data 14): "共通項目: 企業規模"
-    Description (Data 15): "共通項目: 企業規模"
-    Description (Data 16): "共通項目: 企業規模"
-    Description (Data 17): "共通項目: 企業規模"
-    Description (Data 18): "共通項目: 企業規模"
-    Description (Data 19): "共通項目: 企業規模"
-    Description (Data 20): "共通項目: 企業規模"
-    Description (Data 21): "共通項目: 企業規模"
-    Description (Data 22): "共通項目: 企業規模"
-    Description (Data 23): "共通項目: 企業規模"
-    Description (Data 24): "共通項目: 企業規模"
-    Description (Data 25): "共通項目: 企業規模"
-    Description (Data 26): "共通項目: 企業規模"
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "企業規模"
+    Description (Data 20): "企業規模"
+    Description (Data 21): "企業規模"
+    Description (Data 22): "企業規模"
+    Description (Data 23): "企業規模"
+    Description (Data 24): "企業規模"
+    Description (Data 25): "企業規模"
+    Description (Data 26): "企業規模"
+    Description (Data 27): "企業規模"
+    Description (Data 28): "企業規模"
+    Description (Data 29): "共通項目: 企業規模"
+    Description (Data 30): "共通項目: 企業規模"
+    Description (Data 31): "共通項目: 企業規模"
+    Description (Data 32): "共通項目: 企業規模"
+    Description (Data 33): "共通項目: 企業規模"
+    Description (Data 34): "共通項目: 企業規模"
+    Description (Data 35): "共通項目: 企業規模"
+    Description (Data 36): "共通項目: 企業規模"
+    Description (Data 37): "共通項目: 企業規模"
+    Description (Data 38): "共通項目: 企業規模"
+    Description (Data 39): "共通項目: 企業規模"
+    Description (Data 40): "共通項目: 企業規模"
+    Description (Data 41): "共通項目: 企業規模"
+    Description (Data 42): "共通項目: 企業規模"
+    Description (Data 43): "共通項目: 企業規模"
+    Description (Data 44): "共通項目: 企業規模"
 
-    Values (Base):     1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 1):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 2):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 3):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 4):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 5):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 6):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 7):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 8):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 9):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 10):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 11):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 12):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 13):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 14):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 15):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 16):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 17):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
-    Values (Data 18):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Base):     1: 1000人以上, 2: 300-999人, 3: 100-299人, 4: 30-99人, 5: 5-29人, 6: 官公営
+    Values (Data 1):   1: 1000人以上, 2: 300-999人, 3: 100-299人, 4: 30-99人, 5: 5-29人, 6: 官公営
+    Values (Data 2):   1: 1000人以上, 2: 300-999人, 3: 100-299人, 4: 30-99人, 5: 5-29人, 6: 官公営
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
     Values (Data 19):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
     Values (Data 20):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
     Values (Data 21):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
@@ -1418,6 +1831,415 @@ capture label values v16_NEWVARIABLE `val_lab'
     Values (Data 24):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
     Values (Data 25):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
     Values (Data 26):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 27):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 28):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 29):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 30):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 31):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 32):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 33):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 34):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 35):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 36):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 37):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 38):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 39):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 40):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 41):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 42):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 43):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+    Values (Data 44):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
+
+----------------------------------------------------------------------*/
+gen v14_NEWVARIABLE = .
+local var_lab: variable label var14
+local val_lab: value label var14
+capture replace v14_NEWVARIABLE = var14  if `data'==1
+capture replace v14_NEWVARIABLE = var14  if `data'==2
+capture replace v14_NEWVARIABLE = var12  if `data'==3
+capture replace v14_NEWVARIABLE = var12  if `data'==4
+capture replace v14_NEWVARIABLE = var12  if `data'==5
+capture replace v14_NEWVARIABLE = var12  if `data'==6
+capture replace v14_NEWVARIABLE = var12  if `data'==7
+capture replace v14_NEWVARIABLE = var12  if `data'==8
+capture replace v14_NEWVARIABLE = var12  if `data'==9
+capture replace v14_NEWVARIABLE = var12  if `data'==10
+capture replace v14_NEWVARIABLE = var17  if `data'==19
+capture replace v14_NEWVARIABLE = var17  if `data'==20
+capture replace v14_NEWVARIABLE = var17  if `data'==21
+capture replace v14_NEWVARIABLE = var17  if `data'==22
+capture replace v14_NEWVARIABLE = var17  if `data'==23
+capture replace v14_NEWVARIABLE = var17  if `data'==24
+capture replace v14_NEWVARIABLE = var17  if `data'==25
+capture replace v14_NEWVARIABLE = var17  if `data'==26
+capture replace v14_NEWVARIABLE = var12  if `data'==27
+capture replace v14_NEWVARIABLE = var12  if `data'==28
+capture replace v14_NEWVARIABLE = var13  if `data'==29
+capture replace v14_NEWVARIABLE = var13  if `data'==30
+capture replace v14_NEWVARIABLE = var13  if `data'==31
+capture replace v14_NEWVARIABLE = var13  if `data'==32
+capture replace v14_NEWVARIABLE = var13  if `data'==33
+capture replace v14_NEWVARIABLE = var13  if `data'==34
+capture replace v14_NEWVARIABLE = var13  if `data'==35
+capture replace v14_NEWVARIABLE = var13  if `data'==36
+capture replace v14_NEWVARIABLE = var13  if `data'==37
+capture replace v14_NEWVARIABLE = var13  if `data'==38
+capture replace v14_NEWVARIABLE = var13  if `data'==39
+capture replace v14_NEWVARIABLE = var13  if `data'==40
+capture replace v14_NEWVARIABLE = var13  if `data'==41
+capture replace v14_NEWVARIABLE = var13  if `data'==42
+capture replace v14_NEWVARIABLE = var13  if `data'==43
+capture replace v14_NEWVARIABLE = var13  if `data'==44
+capture label variable v14_NEWVARIABLE `var_lab'
+capture label values v14_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "共通項目乗率用マトリックス: 産業連番"
+    Description (Data 1):  "共通項目乗率用マトリックス: 産業連番"
+    Description (Data 2):  "共通項目乗率用マトリックス: 産業連番"
+    Description (Data 3):  "乗率マトリックス: 産業連番"
+    Description (Data 4):  "乗率マトリックス: 産業連番"
+    Description (Data 5):  "乗率マトリックス: 産業連番"
+    Description (Data 6):  "乗率マトリックス: 産業連番"
+    Description (Data 7):  "乗率マトリックス用: 産業連番"
+    Description (Data 8):  "乗率マトリックス用: 産業連番"
+    Description (Data 9):  "乗率マトリックス: 産業連番"
+    Description (Data 10): "乗率マトリックス: 産業連番"
+    Description (Data 11): "乗率マトリックス: 産業連番"
+    Description (Data 12): "乗率マトリックス: 産業連番"
+    Description (Data 13): "乗率マトリックス: 産業連番"
+    Description (Data 14): "乗率マトリックス: 産業連番"
+    Description (Data 15): "乗率マトリックス: 産業連番"
+    Description (Data 16): "乗率マトリックス: 産業連番"
+    Description (Data 17): "乗率マトリックス: 産業連番"
+    Description (Data 18): "乗率マトリックス: 産業連番"
+    Description (Data 19): "乗率マトリックス用: 乗率用産業分類"
+    Description (Data 20): "乗率マトリックス用: 乗率用産業分類"
+    Description (Data 21): "乗率マトリックス用: 乗率用産業分類"
+    Description (Data 22): "乗率マトリックス用: 乗率用産業分類"
+    Description (Data 23): "乗率マトリックス用: 乗率用産業分類"
+    Description (Data 24): "乗率マトリックス用: 乗率用産業分類"
+    Description (Data 25): "乗率マトリックス用: 乗率用産業分類"
+    Description (Data 26): "乗率マトリックス用: 乗率用産業分類"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v15_NEWVARIABLE = .
+local var_lab: variable label var15
+local val_lab: value label var15
+capture replace v15_NEWVARIABLE = var15  if `data'==1
+capture replace v15_NEWVARIABLE = var15  if `data'==2
+capture replace v15_NEWVARIABLE = var13  if `data'==3
+capture replace v15_NEWVARIABLE = var13  if `data'==4
+capture replace v15_NEWVARIABLE = var13  if `data'==5
+capture replace v15_NEWVARIABLE = var13  if `data'==6
+capture replace v15_NEWVARIABLE = var13  if `data'==7
+capture replace v15_NEWVARIABLE = var13  if `data'==8
+capture replace v15_NEWVARIABLE = var13  if `data'==9
+capture replace v15_NEWVARIABLE = var13  if `data'==10
+capture replace v15_NEWVARIABLE = var13  if `data'==11
+capture replace v15_NEWVARIABLE = var13  if `data'==12
+capture replace v15_NEWVARIABLE = var13  if `data'==13
+capture replace v15_NEWVARIABLE = var13  if `data'==14
+capture replace v15_NEWVARIABLE = var14  if `data'==15
+capture replace v15_NEWVARIABLE = var14  if `data'==16
+capture replace v15_NEWVARIABLE = var14  if `data'==17
+capture replace v15_NEWVARIABLE = var14  if `data'==18
+capture replace v15_NEWVARIABLE = var19  if `data'==19
+capture replace v15_NEWVARIABLE = var19  if `data'==20
+capture replace v15_NEWVARIABLE = var19  if `data'==21
+capture replace v15_NEWVARIABLE = var19  if `data'==22
+capture replace v15_NEWVARIABLE = var19  if `data'==23
+capture replace v15_NEWVARIABLE = var19  if `data'==24
+capture replace v15_NEWVARIABLE = var19  if `data'==25
+capture replace v15_NEWVARIABLE = var19  if `data'==26
+capture label variable v15_NEWVARIABLE `var_lab'
+capture label values v15_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "共通項目乗率用マトリックス: 事業所規模区分"
+    Description (Data 1):  "共通項目乗率用マトリックス: 事業所規模区分"
+    Description (Data 2):  "共通項目乗率用マトリックス: 事業所規模区分"
+    Description (Data 3):  "乗率マトリックス: 事業所規模"
+    Description (Data 4):  "乗率マトリックス: 事業所規模"
+    Description (Data 5):  "乗率マトリックス: 事業所規模"
+    Description (Data 6):  "乗率マトリックス: 事業所規模"
+    Description (Data 7):  "乗率マトリックス用: 事業所規模"
+    Description (Data 8):  "乗率マトリックス用: 事業所規模"
+    Description (Data 9):  "乗率マトリックス: 事業所規模"
+    Description (Data 10): "乗率マトリックス: 事業所規模"
+    Description (Data 11): "乗率マトリックス: 事業所規模"
+    Description (Data 12): "乗率マトリックス: 事業所規模"
+    Description (Data 13): "乗率マトリックス: 事業所規模"
+    Description (Data 14): "乗率マトリックス: 事業所規模"
+    Description (Data 15): "乗率マトリックス: 事業所規模"
+    Description (Data 16): "乗率マトリックス: 事業所規模"
+    Description (Data 17): "乗率マトリックス: 事業所規模"
+    Description (Data 18): "乗率マトリックス: 事業所規模"
+    Description (Data 19): "乗率マトリックス用: 乗率用事業所規模"
+    Description (Data 20): "乗率マトリックス用: 乗率用事業所規模"
+    Description (Data 21): "乗率マトリックス用: 乗率用事業所規模"
+    Description (Data 22): "乗率マトリックス用: 乗率用事業所規模"
+    Description (Data 23): "乗率マトリックス用: 乗率用事業所規模"
+    Description (Data 24): "乗率マトリックス用: 乗率用事業所規模"
+    Description (Data 25): "乗率マトリックス用: 乗率用事業所規模"
+    Description (Data 26): "乗率マトリックス用: 乗率用事業所規模"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: 500人以上, 2: 100-499人, 3: 30-99人, 4: 5-29人
+    Values (Data 1):   1: 500人以上, 2: 100-499人, 3: 30-99人, 4: 5-29人
+    Values (Data 2):   1: 500人以上, 2: 100-499人, 3: 30-99人, 4: 5-29人
+    Values (Data 3):   1: , 2: , 3: , 4: 
+    Values (Data 4):   1: , 2: , 3: , 4: 
+    Values (Data 5):   1: , 2: , 3: , 4: 
+    Values (Data 6):   1: , 2: , 3: , 4: 
+    Values (Data 7):   1: , 2: , 3: , 4: 
+    Values (Data 8):   1: , 2: , 3: , 4: 
+    Values (Data 9):   1: , 2: , 3: , 4: 
+    Values (Data 10):  1: , 2: , 3: , 4: 
+    Values (Data 11):  1: , 2: , 3: , 4: 
+    Values (Data 12):  1: , 2: , 3: , 4: 
+    Values (Data 13):  1: , 2: , 3: , 4: 
+    Values (Data 14):  1: , 2: , 3: , 4: 
+    Values (Data 15):  1: , 2: , 3: , 4: 
+    Values (Data 16):  1: , 2: , 3: , 4: 
+    Values (Data 17):  1: , 2: , 3: , 4: 
+    Values (Data 18):  1: , 2: , 3: , 4: 
+    Values (Data 19):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 20):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 21):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 22):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 23):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 24):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 25):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 26):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v16_NEWVARIABLE = .
+local var_lab: variable label var16
+local val_lab: value label var16
+capture replace v16_NEWVARIABLE = var16  if `data'==1
+capture replace v16_NEWVARIABLE = var16  if `data'==2
+capture replace v16_NEWVARIABLE = var14  if `data'==3
+capture replace v16_NEWVARIABLE = var14  if `data'==4
+capture replace v16_NEWVARIABLE = var14  if `data'==5
+capture replace v16_NEWVARIABLE = var14  if `data'==6
+capture replace v16_NEWVARIABLE = var14  if `data'==7
+capture replace v16_NEWVARIABLE = var14  if `data'==8
+capture replace v16_NEWVARIABLE = var14  if `data'==9
+capture replace v16_NEWVARIABLE = var14  if `data'==10
+capture replace v16_NEWVARIABLE = var14  if `data'==11
+capture replace v16_NEWVARIABLE = var14  if `data'==12
+capture replace v16_NEWVARIABLE = var14  if `data'==13
+capture replace v16_NEWVARIABLE = var14  if `data'==14
+capture replace v16_NEWVARIABLE = var15  if `data'==15
+capture replace v16_NEWVARIABLE = var15  if `data'==16
+capture replace v16_NEWVARIABLE = var15  if `data'==17
+capture replace v16_NEWVARIABLE = var15  if `data'==18
+capture replace v16_NEWVARIABLE = var20  if `data'==19
+capture replace v16_NEWVARIABLE = var20  if `data'==20
+capture replace v16_NEWVARIABLE = var20  if `data'==21
+capture replace v16_NEWVARIABLE = var20  if `data'==22
+capture replace v16_NEWVARIABLE = var20  if `data'==23
+capture replace v16_NEWVARIABLE = var20  if `data'==24
+capture replace v16_NEWVARIABLE = var20  if `data'==25
+capture replace v16_NEWVARIABLE = var20  if `data'==26
+capture label variable v16_NEWVARIABLE `var_lab'
+capture label values v16_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "共通項目乗率用マトリックス: 性区分"
+    Description (Data 1):  "共通項目乗率用マトリックス: 性区分"
+    Description (Data 2):  "共通項目乗率用マトリックス: 性区分"
+    Description (Data 3):  "乗率マトリックス: 性別"
+    Description (Data 4):  "乗率マトリックス: 性別"
+    Description (Data 5):  "乗率マトリックス: 性別"
+    Description (Data 6):  "乗率マトリックス: 性別"
+    Description (Data 7):  "乗率マトリックス用: 性別"
+    Description (Data 8):  "乗率マトリックス用: 性別"
+    Description (Data 9):  "乗率マトリックス: 性別"
+    Description (Data 10): "乗率マトリックス: 性別"
+    Description (Data 11): "乗率マトリックス: 性別"
+    Description (Data 12): "乗率マトリックス: 性別"
+    Description (Data 13): "乗率マトリックス: 性別"
+    Description (Data 14): "乗率マトリックス: 性別"
+    Description (Data 15): "乗率マトリックス: 性別"
+    Description (Data 16): "乗率マトリックス: 性別"
+    Description (Data 17): "乗率マトリックス: 性別"
+    Description (Data 18): "乗率マトリックス: 性別"
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: 男子, 2: 女子
+    Values (Data 1):   1: 男子, 2: 女子
+    Values (Data 2):   1: 男子, 2: 女子
+    Values (Data 3):   1: , 2: 
+    Values (Data 4):   1: , 2: 
+    Values (Data 5):   1: , 2: 
+    Values (Data 6):   1: , 2: 
+    Values (Data 7):   1: , 2: 
+    Values (Data 8):   1: , 2: 
+    Values (Data 9):   1: , 2: 
+    Values (Data 10):  1: , 2: 
+    Values (Data 11):  1: , 2: 
+    Values (Data 12):  1: , 2: 
+    Values (Data 13):  1: , 2: 
+    Values (Data 14):  1: , 2: 
+    Values (Data 15):  1: , 2: 
+    Values (Data 16):  1: , 2: 
+    Values (Data 17):  1: 男, 2: 女
+    Values (Data 18):  1: 男, 2: 女
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v17_NEWVARIABLE = .
@@ -1425,90 +2247,118 @@ local var_lab: variable label var17
 local val_lab: value label var17
 capture replace v17_NEWVARIABLE = var17  if `data'==1
 capture replace v17_NEWVARIABLE = var17  if `data'==2
-capture replace v17_NEWVARIABLE = var17  if `data'==3
-capture replace v17_NEWVARIABLE = var17  if `data'==4
-capture replace v17_NEWVARIABLE = var17  if `data'==5
-capture replace v17_NEWVARIABLE = var17  if `data'==6
-capture replace v17_NEWVARIABLE = var17  if `data'==7
-capture replace v17_NEWVARIABLE = var17  if `data'==8
-capture replace v17_NEWVARIABLE = var12  if `data'==9
-capture replace v17_NEWVARIABLE = var12  if `data'==10
-capture replace v17_NEWVARIABLE = var13  if `data'==11
-capture replace v17_NEWVARIABLE = var13  if `data'==12
-capture replace v17_NEWVARIABLE = var13  if `data'==13
-capture replace v17_NEWVARIABLE = var13  if `data'==14
-capture replace v17_NEWVARIABLE = var13  if `data'==15
-capture replace v17_NEWVARIABLE = var13  if `data'==16
-capture replace v17_NEWVARIABLE = var13  if `data'==17
-capture replace v17_NEWVARIABLE = var13  if `data'==18
-capture replace v17_NEWVARIABLE = var13  if `data'==19
-capture replace v17_NEWVARIABLE = var13  if `data'==20
-capture replace v17_NEWVARIABLE = var13  if `data'==21
-capture replace v17_NEWVARIABLE = var13  if `data'==22
-capture replace v17_NEWVARIABLE = var13  if `data'==23
-capture replace v17_NEWVARIABLE = var13  if `data'==24
-capture replace v17_NEWVARIABLE = var13  if `data'==25
-capture replace v17_NEWVARIABLE = var13  if `data'==26
+capture replace v17_NEWVARIABLE = var15  if `data'==3
+capture replace v17_NEWVARIABLE = var15  if `data'==4
+capture replace v17_NEWVARIABLE = var15  if `data'==5
+capture replace v17_NEWVARIABLE = var15  if `data'==6
+capture replace v17_NEWVARIABLE = var15  if `data'==7
+capture replace v17_NEWVARIABLE = var15  if `data'==8
+capture replace v17_NEWVARIABLE = var15  if `data'==9
+capture replace v17_NEWVARIABLE = var15  if `data'==10
+capture replace v17_NEWVARIABLE = var15  if `data'==11
+capture replace v17_NEWVARIABLE = var15  if `data'==12
+capture replace v17_NEWVARIABLE = var15  if `data'==13
+capture replace v17_NEWVARIABLE = var15  if `data'==14
+capture replace v17_NEWVARIABLE = var16  if `data'==15
+capture replace v17_NEWVARIABLE = var16  if `data'==16
+capture replace v17_NEWVARIABLE = var16  if `data'==17
+capture replace v17_NEWVARIABLE = var16  if `data'==18
 capture label variable v17_NEWVARIABLE `var_lab'
 capture label values v17_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "DLM4"
-    Description (Data 1):  "DLM4"
-    Description (Data 2):  "DLM4"
-    Description (Data 3):  "DLM4"
-    Description (Data 4):  "DLM4"
-    Description (Data 5):  "DLM4"
-    Description (Data 6):  "DLM4"
-    Description (Data 7):  "DLM4"
-    Description (Data 8):  "DLM4"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "共通項目乗率用マトリックス: 就業形態区分"
+    Description (Data 1):  "共通項目乗率用マトリックス: 就業形態区分"
+    Description (Data 2):  "共通項目乗率用マトリックス: 就業形態区分"
+    Description (Data 3):  "乗率マトリックス: 就業形態"
+    Description (Data 4):  "乗率マトリックス: 就業形態"
+    Description (Data 5):  "乗率マトリックス: 就業形態"
+    Description (Data 6):  "乗率マトリックス: 就業形態"
+    Description (Data 7):  "乗率マトリックス用: 就業形態"
+    Description (Data 8):  "乗率マトリックス用: 就業形態"
+    Description (Data 9):  "乗率マトリックス: 就業形態"
+    Description (Data 10): "乗率マトリックス: 就業形態"
+    Description (Data 11): "乗率マトリックス: 就業形態"
+    Description (Data 12): "乗率マトリックス: 就業形態"
+    Description (Data 13): "乗率マトリックス: 就業形態"
+    Description (Data 14): "乗率マトリックス: 就業形態"
+    Description (Data 15): "乗率マトリックス: 就業形態"
+    Description (Data 16): "乗率マトリックス: 就業形態"
+    Description (Data 17): "乗率マトリックス: 就業形態"
+    Description (Data 18): "乗率マトリックス: 就業形態"
+    Description (Data 19): "乗率マトリックス用: 乗率用性別"
+    Description (Data 20): "乗率マトリックス用: 乗率用性別"
+    Description (Data 21): "乗率マトリックス用: 乗率用性別"
+    Description (Data 22): "乗率マトリックス用: 乗率用性別"
+    Description (Data 23): "乗率マトリックス用: 乗率用性別"
+    Description (Data 24): "乗率マトリックス用: 乗率用性別"
+    Description (Data 25): "乗率マトリックス用: 乗率用性別"
+    Description (Data 26): "乗率マトリックス用: 乗率用性別"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Base):     1: 一般労働者, 2: パートタイム労働者
+    Values (Data 1):   1: 一般労働者, 2: パートタイム労働者
+    Values (Data 2):   1: 一般労働者, 2: パートタイム労働者
+    Values (Data 3):   1: , 2: 
+    Values (Data 4):   1: , 2: 
+    Values (Data 5):   1: , 2: 
+    Values (Data 6):   1: , 2: 
+    Values (Data 7):   1: , 2: 
+    Values (Data 8):   1: , 2: 
+    Values (Data 9):   1: , 2: 
+    Values (Data 10):  1: , 2: 
+    Values (Data 11):  1: , 2: 
+    Values (Data 12):  1: , 2: 
+    Values (Data 13):  1: , 2: 
+    Values (Data 14):  1: , 2: 
+    Values (Data 15):  1: , 2: 
+    Values (Data 16):  1: , 2: 
+    Values (Data 17):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 18):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 19):  1: 男, 2: 女
+    Values (Data 20):  1: 男, 2: 女
+    Values (Data 21):  1: 男, 2: 女
+    Values (Data 22):  1: 男, 2: 女
+    Values (Data 23):  1: 男, 2: 女
+    Values (Data 24):  1: 男, 2: 女
+    Values (Data 25):  1: 男, 2: 女
+    Values (Data 26):  1: 男, 2: 女
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v18_NEWVARIABLE = .
@@ -1516,531 +2366,38 @@ local var_lab: variable label var18
 local val_lab: value label var18
 capture replace v18_NEWVARIABLE = var18  if `data'==1
 capture replace v18_NEWVARIABLE = var18  if `data'==2
-capture replace v18_NEWVARIABLE = var18  if `data'==3
-capture replace v18_NEWVARIABLE = var18  if `data'==4
-capture replace v18_NEWVARIABLE = var18  if `data'==5
-capture replace v18_NEWVARIABLE = var18  if `data'==6
-capture replace v18_NEWVARIABLE = var18  if `data'==7
-capture replace v18_NEWVARIABLE = var18  if `data'==8
+capture replace v18_NEWVARIABLE = var16  if `data'==3
+capture replace v18_NEWVARIABLE = var16  if `data'==4
+capture replace v18_NEWVARIABLE = var16  if `data'==5
+capture replace v18_NEWVARIABLE = var16  if `data'==6
+capture replace v18_NEWVARIABLE = var16  if `data'==7
+capture replace v18_NEWVARIABLE = var16  if `data'==8
+capture replace v18_NEWVARIABLE = var16  if `data'==9
+capture replace v18_NEWVARIABLE = var16  if `data'==10
+capture replace v18_NEWVARIABLE = var16  if `data'==11
+capture replace v18_NEWVARIABLE = var16  if `data'==12
+capture replace v18_NEWVARIABLE = var16  if `data'==13
+capture replace v18_NEWVARIABLE = var16  if `data'==14
+capture replace v18_NEWVARIABLE = var17  if `data'==15
+capture replace v18_NEWVARIABLE = var17  if `data'==16
+capture replace v18_NEWVARIABLE = var17  if `data'==17
+capture replace v18_NEWVARIABLE = var17  if `data'==18
+capture replace v18_NEWVARIABLE = var21  if `data'==19
+capture replace v18_NEWVARIABLE = var21  if `data'==20
+capture replace v18_NEWVARIABLE = var21  if `data'==21
+capture replace v18_NEWVARIABLE = var21  if `data'==22
+capture replace v18_NEWVARIABLE = var21  if `data'==23
+capture replace v18_NEWVARIABLE = var21  if `data'==24
+capture replace v18_NEWVARIABLE = var21  if `data'==25
+capture replace v18_NEWVARIABLE = var21  if `data'==26
 capture label variable v18_NEWVARIABLE `var_lab'
 capture label values v18_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "乗率マトリックス用: 乗率用産業分類"
-    Description (Data 1):  "乗率マトリックス用: 乗率用産業分類"
-    Description (Data 2):  "乗率マトリックス用: 乗率用産業分類"
-    Description (Data 3):  "乗率マトリックス用: 乗率用産業分類"
-    Description (Data 4):  "乗率マトリックス用: 乗率用産業分類"
-    Description (Data 5):  "乗率マトリックス用: 乗率用産業分類"
-    Description (Data 6):  "乗率マトリックス用: 乗率用産業分類"
-    Description (Data 7):  "乗率マトリックス用: 乗率用産業分類"
-    Description (Data 8):  "乗率マトリックス用: 乗率用産業分類"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v19_NEWVARIABLE = .
-local var_lab: variable label var19
-local val_lab: value label var19
-capture replace v19_NEWVARIABLE = var19  if `data'==1
-capture replace v19_NEWVARIABLE = var19  if `data'==2
-capture replace v19_NEWVARIABLE = var19  if `data'==3
-capture replace v19_NEWVARIABLE = var19  if `data'==4
-capture replace v19_NEWVARIABLE = var19  if `data'==5
-capture replace v19_NEWVARIABLE = var19  if `data'==6
-capture replace v19_NEWVARIABLE = var19  if `data'==7
-capture replace v19_NEWVARIABLE = var19  if `data'==8
-capture label variable v19_NEWVARIABLE `var_lab'
-capture label values v19_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "乗率マトリックス用: 乗率用事業所規模"
-    Description (Data 1):  "乗率マトリックス用: 乗率用事業所規模"
-    Description (Data 2):  "乗率マトリックス用: 乗率用事業所規模"
-    Description (Data 3):  "乗率マトリックス用: 乗率用事業所規模"
-    Description (Data 4):  "乗率マトリックス用: 乗率用事業所規模"
-    Description (Data 5):  "乗率マトリックス用: 乗率用事業所規模"
-    Description (Data 6):  "乗率マトリックス用: 乗率用事業所規模"
-    Description (Data 7):  "乗率マトリックス用: 乗率用事業所規模"
-    Description (Data 8):  "乗率マトリックス用: 乗率用事業所規模"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 1):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 2):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 3):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 4):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 5):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 6):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 7):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 8):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v20_NEWVARIABLE = .
-local var_lab: variable label var20
-local val_lab: value label var20
-capture replace v20_NEWVARIABLE = var20  if `data'==1
-capture replace v20_NEWVARIABLE = var20  if `data'==2
-capture replace v20_NEWVARIABLE = var20  if `data'==3
-capture replace v20_NEWVARIABLE = var20  if `data'==4
-capture replace v20_NEWVARIABLE = var20  if `data'==5
-capture replace v20_NEWVARIABLE = var20  if `data'==6
-capture replace v20_NEWVARIABLE = var20  if `data'==7
-capture replace v20_NEWVARIABLE = var20  if `data'==8
-capture label variable v20_NEWVARIABLE `var_lab'
-capture label values v20_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "乗率マトリックス用: 乗率用性別"
-    Description (Data 1):  "乗率マトリックス用: 乗率用性別"
-    Description (Data 2):  "乗率マトリックス用: 乗率用性別"
-    Description (Data 3):  "乗率マトリックス用: 乗率用性別"
-    Description (Data 4):  "乗率マトリックス用: 乗率用性別"
-    Description (Data 5):  "乗率マトリックス用: 乗率用性別"
-    Description (Data 6):  "乗率マトリックス用: 乗率用性別"
-    Description (Data 7):  "乗率マトリックス用: 乗率用性別"
-    Description (Data 8):  "乗率マトリックス用: 乗率用性別"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     1: 男, 2: 女
-    Values (Data 1):   1: 男, 2: 女
-    Values (Data 2):   1: 男, 2: 女
-    Values (Data 3):   1: 男, 2: 女
-    Values (Data 4):   1: 男, 2: 女
-    Values (Data 5):   1: 男, 2: 女
-    Values (Data 6):   1: 男, 2: 女
-    Values (Data 7):   1: 男, 2: 女
-    Values (Data 8):   1: 男, 2: 女
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v21_NEWVARIABLE = .
-local var_lab: variable label var21
-local val_lab: value label var21
-capture replace v21_NEWVARIABLE = var21  if `data'==1
-capture replace v21_NEWVARIABLE = var21  if `data'==2
-capture replace v21_NEWVARIABLE = var21  if `data'==3
-capture replace v21_NEWVARIABLE = var21  if `data'==4
-capture replace v21_NEWVARIABLE = var21  if `data'==5
-capture replace v21_NEWVARIABLE = var21  if `data'==6
-capture replace v21_NEWVARIABLE = var21  if `data'==7
-capture replace v21_NEWVARIABLE = var21  if `data'==8
-capture label variable v21_NEWVARIABLE `var_lab'
-capture label values v21_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "乗率マトリックス用: 乗率用就業形態"
-    Description (Data 1):  "乗率マトリックス用: 乗率用就業形態"
-    Description (Data 2):  "乗率マトリックス用: 乗率用就業形態"
-    Description (Data 3):  "乗率マトリックス用: 乗率用就業形態"
-    Description (Data 4):  "乗率マトリックス用: 乗率用就業形態"
-    Description (Data 5):  "乗率マトリックス用: 乗率用就業形態"
-    Description (Data 6):  "乗率マトリックス用: 乗率用就業形態"
-    Description (Data 7):  "乗率マトリックス用: 乗率用就業形態"
-    Description (Data 8):  "乗率マトリックス用: 乗率用就業形態"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     1: 一般労働者, 2: パートタイム労働者
-    Values (Data 1):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 2):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 3):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 4):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 5):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 6):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 7):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 8):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v22_NEWVARIABLE = .
-local var_lab: variable label var22
-local val_lab: value label var22
-capture replace v22_NEWVARIABLE = var22  if `data'==1
-capture replace v22_NEWVARIABLE = var22  if `data'==2
-capture replace v22_NEWVARIABLE = var22  if `data'==3
-capture replace v22_NEWVARIABLE = var22  if `data'==4
-capture replace v22_NEWVARIABLE = var22  if `data'==5
-capture replace v22_NEWVARIABLE = var22  if `data'==6
-capture replace v22_NEWVARIABLE = var22  if `data'==7
-capture replace v22_NEWVARIABLE = var22  if `data'==8
-capture label variable v22_NEWVARIABLE `var_lab'
-capture label values v22_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "DLM5"
-    Description (Data 1):  "DLM5"
-    Description (Data 2):  "DLM5"
-    Description (Data 3):  "DLM5"
-    Description (Data 4):  "DLM5"
-    Description (Data 5):  "DLM5"
-    Description (Data 6):  "DLM5"
-    Description (Data 7):  "DLM5"
-    Description (Data 8):  "DLM5"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v23_NEWVARIABLE = .
-local var_lab: variable label var23
-local val_lab: value label var23
-capture replace v23_NEWVARIABLE = var23  if `data'==1
-capture replace v23_NEWVARIABLE = var23  if `data'==2
-capture replace v23_NEWVARIABLE = var23  if `data'==3
-capture replace v23_NEWVARIABLE = var23  if `data'==4
-capture replace v23_NEWVARIABLE = var23  if `data'==5
-capture replace v23_NEWVARIABLE = var23  if `data'==6
-capture replace v23_NEWVARIABLE = var23  if `data'==7
-capture replace v23_NEWVARIABLE = var23  if `data'==8
-capture label variable v23_NEWVARIABLE `var_lab'
-capture label values v23_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "空白2"
-    Description (Data 1):  "空白2"
-    Description (Data 2):  "空白2"
-    Description (Data 3):  "空白2"
-    Description (Data 4):  "空白2"
-    Description (Data 5):  "空白2"
-    Description (Data 6):  "空白2"
-    Description (Data 7):  "空白2"
-    Description (Data 8):  "空白2"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v24_NEWVARIABLE = .
-local var_lab: variable label var24
-local val_lab: value label var24
-capture replace v24_NEWVARIABLE = var24  if `data'==1
-capture replace v24_NEWVARIABLE = var24  if `data'==2
-capture replace v24_NEWVARIABLE = var24  if `data'==3
-capture replace v24_NEWVARIABLE = var24  if `data'==4
-capture replace v24_NEWVARIABLE = var24  if `data'==5
-capture replace v24_NEWVARIABLE = var24  if `data'==6
-capture replace v24_NEWVARIABLE = var24  if `data'==7
-capture replace v24_NEWVARIABLE = var24  if `data'==8
-capture label variable v24_NEWVARIABLE `var_lab'
-capture label values v24_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "DLM6"
-    Description (Data 1):  "DLM6"
-    Description (Data 2):  "DLM6"
-    Description (Data 3):  "DLM6"
-    Description (Data 4):  "DLM6"
-    Description (Data 5):  "DLM6"
-    Description (Data 6):  "DLM6"
-    Description (Data 7):  "DLM6"
-    Description (Data 8):  "DLM6"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v25_NEWVARIABLE = .
-local var_lab: variable label var25
-local val_lab: value label var25
-capture replace v25_NEWVARIABLE = var25  if `data'==1
-capture replace v25_NEWVARIABLE = var25  if `data'==2
-capture replace v25_NEWVARIABLE = var25  if `data'==3
-capture replace v25_NEWVARIABLE = var25  if `data'==4
-capture replace v25_NEWVARIABLE = var25  if `data'==5
-capture replace v25_NEWVARIABLE = var25  if `data'==6
-capture replace v25_NEWVARIABLE = var25  if `data'==7
-capture replace v25_NEWVARIABLE = var25  if `data'==8
-capture label variable v25_NEWVARIABLE `var_lab'
-capture label values v25_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "乗率"
-    Description (Data 1):  "乗率"
-    Description (Data 2):  "乗率"
+    Description (Base):    "共通項目: 乗率"
+    Description (Data 1):  "共通項目: 乗率"
+    Description (Data 2):  "共通項目: 乗率"
     Description (Data 3):  "乗率"
     Description (Data 4):  "乗率"
     Description (Data 5):  "乗率"
@@ -2065,6 +2422,24 @@ capture label values v25_NEWVARIABLE `val_lab'
     Description (Data 24): "乗率"
     Description (Data 25): "乗率"
     Description (Data 26): "乗率"
+    Description (Data 27): "乗率"
+    Description (Data 28): "乗率"
+    Description (Data 29): "乗率"
+    Description (Data 30): "乗率"
+    Description (Data 31): "乗率"
+    Description (Data 32): "乗率"
+    Description (Data 33): "乗率"
+    Description (Data 34): "乗率"
+    Description (Data 35): "乗率"
+    Description (Data 36): "乗率"
+    Description (Data 37): "乗率"
+    Description (Data 38): "乗率"
+    Description (Data 39): "乗率"
+    Description (Data 40): "乗率"
+    Description (Data 41): "乗率"
+    Description (Data 42): "乗率"
+    Description (Data 43): "乗率"
+    Description (Data 44): "乗率"
 
     Values (Base):    
     Values (Data 1):  
@@ -2093,126 +2468,89 @@ capture label values v25_NEWVARIABLE `val_lab'
     Values (Data 24): 
     Values (Data 25): 
     Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
 
 ----------------------------------------------------------------------*/
-gen v26_NEWVARIABLE = .
-local var_lab: variable label var26
-local val_lab: value label var26
-capture replace v26_NEWVARIABLE = var26  if `data'==1
-capture replace v26_NEWVARIABLE = var26  if `data'==2
-capture replace v26_NEWVARIABLE = var26  if `data'==3
-capture replace v26_NEWVARIABLE = var26  if `data'==4
-capture replace v26_NEWVARIABLE = var26  if `data'==5
-capture replace v26_NEWVARIABLE = var26  if `data'==6
-capture replace v26_NEWVARIABLE = var26  if `data'==7
-capture replace v26_NEWVARIABLE = var26  if `data'==8
-capture replace v26_NEWVARIABLE = var5  if `data'==9
-capture replace v26_NEWVARIABLE = var5  if `data'==10
-capture replace v26_NEWVARIABLE = var7  if `data'==11
-capture replace v26_NEWVARIABLE = var7  if `data'==12
-capture replace v26_NEWVARIABLE = var7  if `data'==13
-capture replace v26_NEWVARIABLE = var7  if `data'==14
-capture replace v26_NEWVARIABLE = var7  if `data'==15
-capture replace v26_NEWVARIABLE = var7  if `data'==16
-capture replace v26_NEWVARIABLE = var7  if `data'==17
-capture replace v26_NEWVARIABLE = var7  if `data'==18
-capture replace v26_NEWVARIABLE = var7  if `data'==19
-capture replace v26_NEWVARIABLE = var7  if `data'==20
-capture replace v26_NEWVARIABLE = var7  if `data'==21
-capture replace v26_NEWVARIABLE = var7  if `data'==22
-capture replace v26_NEWVARIABLE = var7  if `data'==23
-capture replace v26_NEWVARIABLE = var7  if `data'==24
-capture replace v26_NEWVARIABLE = var7  if `data'==25
-capture replace v26_NEWVARIABLE = var7  if `data'==26
-capture label variable v26_NEWVARIABLE `var_lab'
-capture label values v26_NEWVARIABLE `val_lab'
+gen v19_NEWVARIABLE = .
+local var_lab: variable label var19
+local val_lab: value label var19
+capture replace v19_NEWVARIABLE = var19  if `data'==1
+capture replace v19_NEWVARIABLE = var19  if `data'==2
+capture replace v19_NEWVARIABLE = var17  if `data'==3
+capture replace v19_NEWVARIABLE = var17  if `data'==4
+capture replace v19_NEWVARIABLE = var17  if `data'==5
+capture replace v19_NEWVARIABLE = var17  if `data'==6
+capture replace v19_NEWVARIABLE = var17  if `data'==7
+capture replace v19_NEWVARIABLE = var17  if `data'==8
+capture replace v19_NEWVARIABLE = var17  if `data'==9
+capture replace v19_NEWVARIABLE = var17  if `data'==10
+capture replace v19_NEWVARIABLE = var17  if `data'==11
+capture replace v19_NEWVARIABLE = var17  if `data'==12
+capture replace v19_NEWVARIABLE = var17  if `data'==13
+capture replace v19_NEWVARIABLE = var17  if `data'==14
+capture replace v19_NEWVARIABLE = var18  if `data'==15
+capture replace v19_NEWVARIABLE = var18  if `data'==16
+capture replace v19_NEWVARIABLE = var18  if `data'==17
+capture replace v19_NEWVARIABLE = var18  if `data'==18
+capture replace v19_NEWVARIABLE = var26  if `data'==19
+capture replace v19_NEWVARIABLE = var26  if `data'==20
+capture replace v19_NEWVARIABLE = var26  if `data'==21
+capture replace v19_NEWVARIABLE = var26  if `data'==22
+capture replace v19_NEWVARIABLE = var26  if `data'==23
+capture replace v19_NEWVARIABLE = var26  if `data'==24
+capture replace v19_NEWVARIABLE = var26  if `data'==25
+capture replace v19_NEWVARIABLE = var26  if `data'==26
+capture replace v19_NEWVARIABLE = var5  if `data'==27
+capture replace v19_NEWVARIABLE = var5  if `data'==28
+capture replace v19_NEWVARIABLE = var7  if `data'==29
+capture replace v19_NEWVARIABLE = var7  if `data'==30
+capture replace v19_NEWVARIABLE = var7  if `data'==31
+capture replace v19_NEWVARIABLE = var7  if `data'==32
+capture replace v19_NEWVARIABLE = var7  if `data'==33
+capture replace v19_NEWVARIABLE = var7  if `data'==34
+capture replace v19_NEWVARIABLE = var7  if `data'==35
+capture replace v19_NEWVARIABLE = var7  if `data'==36
+capture replace v19_NEWVARIABLE = var7  if `data'==37
+capture replace v19_NEWVARIABLE = var7  if `data'==38
+capture replace v19_NEWVARIABLE = var7  if `data'==39
+capture replace v19_NEWVARIABLE = var7  if `data'==40
+capture replace v19_NEWVARIABLE = var7  if `data'==41
+capture replace v19_NEWVARIABLE = var7  if `data'==42
+capture replace v19_NEWVARIABLE = var7  if `data'==43
+capture replace v19_NEWVARIABLE = var7  if `data'==44
+capture label variable v19_NEWVARIABLE `var_lab'
+capture label values v19_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "DLM7"
-    Description (Data 1):  "DLM7"
-    Description (Data 2):  "DLM7"
-    Description (Data 3):  "DLM7"
-    Description (Data 4):  "DLM7"
-    Description (Data 5):  "DLM7"
-    Description (Data 6):  "DLM7"
-    Description (Data 7):  "DLM7"
-    Description (Data 8):  "DLM7"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v27_NEWVARIABLE = .
-local var_lab: variable label var27
-local val_lab: value label var27
-capture replace v27_NEWVARIABLE = var27  if `data'==1
-capture replace v27_NEWVARIABLE = var27  if `data'==2
-capture replace v27_NEWVARIABLE = var27  if `data'==3
-capture replace v27_NEWVARIABLE = var27  if `data'==4
-capture replace v27_NEWVARIABLE = var27  if `data'==5
-capture replace v27_NEWVARIABLE = var27  if `data'==6
-capture replace v27_NEWVARIABLE = var27  if `data'==7
-capture replace v27_NEWVARIABLE = var27  if `data'==8
-capture label variable v27_NEWVARIABLE `var_lab'
-capture label values v27_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目: 性別"
-    Description (Data 1):  "個人項目: 性別"
-    Description (Data 2):  "個人項目: 性別"
+    Description (Base):    "個人項目: 性区分"
+    Description (Data 1):  "個人項目: 性区分"
+    Description (Data 2):  "個人項目: 性区分"
     Description (Data 3):  "個人項目: 性別"
     Description (Data 4):  "個人項目: 性別"
     Description (Data 5):  "個人項目: 性別"
     Description (Data 6):  "個人項目: 性別"
     Description (Data 7):  "個人項目: 性別"
     Description (Data 8):  "個人項目: 性別"
-    Description (Data 9):  "性別"
-    Description (Data 10): "性別"
+    Description (Data 9):  "個人項目: 性別"
+    Description (Data 10): "個人項目: 性別"
     Description (Data 11): "個人項目: 性別"
     Description (Data 12): "個人項目: 性別"
     Description (Data 13): "個人項目: 性別"
@@ -2229,26 +2567,44 @@ capture label values v27_NEWVARIABLE `val_lab'
     Description (Data 24): "個人項目: 性別"
     Description (Data 25): "個人項目: 性別"
     Description (Data 26): "個人項目: 性別"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "個人項目: 性別"
+    Description (Data 30): "個人項目: 性別"
+    Description (Data 31): "個人項目: 性別"
+    Description (Data 32): "個人項目: 性別"
+    Description (Data 33): "個人項目: 性別"
+    Description (Data 34): "個人項目: 性別"
+    Description (Data 35): "個人項目: 性別"
+    Description (Data 36): "個人項目: 性別"
+    Description (Data 37): "個人項目: 性別"
+    Description (Data 38): "個人項目: 性別"
+    Description (Data 39): "個人項目: 性別"
+    Description (Data 40): "個人項目: 性別"
+    Description (Data 41): "個人項目: 性別"
+    Description (Data 42): "個人項目: 性別"
+    Description (Data 43): "個人項目: 性別"
+    Description (Data 44): "個人項目: 性別"
 
     Values (Base):     1: 男, 2: 女
     Values (Data 1):   1: 男, 2: 女
     Values (Data 2):   1: 男, 2: 女
-    Values (Data 3):   1: 男, 2: 女
-    Values (Data 4):   1: 男, 2: 女
-    Values (Data 5):   1: 男, 2: 女
-    Values (Data 6):   1: 男, 2: 女
-    Values (Data 7):   1: 男, 2: 女
-    Values (Data 8):   1: 男, 2: 女
-    Values (Data 9):   1: 男, 2: 女
-    Values (Data 10):  1: 男, 2: 女
-    Values (Data 11):  1: 男, 2: 女
-    Values (Data 12):  1: 男, 2: 女
-    Values (Data 13):  1: 男, 2: 女
-    Values (Data 14):  1: 男, 2: 女
+    Values (Data 3):   1: , 2: 
+    Values (Data 4):   1: , 2: 
+    Values (Data 5):   1: , 2: 
+    Values (Data 6):   1: , 2: 
+    Values (Data 7):   1: , 2: 
+    Values (Data 8):   1: , 2: 
+    Values (Data 9):   1: , 2: 
+    Values (Data 10):  1: , 2: 
+    Values (Data 11):  1: , 2: 
+    Values (Data 12):  1: , 2: 
+    Values (Data 13):  1: , 2: 
+    Values (Data 14):  1: , 2: 
     Values (Data 15):  1: 男, 2: 女
     Values (Data 16):  1: 男, 2: 女
-    Values (Data 17):  1: 男, 2: 女
-    Values (Data 18):  1: 男, 2: 女
+    Values (Data 17):  1: , 2: 
+    Values (Data 18):  1: , 2: 
     Values (Data 19):  1: 男, 2: 女
     Values (Data 20):  1: 男, 2: 女
     Values (Data 21):  1: 男, 2: 女
@@ -2257,324 +2613,284 @@ capture label values v27_NEWVARIABLE `val_lab'
     Values (Data 24):  1: 男, 2: 女
     Values (Data 25):  1: 男, 2: 女
     Values (Data 26):  1: 男, 2: 女
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29):  1: 男, 2: 女
+    Values (Data 30):  1: 男, 2: 女
+    Values (Data 31):  1: 男, 2: 女
+    Values (Data 32):  1: 男, 2: 女
+    Values (Data 33):  1: 男, 2: 女
+    Values (Data 34):  1: 男, 2: 女
+    Values (Data 35):  1: 男, 2: 女
+    Values (Data 36):  1: 男, 2: 女
+    Values (Data 37):  1: 男, 2: 女
+    Values (Data 38):  1: 男, 2: 女
+    Values (Data 39):  1: 男, 2: 女
+    Values (Data 40):  1: 男, 2: 女
+    Values (Data 41):  1: 男, 2: 女
+    Values (Data 42):  1: 男, 2: 女
+    Values (Data 43):  1: 男, 2: 女
+    Values (Data 44):  1: 男, 2: 女
 
 ----------------------------------------------------------------------*/
-gen v28_NEWVARIABLE = .
-local var_lab: variable label var28
-local val_lab: value label var28
-capture replace v28_NEWVARIABLE = var28  if `data'==1
-capture replace v28_NEWVARIABLE = var28  if `data'==2
-capture replace v28_NEWVARIABLE = var28  if `data'==3
-capture replace v28_NEWVARIABLE = var28  if `data'==4
-capture replace v28_NEWVARIABLE = var28  if `data'==5
-capture replace v28_NEWVARIABLE = var28  if `data'==6
-capture replace v28_NEWVARIABLE = var28  if `data'==7
-capture replace v28_NEWVARIABLE = var28  if `data'==8
-capture replace v28_NEWVARIABLE = var13  if `data'==9
-capture replace v28_NEWVARIABLE = var13  if `data'==10
-capture replace v28_NEWVARIABLE = var14  if `data'==11
-capture replace v28_NEWVARIABLE = var14  if `data'==12
-capture replace v28_NEWVARIABLE = var14  if `data'==13
-capture replace v28_NEWVARIABLE = var14  if `data'==14
-capture replace v28_NEWVARIABLE = var14  if `data'==15
-capture replace v28_NEWVARIABLE = var14  if `data'==16
-capture replace v28_NEWVARIABLE = var14  if `data'==17
-capture replace v28_NEWVARIABLE = var14  if `data'==18
-capture replace v28_NEWVARIABLE = var14  if `data'==19
-capture replace v28_NEWVARIABLE = var14  if `data'==20
-capture replace v28_NEWVARIABLE = var14  if `data'==21
-capture replace v28_NEWVARIABLE = var14  if `data'==22
-capture replace v28_NEWVARIABLE = var14  if `data'==23
-capture replace v28_NEWVARIABLE = var14  if `data'==24
-capture replace v28_NEWVARIABLE = var14  if `data'==25
-capture replace v28_NEWVARIABLE = var14  if `data'==26
-capture label variable v28_NEWVARIABLE `var_lab'
-capture label values v28_NEWVARIABLE `val_lab'
+gen v20_NEWVARIABLE = .
+local var_lab: variable label var20
+local val_lab: value label var20
+capture replace v20_NEWVARIABLE = var20  if `data'==1
+capture replace v20_NEWVARIABLE = var20  if `data'==2
+capture replace v20_NEWVARIABLE = var18  if `data'==3
+capture replace v20_NEWVARIABLE = var18  if `data'==4
+capture replace v20_NEWVARIABLE = var18  if `data'==5
+capture replace v20_NEWVARIABLE = var18  if `data'==6
+capture replace v20_NEWVARIABLE = var18  if `data'==7
+capture replace v20_NEWVARIABLE = var18  if `data'==8
+capture replace v20_NEWVARIABLE = var18  if `data'==9
+capture replace v20_NEWVARIABLE = var18  if `data'==10
+capture replace v20_NEWVARIABLE = var18  if `data'==11
+capture replace v20_NEWVARIABLE = var18  if `data'==12
+capture replace v20_NEWVARIABLE = var18  if `data'==13
+capture replace v20_NEWVARIABLE = var18  if `data'==14
+capture replace v20_NEWVARIABLE = var19  if `data'==15
+capture replace v20_NEWVARIABLE = var19  if `data'==16
+capture replace v20_NEWVARIABLE = var19  if `data'==17
+capture replace v20_NEWVARIABLE = var19  if `data'==18
+capture replace v20_NEWVARIABLE = var28  if `data'==19
+capture replace v20_NEWVARIABLE = var28  if `data'==20
+capture replace v20_NEWVARIABLE = var28  if `data'==21
+capture replace v20_NEWVARIABLE = var28  if `data'==22
+capture replace v20_NEWVARIABLE = var28  if `data'==23
+capture replace v20_NEWVARIABLE = var28  if `data'==24
+capture replace v20_NEWVARIABLE = var28  if `data'==25
+capture replace v20_NEWVARIABLE = var28  if `data'==26
+capture replace v20_NEWVARIABLE = var14  if `data'==29
+capture replace v20_NEWVARIABLE = var14  if `data'==30
+capture replace v20_NEWVARIABLE = var14  if `data'==31
+capture replace v20_NEWVARIABLE = var14  if `data'==32
+capture replace v20_NEWVARIABLE = var14  if `data'==33
+capture replace v20_NEWVARIABLE = var14  if `data'==34
+capture replace v20_NEWVARIABLE = var14  if `data'==35
+capture replace v20_NEWVARIABLE = var14  if `data'==36
+capture replace v20_NEWVARIABLE = var14  if `data'==37
+capture replace v20_NEWVARIABLE = var14  if `data'==38
+capture replace v20_NEWVARIABLE = var14  if `data'==39
+capture replace v20_NEWVARIABLE = var14  if `data'==40
+capture replace v20_NEWVARIABLE = var14  if `data'==41
+capture replace v20_NEWVARIABLE = var14  if `data'==42
+capture replace v20_NEWVARIABLE = var14  if `data'==43
+capture replace v20_NEWVARIABLE = var14  if `data'==44
+capture label variable v20_NEWVARIABLE `var_lab'
+capture label values v20_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目年齢: 年齢チェック済"
-    Description (Data 1):  "個人項目年齢: 年齢チェック済"
-    Description (Data 2):  "個人項目年齢: 年齢チェック済"
-    Description (Data 3):  "個人項目年齢: 年齢チェック済"
-    Description (Data 4):  "個人項目年齢: 年齢チェック済"
-    Description (Data 5):  "個人項目年齢: 年齢チェック済"
-    Description (Data 6):  "個人項目年齢: 年齢チェック済"
-    Description (Data 7):  "個人項目年齢: 年齢チェック済"
-    Description (Data 8):  "個人項目年齢: 年齢チェック済"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "個人項目: 年齢階級区分"
+    Description (Data 1):  "個人項目: 年齢階級区分"
+    Description (Data 2):  "個人項目: 年齢階級区分"
+    Description (Data 3):  "個人項目年齢: チェック済"
+    Description (Data 4):  "個人項目年齢: チェック済"
+    Description (Data 5):  "個人項目年齢: チェック済"
+    Description (Data 6):  "個人項目年齢: チェック済"
+    Description (Data 7):  "個人項目年齢: チェック済"
+    Description (Data 8):  "個人項目年齢: チェック済"
+    Description (Data 9):  "個人項目年齢: チェック済"
+    Description (Data 10): "個人項目年齢: チェック済"
+    Description (Data 11): "個人項目年齢: チェック済"
+    Description (Data 12): "個人項目年齢: チェック済"
+    Description (Data 13): "個人項目年齢: チェック済"
+    Description (Data 14): "個人項目年齢: チェック済"
+    Description (Data 15): "個人項目年齢: チェック済"
+    Description (Data 16): "個人項目年齢: チェック済"
+    Description (Data 17): "個人項目年齢: チェック済"
+    Description (Data 18): "個人項目年齢: チェック済"
+    Description (Data 19): "個人項目年齢: 分類表21-2"
+    Description (Data 20): "個人項目年齢: 分類表21-2"
+    Description (Data 21): "個人項目年齢: 分類表21-2"
+    Description (Data 22): "個人項目年齢: 分類表21-2"
+    Description (Data 23): "個人項目年齢: 分類表21-2"
+    Description (Data 24): "個人項目年齢: 分類表21-2"
+    Description (Data 25): "個人項目年齢: 分類表21-2"
+    Description (Data 26): "個人項目年齢: 分類表21-2"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "個人項目: 年齢"
+    Description (Data 30): "個人項目: 年齢"
+    Description (Data 31): "個人項目: 年齢"
+    Description (Data 32): "個人項目: 年齢"
+    Description (Data 33): "個人項目: 年齢"
+    Description (Data 34): "個人項目: 年齢"
+    Description (Data 35): "個人項目: 年齢"
+    Description (Data 36): "個人項目: 年齢"
+    Description (Data 37): "個人項目: 年齢"
+    Description (Data 38): "個人項目: 年齢"
+    Description (Data 39): "個人項目: 年齢"
+    Description (Data 40): "個人項目: 年齢"
+    Description (Data 41): "個人項目: 年齢"
+    Description (Data 42): "個人項目: 年齢"
+    Description (Data 43): "個人項目: 年齢"
+    Description (Data 44): "個人項目: 年齢"
 
-    Values (Base):     1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 1):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 2):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 3):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 4):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 5):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 6):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 7):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 8):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Base):     1: 19歳以下, 2: 20歳〜24歳, 3: 25歳〜29歳, 4: 30歳〜34歳, 5: 35歳〜44歳, 6: 45歳〜55歳, 7: 56歳〜59歳, 8: 60歳〜64歳, 9: 65歳以上
+    Values (Data 1):   1: 19歳以下, 2: 20歳〜24歳, 3: 25歳〜29歳, 4: 30歳〜34歳, 5: 35歳〜44歳, 6: 45歳〜55歳, 7: 56歳〜59歳, 8: 60歳〜64歳, 9: 65歳以上
+    Values (Data 2):   1: 19歳以下, 2: 20歳〜24歳, 3: 25歳〜29歳, 4: 30歳〜34歳, 5: 35歳〜44歳, 6: 45歳〜55歳, 7: 56歳〜59歳, 8: 60歳〜64歳, 9: 65歳以上
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: 
+    Values (Data 19):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 20):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 21):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 22):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 23):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 24):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 25):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 26):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 30):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 31):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 32):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 33):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 34):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 35):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 36):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 37):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 38):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
 
 ----------------------------------------------------------------------*/
-gen v29_NEWVARIABLE = .
-local var_lab: variable label var29
-local val_lab: value label var29
-capture replace v29_NEWVARIABLE = var29  if `data'==1
-capture replace v29_NEWVARIABLE = var29  if `data'==2
-capture replace v29_NEWVARIABLE = var29  if `data'==3
-capture replace v29_NEWVARIABLE = var29  if `data'==4
-capture replace v29_NEWVARIABLE = var29  if `data'==5
-capture replace v29_NEWVARIABLE = var29  if `data'==6
-capture replace v29_NEWVARIABLE = var29  if `data'==7
-capture replace v29_NEWVARIABLE = var29  if `data'==8
-capture label variable v29_NEWVARIABLE `var_lab'
-capture label values v29_NEWVARIABLE `val_lab'
+gen v21_NEWVARIABLE = .
+local var_lab: variable label var21
+local val_lab: value label var21
+capture replace v21_NEWVARIABLE = var21  if `data'==1
+capture replace v21_NEWVARIABLE = var21  if `data'==2
+capture replace v21_NEWVARIABLE = var19  if `data'==3
+capture replace v21_NEWVARIABLE = var19  if `data'==4
+capture replace v21_NEWVARIABLE = var19  if `data'==5
+capture replace v21_NEWVARIABLE = var19  if `data'==6
+capture replace v21_NEWVARIABLE = var19  if `data'==7
+capture replace v21_NEWVARIABLE = var19  if `data'==8
+capture replace v21_NEWVARIABLE = var19  if `data'==9
+capture replace v21_NEWVARIABLE = var19  if `data'==10
+capture replace v21_NEWVARIABLE = var19  if `data'==11
+capture replace v21_NEWVARIABLE = var19  if `data'==12
+capture replace v21_NEWVARIABLE = var19  if `data'==13
+capture replace v21_NEWVARIABLE = var19  if `data'==14
+capture replace v21_NEWVARIABLE = var20  if `data'==15
+capture replace v21_NEWVARIABLE = var20  if `data'==16
+capture replace v21_NEWVARIABLE = var20  if `data'==17
+capture replace v21_NEWVARIABLE = var20  if `data'==18
+capture replace v21_NEWVARIABLE = var30  if `data'==19
+capture replace v21_NEWVARIABLE = var30  if `data'==20
+capture replace v21_NEWVARIABLE = var30  if `data'==21
+capture replace v21_NEWVARIABLE = var30  if `data'==22
+capture replace v21_NEWVARIABLE = var30  if `data'==23
+capture replace v21_NEWVARIABLE = var30  if `data'==24
+capture replace v21_NEWVARIABLE = var30  if `data'==25
+capture replace v21_NEWVARIABLE = var30  if `data'==26
+capture replace v21_NEWVARIABLE = var15  if `data'==29
+capture replace v21_NEWVARIABLE = var15  if `data'==30
+capture replace v21_NEWVARIABLE = var15  if `data'==31
+capture replace v21_NEWVARIABLE = var15  if `data'==32
+capture replace v21_NEWVARIABLE = var15  if `data'==33
+capture replace v21_NEWVARIABLE = var15  if `data'==34
+capture replace v21_NEWVARIABLE = var15  if `data'==35
+capture replace v21_NEWVARIABLE = var15  if `data'==36
+capture replace v21_NEWVARIABLE = var15  if `data'==37
+capture replace v21_NEWVARIABLE = var15  if `data'==38
+capture replace v21_NEWVARIABLE = var15  if `data'==39
+capture replace v21_NEWVARIABLE = var15  if `data'==40
+capture replace v21_NEWVARIABLE = var15  if `data'==41
+capture replace v21_NEWVARIABLE = var15  if `data'==42
+capture replace v21_NEWVARIABLE = var15  if `data'==43
+capture replace v21_NEWVARIABLE = var15  if `data'==44
+capture label variable v21_NEWVARIABLE `var_lab'
+capture label values v21_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目年齢: 分類表21-2"
-    Description (Data 1):  "個人項目年齢: 分類表21-2"
-    Description (Data 2):  "個人項目年齢: 分類表21-2"
-    Description (Data 3):  "個人項目年齢: 分類表21-2"
-    Description (Data 4):  "個人項目年齢: 分類表21-2"
-    Description (Data 5):  "個人項目年齢: 分類表21-2"
-    Description (Data 6):  "個人項目年齢: 分類表21-2"
-    Description (Data 7):  "個人項目年齢: 分類表21-2"
-    Description (Data 8):  "個人項目年齢: 分類表21-2"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): "個人項目インターネット有: 2"
-    Description (Data 12): "個人項目インターネット有: 2"
-    Description (Data 13): "個人項目インターネット有: 2"
-    Description (Data 14): "個人項目インターネット有: 2"
-    Description (Data 15): "個人項目インターネット有: 2"
-    Description (Data 16): "個人項目インターネット有: 2"
-    Description (Data 17): "個人項目インターネット有: 2"
-    Description (Data 18): "個人項目インターネット有: 2"
-    Description (Data 19): "個人項目インターネット有: 2"
-    Description (Data 20): "個人項目インターネット有: 2"
-    Description (Data 21): "個人項目インターネット有: 2"
-    Description (Data 22): "個人項目インターネット有: 2"
-    Description (Data 23): "個人項目インターネット有: 2"
-    Description (Data 24): "個人項目インターネット有: 2"
-    Description (Data 25): "個人項目インターネット有: 2"
-    Description (Data 26): "個人項目インターネット有: 2"
+    Description (Base):    "個人項目出身地: 地域区分"
+    Description (Data 1):  "個人項目出身地: 地域区分"
+    Description (Data 2):  "個人項目出身地: 地域区分"
+    Description (Data 3):  "個人項目出身地: 地区"
+    Description (Data 4):  "個人項目出身地: 地区"
+    Description (Data 5):  "個人項目出身地: 地区"
+    Description (Data 6):  "個人項目出身地: 地区"
+    Description (Data 7):  "個人項目義務教育修了地: 地区"
+    Description (Data 8):  "個人項目義務教育修了地: 地区"
+    Description (Data 9):  "個人項目義務教育修了地: 地区"
+    Description (Data 10): "個人項目義務教育修了地: 地区"
+    Description (Data 11): "個人項目義務教育修了地: 地区"
+    Description (Data 12): "個人項目義務教育修了地: 地区"
+    Description (Data 13): "個人項目義務教育修了地: 地区"
+    Description (Data 14): "個人項目義務教育修了地: 地区"
+    Description (Data 15): "個人項目入職前の住所: 地域9-3"
+    Description (Data 16): "個人項目入職前の住所: 地域9-3"
+    Description (Data 17): "個人項目入職前の住所: 地域9-3"
+    Description (Data 18): "個人項目入職前の住所: 地域9-3"
+    Description (Data 19): "個人項目入職前の住所: 地域9-3"
+    Description (Data 20): "個人項目入職前の住所: 地域9-3"
+    Description (Data 21): "個人項目入職前の住所: 地域9-3"
+    Description (Data 22): "個人項目入職前の住所: 地域9-3"
+    Description (Data 23): "個人項目入職前の住所: 地域9-3"
+    Description (Data 24): "個人項目入職前の住所: 地域9-3"
+    Description (Data 25): "個人項目入職前の住所: 地域9-3"
+    Description (Data 26): "個人項目入職前の住所: 地域9-3"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):     1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 1):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 2):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 3):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 4):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 5):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 6):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 7):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 8):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11):  2: 民間等の求人広告会社のサイト
-    Values (Data 12):  2: 民間等の求人広告会社のサイト
-    Values (Data 13):  2: 民間等の求人広告会社のサイト
-    Values (Data 14):  2: 民間等の求人広告会社のサイト
-    Values (Data 15):  2: 民間等の求人広告会社のサイト
-    Values (Data 16):  2: 民間等の求人広告会社のサイト
-    Values (Data 17):  2: 民間等の求人広告会社のサイト
-    Values (Data 18):  2: 民間等の求人広告会社のサイト
-    Values (Data 19):  2: 民間等の求人広告会社のサイト
-    Values (Data 20):  2: 民間等の求人広告会社のサイト
-    Values (Data 21):  2: 民間等の求人広告会社のサイト
-    Values (Data 22):  2: 民間等の求人広告会社のサイト
-    Values (Data 23):  2: 民間等の求人広告会社のサイト
-    Values (Data 24):  2: 民間等の求人広告会社のサイト
-    Values (Data 25):  2: 民間等の求人広告会社のサイト
-    Values (Data 26):  2: 民間等の求人広告会社のサイト
-
-----------------------------------------------------------------------*/
-gen v30_NEWVARIABLE = .
-local var_lab: variable label var30
-local val_lab: value label var30
-capture replace v30_NEWVARIABLE = var30  if `data'==1
-capture replace v30_NEWVARIABLE = var30  if `data'==2
-capture replace v30_NEWVARIABLE = var30  if `data'==3
-capture replace v30_NEWVARIABLE = var30  if `data'==4
-capture replace v30_NEWVARIABLE = var30  if `data'==5
-capture replace v30_NEWVARIABLE = var30  if `data'==6
-capture replace v30_NEWVARIABLE = var30  if `data'==7
-capture replace v30_NEWVARIABLE = var30  if `data'==8
-capture replace v30_NEWVARIABLE = var19  if `data'==11
-capture replace v30_NEWVARIABLE = var19  if `data'==12
-capture replace v30_NEWVARIABLE = var19  if `data'==13
-capture replace v30_NEWVARIABLE = var19  if `data'==14
-capture replace v30_NEWVARIABLE = var19  if `data'==15
-capture replace v30_NEWVARIABLE = var19  if `data'==16
-capture replace v30_NEWVARIABLE = var19  if `data'==17
-capture replace v30_NEWVARIABLE = var19  if `data'==18
-capture replace v30_NEWVARIABLE = var19  if `data'==19
-capture replace v30_NEWVARIABLE = var19  if `data'==20
-capture replace v30_NEWVARIABLE = var19  if `data'==21
-capture replace v30_NEWVARIABLE = var19  if `data'==22
-capture replace v30_NEWVARIABLE = var19  if `data'==23
-capture replace v30_NEWVARIABLE = var19  if `data'==24
-capture replace v30_NEWVARIABLE = var19  if `data'==25
-capture replace v30_NEWVARIABLE = var19  if `data'==26
-capture label variable v30_NEWVARIABLE `var_lab'
-capture label values v30_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目学歴: 学歴チェック済"
-    Description (Data 1):  "個人項目学歴: 学歴チェック済"
-    Description (Data 2):  "個人項目学歴: 学歴チェック済"
-    Description (Data 3):  "個人項目学歴: 学歴チェック済"
-    Description (Data 4):  "個人項目学歴: 学歴チェック済"
-    Description (Data 5):  "個人項目学歴: 学歴チェック済"
-    Description (Data 6):  "個人項目学歴: 学歴チェック済"
-    Description (Data 7):  "個人項目学歴: 学歴チェック済"
-    Description (Data 8):  "個人項目学歴: 学歴チェック済"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
-    Values (Data 1):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
-    Values (Data 2):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
-    Values (Data 3):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
-    Values (Data 4):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
-    Values (Data 5):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
-    Values (Data 6):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
-    Values (Data 7):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
-    Values (Data 8):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v31_NEWVARIABLE = .
-local var_lab: variable label var31
-local val_lab: value label var31
-capture replace v31_NEWVARIABLE = var31  if `data'==1
-capture replace v31_NEWVARIABLE = var31  if `data'==2
-capture replace v31_NEWVARIABLE = var31  if `data'==3
-capture replace v31_NEWVARIABLE = var31  if `data'==4
-capture replace v31_NEWVARIABLE = var31  if `data'==5
-capture replace v31_NEWVARIABLE = var31  if `data'==6
-capture replace v31_NEWVARIABLE = var31  if `data'==7
-capture replace v31_NEWVARIABLE = var31  if `data'==8
-capture label variable v31_NEWVARIABLE `var_lab'
-capture label values v31_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目学歴: 分類表19"
-    Description (Data 1):  "個人項目学歴: 分類表19"
-    Description (Data 2):  "個人項目学歴: 分類表19"
-    Description (Data 3):  "個人項目学歴: 分類表19"
-    Description (Data 4):  "個人項目学歴: 分類表19"
-    Description (Data 5):  "個人項目学歴: 分類表19"
-    Description (Data 6):  "個人項目学歴: 分類表19"
-    Description (Data 7):  "個人項目学歴: 分類表19"
-    Description (Data 8):  "個人項目学歴: 分類表19"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): "個人項目: 労働者番号"
-    Description (Data 20): "個人項目: 労働者番号"
-    Description (Data 21): "個人項目: 労働者番号"
-    Description (Data 22): "個人項目: 労働者番号"
-    Description (Data 23): "個人項目: 労働者番号"
-    Description (Data 24): "個人項目: 労働者番号"
-    Description (Data 25): "個人項目: 労働者番号"
-    Description (Data 26): "個人項目: 労働者番号"
-
-    Values (Base):     1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
-    Values (Data 1):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
-    Values (Data 2):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
-    Values (Data 3):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
-    Values (Data 4):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
-    Values (Data 5):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
-    Values (Data 6):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
-    Values (Data 7):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
-    Values (Data 8):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
     Values (Data 19): 
     Values (Data 20): 
     Values (Data 21): 
@@ -2583,43 +2899,720 @@ capture label values v31_NEWVARIABLE `val_lab'
     Values (Data 24): 
     Values (Data 25): 
     Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v32_NEWVARIABLE = .
-local var_lab: variable label var32
-local val_lab: value label var32
-capture replace v32_NEWVARIABLE = var32  if `data'==1
-capture replace v32_NEWVARIABLE = var32  if `data'==2
-capture replace v32_NEWVARIABLE = var32  if `data'==3
-capture replace v32_NEWVARIABLE = var32  if `data'==4
-capture replace v32_NEWVARIABLE = var32  if `data'==5
-capture replace v32_NEWVARIABLE = var32  if `data'==6
-capture replace v32_NEWVARIABLE = var32  if `data'==7
-capture replace v32_NEWVARIABLE = var32  if `data'==8
-capture replace v32_NEWVARIABLE = var39  if `data'==19
-capture replace v32_NEWVARIABLE = var39  if `data'==20
-capture replace v32_NEWVARIABLE = var39  if `data'==21
-capture replace v32_NEWVARIABLE = var39  if `data'==22
-capture replace v32_NEWVARIABLE = var39  if `data'==23
-capture replace v32_NEWVARIABLE = var39  if `data'==24
-capture replace v32_NEWVARIABLE = var39  if `data'==25
-capture replace v32_NEWVARIABLE = var39  if `data'==26
-capture label variable v32_NEWVARIABLE `var_lab'
-capture label values v32_NEWVARIABLE `val_lab'
+gen v22_NEWVARIABLE = .
+local var_lab: variable label var22
+local val_lab: value label var22
+capture replace v22_NEWVARIABLE = var22  if `data'==1
+capture replace v22_NEWVARIABLE = var22  if `data'==2
+capture replace v22_NEWVARIABLE = var21  if `data'==3
+capture replace v22_NEWVARIABLE = var21  if `data'==4
+capture replace v22_NEWVARIABLE = var21  if `data'==5
+capture replace v22_NEWVARIABLE = var21  if `data'==6
+capture replace v22_NEWVARIABLE = var21  if `data'==7
+capture replace v22_NEWVARIABLE = var21  if `data'==8
+capture replace v22_NEWVARIABLE = var21  if `data'==9
+capture replace v22_NEWVARIABLE = var21  if `data'==10
+capture replace v22_NEWVARIABLE = var21  if `data'==11
+capture replace v22_NEWVARIABLE = var21  if `data'==12
+capture replace v22_NEWVARIABLE = var21  if `data'==13
+capture replace v22_NEWVARIABLE = var21  if `data'==14
+capture replace v22_NEWVARIABLE = var37  if `data'==15
+capture replace v22_NEWVARIABLE = var37  if `data'==16
+capture replace v22_NEWVARIABLE = var37  if `data'==17
+capture replace v22_NEWVARIABLE = var37  if `data'==18
+capture replace v22_NEWVARIABLE = var46  if `data'==19
+capture replace v22_NEWVARIABLE = var46  if `data'==20
+capture replace v22_NEWVARIABLE = var46  if `data'==21
+capture replace v22_NEWVARIABLE = var46  if `data'==22
+capture replace v22_NEWVARIABLE = var46  if `data'==23
+capture replace v22_NEWVARIABLE = var46  if `data'==24
+capture replace v22_NEWVARIABLE = var46  if `data'==25
+capture replace v22_NEWVARIABLE = var46  if `data'==26
+capture label variable v22_NEWVARIABLE `var_lab'
+capture label values v22_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目学歴: 分類表20"
-    Description (Data 1):  "個人項目学歴: 分類表20"
-    Description (Data 2):  "個人項目学歴: 分類表20"
+    Description (Base):    "個人項目出身地: 都道府県番号"
+    Description (Data 1):  "個人項目出身地: 都道府県番号"
+    Description (Data 2):  "個人項目出身地: 都道府県番号"
+    Description (Data 3):  "個人項目出身地: 都道府県"
+    Description (Data 4):  "個人項目出身地: 都道府県"
+    Description (Data 5):  "個人項目出身地: 都道府県"
+    Description (Data 6):  "個人項目出身地: 都道府県"
+    Description (Data 7):  "個人項目義務教育修了地: 都道府県"
+    Description (Data 8):  "個人項目義務教育修了地: 都道府県"
+    Description (Data 9):  "個人項目義務教育修了地: 都道府県"
+    Description (Data 10): "個人項目義務教育修了地: 都道府県"
+    Description (Data 11): "個人項目義務教育修了地: 都道府県"
+    Description (Data 12): "個人項目義務教育修了地: 都道府県"
+    Description (Data 13): "個人項目義務教育修了地: 都道府県"
+    Description (Data 14): "個人項目義務教育修了地: 都道府県"
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "個人項目賃金変動: 賃金変動チェック済"
+    Description (Data 20): "個人項目賃金変動: 賃金変動チェック済"
+    Description (Data 21): "個人項目賃金変動: 賃金変動チェック済"
+    Description (Data 22): "個人項目賃金変動: 賃金変動チェック済"
+    Description (Data 23): "個人項目賃金変動: 賃金変動チェック済"
+    Description (Data 24): "個人項目賃金変動: 賃金変動チェック済"
+    Description (Data 25): "個人項目賃金変動: 賃金変動チェック済"
+    Description (Data 26): "個人項目賃金変動: 賃金変動チェック済"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): "個人項目: 労働者番号"
+    Description (Data 38): "個人項目: 労働者番号"
+    Description (Data 39): "個人項目: 労働者番号"
+    Description (Data 40): "個人項目: 労働者番号"
+    Description (Data 41): "個人項目: 労働者番号"
+    Description (Data 42): "個人項目: 労働者番号"
+    Description (Data 43): "個人項目: 労働者番号"
+    Description (Data 44): "個人項目: 労働者番号"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
+    Values (Data 20):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
+    Values (Data 21):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
+    Values (Data 22):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
+    Values (Data 23):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
+    Values (Data 24):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
+    Values (Data 25):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
+    Values (Data 26):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+
+----------------------------------------------------------------------*/
+gen v23_NEWVARIABLE = .
+local var_lab: variable label var23
+local val_lab: value label var23
+capture replace v23_NEWVARIABLE = var23  if `data'==1
+capture replace v23_NEWVARIABLE = var23  if `data'==2
+capture replace v23_NEWVARIABLE = var22  if `data'==3
+capture replace v23_NEWVARIABLE = var22  if `data'==4
+capture replace v23_NEWVARIABLE = var22  if `data'==5
+capture replace v23_NEWVARIABLE = var22  if `data'==6
+capture replace v23_NEWVARIABLE = var22  if `data'==7
+capture replace v23_NEWVARIABLE = var22  if `data'==8
+capture replace v23_NEWVARIABLE = var22  if `data'==9
+capture replace v23_NEWVARIABLE = var22  if `data'==10
+capture replace v23_NEWVARIABLE = var22  if `data'==11
+capture replace v23_NEWVARIABLE = var22  if `data'==12
+capture replace v23_NEWVARIABLE = var22  if `data'==13
+capture replace v23_NEWVARIABLE = var22  if `data'==14
+capture replace v23_NEWVARIABLE = var65  if `data'==19
+capture replace v23_NEWVARIABLE = var65  if `data'==20
+capture replace v23_NEWVARIABLE = var65  if `data'==21
+capture replace v23_NEWVARIABLE = var65  if `data'==22
+capture replace v23_NEWVARIABLE = var65  if `data'==23
+capture replace v23_NEWVARIABLE = var65  if `data'==24
+capture replace v23_NEWVARIABLE = var65  if `data'==25
+capture replace v23_NEWVARIABLE = var65  if `data'==26
+capture replace v23_NEWVARIABLE = var39  if `data'==37
+capture replace v23_NEWVARIABLE = var39  if `data'==38
+capture replace v23_NEWVARIABLE = var39  if `data'==39
+capture replace v23_NEWVARIABLE = var39  if `data'==40
+capture replace v23_NEWVARIABLE = var39  if `data'==41
+capture replace v23_NEWVARIABLE = var39  if `data'==42
+capture replace v23_NEWVARIABLE = var39  if `data'==43
+capture replace v23_NEWVARIABLE = var39  if `data'==44
+capture label variable v23_NEWVARIABLE `var_lab'
+capture label values v23_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目学歴区分: 調査票コード"
+    Description (Data 1):  "個人項目学歴区分: 調査票コード"
+    Description (Data 2):  "個人項目学歴区分: 調査票コード"
+    Description (Data 3):  "個人項目学歴: チェック済"
+    Description (Data 4):  "個人項目学歴: チェック済"
+    Description (Data 5):  "個人項目学歴: チェック済"
+    Description (Data 6):  "個人項目学歴: チェック済"
+    Description (Data 7):  "個人項目仕事の内容: チェック済"
+    Description (Data 8):  "個人項目仕事の内容: チェック済"
+    Description (Data 9):  "個人項目仕事の内容: チェック済"
+    Description (Data 10): "個人項目仕事の内容: チェック済"
+    Description (Data 11): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 12): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 13): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 14): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 15): "個人項目就業の経験: 分類表13-2"
+    Description (Data 16): "個人項目就業の経験: 分類表13-2"
+    Description (Data 17): "個人項目就業の経験: 分類表13-2"
+    Description (Data 18): "個人項目就業の経験: 分類表13-2"
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: 1:新中・旧小卒, 2: 2:新高・旧中卒, 3: 3:短大・高専卒, 4: 4:新大・旧大卒(文科系), 5: 5:新大・旧大卒(理科系)
+    Values (Data 1):   1: 1:新中・旧小卒, 2: 2:新高・旧中卒, 3: 3:短大・高専卒, 4: 4:新大・旧大卒(文科系), 5: 5:新大・旧大卒(理科系)
+    Values (Data 2):   1: 1:新中・旧小卒, 2: 2:新高・旧中卒, 3: 3:短大・高専卒, 4: 4:新大・旧大卒(文科系), 5: 5:新大・旧大卒(理科系)
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 15):  3: 就業の経験:2、卒業年度:1,就業の経験:2, 4: 就業の経験:3、卒業年度:1,就業の経験:3, 6: 就業の経験:2、卒業年度:2,就業の経験:2, 7: 就業の経験:3、卒業年度:2,就業の経験:3, 9: 就業の経験:1、卒業年度:1,就業の経験:1, 10: 就業の経験:1、卒業年度:2,,就業の経験:1
+    Values (Data 16):  3: 就業の経験:2、卒業年度:1,就業の経験:2, 4: 就業の経験:3、卒業年度:1,就業の経験:3, 6: 就業の経験:2、卒業年度:2,就業の経験:2, 7: 就業の経験:3、卒業年度:2,就業の経験:3, 9: 就業の経験:1、卒業年度:1,就業の経験:1, 10: 就業の経験:1、卒業年度:2,,就業の経験:1
+    Values (Data 17):  3: 就業の経験:3、卒業年度:2,就業の経験:3, 4: 就業の経験:1、卒業年度:1,就業の経験:1, 6: 就業の経験:1、卒業年度:2,,就業の経験:1, 7: 就業の経験:2、卒業年度:1、学歴:1, 9: 就業の経験:2、卒業年度:1、学歴:2, 10: 就業の経験:2、卒業年度:1、学歴:3
+    Values (Data 18):  3: 就業の経験:3、卒業年度:2,就業の経験:3, 4: 就業の経験:1、卒業年度:1,就業の経験:1, 6: 就業の経験:1、卒業年度:2,,就業の経験:1, 7: 就業の経験:2、卒業年度:1、学歴:1, 9: 就業の経験:2、卒業年度:1、学歴:2, 10: 就業の経験:2、卒業年度:1、学歴:3
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v24_NEWVARIABLE = .
+local var_lab: variable label var24
+local val_lab: value label var24
+capture replace v24_NEWVARIABLE = var24  if `data'==1
+capture replace v24_NEWVARIABLE = var24  if `data'==2
+capture replace v24_NEWVARIABLE = var23  if `data'==3
+capture replace v24_NEWVARIABLE = var23  if `data'==4
+capture replace v24_NEWVARIABLE = var23  if `data'==5
+capture replace v24_NEWVARIABLE = var23  if `data'==6
+capture replace v24_NEWVARIABLE = var30  if `data'==7
+capture replace v24_NEWVARIABLE = var30  if `data'==8
+capture replace v24_NEWVARIABLE = var30  if `data'==9
+capture replace v24_NEWVARIABLE = var30  if `data'==10
+capture replace v24_NEWVARIABLE = var51  if `data'==11
+capture replace v24_NEWVARIABLE = var51  if `data'==12
+capture replace v24_NEWVARIABLE = var51  if `data'==13
+capture replace v24_NEWVARIABLE = var51  if `data'==14
+capture replace v24_NEWVARIABLE = var33  if `data'==15
+capture replace v24_NEWVARIABLE = var33  if `data'==16
+capture replace v24_NEWVARIABLE = var33  if `data'==17
+capture replace v24_NEWVARIABLE = var33  if `data'==18
+capture label variable v24_NEWVARIABLE `var_lab'
+capture label values v24_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目学歴区分: 分類表19コード"
+    Description (Data 1):  "個人項目学歴区分: 分類表19コード"
+    Description (Data 2):  "個人項目学歴区分: 分類表19コード"
+    Description (Data 3):  "個人項目学歴: 分類表19"
+    Description (Data 4):  "個人項目学歴: 分類表19"
+    Description (Data 5):  "個人項目学歴: 分類表19"
+    Description (Data 6):  "個人項目学歴: 分類表19"
+    Description (Data 7):  "個人項目年齢: 分類表21-2"
+    Description (Data 8):  "個人項目年齢: 分類表21-2"
+    Description (Data 9):  "個人項目年齢: 分類表21-2"
+    Description (Data 10): "個人項目年齢: 分類表21-2"
+    Description (Data 11): "個人項目年齢: 分類表21-2"
+    Description (Data 12): "個人項目年齢: 分類表21-2"
+    Description (Data 13): "個人項目年齢: 分類表21-2"
+    Description (Data 14): "個人項目年齢: 分類表21-2"
+    Description (Data 15): "個人項目年齢: 分類表21-2"
+    Description (Data 16): "個人項目年齢: 分類表21-2"
+    Description (Data 17): "個人項目年齢: 分類表21-2"
+    Description (Data 18): "個人項目年齢: 分類表21-2"
+    Description (Data 19): "個人項目就業の経験: 分類表13-2"
+    Description (Data 20): "個人項目就業の経験: 分類表13-2"
+    Description (Data 21): "個人項目就業の経験: 分類表13-2"
+    Description (Data 22): "個人項目就業の経験: 分類表13-2"
+    Description (Data 23): "個人項目就業の経験: 分類表13-2"
+    Description (Data 24): "個人項目就業の経験: 分類表13-2"
+    Description (Data 25): "個人項目就業の経験: 分類表13-2"
+    Description (Data 26): "個人項目就業の経験: 分類表13-2"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: 1:新中・旧小卒, 2: 2:新高・旧中卒, 3: 3:短大・高専卒, 4: 4:新大・旧大卒
+    Values (Data 1):   1: 1:新中・旧小卒, 2: 2:新高・旧中卒, 3: 3:短大・高専卒, 4: 4:新大・旧大卒
+    Values (Data 2):   1: 1:新中・旧小卒, 2: 2:新高・旧中卒, 3: 3:短大・高専卒, 4: 4:新大・旧大卒
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 7):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 8):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 9):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 10):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 11):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 12):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 13):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 14):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 15):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 16):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 17):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 18):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
+    Values (Data 19):  3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
+    Values (Data 20):  3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
+    Values (Data 21):  3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
+    Values (Data 22):  3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
+    Values (Data 23):  3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
+    Values (Data 24):  3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
+    Values (Data 25):  3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
+    Values (Data 26):  3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v25_NEWVARIABLE = .
+local var_lab: variable label var25
+local val_lab: value label var25
+capture replace v25_NEWVARIABLE = var25  if `data'==1
+capture replace v25_NEWVARIABLE = var25  if `data'==2
+capture replace v25_NEWVARIABLE = var24  if `data'==3
+capture replace v25_NEWVARIABLE = var24  if `data'==4
+capture replace v25_NEWVARIABLE = var24  if `data'==5
+capture replace v25_NEWVARIABLE = var24  if `data'==6
+capture replace v25_NEWVARIABLE = var20  if `data'==7
+capture replace v25_NEWVARIABLE = var20  if `data'==8
+capture replace v25_NEWVARIABLE = var20  if `data'==9
+capture replace v25_NEWVARIABLE = var20  if `data'==10
+capture replace v25_NEWVARIABLE = var20  if `data'==11
+capture replace v25_NEWVARIABLE = var20  if `data'==12
+capture replace v25_NEWVARIABLE = var20  if `data'==13
+capture replace v25_NEWVARIABLE = var20  if `data'==14
+capture replace v25_NEWVARIABLE = var21  if `data'==15
+capture replace v25_NEWVARIABLE = var21  if `data'==16
+capture replace v25_NEWVARIABLE = var21  if `data'==17
+capture replace v25_NEWVARIABLE = var21  if `data'==18
+capture replace v25_NEWVARIABLE = var42  if `data'==19
+capture replace v25_NEWVARIABLE = var42  if `data'==20
+capture replace v25_NEWVARIABLE = var42  if `data'==21
+capture replace v25_NEWVARIABLE = var42  if `data'==22
+capture replace v25_NEWVARIABLE = var42  if `data'==23
+capture replace v25_NEWVARIABLE = var42  if `data'==24
+capture replace v25_NEWVARIABLE = var42  if `data'==25
+capture replace v25_NEWVARIABLE = var42  if `data'==26
+capture label variable v25_NEWVARIABLE `var_lab'
+capture label values v25_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目学歴区分: 分類表20コード"
+    Description (Data 1):  "個人項目学歴区分: 分類表20コード"
+    Description (Data 2):  "個人項目学歴区分: 分類表20コード"
     Description (Data 3):  "個人項目学歴: 分類表20"
     Description (Data 4):  "個人項目学歴: 分類表20"
     Description (Data 5):  "個人項目学歴: 分類表20"
     Description (Data 6):  "個人項目学歴: 分類表20"
     Description (Data 7):  "個人項目学歴: 分類表20"
     Description (Data 8):  "個人項目学歴: 分類表20"
-    Description (Data 9):  None
-    Description (Data 10): None
+    Description (Data 9):  "個人項目学歴: 分類表20"
+    Description (Data 10): "個人項目学歴: 分類表20"
+    Description (Data 11): "個人項目学歴: 分類表20"
+    Description (Data 12): "個人項目学歴: 分類表20"
+    Description (Data 13): "個人項目学歴: 分類表20"
+    Description (Data 14): "個人項目学歴: 分類表20"
+    Description (Data 15): "個人項目学歴: 分類表20"
+    Description (Data 16): "個人項目学歴: 分類表20"
+    Description (Data 17): "個人項目学歴: 分類表20"
+    Description (Data 18): "個人項目学歴: 分類表20"
+    Description (Data 19): "個人項目学歴: 分類表20"
+    Description (Data 20): "個人項目学歴: 分類表20"
+    Description (Data 21): "個人項目学歴: 分類表20"
+    Description (Data 22): "個人項目学歴: 分類表20"
+    Description (Data 23): "個人項目学歴: 分類表20"
+    Description (Data 24): "個人項目学歴: 分類表20"
+    Description (Data 25): "個人項目学歴: 分類表20"
+    Description (Data 26): "個人項目学歴: 分類表20"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: 1:新中・旧小卒, 2: 2:新高・旧中卒, 3: 3:短大・高専卒, 5: 4:新大・旧大卒(文科系), 6: 5:新大・旧大卒(理科系)
+    Values (Data 1):   1: 1:新中・旧小卒, 2: 2:新高・旧中卒, 3: 3:短大・高専卒, 5: 4:新大・旧大卒(文科系), 6: 5:新大・旧大卒(理科系)
+    Values (Data 2):   1: 1:新中・旧小卒, 2: 2:新高・旧中卒, 3: 3:短大・高専卒, 5: 4:新大・旧大卒(文科系), 6: 5:新大・旧大卒(理科系)
+    Values (Data 3):   1: , 2: , 3: , 4: , 6: , 7: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 6: , 7: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 6: , 7: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 6: , 7: 
+    Values (Data 7):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 8):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 9):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 10):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 11):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 12):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 13):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 14):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 15):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 16):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 17):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 18):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 6: 学歴チェック済:5, 7: 学歴チェック済:6
+    Values (Data 19):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
+    Values (Data 20):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
+    Values (Data 21):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
+    Values (Data 22):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
+    Values (Data 23):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
+    Values (Data 24):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
+    Values (Data 25):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
+    Values (Data 26):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v26_NEWVARIABLE = .
+local var_lab: variable label var26
+local val_lab: value label var26
+capture replace v26_NEWVARIABLE = var26  if `data'==1
+capture replace v26_NEWVARIABLE = var26  if `data'==2
+capture replace v26_NEWVARIABLE = var25  if `data'==3
+capture replace v26_NEWVARIABLE = var25  if `data'==4
+capture replace v26_NEWVARIABLE = var25  if `data'==5
+capture replace v26_NEWVARIABLE = var25  if `data'==6
+capture replace v26_NEWVARIABLE = var25  if `data'==7
+capture replace v26_NEWVARIABLE = var25  if `data'==8
+capture replace v26_NEWVARIABLE = var25  if `data'==9
+capture replace v26_NEWVARIABLE = var25  if `data'==10
+capture replace v26_NEWVARIABLE = var25  if `data'==11
+capture replace v26_NEWVARIABLE = var25  if `data'==12
+capture replace v26_NEWVARIABLE = var25  if `data'==13
+capture replace v26_NEWVARIABLE = var25  if `data'==14
+capture replace v26_NEWVARIABLE = var24  if `data'==15
+capture replace v26_NEWVARIABLE = var24  if `data'==16
+capture replace v26_NEWVARIABLE = var24  if `data'==17
+capture replace v26_NEWVARIABLE = var24  if `data'==18
+capture replace v26_NEWVARIABLE = var33  if `data'==19
+capture replace v26_NEWVARIABLE = var33  if `data'==20
+capture replace v26_NEWVARIABLE = var33  if `data'==21
+capture replace v26_NEWVARIABLE = var33  if `data'==22
+capture replace v26_NEWVARIABLE = var33  if `data'==23
+capture replace v26_NEWVARIABLE = var33  if `data'==24
+capture replace v26_NEWVARIABLE = var33  if `data'==25
+capture replace v26_NEWVARIABLE = var33  if `data'==26
+capture label variable v26_NEWVARIABLE `var_lab'
+capture label values v26_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目: 最終学歴卒業年区分"
+    Description (Data 1):  "個人項目: 最終学歴卒業年区分"
+    Description (Data 2):  "個人項目: 最終学歴卒業年区分"
+    Description (Data 3):  "個人項目: 最終学歴卒業年"
+    Description (Data 4):  "個人項目: 最終学歴卒業年"
+    Description (Data 5):  "個人項目: 最終学歴卒業年"
+    Description (Data 6):  "個人項目: 最終学歴卒業年"
+    Description (Data 7):  "個人項目学歴: チェック済"
+    Description (Data 8):  "個人項目学歴: チェック済"
+    Description (Data 9):  "個人項目学歴: チェック済"
+    Description (Data 10): "個人項目学歴: チェック済"
+    Description (Data 11): "個人項目学歴: チェック済"
+    Description (Data 12): "個人項目学歴: チェック済"
+    Description (Data 13): "個人項目学歴: チェック済"
+    Description (Data 14): "個人項目学歴: チェック済"
+    Description (Data 15): "個人項目学歴: チェック済"
+    Description (Data 16): "個人項目学歴: チェック済"
+    Description (Data 17): "個人項目学歴: チェック済"
+    Description (Data 18): "個人項目学歴: チェック済"
+    Description (Data 19): "個人項目学歴: 学歴チェック済"
+    Description (Data 20): "個人項目学歴: 学歴チェック済"
+    Description (Data 21): "個人項目学歴: 学歴チェック済"
+    Description (Data 22): "個人項目学歴: 学歴チェック済"
+    Description (Data 23): "個人項目学歴: 学歴チェック済"
+    Description (Data 24): "個人項目学歴: 学歴チェック済"
+    Description (Data 25): "個人項目学歴: 学歴チェック済"
+    Description (Data 26): "個人項目学歴: 学歴チェック済"
+    Description (Data 27): "最終学歴"
+    Description (Data 28): "最終学歴"
+    Description (Data 29): "個人項目: 最終学歴"
+    Description (Data 30): "個人項目: 最終学歴"
+    Description (Data 31): "個人項目: 最終学歴"
+    Description (Data 32): "個人項目: 最終学歴"
+    Description (Data 33): "個人項目: 最終学歴"
+    Description (Data 34): "個人項目: 最終学歴"
+    Description (Data 35): "個人項目: 最終学歴"
+    Description (Data 36): "個人項目: 最終学歴"
+    Description (Data 37): "個人項目: 最終学歴"
+    Description (Data 38): "個人項目: 最終学歴"
+    Description (Data 39): "個人項目: 最終学歴"
+    Description (Data 40): "個人項目: 最終学歴"
+    Description (Data 41): "個人項目: 最終学歴"
+    Description (Data 42): "個人項目: 最終学歴"
+    Description (Data 43): "個人項目: 最終学歴"
+    Description (Data 44): "個人項目: 最終学歴"
+
+    Values (Base):     1: 1:平成3年3月新卒, 2: 2:平成3年3月以前
+    Values (Data 1):   1: 1:平成3年3月新卒, 2: 2:平成3年3月以前
+    Values (Data 2):   1: 1:平成3年3月新卒, 2: 2:平成3年3月以前
+    Values (Data 3):   1: , 2: 
+    Values (Data 4):   1: , 2: 
+    Values (Data 5):   1: , 2: 
+    Values (Data 6):   1: , 2: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 19):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
+    Values (Data 20):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
+    Values (Data 21):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
+    Values (Data 22):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
+    Values (Data 23):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
+    Values (Data 24):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
+    Values (Data 25):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
+    Values (Data 26):  1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 5: 新大・旧大・大学院(文科系), 6: 新大・旧大・大学院(理科系)
+    Values (Data 27):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Data 28):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Data 29):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Data 30):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Data 31):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Data 32):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Data 33):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Data 34):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Data 35):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Data 36):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Data 37):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
+    Values (Data 38):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
+    Values (Data 39):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
+    Values (Data 40):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
+    Values (Data 41):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
+    Values (Data 42):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
+    Values (Data 43):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
+    Values (Data 44):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
+
+----------------------------------------------------------------------*/
+gen v27_NEWVARIABLE = .
+local var_lab: variable label var27
+local val_lab: value label var27
+capture replace v27_NEWVARIABLE = var27  if `data'==1
+capture replace v27_NEWVARIABLE = var27  if `data'==2
+capture replace v27_NEWVARIABLE = var26  if `data'==3
+capture replace v27_NEWVARIABLE = var26  if `data'==4
+capture replace v27_NEWVARIABLE = var26  if `data'==5
+capture replace v27_NEWVARIABLE = var26  if `data'==6
+capture replace v27_NEWVARIABLE = var23  if `data'==7
+capture replace v27_NEWVARIABLE = var23  if `data'==8
+capture replace v27_NEWVARIABLE = var23  if `data'==9
+capture replace v27_NEWVARIABLE = var23  if `data'==10
+capture replace v27_NEWVARIABLE = var23  if `data'==11
+capture replace v27_NEWVARIABLE = var23  if `data'==12
+capture replace v27_NEWVARIABLE = var23  if `data'==13
+capture replace v27_NEWVARIABLE = var23  if `data'==14
+capture replace v27_NEWVARIABLE = var22  if `data'==15
+capture replace v27_NEWVARIABLE = var22  if `data'==16
+capture replace v27_NEWVARIABLE = var22  if `data'==17
+capture replace v27_NEWVARIABLE = var22  if `data'==18
+capture replace v27_NEWVARIABLE = var31  if `data'==19
+capture replace v27_NEWVARIABLE = var31  if `data'==20
+capture replace v27_NEWVARIABLE = var31  if `data'==21
+capture replace v27_NEWVARIABLE = var31  if `data'==22
+capture replace v27_NEWVARIABLE = var31  if `data'==23
+capture replace v27_NEWVARIABLE = var31  if `data'==24
+capture replace v27_NEWVARIABLE = var31  if `data'==25
+capture replace v27_NEWVARIABLE = var31  if `data'==26
+capture replace v27_NEWVARIABLE = var15  if `data'==27
+capture replace v27_NEWVARIABLE = var15  if `data'==28
+capture replace v27_NEWVARIABLE = var16  if `data'==29
+capture replace v27_NEWVARIABLE = var16  if `data'==30
+capture replace v27_NEWVARIABLE = var16  if `data'==31
+capture replace v27_NEWVARIABLE = var16  if `data'==32
+capture replace v27_NEWVARIABLE = var16  if `data'==33
+capture replace v27_NEWVARIABLE = var16  if `data'==34
+capture replace v27_NEWVARIABLE = var16  if `data'==35
+capture replace v27_NEWVARIABLE = var16  if `data'==36
+capture replace v27_NEWVARIABLE = var16  if `data'==37
+capture replace v27_NEWVARIABLE = var16  if `data'==38
+capture replace v27_NEWVARIABLE = var16  if `data'==39
+capture replace v27_NEWVARIABLE = var16  if `data'==40
+capture replace v27_NEWVARIABLE = var16  if `data'==41
+capture replace v27_NEWVARIABLE = var16  if `data'==42
+capture replace v27_NEWVARIABLE = var16  if `data'==43
+capture replace v27_NEWVARIABLE = var16  if `data'==44
+capture label variable v27_NEWVARIABLE `var_lab'
+capture label values v27_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目: 専修学校卒業の有無"
+    Description (Data 1):  "個人項目: 専修学校卒業の有無"
+    Description (Data 2):  "個人項目: 専修学校卒業の有無"
+    Description (Data 3):  "個人項目内容: 分類表6-2"
+    Description (Data 4):  "個人項目内容: 分類表6-2"
+    Description (Data 5):  "個人項目内容: 分類表6-2"
+    Description (Data 6):  "個人項目内容: 分類表6-2"
+    Description (Data 7):  "個人項目就業の経験: チェック済"
+    Description (Data 8):  "個人項目就業の経験: チェック済"
+    Description (Data 9):  "個人項目就業の経験: チェック済"
+    Description (Data 10): "個人項目就業の経験: チェック済"
     Description (Data 11): None
     Description (Data 12): None
     Description (Data 13): None
@@ -2628,26 +3621,44 @@ capture label values v32_NEWVARIABLE `val_lab'
     Description (Data 16): None
     Description (Data 17): None
     Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Data 19): "個人項目就業の経験: 就業の経験チェック済"
+    Description (Data 20): "個人項目就業の経験: 就業の経験チェック済"
+    Description (Data 21): "個人項目就業の経験: 就業の経験チェック済"
+    Description (Data 22): "個人項目就業の経験: 就業の経験チェック済"
+    Description (Data 23): "個人項目就業の経験: 就業の経験チェック済"
+    Description (Data 24): "個人項目就業の経験: 就業の経験チェック済"
+    Description (Data 25): "個人項目就業の経験: 就業の経験チェック済"
+    Description (Data 26): "個人項目就業の経験: 就業の経験チェック済"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "個人項目インターネット有: 1"
+    Description (Data 30): "個人項目インターネット有: 1"
+    Description (Data 31): "個人項目インターネット有: 1"
+    Description (Data 32): "個人項目インターネット有: 1"
+    Description (Data 33): "個人項目インターネット有: 1"
+    Description (Data 34): "個人項目インターネット有: 1"
+    Description (Data 35): "個人項目インターネット有: 1"
+    Description (Data 36): "個人項目インターネット有: 1"
+    Description (Data 37): "個人項目インターネット有: 1"
+    Description (Data 38): "個人項目インターネット有: 1"
+    Description (Data 39): "個人項目インターネット有: 1"
+    Description (Data 40): "個人項目インターネット有: 1"
+    Description (Data 41): "個人項目インターネット有: 1"
+    Description (Data 42): "個人項目インターネット有: 1"
+    Description (Data 43): "個人項目インターネット有: 1"
+    Description (Data 44): "個人項目インターネット有: 1"
 
-    Values (Base):     1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
-    Values (Data 1):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
-    Values (Data 2):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
-    Values (Data 3):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
-    Values (Data 4):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
-    Values (Data 5):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
-    Values (Data 6):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
-    Values (Data 7):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
-    Values (Data 8):   1: 新中・旧小, 2: 新高・旧中, 3: 専修学校(専門課程), 4: 高専・短大, 6: 新大・旧大・大学院(文科系), 7: 新大・旧大・大学院(理科系)
-    Values (Data 9):  None
-    Values (Data 10): None
+    Values (Base):     1: 1:ある(入戦前1年以内に卒業した), 2: 2:ある(それ以外の時期に卒業した), 3: 3:ない
+    Values (Data 1):   1: 1:ある(入戦前1年以内に卒業した), 2: 2:ある(それ以外の時期に卒業した), 3: 3:ない
+    Values (Data 2):   1: 1:ある(入戦前1年以内に卒業した), 2: 2:ある(それ以外の時期に卒業した), 3: 3:ない
+    Values (Data 3):   1: , 2: , 3: 
+    Values (Data 4):   1: , 2: , 3: 
+    Values (Data 5):   1: , 2: , 3: 
+    Values (Data 6):   1: , 2: , 3: 
+    Values (Data 7):   1: , 2: 
+    Values (Data 8):   1: , 2: 
+    Values (Data 9):   1: , 2: 
+    Values (Data 10):  1: , 2: 
     Values (Data 11): None
     Values (Data 12): None
     Values (Data 13): None
@@ -2656,298 +3667,359 @@ capture label values v32_NEWVARIABLE `val_lab'
     Values (Data 16): None
     Values (Data 17): None
     Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 19):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 20):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 21):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 22):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 23):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 24):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 25):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 26):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29):  1: 求人企業が直接運営するサイト
+    Values (Data 30):  1: 求人企業が直接運営するサイト
+    Values (Data 31):  1: 求人企業が直接運営するサイト
+    Values (Data 32):  1: 求人企業が直接運営するサイト
+    Values (Data 33):  1: 求人企業が直接運営するサイト
+    Values (Data 34):  1: 求人企業が直接運営するサイト
+    Values (Data 35):  1: 求人企業が直接運営するサイト
+    Values (Data 36):  1: 求人企業が直接運営するサイト
+    Values (Data 37):  1: 求人企業が直接運営するサイト
+    Values (Data 38):  1: 求人企業が直接運営するサイト
+    Values (Data 39):  1: 求人企業が直接運営するサイト
+    Values (Data 40):  1: 求人企業が直接運営するサイト
+    Values (Data 41):  1: 求人企業が直接運営するサイト
+    Values (Data 42):  1: 求人企業が直接運営するサイト
+    Values (Data 43):  1: 求人企業が直接運営するサイト
+    Values (Data 44):  1: 求人企業が直接運営するサイト
 
 ----------------------------------------------------------------------*/
-gen v33_NEWVARIABLE = .
-local var_lab: variable label var33
-local val_lab: value label var33
-capture replace v33_NEWVARIABLE = var33  if `data'==1
-capture replace v33_NEWVARIABLE = var33  if `data'==2
-capture replace v33_NEWVARIABLE = var33  if `data'==3
-capture replace v33_NEWVARIABLE = var33  if `data'==4
-capture replace v33_NEWVARIABLE = var33  if `data'==5
-capture replace v33_NEWVARIABLE = var33  if `data'==6
-capture replace v33_NEWVARIABLE = var33  if `data'==7
-capture replace v33_NEWVARIABLE = var33  if `data'==8
-capture label variable v33_NEWVARIABLE `var_lab'
-capture label values v33_NEWVARIABLE `val_lab'
+gen v28_NEWVARIABLE = .
+local var_lab: variable label var28
+local val_lab: value label var28
+capture replace v28_NEWVARIABLE = var28  if `data'==1
+capture replace v28_NEWVARIABLE = var28  if `data'==2
+capture replace v28_NEWVARIABLE = var31  if `data'==3
+capture replace v28_NEWVARIABLE = var31  if `data'==4
+capture replace v28_NEWVARIABLE = var31  if `data'==5
+capture replace v28_NEWVARIABLE = var31  if `data'==6
+capture replace v28_NEWVARIABLE = var32  if `data'==7
+capture replace v28_NEWVARIABLE = var32  if `data'==8
+capture replace v28_NEWVARIABLE = var32  if `data'==9
+capture replace v28_NEWVARIABLE = var32  if `data'==10
+capture replace v28_NEWVARIABLE = var40  if `data'==19
+capture replace v28_NEWVARIABLE = var40  if `data'==20
+capture replace v28_NEWVARIABLE = var40  if `data'==21
+capture replace v28_NEWVARIABLE = var40  if `data'==22
+capture replace v28_NEWVARIABLE = var40  if `data'==23
+capture replace v28_NEWVARIABLE = var40  if `data'==24
+capture replace v28_NEWVARIABLE = var40  if `data'==25
+capture replace v28_NEWVARIABLE = var40  if `data'==26
+capture replace v28_NEWVARIABLE = var18  if `data'==29
+capture replace v28_NEWVARIABLE = var18  if `data'==30
+capture replace v28_NEWVARIABLE = var18  if `data'==31
+capture replace v28_NEWVARIABLE = var18  if `data'==32
+capture replace v28_NEWVARIABLE = var18  if `data'==33
+capture replace v28_NEWVARIABLE = var18  if `data'==34
+capture replace v28_NEWVARIABLE = var18  if `data'==35
+capture replace v28_NEWVARIABLE = var18  if `data'==36
+capture replace v28_NEWVARIABLE = var18  if `data'==37
+capture replace v28_NEWVARIABLE = var18  if `data'==38
+capture replace v28_NEWVARIABLE = var18  if `data'==39
+capture replace v28_NEWVARIABLE = var18  if `data'==40
+capture replace v28_NEWVARIABLE = var18  if `data'==41
+capture replace v28_NEWVARIABLE = var18  if `data'==42
+capture replace v28_NEWVARIABLE = var18  if `data'==43
+capture replace v28_NEWVARIABLE = var18  if `data'==44
+capture label variable v28_NEWVARIABLE `var_lab'
+capture label values v28_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目: 卒業時期"
-    Description (Data 1):  "個人項目: 卒業時期"
-    Description (Data 2):  "個人項目: 卒業時期"
-    Description (Data 3):  "個人項目: 卒業時期"
-    Description (Data 4):  "個人項目: 卒業時期"
-    Description (Data 5):  "個人項目: 卒業時期"
-    Description (Data 6):  "個人項目: 卒業時期"
-    Description (Data 7):  "個人項目: 卒業時期"
-    Description (Data 8):  "個人項目: 卒業時期"
-    Description (Data 9):  "卒業年度"
-    Description (Data 10): "卒業年度"
-    Description (Data 11): "個人項目: 卒業年度"
-    Description (Data 12): "個人項目: 卒業年度"
-    Description (Data 13): "個人項目: 卒業年度"
-    Description (Data 14): "個人項目: 卒業年度"
-    Description (Data 15): "個人項目: 卒業年度"
-    Description (Data 16): "個人項目: 卒業年度"
-    Description (Data 17): "個人項目: 卒業年度"
-    Description (Data 18): "個人項目: 卒業年度"
-    Description (Data 19): "個人項目: 卒業年度"
-    Description (Data 20): "個人項目: 卒業年度"
-    Description (Data 21): "個人項目: 卒業年度"
-    Description (Data 22): "個人項目: 卒業年度"
-    Description (Data 23): "個人項目: 卒業年度"
-    Description (Data 24): "個人項目: 卒業年度"
-    Description (Data 25): "個人項目: 卒業年度"
-    Description (Data 26): "個人項目: 卒業年度"
+    Description (Base):    "個人項目入職経路区分: 調査票コード"
+    Description (Data 1):  "個人項目入職経路区分: 調査票コード"
+    Description (Data 2):  "個人項目入職経路区分: 調査票コード"
+    Description (Data 3):  "個人項目経路: チェック済"
+    Description (Data 4):  "個人項目経路: チェック済"
+    Description (Data 5):  "個人項目経路: チェック済"
+    Description (Data 6):  "個人項目経路: チェック済"
+    Description (Data 7):  "個人項目入職経路: チェック済"
+    Description (Data 8):  "個人項目入職経路: チェック済"
+    Description (Data 9):  "個人項目入職経路: チェック済"
+    Description (Data 10): "個人項目入職経路: チェック済"
+    Description (Data 11): "個人項目入職経路: チェック済"
+    Description (Data 12): "個人項目入職経路: チェック済"
+    Description (Data 13): "個人項目入職経路: チェック済"
+    Description (Data 14): "個人項目入職経路: チェック済"
+    Description (Data 15): "個人項目入職経路: チェック済"
+    Description (Data 16): "個人項目入職経路: チェック済"
+    Description (Data 17): "個人項目入職経路: チェック済"
+    Description (Data 18): "個人項目入職経路: チェック済"
+    Description (Data 19): "個人項目入職経路: 入職経路チェック済"
+    Description (Data 20): "個人項目入職経路: 入職経路チェック済"
+    Description (Data 21): "個人項目入職経路: 入職経路チェック済"
+    Description (Data 22): "個人項目入職経路: 入職経路チェック済"
+    Description (Data 23): "個人項目入職経路: 入職経路チェック済"
+    Description (Data 24): "個人項目入職経路: 入職経路チェック済"
+    Description (Data 25): "個人項目入職経路: 入職経路チェック済"
+    Description (Data 26): "個人項目入職経路: 入職経路チェック済"
+    Description (Data 27): "入職経路"
+    Description (Data 28): "入職経路"
+    Description (Data 29): "個人項目: 入職経路"
+    Description (Data 30): "個人項目: 入職経路"
+    Description (Data 31): "個人項目: 入職経路"
+    Description (Data 32): "個人項目: 入職経路"
+    Description (Data 33): "個人項目: 入職経路"
+    Description (Data 34): "個人項目: 入職経路"
+    Description (Data 35): "個人項目: 入職経路"
+    Description (Data 36): "個人項目: 入職経路"
+    Description (Data 37): "個人項目: 入職経路"
+    Description (Data 38): "個人項目: 入職経路"
+    Description (Data 39): "個人項目: 入職経路"
+    Description (Data 40): "個人項目: 入職経路"
+    Description (Data 41): "個人項目: 入職経路"
+    Description (Data 42): "個人項目: 入職経路"
+    Description (Data 43): "個人項目: 入職経路"
+    Description (Data 44): "個人項目: 入職経路"
 
-    Values (Base):     1: 平成18年3月新卒, 2: 平成17年3月以前卒
-    Values (Data 1):   1: 平成18年3月新卒, 2: 平成17年3月以前卒
-    Values (Data 2):   1: 平成18年3月新卒, 2: 平成17年3月以前卒
-    Values (Data 3):   1: 平成18年3月新卒, 2: 平成17年3月以前卒
-    Values (Data 4):   1: 平成18年3月新卒, 2: 平成17年3月以前卒
-    Values (Data 5):   1: 平成18年3月新卒, 2: 平成17年3月以前卒
-    Values (Data 6):   1: 平成18年3月新卒, 2: 平成17年3月以前卒
-    Values (Data 7):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 8):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 9):   1: 平成20年3月新卒, 2: 平成19年3月以前卒
-    Values (Data 10):  1: 平成20年3月新卒, 2: 平成19年3月以前卒
-    Values (Data 11):  1: 新規学卒者(平成22年1月以降に卒業), 2: 新規学卒者以外(平成21年12月以前に卒業)
-    Values (Data 12):  1: 新規学卒者(平成22年1月以降に卒業), 2: 新規学卒者以外(平成21年12月以前に卒業)
-    Values (Data 13):  1: 新規学卒者(平成22年1月以降に卒業), 2: 新規学卒者以外(平成21年12月以前に卒業)
-    Values (Data 14):  1: 新規学卒者(平成22年1月以降に卒業), 2: 新規学卒者以外(平成21年12月以前に卒業)
-    Values (Data 15):  1: 新規学卒者(平成24年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
-    Values (Data 16):  1: 新規学卒者(平成24年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
-    Values (Data 17):  1: 新規学卒者(平成24年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
-    Values (Data 18):  1: 新規学卒者(平成24年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
-    Values (Data 19):  1: 新規学卒者(平成25年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
-    Values (Data 20):  1: 新規学卒者(平成25年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
-    Values (Data 21):  1: 新規学卒者(平成27年1月以降卒業), 2: 新規学卒者以外(平成26年12月以前卒業)
-    Values (Data 22):  1: 新規学卒者(平成27年1月以降卒業), 2: 新規学卒者以外(平成26年12月以前卒業)
-    Values (Data 23):  1: 新規学卒者(平成27年1月以降卒業), 2: 新規学卒者以外(平成26年12月以前卒業)
-    Values (Data 24):  1: 新規学卒者(平成27年1月以降卒業), 2: 新規学卒者以外(平成26年12月以前卒業)
-    Values (Data 25):  1: 新規学卒者(平成28年1月以降卒業), 2: 新規学卒者以外(平成27年12月以前卒業)
-    Values (Data 26):  1: 新規学卒者(平成28年1月以降卒業), 2: 新規学卒者以外(平成27年12月以前卒業)
-
-----------------------------------------------------------------------*/
-gen v34_NEWVARIABLE = .
-local var_lab: variable label var34
-local val_lab: value label var34
-capture replace v34_NEWVARIABLE = var34  if `data'==1
-capture replace v34_NEWVARIABLE = var34  if `data'==2
-capture replace v34_NEWVARIABLE = var34  if `data'==3
-capture replace v34_NEWVARIABLE = var34  if `data'==4
-capture replace v34_NEWVARIABLE = var34  if `data'==5
-capture replace v34_NEWVARIABLE = var34  if `data'==6
-capture replace v34_NEWVARIABLE = var34  if `data'==7
-capture replace v34_NEWVARIABLE = var34  if `data'==8
-capture replace v34_NEWVARIABLE = var16  if `data'==9
-capture replace v34_NEWVARIABLE = var16  if `data'==10
-capture replace v34_NEWVARIABLE = var17  if `data'==11
-capture replace v34_NEWVARIABLE = var17  if `data'==12
-capture replace v34_NEWVARIABLE = var17  if `data'==13
-capture replace v34_NEWVARIABLE = var17  if `data'==14
-capture replace v34_NEWVARIABLE = var17  if `data'==15
-capture replace v34_NEWVARIABLE = var17  if `data'==16
-capture replace v34_NEWVARIABLE = var17  if `data'==17
-capture replace v34_NEWVARIABLE = var17  if `data'==18
-capture replace v34_NEWVARIABLE = var17  if `data'==19
-capture replace v34_NEWVARIABLE = var17  if `data'==20
-capture replace v34_NEWVARIABLE = var17  if `data'==21
-capture replace v34_NEWVARIABLE = var17  if `data'==22
-capture replace v34_NEWVARIABLE = var17  if `data'==23
-capture replace v34_NEWVARIABLE = var17  if `data'==24
-capture replace v34_NEWVARIABLE = var17  if `data'==25
-capture replace v34_NEWVARIABLE = var17  if `data'==26
-capture label variable v34_NEWVARIABLE `var_lab'
-capture label values v34_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目入職経路: 入職経路チェック済"
-    Description (Data 1):  "個人項目入職経路: 入職経路チェック済"
-    Description (Data 2):  "個人項目入職経路: 入職経路チェック済"
-    Description (Data 3):  "個人項目入職経路: 入職経路チェック済"
-    Description (Data 4):  "個人項目入職経路: 入職経路チェック済"
-    Description (Data 5):  "個人項目入職経路: 入職経路チェック済"
-    Description (Data 6):  "個人項目入職経路: 入職経路チェック済"
-    Description (Data 7):  "個人項目入職経路: 入職経路チェック済"
-    Description (Data 8):  "個人項目入職経路: 入職経路チェック済"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
-    Values (Data 1):   1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
-    Values (Data 2):   1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
-    Values (Data 3):   1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
-    Values (Data 4):   1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
-    Values (Data 5):   1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
-    Values (Data 6):   1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
-    Values (Data 7):   1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 8):   1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v35_NEWVARIABLE = .
-local var_lab: variable label var35
-local val_lab: value label var35
-capture replace v35_NEWVARIABLE = var35  if `data'==1
-capture replace v35_NEWVARIABLE = var35  if `data'==2
-capture replace v35_NEWVARIABLE = var35  if `data'==3
-capture replace v35_NEWVARIABLE = var35  if `data'==4
-capture replace v35_NEWVARIABLE = var35  if `data'==5
-capture replace v35_NEWVARIABLE = var35  if `data'==6
-capture replace v35_NEWVARIABLE = var35  if `data'==7
-capture replace v35_NEWVARIABLE = var35  if `data'==8
-capture label variable v35_NEWVARIABLE `var_lab'
-capture label values v35_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目入職経路: 分類表24"
-    Description (Data 1):  "個人項目入職経路: 分類表24"
-    Description (Data 2):  "個人項目入職経路: 分類表24"
-    Description (Data 3):  "個人項目入職経路: 分類表24"
-    Description (Data 4):  "個人項目入職経路: 分類表24"
-    Description (Data 5):  "個人項目入職経路: 分類表24"
-    Description (Data 6):  "個人項目入職経路: 分類表24"
-    Description (Data 7):  "個人項目入職経路: 分類表24"
-    Description (Data 8):  "個人項目入職経路: 分類表24"
-    Description (Data 9):  "入職経路"
-    Description (Data 10): "入職経路"
-    Description (Data 11): "個人項目: 入職経路"
-    Description (Data 12): "個人項目: 入職経路"
-    Description (Data 13): "個人項目: 入職経路"
-    Description (Data 14): "個人項目: 入職経路"
-    Description (Data 15): "個人項目: 入職経路"
-    Description (Data 16): "個人項目: 入職経路"
-    Description (Data 17): "個人項目: 入職経路"
-    Description (Data 18): "個人項目: 入職経路"
-    Description (Data 19): "個人項目: 入職経路"
-    Description (Data 20): "個人項目: 入職経路"
-    Description (Data 21): "個人項目: 入職経路"
-    Description (Data 22): "個人項目: 入職経路"
-    Description (Data 23): "個人項目: 入職経路"
-    Description (Data 24): "個人項目: 入職経路"
-    Description (Data 25): "個人項目: 入職経路"
-    Description (Data 26): "個人項目: 入職経路"
-
-    Values (Base):     1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
-    Values (Data 1):   1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
-    Values (Data 2):   1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
-    Values (Data 3):   1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
-    Values (Data 4):   1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
-    Values (Data 5):   1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
-    Values (Data 6):   1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
-    Values (Data 7):   1: 入職経路チェック済:01, 2: 入職経路チェック済:02, 3: 入職経路チェック済:03, 4: 入職経路チェック済:04, 5: 入職経路チェック済:05, 6: 入職経路チェック済:06, 7: 入職経路チェック済:07, 8: 入職経路チェック済:08, 9: 入職経路チェック済:09, 10: 入職経路チェック済:10
-    Values (Data 8):   1: 入職経路チェック済:01, 2: 入職経路チェック済:02, 3: 入職経路チェック済:03, 4: 入職経路チェック済:04, 5: 入職経路チェック済:05, 6: 入職経路チェック済:06, 7: 入職経路チェック済:07, 8: 入職経路チェック済:08, 9: 入職経路チェック済:09, 10: 入職経路チェック済:10
-    Values (Data 9):   1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 10):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 11):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 12):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 13):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 14):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 15):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 16):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 17):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 18):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 19):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 20):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 21):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 22):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 23):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
-    Values (Data 24):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Base):     1: 1:安定所, 2: 2:学校, 3: 3:前の会社, 4: 4:出向, 5: 5:出向先からの復帰, 6: 6:縁故, 7: 7:広告, 8: 8:その他
+    Values (Data 1):   1: 1:安定所, 2: 2:学校, 3: 3:前の会社, 4: 4:出向, 5: 5:出向先からの復帰, 6: 6:縁故, 7: 7:広告, 8: 8:その他
+    Values (Data 2):   1: 1:安定所, 2: 2:学校, 3: 3:前の会社, 4: 4:出向, 5: 5:出向先からの復帰, 6: 6:縁故, 7: 7:広告, 8: 8:その他
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 19):  1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
+    Values (Data 20):  1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
+    Values (Data 21):  1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
+    Values (Data 22):  1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
+    Values (Data 23):  1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
+    Values (Data 24):  1: 安定所, 2: 民営職業紹介所, 3: 学校, 4: 前の会社, 5: 出向, 6: 出向先からの復帰, 7: 縁故, 8: 広告, 9: その他
     Values (Data 25):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
     Values (Data 26):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 27):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 28):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 29):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 30):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 31):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 32):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 33):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 34):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 35):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 36):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 37):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 38):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 39):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 40):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 41):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 42):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 43):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
+    Values (Data 44):  1: 安定所, 2: ハローワークインターネットサービスやしごと情報ネット, 3: 民営職業紹介所, 4: 学校, 5: 前の会社, 6: 出向, 7: 出向先からの復帰, 8: 縁故, 9: 広告, 10: その他
 
 ----------------------------------------------------------------------*/
-gen v36_NEWVARIABLE = .
-local var_lab: variable label var36
-local val_lab: value label var36
-capture replace v36_NEWVARIABLE = var36  if `data'==1
-capture replace v36_NEWVARIABLE = var36  if `data'==2
-capture replace v36_NEWVARIABLE = var36  if `data'==3
-capture replace v36_NEWVARIABLE = var36  if `data'==4
-capture replace v36_NEWVARIABLE = var36  if `data'==5
-capture replace v36_NEWVARIABLE = var36  if `data'==6
-capture replace v36_NEWVARIABLE = var36  if `data'==7
-capture replace v36_NEWVARIABLE = var36  if `data'==8
-capture replace v36_NEWVARIABLE = var24  if `data'==9
-capture replace v36_NEWVARIABLE = var24  if `data'==10
-capture replace v36_NEWVARIABLE = var25  if `data'==11
-capture replace v36_NEWVARIABLE = var25  if `data'==12
-capture replace v36_NEWVARIABLE = var25  if `data'==13
-capture replace v36_NEWVARIABLE = var25  if `data'==14
-capture replace v36_NEWVARIABLE = var25  if `data'==15
-capture replace v36_NEWVARIABLE = var25  if `data'==16
-capture replace v36_NEWVARIABLE = var25  if `data'==17
-capture replace v36_NEWVARIABLE = var25  if `data'==18
-capture replace v36_NEWVARIABLE = var25  if `data'==19
-capture replace v36_NEWVARIABLE = var25  if `data'==20
-capture replace v36_NEWVARIABLE = var25  if `data'==21
-capture replace v36_NEWVARIABLE = var25  if `data'==22
-capture replace v36_NEWVARIABLE = var25  if `data'==23
-capture replace v36_NEWVARIABLE = var25  if `data'==24
-capture replace v36_NEWVARIABLE = var25  if `data'==25
-capture replace v36_NEWVARIABLE = var25  if `data'==26
-capture label variable v36_NEWVARIABLE `var_lab'
-capture label values v36_NEWVARIABLE `val_lab'
+gen v29_NEWVARIABLE = .
+local var_lab: variable label var29
+local val_lab: value label var29
+capture replace v29_NEWVARIABLE = var29  if `data'==1
+capture replace v29_NEWVARIABLE = var29  if `data'==2
+capture replace v29_NEWVARIABLE = var27  if `data'==3
+capture replace v29_NEWVARIABLE = var27  if `data'==4
+capture replace v29_NEWVARIABLE = var27  if `data'==5
+capture replace v29_NEWVARIABLE = var27  if `data'==6
+capture replace v29_NEWVARIABLE = var27  if `data'==7
+capture replace v29_NEWVARIABLE = var27  if `data'==8
+capture replace v29_NEWVARIABLE = var27  if `data'==9
+capture replace v29_NEWVARIABLE = var27  if `data'==10
+capture replace v29_NEWVARIABLE = var27  if `data'==11
+capture replace v29_NEWVARIABLE = var27  if `data'==12
+capture replace v29_NEWVARIABLE = var27  if `data'==13
+capture replace v29_NEWVARIABLE = var27  if `data'==14
+capture replace v29_NEWVARIABLE = var26  if `data'==15
+capture replace v29_NEWVARIABLE = var26  if `data'==16
+capture replace v29_NEWVARIABLE = var26  if `data'==17
+capture replace v29_NEWVARIABLE = var26  if `data'==18
+capture replace v29_NEWVARIABLE = var35  if `data'==19
+capture replace v29_NEWVARIABLE = var35  if `data'==20
+capture replace v29_NEWVARIABLE = var35  if `data'==21
+capture replace v29_NEWVARIABLE = var35  if `data'==22
+capture replace v29_NEWVARIABLE = var35  if `data'==23
+capture replace v29_NEWVARIABLE = var35  if `data'==24
+capture replace v29_NEWVARIABLE = var35  if `data'==25
+capture replace v29_NEWVARIABLE = var35  if `data'==26
+capture replace v29_NEWVARIABLE = var24  if `data'==27
+capture replace v29_NEWVARIABLE = var24  if `data'==28
+capture replace v29_NEWVARIABLE = var25  if `data'==29
+capture replace v29_NEWVARIABLE = var25  if `data'==30
+capture replace v29_NEWVARIABLE = var25  if `data'==31
+capture replace v29_NEWVARIABLE = var25  if `data'==32
+capture replace v29_NEWVARIABLE = var25  if `data'==33
+capture replace v29_NEWVARIABLE = var25  if `data'==34
+capture replace v29_NEWVARIABLE = var25  if `data'==35
+capture replace v29_NEWVARIABLE = var25  if `data'==36
+capture replace v29_NEWVARIABLE = var25  if `data'==37
+capture replace v29_NEWVARIABLE = var25  if `data'==38
+capture replace v29_NEWVARIABLE = var25  if `data'==39
+capture replace v29_NEWVARIABLE = var25  if `data'==40
+capture replace v29_NEWVARIABLE = var25  if `data'==41
+capture replace v29_NEWVARIABLE = var25  if `data'==42
+capture replace v29_NEWVARIABLE = var25  if `data'==43
+capture replace v29_NEWVARIABLE = var25  if `data'==44
+capture label variable v29_NEWVARIABLE `var_lab'
+capture label values v29_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目: 就業形態"
-    Description (Data 1):  "個人項目: 就業形態"
-    Description (Data 2):  "個人項目: 就業形態"
+    Description (Base):    "個人項目入職経路区分: 分類表24コード"
+    Description (Data 1):  "個人項目入職経路区分: 分類表24コード"
+    Description (Data 2):  "個人項目入職経路区分: 分類表24コード"
+    Description (Data 3):  "個人項目経路: 分類表24"
+    Description (Data 4):  "個人項目経路: 分類表24"
+    Description (Data 5):  "個人項目経路: 分類表24"
+    Description (Data 6):  "個人項目経路: 分類表24"
+    Description (Data 7):  "個人項目入職経路: 分類表24"
+    Description (Data 8):  "個人項目入職経路: 分類表24"
+    Description (Data 9):  "個人項目入職経路: 分類表24"
+    Description (Data 10): "個人項目入職経路: 分類表24"
+    Description (Data 11): "個人項目入職経路: 分類表24"
+    Description (Data 12): "個人項目入職経路: 分類表24"
+    Description (Data 13): "個人項目入職経路: 分類表24"
+    Description (Data 14): "個人項目入職経路: 分類表24"
+    Description (Data 15): "個人項目入職経路: 分類表24"
+    Description (Data 16): "個人項目入職経路: 分類表24"
+    Description (Data 17): "個人項目入職経路: 分類表24"
+    Description (Data 18): "個人項目入職経路: 分類表24"
+    Description (Data 19): "個人項目入職経路: 分類表24"
+    Description (Data 20): "個人項目入職経路: 分類表24"
+    Description (Data 21): "個人項目入職経路: 分類表24"
+    Description (Data 22): "個人項目入職経路: 分類表24"
+    Description (Data 23): "個人項目入職経路: 分類表24"
+    Description (Data 24): "個人項目入職経路: 分類表24"
+    Description (Data 25): "個人項目入職経路: 分類表24"
+    Description (Data 26): "個人項目入職経路: 分類表24"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: 1:安定所, 2: 2:学校, 3: 3:前の会社, 4: 4:出向, 5: 5:出向先からの復帰, 6: 6:縁故, 7: 7:広告, 8: 8:その他
+    Values (Data 1):   1: 1:安定所, 2: 2:学校, 3: 3:前の会社, 4: 4:出向, 5: 5:出向先からの復帰, 6: 6:縁故, 7: 7:広告, 8: 8:その他
+    Values (Data 2):   1: 1:安定所, 2: 2:学校, 3: 3:前の会社, 4: 4:出向, 5: 5:出向先からの復帰, 6: 6:縁故, 7: 7:広告, 8: 8:その他
+    Values (Data 3):   1: チェック済と並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 4):   1: チェック済と並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 5):   1: チェック済と並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 6):   1: チェック済と並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 7):   1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:7, 4: 入職経路チェック済:8, 5: 入職経路チェック済:6, 6: 入職経路チェック済:3, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5
+    Values (Data 8):   1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:7, 4: 入職経路チェック済:8, 5: 入職経路チェック済:6, 6: 入職経路チェック済:3, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5
+    Values (Data 9):   1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:7, 4: 入職経路チェック済:8, 5: 入職経路チェック済:6, 6: 入職経路チェック済:3, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5
+    Values (Data 10):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:7, 4: 入職経路チェック済:8, 5: 入職経路チェック済:6, 6: 入職経路チェック済:3, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5
+    Values (Data 11):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:8, 5: 入職経路チェック済:9, 6: 入職経路チェック済:7, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5, 9: 入職経路チェック済:6
+    Values (Data 12):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:8, 5: 入職経路チェック済:9, 6: 入職経路チェック済:7, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5, 9: 入職経路チェック済:6
+    Values (Data 13):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:8, 5: 入職経路チェック済:9, 6: 入職経路チェック済:7, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5, 9: 入職経路チェック済:6
+    Values (Data 14):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:8, 5: 入職経路チェック済:9, 6: 入職経路チェック済:7, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5, 9: 入職経路チェック済:6
+    Values (Data 15):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:8, 5: 入職経路チェック済:9, 6: 入職経路チェック済:7, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5, 9: 入職経路チェック済:6
+    Values (Data 16):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:8, 5: 入職経路チェック済:9, 6: 入職経路チェック済:7, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5, 9: 入職経路チェック済:6
+    Values (Data 17):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:8, 5: 入職経路チェック済:9, 6: 入職経路チェック済:7, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5, 9: 入職経路チェック済:6
+    Values (Data 18):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:8, 5: 入職経路チェック済:9, 6: 入職経路チェック済:7, 7: 入職経路チェック済:4, 8: 入職経路チェック済:5, 9: 入職経路チェック済:6
+    Values (Data 19):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
+    Values (Data 20):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
+    Values (Data 21):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
+    Values (Data 22):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
+    Values (Data 23):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
+    Values (Data 24):  1: 入職経路チェック済:1, 2: 入職経路チェック済:2, 3: 入職経路チェック済:3, 4: 入職経路チェック済:4, 5: 入職経路チェック済:5, 6: 入職経路チェック済:6, 7: 入職経路チェック済:7, 8: 入職経路チェック済:8, 9: 入職経路チェック済:9
+    Values (Data 25):  1: 入職経路チェック済:01, 2: 入職経路チェック済:02, 3: 入職経路チェック済:03, 4: 入職経路チェック済:04, 5: 入職経路チェック済:05, 6: 入職経路チェック済:06, 7: 入職経路チェック済:07, 8: 入職経路チェック済:08, 9: 入職経路チェック済:09, 10: 入職経路チェック済:10
+    Values (Data 26):  1: 入職経路チェック済:01, 2: 入職経路チェック済:02, 3: 入職経路チェック済:03, 4: 入職経路チェック済:04, 5: 入職経路チェック済:05, 6: 入職経路チェック済:06, 7: 入職経路チェック済:07, 8: 入職経路チェック済:08, 9: 入職経路チェック済:09, 10: 入職経路チェック済:10
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v30_NEWVARIABLE = .
+local var_lab: variable label var30
+local val_lab: value label var30
+capture replace v30_NEWVARIABLE = var30  if `data'==1
+capture replace v30_NEWVARIABLE = var30  if `data'==2
+capture replace v30_NEWVARIABLE = var28  if `data'==3
+capture replace v30_NEWVARIABLE = var28  if `data'==4
+capture replace v30_NEWVARIABLE = var28  if `data'==5
+capture replace v30_NEWVARIABLE = var28  if `data'==6
+capture replace v30_NEWVARIABLE = var28  if `data'==7
+capture replace v30_NEWVARIABLE = var28  if `data'==8
+capture replace v30_NEWVARIABLE = var28  if `data'==9
+capture replace v30_NEWVARIABLE = var28  if `data'==10
+capture replace v30_NEWVARIABLE = var28  if `data'==11
+capture replace v30_NEWVARIABLE = var28  if `data'==12
+capture replace v30_NEWVARIABLE = var28  if `data'==13
+capture replace v30_NEWVARIABLE = var28  if `data'==14
+capture replace v30_NEWVARIABLE = var27  if `data'==15
+capture replace v30_NEWVARIABLE = var27  if `data'==16
+capture replace v30_NEWVARIABLE = var27  if `data'==17
+capture replace v30_NEWVARIABLE = var27  if `data'==18
+capture replace v30_NEWVARIABLE = var36  if `data'==19
+capture replace v30_NEWVARIABLE = var36  if `data'==20
+capture replace v30_NEWVARIABLE = var36  if `data'==21
+capture replace v30_NEWVARIABLE = var36  if `data'==22
+capture replace v30_NEWVARIABLE = var36  if `data'==23
+capture replace v30_NEWVARIABLE = var36  if `data'==24
+capture replace v30_NEWVARIABLE = var36  if `data'==25
+capture replace v30_NEWVARIABLE = var36  if `data'==26
+capture label variable v30_NEWVARIABLE `var_lab'
+capture label values v30_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目: 就業形態区分"
+    Description (Data 1):  "個人項目: 就業形態区分"
+    Description (Data 2):  "個人項目: 就業形態区分"
     Description (Data 3):  "個人項目: 就業形態"
     Description (Data 4):  "個人項目: 就業形態"
     Description (Data 5):  "個人項目: 就業形態"
     Description (Data 6):  "個人項目: 就業形態"
     Description (Data 7):  "個人項目: 就業形態"
     Description (Data 8):  "個人項目: 就業形態"
-    Description (Data 9):  "就業形態"
-    Description (Data 10): "就業形態"
+    Description (Data 9):  "個人項目: 就業形態"
+    Description (Data 10): "個人項目: 就業形態"
     Description (Data 11): "個人項目: 就業形態"
     Description (Data 12): "個人項目: 就業形態"
     Description (Data 13): "個人項目: 就業形態"
@@ -2964,838 +4036,439 @@ capture label values v36_NEWVARIABLE `val_lab'
     Description (Data 24): "個人項目: 就業形態"
     Description (Data 25): "個人項目: 就業形態"
     Description (Data 26): "個人項目: 就業形態"
+    Description (Data 27): "就業形態"
+    Description (Data 28): "就業形態"
+    Description (Data 29): "個人項目: 就業形態"
+    Description (Data 30): "個人項目: 就業形態"
+    Description (Data 31): "個人項目: 就業形態"
+    Description (Data 32): "個人項目: 就業形態"
+    Description (Data 33): "個人項目: 就業形態"
+    Description (Data 34): "個人項目: 就業形態"
+    Description (Data 35): "個人項目: 就業形態"
+    Description (Data 36): "個人項目: 就業形態"
+    Description (Data 37): "個人項目: 就業形態"
+    Description (Data 38): "個人項目: 就業形態"
+    Description (Data 39): "個人項目: 就業形態"
+    Description (Data 40): "個人項目: 就業形態"
+    Description (Data 41): "個人項目: 就業形態"
+    Description (Data 42): "個人項目: 就業形態"
+    Description (Data 43): "個人項目: 就業形態"
+    Description (Data 44): "個人項目: 就業形態"
 
-    Values (Base):     1: 一般労働者, 2: パートタイム労働者
-    Values (Data 1):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 2):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 3):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 4):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 5):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 6):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 7):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 8):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 9):   1: 一般労働者, 2: パートタイム労働者
-    Values (Data 10):  1: 一般労働者, 2: パートタイム労働者
-    Values (Data 11):  1: 一般労働者, 2: パートタイム労働者
-    Values (Data 12):  1: 一般労働者, 2: パートタイム労働者
-    Values (Data 13):  1: 一般労働者, 2: パートタイム労働者
-    Values (Data 14):  1: 一般労働者, 2: パートタイム労働者
-    Values (Data 15):  1: 一般労働者, 2: パートタイム労働者
-    Values (Data 16):  1: 一般労働者, 2: パートタイム労働者
-    Values (Data 17):  1: 一般労働者, 2: パートタイム労働者
-    Values (Data 18):  1: 一般労働者, 2: パートタイム労働者
-    Values (Data 19):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
-    Values (Data 20):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
-    Values (Data 21):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
-    Values (Data 22):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
-    Values (Data 23):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
-    Values (Data 24):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
-    Values (Data 25):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
-    Values (Data 26):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
+    Values (Base):     1: 1:一般労働者, 2: 2:パートタイム労働者
+    Values (Data 1):   1: 1:一般労働者, 2: 2:パートタイム労働者
+    Values (Data 2):   1: 1:一般労働者, 2: 2:パートタイム労働者
+    Values (Data 3):   1: , 2: 
+    Values (Data 4):   1: , 2: 
+    Values (Data 5):   1: , 2: 
+    Values (Data 6):   1: , 2: 
+    Values (Data 7):   1: , 2: 
+    Values (Data 8):   1: , 2: 
+    Values (Data 9):   1: , 2: 
+    Values (Data 10):  1: , 2: 
+    Values (Data 11):  1: , 2: 
+    Values (Data 12):  1: , 2: 
+    Values (Data 13):  1: , 2: 
+    Values (Data 14):  1: , 2: 
+    Values (Data 15):  1: , 2: 
+    Values (Data 16):  1: , 2: 
+    Values (Data 17):  1: , 2: 
+    Values (Data 18):  1: , 2: 
+    Values (Data 19):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 20):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 21):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 22):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 23):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 24):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 25):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 26):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 27):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 28):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 29):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 30):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 31):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 32):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 33):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 34):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 35):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 36):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 37):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
+    Values (Data 38):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
+    Values (Data 39):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
+    Values (Data 40):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
+    Values (Data 41):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
+    Values (Data 42):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
+    Values (Data 43):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
+    Values (Data 44):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
 
 ----------------------------------------------------------------------*/
-gen v37_NEWVARIABLE = .
-local var_lab: variable label var37
-local val_lab: value label var37
-capture replace v37_NEWVARIABLE = var37  if `data'==1
-capture replace v37_NEWVARIABLE = var37  if `data'==2
-capture replace v37_NEWVARIABLE = var37  if `data'==3
-capture replace v37_NEWVARIABLE = var37  if `data'==4
-capture replace v37_NEWVARIABLE = var37  if `data'==5
-capture replace v37_NEWVARIABLE = var37  if `data'==6
-capture replace v37_NEWVARIABLE = var37  if `data'==7
-capture replace v37_NEWVARIABLE = var37  if `data'==8
-capture replace v37_NEWVARIABLE = var25  if `data'==9
-capture replace v37_NEWVARIABLE = var25  if `data'==10
-capture replace v37_NEWVARIABLE = var26  if `data'==11
-capture replace v37_NEWVARIABLE = var26  if `data'==12
-capture replace v37_NEWVARIABLE = var26  if `data'==13
-capture replace v37_NEWVARIABLE = var26  if `data'==14
-capture replace v37_NEWVARIABLE = var26  if `data'==15
-capture replace v37_NEWVARIABLE = var26  if `data'==16
-capture replace v37_NEWVARIABLE = var26  if `data'==17
-capture replace v37_NEWVARIABLE = var26  if `data'==18
-capture replace v37_NEWVARIABLE = var26  if `data'==19
-capture replace v37_NEWVARIABLE = var26  if `data'==20
-capture replace v37_NEWVARIABLE = var26  if `data'==21
-capture replace v37_NEWVARIABLE = var26  if `data'==22
-capture replace v37_NEWVARIABLE = var26  if `data'==23
-capture replace v37_NEWVARIABLE = var26  if `data'==24
-capture replace v37_NEWVARIABLE = var26  if `data'==25
-capture replace v37_NEWVARIABLE = var26  if `data'==26
-capture label variable v37_NEWVARIABLE `var_lab'
-capture label values v37_NEWVARIABLE `val_lab'
+gen v31_NEWVARIABLE = .
+local var_lab: variable label var31
+local val_lab: value label var31
+capture replace v31_NEWVARIABLE = var31  if `data'==1
+capture replace v31_NEWVARIABLE = var31  if `data'==2
+capture replace v31_NEWVARIABLE = var29  if `data'==3
+capture replace v31_NEWVARIABLE = var29  if `data'==4
+capture replace v31_NEWVARIABLE = var29  if `data'==5
+capture replace v31_NEWVARIABLE = var29  if `data'==6
+capture replace v31_NEWVARIABLE = var29  if `data'==7
+capture replace v31_NEWVARIABLE = var29  if `data'==8
+capture replace v31_NEWVARIABLE = var29  if `data'==9
+capture replace v31_NEWVARIABLE = var29  if `data'==10
+capture replace v31_NEWVARIABLE = var29  if `data'==11
+capture replace v31_NEWVARIABLE = var29  if `data'==12
+capture replace v31_NEWVARIABLE = var29  if `data'==13
+capture replace v31_NEWVARIABLE = var29  if `data'==14
+capture replace v31_NEWVARIABLE = var28  if `data'==15
+capture replace v31_NEWVARIABLE = var28  if `data'==16
+capture replace v31_NEWVARIABLE = var28  if `data'==17
+capture replace v31_NEWVARIABLE = var28  if `data'==18
+capture replace v31_NEWVARIABLE = var37  if `data'==19
+capture replace v31_NEWVARIABLE = var37  if `data'==20
+capture replace v31_NEWVARIABLE = var37  if `data'==21
+capture replace v31_NEWVARIABLE = var37  if `data'==22
+capture replace v31_NEWVARIABLE = var37  if `data'==23
+capture replace v31_NEWVARIABLE = var37  if `data'==24
+capture replace v31_NEWVARIABLE = var37  if `data'==25
+capture replace v31_NEWVARIABLE = var37  if `data'==26
+capture replace v31_NEWVARIABLE = var25  if `data'==27
+capture replace v31_NEWVARIABLE = var25  if `data'==28
+capture replace v31_NEWVARIABLE = var26  if `data'==29
+capture replace v31_NEWVARIABLE = var26  if `data'==30
+capture replace v31_NEWVARIABLE = var26  if `data'==31
+capture replace v31_NEWVARIABLE = var26  if `data'==32
+capture replace v31_NEWVARIABLE = var26  if `data'==33
+capture replace v31_NEWVARIABLE = var26  if `data'==34
+capture replace v31_NEWVARIABLE = var26  if `data'==35
+capture replace v31_NEWVARIABLE = var26  if `data'==36
+capture replace v31_NEWVARIABLE = var26  if `data'==37
+capture replace v31_NEWVARIABLE = var26  if `data'==38
+capture replace v31_NEWVARIABLE = var26  if `data'==39
+capture replace v31_NEWVARIABLE = var26  if `data'==40
+capture replace v31_NEWVARIABLE = var26  if `data'==41
+capture replace v31_NEWVARIABLE = var26  if `data'==42
+capture replace v31_NEWVARIABLE = var26  if `data'==43
+capture replace v31_NEWVARIABLE = var26  if `data'==44
+capture label variable v31_NEWVARIABLE `var_lab'
+capture label values v31_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目仕事の内容: 仕事の内容チェック済"
-    Description (Data 1):  "個人項目仕事の内容: 仕事の内容チェック済"
-    Description (Data 2):  "個人項目仕事の内容: 仕事の内容チェック済"
-    Description (Data 3):  "個人項目仕事の内容: 仕事の内容チェック済"
-    Description (Data 4):  "個人項目仕事の内容: 仕事の内容チェック済"
-    Description (Data 5):  "個人項目仕事の内容: 仕事の内容チェック済"
-    Description (Data 6):  "個人項目仕事の内容: 仕事の内容チェック済"
-    Description (Data 7):  "個人項目仕事の内容: 仕事の内容チェック済"
-    Description (Data 8):  "個人項目仕事の内容: 仕事の内容チェック済"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "個人項目: 職業区分"
+    Description (Data 1):  "個人項目: 職業区分"
+    Description (Data 2):  "個人項目: 職業区分"
+    Description (Data 3):  "個人項目職歴: チェック済"
+    Description (Data 4):  "個人項目職歴: チェック済"
+    Description (Data 5):  "個人項目職歴: チェック済"
+    Description (Data 6):  "個人項目職歴: チェック済"
+    Description (Data 7):  "個人項目: 卒業時期"
+    Description (Data 8):  "個人項目: 卒業時期"
+    Description (Data 9):  "個人項目: 卒業時期"
+    Description (Data 10): "個人項目: 卒業時期"
+    Description (Data 11): "個人項目: 卒業時期"
+    Description (Data 12): "個人項目: 卒業時期"
+    Description (Data 13): "個人項目: 卒業時期"
+    Description (Data 14): "個人項目: 卒業時期"
+    Description (Data 15): "個人項目: 卒業時期"
+    Description (Data 16): "個人項目: 卒業時期"
+    Description (Data 17): "個人項目: 卒業時期"
+    Description (Data 18): "個人項目: 卒業時期"
+    Description (Data 19): "個人項目: 卒業時期"
+    Description (Data 20): "個人項目: 卒業時期"
+    Description (Data 21): "個人項目: 卒業時期"
+    Description (Data 22): "個人項目: 卒業時期"
+    Description (Data 23): "個人項目: 卒業時期"
+    Description (Data 24): "個人項目: 卒業時期"
+    Description (Data 25): "個人項目: 卒業時期"
+    Description (Data 26): "個人項目: 卒業時期"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "個人項目: 卒業年度"
+    Description (Data 30): "個人項目: 卒業年度"
+    Description (Data 31): "個人項目: 卒業年度"
+    Description (Data 32): "個人項目: 卒業年度"
+    Description (Data 33): "個人項目: 卒業年度"
+    Description (Data 34): "個人項目: 卒業年度"
+    Description (Data 35): "個人項目: 卒業年度"
+    Description (Data 36): "個人項目: 卒業年度"
+    Description (Data 37): "個人項目: 卒業年度"
+    Description (Data 38): "個人項目: 卒業年度"
+    Description (Data 39): "個人項目: 卒業年度"
+    Description (Data 40): "個人項目: 卒業年度"
+    Description (Data 41): "個人項目: 卒業年度"
+    Description (Data 42): "個人項目: 卒業年度"
+    Description (Data 43): "個人項目: 卒業年度"
+    Description (Data 44): "個人項目: 卒業年度"
 
-    Values (Base):     1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 1):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 2):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 3):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 4):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 5):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 6):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 7):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 8):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Base):     1: 1:専門・技術的職業従事者, 2: 2:管理的職業従事者, 3: 3:事務従事者, 4: 4:販売従事者, 5: 5:サービス職業従事者, 6: 6:保安職業従事者, 7: 7:運輸通信従事者, 8: 8:技能工生産工程作業者, 9: 9:その他職業従事者
+    Values (Data 1):   1: 1:専門・技術的職業従事者, 2: 2:管理的職業従事者, 3: 3:事務従事者, 4: 4:販売従事者, 5: 5:サービス職業従事者, 6: 6:保安職業従事者, 7: 7:運輸通信従事者, 8: 8:技能工生産工程作業者, 9: 9:その他職業従事者
+    Values (Data 2):   1: 1:専門・技術的職業従事者, 2: 2:管理的職業従事者, 3: 3:事務従事者, 4: 4:販売従事者, 5: 5:サービス職業従事者, 6: 6:保安職業従事者, 7: 7:運輸通信従事者, 8: 8:技能工生産工程作業者, 9: 9:その他職業従事者
+    Values (Data 3):   1: , 2: 
+    Values (Data 4):   1: , 2: 
+    Values (Data 5):   1: , 2: 
+    Values (Data 6):   1: , 2: 
+    Values (Data 7):   1: , 2: 
+    Values (Data 8):   1: , 2: 
+    Values (Data 9):   1: , 2: 
+    Values (Data 10):  1: , 2: 
+    Values (Data 11):  1: , 2: 
+    Values (Data 12):  1: , 2: 
+    Values (Data 13):  1: , 2: 
+    Values (Data 14):  1: , 2: 
+    Values (Data 15):  1: , 2: 
+    Values (Data 16):  1: , 2: 
+    Values (Data 17):  1: , 2: 
+    Values (Data 18):  1: , 2: 
+    Values (Data 19):  1: 平成18年3月新卒, 2: 平成17年3月以前卒
+    Values (Data 20):  1: 平成18年3月新卒, 2: 平成17年3月以前卒
+    Values (Data 21):  1: 平成18年3月新卒, 2: 平成17年3月以前卒
+    Values (Data 22):  1: 平成18年3月新卒, 2: 平成17年3月以前卒
+    Values (Data 23):  1: 平成18年3月新卒, 2: 平成17年3月以前卒
+    Values (Data 24):  1: 平成18年3月新卒, 2: 平成17年3月以前卒
+    Values (Data 25):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 26):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29):  1: 新規学卒者(平成22年1月以降に卒業), 2: 新規学卒者以外(平成21年12月以前に卒業)
+    Values (Data 30):  1: 新規学卒者(平成22年1月以降に卒業), 2: 新規学卒者以外(平成21年12月以前に卒業)
+    Values (Data 31):  1: 新規学卒者(平成22年1月以降に卒業), 2: 新規学卒者以外(平成21年12月以前に卒業)
+    Values (Data 32):  1: 新規学卒者(平成22年1月以降に卒業), 2: 新規学卒者以外(平成21年12月以前に卒業)
+    Values (Data 33):  1: 新規学卒者(平成24年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
+    Values (Data 34):  1: 新規学卒者(平成24年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
+    Values (Data 35):  1: 新規学卒者(平成24年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
+    Values (Data 36):  1: 新規学卒者(平成24年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
+    Values (Data 37):  1: 新規学卒者(平成25年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
+    Values (Data 38):  1: 新規学卒者(平成25年1月以降卒業), 2: 新規学卒者以外(平成23年12月以前卒業)
+    Values (Data 39):  1: 新規学卒者(平成27年1月以降卒業), 2: 新規学卒者以外(平成26年12月以前卒業)
+    Values (Data 40):  1: 新規学卒者(平成27年1月以降卒業), 2: 新規学卒者以外(平成26年12月以前卒業)
+    Values (Data 41):  1: 新規学卒者(平成27年1月以降卒業), 2: 新規学卒者以外(平成26年12月以前卒業)
+    Values (Data 42):  1: 新規学卒者(平成27年1月以降卒業), 2: 新規学卒者以外(平成26年12月以前卒業)
+    Values (Data 43):  1: 新規学卒者(平成28年1月以降卒業), 2: 新規学卒者以外(平成27年12月以前卒業)
+    Values (Data 44):  1: 新規学卒者(平成28年1月以降卒業), 2: 新規学卒者以外(平成27年12月以前卒業)
 
 ----------------------------------------------------------------------*/
-gen v38_NEWVARIABLE = .
-local var_lab: variable label var38
-local val_lab: value label var38
-capture replace v38_NEWVARIABLE = var38  if `data'==1
-capture replace v38_NEWVARIABLE = var38  if `data'==2
-capture replace v38_NEWVARIABLE = var38  if `data'==3
-capture replace v38_NEWVARIABLE = var38  if `data'==4
-capture replace v38_NEWVARIABLE = var38  if `data'==5
-capture replace v38_NEWVARIABLE = var38  if `data'==6
-capture replace v38_NEWVARIABLE = var38  if `data'==7
-capture replace v38_NEWVARIABLE = var38  if `data'==8
-capture label variable v38_NEWVARIABLE `var_lab'
-capture label values v38_NEWVARIABLE `val_lab'
+gen v32_NEWVARIABLE = .
+local var_lab: variable label var32
+local val_lab: value label var32
+capture replace v32_NEWVARIABLE = var32  if `data'==1
+capture replace v32_NEWVARIABLE = var32  if `data'==2
+capture replace v32_NEWVARIABLE = var36  if `data'==3
+capture replace v32_NEWVARIABLE = var36  if `data'==4
+capture replace v32_NEWVARIABLE = var36  if `data'==5
+capture replace v32_NEWVARIABLE = var36  if `data'==6
+capture replace v32_NEWVARIABLE = var26  if `data'==7
+capture replace v32_NEWVARIABLE = var26  if `data'==8
+capture replace v32_NEWVARIABLE = var26  if `data'==9
+capture replace v32_NEWVARIABLE = var26  if `data'==10
+capture replace v32_NEWVARIABLE = var26  if `data'==11
+capture replace v32_NEWVARIABLE = var26  if `data'==12
+capture replace v32_NEWVARIABLE = var26  if `data'==13
+capture replace v32_NEWVARIABLE = var26  if `data'==14
+capture replace v32_NEWVARIABLE = var25  if `data'==15
+capture replace v32_NEWVARIABLE = var25  if `data'==16
+capture replace v32_NEWVARIABLE = var25  if `data'==17
+capture replace v32_NEWVARIABLE = var25  if `data'==18
+capture replace v32_NEWVARIABLE = var34  if `data'==19
+capture replace v32_NEWVARIABLE = var34  if `data'==20
+capture replace v32_NEWVARIABLE = var34  if `data'==21
+capture replace v32_NEWVARIABLE = var34  if `data'==22
+capture replace v32_NEWVARIABLE = var34  if `data'==23
+capture replace v32_NEWVARIABLE = var34  if `data'==24
+capture replace v32_NEWVARIABLE = var34  if `data'==25
+capture replace v32_NEWVARIABLE = var34  if `data'==26
+capture replace v32_NEWVARIABLE = var17  if `data'==29
+capture replace v32_NEWVARIABLE = var17  if `data'==30
+capture replace v32_NEWVARIABLE = var17  if `data'==31
+capture replace v32_NEWVARIABLE = var17  if `data'==32
+capture replace v32_NEWVARIABLE = var17  if `data'==33
+capture replace v32_NEWVARIABLE = var17  if `data'==34
+capture replace v32_NEWVARIABLE = var17  if `data'==35
+capture replace v32_NEWVARIABLE = var17  if `data'==36
+capture replace v32_NEWVARIABLE = var17  if `data'==37
+capture replace v32_NEWVARIABLE = var17  if `data'==38
+capture replace v32_NEWVARIABLE = var17  if `data'==39
+capture replace v32_NEWVARIABLE = var17  if `data'==40
+capture replace v32_NEWVARIABLE = var17  if `data'==41
+capture replace v32_NEWVARIABLE = var17  if `data'==42
+capture replace v32_NEWVARIABLE = var17  if `data'==43
+capture replace v32_NEWVARIABLE = var17  if `data'==44
+capture label variable v32_NEWVARIABLE `var_lab'
+capture label values v32_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目仕事の内容: 分類表6-2"
-    Description (Data 1):  "個人項目仕事の内容: 分類表6-2"
-    Description (Data 2):  "個人項目仕事の内容: 分類表6-2"
-    Description (Data 3):  "個人項目仕事の内容: 分類表6-2"
-    Description (Data 4):  "個人項目仕事の内容: 分類表6-2"
-    Description (Data 5):  "個人項目仕事の内容: 分類表6-2"
-    Description (Data 6):  "個人項目仕事の内容: 分類表6-2"
-    Description (Data 7):  "個人項目仕事の内容: 分類表6-2"
-    Description (Data 8):  "個人項目仕事の内容: 分類表6-2"
-    Description (Data 9):  "仕事の内容"
-    Description (Data 10): "仕事の内容"
-    Description (Data 11): "個人項目: 仕事の内容"
-    Description (Data 12): "個人項目: 仕事の内容"
-    Description (Data 13): "個人項目: 仕事の内容"
-    Description (Data 14): "個人項目: 仕事の内容"
-    Description (Data 15): "個人項目: 仕事の内容"
-    Description (Data 16): "個人項目: 仕事の内容"
-    Description (Data 17): "個人項目: 仕事の内容"
-    Description (Data 18): "個人項目: 仕事の内容"
-    Description (Data 19): "個人項目: 仕事の内容"
-    Description (Data 20): "個人項目: 仕事の内容"
-    Description (Data 21): "個人項目: 仕事の内容"
-    Description (Data 22): "個人項目: 仕事の内容"
-    Description (Data 23): "個人項目: 仕事の内容"
-    Description (Data 24): "個人項目: 仕事の内容"
-    Description (Data 25): "個人項目: 仕事の内容"
-    Description (Data 26): "個人項目: 仕事の内容"
-
-    Values (Base):     1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
-    Values (Data 1):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
-    Values (Data 2):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
-    Values (Data 3):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
-    Values (Data 4):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
-    Values (Data 5):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
-    Values (Data 6):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
-    Values (Data 7):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
-    Values (Data 8):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
-    Values (Data 9):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 10):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 11):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
-    Values (Data 12):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
-    Values (Data 13):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
-    Values (Data 14):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
-    Values (Data 15):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 16):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 17):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 18):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 19):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 20):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 21):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 22):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 23):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 24):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 25):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 26):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-
-----------------------------------------------------------------------*/
-gen v39_NEWVARIABLE = .
-local var_lab: variable label var39
-local val_lab: value label var39
-capture replace v39_NEWVARIABLE = var39  if `data'==1
-capture replace v39_NEWVARIABLE = var39  if `data'==2
-capture replace v39_NEWVARIABLE = var39  if `data'==3
-capture replace v39_NEWVARIABLE = var39  if `data'==4
-capture replace v39_NEWVARIABLE = var39  if `data'==5
-capture replace v39_NEWVARIABLE = var39  if `data'==6
-capture replace v39_NEWVARIABLE = var39  if `data'==7
-capture replace v39_NEWVARIABLE = var39  if `data'==8
-capture replace v39_NEWVARIABLE = var26  if `data'==9
-capture replace v39_NEWVARIABLE = var26  if `data'==10
-capture replace v39_NEWVARIABLE = var27  if `data'==11
-capture replace v39_NEWVARIABLE = var27  if `data'==12
-capture replace v39_NEWVARIABLE = var27  if `data'==13
-capture replace v39_NEWVARIABLE = var27  if `data'==14
-capture replace v39_NEWVARIABLE = var27  if `data'==15
-capture replace v39_NEWVARIABLE = var27  if `data'==16
-capture replace v39_NEWVARIABLE = var27  if `data'==17
-capture replace v39_NEWVARIABLE = var27  if `data'==18
-capture replace v39_NEWVARIABLE = var27  if `data'==19
-capture replace v39_NEWVARIABLE = var27  if `data'==20
-capture replace v39_NEWVARIABLE = var27  if `data'==21
-capture replace v39_NEWVARIABLE = var27  if `data'==22
-capture replace v39_NEWVARIABLE = var27  if `data'==23
-capture replace v39_NEWVARIABLE = var27  if `data'==24
-capture replace v39_NEWVARIABLE = var27  if `data'==25
-capture replace v39_NEWVARIABLE = var27  if `data'==26
-capture label variable v39_NEWVARIABLE `var_lab'
-capture label values v39_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目就業の経験: 就業の経験チェック済"
-    Description (Data 1):  "個人項目就業の経験: 就業の経験チェック済"
-    Description (Data 2):  "個人項目就業の経験: 就業の経験チェック済"
-    Description (Data 3):  "個人項目就業の経験: 就業の経験チェック済"
-    Description (Data 4):  "個人項目就業の経験: 就業の経験チェック済"
-    Description (Data 5):  "個人項目就業の経験: 就業の経験チェック済"
-    Description (Data 6):  "個人項目就業の経験: 就業の経験チェック済"
-    Description (Data 7):  "個人項目就業の経験: 就業の経験チェック済"
-    Description (Data 8):  "個人項目就業の経験: 就業の経験チェック済"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 1):   1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 2):   1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 3):   1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 4):   1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 5):   1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 6):   1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 7):   1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 8):   1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v40_NEWVARIABLE = .
-local var_lab: variable label var40
-local val_lab: value label var40
-capture replace v40_NEWVARIABLE = var40  if `data'==1
-capture replace v40_NEWVARIABLE = var40  if `data'==2
-capture replace v40_NEWVARIABLE = var40  if `data'==3
-capture replace v40_NEWVARIABLE = var40  if `data'==4
-capture replace v40_NEWVARIABLE = var40  if `data'==5
-capture replace v40_NEWVARIABLE = var40  if `data'==6
-capture replace v40_NEWVARIABLE = var40  if `data'==7
-capture replace v40_NEWVARIABLE = var40  if `data'==8
-capture label variable v40_NEWVARIABLE `var_lab'
-capture label values v40_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目就業の経験: 分類表13"
-    Description (Data 1):  "個人項目就業の経験: 分類表13"
-    Description (Data 2):  "個人項目就業の経験: 分類表13"
-    Description (Data 3):  "個人項目就業の経験: 分類表13"
-    Description (Data 4):  "個人項目就業の経験: 分類表13"
-    Description (Data 5):  "個人項目就業の経験: 分類表13"
-    Description (Data 6):  "個人項目就業の経験: 分類表13"
-    Description (Data 7):  "個人項目就業の経験: 分類表13"
-    Description (Data 8):  "個人項目就業の経験: 分類表13"
-    Description (Data 9):  "就業の経験"
-    Description (Data 10): "就業の経験"
-    Description (Data 11): "個人項目: 就業の経験"
-    Description (Data 12): "個人項目: 就業の経験"
-    Description (Data 13): "個人項目: 就業の経験"
-    Description (Data 14): "個人項目: 就業の経験"
-    Description (Data 15): "個人項目: 就業の経験"
-    Description (Data 16): "個人項目: 就業の経験"
-    Description (Data 17): "個人項目: 就業の経験"
-    Description (Data 18): "個人項目: 就業の経験"
-    Description (Data 19): "個人項目: 就業の経験"
-    Description (Data 20): "個人項目: 就業の経験"
-    Description (Data 21): "個人項目: 就業の経験"
-    Description (Data 22): "個人項目: 就業の経験"
-    Description (Data 23): "個人項目: 就業の経験"
-    Description (Data 24): "個人項目: 就業の経験"
-    Description (Data 25): "個人項目: 就業の経験"
-    Description (Data 26): "個人項目: 就業の経験"
-
-    Values (Base):     2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
-    Values (Data 1):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
-    Values (Data 2):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
-    Values (Data 3):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
-    Values (Data 4):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
-    Values (Data 5):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
-    Values (Data 6):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
-    Values (Data 7):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
-    Values (Data 8):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
-    Values (Data 9):   1: ある(入職前1年以内), 2: ある(入職前1年を超え2年未満), 3: ない(入職前2年間)
-    Values (Data 10):  1: ある(入職前1年以内), 2: ある(入職前1年を超え2年未満), 3: ない(入職前2年間)
-    Values (Data 11):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 12):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 13):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 14):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 15):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 16):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 17):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 18):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 19):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 20):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 21):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 22):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 23):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 24):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 25):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-    Values (Data 26):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
-
-----------------------------------------------------------------------*/
-gen v41_NEWVARIABLE = .
-local var_lab: variable label var41
-local val_lab: value label var41
-capture replace v41_NEWVARIABLE = var41  if `data'==1
-capture replace v41_NEWVARIABLE = var41  if `data'==2
-capture replace v41_NEWVARIABLE = var41  if `data'==3
-capture replace v41_NEWVARIABLE = var41  if `data'==4
-capture replace v41_NEWVARIABLE = var41  if `data'==5
-capture replace v41_NEWVARIABLE = var41  if `data'==6
-capture replace v41_NEWVARIABLE = var41  if `data'==7
-capture replace v41_NEWVARIABLE = var41  if `data'==8
-capture replace v41_NEWVARIABLE = var27  if `data'==9
-capture replace v41_NEWVARIABLE = var27  if `data'==10
-capture replace v41_NEWVARIABLE = var28  if `data'==11
-capture replace v41_NEWVARIABLE = var28  if `data'==12
-capture replace v41_NEWVARIABLE = var28  if `data'==13
-capture replace v41_NEWVARIABLE = var28  if `data'==14
-capture replace v41_NEWVARIABLE = var28  if `data'==15
-capture replace v41_NEWVARIABLE = var28  if `data'==16
-capture replace v41_NEWVARIABLE = var28  if `data'==17
-capture replace v41_NEWVARIABLE = var28  if `data'==18
-capture replace v41_NEWVARIABLE = var28  if `data'==19
-capture replace v41_NEWVARIABLE = var28  if `data'==20
-capture replace v41_NEWVARIABLE = var28  if `data'==21
-capture replace v41_NEWVARIABLE = var28  if `data'==22
-capture replace v41_NEWVARIABLE = var28  if `data'==23
-capture replace v41_NEWVARIABLE = var28  if `data'==24
-capture replace v41_NEWVARIABLE = var28  if `data'==25
-capture replace v41_NEWVARIABLE = var28  if `data'==26
-capture label variable v41_NEWVARIABLE `var_lab'
-capture label values v41_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目就業の経験: 分類表13-2"
-    Description (Data 1):  "個人項目就業の経験: 分類表13-2"
-    Description (Data 2):  "個人項目就業の経験: 分類表13-2"
-    Description (Data 3):  "個人項目就業の経験: 分類表13-2"
-    Description (Data 4):  "個人項目就業の経験: 分類表13-2"
-    Description (Data 5):  "個人項目就業の経験: 分類表13-2"
-    Description (Data 6):  "個人項目就業の経験: 分類表13-2"
-    Description (Data 7):  "個人項目就業の経験: 分類表13-2"
-    Description (Data 8):  "個人項目就業の経験: 分類表13-2"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
-    Values (Data 1):   3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
-    Values (Data 2):   3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
-    Values (Data 3):   3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
-    Values (Data 4):   3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
-    Values (Data 5):   3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
-    Values (Data 6):   3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
-    Values (Data 7):   3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
-    Values (Data 8):   3: 就業の経験:2、卒業年度:1, 4: 就業の経験:3、卒業年度:1, 6: 就業の経験:2、卒業年度:2, 7: 就業の経験:3、卒業年度:2, 9: 就業の経験:1、卒業年度:1, 10: 就業の経験:1、卒業年度:2
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v42_NEWVARIABLE = .
-local var_lab: variable label var42
-local val_lab: value label var42
-capture replace v42_NEWVARIABLE = var42  if `data'==1
-capture replace v42_NEWVARIABLE = var42  if `data'==2
-capture replace v42_NEWVARIABLE = var42  if `data'==3
-capture replace v42_NEWVARIABLE = var42  if `data'==4
-capture replace v42_NEWVARIABLE = var42  if `data'==5
-capture replace v42_NEWVARIABLE = var42  if `data'==6
-capture replace v42_NEWVARIABLE = var42  if `data'==7
-capture replace v42_NEWVARIABLE = var42  if `data'==8
-capture label variable v42_NEWVARIABLE `var_lab'
-capture label values v42_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目就業の経験: 分類表14"
-    Description (Data 1):  "個人項目就業の経験: 分類表14"
-    Description (Data 2):  "個人項目就業の経験: 分類表14"
-    Description (Data 3):  "個人項目就業の経験: 分類表14"
-    Description (Data 4):  "個人項目就業の経験: 分類表14"
-    Description (Data 5):  "個人項目就業の経験: 分類表14"
-    Description (Data 6):  "個人項目就業の経験: 分類表14"
-    Description (Data 7):  "個人項目就業の経験: 分類表14"
-    Description (Data 8):  "個人項目就業の経験: 分類表14"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): "個人項目インターネット有: 1"
-    Description (Data 12): "個人項目インターネット有: 1"
-    Description (Data 13): "個人項目インターネット有: 1"
-    Description (Data 14): "個人項目インターネット有: 1"
-    Description (Data 15): "個人項目インターネット有: 1"
-    Description (Data 16): "個人項目インターネット有: 1"
-    Description (Data 17): "個人項目インターネット有: 1"
-    Description (Data 18): "個人項目インターネット有: 1"
-    Description (Data 19): "個人項目インターネット有: 1"
-    Description (Data 20): "個人項目インターネット有: 1"
-    Description (Data 21): "個人項目インターネット有: 1"
-    Description (Data 22): "個人項目インターネット有: 1"
-    Description (Data 23): "個人項目インターネット有: 1"
-    Description (Data 24): "個人項目インターネット有: 1"
-    Description (Data 25): "個人項目インターネット有: 1"
-    Description (Data 26): "個人項目インターネット有: 1"
-
-    Values (Base):     3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
-    Values (Data 1):   3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
-    Values (Data 2):   3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
-    Values (Data 3):   3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
-    Values (Data 4):   3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
-    Values (Data 5):   3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
-    Values (Data 6):   3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
-    Values (Data 7):   3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
-    Values (Data 8):   3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11):  1: 求人企業が直接運営するサイト
-    Values (Data 12):  1: 求人企業が直接運営するサイト
-    Values (Data 13):  1: 求人企業が直接運営するサイト
-    Values (Data 14):  1: 求人企業が直接運営するサイト
-    Values (Data 15):  1: 求人企業が直接運営するサイト
-    Values (Data 16):  1: 求人企業が直接運営するサイト
-    Values (Data 17):  1: 求人企業が直接運営するサイト
-    Values (Data 18):  1: 求人企業が直接運営するサイト
-    Values (Data 19):  1: 求人企業が直接運営するサイト
-    Values (Data 20):  1: 求人企業が直接運営するサイト
-    Values (Data 21):  1: 求人企業が直接運営するサイト
-    Values (Data 22):  1: 求人企業が直接運営するサイト
-    Values (Data 23):  1: 求人企業が直接運営するサイト
-    Values (Data 24):  1: 求人企業が直接運営するサイト
-    Values (Data 25):  1: 求人企業が直接運営するサイト
-    Values (Data 26):  1: 求人企業が直接運営するサイト
-
-----------------------------------------------------------------------*/
-gen v43_NEWVARIABLE = .
-local var_lab: variable label var43
-local val_lab: value label var43
-capture replace v43_NEWVARIABLE = var43  if `data'==1
-capture replace v43_NEWVARIABLE = var43  if `data'==2
-capture replace v43_NEWVARIABLE = var43  if `data'==3
-capture replace v43_NEWVARIABLE = var43  if `data'==4
-capture replace v43_NEWVARIABLE = var43  if `data'==5
-capture replace v43_NEWVARIABLE = var43  if `data'==6
-capture replace v43_NEWVARIABLE = var43  if `data'==7
-capture replace v43_NEWVARIABLE = var43  if `data'==8
-capture replace v43_NEWVARIABLE = var18  if `data'==11
-capture replace v43_NEWVARIABLE = var18  if `data'==12
-capture replace v43_NEWVARIABLE = var18  if `data'==13
-capture replace v43_NEWVARIABLE = var18  if `data'==14
-capture replace v43_NEWVARIABLE = var18  if `data'==15
-capture replace v43_NEWVARIABLE = var18  if `data'==16
-capture replace v43_NEWVARIABLE = var18  if `data'==17
-capture replace v43_NEWVARIABLE = var18  if `data'==18
-capture replace v43_NEWVARIABLE = var18  if `data'==19
-capture replace v43_NEWVARIABLE = var18  if `data'==20
-capture replace v43_NEWVARIABLE = var18  if `data'==21
-capture replace v43_NEWVARIABLE = var18  if `data'==22
-capture replace v43_NEWVARIABLE = var18  if `data'==23
-capture replace v43_NEWVARIABLE = var18  if `data'==24
-capture replace v43_NEWVARIABLE = var18  if `data'==25
-capture replace v43_NEWVARIABLE = var18  if `data'==26
-capture label variable v43_NEWVARIABLE `var_lab'
-capture label values v43_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目就業の経験: 分類表18-2"
-    Description (Data 1):  "個人項目就業の経験: 分類表18-2"
-    Description (Data 2):  "個人項目就業の経験: 分類表18-2"
-    Description (Data 3):  "個人項目就業の経験: 分類表18-2"
-    Description (Data 4):  "個人項目就業の経験: 分類表18-2"
-    Description (Data 5):  "個人項目就業の経験: 分類表18-2"
-    Description (Data 6):  "個人項目就業の経験: 分類表18-2"
-    Description (Data 7):  "個人項目就業の経験: 分類表18-2"
-    Description (Data 8):  "個人項目就業の経験: 分類表18-2"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
-    Values (Data 1):   2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
-    Values (Data 2):   2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
-    Values (Data 3):   2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
-    Values (Data 4):   2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
-    Values (Data 5):   2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
-    Values (Data 6):   2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
-    Values (Data 7):   2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
-    Values (Data 8):   2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v44_NEWVARIABLE = .
-local var_lab: variable label var44
-local val_lab: value label var44
-capture replace v44_NEWVARIABLE = var44  if `data'==1
-capture replace v44_NEWVARIABLE = var44  if `data'==2
-capture replace v44_NEWVARIABLE = var44  if `data'==3
-capture replace v44_NEWVARIABLE = var44  if `data'==4
-capture replace v44_NEWVARIABLE = var44  if `data'==5
-capture replace v44_NEWVARIABLE = var44  if `data'==6
-capture replace v44_NEWVARIABLE = var44  if `data'==7
-capture replace v44_NEWVARIABLE = var44  if `data'==8
-capture label variable v44_NEWVARIABLE `var_lab'
-capture label values v44_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目入職前の住所: 地域9-5"
-    Description (Data 1):  "個人項目入職前の住所: 地域9-5"
-    Description (Data 2):  "個人項目入職前の住所: 地域9-5"
-    Description (Data 3):  "個人項目入職前の住所: 地域9-5"
-    Description (Data 4):  "個人項目入職前の住所: 地域9-5"
-    Description (Data 5):  "個人項目入職前の住所: 地域9-5"
-    Description (Data 6):  "個人項目入職前の住所: 地域9-5"
-    Description (Data 7):  "個人項目入職前の住所: 地域9-5"
-    Description (Data 8):  "個人項目入職前の住所: 地域9-5"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): "個人項目インターネット有: 5"
-    Description (Data 12): "個人項目インターネット有: 5"
-    Description (Data 13): "個人項目インターネット有: 5"
-    Description (Data 14): "個人項目インターネット有: 5"
-    Description (Data 15): "個人項目インターネット有: 5"
-    Description (Data 16): "個人項目インターネット有: 5"
-    Description (Data 17): "個人項目インターネット有: 5"
-    Description (Data 18): "個人項目インターネット有: 5"
-    Description (Data 19): "個人項目インターネット有: 5"
-    Description (Data 20): "個人項目インターネット有: 5"
-    Description (Data 21): "個人項目インターネット有: 5"
-    Description (Data 22): "個人項目インターネット有: 5"
-    Description (Data 23): "個人項目インターネット有: 5"
-    Description (Data 24): "個人項目インターネット有: 5"
-    Description (Data 25): "個人項目インターネット有: 5"
-    Description (Data 26): "個人項目インターネット有: 5"
+    Description (Base):    "個人項目入職前居住所: 地域区分"
+    Description (Data 1):  "個人項目入職前居住所: 地域区分"
+    Description (Data 2):  "個人項目入職前居住所: 地域区分"
+    Description (Data 3):  "個人項目前内容: チェック済"
+    Description (Data 4):  "個人項目前内容: チェック済"
+    Description (Data 5):  "個人項目前内容: チェック済"
+    Description (Data 6):  "個人項目前内容: チェック済"
+    Description (Data 7):  "個人項目入職前の住所: 地区"
+    Description (Data 8):  "個人項目入職前の住所: 地区"
+    Description (Data 9):  "個人項目入職前の住所: 地域"
+    Description (Data 10): "個人項目入職前の住所: 地域"
+    Description (Data 11): "個人項目入職前の住所: 地域"
+    Description (Data 12): "個人項目入職前の住所: 地域"
+    Description (Data 13): "個人項目入職前の住所: 地域"
+    Description (Data 14): "個人項目入職前の住所: 地域"
+    Description (Data 15): "個人項目入職前の住所: 地域9-5"
+    Description (Data 16): "個人項目入職前の住所: 地域9-5"
+    Description (Data 17): "個人項目入職前の住所: 地域9-5"
+    Description (Data 18): "個人項目入職前の住所: 地域9-5"
+    Description (Data 19): "個人項目入職前の住所: 地域9-5"
+    Description (Data 20): "個人項目入職前の住所: 地域9-5"
+    Description (Data 21): "個人項目入職前の住所: 地域9-5"
+    Description (Data 22): "個人項目入職前の住所: 地域9-5"
+    Description (Data 23): "個人項目入職前の住所: 地域9-5"
+    Description (Data 24): "個人項目入職前の住所: 地域9-5"
+    Description (Data 25): "個人項目入職前の住所: 地域9-5"
+    Description (Data 26): "個人項目入職前の住所: 地域9-5"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
     Values (Data 7):  
     Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11):  5: その他のサイト
-    Values (Data 12):  5: その他のサイト
-    Values (Data 13):  5: その他のサイト
-    Values (Data 14):  5: その他のサイト
-    Values (Data 15):  5: その他のサイト
-    Values (Data 16):  5: その他のサイト
-    Values (Data 17):  5: その他のサイト
-    Values (Data 18):  5: その他のサイト
-    Values (Data 19):  5: その他のサイト
-    Values (Data 20):  5: その他のサイト
-    Values (Data 21):  5: その他のサイト
-    Values (Data 22):  5: その他のサイト
-    Values (Data 23):  5: その他のサイト
-    Values (Data 24):  5: その他のサイト
-    Values (Data 25):  5: その他のサイト
-    Values (Data 26):  5: その他のサイト
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v45_NEWVARIABLE = .
-local var_lab: variable label var45
-local val_lab: value label var45
-capture replace v45_NEWVARIABLE = var45  if `data'==1
-capture replace v45_NEWVARIABLE = var45  if `data'==2
-capture replace v45_NEWVARIABLE = var45  if `data'==3
-capture replace v45_NEWVARIABLE = var45  if `data'==4
-capture replace v45_NEWVARIABLE = var45  if `data'==5
-capture replace v45_NEWVARIABLE = var45  if `data'==6
-capture replace v45_NEWVARIABLE = var45  if `data'==7
-capture replace v45_NEWVARIABLE = var45  if `data'==8
-capture replace v45_NEWVARIABLE = var22  if `data'==11
-capture replace v45_NEWVARIABLE = var22  if `data'==12
-capture replace v45_NEWVARIABLE = var22  if `data'==13
-capture replace v45_NEWVARIABLE = var22  if `data'==14
-capture replace v45_NEWVARIABLE = var22  if `data'==15
-capture replace v45_NEWVARIABLE = var22  if `data'==16
-capture replace v45_NEWVARIABLE = var22  if `data'==17
-capture replace v45_NEWVARIABLE = var22  if `data'==18
-capture replace v45_NEWVARIABLE = var22  if `data'==19
-capture replace v45_NEWVARIABLE = var22  if `data'==20
-capture replace v45_NEWVARIABLE = var22  if `data'==21
-capture replace v45_NEWVARIABLE = var22  if `data'==22
-capture replace v45_NEWVARIABLE = var22  if `data'==23
-capture replace v45_NEWVARIABLE = var22  if `data'==24
-capture replace v45_NEWVARIABLE = var22  if `data'==25
-capture replace v45_NEWVARIABLE = var22  if `data'==26
-capture label variable v45_NEWVARIABLE `var_lab'
-capture label values v45_NEWVARIABLE `val_lab'
+gen v33_NEWVARIABLE = .
+local var_lab: variable label var33
+local val_lab: value label var33
+capture replace v33_NEWVARIABLE = var33  if `data'==1
+capture replace v33_NEWVARIABLE = var33  if `data'==2
+capture replace v33_NEWVARIABLE = var40  if `data'==3
+capture replace v33_NEWVARIABLE = var40  if `data'==4
+capture replace v33_NEWVARIABLE = var40  if `data'==5
+capture replace v33_NEWVARIABLE = var40  if `data'==6
+capture replace v33_NEWVARIABLE = var35  if `data'==7
+capture replace v33_NEWVARIABLE = var35  if `data'==8
+capture replace v33_NEWVARIABLE = var36  if `data'==9
+capture replace v33_NEWVARIABLE = var36  if `data'==10
+capture replace v33_NEWVARIABLE = var36  if `data'==11
+capture replace v33_NEWVARIABLE = var36  if `data'==12
+capture replace v33_NEWVARIABLE = var36  if `data'==13
+capture replace v33_NEWVARIABLE = var36  if `data'==14
+capture replace v33_NEWVARIABLE = var36  if `data'==15
+capture replace v33_NEWVARIABLE = var36  if `data'==16
+capture replace v33_NEWVARIABLE = var36  if `data'==17
+capture replace v33_NEWVARIABLE = var36  if `data'==18
+capture replace v33_NEWVARIABLE = var45  if `data'==19
+capture replace v33_NEWVARIABLE = var45  if `data'==20
+capture replace v33_NEWVARIABLE = var45  if `data'==21
+capture replace v33_NEWVARIABLE = var45  if `data'==22
+capture replace v33_NEWVARIABLE = var45  if `data'==23
+capture replace v33_NEWVARIABLE = var45  if `data'==24
+capture replace v33_NEWVARIABLE = var45  if `data'==25
+capture replace v33_NEWVARIABLE = var45  if `data'==26
+capture label variable v33_NEWVARIABLE `var_lab'
+capture label values v33_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目入職前の住所: 地域9-3"
-    Description (Data 1):  "個人項目入職前の住所: 地域9-3"
-    Description (Data 2):  "個人項目入職前の住所: 地域9-3"
-    Description (Data 3):  "個人項目入職前の住所: 地域9-3"
-    Description (Data 4):  "個人項目入職前の住所: 地域9-3"
-    Description (Data 5):  "個人項目入職前の住所: 地域9-3"
-    Description (Data 6):  "個人項目入職前の住所: 地域9-3"
-    Description (Data 7):  "個人項目入職前の住所: 地域9-3"
-    Description (Data 8):  "個人項目入職前の住所: 地域9-3"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): "個人項目インターネット有: 3"
-    Description (Data 12): "個人項目インターネット有: 3"
-    Description (Data 13): "個人項目インターネット有: 3"
-    Description (Data 14): "個人項目インターネット有: 3"
-    Description (Data 15): "個人項目インターネット有: 3"
-    Description (Data 16): "個人項目インターネット有: 3"
-    Description (Data 17): "個人項目インターネット有: 3"
-    Description (Data 18): "個人項目インターネット有: 3"
-    Description (Data 19): "個人項目インターネット有: 3"
-    Description (Data 20): "個人項目インターネット有: 3"
-    Description (Data 21): "個人項目インターネット有: 3"
-    Description (Data 22): "個人項目インターネット有: 3"
-    Description (Data 23): "個人項目インターネット有: 3"
-    Description (Data 24): "個人項目インターネット有: 3"
-    Description (Data 25): "個人項目インターネット有: 3"
-    Description (Data 26): "個人項目インターネット有: 3"
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11):  3: しごと情報ネット
-    Values (Data 12):  3: しごと情報ネット
-    Values (Data 13):  3: しごと情報ネット
-    Values (Data 14):  3: しごと情報ネット
-    Values (Data 15):  3: しごと情報ネット
-    Values (Data 16):  3: しごと情報ネット
-    Values (Data 17):  3: しごと情報ネット
-    Values (Data 18):  3: しごと情報ネット
-    Values (Data 19):  3: しごと情報ネット
-    Values (Data 20):  3: しごと情報ネット
-    Values (Data 21):  3: しごと情報ネット
-    Values (Data 22):  3: しごと情報ネット
-    Values (Data 23):  3: しごと情報ネット
-    Values (Data 24):  3: しごと情報ネット
-    Values (Data 25):  3: しごと情報ネット
-    Values (Data 26):  3: しごと情報ネット
-
-----------------------------------------------------------------------*/
-gen v46_NEWVARIABLE = .
-local var_lab: variable label var46
-local val_lab: value label var46
-capture replace v46_NEWVARIABLE = var46  if `data'==1
-capture replace v46_NEWVARIABLE = var46  if `data'==2
-capture replace v46_NEWVARIABLE = var46  if `data'==3
-capture replace v46_NEWVARIABLE = var46  if `data'==4
-capture replace v46_NEWVARIABLE = var46  if `data'==5
-capture replace v46_NEWVARIABLE = var46  if `data'==6
-capture replace v46_NEWVARIABLE = var46  if `data'==7
-capture replace v46_NEWVARIABLE = var46  if `data'==8
-capture replace v46_NEWVARIABLE = var20  if `data'==11
-capture replace v46_NEWVARIABLE = var20  if `data'==12
-capture replace v46_NEWVARIABLE = var20  if `data'==13
-capture replace v46_NEWVARIABLE = var20  if `data'==14
-capture replace v46_NEWVARIABLE = var20  if `data'==15
-capture replace v46_NEWVARIABLE = var20  if `data'==16
-capture replace v46_NEWVARIABLE = var20  if `data'==17
-capture replace v46_NEWVARIABLE = var20  if `data'==18
-capture replace v46_NEWVARIABLE = var20  if `data'==19
-capture replace v46_NEWVARIABLE = var20  if `data'==20
-capture replace v46_NEWVARIABLE = var20  if `data'==21
-capture replace v46_NEWVARIABLE = var20  if `data'==22
-capture replace v46_NEWVARIABLE = var20  if `data'==23
-capture replace v46_NEWVARIABLE = var20  if `data'==24
-capture replace v46_NEWVARIABLE = var20  if `data'==25
-capture replace v46_NEWVARIABLE = var20  if `data'==26
-capture label variable v46_NEWVARIABLE `var_lab'
-capture label values v46_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目入職前の住所: 都道府県"
-    Description (Data 1):  "個人項目入職前の住所: 都道府県"
-    Description (Data 2):  "個人項目入職前の住所: 都道府県"
-    Description (Data 3):  "個人項目入職前の住所: 都道府県"
-    Description (Data 4):  "個人項目入職前の住所: 都道府県"
-    Description (Data 5):  "個人項目入職前の住所: 都道府県"
-    Description (Data 6):  "個人項目入職前の住所: 都道府県"
+    Description (Base):    "個人項目入職前居住所: 都道府県番号"
+    Description (Data 1):  "個人項目入職前居住所: 都道府県番号"
+    Description (Data 2):  "個人項目入職前居住所: 都道府県番号"
+    Description (Data 3):  "個人項目前居地: 都道府県"
+    Description (Data 4):  "個人項目前居地: 都道府県"
+    Description (Data 5):  "個人項目前居地: 都道府県"
+    Description (Data 6):  "個人項目前居地: 都道府県"
     Description (Data 7):  "個人項目入職前の住所: 都道府県"
     Description (Data 8):  "個人項目入職前の住所: 都道府県"
-    Description (Data 9):  "入職前の住所の県番号"
-    Description (Data 10): "入職前の住所の県番号"
-    Description (Data 11): "個人項目: 入職前の住所の県番号"
-    Description (Data 12): "個人項目: 入職前の住所の県番号"
-    Description (Data 13): "個人項目: 入職前の住所の県番号"
-    Description (Data 14): "個人項目: 入職前の住所の県番号"
-    Description (Data 15): "個人項目: 入職前の住所の県番号"
-    Description (Data 16): "個人項目: 入職前の住所の県番号"
-    Description (Data 17): "個人項目: 入職前の住所の県番号"
-    Description (Data 18): "個人項目: 入職前の住所の県番号"
-    Description (Data 19): "個人項目: 入職前の住所の県番号"
-    Description (Data 20): "個人項目: 入職前の住所の県番号"
-    Description (Data 21): "個人項目: 入職前の住所の県番号"
-    Description (Data 22): "個人項目: 入職前の住所の県番号"
-    Description (Data 23): "個人項目: 入職前の住所の県番号"
-    Description (Data 24): "個人項目: 入職前の住所の県番号"
-    Description (Data 25): "個人項目: 入職前の住所の県番号"
-    Description (Data 26): "個人項目: 入職前の住所の県番号"
+    Description (Data 9):  "個人項目入職前の住所: 都道府県"
+    Description (Data 10): "個人項目入職前の住所: 都道府県"
+    Description (Data 11): "個人項目入職前の住所: 都道府県"
+    Description (Data 12): "個人項目入職前の住所: 都道府県"
+    Description (Data 13): "個人項目入職前の住所: 都道府県"
+    Description (Data 14): "個人項目入職前の住所: 都道府県"
+    Description (Data 15): "個人項目入職前の住所: 都道府県"
+    Description (Data 16): "個人項目入職前の住所: 都道府県"
+    Description (Data 17): "個人項目入職前の住所: 都道府県"
+    Description (Data 18): "個人項目入職前の住所: 都道府県"
+    Description (Data 19): "個人項目入職前の住所: 都道府県"
+    Description (Data 20): "個人項目入職前の住所: 都道府県"
+    Description (Data 21): "個人項目入職前の住所: 都道府県"
+    Description (Data 22): "個人項目入職前の住所: 都道府県"
+    Description (Data 23): "個人項目入職前の住所: 都道府県"
+    Description (Data 24): "個人項目入職前の住所: 都道府県"
+    Description (Data 25): "個人項目入職前の住所: 都道府県"
+    Description (Data 26): "個人項目入職前の住所: 都道府県"
+    Description (Data 27): "入職前の住所の県番号"
+    Description (Data 28): "入職前の住所の県番号"
+    Description (Data 29): "個人項目: 入職前の住所の県番号"
+    Description (Data 30): "個人項目: 入職前の住所の県番号"
+    Description (Data 31): "個人項目: 入職前の住所の県番号"
+    Description (Data 32): "個人項目: 入職前の住所の県番号"
+    Description (Data 33): "個人項目: 入職前の住所の県番号"
+    Description (Data 34): "個人項目: 入職前の住所の県番号"
+    Description (Data 35): "個人項目: 入職前の住所の県番号"
+    Description (Data 36): "個人項目: 入職前の住所の県番号"
+    Description (Data 37): "個人項目: 入職前の住所の県番号"
+    Description (Data 38): "個人項目: 入職前の住所の県番号"
+    Description (Data 39): "個人項目: 入職前の住所の県番号"
+    Description (Data 40): "個人項目: 入職前の住所の県番号"
+    Description (Data 41): "個人項目: 入職前の住所の県番号"
+    Description (Data 42): "個人項目: 入職前の住所の県番号"
+    Description (Data 43): "個人項目: 入職前の住所の県番号"
+    Description (Data 44): "個人項目: 入職前の住所の県番号"
 
     Values (Base):    
     Values (Data 1):  
@@ -3824,39 +4497,75 @@ capture label values v46_NEWVARIABLE `val_lab'
     Values (Data 24): 
     Values (Data 25): 
     Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
 
 ----------------------------------------------------------------------*/
-gen v47_NEWVARIABLE = .
-local var_lab: variable label var47
-local val_lab: value label var47
-capture replace v47_NEWVARIABLE = var47  if `data'==1
-capture replace v47_NEWVARIABLE = var47  if `data'==2
-capture replace v47_NEWVARIABLE = var47  if `data'==3
-capture replace v47_NEWVARIABLE = var47  if `data'==4
-capture replace v47_NEWVARIABLE = var47  if `data'==5
-capture replace v47_NEWVARIABLE = var47  if `data'==6
-capture replace v47_NEWVARIABLE = var47  if `data'==7
-capture replace v47_NEWVARIABLE = var47  if `data'==8
-capture replace v47_NEWVARIABLE = var28  if `data'==9
-capture replace v47_NEWVARIABLE = var28  if `data'==10
-capture replace v47_NEWVARIABLE = var29  if `data'==11
-capture replace v47_NEWVARIABLE = var29  if `data'==12
-capture replace v47_NEWVARIABLE = var29  if `data'==13
-capture replace v47_NEWVARIABLE = var29  if `data'==14
-capture replace v47_NEWVARIABLE = var29  if `data'==15
-capture replace v47_NEWVARIABLE = var29  if `data'==16
-capture replace v47_NEWVARIABLE = var29  if `data'==17
-capture replace v47_NEWVARIABLE = var29  if `data'==18
-capture replace v47_NEWVARIABLE = var29  if `data'==19
-capture replace v47_NEWVARIABLE = var29  if `data'==20
-capture replace v47_NEWVARIABLE = var29  if `data'==21
-capture replace v47_NEWVARIABLE = var29  if `data'==22
-capture replace v47_NEWVARIABLE = var29  if `data'==23
-capture replace v47_NEWVARIABLE = var29  if `data'==24
-capture replace v47_NEWVARIABLE = var29  if `data'==25
-capture replace v47_NEWVARIABLE = var29  if `data'==26
-capture label variable v47_NEWVARIABLE `var_lab'
-capture label values v47_NEWVARIABLE `val_lab'
+gen v34_NEWVARIABLE = .
+local var_lab: variable label var34
+local val_lab: value label var34
+capture replace v34_NEWVARIABLE = var34  if `data'==1
+capture replace v34_NEWVARIABLE = var34  if `data'==2
+capture replace v34_NEWVARIABLE = var33  if `data'==3
+capture replace v34_NEWVARIABLE = var33  if `data'==4
+capture replace v34_NEWVARIABLE = var33  if `data'==5
+capture replace v34_NEWVARIABLE = var33  if `data'==6
+capture replace v34_NEWVARIABLE = var36  if `data'==7
+capture replace v34_NEWVARIABLE = var36  if `data'==8
+capture replace v34_NEWVARIABLE = var37  if `data'==9
+capture replace v34_NEWVARIABLE = var37  if `data'==10
+capture replace v34_NEWVARIABLE = var37  if `data'==11
+capture replace v34_NEWVARIABLE = var37  if `data'==12
+capture replace v34_NEWVARIABLE = var37  if `data'==13
+capture replace v34_NEWVARIABLE = var37  if `data'==14
+capture replace v34_NEWVARIABLE = var38  if `data'==15
+capture replace v34_NEWVARIABLE = var38  if `data'==16
+capture replace v34_NEWVARIABLE = var38  if `data'==17
+capture replace v34_NEWVARIABLE = var38  if `data'==18
+capture replace v34_NEWVARIABLE = var47  if `data'==19
+capture replace v34_NEWVARIABLE = var47  if `data'==20
+capture replace v34_NEWVARIABLE = var47  if `data'==21
+capture replace v34_NEWVARIABLE = var47  if `data'==22
+capture replace v34_NEWVARIABLE = var47  if `data'==23
+capture replace v34_NEWVARIABLE = var47  if `data'==24
+capture replace v34_NEWVARIABLE = var47  if `data'==25
+capture replace v34_NEWVARIABLE = var47  if `data'==26
+capture replace v34_NEWVARIABLE = var28  if `data'==27
+capture replace v34_NEWVARIABLE = var28  if `data'==28
+capture replace v34_NEWVARIABLE = var29  if `data'==29
+capture replace v34_NEWVARIABLE = var29  if `data'==30
+capture replace v34_NEWVARIABLE = var29  if `data'==31
+capture replace v34_NEWVARIABLE = var29  if `data'==32
+capture replace v34_NEWVARIABLE = var29  if `data'==33
+capture replace v34_NEWVARIABLE = var29  if `data'==34
+capture replace v34_NEWVARIABLE = var29  if `data'==35
+capture replace v34_NEWVARIABLE = var29  if `data'==36
+capture replace v34_NEWVARIABLE = var29  if `data'==37
+capture replace v34_NEWVARIABLE = var29  if `data'==38
+capture replace v34_NEWVARIABLE = var29  if `data'==39
+capture replace v34_NEWVARIABLE = var29  if `data'==40
+capture replace v34_NEWVARIABLE = var29  if `data'==41
+capture replace v34_NEWVARIABLE = var29  if `data'==42
+capture replace v34_NEWVARIABLE = var29  if `data'==43
+capture replace v34_NEWVARIABLE = var29  if `data'==44
+capture label variable v34_NEWVARIABLE `var_lab'
+capture label values v34_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -3869,8 +4578,8 @@ capture label values v47_NEWVARIABLE `val_lab'
     Description (Data 6):  "個人項目: 在籍の有無"
     Description (Data 7):  "個人項目: 在籍の有無"
     Description (Data 8):  "個人項目: 在籍の有無"
-    Description (Data 9):  "在籍の有無"
-    Description (Data 10): "在籍の有無"
+    Description (Data 9):  "個人項目: 在籍の有無"
+    Description (Data 10): "個人項目: 在籍の有無"
     Description (Data 11): "個人項目: 在籍の有無"
     Description (Data 12): "個人項目: 在籍の有無"
     Description (Data 13): "個人項目: 在籍の有無"
@@ -3887,26 +4596,44 @@ capture label values v47_NEWVARIABLE `val_lab'
     Description (Data 24): "個人項目: 在籍の有無"
     Description (Data 25): "個人項目: 在籍の有無"
     Description (Data 26): "個人項目: 在籍の有無"
+    Description (Data 27): "在籍の有無"
+    Description (Data 28): "在籍の有無"
+    Description (Data 29): "個人項目: 在籍の有無"
+    Description (Data 30): "個人項目: 在籍の有無"
+    Description (Data 31): "個人項目: 在籍の有無"
+    Description (Data 32): "個人項目: 在籍の有無"
+    Description (Data 33): "個人項目: 在籍の有無"
+    Description (Data 34): "個人項目: 在籍の有無"
+    Description (Data 35): "個人項目: 在籍の有無"
+    Description (Data 36): "個人項目: 在籍の有無"
+    Description (Data 37): "個人項目: 在籍の有無"
+    Description (Data 38): "個人項目: 在籍の有無"
+    Description (Data 39): "個人項目: 在籍の有無"
+    Description (Data 40): "個人項目: 在籍の有無"
+    Description (Data 41): "個人項目: 在籍の有無"
+    Description (Data 42): "個人項目: 在籍の有無"
+    Description (Data 43): "個人項目: 在籍の有無"
+    Description (Data 44): "個人項目: 在籍の有無"
 
-    Values (Base):     1: 勤めている, 2: 勤めていない
-    Values (Data 1):   1: 勤めている, 2: 勤めていない
-    Values (Data 2):   1: 勤めている, 2: 勤めていない
-    Values (Data 3):   1: 勤めている, 2: 勤めていない
-    Values (Data 4):   1: 勤めている, 2: 勤めていない
-    Values (Data 5):   1: 勤めている, 2: 勤めていない
-    Values (Data 6):   1: 勤めている, 2: 勤めていない
-    Values (Data 7):   1: 勤めている, 2: 勤めていない
-    Values (Data 8):   1: 勤めている, 2: 勤めていない
-    Values (Data 9):   1: 勤めている, 2: 勤めていない
-    Values (Data 10):  1: 勤めている, 2: 勤めていない
-    Values (Data 11):  1: 勤めている, 2: 勤めていない
-    Values (Data 12):  1: 勤めている, 2: 勤めていない
-    Values (Data 13):  1: 勤めている, 2: 勤めていない
-    Values (Data 14):  1: 勤めている, 2: 勤めていない
-    Values (Data 15):  1: 勤めている, 2: 勤めていない
-    Values (Data 16):  1: 勤めている, 2: 勤めていない
-    Values (Data 17):  1: 勤めている, 2: 勤めていない
-    Values (Data 18):  1: 勤めている, 2: 勤めていない
+    Values (Base):     1: いる, 2: いない
+    Values (Data 1):   1: いる, 2: いない
+    Values (Data 2):   1: いる, 2: いない
+    Values (Data 3):   1: , 2: 
+    Values (Data 4):   1: , 2: 
+    Values (Data 5):   1: , 2: 
+    Values (Data 6):   1: , 2: 
+    Values (Data 7):   1: , 2: 
+    Values (Data 8):   1: , 2: 
+    Values (Data 9):   1: , 2: 
+    Values (Data 10):  1: , 2: 
+    Values (Data 11):  1: , 2: 
+    Values (Data 12):  1: , 2: 
+    Values (Data 13):  1: , 2: 
+    Values (Data 14):  1: , 2: 
+    Values (Data 15):  1: , 2: 
+    Values (Data 16):  1: , 2: 
+    Values (Data 17):  1: , 2: 
+    Values (Data 18):  1: , 2: 
     Values (Data 19):  1: 勤めている, 2: 勤めていない
     Values (Data 20):  1: 勤めている, 2: 勤めていない
     Values (Data 21):  1: 勤めている, 2: 勤めていない
@@ -3915,53 +4642,639 @@ capture label values v47_NEWVARIABLE `val_lab'
     Values (Data 24):  1: 勤めている, 2: 勤めていない
     Values (Data 25):  1: 勤めている, 2: 勤めていない
     Values (Data 26):  1: 勤めている, 2: 勤めていない
+    Values (Data 27):  1: 勤めている, 2: 勤めていない
+    Values (Data 28):  1: 勤めている, 2: 勤めていない
+    Values (Data 29):  1: 勤めている, 2: 勤めていない
+    Values (Data 30):  1: 勤めている, 2: 勤めていない
+    Values (Data 31):  1: 勤めている, 2: 勤めていない
+    Values (Data 32):  1: 勤めている, 2: 勤めていない
+    Values (Data 33):  1: 勤めている, 2: 勤めていない
+    Values (Data 34):  1: 勤めている, 2: 勤めていない
+    Values (Data 35):  1: 勤めている, 2: 勤めていない
+    Values (Data 36):  1: 勤めている, 2: 勤めていない
+    Values (Data 37):  1: 勤めている, 2: 勤めていない
+    Values (Data 38):  1: 勤めている, 2: 勤めていない
+    Values (Data 39):  1: 勤めている, 2: 勤めていない
+    Values (Data 40):  1: 勤めている, 2: 勤めていない
+    Values (Data 41):  1: 勤めている, 2: 勤めていない
+    Values (Data 42):  1: 勤めている, 2: 勤めていない
+    Values (Data 43):  1: 勤めている, 2: 勤めていない
+    Values (Data 44):  1: 勤めている, 2: 勤めていない
 
 ----------------------------------------------------------------------*/
-gen v48_NEWVARIABLE = .
-local var_lab: variable label var48
-local val_lab: value label var48
-capture replace v48_NEWVARIABLE = var48  if `data'==1
-capture replace v48_NEWVARIABLE = var48  if `data'==2
-capture replace v48_NEWVARIABLE = var48  if `data'==3
-capture replace v48_NEWVARIABLE = var48  if `data'==4
-capture replace v48_NEWVARIABLE = var48  if `data'==5
-capture replace v48_NEWVARIABLE = var48  if `data'==6
-capture replace v48_NEWVARIABLE = var48  if `data'==7
-capture replace v48_NEWVARIABLE = var48  if `data'==8
-capture replace v48_NEWVARIABLE = var29  if `data'==9
-capture replace v48_NEWVARIABLE = var29  if `data'==10
-capture replace v48_NEWVARIABLE = var30  if `data'==11
-capture replace v48_NEWVARIABLE = var30  if `data'==12
-capture replace v48_NEWVARIABLE = var30  if `data'==13
-capture replace v48_NEWVARIABLE = var30  if `data'==14
-capture replace v48_NEWVARIABLE = var30  if `data'==15
-capture replace v48_NEWVARIABLE = var30  if `data'==16
-capture replace v48_NEWVARIABLE = var30  if `data'==17
-capture replace v48_NEWVARIABLE = var30  if `data'==18
-capture replace v48_NEWVARIABLE = var30  if `data'==19
-capture replace v48_NEWVARIABLE = var30  if `data'==20
-capture replace v48_NEWVARIABLE = var30  if `data'==21
-capture replace v48_NEWVARIABLE = var30  if `data'==22
-capture replace v48_NEWVARIABLE = var30  if `data'==23
-capture replace v48_NEWVARIABLE = var30  if `data'==24
-capture replace v48_NEWVARIABLE = var30  if `data'==25
-capture replace v48_NEWVARIABLE = var30  if `data'==26
-capture label variable v48_NEWVARIABLE `var_lab'
-capture label values v48_NEWVARIABLE `val_lab'
+gen v35_NEWVARIABLE = .
+local var_lab: variable label var35
+local val_lab: value label var35
+capture replace v35_NEWVARIABLE = var35  if `data'==1
+capture replace v35_NEWVARIABLE = var35  if `data'==2
+capture replace v35_NEWVARIABLE = var34  if `data'==3
+capture replace v35_NEWVARIABLE = var34  if `data'==4
+capture replace v35_NEWVARIABLE = var34  if `data'==5
+capture replace v35_NEWVARIABLE = var34  if `data'==6
+capture replace v35_NEWVARIABLE = var37  if `data'==7
+capture replace v35_NEWVARIABLE = var37  if `data'==8
+capture replace v35_NEWVARIABLE = var38  if `data'==9
+capture replace v35_NEWVARIABLE = var38  if `data'==10
+capture replace v35_NEWVARIABLE = var38  if `data'==11
+capture replace v35_NEWVARIABLE = var38  if `data'==12
+capture replace v35_NEWVARIABLE = var38  if `data'==13
+capture replace v35_NEWVARIABLE = var38  if `data'==14
+capture replace v35_NEWVARIABLE = var39  if `data'==15
+capture replace v35_NEWVARIABLE = var39  if `data'==16
+capture replace v35_NEWVARIABLE = var39  if `data'==17
+capture replace v35_NEWVARIABLE = var39  if `data'==18
+capture replace v35_NEWVARIABLE = var48  if `data'==19
+capture replace v35_NEWVARIABLE = var48  if `data'==20
+capture replace v35_NEWVARIABLE = var48  if `data'==21
+capture replace v35_NEWVARIABLE = var48  if `data'==22
+capture replace v35_NEWVARIABLE = var48  if `data'==23
+capture replace v35_NEWVARIABLE = var48  if `data'==24
+capture replace v35_NEWVARIABLE = var48  if `data'==25
+capture replace v35_NEWVARIABLE = var48  if `data'==26
+capture replace v35_NEWVARIABLE = var29  if `data'==27
+capture replace v35_NEWVARIABLE = var29  if `data'==28
+capture replace v35_NEWVARIABLE = var30  if `data'==29
+capture replace v35_NEWVARIABLE = var30  if `data'==30
+capture replace v35_NEWVARIABLE = var30  if `data'==31
+capture replace v35_NEWVARIABLE = var30  if `data'==32
+capture replace v35_NEWVARIABLE = var30  if `data'==33
+capture replace v35_NEWVARIABLE = var30  if `data'==34
+capture replace v35_NEWVARIABLE = var30  if `data'==35
+capture replace v35_NEWVARIABLE = var30  if `data'==36
+capture replace v35_NEWVARIABLE = var30  if `data'==37
+capture replace v35_NEWVARIABLE = var30  if `data'==38
+capture replace v35_NEWVARIABLE = var30  if `data'==39
+capture replace v35_NEWVARIABLE = var30  if `data'==40
+capture replace v35_NEWVARIABLE = var30  if `data'==41
+capture replace v35_NEWVARIABLE = var30  if `data'==42
+capture replace v35_NEWVARIABLE = var30  if `data'==43
+capture replace v35_NEWVARIABLE = var30  if `data'==44
+capture label variable v35_NEWVARIABLE `var_lab'
+capture label values v35_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目: 前職の産業"
-    Description (Data 1):  "個人項目: 前職の産業"
-    Description (Data 2):  "個人項目: 前職の産業"
+    Description (Base):    "個人項目: 就業の動機区分"
+    Description (Data 1):  "個人項目: 就業の動機区分"
+    Description (Data 2):  "個人項目: 就業の動機区分"
+    Description (Data 3):  "個人項目: 就業の動機"
+    Description (Data 4):  "個人項目: 就業の動機"
+    Description (Data 5):  "個人項目: 就業の動機"
+    Description (Data 6):  "個人項目: 就業の動機"
+    Description (Data 7):  "個人項目: 就業の動機"
+    Description (Data 8):  "個人項目: 就業の動機"
+    Description (Data 9):  "個人項目: 就業の動機"
+    Description (Data 10): "個人項目: 就業の動機"
+    Description (Data 11): "個人項目: 就業の動機"
+    Description (Data 12): "個人項目: 就業の動機"
+    Description (Data 13): "個人項目: 就業の動機"
+    Description (Data 14): "個人項目: 就業の動機"
+    Description (Data 15): "個人項目: 就業の動機"
+    Description (Data 16): "個人項目: 就業の動機"
+    Description (Data 17): "個人項目: 就業の動機"
+    Description (Data 18): "個人項目: 就業の動機"
+    Description (Data 19): "個人項目就業の経験: 分類表13"
+    Description (Data 20): "個人項目就業の経験: 分類表13"
+    Description (Data 21): "個人項目就業の経験: 分類表13"
+    Description (Data 22): "個人項目就業の経験: 分類表13"
+    Description (Data 23): "個人項目就業の経験: 分類表13"
+    Description (Data 24): "個人項目就業の経験: 分類表13"
+    Description (Data 25): "個人項目就業の経験: 分類表13"
+    Description (Data 26): "個人項目就業の経験: 分類表13"
+    Description (Data 27): "就業の経験"
+    Description (Data 28): "就業の経験"
+    Description (Data 29): "個人項目: 就業の経験"
+    Description (Data 30): "個人項目: 就業の経験"
+    Description (Data 31): "個人項目: 就業の経験"
+    Description (Data 32): "個人項目: 就業の経験"
+    Description (Data 33): "個人項目: 就業の経験"
+    Description (Data 34): "個人項目: 就業の経験"
+    Description (Data 35): "個人項目: 就業の経験"
+    Description (Data 36): "個人項目: 就業の経験"
+    Description (Data 37): "個人項目: 就業の経験"
+    Description (Data 38): "個人項目: 就業の経験"
+    Description (Data 39): "個人項目: 就業の経験"
+    Description (Data 40): "個人項目: 就業の経験"
+    Description (Data 41): "個人項目: 就業の経験"
+    Description (Data 42): "個人項目: 就業の経験"
+    Description (Data 43): "個人項目: 就業の経験"
+    Description (Data 44): "個人項目: 就業の経験"
+
+    Values (Base):     1: 主な生活収入, 2: 家計の補助, 3: 生活水準の向上, 4: 余暇の利用, 5: その他の理由
+    Values (Data 1):   1: 主な生活収入, 2: 家計の補助, 3: 生活水準の向上, 4: 余暇の利用, 5: その他の理由
+    Values (Data 2):   1: 主な生活収入, 2: 家計の補助, 3: 生活水準の向上, 4: 余暇の利用, 5: その他の理由
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 20):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 21):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 22):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 23):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 24):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 25):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 26):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 27):  1: ある(入職前1年以内), 2: ある(入職前1年を超え2年未満), 3: ない(入職前2年間)
+    Values (Data 28):  1: ある(入職前1年以内), 2: ある(入職前1年を超え2年未満), 3: ない(入職前2年間)
+    Values (Data 29):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 30):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 31):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 32):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 33):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 34):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 35):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 36):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 37):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 38):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 39):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 40):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 41):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 42):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 43):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+    Values (Data 44):  1: ある(入職前1年以内), 2: ある(入職前1年以上2年未満), 3: ない(入職前2年間)
+
+----------------------------------------------------------------------*/
+gen v36_NEWVARIABLE = .
+local var_lab: variable label var36
+local val_lab: value label var36
+capture replace v36_NEWVARIABLE = var36  if `data'==1
+capture replace v36_NEWVARIABLE = var36  if `data'==2
+capture replace v36_NEWVARIABLE = var35  if `data'==3
+capture replace v36_NEWVARIABLE = var35  if `data'==4
+capture replace v36_NEWVARIABLE = var35  if `data'==5
+capture replace v36_NEWVARIABLE = var35  if `data'==6
+capture replace v36_NEWVARIABLE = var38  if `data'==7
+capture replace v36_NEWVARIABLE = var38  if `data'==8
+capture replace v36_NEWVARIABLE = var39  if `data'==9
+capture replace v36_NEWVARIABLE = var39  if `data'==10
+capture replace v36_NEWVARIABLE = var39  if `data'==11
+capture replace v36_NEWVARIABLE = var39  if `data'==12
+capture replace v36_NEWVARIABLE = var39  if `data'==13
+capture replace v36_NEWVARIABLE = var39  if `data'==14
+capture replace v36_NEWVARIABLE = var40  if `data'==15
+capture replace v36_NEWVARIABLE = var40  if `data'==16
+capture replace v36_NEWVARIABLE = var40  if `data'==17
+capture replace v36_NEWVARIABLE = var40  if `data'==18
+capture replace v36_NEWVARIABLE = var41  if `data'==19
+capture replace v36_NEWVARIABLE = var41  if `data'==20
+capture replace v36_NEWVARIABLE = var41  if `data'==21
+capture replace v36_NEWVARIABLE = var41  if `data'==22
+capture replace v36_NEWVARIABLE = var41  if `data'==23
+capture replace v36_NEWVARIABLE = var41  if `data'==24
+capture replace v36_NEWVARIABLE = var41  if `data'==25
+capture replace v36_NEWVARIABLE = var41  if `data'==26
+capture replace v36_NEWVARIABLE = var27  if `data'==27
+capture replace v36_NEWVARIABLE = var27  if `data'==28
+capture replace v36_NEWVARIABLE = var28  if `data'==29
+capture replace v36_NEWVARIABLE = var28  if `data'==30
+capture replace v36_NEWVARIABLE = var28  if `data'==31
+capture replace v36_NEWVARIABLE = var28  if `data'==32
+capture replace v36_NEWVARIABLE = var28  if `data'==33
+capture replace v36_NEWVARIABLE = var28  if `data'==34
+capture replace v36_NEWVARIABLE = var28  if `data'==35
+capture replace v36_NEWVARIABLE = var28  if `data'==36
+capture replace v36_NEWVARIABLE = var28  if `data'==37
+capture replace v36_NEWVARIABLE = var28  if `data'==38
+capture replace v36_NEWVARIABLE = var28  if `data'==39
+capture replace v36_NEWVARIABLE = var28  if `data'==40
+capture replace v36_NEWVARIABLE = var28  if `data'==41
+capture replace v36_NEWVARIABLE = var28  if `data'==42
+capture replace v36_NEWVARIABLE = var28  if `data'==43
+capture replace v36_NEWVARIABLE = var28  if `data'==44
+capture label variable v36_NEWVARIABLE `var_lab'
+capture label values v36_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目職歴区分: 調査票コード"
+    Description (Data 1):  "個人項目職歴区分: 調査票コード"
+    Description (Data 2):  "個人項目職歴区分: 調査票コード"
+    Description (Data 3):  "個人項目年齢: 分類表21-2"
+    Description (Data 4):  "個人項目年齢: 分類表21-2"
+    Description (Data 5):  "個人項目年齢: 分類表21-2"
+    Description (Data 6):  "個人項目年齢: 分類表21-2"
+    Description (Data 7):  "個人項目前職の仕事の内容: チェック済"
+    Description (Data 8):  "個人項目前職の仕事の内容: チェック済"
+    Description (Data 9):  "個人項目前職の仕事の内容: チェック済"
+    Description (Data 10): "個人項目前職の仕事の内容: チェック済"
+    Description (Data 11): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 12): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 13): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 14): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 15): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 16): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 17): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 18): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: ある, 2: ない
+    Values (Data 1):   1: ある, 2: ない
+    Values (Data 2):   1: ある, 2: ない
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 11: , 12: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 11: , 12: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 11: , 12: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 11: , 12: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 11):  1: 選んだ理由チェック済:09, 2: 選んだ理由チェック済:10, 3: 選んだ理由チェック済:11, 4: 選んだ理由チェック済:12, 5: 選んだ理由チェック済:13, 6: 選んだ理由チェック済:14, 7: 選んだ理由チェック済:15
+    Values (Data 12):  1: 選んだ理由チェック済:09, 2: 選んだ理由チェック済:10, 3: 選んだ理由チェック済:11, 4: 選んだ理由チェック済:12, 5: 選んだ理由チェック済:13, 6: 選んだ理由チェック済:14, 7: 選んだ理由チェック済:15
+    Values (Data 13):  1: 選んだ理由チェック済:09, 2: 選んだ理由チェック済:10, 3: 選んだ理由チェック済:11, 4: 選んだ理由チェック済:12, 5: 選んだ理由チェック済:13, 6: 選んだ理由チェック済:14, 7: 選んだ理由チェック済:15
+    Values (Data 14):  1: 選んだ理由チェック済:09, 2: 選んだ理由チェック済:10, 3: 選んだ理由チェック済:11, 4: 選んだ理由チェック済:12, 5: 選んだ理由チェック済:13, 6: 選んだ理由チェック済:14, 7: 選んだ理由チェック済:15
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v37_NEWVARIABLE = .
+local var_lab: variable label var37
+local val_lab: value label var37
+capture replace v37_NEWVARIABLE = var37  if `data'==1
+capture replace v37_NEWVARIABLE = var37  if `data'==2
+capture replace v37_NEWVARIABLE = var20  if `data'==3
+capture replace v37_NEWVARIABLE = var20  if `data'==4
+capture replace v37_NEWVARIABLE = var20  if `data'==5
+capture replace v37_NEWVARIABLE = var20  if `data'==6
+capture replace v37_NEWVARIABLE = var40  if `data'==7
+capture replace v37_NEWVARIABLE = var40  if `data'==8
+capture replace v37_NEWVARIABLE = var41  if `data'==9
+capture replace v37_NEWVARIABLE = var41  if `data'==10
+capture replace v37_NEWVARIABLE = var54  if `data'==11
+capture replace v37_NEWVARIABLE = var54  if `data'==12
+capture replace v37_NEWVARIABLE = var54  if `data'==13
+capture replace v37_NEWVARIABLE = var54  if `data'==14
+capture replace v37_NEWVARIABLE = var52  if `data'==15
+capture replace v37_NEWVARIABLE = var52  if `data'==16
+capture replace v37_NEWVARIABLE = var52  if `data'==17
+capture replace v37_NEWVARIABLE = var52  if `data'==18
+capture label variable v37_NEWVARIABLE `var_lab'
+capture label values v37_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目職歴区分: 分類表13"
+    Description (Data 1):  "個人項目職歴区分: 分類表13"
+    Description (Data 2):  "個人項目職歴区分: 分類表13"
+    Description (Data 3):  "個人項目職歴: 分類表13"
+    Description (Data 4):  "個人項目職歴: 分類表13"
+    Description (Data 5):  "個人項目職歴: 分類表13"
+    Description (Data 6):  "個人項目職歴: 分類表13"
+    Description (Data 7):  "個人項目学歴: 分類表19"
+    Description (Data 8):  "個人項目学歴: 分類表19"
+    Description (Data 9):  "個人項目学歴: 分類表19"
+    Description (Data 10): "個人項目学歴: 分類表19"
+    Description (Data 11): "個人項目学歴: 分類表19"
+    Description (Data 12): "個人項目学歴: 分類表19"
+    Description (Data 13): "個人項目学歴: 分類表19"
+    Description (Data 14): "個人項目学歴: 分類表19"
+    Description (Data 15): "個人項目学歴: 分類表19"
+    Description (Data 16): "個人項目学歴: 分類表19"
+    Description (Data 17): "個人項目学歴: 分類表19"
+    Description (Data 18): "個人項目学歴: 分類表19"
+    Description (Data 19): "個人項目学歴: 分類表19"
+    Description (Data 20): "個人項目学歴: 分類表19"
+    Description (Data 21): "個人項目学歴: 分類表19"
+    Description (Data 22): "個人項目学歴: 分類表19"
+    Description (Data 23): "個人項目学歴: 分類表19"
+    Description (Data 24): "個人項目学歴: 分類表19"
+    Description (Data 25): "個人項目学歴: 分類表19"
+    Description (Data 26): "個人項目学歴: 分類表19"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "個人項目インターネット有: 3"
+    Description (Data 30): "個人項目インターネット有: 3"
+    Description (Data 31): "個人項目インターネット有: 3"
+    Description (Data 32): "個人項目インターネット有: 3"
+    Description (Data 33): "個人項目インターネット有: 3"
+    Description (Data 34): "個人項目インターネット有: 3"
+    Description (Data 35): "個人項目インターネット有: 3"
+    Description (Data 36): "個人項目インターネット有: 3"
+    Description (Data 37): "個人項目インターネット有: 3"
+    Description (Data 38): "個人項目インターネット有: 3"
+    Description (Data 39): "個人項目インターネット有: 3"
+    Description (Data 40): "個人項目インターネット有: 3"
+    Description (Data 41): "個人項目インターネット有: 3"
+    Description (Data 42): "個人項目インターネット有: 3"
+    Description (Data 43): "個人項目インターネット有: 3"
+    Description (Data 44): "個人項目インターネット有: 3"
+
+    Values (Base):     2: 未就業者(学卒者), 3: 未就職業者(一般), 4: 既就業者, 2: 未就業者(学卒者), 3: 未就職業者(一般), 4: 未就職業者(一般:うち専修学校卒), 5: 既就業者
+    Values (Data 1):   2: 未就業者(学卒者), 3: 未就職業者(一般), 4: 既就業者, 2: 未就業者(学卒者), 3: 未就職業者(一般), 4: 未就職業者(一般:うち専修学校卒), 5: 既就業者
+    Values (Data 2):   2: 未就業者(学卒者), 3: 未就職業者(一般), 4: 既就業者, 2: 未就業者(学卒者), 3: 未就職業者(一般), 4: 未就職業者(一般:うち専修学校卒), 5: 既就業者
+    Values (Data 3):   2: , 3: , 4: 
+    Values (Data 4):   2: , 3: , 4: 
+    Values (Data 5):   2: , 3: , 4: 
+    Values (Data 6):   2: , 3: , 4: 
+    Values (Data 7):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 8):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 9):   1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 10):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 11):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 12):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 13):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 14):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 15):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 16):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 17):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 18):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 19):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 20):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 21):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 22):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 23):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 24):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 25):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 26):  1: 学歴チェック済:1, 2: 学歴チェック済:2, 3: 学歴チェック済:3, 4: 学歴チェック済:4, 5: 学歴チェック済:5,6
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29):  3: しごと情報ネット
+    Values (Data 30):  3: しごと情報ネット
+    Values (Data 31):  3: しごと情報ネット
+    Values (Data 32):  3: しごと情報ネット
+    Values (Data 33):  3: しごと情報ネット
+    Values (Data 34):  3: しごと情報ネット
+    Values (Data 35):  3: しごと情報ネット
+    Values (Data 36):  3: しごと情報ネット
+    Values (Data 37):  3: しごと情報ネット
+    Values (Data 38):  3: しごと情報ネット
+    Values (Data 39):  3: しごと情報ネット
+    Values (Data 40):  3: しごと情報ネット
+    Values (Data 41):  3: しごと情報ネット
+    Values (Data 42):  3: しごと情報ネット
+    Values (Data 43):  3: しごと情報ネット
+    Values (Data 44):  3: しごと情報ネット
+
+----------------------------------------------------------------------*/
+gen v38_NEWVARIABLE = .
+local var_lab: variable label var38
+local val_lab: value label var38
+capture replace v38_NEWVARIABLE = var38  if `data'==1
+capture replace v38_NEWVARIABLE = var38  if `data'==2
+capture replace v38_NEWVARIABLE = var37  if `data'==3
+capture replace v38_NEWVARIABLE = var37  if `data'==4
+capture replace v38_NEWVARIABLE = var37  if `data'==5
+capture replace v38_NEWVARIABLE = var37  if `data'==6
+capture replace v38_NEWVARIABLE = var24  if `data'==7
+capture replace v38_NEWVARIABLE = var24  if `data'==8
+capture replace v38_NEWVARIABLE = var24  if `data'==9
+capture replace v38_NEWVARIABLE = var24  if `data'==10
+capture replace v38_NEWVARIABLE = var24  if `data'==11
+capture replace v38_NEWVARIABLE = var24  if `data'==12
+capture replace v38_NEWVARIABLE = var24  if `data'==13
+capture replace v38_NEWVARIABLE = var24  if `data'==14
+capture replace v38_NEWVARIABLE = var23  if `data'==15
+capture replace v38_NEWVARIABLE = var23  if `data'==16
+capture replace v38_NEWVARIABLE = var23  if `data'==17
+capture replace v38_NEWVARIABLE = var23  if `data'==18
+capture replace v38_NEWVARIABLE = var32  if `data'==19
+capture replace v38_NEWVARIABLE = var32  if `data'==20
+capture replace v38_NEWVARIABLE = var32  if `data'==21
+capture replace v38_NEWVARIABLE = var32  if `data'==22
+capture replace v38_NEWVARIABLE = var32  if `data'==23
+capture replace v38_NEWVARIABLE = var32  if `data'==24
+capture replace v38_NEWVARIABLE = var32  if `data'==25
+capture replace v38_NEWVARIABLE = var32  if `data'==26
+capture replace v38_NEWVARIABLE = var20  if `data'==29
+capture replace v38_NEWVARIABLE = var20  if `data'==30
+capture replace v38_NEWVARIABLE = var20  if `data'==31
+capture replace v38_NEWVARIABLE = var20  if `data'==32
+capture replace v38_NEWVARIABLE = var20  if `data'==33
+capture replace v38_NEWVARIABLE = var20  if `data'==34
+capture replace v38_NEWVARIABLE = var20  if `data'==35
+capture replace v38_NEWVARIABLE = var20  if `data'==36
+capture replace v38_NEWVARIABLE = var20  if `data'==37
+capture replace v38_NEWVARIABLE = var20  if `data'==38
+capture replace v38_NEWVARIABLE = var20  if `data'==39
+capture replace v38_NEWVARIABLE = var20  if `data'==40
+capture replace v38_NEWVARIABLE = var20  if `data'==41
+capture replace v38_NEWVARIABLE = var20  if `data'==42
+capture replace v38_NEWVARIABLE = var20  if `data'==43
+capture replace v38_NEWVARIABLE = var20  if `data'==44
+capture label variable v38_NEWVARIABLE `var_lab'
+capture label values v38_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目職歴区分: 分類表15コード"
+    Description (Data 1):  "個人項目職歴区分: 分類表15コード"
+    Description (Data 2):  "個人項目職歴区分: 分類表15コード"
+    Description (Data 3):  "個人項目職歴: 分類表15"
+    Description (Data 4):  "個人項目職歴: 分類表15"
+    Description (Data 5):  "個人項目職歴: 分類表15"
+    Description (Data 6):  "個人項目職歴: 分類表15"
+    Description (Data 7):  "個人項目就業の経験: 分類表15"
+    Description (Data 8):  "個人項目就業の経験: 分類表15"
+    Description (Data 9):  "個人項目就業の経験: 分類表15"
+    Description (Data 10): "個人項目就業の経験: 分類表15"
+    Description (Data 11): "個人項目就業の経験: 分類表15"
+    Description (Data 12): "個人項目就業の経験: 分類表15"
+    Description (Data 13): "個人項目就業の経験: 分類表15"
+    Description (Data 14): "個人項目就業の経験: 分類表15"
+    Description (Data 15): "個人項目就業の経験: 分類表13"
+    Description (Data 16): "個人項目就業の経験: 分類表13"
+    Description (Data 17): "個人項目就業の経験: 分類表13"
+    Description (Data 18): "個人項目就業の経験: 分類表13"
+    Description (Data 19): "個人項目就業の経験: 分類表14"
+    Description (Data 20): "個人項目就業の経験: 分類表14"
+    Description (Data 21): "個人項目就業の経験: 分類表14"
+    Description (Data 22): "個人項目就業の経験: 分類表14"
+    Description (Data 23): "個人項目就業の経験: 分類表14"
+    Description (Data 24): "個人項目就業の経験: 分類表14"
+    Description (Data 25): "個人項目就業の経験: 分類表14"
+    Description (Data 26): "個人項目就業の経験: 分類表14"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "個人項目インターネット有: 5"
+    Description (Data 30): "個人項目インターネット有: 5"
+    Description (Data 31): "個人項目インターネット有: 5"
+    Description (Data 32): "個人項目インターネット有: 5"
+    Description (Data 33): "個人項目インターネット有: 5"
+    Description (Data 34): "個人項目インターネット有: 5"
+    Description (Data 35): "個人項目インターネット有: 5"
+    Description (Data 36): "個人項目インターネット有: 5"
+    Description (Data 37): "個人項目インターネット有: 5"
+    Description (Data 38): "個人項目インターネット有: 5"
+    Description (Data 39): "個人項目インターネット有: 5"
+    Description (Data 40): "個人項目インターネット有: 5"
+    Description (Data 41): "個人項目インターネット有: 5"
+    Description (Data 42): "個人項目インターネット有: 5"
+    Description (Data 43): "個人項目インターネット有: 5"
+    Description (Data 44): "個人項目インターネット有: 5"
+
+    Values (Base):     2: 未就業者(学卒者), 3: 未就職業者(一般), 4: 未就職業者(一般:うち専修学校卒), 5: 既就業者
+    Values (Data 1):   2: 未就業者(学卒者), 3: 未就職業者(一般), 4: 未就職業者(一般:うち専修学校卒), 5: 既就業者
+    Values (Data 2):   2: 未就業者(学卒者), 3: 未就職業者(一般), 4: 未就職業者(一般:うち専修学校卒), 5: 既就業者
+    Values (Data 3):   2: , 3: , 5: , 6: 
+    Values (Data 4):   2: , 3: , 5: , 6: 
+    Values (Data 5):   2: , 3: , 5: , 6: 
+    Values (Data 6):   2: , 3: , 5: , 6: 
+    Values (Data 7):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 5: 就業の経験:1、卒業年度:1, 6: 就業の経験:1、卒業年度:2
+    Values (Data 8):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 5: 就業の経験:1、卒業年度:1, 6: 就業の経験:1、卒業年度:2
+    Values (Data 9):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 5: 就業の経験:1、卒業年度:1, 6: 就業の経験:1、卒業年度:2
+    Values (Data 10):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 5: 就業の経験:1、卒業年度:1, 6: 就業の経験:1、卒業年度:2
+    Values (Data 11):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 5: 就業の経験:1、卒業年度:1, 6: 就業の経験:1、卒業年度:2
+    Values (Data 12):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 5: 就業の経験:1、卒業年度:1, 6: 就業の経験:1、卒業年度:2
+    Values (Data 13):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 5: 就業の経験:1、卒業年度:1, 6: 就業の経験:1、卒業年度:2
+    Values (Data 14):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 5: 就業の経験:1、卒業年度:1, 6: 就業の経験:1、卒業年度:2
+    Values (Data 15):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 16):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 17):  2: 就業の経験:2、卒業年度:1,就業の経験:2, 3: 就業の経験:3、卒業年度:1,就業の経験:3, 4: 就業の経験:2、卒業年度:2,就業の経験:2
+    Values (Data 18):  2: 就業の経験:2、卒業年度:1,就業の経験:2, 3: 就業の経験:3、卒業年度:1,就業の経験:3, 4: 就業の経験:2、卒業年度:2,就業の経験:2
+    Values (Data 19):  3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 20):  3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 21):  3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 22):  3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 23):  3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 24):  3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 25):  3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 26):  3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29):  5: その他のサイト
+    Values (Data 30):  5: その他のサイト
+    Values (Data 31):  5: その他のサイト
+    Values (Data 32):  5: その他のサイト
+    Values (Data 33):  5: その他のサイト
+    Values (Data 34):  5: その他のサイト
+    Values (Data 35):  5: その他のサイト
+    Values (Data 36):  5: その他のサイト
+    Values (Data 37):  5: その他のサイト
+    Values (Data 38):  5: その他のサイト
+    Values (Data 39):  5: その他のサイト
+    Values (Data 40):  5: その他のサイト
+    Values (Data 41):  5: その他のサイト
+    Values (Data 42):  5: その他のサイト
+    Values (Data 43):  5: その他のサイト
+    Values (Data 44):  5: その他のサイト
+
+----------------------------------------------------------------------*/
+gen v39_NEWVARIABLE = .
+local var_lab: variable label var39
+local val_lab: value label var39
+capture replace v39_NEWVARIABLE = var39  if `data'==1
+capture replace v39_NEWVARIABLE = var39  if `data'==2
+capture replace v39_NEWVARIABLE = var38  if `data'==3
+capture replace v39_NEWVARIABLE = var38  if `data'==4
+capture replace v39_NEWVARIABLE = var38  if `data'==5
+capture replace v39_NEWVARIABLE = var38  if `data'==6
+capture replace v39_NEWVARIABLE = var34  if `data'==7
+capture replace v39_NEWVARIABLE = var34  if `data'==8
+capture replace v39_NEWVARIABLE = var35  if `data'==9
+capture replace v39_NEWVARIABLE = var35  if `data'==10
+capture replace v39_NEWVARIABLE = var35  if `data'==11
+capture replace v39_NEWVARIABLE = var35  if `data'==12
+capture replace v39_NEWVARIABLE = var35  if `data'==13
+capture replace v39_NEWVARIABLE = var35  if `data'==14
+capture replace v39_NEWVARIABLE = var32  if `data'==15
+capture replace v39_NEWVARIABLE = var32  if `data'==16
+capture replace v39_NEWVARIABLE = var32  if `data'==17
+capture replace v39_NEWVARIABLE = var32  if `data'==18
+capture replace v39_NEWVARIABLE = var43  if `data'==19
+capture replace v39_NEWVARIABLE = var43  if `data'==20
+capture replace v39_NEWVARIABLE = var43  if `data'==21
+capture replace v39_NEWVARIABLE = var43  if `data'==22
+capture replace v39_NEWVARIABLE = var43  if `data'==23
+capture replace v39_NEWVARIABLE = var43  if `data'==24
+capture replace v39_NEWVARIABLE = var43  if `data'==25
+capture replace v39_NEWVARIABLE = var43  if `data'==26
+capture replace v39_NEWVARIABLE = var22  if `data'==29
+capture replace v39_NEWVARIABLE = var22  if `data'==30
+capture replace v39_NEWVARIABLE = var22  if `data'==31
+capture replace v39_NEWVARIABLE = var22  if `data'==32
+capture replace v39_NEWVARIABLE = var22  if `data'==33
+capture replace v39_NEWVARIABLE = var22  if `data'==34
+capture replace v39_NEWVARIABLE = var22  if `data'==35
+capture replace v39_NEWVARIABLE = var22  if `data'==36
+capture replace v39_NEWVARIABLE = var22  if `data'==37
+capture replace v39_NEWVARIABLE = var22  if `data'==38
+capture replace v39_NEWVARIABLE = var22  if `data'==39
+capture replace v39_NEWVARIABLE = var22  if `data'==40
+capture replace v39_NEWVARIABLE = var22  if `data'==41
+capture replace v39_NEWVARIABLE = var22  if `data'==42
+capture replace v39_NEWVARIABLE = var22  if `data'==43
+capture replace v39_NEWVARIABLE = var22  if `data'==44
+capture label variable v39_NEWVARIABLE `var_lab'
+capture label values v39_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目: 前職産業区分"
+    Description (Data 1):  "個人項目: 前職産業区分"
+    Description (Data 2):  "個人項目: 前職産業区分"
     Description (Data 3):  "個人項目: 前職の産業"
     Description (Data 4):  "個人項目: 前職の産業"
     Description (Data 5):  "個人項目: 前職の産業"
     Description (Data 6):  "個人項目: 前職の産業"
     Description (Data 7):  "個人項目: 前職の産業"
     Description (Data 8):  "個人項目: 前職の産業"
-    Description (Data 9):  "前職の産業"
-    Description (Data 10): "前職の産業"
+    Description (Data 9):  "個人項目: 前職の産業"
+    Description (Data 10): "個人項目: 前職の産業"
     Description (Data 11): "個人項目: 前職の産業"
     Description (Data 12): "個人項目: 前職の産業"
     Description (Data 13): "個人項目: 前職の産業"
@@ -3978,646 +5291,135 @@ capture label values v48_NEWVARIABLE `val_lab'
     Description (Data 24): "個人項目: 前職の産業"
     Description (Data 25): "個人項目: 前職の産業"
     Description (Data 26): "個人項目: 前職の産業"
+    Description (Data 27): "前職の産業"
+    Description (Data 28): "前職の産業"
+    Description (Data 29): "個人項目: 前職の産業"
+    Description (Data 30): "個人項目: 前職の産業"
+    Description (Data 31): "個人項目: 前職の産業"
+    Description (Data 32): "個人項目: 前職の産業"
+    Description (Data 33): "個人項目: 前職の産業"
+    Description (Data 34): "個人項目: 前職の産業"
+    Description (Data 35): "個人項目: 前職の産業"
+    Description (Data 36): "個人項目: 前職の産業"
+    Description (Data 37): "個人項目: 前職の産業"
+    Description (Data 38): "個人項目: 前職の産業"
+    Description (Data 39): "個人項目: 前職の産業"
+    Description (Data 40): "個人項目: 前職の産業"
+    Description (Data 41): "個人項目: 前職の産業"
+    Description (Data 42): "個人項目: 前職の産業"
+    Description (Data 43): "個人項目: 前職の産業"
+    Description (Data 44): "個人項目: 前職の産業"
 
-    Values (Base):     1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
-    Values (Data 1):   1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
-    Values (Data 2):   1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
-    Values (Data 3):   1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
-    Values (Data 4):   1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
-    Values (Data 5):   1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
-    Values (Data 6):   1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
-    Values (Data 7):   1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
-    Values (Data 8):   1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
-    Values (Data 9):   1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店,宿泊業, 12: 医療,福祉, 13: 教育,学習支援業, 14: 複合サービ事業, 15: サービス業, 16: その他の産業
-    Values (Data 10):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店,宿泊業, 12: 医療,福祉, 13: 教育,学習支援業, 14: 複合サービ事業, 15: サービス業, 16: その他の産業
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
+    Values (Base):     1: 農林建業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 運輸通信業, 6: 卸売・小売業・飲食店, 7: 金融・保険・不動産業, 8: サービス業, 9: その他の産業
+    Values (Data 1):   1: 農林建業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 運輸通信業, 6: 卸売・小売業・飲食店, 7: 金融・保険・不動産業, 8: サービス業, 9: その他の産業
+    Values (Data 2):   1: 農林建業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 運輸通信業, 6: 卸売・小売業・飲食店, 7: 金融・保険・不動産業, 8: サービス業, 9: その他の産業
+    Values (Data 3):   0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 4):   0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 5):   0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 6):   0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 7):   0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 8):   0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 9):   0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 10):  0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 11):  0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 12):  0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 13):  0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 14):  0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 15):  0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 16):  0: , 1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 19):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
+    Values (Data 20):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
+    Values (Data 21):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
+    Values (Data 22):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
+    Values (Data 23):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
+    Values (Data 24):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
+    Values (Data 25):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
+    Values (Data 26):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店、宿泊業, 12: 医療、福祉, 13: 教育、学習支援業, 14: 複合サービス業, 15: サービス業, 16: その他の産業
+    Values (Data 27):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店,宿泊業, 12: 医療,福祉, 13: 教育,学習支援業, 14: 複合サービ事業, 15: サービス業, 16: その他の産業
+    Values (Data 28):  1: 農林漁業, 2: 鉱業, 3: 建設業, 4: 製造業, 5: 電気・ガス・熱供給・水道業, 6: 情報通信業, 7: 運輸業, 8: 卸売・小売業, 9: 金融・保険業, 10: 不動産業, 11: 飲食店,宿泊業, 12: 医療,福祉, 13: 教育,学習支援業, 14: 複合サービ事業, 15: サービス業, 16: その他の産業
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
 
 ----------------------------------------------------------------------*/
-gen v49_NEWVARIABLE = .
-local var_lab: variable label var49
-local val_lab: value label var49
-capture replace v49_NEWVARIABLE = var49  if `data'==1
-capture replace v49_NEWVARIABLE = var49  if `data'==2
-capture replace v49_NEWVARIABLE = var49  if `data'==3
-capture replace v49_NEWVARIABLE = var49  if `data'==4
-capture replace v49_NEWVARIABLE = var49  if `data'==5
-capture replace v49_NEWVARIABLE = var49  if `data'==6
-capture replace v49_NEWVARIABLE = var49  if `data'==7
-capture replace v49_NEWVARIABLE = var49  if `data'==8
-capture replace v49_NEWVARIABLE = var30  if `data'==9
-capture replace v49_NEWVARIABLE = var30  if `data'==10
-capture replace v49_NEWVARIABLE = var31  if `data'==11
-capture replace v49_NEWVARIABLE = var31  if `data'==12
-capture replace v49_NEWVARIABLE = var31  if `data'==13
-capture replace v49_NEWVARIABLE = var31  if `data'==14
-capture replace v49_NEWVARIABLE = var31  if `data'==15
-capture replace v49_NEWVARIABLE = var31  if `data'==16
-capture replace v49_NEWVARIABLE = var31  if `data'==17
-capture replace v49_NEWVARIABLE = var31  if `data'==18
-capture replace v49_NEWVARIABLE = var31  if `data'==19
-capture replace v49_NEWVARIABLE = var31  if `data'==20
-capture replace v49_NEWVARIABLE = var31  if `data'==21
-capture replace v49_NEWVARIABLE = var31  if `data'==22
-capture replace v49_NEWVARIABLE = var31  if `data'==23
-capture replace v49_NEWVARIABLE = var31  if `data'==24
-capture replace v49_NEWVARIABLE = var31  if `data'==25
-capture replace v49_NEWVARIABLE = var31  if `data'==26
-capture label variable v49_NEWVARIABLE `var_lab'
-capture label values v49_NEWVARIABLE `val_lab'
+gen v40_NEWVARIABLE = .
+local var_lab: variable label var40
+local val_lab: value label var40
+capture replace v40_NEWVARIABLE = var40  if `data'==1
+capture replace v40_NEWVARIABLE = var40  if `data'==2
+capture replace v40_NEWVARIABLE = var39  if `data'==3
+capture replace v40_NEWVARIABLE = var39  if `data'==4
+capture replace v40_NEWVARIABLE = var39  if `data'==5
+capture replace v40_NEWVARIABLE = var39  if `data'==6
+capture replace v40_NEWVARIABLE = var39  if `data'==7
+capture replace v40_NEWVARIABLE = var39  if `data'==8
+capture replace v40_NEWVARIABLE = var40  if `data'==9
+capture replace v40_NEWVARIABLE = var40  if `data'==10
+capture replace v40_NEWVARIABLE = var40  if `data'==11
+capture replace v40_NEWVARIABLE = var40  if `data'==12
+capture replace v40_NEWVARIABLE = var40  if `data'==13
+capture replace v40_NEWVARIABLE = var40  if `data'==14
+capture replace v40_NEWVARIABLE = var41  if `data'==15
+capture replace v40_NEWVARIABLE = var41  if `data'==16
+capture replace v40_NEWVARIABLE = var41  if `data'==17
+capture replace v40_NEWVARIABLE = var41  if `data'==18
+capture replace v40_NEWVARIABLE = var49  if `data'==19
+capture replace v40_NEWVARIABLE = var49  if `data'==20
+capture replace v40_NEWVARIABLE = var49  if `data'==21
+capture replace v40_NEWVARIABLE = var49  if `data'==22
+capture replace v40_NEWVARIABLE = var49  if `data'==23
+capture replace v40_NEWVARIABLE = var49  if `data'==24
+capture replace v40_NEWVARIABLE = var49  if `data'==25
+capture replace v40_NEWVARIABLE = var49  if `data'==26
+capture replace v40_NEWVARIABLE = var30  if `data'==27
+capture replace v40_NEWVARIABLE = var30  if `data'==28
+capture replace v40_NEWVARIABLE = var31  if `data'==29
+capture replace v40_NEWVARIABLE = var31  if `data'==30
+capture replace v40_NEWVARIABLE = var31  if `data'==31
+capture replace v40_NEWVARIABLE = var31  if `data'==32
+capture replace v40_NEWVARIABLE = var31  if `data'==33
+capture replace v40_NEWVARIABLE = var31  if `data'==34
+capture replace v40_NEWVARIABLE = var31  if `data'==35
+capture replace v40_NEWVARIABLE = var31  if `data'==36
+capture replace v40_NEWVARIABLE = var31  if `data'==37
+capture replace v40_NEWVARIABLE = var31  if `data'==38
+capture replace v40_NEWVARIABLE = var31  if `data'==39
+capture replace v40_NEWVARIABLE = var31  if `data'==40
+capture replace v40_NEWVARIABLE = var31  if `data'==41
+capture replace v40_NEWVARIABLE = var31  if `data'==42
+capture replace v40_NEWVARIABLE = var31  if `data'==43
+capture replace v40_NEWVARIABLE = var31  if `data'==44
+capture label variable v40_NEWVARIABLE `var_lab'
+capture label values v40_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
-    Description (Data 1):  "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
-    Description (Data 2):  "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
-    Description (Data 3):  "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
-    Description (Data 4):  "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
-    Description (Data 5):  "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
-    Description (Data 6):  "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
-    Description (Data 7):  "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
-    Description (Data 8):  "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 1):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 2):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 3):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 4):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 5):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 6):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 7):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 8):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v50_NEWVARIABLE = .
-local var_lab: variable label var50
-local val_lab: value label var50
-capture replace v50_NEWVARIABLE = var50  if `data'==1
-capture replace v50_NEWVARIABLE = var50  if `data'==2
-capture replace v50_NEWVARIABLE = var50  if `data'==3
-capture replace v50_NEWVARIABLE = var50  if `data'==4
-capture replace v50_NEWVARIABLE = var50  if `data'==5
-capture replace v50_NEWVARIABLE = var50  if `data'==6
-capture replace v50_NEWVARIABLE = var50  if `data'==7
-capture replace v50_NEWVARIABLE = var50  if `data'==8
-capture label variable v50_NEWVARIABLE `var_lab'
-capture label values v50_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目前職の仕事の内容: 分類表7-2"
-    Description (Data 1):  "個人項目前職の仕事の内容: 分類表7-2"
-    Description (Data 2):  "個人項目前職の仕事の内容: 分類表7-2"
-    Description (Data 3):  "個人項目前職の仕事の内容: 分類表7-2"
-    Description (Data 4):  "個人項目前職の仕事の内容: 分類表7-2"
-    Description (Data 5):  "個人項目前職の仕事の内容: 分類表7-2"
-    Description (Data 6):  "個人項目前職の仕事の内容: 分類表7-2"
-    Description (Data 7):  "個人項目前職の仕事の内容: 分類表7-2"
-    Description (Data 8):  "個人項目前職の仕事の内容: 分類表7-2"
-    Description (Data 9):  "前職の仕事の内容"
-    Description (Data 10): "前職の仕事の内容"
-    Description (Data 11): "個人項目: 前職の仕事の内容"
-    Description (Data 12): "個人項目: 前職の仕事の内容"
-    Description (Data 13): "個人項目: 前職の仕事の内容"
-    Description (Data 14): "個人項目: 前職の仕事の内容"
-    Description (Data 15): "個人項目: 前職の仕事の内容"
-    Description (Data 16): "個人項目: 前職の仕事の内容"
-    Description (Data 17): "個人項目: 前職の仕事の内容"
-    Description (Data 18): "個人項目: 前職の仕事の内容"
-    Description (Data 19): "個人項目: 前職の仕事の内容"
-    Description (Data 20): "個人項目: 前職の仕事の内容"
-    Description (Data 21): "個人項目: 前職の仕事の内容"
-    Description (Data 22): "個人項目: 前職の仕事の内容"
-    Description (Data 23): "個人項目: 前職の仕事の内容"
-    Description (Data 24): "個人項目: 前職の仕事の内容"
-    Description (Data 25): "個人項目: 前職の仕事の内容"
-    Description (Data 26): "個人項目: 前職の仕事の内容"
-
-    Values (Base):     1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
-    Values (Data 1):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
-    Values (Data 2):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
-    Values (Data 3):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
-    Values (Data 4):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
-    Values (Data 5):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
-    Values (Data 6):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
-    Values (Data 7):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
-    Values (Data 8):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
-    Values (Data 9):   1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 10):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
-    Values (Data 11):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
-    Values (Data 12):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
-    Values (Data 13):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
-    Values (Data 14):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
-    Values (Data 15):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 16):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 17):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 18):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 19):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 20):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 21):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 22):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 23):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 24):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 25):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-    Values (Data 26):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
-
-----------------------------------------------------------------------*/
-gen v51_NEWVARIABLE = .
-local var_lab: variable label var51
-local val_lab: value label var51
-capture replace v51_NEWVARIABLE = var51  if `data'==1
-capture replace v51_NEWVARIABLE = var51  if `data'==2
-capture replace v51_NEWVARIABLE = var51  if `data'==3
-capture replace v51_NEWVARIABLE = var51  if `data'==4
-capture replace v51_NEWVARIABLE = var51  if `data'==5
-capture replace v51_NEWVARIABLE = var51  if `data'==6
-capture replace v51_NEWVARIABLE = var51  if `data'==7
-capture replace v51_NEWVARIABLE = var51  if `data'==8
-capture replace v51_NEWVARIABLE = var31  if `data'==9
-capture replace v51_NEWVARIABLE = var31  if `data'==10
-capture replace v51_NEWVARIABLE = var32  if `data'==11
-capture replace v51_NEWVARIABLE = var32  if `data'==12
-capture replace v51_NEWVARIABLE = var32  if `data'==13
-capture replace v51_NEWVARIABLE = var32  if `data'==14
-capture replace v51_NEWVARIABLE = var32  if `data'==15
-capture replace v51_NEWVARIABLE = var32  if `data'==16
-capture replace v51_NEWVARIABLE = var32  if `data'==17
-capture replace v51_NEWVARIABLE = var32  if `data'==18
-capture replace v51_NEWVARIABLE = var32  if `data'==19
-capture replace v51_NEWVARIABLE = var32  if `data'==20
-capture replace v51_NEWVARIABLE = var32  if `data'==21
-capture replace v51_NEWVARIABLE = var32  if `data'==22
-capture replace v51_NEWVARIABLE = var32  if `data'==23
-capture replace v51_NEWVARIABLE = var32  if `data'==24
-capture replace v51_NEWVARIABLE = var32  if `data'==25
-capture replace v51_NEWVARIABLE = var32  if `data'==26
-capture label variable v51_NEWVARIABLE `var_lab'
-capture label values v51_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
-    Description (Data 1):  "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
-    Description (Data 2):  "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
-    Description (Data 3):  "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
-    Description (Data 4):  "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
-    Description (Data 5):  "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
-    Description (Data 6):  "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
-    Description (Data 7):  "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
-    Description (Data 8):  "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 1):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 2):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 3):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 4):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 5):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 6):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 7):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 8):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v52_NEWVARIABLE = .
-local var_lab: variable label var52
-local val_lab: value label var52
-capture replace v52_NEWVARIABLE = var52  if `data'==1
-capture replace v52_NEWVARIABLE = var52  if `data'==2
-capture replace v52_NEWVARIABLE = var52  if `data'==3
-capture replace v52_NEWVARIABLE = var52  if `data'==4
-capture replace v52_NEWVARIABLE = var52  if `data'==5
-capture replace v52_NEWVARIABLE = var52  if `data'==6
-capture replace v52_NEWVARIABLE = var52  if `data'==7
-capture replace v52_NEWVARIABLE = var52  if `data'==8
-capture label variable v52_NEWVARIABLE `var_lab'
-capture label values v52_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目前職の従業上の地位: 分類表25"
-    Description (Data 1):  "個人項目前職の従業上の地位: 分類表25"
-    Description (Data 2):  "個人項目前職の従業上の地位: 分類表25"
-    Description (Data 3):  "個人項目前職の従業上の地位: 分類表25"
-    Description (Data 4):  "個人項目前職の従業上の地位: 分類表25"
-    Description (Data 5):  "個人項目前職の従業上の地位: 分類表25"
-    Description (Data 6):  "個人項目前職の従業上の地位: 分類表25"
-    Description (Data 7):  "個人項目前職の従業上の地位: 分類表25"
-    Description (Data 8):  "個人項目前職の従業上の地位: 分類表25"
-    Description (Data 9):  "前職の従業上の地位"
-    Description (Data 10): "前職の従業上の地位"
-    Description (Data 11): "個人項目: 前職の従業上の地位"
-    Description (Data 12): "個人項目: 前職の従業上の地位"
-    Description (Data 13): "個人項目: 前職の従業上の地位"
-    Description (Data 14): "個人項目: 前職の従業上の地位"
-    Description (Data 15): "個人項目: 前職の従業上の地位"
-    Description (Data 16): "個人項目: 前職の従業上の地位"
-    Description (Data 17): "個人項目: 前職の従業上の地位"
-    Description (Data 18): "個人項目: 前職の従業上の地位"
-    Description (Data 19): "個人項目: 前職の従業上の地位"
-    Description (Data 20): "個人項目: 前職の従業上の地位"
-    Description (Data 21): "個人項目: 前職の従業上の地位"
-    Description (Data 22): "個人項目: 前職の従業上の地位"
-    Description (Data 23): "個人項目: 前職の従業上の地位"
-    Description (Data 24): "個人項目: 前職の従業上の地位"
-    Description (Data 25): "個人項目: 前職の従業上の地位"
-    Description (Data 26): "個人項目: 前職の従業上の地位"
-
-    Values (Base):     2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
-    Values (Data 1):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
-    Values (Data 2):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
-    Values (Data 3):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
-    Values (Data 4):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
-    Values (Data 5):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
-    Values (Data 6):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
-    Values (Data 7):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
-    Values (Data 8):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
-    Values (Data 9):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 10):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
-    Values (Data 11):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
-    Values (Data 12):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
-    Values (Data 13):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
-    Values (Data 14):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
-    Values (Data 15):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
-    Values (Data 16):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
-    Values (Data 17):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
-    Values (Data 18):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
-    Values (Data 19):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
-    Values (Data 20):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
-    Values (Data 21):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
-    Values (Data 22):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
-    Values (Data 23):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
-    Values (Data 24):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
-    Values (Data 25):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
-    Values (Data 26):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
-
-----------------------------------------------------------------------*/
-gen v53_NEWVARIABLE = .
-local var_lab: variable label var53
-local val_lab: value label var53
-capture replace v53_NEWVARIABLE = var53  if `data'==1
-capture replace v53_NEWVARIABLE = var53  if `data'==2
-capture replace v53_NEWVARIABLE = var53  if `data'==3
-capture replace v53_NEWVARIABLE = var53  if `data'==4
-capture replace v53_NEWVARIABLE = var53  if `data'==5
-capture replace v53_NEWVARIABLE = var53  if `data'==6
-capture replace v53_NEWVARIABLE = var53  if `data'==7
-capture replace v53_NEWVARIABLE = var53  if `data'==8
-capture replace v53_NEWVARIABLE = var32  if `data'==9
-capture replace v53_NEWVARIABLE = var32  if `data'==10
-capture replace v53_NEWVARIABLE = var33  if `data'==11
-capture replace v53_NEWVARIABLE = var33  if `data'==12
-capture replace v53_NEWVARIABLE = var33  if `data'==13
-capture replace v53_NEWVARIABLE = var33  if `data'==14
-capture replace v53_NEWVARIABLE = var33  if `data'==15
-capture replace v53_NEWVARIABLE = var33  if `data'==16
-capture replace v53_NEWVARIABLE = var33  if `data'==17
-capture replace v53_NEWVARIABLE = var33  if `data'==18
-capture replace v53_NEWVARIABLE = var33  if `data'==19
-capture replace v53_NEWVARIABLE = var33  if `data'==20
-capture replace v53_NEWVARIABLE = var33  if `data'==21
-capture replace v53_NEWVARIABLE = var33  if `data'==22
-capture replace v53_NEWVARIABLE = var33  if `data'==23
-capture replace v53_NEWVARIABLE = var33  if `data'==24
-capture replace v53_NEWVARIABLE = var33  if `data'==25
-capture replace v53_NEWVARIABLE = var33  if `data'==26
-capture label variable v53_NEWVARIABLE `var_lab'
-capture label values v53_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目前職の従業上の地位: 分類表31"
-    Description (Data 1):  "個人項目前職の従業上の地位: 分類表31"
-    Description (Data 2):  "個人項目前職の従業上の地位: 分類表31"
-    Description (Data 3):  "個人項目前職の従業上の地位: 分類表31"
-    Description (Data 4):  "個人項目前職の従業上の地位: 分類表31"
-    Description (Data 5):  "個人項目前職の従業上の地位: 分類表31"
-    Description (Data 6):  "個人項目前職の従業上の地位: 分類表31"
-    Description (Data 7):  "個人項目前職の従業上の地位: 分類表31"
-    Description (Data 8):  "個人項目前職の従業上の地位: 分類表31"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     0: , 1: , 11: 
-    Values (Data 1):   0: , 1: , 11: 
-    Values (Data 2):   0: , 1: , 11: 
-    Values (Data 3):   0: , 1: , 11: 
-    Values (Data 4):   0: , 1: , 11: 
-    Values (Data 5):   0: , 1: , 11: 
-    Values (Data 6):   0: , 1: , 11: 
-    Values (Data 7):   0: , 1: , 11: 
-    Values (Data 8):   0: , 1: , 11: 
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v54_NEWVARIABLE = .
-local var_lab: variable label var54
-local val_lab: value label var54
-capture replace v54_NEWVARIABLE = var54  if `data'==1
-capture replace v54_NEWVARIABLE = var54  if `data'==2
-capture replace v54_NEWVARIABLE = var54  if `data'==3
-capture replace v54_NEWVARIABLE = var54  if `data'==4
-capture replace v54_NEWVARIABLE = var54  if `data'==5
-capture replace v54_NEWVARIABLE = var54  if `data'==6
-capture replace v54_NEWVARIABLE = var54  if `data'==7
-capture replace v54_NEWVARIABLE = var54  if `data'==8
-capture label variable v54_NEWVARIABLE `var_lab'
-capture label values v54_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目前職の従業上の地位: 分類表32"
-    Description (Data 1):  "個人項目前職の従業上の地位: 分類表32"
-    Description (Data 2):  "個人項目前職の従業上の地位: 分類表32"
-    Description (Data 3):  "個人項目前職の従業上の地位: 分類表32"
-    Description (Data 4):  "個人項目前職の従業上の地位: 分類表32"
-    Description (Data 5):  "個人項目前職の従業上の地位: 分類表32"
-    Description (Data 6):  "個人項目前職の従業上の地位: 分類表32"
-    Description (Data 7):  "個人項目前職の従業上の地位: 分類表32"
-    Description (Data 8):  "個人項目前職の従業上の地位: 分類表32"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):     0: , 11: , 22: 
-    Values (Data 1):   0: , 11: , 22: 
-    Values (Data 2):   0: , 11: , 22: 
-    Values (Data 3):   0: , 11: , 22: 
-    Values (Data 4):   0: , 11: , 22: 
-    Values (Data 5):   0: , 11: , 22: 
-    Values (Data 6):   0: , 11: , 22: 
-    Values (Data 7):   0: , 11: , 22: 
-    Values (Data 8):   0: , 11: , 22: 
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v55_NEWVARIABLE = .
-local var_lab: variable label var55
-local val_lab: value label var55
-capture replace v55_NEWVARIABLE = var55  if `data'==1
-capture replace v55_NEWVARIABLE = var55  if `data'==2
-capture replace v55_NEWVARIABLE = var55  if `data'==3
-capture replace v55_NEWVARIABLE = var55  if `data'==4
-capture replace v55_NEWVARIABLE = var55  if `data'==5
-capture replace v55_NEWVARIABLE = var55  if `data'==6
-capture replace v55_NEWVARIABLE = var55  if `data'==7
-capture replace v55_NEWVARIABLE = var55  if `data'==8
-capture label variable v55_NEWVARIABLE `var_lab'
-capture label values v55_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目: 離職期間"
-    Description (Data 1):  "個人項目: 離職期間"
-    Description (Data 2):  "個人項目: 離職期間"
-    Description (Data 3):  "個人項目: 離職期間"
-    Description (Data 4):  "個人項目: 離職期間"
-    Description (Data 5):  "個人項目: 離職期間"
-    Description (Data 6):  "個人項目: 離職期間"
-    Description (Data 7):  "個人項目: 離職期間"
-    Description (Data 8):  "個人項目: 離職期間"
-    Description (Data 9):  "離職期間"
-    Description (Data 10): "離職期間"
-    Description (Data 11): "個人項目: 離職期間"
-    Description (Data 12): "個人項目: 離職期間"
-    Description (Data 13): "個人項目: 離職期間"
-    Description (Data 14): "個人項目: 離職期間"
-    Description (Data 15): "個人項目: 離職期間"
-    Description (Data 16): "個人項目: 離職期間"
-    Description (Data 17): "個人項目: 離職期間"
-    Description (Data 18): "個人項目: 離職期間"
-    Description (Data 19): "個人項目: 離職期間"
-    Description (Data 20): "個人項目: 離職期間"
-    Description (Data 21): "個人項目: 離職期間"
-    Description (Data 22): "個人項目: 離職期間"
-    Description (Data 23): "個人項目: 離職期間"
-    Description (Data 24): "個人項目: 離職期間"
-    Description (Data 25): "個人項目: 離職期間"
-    Description (Data 26): "個人項目: 離職期間"
-
-    Values (Base):     1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 1):   1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 2):   1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 3):   1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 4):   1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 5):   1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 6):   1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 7):   1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 8):   1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 9):   1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 10):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 11):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 12):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 13):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 14):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 15):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 16):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 17):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 18):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 19):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 20):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 21):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 22):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 23):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 24):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 25):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-    Values (Data 26):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
-
-----------------------------------------------------------------------*/
-gen v56_NEWVARIABLE = .
-local var_lab: variable label var56
-local val_lab: value label var56
-capture replace v56_NEWVARIABLE = var56  if `data'==1
-capture replace v56_NEWVARIABLE = var56  if `data'==2
-capture replace v56_NEWVARIABLE = var56  if `data'==3
-capture replace v56_NEWVARIABLE = var56  if `data'==4
-capture replace v56_NEWVARIABLE = var56  if `data'==5
-capture replace v56_NEWVARIABLE = var56  if `data'==6
-capture replace v56_NEWVARIABLE = var56  if `data'==7
-capture replace v56_NEWVARIABLE = var56  if `data'==8
-capture replace v56_NEWVARIABLE = var33  if `data'==9
-capture replace v56_NEWVARIABLE = var33  if `data'==10
-capture replace v56_NEWVARIABLE = var34  if `data'==11
-capture replace v56_NEWVARIABLE = var34  if `data'==12
-capture replace v56_NEWVARIABLE = var34  if `data'==13
-capture replace v56_NEWVARIABLE = var34  if `data'==14
-capture replace v56_NEWVARIABLE = var34  if `data'==15
-capture replace v56_NEWVARIABLE = var34  if `data'==16
-capture replace v56_NEWVARIABLE = var34  if `data'==17
-capture replace v56_NEWVARIABLE = var34  if `data'==18
-capture replace v56_NEWVARIABLE = var34  if `data'==19
-capture replace v56_NEWVARIABLE = var34  if `data'==20
-capture replace v56_NEWVARIABLE = var34  if `data'==21
-capture replace v56_NEWVARIABLE = var34  if `data'==22
-capture replace v56_NEWVARIABLE = var34  if `data'==23
-capture replace v56_NEWVARIABLE = var34  if `data'==24
-capture replace v56_NEWVARIABLE = var34  if `data'==25
-capture replace v56_NEWVARIABLE = var34  if `data'==26
-capture label variable v56_NEWVARIABLE `var_lab'
-capture label values v56_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目: 前職の従業員数"
-    Description (Data 1):  "個人項目: 前職の従業員数"
-    Description (Data 2):  "個人項目: 前職の従業員数"
-    Description (Data 3):  "個人項目: 前職の従業員数"
-    Description (Data 4):  "個人項目: 前職の従業員数"
-    Description (Data 5):  "個人項目: 前職の従業員数"
-    Description (Data 6):  "個人項目: 前職の従業員数"
+    Description (Base):    "個人項目: 前職職業区分"
+    Description (Data 1):  "個人項目: 前職職業区分"
+    Description (Data 2):  "個人項目: 前職職業区分"
+    Description (Data 3):  "個人項目前居地: 地区"
+    Description (Data 4):  "個人項目前居地: 地区"
+    Description (Data 5):  "個人項目前居地: 地区"
+    Description (Data 6):  "個人項目前居地: 地区"
     Description (Data 7):  "個人項目: 前職の従業員数"
     Description (Data 8):  "個人項目: 前職の従業員数"
-    Description (Data 9):  "前職の従業員数"
-    Description (Data 10): "前職の従業員数"
+    Description (Data 9):  "個人項目: 前職の従業員数"
+    Description (Data 10): "個人項目: 前職の従業員数"
     Description (Data 11): "個人項目: 前職の従業員数"
     Description (Data 12): "個人項目: 前職の従業員数"
     Description (Data 13): "個人項目: 前職の従業員数"
@@ -4634,26 +5436,44 @@ capture label values v56_NEWVARIABLE `val_lab'
     Description (Data 24): "個人項目: 前職の従業員数"
     Description (Data 25): "個人項目: 前職の従業員数"
     Description (Data 26): "個人項目: 前職の従業員数"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "個人項目: 前職の従業員数"
+    Description (Data 30): "個人項目: 前職の従業員数"
+    Description (Data 31): "個人項目: 前職の従業員数"
+    Description (Data 32): "個人項目: 前職の従業員数"
+    Description (Data 33): "個人項目: 前職の従業員数"
+    Description (Data 34): "個人項目: 前職の従業員数"
+    Description (Data 35): "個人項目: 前職の従業員数"
+    Description (Data 36): "個人項目: 前職の従業員数"
+    Description (Data 37): "個人項目: 前職の従業員数"
+    Description (Data 38): "個人項目: 前職の従業員数"
+    Description (Data 39): "個人項目: 前職の従業員数"
+    Description (Data 40): "個人項目: 前職の従業員数"
+    Description (Data 41): "個人項目: 前職の従業員数"
+    Description (Data 42): "個人項目: 前職の従業員数"
+    Description (Data 43): "個人項目: 前職の従業員数"
+    Description (Data 44): "個人項目: 前職の従業員数"
 
-    Values (Base):     1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 1):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 2):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 3):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 4):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 5):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 6):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 7):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 8):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 9):   1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 10):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 11):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 12):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 13):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 14):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 15):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 16):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 17):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
-    Values (Data 18):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Base):     1: 1:専門・技術的職業従事者, 2: 2:管理的職業従事者, 3: 3:事務従事者, 4: 4:販売従事者, 5: 5:サービス職業従事者, 6: 6:保安職業従事者, 7: 7:運輸通信従事者, 8: 8:技能工生産工程作業者, 9: 9:その他職業従事者
+    Values (Data 1):   1: 1:専門・技術的職業従事者, 2: 2:管理的職業従事者, 3: 3:事務従事者, 4: 4:販売従事者, 5: 5:サービス職業従事者, 6: 6:保安職業従事者, 7: 7:運輸通信従事者, 8: 8:技能工生産工程作業者, 9: 9:その他職業従事者
+    Values (Data 2):   1: 1:専門・技術的職業従事者, 2: 2:管理的職業従事者, 3: 3:事務従事者, 4: 4:販売従事者, 5: 5:サービス職業従事者, 6: 6:保安職業従事者, 7: 7:運輸通信従事者, 8: 8:技能工生産工程作業者, 9: 9:その他職業従事者
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
     Values (Data 19):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
     Values (Data 20):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
     Values (Data 21):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
@@ -4662,1110 +5482,1953 @@ capture label values v56_NEWVARIABLE `val_lab'
     Values (Data 24):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
     Values (Data 25):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
     Values (Data 26):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 30):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 31):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 32):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 33):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 34):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 35):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 36):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 37):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 38):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 39):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 40):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 41):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 42):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 43):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 44):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
 
 ----------------------------------------------------------------------*/
-gen v57_NEWVARIABLE = .
-local var_lab: variable label var57
-local val_lab: value label var57
-capture replace v57_NEWVARIABLE = var57  if `data'==1
-capture replace v57_NEWVARIABLE = var57  if `data'==2
-capture replace v57_NEWVARIABLE = var57  if `data'==3
-capture replace v57_NEWVARIABLE = var57  if `data'==4
-capture replace v57_NEWVARIABLE = var57  if `data'==5
-capture replace v57_NEWVARIABLE = var57  if `data'==6
-capture replace v57_NEWVARIABLE = var57  if `data'==7
-capture replace v57_NEWVARIABLE = var57  if `data'==8
-capture replace v57_NEWVARIABLE = var34  if `data'==9
-capture replace v57_NEWVARIABLE = var34  if `data'==10
-capture replace v57_NEWVARIABLE = var35  if `data'==11
-capture replace v57_NEWVARIABLE = var35  if `data'==12
-capture replace v57_NEWVARIABLE = var35  if `data'==13
-capture replace v57_NEWVARIABLE = var35  if `data'==14
-capture replace v57_NEWVARIABLE = var35  if `data'==15
-capture replace v57_NEWVARIABLE = var35  if `data'==16
-capture replace v57_NEWVARIABLE = var35  if `data'==17
-capture replace v57_NEWVARIABLE = var35  if `data'==18
-capture replace v57_NEWVARIABLE = var35  if `data'==19
-capture replace v57_NEWVARIABLE = var35  if `data'==20
-capture replace v57_NEWVARIABLE = var35  if `data'==21
-capture replace v57_NEWVARIABLE = var35  if `data'==22
-capture replace v57_NEWVARIABLE = var35  if `data'==23
-capture replace v57_NEWVARIABLE = var35  if `data'==24
-capture replace v57_NEWVARIABLE = var35  if `data'==25
-capture replace v57_NEWVARIABLE = var35  if `data'==26
-capture label variable v57_NEWVARIABLE `var_lab'
-capture label values v57_NEWVARIABLE `val_lab'
+gen v41_NEWVARIABLE = .
+local var_lab: variable label var41
+local val_lab: value label var41
+capture replace v41_NEWVARIABLE = var41  if `data'==1
+capture replace v41_NEWVARIABLE = var41  if `data'==2
+capture replace v41_NEWVARIABLE = var32  if `data'==3
+capture replace v41_NEWVARIABLE = var32  if `data'==4
+capture replace v41_NEWVARIABLE = var32  if `data'==5
+capture replace v41_NEWVARIABLE = var32  if `data'==6
+capture replace v41_NEWVARIABLE = var47  if `data'==7
+capture replace v41_NEWVARIABLE = var47  if `data'==8
+capture replace v41_NEWVARIABLE = var48  if `data'==9
+capture replace v41_NEWVARIABLE = var48  if `data'==10
+capture replace v41_NEWVARIABLE = var48  if `data'==11
+capture replace v41_NEWVARIABLE = var48  if `data'==12
+capture replace v41_NEWVARIABLE = var48  if `data'==13
+capture replace v41_NEWVARIABLE = var48  if `data'==14
+capture replace v41_NEWVARIABLE = var49  if `data'==15
+capture replace v41_NEWVARIABLE = var49  if `data'==16
+capture replace v41_NEWVARIABLE = var49  if `data'==17
+capture replace v41_NEWVARIABLE = var49  if `data'==18
+capture replace v41_NEWVARIABLE = var57  if `data'==19
+capture replace v41_NEWVARIABLE = var57  if `data'==20
+capture replace v41_NEWVARIABLE = var57  if `data'==21
+capture replace v41_NEWVARIABLE = var57  if `data'==22
+capture replace v41_NEWVARIABLE = var57  if `data'==23
+capture replace v41_NEWVARIABLE = var57  if `data'==24
+capture replace v41_NEWVARIABLE = var57  if `data'==25
+capture replace v41_NEWVARIABLE = var57  if `data'==26
+capture replace v41_NEWVARIABLE = var35  if `data'==29
+capture replace v41_NEWVARIABLE = var35  if `data'==30
+capture replace v41_NEWVARIABLE = var35  if `data'==31
+capture replace v41_NEWVARIABLE = var35  if `data'==32
+capture replace v41_NEWVARIABLE = var35  if `data'==33
+capture replace v41_NEWVARIABLE = var35  if `data'==34
+capture replace v41_NEWVARIABLE = var35  if `data'==35
+capture replace v41_NEWVARIABLE = var35  if `data'==36
+capture replace v41_NEWVARIABLE = var35  if `data'==37
+capture replace v41_NEWVARIABLE = var35  if `data'==38
+capture replace v41_NEWVARIABLE = var35  if `data'==39
+capture replace v41_NEWVARIABLE = var35  if `data'==40
+capture replace v41_NEWVARIABLE = var35  if `data'==41
+capture replace v41_NEWVARIABLE = var35  if `data'==42
+capture replace v41_NEWVARIABLE = var35  if `data'==43
+capture replace v41_NEWVARIABLE = var35  if `data'==44
+capture label variable v41_NEWVARIABLE `var_lab'
+capture label values v41_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目: 空白3"
-    Description (Data 1):  "個人項目: 空白3"
-    Description (Data 2):  "個人項目: 空白3"
-    Description (Data 3):  "個人項目: 空白3"
-    Description (Data 4):  "個人項目: 空白3"
-    Description (Data 5):  "個人項目: 空白3"
-    Description (Data 6):  "個人項目: 空白3"
-    Description (Data 7):  "個人項目: 空白3"
-    Description (Data 8):  "個人項目: 空白3"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): "個人項目: 年齢"
-    Description (Data 12): "個人項目: 年齢"
-    Description (Data 13): "個人項目: 年齢"
-    Description (Data 14): "個人項目: 年齢"
-    Description (Data 15): "個人項目: 年齢"
-    Description (Data 16): "個人項目: 年齢"
-    Description (Data 17): "個人項目: 年齢"
-    Description (Data 18): "個人項目: 年齢"
-    Description (Data 19): "個人項目: 年齢"
-    Description (Data 20): "個人項目: 年齢"
-    Description (Data 21): "個人項目: 年齢"
-    Description (Data 22): "個人項目: 年齢"
-    Description (Data 23): "個人項目: 年齢"
-    Description (Data 24): "個人項目: 年齢"
-    Description (Data 25): "個人項目: 年齢"
-    Description (Data 26): "個人項目: 年齢"
+    Description (Base):    "個人項目前従業上地位区分: 調査票コード"
+    Description (Data 1):  "個人項目前従業上地位区分: 調査票コード"
+    Description (Data 2):  "個人項目前従業上地位区分: 調査票コード"
+    Description (Data 3):  "個人項目前従業上地位: チェック済"
+    Description (Data 4):  "個人項目前従業上地位: チェック済"
+    Description (Data 5):  "個人項目前従業上地位: チェック済"
+    Description (Data 6):  "個人項目前従業上地位: チェック済"
+    Description (Data 7):  "個人項目前職の従業上の地位: チェック済"
+    Description (Data 8):  "個人項目前職の従業上の地位: チェック済"
+    Description (Data 9):  "個人項目前職の従業上の地位: チェック済"
+    Description (Data 10): "個人項目前職の従業上の地位: チェック済"
+    Description (Data 11): "個人項目前職の従業上の地位: チェック済"
+    Description (Data 12): "個人項目前職の従業上の地位: チェック済"
+    Description (Data 13): "個人項目前職の従業上の地位: チェック済"
+    Description (Data 14): "個人項目前職の従業上の地位: チェック済"
+    Description (Data 15): "個人項目前職の従業上の地位: チェック済"
+    Description (Data 16): "個人項目前職の従業上の地位: チェック済"
+    Description (Data 17): "個人項目前職の従業上の地位: チェック済"
+    Description (Data 18): "個人項目前職の従業上の地位: チェック済"
+    Description (Data 19): "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
+    Description (Data 20): "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
+    Description (Data 21): "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
+    Description (Data 22): "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
+    Description (Data 23): "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
+    Description (Data 24): "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
+    Description (Data 25): "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
+    Description (Data 26): "個人項目前職の従業上の地位: 前職の従業上の地位チェック済"
+    Description (Data 27): "前職の従業上の地位"
+    Description (Data 28): "前職の従業上の地位"
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 12):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 13):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 14):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 15):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 16):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 17):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 18):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 19):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 20):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Base):     1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業・家族従事者
+    Values (Data 1):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業・家族従事者
+    Values (Data 2):   1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業・家族従事者
+    Values (Data 3):   1: , 2: , 3: 
+    Values (Data 4):   1: , 2: , 3: 
+    Values (Data 5):   1: , 2: , 3: 
+    Values (Data 6):   1: , 2: , 3: 
+    Values (Data 7):   1: , 2: , 3: 
+    Values (Data 8):   1: , 2: , 3: 
+    Values (Data 9):   1: , 2: , 3: 
+    Values (Data 10):  1: , 2: , 3: 
+    Values (Data 11):  1: , 2: , 3: 
+    Values (Data 12):  1: , 2: , 3: 
+    Values (Data 13):  1: , 2: , 3: 
+    Values (Data 14):  1: , 2: , 3: 
+    Values (Data 15):  1: , 2: , 3: 
+    Values (Data 16):  1: , 2: , 3: 
+    Values (Data 17):  1: , 2: , 3: 
+    Values (Data 18):  1: , 2: , 3: 
+    Values (Data 19):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
+    Values (Data 20):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
+    Values (Data 21):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
+    Values (Data 22):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
+    Values (Data 23):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
+    Values (Data 24):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
+    Values (Data 25):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
+    Values (Data 26):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
+    Values (Data 27):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
+    Values (Data 28):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主、家族従業者
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v42_NEWVARIABLE = .
+local var_lab: variable label var42
+local val_lab: value label var42
+capture replace v42_NEWVARIABLE = var42  if `data'==1
+capture replace v42_NEWVARIABLE = var42  if `data'==2
+capture replace v42_NEWVARIABLE = var42  if `data'==3
+capture replace v42_NEWVARIABLE = var42  if `data'==4
+capture replace v42_NEWVARIABLE = var42  if `data'==5
+capture replace v42_NEWVARIABLE = var42  if `data'==6
+capture replace v42_NEWVARIABLE = var42  if `data'==7
+capture replace v42_NEWVARIABLE = var42  if `data'==8
+capture replace v42_NEWVARIABLE = var43  if `data'==9
+capture replace v42_NEWVARIABLE = var43  if `data'==10
+capture replace v42_NEWVARIABLE = var43  if `data'==11
+capture replace v42_NEWVARIABLE = var43  if `data'==12
+capture replace v42_NEWVARIABLE = var43  if `data'==13
+capture replace v42_NEWVARIABLE = var43  if `data'==14
+capture replace v42_NEWVARIABLE = var44  if `data'==15
+capture replace v42_NEWVARIABLE = var44  if `data'==16
+capture replace v42_NEWVARIABLE = var44  if `data'==17
+capture replace v42_NEWVARIABLE = var44  if `data'==18
+capture replace v42_NEWVARIABLE = var52  if `data'==19
+capture replace v42_NEWVARIABLE = var52  if `data'==20
+capture replace v42_NEWVARIABLE = var52  if `data'==21
+capture replace v42_NEWVARIABLE = var52  if `data'==22
+capture replace v42_NEWVARIABLE = var52  if `data'==23
+capture replace v42_NEWVARIABLE = var52  if `data'==24
+capture replace v42_NEWVARIABLE = var52  if `data'==25
+capture replace v42_NEWVARIABLE = var52  if `data'==26
+capture replace v42_NEWVARIABLE = var32  if `data'==27
+capture replace v42_NEWVARIABLE = var32  if `data'==28
+capture label variable v42_NEWVARIABLE `var_lab'
+capture label values v42_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目前従業上地位区分: 分類表25コード"
+    Description (Data 1):  "個人項目前従業上地位区分: 分類表25コード"
+    Description (Data 2):  "個人項目前従業上地位区分: 分類表25コード"
+    Description (Data 3):  "個人項目前従業上地位: 分類表25"
+    Description (Data 4):  "個人項目前従業上地位: 分類表25"
+    Description (Data 5):  "個人項目前従業上地位: 分類表25"
+    Description (Data 6):  "個人項目前従業上地位: 分類表25"
+    Description (Data 7):  "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 8):  "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 9):  "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 10): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 11): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 12): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 13): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 14): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 15): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 16): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 17): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 18): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 19): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 20): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 21): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 22): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 23): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 24): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 25): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 26): "個人項目前職の従業上の地位: 分類表25"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     2: 雇用者(一般労働者), 3: 雇用者(パートタイム労働者), 4: 自営業・家族従事者
+    Values (Data 1):   2: 雇用者(一般労働者), 3: 雇用者(パートタイム労働者), 4: 自営業・家族従事者
+    Values (Data 2):   2: 雇用者(一般労働者), 3: 雇用者(パートタイム労働者), 4: 自営業・家族従事者
+    Values (Data 3):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 4):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 5):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 6):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 7):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 8):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 9):   2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 10):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 11):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 12):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 13):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 14):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 15):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 16):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 17):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 18):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 19):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 20):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 21):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 22):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 23):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 24):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 25):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 26):  2: 前職の従業上の地位チェック済:1, 3: 前職の従業上の地位チェック済:2, 4: 前職の従業上の地位チェック済:3
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v43_NEWVARIABLE = .
+local var_lab: variable label var43
+local val_lab: value label var43
+capture replace v43_NEWVARIABLE = var43  if `data'==1
+capture replace v43_NEWVARIABLE = var43  if `data'==2
+capture replace v43_NEWVARIABLE = var43  if `data'==3
+capture replace v43_NEWVARIABLE = var43  if `data'==4
+capture replace v43_NEWVARIABLE = var43  if `data'==5
+capture replace v43_NEWVARIABLE = var43  if `data'==6
+capture replace v43_NEWVARIABLE = var43  if `data'==7
+capture replace v43_NEWVARIABLE = var43  if `data'==8
+capture replace v43_NEWVARIABLE = var44  if `data'==9
+capture replace v43_NEWVARIABLE = var44  if `data'==10
+capture replace v43_NEWVARIABLE = var44  if `data'==11
+capture replace v43_NEWVARIABLE = var44  if `data'==12
+capture replace v43_NEWVARIABLE = var44  if `data'==13
+capture replace v43_NEWVARIABLE = var44  if `data'==14
+capture replace v43_NEWVARIABLE = var45  if `data'==15
+capture replace v43_NEWVARIABLE = var45  if `data'==16
+capture replace v43_NEWVARIABLE = var45  if `data'==17
+capture replace v43_NEWVARIABLE = var45  if `data'==18
+capture replace v43_NEWVARIABLE = var53  if `data'==19
+capture replace v43_NEWVARIABLE = var53  if `data'==20
+capture replace v43_NEWVARIABLE = var53  if `data'==21
+capture replace v43_NEWVARIABLE = var53  if `data'==22
+capture replace v43_NEWVARIABLE = var53  if `data'==23
+capture replace v43_NEWVARIABLE = var53  if `data'==24
+capture replace v43_NEWVARIABLE = var53  if `data'==25
+capture replace v43_NEWVARIABLE = var53  if `data'==26
+capture label variable v43_NEWVARIABLE `var_lab'
+capture label values v43_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目前従業上地位区分: 分類表31コード"
+    Description (Data 1):  "個人項目前従業上地位区分: 分類表31コード"
+    Description (Data 2):  "個人項目前従業上地位区分: 分類表31コード"
+    Description (Data 3):  "個人項目前従業上地位: 分類表31"
+    Description (Data 4):  "個人項目前従業上地位: 分類表31"
+    Description (Data 5):  "個人項目前従業上地位: 分類表31"
+    Description (Data 6):  "個人項目前従業上地位: 分類表31"
+    Description (Data 7):  "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 8):  "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 9):  "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 10): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 11): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 12): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 13): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 14): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 15): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 16): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 17): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 18): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 19): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 20): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 21): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 22): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 23): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 24): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 25): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 26): "個人項目前職の従業上の地位: 分類表31"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     0: 1,2,3,V・2, 1: 2,3,V・1, 11: 1・1
+    Values (Data 1):   0: 1,2,3,V・2, 1: 2,3,V・1, 11: 1・1
+    Values (Data 2):   0: 1,2,3,V・2, 1: 2,3,V・1, 11: 1・1
+    Values (Data 3):   0: , 1: , 11: 
+    Values (Data 4):   0: , 1: , 11: 
+    Values (Data 5):   0: , 1: , 11: 
+    Values (Data 6):   0: , 1: , 11: 
+    Values (Data 7):   0: , 1: , 11: 
+    Values (Data 8):   0: , 1: , 11: 
+    Values (Data 9):   0: , 1: , 11: 
+    Values (Data 10):  0: , 1: , 11: 
+    Values (Data 11):  0: , 1: , 11: 
+    Values (Data 12):  0: , 1: , 11: 
+    Values (Data 13):  0: , 1: , 11: 
+    Values (Data 14):  0: , 1: , 11: 
+    Values (Data 15):  0: , 1: , 11: 
+    Values (Data 16):  0: , 1: , 11: 
+    Values (Data 17):  0: , 1: , 11: 
+    Values (Data 18):  0: , 1: , 11: 
+    Values (Data 19):  0: , 1: , 11: 
+    Values (Data 20):  0: , 1: , 11: 
+    Values (Data 21):  0: , 1: , 11: 
+    Values (Data 22):  0: , 1: , 11: 
+    Values (Data 23):  0: , 1: , 11: 
+    Values (Data 24):  0: , 1: , 11: 
+    Values (Data 25):  0: , 1: , 11: 
+    Values (Data 26):  0: , 1: , 11: 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v44_NEWVARIABLE = .
+local var_lab: variable label var44
+local val_lab: value label var44
+capture replace v44_NEWVARIABLE = var44  if `data'==1
+capture replace v44_NEWVARIABLE = var44  if `data'==2
+capture replace v44_NEWVARIABLE = var44  if `data'==3
+capture replace v44_NEWVARIABLE = var44  if `data'==4
+capture replace v44_NEWVARIABLE = var44  if `data'==5
+capture replace v44_NEWVARIABLE = var44  if `data'==6
+capture replace v44_NEWVARIABLE = var44  if `data'==7
+capture replace v44_NEWVARIABLE = var44  if `data'==8
+capture replace v44_NEWVARIABLE = var45  if `data'==9
+capture replace v44_NEWVARIABLE = var45  if `data'==10
+capture replace v44_NEWVARIABLE = var45  if `data'==11
+capture replace v44_NEWVARIABLE = var45  if `data'==12
+capture replace v44_NEWVARIABLE = var45  if `data'==13
+capture replace v44_NEWVARIABLE = var45  if `data'==14
+capture replace v44_NEWVARIABLE = var46  if `data'==15
+capture replace v44_NEWVARIABLE = var46  if `data'==16
+capture replace v44_NEWVARIABLE = var46  if `data'==17
+capture replace v44_NEWVARIABLE = var46  if `data'==18
+capture replace v44_NEWVARIABLE = var54  if `data'==19
+capture replace v44_NEWVARIABLE = var54  if `data'==20
+capture replace v44_NEWVARIABLE = var54  if `data'==21
+capture replace v44_NEWVARIABLE = var54  if `data'==22
+capture replace v44_NEWVARIABLE = var54  if `data'==23
+capture replace v44_NEWVARIABLE = var54  if `data'==24
+capture replace v44_NEWVARIABLE = var54  if `data'==25
+capture replace v44_NEWVARIABLE = var54  if `data'==26
+capture label variable v44_NEWVARIABLE `var_lab'
+capture label values v44_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目前従業上地位区分: 分類表32コード"
+    Description (Data 1):  "個人項目前従業上地位区分: 分類表32コード"
+    Description (Data 2):  "個人項目前従業上地位区分: 分類表32コード"
+    Description (Data 3):  "個人項目前従業上地位: 分類表32"
+    Description (Data 4):  "個人項目前従業上地位: 分類表32"
+    Description (Data 5):  "個人項目前従業上地位: 分類表32"
+    Description (Data 6):  "個人項目前従業上地位: 分類表32"
+    Description (Data 7):  "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 8):  "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 9):  "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 10): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 11): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 12): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 13): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 14): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 15): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 16): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 17): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 18): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 19): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 20): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 21): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 22): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 23): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 24): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 25): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 26): "個人項目前職の従業上の地位: 分類表32"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     0: 1,2・1,2, 11: 1・1, 22: 2・2
+    Values (Data 1):   0: 1,2・1,2, 11: 1・1, 22: 2・2
+    Values (Data 2):   0: 1,2・1,2, 11: 1・1, 22: 2・2
+    Values (Data 3):   0: , 11: , 22: 
+    Values (Data 4):   0: , 11: , 22: 
+    Values (Data 5):   0: , 11: , 22: 
+    Values (Data 6):   0: , 11: , 22: 
+    Values (Data 7):   0: , 11: , 22: 
+    Values (Data 8):   0: , 11: , 22: 
+    Values (Data 9):   0: , 11: , 22: 
+    Values (Data 10):  0: , 11: , 22: 
+    Values (Data 11):  0: , 11: , 22: 
+    Values (Data 12):  0: , 11: , 22: 
+    Values (Data 13):  0: , 11: , 22: 
+    Values (Data 14):  0: , 11: , 22: 
+    Values (Data 15):  0: , 11: , 22: 
+    Values (Data 16):  0: , 11: , 22: 
+    Values (Data 17):  0: , 11: , 22: 
+    Values (Data 18):  0: , 11: , 22: 
+    Values (Data 19):  0: , 11: , 22: 
+    Values (Data 20):  0: , 11: , 22: 
+    Values (Data 21):  0: , 11: , 22: 
+    Values (Data 22):  0: , 11: , 22: 
+    Values (Data 23):  0: , 11: , 22: 
+    Values (Data 24):  0: , 11: , 22: 
+    Values (Data 25):  0: , 11: , 22: 
+    Values (Data 26):  0: , 11: , 22: 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v45_NEWVARIABLE = .
+local var_lab: variable label var45
+local val_lab: value label var45
+capture replace v45_NEWVARIABLE = var45  if `data'==1
+capture replace v45_NEWVARIABLE = var45  if `data'==2
+capture replace v45_NEWVARIABLE = var45  if `data'==3
+capture replace v45_NEWVARIABLE = var45  if `data'==4
+capture replace v45_NEWVARIABLE = var45  if `data'==5
+capture replace v45_NEWVARIABLE = var45  if `data'==6
+capture replace v45_NEWVARIABLE = var45  if `data'==7
+capture replace v45_NEWVARIABLE = var45  if `data'==8
+capture replace v45_NEWVARIABLE = var46  if `data'==9
+capture replace v45_NEWVARIABLE = var46  if `data'==10
+capture replace v45_NEWVARIABLE = var46  if `data'==11
+capture replace v45_NEWVARIABLE = var46  if `data'==12
+capture replace v45_NEWVARIABLE = var46  if `data'==13
+capture replace v45_NEWVARIABLE = var46  if `data'==14
+capture replace v45_NEWVARIABLE = var47  if `data'==15
+capture replace v45_NEWVARIABLE = var47  if `data'==16
+capture replace v45_NEWVARIABLE = var47  if `data'==17
+capture replace v45_NEWVARIABLE = var47  if `data'==18
+capture replace v45_NEWVARIABLE = var55  if `data'==19
+capture replace v45_NEWVARIABLE = var55  if `data'==20
+capture replace v45_NEWVARIABLE = var55  if `data'==21
+capture replace v45_NEWVARIABLE = var55  if `data'==22
+capture replace v45_NEWVARIABLE = var55  if `data'==23
+capture replace v45_NEWVARIABLE = var55  if `data'==24
+capture replace v45_NEWVARIABLE = var55  if `data'==25
+capture replace v45_NEWVARIABLE = var55  if `data'==26
+capture label variable v45_NEWVARIABLE `var_lab'
+capture label values v45_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目: 離職期間区分"
+    Description (Data 1):  "個人項目: 離職期間区分"
+    Description (Data 2):  "個人項目: 離職期間区分"
+    Description (Data 3):  "個人項目: 離職期間"
+    Description (Data 4):  "個人項目: 離職期間"
+    Description (Data 5):  "個人項目: 離職期間"
+    Description (Data 6):  "個人項目: 離職期間"
+    Description (Data 7):  "個人項目: 離職期間"
+    Description (Data 8):  "個人項目: 離職期間"
+    Description (Data 9):  "個人項目: 離職期間"
+    Description (Data 10): "個人項目: 離職期間"
+    Description (Data 11): "個人項目: 離職期間"
+    Description (Data 12): "個人項目: 離職期間"
+    Description (Data 13): "個人項目: 離職期間"
+    Description (Data 14): "個人項目: 離職期間"
+    Description (Data 15): "個人項目: 離職期間"
+    Description (Data 16): "個人項目: 離職期間"
+    Description (Data 17): "個人項目: 離職期間"
+    Description (Data 18): "個人項目: 離職期間"
+    Description (Data 19): "個人項目: 離職期間"
+    Description (Data 20): "個人項目: 離職期間"
+    Description (Data 21): "個人項目: 離職期間"
+    Description (Data 22): "個人項目: 離職期間"
+    Description (Data 23): "個人項目: 離職期間"
+    Description (Data 24): "個人項目: 離職期間"
+    Description (Data 25): "個人項目: 離職期間"
+    Description (Data 26): "個人項目: 離職期間"
+    Description (Data 27): "離職期間"
+    Description (Data 28): "離職期間"
+    Description (Data 29): "個人項目: 離職期間"
+    Description (Data 30): "個人項目: 離職期間"
+    Description (Data 31): "個人項目: 離職期間"
+    Description (Data 32): "個人項目: 離職期間"
+    Description (Data 33): "個人項目: 離職期間"
+    Description (Data 34): "個人項目: 離職期間"
+    Description (Data 35): "個人項目: 離職期間"
+    Description (Data 36): "個人項目: 離職期間"
+    Description (Data 37): "個人項目: 離職期間"
+    Description (Data 38): "個人項目: 離職期間"
+    Description (Data 39): "個人項目: 離職期間"
+    Description (Data 40): "個人項目: 離職期間"
+    Description (Data 41): "個人項目: 離職期間"
+    Description (Data 42): "個人項目: 離職期間"
+    Description (Data 43): "個人項目: 離職期間"
+    Description (Data 44): "個人項目: 離職期間"
+
+    Values (Base):     1: 15日未満, 2: 15日〜1ヶ月未満, 3: 1ヶ月〜3ヶ月未満, 4: 3ヶ月〜6ヶ月未満, 5: 6ヶ月〜1年未満
+    Values (Data 1):   1: 15日未満, 2: 15日〜1ヶ月未満, 3: 1ヶ月〜3ヶ月未満, 4: 3ヶ月〜6ヶ月未満, 5: 6ヶ月〜1年未満
+    Values (Data 2):   1: 15日未満, 2: 15日〜1ヶ月未満, 3: 1ヶ月〜3ヶ月未満, 4: 3ヶ月〜6ヶ月未満, 5: 6ヶ月〜1年未満
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 19):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 20):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 21):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 22):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 23):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 24):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 25):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 26):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 27):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 28):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 29):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 30):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 31):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 32):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 33):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 34):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 35):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 36):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 37):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 38):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 39):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 40):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 41):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 42):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 43):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+    Values (Data 44):  1: 15日未満, 2: 15日~1ヶ月未満, 3: 1ヶ月~3ヶ月未満, 4: 3ヶ月~6ヶ月未満, 5: 6ヶ月~1年未満, 6: 1年~1年6ヶ月未満, 7: 1年6ヶ月~2年未満
+
+----------------------------------------------------------------------*/
+gen v46_NEWVARIABLE = .
+local var_lab: variable label var46
+local val_lab: value label var46
+capture replace v46_NEWVARIABLE = var46  if `data'==1
+capture replace v46_NEWVARIABLE = var46  if `data'==2
+capture replace v46_NEWVARIABLE = var46  if `data'==3
+capture replace v46_NEWVARIABLE = var46  if `data'==4
+capture replace v46_NEWVARIABLE = var46  if `data'==5
+capture replace v46_NEWVARIABLE = var46  if `data'==6
+capture replace v46_NEWVARIABLE = var46  if `data'==7
+capture replace v46_NEWVARIABLE = var46  if `data'==8
+capture replace v46_NEWVARIABLE = var47  if `data'==9
+capture replace v46_NEWVARIABLE = var47  if `data'==10
+capture replace v46_NEWVARIABLE = var47  if `data'==11
+capture replace v46_NEWVARIABLE = var47  if `data'==12
+capture replace v46_NEWVARIABLE = var47  if `data'==13
+capture replace v46_NEWVARIABLE = var47  if `data'==14
+capture replace v46_NEWVARIABLE = var48  if `data'==15
+capture replace v46_NEWVARIABLE = var48  if `data'==16
+capture replace v46_NEWVARIABLE = var48  if `data'==17
+capture replace v46_NEWVARIABLE = var48  if `data'==18
+capture replace v46_NEWVARIABLE = var56  if `data'==19
+capture replace v46_NEWVARIABLE = var56  if `data'==20
+capture replace v46_NEWVARIABLE = var56  if `data'==21
+capture replace v46_NEWVARIABLE = var56  if `data'==22
+capture replace v46_NEWVARIABLE = var56  if `data'==23
+capture replace v46_NEWVARIABLE = var56  if `data'==24
+capture replace v46_NEWVARIABLE = var56  if `data'==25
+capture replace v46_NEWVARIABLE = var56  if `data'==26
+capture replace v46_NEWVARIABLE = var33  if `data'==27
+capture replace v46_NEWVARIABLE = var33  if `data'==28
+capture replace v46_NEWVARIABLE = var34  if `data'==29
+capture replace v46_NEWVARIABLE = var34  if `data'==30
+capture replace v46_NEWVARIABLE = var34  if `data'==31
+capture replace v46_NEWVARIABLE = var34  if `data'==32
+capture replace v46_NEWVARIABLE = var34  if `data'==33
+capture replace v46_NEWVARIABLE = var34  if `data'==34
+capture replace v46_NEWVARIABLE = var34  if `data'==35
+capture replace v46_NEWVARIABLE = var34  if `data'==36
+capture replace v46_NEWVARIABLE = var34  if `data'==37
+capture replace v46_NEWVARIABLE = var34  if `data'==38
+capture replace v46_NEWVARIABLE = var34  if `data'==39
+capture replace v46_NEWVARIABLE = var34  if `data'==40
+capture replace v46_NEWVARIABLE = var34  if `data'==41
+capture replace v46_NEWVARIABLE = var34  if `data'==42
+capture replace v46_NEWVARIABLE = var34  if `data'==43
+capture replace v46_NEWVARIABLE = var34  if `data'==44
+capture label variable v46_NEWVARIABLE `var_lab'
+capture label values v46_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目: 前職企業規模区分"
+    Description (Data 1):  "個人項目: 前職企業規模区分"
+    Description (Data 2):  "個人項目: 前職企業規模区分"
+    Description (Data 3):  "個人項目: 前職の企業規模"
+    Description (Data 4):  "個人項目: 前職の企業規模"
+    Description (Data 5):  "個人項目: 前職の企業規模"
+    Description (Data 6):  "個人項目: 前職の企業規模"
+    Description (Data 7):  "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 8):  "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 9):  "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 10): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 11): "個人項目前職の仕事の内容: チェック済"
+    Description (Data 12): "個人項目前職の仕事の内容: チェック済"
+    Description (Data 13): "個人項目前職の仕事の内容: チェック済"
+    Description (Data 14): "個人項目前職の仕事の内容: チェック済"
+    Description (Data 15): "個人項目前職の仕事の内容: チェック済"
+    Description (Data 16): "個人項目前職の仕事の内容: チェック済"
+    Description (Data 17): "個人項目前職の仕事の内容: チェック済"
+    Description (Data 18): "個人項目前職の仕事の内容: チェック済"
+    Description (Data 19): "個人項目: 空白3"
+    Description (Data 20): "個人項目: 空白3"
+    Description (Data 21): "個人項目: 空白3"
+    Description (Data 22): "個人項目: 空白3"
+    Description (Data 23): "個人項目: 空白3"
+    Description (Data 24): "個人項目: 空白3"
+    Description (Data 25): "個人項目: 空白3"
+    Description (Data 26): "個人項目: 空白3"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "個人項目: 前職の従業上の地位"
+    Description (Data 30): "個人項目: 前職の従業上の地位"
+    Description (Data 31): "個人項目: 前職の従業上の地位"
+    Description (Data 32): "個人項目: 前職の従業上の地位"
+    Description (Data 33): "個人項目: 前職の従業上の地位"
+    Description (Data 34): "個人項目: 前職の従業上の地位"
+    Description (Data 35): "個人項目: 前職の従業上の地位"
+    Description (Data 36): "個人項目: 前職の従業上の地位"
+    Description (Data 37): "個人項目: 前職の従業上の地位"
+    Description (Data 38): "個人項目: 前職の従業上の地位"
+    Description (Data 39): "個人項目: 前職の従業上の地位"
+    Description (Data 40): "個人項目: 前職の従業上の地位"
+    Description (Data 41): "個人項目: 前職の従業上の地位"
+    Description (Data 42): "個人項目: 前職の従業上の地位"
+    Description (Data 43): "個人項目: 前職の従業上の地位"
+    Description (Data 44): "個人項目: 前職の従業上の地位"
+
+    Values (Base):     1: 1000人以上, 2: 300〜999人, 3: 100〜299人, 4: 30〜99人, 5: 5〜29人, 6: 1〜4人, 7: 官公営
+    Values (Data 1):   1: 1000人以上, 2: 300〜999人, 3: 100〜299人, 4: 30〜99人, 5: 5〜29人, 6: 1〜4人, 7: 官公営
+    Values (Data 2):   1: 1000人以上, 2: 300〜999人, 3: 100〜299人, 4: 30〜99人, 5: 5〜29人, 6: 1〜4人, 7: 官公営
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 7):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 8):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 9):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:6,7, 3: 前職の仕事の内容チェック済:5,8
+    Values (Data 10):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:6,7, 3: 前職の仕事の内容チェック済:5,8
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 19): 
+    Values (Data 20): 
     Values (Data 21): 
     Values (Data 22): 
     Values (Data 23): 
     Values (Data 24): 
     Values (Data 25): 
     Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
+    Values (Data 30):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
+    Values (Data 31):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
+    Values (Data 32):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
+    Values (Data 33):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
+    Values (Data 34):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
+    Values (Data 35):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
+    Values (Data 36):  1: 雇用者(一般労働者), 2: 雇用者(パートタイム労働者), 3: 自営業主・家族従業者
+    Values (Data 37):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
+    Values (Data 38):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
+    Values (Data 39):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
+    Values (Data 40):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
+    Values (Data 41):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
+    Values (Data 42):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
+    Values (Data 43):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
+    Values (Data 44):  1: 雇用者(一般労働者)(雇用期間の定めなし), 2: 雇用者(一般労働者)(雇用期間の定めあり), 3: 雇用者(パートタイム労働者)(雇用期間の定めなし), 4: 雇用者(パートタイム労働者)(雇用期間の定めあり), 5: 自営業主・家族従業者
 
 ----------------------------------------------------------------------*/
-gen v58_NEWVARIABLE = .
-local var_lab: variable label var58
-local val_lab: value label var58
-capture replace v58_NEWVARIABLE = var58  if `data'==1
-capture replace v58_NEWVARIABLE = var58  if `data'==2
-capture replace v58_NEWVARIABLE = var58  if `data'==3
-capture replace v58_NEWVARIABLE = var58  if `data'==4
-capture replace v58_NEWVARIABLE = var58  if `data'==5
-capture replace v58_NEWVARIABLE = var58  if `data'==6
-capture replace v58_NEWVARIABLE = var58  if `data'==7
-capture replace v58_NEWVARIABLE = var58  if `data'==8
-capture replace v58_NEWVARIABLE = var15  if `data'==11
-capture replace v58_NEWVARIABLE = var15  if `data'==12
-capture replace v58_NEWVARIABLE = var15  if `data'==13
-capture replace v58_NEWVARIABLE = var15  if `data'==14
-capture replace v58_NEWVARIABLE = var15  if `data'==15
-capture replace v58_NEWVARIABLE = var15  if `data'==16
-capture replace v58_NEWVARIABLE = var15  if `data'==17
-capture replace v58_NEWVARIABLE = var15  if `data'==18
-capture replace v58_NEWVARIABLE = var15  if `data'==19
-capture replace v58_NEWVARIABLE = var15  if `data'==20
-capture replace v58_NEWVARIABLE = var15  if `data'==21
-capture replace v58_NEWVARIABLE = var15  if `data'==22
-capture replace v58_NEWVARIABLE = var15  if `data'==23
-capture replace v58_NEWVARIABLE = var15  if `data'==24
-capture replace v58_NEWVARIABLE = var15  if `data'==25
-capture replace v58_NEWVARIABLE = var15  if `data'==26
-capture label variable v58_NEWVARIABLE `var_lab'
-capture label values v58_NEWVARIABLE `val_lab'
+gen v47_NEWVARIABLE = .
+local var_lab: variable label var47
+local val_lab: value label var47
+capture replace v47_NEWVARIABLE = var47  if `data'==1
+capture replace v47_NEWVARIABLE = var47  if `data'==2
+capture replace v47_NEWVARIABLE = var47  if `data'==3
+capture replace v47_NEWVARIABLE = var47  if `data'==4
+capture replace v47_NEWVARIABLE = var47  if `data'==5
+capture replace v47_NEWVARIABLE = var47  if `data'==6
+capture replace v47_NEWVARIABLE = var41  if `data'==7
+capture replace v47_NEWVARIABLE = var41  if `data'==8
+capture replace v47_NEWVARIABLE = var42  if `data'==9
+capture replace v47_NEWVARIABLE = var42  if `data'==10
+capture replace v47_NEWVARIABLE = var41  if `data'==11
+capture replace v47_NEWVARIABLE = var41  if `data'==12
+capture replace v47_NEWVARIABLE = var41  if `data'==13
+capture replace v47_NEWVARIABLE = var41  if `data'==14
+capture replace v47_NEWVARIABLE = var42  if `data'==15
+capture replace v47_NEWVARIABLE = var42  if `data'==16
+capture replace v47_NEWVARIABLE = var42  if `data'==17
+capture replace v47_NEWVARIABLE = var42  if `data'==18
+capture replace v47_NEWVARIABLE = var58  if `data'==19
+capture replace v47_NEWVARIABLE = var58  if `data'==20
+capture replace v47_NEWVARIABLE = var58  if `data'==21
+capture replace v47_NEWVARIABLE = var58  if `data'==22
+capture replace v47_NEWVARIABLE = var58  if `data'==23
+capture replace v47_NEWVARIABLE = var58  if `data'==24
+capture replace v47_NEWVARIABLE = var58  if `data'==25
+capture replace v47_NEWVARIABLE = var58  if `data'==26
+capture replace v47_NEWVARIABLE = var33  if `data'==29
+capture replace v47_NEWVARIABLE = var33  if `data'==30
+capture replace v47_NEWVARIABLE = var33  if `data'==31
+capture replace v47_NEWVARIABLE = var33  if `data'==32
+capture replace v47_NEWVARIABLE = var33  if `data'==33
+capture replace v47_NEWVARIABLE = var33  if `data'==34
+capture replace v47_NEWVARIABLE = var33  if `data'==35
+capture replace v47_NEWVARIABLE = var33  if `data'==36
+capture replace v47_NEWVARIABLE = var33  if `data'==37
+capture replace v47_NEWVARIABLE = var33  if `data'==38
+capture replace v47_NEWVARIABLE = var33  if `data'==39
+capture replace v47_NEWVARIABLE = var33  if `data'==40
+capture replace v47_NEWVARIABLE = var33  if `data'==41
+capture replace v47_NEWVARIABLE = var33  if `data'==42
+capture replace v47_NEWVARIABLE = var33  if `data'==43
+capture replace v47_NEWVARIABLE = var33  if `data'==44
+capture label variable v47_NEWVARIABLE `var_lab'
+capture label values v47_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
-    Description (Data 1):  "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
-    Description (Data 2):  "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
-    Description (Data 3):  "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
-    Description (Data 4):  "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
-    Description (Data 5):  "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
-    Description (Data 6):  "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
-    Description (Data 7):  "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
-    Description (Data 8):  "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "個人項目転職理由: 理由数数"
+    Description (Data 1):  "個人項目転職理由: 理由数数"
+    Description (Data 2):  "個人項目転職理由: 理由数数"
+    Description (Data 3):  "個人項目転職理由: 転職理由数"
+    Description (Data 4):  "個人項目転職理由: 転職理由数"
+    Description (Data 5):  "個人項目転職理由: 転職理由数"
+    Description (Data 6):  "個人項目転職理由: 転職理由数"
+    Description (Data 7):  "個人項目転職理由: 転職理由数"
+    Description (Data 8):  "個人項目転職理由: 転職理由数"
+    Description (Data 9):  "個人項目転職理由: 転職理由数"
+    Description (Data 10): "個人項目転職理由: 転職理由数"
+    Description (Data 11): "個人項目前の勤め先を辞めた理由: チェック済"
+    Description (Data 12): "個人項目前の勤め先を辞めた理由: チェック済"
+    Description (Data 13): "個人項目前の勤め先を辞めた理由: チェック済"
+    Description (Data 14): "個人項目前の勤め先を辞めた理由: チェック済"
+    Description (Data 15): "個人項目前の勤め先を辞めた理由: チェック済"
+    Description (Data 16): "個人項目前の勤め先を辞めた理由: チェック済"
+    Description (Data 17): "個人項目前の勤め先を辞めた理由: チェック済"
+    Description (Data 18): "個人項目前の勤め先を辞めた理由: チェック済"
+    Description (Data 19): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 20): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 21): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 22): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 23): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 24): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 25): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 26): "個人項目前の勤め先を辞めた理由: 分類表28-2"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):     1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 1):   1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 2):   1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 3):   1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 4):   1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 5):   1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 6):   1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 7):   1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 8):   1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Base):     0: , 1: 不詳, 2: 対象外, 3: 
+    Values (Data 1):   0: , 1: 不詳, 2: 対象外, 3: 
+    Values (Data 2):   0: , 1: 不詳, 2: 対象外, 3: 
+    Values (Data 3):   0: , 1: , 2: , 3: 
+    Values (Data 4):   0: , 1: , 2: , 3: 
+    Values (Data 5):   0: , 1: , 2: , 3: 
+    Values (Data 6):   0: , 1: , 2: , 3: 
+    Values (Data 7):   0: , 1: , 2: , 3: 
+    Values (Data 8):   0: , 1: , 2: , 3: 
+    Values (Data 9):   0: , 1: , 2: , 3: 
+    Values (Data 10):  0: , 1: , 2: , 3: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 19):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 20):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 21):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 22):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 23):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 24):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 25):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 26):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v59_NEWVARIABLE = .
-local var_lab: variable label var59
-local val_lab: value label var59
-capture replace v59_NEWVARIABLE = var59  if `data'==1
-capture replace v59_NEWVARIABLE = var59  if `data'==2
-capture replace v59_NEWVARIABLE = var59  if `data'==3
-capture replace v59_NEWVARIABLE = var59  if `data'==4
-capture replace v59_NEWVARIABLE = var59  if `data'==5
-capture replace v59_NEWVARIABLE = var59  if `data'==6
-capture replace v59_NEWVARIABLE = var59  if `data'==7
-capture replace v59_NEWVARIABLE = var59  if `data'==8
-capture label variable v59_NEWVARIABLE `var_lab'
-capture label values v59_NEWVARIABLE `val_lab'
+gen v48_NEWVARIABLE = .
+local var_lab: variable label var48
+local val_lab: value label var48
+capture replace v48_NEWVARIABLE = var48  if `data'==1
+capture replace v48_NEWVARIABLE = var48  if `data'==2
+capture replace v48_NEWVARIABLE = var48  if `data'==3
+capture replace v48_NEWVARIABLE = var48  if `data'==4
+capture replace v48_NEWVARIABLE = var48  if `data'==5
+capture replace v48_NEWVARIABLE = var48  if `data'==6
+capture replace v48_NEWVARIABLE = var48  if `data'==7
+capture replace v48_NEWVARIABLE = var48  if `data'==8
+capture replace v48_NEWVARIABLE = var49  if `data'==9
+capture replace v48_NEWVARIABLE = var49  if `data'==10
+capture replace v48_NEWVARIABLE = var49  if `data'==11
+capture replace v48_NEWVARIABLE = var49  if `data'==12
+capture replace v48_NEWVARIABLE = var49  if `data'==13
+capture replace v48_NEWVARIABLE = var49  if `data'==14
+capture replace v48_NEWVARIABLE = var50  if `data'==15
+capture replace v48_NEWVARIABLE = var50  if `data'==16
+capture replace v48_NEWVARIABLE = var50  if `data'==17
+capture replace v48_NEWVARIABLE = var50  if `data'==18
+capture replace v48_NEWVARIABLE = var61  if `data'==19
+capture replace v48_NEWVARIABLE = var61  if `data'==20
+capture replace v48_NEWVARIABLE = var61  if `data'==21
+capture replace v48_NEWVARIABLE = var61  if `data'==22
+capture replace v48_NEWVARIABLE = var61  if `data'==23
+capture replace v48_NEWVARIABLE = var61  if `data'==24
+capture replace v48_NEWVARIABLE = var61  if `data'==25
+capture replace v48_NEWVARIABLE = var61  if `data'==26
+capture label variable v48_NEWVARIABLE `var_lab'
+capture label values v48_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目前の勤め先を辞めた理由: 分類表28前"
-    Description (Data 1):  "個人項目前の勤め先を辞めた理由: 分類表28前"
-    Description (Data 2):  "個人項目前の勤め先を辞めた理由: 分類表28前"
-    Description (Data 3):  "個人項目前の勤め先を辞めた理由: 分類表28前"
-    Description (Data 4):  "個人項目前の勤め先を辞めた理由: 分類表28前"
-    Description (Data 5):  "個人項目前の勤め先を辞めた理由: 分類表28前"
-    Description (Data 6):  "個人項目前の勤め先を辞めた理由: 分類表28前"
-    Description (Data 7):  "個人項目前の勤め先を辞めた理由: 分類表28前"
-    Description (Data 8):  "個人項目前の勤め先を辞めた理由: 分類表28前"
-    Description (Data 9):  "前の勤め先を辞めた理由"
-    Description (Data 10): "前の勤め先を辞めた理由"
-    Description (Data 11): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 12): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 13): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 14): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 15): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 16): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 17): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 18): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 19): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 20): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 21): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 22): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 23): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 24): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 25): "個人項目: 前の勤務先を辞めた理由"
-    Description (Data 26): "個人項目: 前の勤務先を辞めた理由"
+    Description (Base):    "個人項目転職理由その1: 調査票コード"
+    Description (Data 1):  "個人項目転職理由その1: 調査票コード"
+    Description (Data 2):  "個人項目転職理由その1: 調査票コード"
+    Description (Data 3):  "個人項目転職理由その1: チェック済"
+    Description (Data 4):  "個人項目転職理由その1: チェック済"
+    Description (Data 5):  "個人項目転職理由その1: チェック済"
+    Description (Data 6):  "個人項目転職理由その1: チェック済"
+    Description (Data 7):  "個人項目転職理由その1: チェック済"
+    Description (Data 8):  "個人項目転職理由その1: チェック済"
+    Description (Data 9):  "個人項目転職理由その1: チェック済"
+    Description (Data 10): "個人項目転職理由その1: チェック済"
+    Description (Data 11): "個人項目仕事の内容: チェック済"
+    Description (Data 12): "個人項目仕事の内容: チェック済"
+    Description (Data 13): "個人項目仕事の内容: チェック済"
+    Description (Data 14): "個人項目仕事の内容: チェック済"
+    Description (Data 15): "個人項目仕事の内容: チェック済"
+    Description (Data 16): "個人項目仕事の内容: チェック済"
+    Description (Data 17): "個人項目仕事の内容: チェック済"
+    Description (Data 18): "個人項目仕事の内容: チェック済"
+    Description (Data 19): "個人項目仕事の内容: 仕事の内容チェック済"
+    Description (Data 20): "個人項目仕事の内容: 仕事の内容チェック済"
+    Description (Data 21): "個人項目仕事の内容: 仕事の内容チェック済"
+    Description (Data 22): "個人項目仕事の内容: 仕事の内容チェック済"
+    Description (Data 23): "個人項目仕事の内容: 仕事の内容チェック済"
+    Description (Data 24): "個人項目仕事の内容: 仕事の内容チェック済"
+    Description (Data 25): "個人項目仕事の内容: 仕事の内容チェック済"
+    Description (Data 26): "個人項目仕事の内容: 仕事の内容チェック済"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):     1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 1):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 2):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 3):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 4):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 5):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 6):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 7):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 8):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 9):   1: 仕事の内容に興味がない, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 10):  1: 仕事の内容に興味がない, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
-    Values (Data 11):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年・契約期間の満了, 9: 会社の都合, 10: その他の理由(出向等含む)
-    Values (Data 12):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年・契約期間の満了, 9: 会社の都合, 10: その他の理由(出向等含む)
-    Values (Data 13):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年・契約期間の満了, 9: 会社の都合, 10: その他の理由(出向等含む)
-    Values (Data 14):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年・契約期間の満了, 9: 会社の都合, 10: その他の理由(出向等含む)
-    Values (Data 15):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 16):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 17):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 18):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 19):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 20):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 21):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 22):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 23):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 24):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 25):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
-    Values (Data 26):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Base):     1: 能力・個性・資格が生かせる, 2: 仕事内容に興味があった, 3: 会社の将来性が期待できる, 4: 福利厚生制度・施設が充実している, 5: 給料等収入が多い, 6: 労働時間・休日等の労働条件が良い, 7: 通勤が便利, 8: 前の仕事が合わなかったやりがいを感じられなかった, 9: 前の職場の人間関係が好ましくなかった, 10: 出向・出向からの復帰, 11: 定年・会社都合, 12: 知人の紹介・スカウト等, 13: Uターン・家庭の事情, 14: 健康上の理由, 15: その他の理由
+    Values (Data 1):   1: 能力・個性・資格が生かせる, 2: 仕事内容に興味があった, 3: 会社の将来性が期待できる, 4: 福利厚生制度・施設が充実している, 5: 給料等収入が多い, 6: 労働時間・休日等の労働条件が良い, 7: 通勤が便利, 8: 前の仕事が合わなかったやりがいを感じられなかった, 9: 前の職場の人間関係が好ましくなかった, 10: 出向・出向からの復帰, 11: 定年・会社都合, 12: 知人の紹介・スカウト等, 13: Uターン・家庭の事情, 14: 健康上の理由, 15: その他の理由
+    Values (Data 2):   1: 能力・個性・資格が生かせる, 2: 仕事内容に興味があった, 3: 会社の将来性が期待できる, 4: 福利厚生制度・施設が充実している, 5: 給料等収入が多い, 6: 労働時間・休日等の労働条件が良い, 7: 通勤が便利, 8: 前の仕事が合わなかったやりがいを感じられなかった, 9: 前の職場の人間関係が好ましくなかった, 10: 出向・出向からの復帰, 11: 定年・会社都合, 12: 知人の紹介・スカウト等, 13: Uターン・家庭の事情, 14: 健康上の理由, 15: その他の理由
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 19):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 20):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 21):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 22):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 23):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 24):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 25):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 26):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v60_NEWVARIABLE = .
-local var_lab: variable label var60
-local val_lab: value label var60
-capture replace v60_NEWVARIABLE = var60  if `data'==1
-capture replace v60_NEWVARIABLE = var60  if `data'==2
-capture replace v60_NEWVARIABLE = var60  if `data'==3
-capture replace v60_NEWVARIABLE = var60  if `data'==4
-capture replace v60_NEWVARIABLE = var60  if `data'==5
-capture replace v60_NEWVARIABLE = var60  if `data'==6
-capture replace v60_NEWVARIABLE = var60  if `data'==7
-capture replace v60_NEWVARIABLE = var60  if `data'==8
-capture replace v60_NEWVARIABLE = var35  if `data'==9
-capture replace v60_NEWVARIABLE = var35  if `data'==10
-capture replace v60_NEWVARIABLE = var36  if `data'==11
-capture replace v60_NEWVARIABLE = var36  if `data'==12
-capture replace v60_NEWVARIABLE = var36  if `data'==13
-capture replace v60_NEWVARIABLE = var36  if `data'==14
-capture replace v60_NEWVARIABLE = var36  if `data'==15
-capture replace v60_NEWVARIABLE = var36  if `data'==16
-capture replace v60_NEWVARIABLE = var36  if `data'==17
-capture replace v60_NEWVARIABLE = var36  if `data'==18
-capture replace v60_NEWVARIABLE = var36  if `data'==19
-capture replace v60_NEWVARIABLE = var36  if `data'==20
-capture replace v60_NEWVARIABLE = var36  if `data'==21
-capture replace v60_NEWVARIABLE = var36  if `data'==22
-capture replace v60_NEWVARIABLE = var36  if `data'==23
-capture replace v60_NEWVARIABLE = var36  if `data'==24
-capture replace v60_NEWVARIABLE = var36  if `data'==25
-capture replace v60_NEWVARIABLE = var36  if `data'==26
-capture label variable v60_NEWVARIABLE `var_lab'
-capture label values v60_NEWVARIABLE `val_lab'
+gen v49_NEWVARIABLE = .
+local var_lab: variable label var49
+local val_lab: value label var49
+capture replace v49_NEWVARIABLE = var49  if `data'==1
+capture replace v49_NEWVARIABLE = var49  if `data'==2
+capture replace v49_NEWVARIABLE = var49  if `data'==3
+capture replace v49_NEWVARIABLE = var49  if `data'==4
+capture replace v49_NEWVARIABLE = var49  if `data'==5
+capture replace v49_NEWVARIABLE = var49  if `data'==6
+capture replace v49_NEWVARIABLE = var49  if `data'==7
+capture replace v49_NEWVARIABLE = var49  if `data'==8
+capture replace v49_NEWVARIABLE = var50  if `data'==9
+capture replace v49_NEWVARIABLE = var50  if `data'==10
+capture replace v49_NEWVARIABLE = var30  if `data'==11
+capture replace v49_NEWVARIABLE = var30  if `data'==12
+capture replace v49_NEWVARIABLE = var30  if `data'==13
+capture replace v49_NEWVARIABLE = var30  if `data'==14
+capture replace v49_NEWVARIABLE = var29  if `data'==15
+capture replace v49_NEWVARIABLE = var29  if `data'==16
+capture replace v49_NEWVARIABLE = var29  if `data'==17
+capture replace v49_NEWVARIABLE = var29  if `data'==18
+capture replace v49_NEWVARIABLE = var38  if `data'==19
+capture replace v49_NEWVARIABLE = var38  if `data'==20
+capture replace v49_NEWVARIABLE = var38  if `data'==21
+capture replace v49_NEWVARIABLE = var38  if `data'==22
+capture replace v49_NEWVARIABLE = var38  if `data'==23
+capture replace v49_NEWVARIABLE = var38  if `data'==24
+capture replace v49_NEWVARIABLE = var38  if `data'==25
+capture replace v49_NEWVARIABLE = var38  if `data'==26
+capture label variable v49_NEWVARIABLE `var_lab'
+capture label values v49_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目前の勤め先を辞めた理由: 分類表28-2"
-    Description (Data 1):  "個人項目前の勤め先を辞めた理由: 分類表28-2"
-    Description (Data 2):  "個人項目前の勤め先を辞めた理由: 分類表28-2"
-    Description (Data 3):  "個人項目前の勤め先を辞めた理由: 分類表28-2"
-    Description (Data 4):  "個人項目前の勤め先を辞めた理由: 分類表28-2"
-    Description (Data 5):  "個人項目前の勤め先を辞めた理由: 分類表28-2"
-    Description (Data 6):  "個人項目前の勤め先を辞めた理由: 分類表28-2"
-    Description (Data 7):  "個人項目前の勤め先を辞めた理由: 分類表28-2"
-    Description (Data 8):  "個人項目前の勤め先を辞めた理由: 分類表28-2"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "個人項目転職理由その1: 分類表28コード"
+    Description (Data 1):  "個人項目転職理由その1: 分類表28コード"
+    Description (Data 2):  "個人項目転職理由その1: 分類表28コード"
+    Description (Data 3):  "個人項目転職理由その1: 分類表28"
+    Description (Data 4):  "個人項目転職理由その1: 分類表28"
+    Description (Data 5):  "個人項目転職理由その1: 分類表28"
+    Description (Data 6):  "個人項目転職理由その1: 分類表28"
+    Description (Data 7):  "個人項目転職理由その1: 分類表28"
+    Description (Data 8):  "個人項目転職理由その1: 分類表28"
+    Description (Data 9):  "個人項目転職理由その1: 分類表28"
+    Description (Data 10): "個人項目転職理由その1: 分類表28"
+    Description (Data 11): "個人項目就業の経験: 分類表13"
+    Description (Data 12): "個人項目就業の経験: 分類表13"
+    Description (Data 13): "個人項目就業の経験: 分類表13"
+    Description (Data 14): "個人項目就業の経験: 分類表13"
+    Description (Data 15): "個人項目就業の経験: 分類表18-2"
+    Description (Data 16): "個人項目就業の経験: 分類表18-2"
+    Description (Data 17): "個人項目就業の経験: 分類表18-2"
+    Description (Data 18): "個人項目就業の経験: 分類表18-2"
+    Description (Data 19): "個人項目就業の経験: 分類表18-2"
+    Description (Data 20): "個人項目就業の経験: 分類表18-2"
+    Description (Data 21): "個人項目就業の経験: 分類表18-2"
+    Description (Data 22): "個人項目就業の経験: 分類表18-2"
+    Description (Data 23): "個人項目就業の経験: 分類表18-2"
+    Description (Data 24): "個人項目就業の経験: 分類表18-2"
+    Description (Data 25): "個人項目就業の経験: 分類表18-2"
+    Description (Data 26): "個人項目就業の経験: 分類表18-2"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):     1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 1):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 2):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 3):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 4):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 5):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 6):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 7):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 8):   1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Base):     8: 能力・個性・資格が生かせる, 9: 仕事内容に興味があった, 10: 会社の将来性が期待できる, 11: 福利厚生制度・施設が充実している, 12: 給料等収入が多い, 13: 労働時間・休日等の労働条件が良い, 14: 前の仕事が合わなかったやりがいを感じられなかった, 15: 前の職場の人間関係が好ましくなかった, 16: その他の理由, 17: 通勤が便利, 18: 出向・出向からの復帰, 19: 定年・会社都合, 20: 健康上の理由, 21: 知人の紹介・スカウト等, 22: Uターン・家庭の事情
+    Values (Data 1):   8: 能力・個性・資格が生かせる, 9: 仕事内容に興味があった, 10: 会社の将来性が期待できる, 11: 福利厚生制度・施設が充実している, 12: 給料等収入が多い, 13: 労働時間・休日等の労働条件が良い, 14: 前の仕事が合わなかったやりがいを感じられなかった, 15: 前の職場の人間関係が好ましくなかった, 16: その他の理由, 17: 通勤が便利, 18: 出向・出向からの復帰, 19: 定年・会社都合, 20: 健康上の理由, 21: 知人の紹介・スカウト等, 22: Uターン・家庭の事情
+    Values (Data 2):   8: 能力・個性・資格が生かせる, 9: 仕事内容に興味があった, 10: 会社の将来性が期待できる, 11: 福利厚生制度・施設が充実している, 12: 給料等収入が多い, 13: 労働時間・休日等の労働条件が良い, 14: 前の仕事が合わなかったやりがいを感じられなかった, 15: 前の職場の人間関係が好ましくなかった, 16: その他の理由, 17: 通勤が便利, 18: 出向・出向からの復帰, 19: 定年・会社都合, 20: 健康上の理由, 21: 知人の紹介・スカウト等, 22: Uターン・家庭の事情
+    Values (Data 3):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 4):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 5):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 6):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 7):   1: 転職理由チェック済み:01, 2: 転職理由チェック済み:02, 3: 転職理由チェック済み:03, 4: 転職理由チェック済み:04, 5: 転職理由チェック済み:05, 6: 転職理由チェック済み:06, 7: 転職理由チェック済み:10, 8: 転職理由チェック済み:07, 9: 転職理由チェック済み:08, 10: 転職理由チェック済み:11, 11: 転職理由チェック済み:12, 12: 転職理由チェック済み:13, 13: 転職理由チェック済み:14, 14: 転職理由チェック済み:15, 15: 転職理由チェック済み:16
+    Values (Data 8):   1: 転職理由チェック済み:01, 2: 転職理由チェック済み:02, 3: 転職理由チェック済み:03, 4: 転職理由チェック済み:04, 5: 転職理由チェック済み:05, 6: 転職理由チェック済み:06, 7: 転職理由チェック済み:10, 8: 転職理由チェック済み:07, 9: 転職理由チェック済み:08, 10: 転職理由チェック済み:11, 11: 転職理由チェック済み:12, 12: 転職理由チェック済み:13, 13: 転職理由チェック済み:14, 14: 転職理由チェック済み:15, 15: 転職理由チェック済み:16
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 11):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 12):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 13):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 14):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 15):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:不明
+    Values (Data 16):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:不明
+    Values (Data 17):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:不明
+    Values (Data 18):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:不明
+    Values (Data 19):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
+    Values (Data 20):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
+    Values (Data 21):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
+    Values (Data 22):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
+    Values (Data 23):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
+    Values (Data 24):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
+    Values (Data 25):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
+    Values (Data 26):  2: 就業の経験:1、離職期間:1, 3: 就業の経験:1、離職期間:2, 4: 就業の経験:1、離職期間:3, 5: 就業の経験:1、離職期間:4, 6: 就業の経験:1、離職期間:5, 7: 就業の経験:1、離職期間:V, 9: 就業の経験:2、離職期間:6, 10: 就業の経験:2、離職期間:7, 11: 就業の経験:2、離職期間:V
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v61_NEWVARIABLE = .
-local var_lab: variable label var61
-local val_lab: value label var61
-capture replace v61_NEWVARIABLE = var61  if `data'==1
-capture replace v61_NEWVARIABLE = var61  if `data'==2
-capture replace v61_NEWVARIABLE = var61  if `data'==3
-capture replace v61_NEWVARIABLE = var61  if `data'==4
-capture replace v61_NEWVARIABLE = var61  if `data'==5
-capture replace v61_NEWVARIABLE = var61  if `data'==6
-capture replace v61_NEWVARIABLE = var61  if `data'==7
-capture replace v61_NEWVARIABLE = var61  if `data'==8
-capture label variable v61_NEWVARIABLE `var_lab'
-capture label values v61_NEWVARIABLE `val_lab'
+gen v50_NEWVARIABLE = .
+local var_lab: variable label var50
+local val_lab: value label var50
+capture replace v50_NEWVARIABLE = var50  if `data'==1
+capture replace v50_NEWVARIABLE = var50  if `data'==2
+capture replace v50_NEWVARIABLE = var50  if `data'==3
+capture replace v50_NEWVARIABLE = var50  if `data'==4
+capture replace v50_NEWVARIABLE = var50  if `data'==5
+capture replace v50_NEWVARIABLE = var50  if `data'==6
+capture replace v50_NEWVARIABLE = var50  if `data'==7
+capture replace v50_NEWVARIABLE = var50  if `data'==8
+capture replace v50_NEWVARIABLE = var51  if `data'==9
+capture replace v50_NEWVARIABLE = var51  if `data'==10
+capture replace v50_NEWVARIABLE = var33  if `data'==11
+capture replace v50_NEWVARIABLE = var33  if `data'==12
+capture replace v50_NEWVARIABLE = var33  if `data'==13
+capture replace v50_NEWVARIABLE = var33  if `data'==14
+capture replace v50_NEWVARIABLE = var35  if `data'==15
+capture replace v50_NEWVARIABLE = var35  if `data'==16
+capture replace v50_NEWVARIABLE = var35  if `data'==17
+capture replace v50_NEWVARIABLE = var35  if `data'==18
+capture replace v50_NEWVARIABLE = var44  if `data'==19
+capture replace v50_NEWVARIABLE = var44  if `data'==20
+capture replace v50_NEWVARIABLE = var44  if `data'==21
+capture replace v50_NEWVARIABLE = var44  if `data'==22
+capture replace v50_NEWVARIABLE = var44  if `data'==23
+capture replace v50_NEWVARIABLE = var44  if `data'==24
+capture replace v50_NEWVARIABLE = var44  if `data'==25
+capture replace v50_NEWVARIABLE = var44  if `data'==26
+capture label variable v50_NEWVARIABLE `var_lab'
+capture label values v50_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
-    Description (Data 1):  "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
-    Description (Data 2):  "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
-    Description (Data 3):  "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
-    Description (Data 4):  "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
-    Description (Data 5):  "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
-    Description (Data 6):  "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
-    Description (Data 7):  "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
-    Description (Data 8):  "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "個人項目転職理由その2: 調査票コード"
+    Description (Data 1):  "個人項目転職理由その2: 調査票コード"
+    Description (Data 2):  "個人項目転職理由その2: 調査票コード"
+    Description (Data 3):  "個人項目転職理由その2: チェック済"
+    Description (Data 4):  "個人項目転職理由その2: チェック済"
+    Description (Data 5):  "個人項目転職理由その2: チェック済"
+    Description (Data 6):  "個人項目転職理由その2: チェック済"
+    Description (Data 7):  "個人項目転職理由その2: チェック済"
+    Description (Data 8):  "個人項目転職理由その2: チェック済"
+    Description (Data 9):  "個人項目転職理由その2: チェック済"
+    Description (Data 10): "個人項目転職理由その2: チェック済"
+    Description (Data 11): "個人項目就業の経験: チェック済"
+    Description (Data 12): "個人項目就業の経験: チェック済"
+    Description (Data 13): "個人項目就業の経験: チェック済"
+    Description (Data 14): "個人項目就業の経験: チェック済"
+    Description (Data 15): "個人項目就業の経験: チェック済"
+    Description (Data 16): "個人項目就業の経験: チェック済"
+    Description (Data 17): "個人項目就業の経験: チェック済"
+    Description (Data 18): "個人項目就業の経験: チェック済"
+    Description (Data 19): "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
+    Description (Data 20): "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
+    Description (Data 21): "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
+    Description (Data 22): "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
+    Description (Data 23): "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
+    Description (Data 24): "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
+    Description (Data 25): "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
+    Description (Data 26): "個人項目前職の仕事の内容: 前職の仕事の内容チェック済"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):     11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 1):   11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 2):   11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 3):   11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 4):   11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 5):   11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 6):   11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 7):   11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 8):   11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Base):     1: 能力・個性・資格が生かせる, 2: 仕事内容に興味があった, 3: 会社の将来性が期待できる, 4: 福利厚生制度・施設が充実している, 5: 給料等収入が多い, 6: 労働時間・休日等の労働条件が良い, 7: 通勤が便利, 8: 前の仕事が合わなかったやりがいを感じられなかった, 9: 前の職場の人間関係が好ましくなかった, 10: 出向・出向からの復帰, 11: 定年・会社都合, 12: 知人の紹介・スカウト等, 13: Uターン・家庭の事情, 14: 健康上の理由, 15: その他の理由
+    Values (Data 1):   1: 能力・個性・資格が生かせる, 2: 仕事内容に興味があった, 3: 会社の将来性が期待できる, 4: 福利厚生制度・施設が充実している, 5: 給料等収入が多い, 6: 労働時間・休日等の労働条件が良い, 7: 通勤が便利, 8: 前の仕事が合わなかったやりがいを感じられなかった, 9: 前の職場の人間関係が好ましくなかった, 10: 出向・出向からの復帰, 11: 定年・会社都合, 12: 知人の紹介・スカウト等, 13: Uターン・家庭の事情, 14: 健康上の理由, 15: その他の理由
+    Values (Data 2):   1: 能力・個性・資格が生かせる, 2: 仕事内容に興味があった, 3: 会社の将来性が期待できる, 4: 福利厚生制度・施設が充実している, 5: 給料等収入が多い, 6: 労働時間・休日等の労働条件が良い, 7: 通勤が便利, 8: 前の仕事が合わなかったやりがいを感じられなかった, 9: 前の職場の人間関係が好ましくなかった, 10: 出向・出向からの復帰, 11: 定年・会社都合, 12: 知人の紹介・スカウト等, 13: Uターン・家庭の事情, 14: 健康上の理由, 15: その他の理由
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 11):  1: , 2: 
+    Values (Data 12):  1: , 2: 
+    Values (Data 13):  1: , 2: 
+    Values (Data 14):  1: , 2: 
+    Values (Data 15):  1: , 2: , 3: 
+    Values (Data 16):  1: , 2: , 3: 
+    Values (Data 17):  1: , 2: , 3: 
+    Values (Data 18):  1: , 2: , 3: 
+    Values (Data 19):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 20):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 21):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 22):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 23):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 24):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 25):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 26):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v62_NEWVARIABLE = .
-local var_lab: variable label var62
-local val_lab: value label var62
-capture replace v62_NEWVARIABLE = var62  if `data'==1
-capture replace v62_NEWVARIABLE = var62  if `data'==2
-capture replace v62_NEWVARIABLE = var62  if `data'==3
-capture replace v62_NEWVARIABLE = var62  if `data'==4
-capture replace v62_NEWVARIABLE = var62  if `data'==5
-capture replace v62_NEWVARIABLE = var62  if `data'==6
-capture replace v62_NEWVARIABLE = var62  if `data'==7
-capture replace v62_NEWVARIABLE = var62  if `data'==8
-capture label variable v62_NEWVARIABLE `var_lab'
-capture label values v62_NEWVARIABLE `val_lab'
+gen v51_NEWVARIABLE = .
+local var_lab: variable label var51
+local val_lab: value label var51
+capture replace v51_NEWVARIABLE = var51  if `data'==1
+capture replace v51_NEWVARIABLE = var51  if `data'==2
+capture replace v51_NEWVARIABLE = var51  if `data'==3
+capture replace v51_NEWVARIABLE = var51  if `data'==4
+capture replace v51_NEWVARIABLE = var51  if `data'==5
+capture replace v51_NEWVARIABLE = var51  if `data'==6
+capture replace v51_NEWVARIABLE = var51  if `data'==7
+capture replace v51_NEWVARIABLE = var51  if `data'==8
+capture replace v51_NEWVARIABLE = var52  if `data'==9
+capture replace v51_NEWVARIABLE = var52  if `data'==10
+capture replace v51_NEWVARIABLE = var32  if `data'==11
+capture replace v51_NEWVARIABLE = var32  if `data'==12
+capture replace v51_NEWVARIABLE = var32  if `data'==13
+capture replace v51_NEWVARIABLE = var32  if `data'==14
+capture replace v51_NEWVARIABLE = var31  if `data'==15
+capture replace v51_NEWVARIABLE = var31  if `data'==16
+capture replace v51_NEWVARIABLE = var31  if `data'==17
+capture replace v51_NEWVARIABLE = var31  if `data'==18
+capture replace v51_NEWVARIABLE = var50  if `data'==19
+capture replace v51_NEWVARIABLE = var50  if `data'==20
+capture replace v51_NEWVARIABLE = var50  if `data'==21
+capture replace v51_NEWVARIABLE = var50  if `data'==22
+capture replace v51_NEWVARIABLE = var50  if `data'==23
+capture replace v51_NEWVARIABLE = var50  if `data'==24
+capture replace v51_NEWVARIABLE = var50  if `data'==25
+capture replace v51_NEWVARIABLE = var50  if `data'==26
+capture label variable v51_NEWVARIABLE `var_lab'
+capture label values v51_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目現在の勤め先を選んだ理由: 分類表28後"
-    Description (Data 1):  "個人項目現在の勤め先を選んだ理由: 分類表28後"
-    Description (Data 2):  "個人項目現在の勤め先を選んだ理由: 分類表28後"
-    Description (Data 3):  "個人項目現在の勤め先を選んだ理由: 分類表28後"
-    Description (Data 4):  "個人項目現在の勤め先を選んだ理由: 分類表28後"
-    Description (Data 5):  "個人項目現在の勤め先を選んだ理由: 分類表28後"
-    Description (Data 6):  "個人項目現在の勤め先を選んだ理由: 分類表28後"
-    Description (Data 7):  "個人項目現在の勤め先を選んだ理由: 分類表28後"
-    Description (Data 8):  "個人項目現在の勤め先を選んだ理由: 分類表28後"
-    Description (Data 9):  "現在の勤め先を選んだ理由"
-    Description (Data 10): "現在の勤め先を選んだ理由"
-    Description (Data 11): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 12): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 13): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 14): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 15): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 16): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 17): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 18): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 19): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 20): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 21): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 22): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 23): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 24): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 25): "個人項目: 現在の勤務先を選んだ理由"
-    Description (Data 26): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Base):    "個人項目転職理由その2: 分類表28"
+    Description (Data 1):  "個人項目転職理由その2: 分類表28"
+    Description (Data 2):  "個人項目転職理由その2: 分類表28"
+    Description (Data 3):  "個人項目転職理由その2: 分類表28"
+    Description (Data 4):  "個人項目転職理由その2: 分類表28"
+    Description (Data 5):  "個人項目転職理由その2: 分類表28"
+    Description (Data 6):  "個人項目転職理由その2: 分類表28"
+    Description (Data 7):  "個人項目転職理由その2: 分類表28"
+    Description (Data 8):  "個人項目転職理由その2: 分類表28"
+    Description (Data 9):  "個人項目転職理由その2: 分類表28"
+    Description (Data 10): "個人項目転職理由その2: 分類表28"
+    Description (Data 11): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 12): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 13): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 14): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 15): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 16): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 17): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 18): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 19): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 20): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 21): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 22): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 23): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 24): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 25): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 26): "個人項目前職の仕事の内容: 分類表7-2"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):     11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 1):   11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 2):   11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 3):   11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 4):   11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 5):   11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 6):   11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 7):   11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 8):   11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 9):   11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 10):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
-    Values (Data 11):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件が良い, 16: 通勤が便利, 17: とにかく仕事に就きたかった, 18: その他の理由(出向等を含む)
-    Values (Data 12):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件が良い, 16: 通勤が便利, 17: とにかく仕事に就きたかった, 18: その他の理由(出向等を含む)
-    Values (Data 13):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件が良い, 16: 通勤が便利, 17: とにかく仕事に就きたかった, 18: その他の理由(出向等を含む)
-    Values (Data 14):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件が良い, 16: 通勤が便利, 17: とにかく仕事に就きたかった, 18: その他の理由(出向等を含む)
-    Values (Data 15):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 16):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 17):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 18):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 19):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 20):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 21):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 22):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 23):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 24):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 25):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
-    Values (Data 26):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Base):     8: 能力・個性・資格が生かせる, 9: 仕事内容に興味があった, 10: 会社の将来性が期待できる, 11: 福利厚生制度・施設が充実している, 12: 給料等収入が多い, 13: 労働時間・休日等の労働条件が良い, 14: 前の仕事が合わなかったやりがいを感じられなかった, 15: 前の職場の人間関係が好ましくなかった, 16: その他の理由, 17: 通勤が便利, 18: 出向・出向からの復帰, 19: 定年・会社都合, 20: 健康上の理由, 21: 知人の紹介・スカウト等, 22: Uターン・家庭の事情
+    Values (Data 1):   8: 能力・個性・資格が生かせる, 9: 仕事内容に興味があった, 10: 会社の将来性が期待できる, 11: 福利厚生制度・施設が充実している, 12: 給料等収入が多い, 13: 労働時間・休日等の労働条件が良い, 14: 前の仕事が合わなかったやりがいを感じられなかった, 15: 前の職場の人間関係が好ましくなかった, 16: その他の理由, 17: 通勤が便利, 18: 出向・出向からの復帰, 19: 定年・会社都合, 20: 健康上の理由, 21: 知人の紹介・スカウト等, 22: Uターン・家庭の事情
+    Values (Data 2):   8: 能力・個性・資格が生かせる, 9: 仕事内容に興味があった, 10: 会社の将来性が期待できる, 11: 福利厚生制度・施設が充実している, 12: 給料等収入が多い, 13: 労働時間・休日等の労働条件が良い, 14: 前の仕事が合わなかったやりがいを感じられなかった, 15: 前の職場の人間関係が好ましくなかった, 16: その他の理由, 17: 通勤が便利, 18: 出向・出向からの復帰, 19: 定年・会社都合, 20: 健康上の理由, 21: 知人の紹介・スカウト等, 22: Uターン・家庭の事情
+    Values (Data 3):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 4):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 5):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 6):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 7):   1: 転職理由チェック済み:01, 2: 転職理由チェック済み:02, 3: 転職理由チェック済み:03, 4: 転職理由チェック済み:04, 5: 転職理由チェック済み:05, 6: 転職理由チェック済み:06, 7: 転職理由チェック済み:10, 8: 転職理由チェック済み:07, 9: 転職理由チェック済み:08, 10: 転職理由チェック済み:11, 11: 転職理由チェック済み:12, 12: 転職理由チェック済み:13, 13: 転職理由チェック済み:14, 14: 転職理由チェック済み:15, 15: 転職理由チェック済み:16
+    Values (Data 8):   1: 転職理由チェック済み:01, 2: 転職理由チェック済み:02, 3: 転職理由チェック済み:03, 4: 転職理由チェック済み:04, 5: 転職理由チェック済み:05, 6: 転職理由チェック済み:06, 7: 転職理由チェック済み:10, 8: 転職理由チェック済み:07, 9: 転職理由チェック済み:08, 10: 転職理由チェック済み:11, 11: 転職理由チェック済み:12, 12: 転職理由チェック済み:13, 13: 転職理由チェック済み:14, 14: 転職理由チェック済み:15, 15: 転職理由チェック済み:16
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 11):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:6,7, 3: 前職の仕事の内容チェック済:5,8
+    Values (Data 12):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:6,7, 3: 前職の仕事の内容チェック済:5,8
+    Values (Data 13):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:6,7, 3: 前職の仕事の内容チェック済:5,8
+    Values (Data 14):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:6,7, 3: 前職の仕事の内容チェック済:5,8
+    Values (Data 15):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:6,7, 3: 前職の仕事の内容チェック済:5,8
+    Values (Data 16):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:6,7, 3: 前職の仕事の内容チェック済:5,8
+    Values (Data 17):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 18):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 19):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 20):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 21):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 22):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 23):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 24):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 25):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 26):  1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v63_NEWVARIABLE = .
-local var_lab: variable label var63
-local val_lab: value label var63
-capture replace v63_NEWVARIABLE = var63  if `data'==1
-capture replace v63_NEWVARIABLE = var63  if `data'==2
-capture replace v63_NEWVARIABLE = var63  if `data'==3
-capture replace v63_NEWVARIABLE = var63  if `data'==4
-capture replace v63_NEWVARIABLE = var63  if `data'==5
-capture replace v63_NEWVARIABLE = var63  if `data'==6
-capture replace v63_NEWVARIABLE = var63  if `data'==7
-capture replace v63_NEWVARIABLE = var63  if `data'==8
-capture replace v63_NEWVARIABLE = var36  if `data'==9
-capture replace v63_NEWVARIABLE = var36  if `data'==10
-capture replace v63_NEWVARIABLE = var37  if `data'==11
-capture replace v63_NEWVARIABLE = var37  if `data'==12
-capture replace v63_NEWVARIABLE = var37  if `data'==13
-capture replace v63_NEWVARIABLE = var37  if `data'==14
-capture replace v63_NEWVARIABLE = var37  if `data'==15
-capture replace v63_NEWVARIABLE = var37  if `data'==16
-capture replace v63_NEWVARIABLE = var37  if `data'==17
-capture replace v63_NEWVARIABLE = var37  if `data'==18
-capture replace v63_NEWVARIABLE = var37  if `data'==19
-capture replace v63_NEWVARIABLE = var37  if `data'==20
-capture replace v63_NEWVARIABLE = var37  if `data'==21
-capture replace v63_NEWVARIABLE = var37  if `data'==22
-capture replace v63_NEWVARIABLE = var37  if `data'==23
-capture replace v63_NEWVARIABLE = var37  if `data'==24
-capture replace v63_NEWVARIABLE = var37  if `data'==25
-capture replace v63_NEWVARIABLE = var37  if `data'==26
-capture label variable v63_NEWVARIABLE `var_lab'
-capture label values v63_NEWVARIABLE `val_lab'
+gen v52_NEWVARIABLE = .
+local var_lab: variable label var52
+local val_lab: value label var52
+capture replace v52_NEWVARIABLE = var52  if `data'==1
+capture replace v52_NEWVARIABLE = var52  if `data'==2
+capture replace v52_NEWVARIABLE = var52  if `data'==3
+capture replace v52_NEWVARIABLE = var52  if `data'==4
+capture replace v52_NEWVARIABLE = var52  if `data'==5
+capture replace v52_NEWVARIABLE = var52  if `data'==6
+capture replace v52_NEWVARIABLE = var52  if `data'==7
+capture replace v52_NEWVARIABLE = var52  if `data'==8
+capture replace v52_NEWVARIABLE = var53  if `data'==9
+capture replace v52_NEWVARIABLE = var53  if `data'==10
+capture replace v52_NEWVARIABLE = var42  if `data'==11
+capture replace v52_NEWVARIABLE = var42  if `data'==12
+capture replace v52_NEWVARIABLE = var42  if `data'==13
+capture replace v52_NEWVARIABLE = var42  if `data'==14
+capture replace v52_NEWVARIABLE = var43  if `data'==15
+capture replace v52_NEWVARIABLE = var43  if `data'==16
+capture replace v52_NEWVARIABLE = var43  if `data'==17
+capture replace v52_NEWVARIABLE = var43  if `data'==18
+capture replace v52_NEWVARIABLE = var51  if `data'==19
+capture replace v52_NEWVARIABLE = var51  if `data'==20
+capture replace v52_NEWVARIABLE = var51  if `data'==21
+capture replace v52_NEWVARIABLE = var51  if `data'==22
+capture replace v52_NEWVARIABLE = var51  if `data'==23
+capture replace v52_NEWVARIABLE = var51  if `data'==24
+capture replace v52_NEWVARIABLE = var51  if `data'==25
+capture replace v52_NEWVARIABLE = var51  if `data'==26
+capture label variable v52_NEWVARIABLE `var_lab'
+capture label values v52_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目現在の勤め先を選んだ理由: 分類表28-3"
-    Description (Data 1):  "個人項目現在の勤め先を選んだ理由: 分類表28-3"
-    Description (Data 2):  "個人項目現在の勤め先を選んだ理由: 分類表28-3"
-    Description (Data 3):  "個人項目現在の勤め先を選んだ理由: 分類表28-3"
-    Description (Data 4):  "個人項目現在の勤め先を選んだ理由: 分類表28-3"
-    Description (Data 5):  "個人項目現在の勤め先を選んだ理由: 分類表28-3"
-    Description (Data 6):  "個人項目現在の勤め先を選んだ理由: 分類表28-3"
-    Description (Data 7):  "個人項目現在の勤め先を選んだ理由: 分類表28-3"
-    Description (Data 8):  "個人項目現在の勤め先を選んだ理由: 分類表28-3"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "個人項目転職理由その3: 調査票コード"
+    Description (Data 1):  "個人項目転職理由その3: 調査票コード"
+    Description (Data 2):  "個人項目転職理由その3: 調査票コード"
+    Description (Data 3):  "個人項目転職理由その3: チェック済"
+    Description (Data 4):  "個人項目転職理由その3: チェック済"
+    Description (Data 5):  "個人項目転職理由その3: チェック済"
+    Description (Data 6):  "個人項目転職理由その3: チェック済"
+    Description (Data 7):  "個人項目転職理由その3: チェック済"
+    Description (Data 8):  "個人項目転職理由その3: チェック済"
+    Description (Data 9):  "個人項目転職理由その3: チェック済"
+    Description (Data 10): "個人項目転職理由その3: チェック済"
+    Description (Data 11): "個人項目就業の経験: 分類表14"
+    Description (Data 12): "個人項目就業の経験: 分類表14"
+    Description (Data 13): "個人項目就業の経験: 分類表14"
+    Description (Data 14): "個人項目就業の経験: 分類表14"
+    Description (Data 15): "個人項目就業の経験: 分類表14"
+    Description (Data 16): "個人項目就業の経験: 分類表14"
+    Description (Data 17): "個人項目就業の経験: 分類表14"
+    Description (Data 18): "個人項目就業の経験: 分類表14"
+    Description (Data 19): "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
+    Description (Data 20): "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
+    Description (Data 21): "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
+    Description (Data 22): "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
+    Description (Data 23): "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
+    Description (Data 24): "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
+    Description (Data 25): "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
+    Description (Data 26): "個人項目前の勤め先を辞めた理由: 前の勤め先を辞めた理由チェック済"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):     1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 1):   1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 2):   1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 3):   1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 4):   1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 5):   1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 6):   1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 7):   1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 8):   1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Base):     1: 能力・個性・資格が生かせる, 2: 仕事内容に興味があった, 3: 会社の将来性が期待できる, 4: 福利厚生制度・施設が充実している, 5: 給料等収入が多い, 6: 労働時間・休日等の労働条件が良い, 7: 通勤が便利, 8: 前の仕事が合わなかったやりがいを感じられなかった, 9: 前の職場の人間関係が好ましくなかった, 10: 出向・出向からの復帰, 11: 定年・会社都合, 12: 知人の紹介・スカウト等, 13: Uターン・家庭の事情, 14: 健康上の理由, 15: その他の理由
+    Values (Data 1):   1: 能力・個性・資格が生かせる, 2: 仕事内容に興味があった, 3: 会社の将来性が期待できる, 4: 福利厚生制度・施設が充実している, 5: 給料等収入が多い, 6: 労働時間・休日等の労働条件が良い, 7: 通勤が便利, 8: 前の仕事が合わなかったやりがいを感じられなかった, 9: 前の職場の人間関係が好ましくなかった, 10: 出向・出向からの復帰, 11: 定年・会社都合, 12: 知人の紹介・スカウト等, 13: Uターン・家庭の事情, 14: 健康上の理由, 15: その他の理由
+    Values (Data 2):   1: 能力・個性・資格が生かせる, 2: 仕事内容に興味があった, 3: 会社の将来性が期待できる, 4: 福利厚生制度・施設が充実している, 5: 給料等収入が多い, 6: 労働時間・休日等の労働条件が良い, 7: 通勤が便利, 8: 前の仕事が合わなかったやりがいを感じられなかった, 9: 前の職場の人間関係が好ましくなかった, 10: 出向・出向からの復帰, 11: 定年・会社都合, 12: 知人の紹介・スカウト等, 13: Uターン・家庭の事情, 14: 健康上の理由, 15: その他の理由
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 11):  3: 就業の経験:2、卒業年度:1,学歴:1, 4: 就業の経験:3、卒業年度:1,学歴:2, 5: 就業の経験:2、卒業年度:2,学歴:3, 6: 就業の経験:3、卒業年度:2,学歴:4, 7: 就業の経験:1、卒業年度:1,学歴:5,6, 8: 就業の経験:1、卒業年度:2
+    Values (Data 12):  3: 就業の経験:2、卒業年度:1,学歴:1, 4: 就業の経験:3、卒業年度:1,学歴:2, 5: 就業の経験:2、卒業年度:2,学歴:3, 6: 就業の経験:3、卒業年度:2,学歴:4, 7: 就業の経験:1、卒業年度:1,学歴:5,6, 8: 就業の経験:1、卒業年度:2
+    Values (Data 13):  3: 就業の経験:2、卒業年度:1,就業の経験:2, 4: 就業の経験:3、卒業年度:1,就業の経験:3, 5: 就業の経験:2、卒業年度:2,就業の経験:2, 6: 就業の経験:3、卒業年度:2,就業の経験:3, 7: 就業の経験:1、卒業年度:1,就業の経験:1, 8: 就業の経験:1、卒業年度:2,,就業の経験:1
+    Values (Data 14):  3: 就業の経験:2、卒業年度:1,就業の経験:2, 4: 就業の経験:3、卒業年度:1,就業の経験:3, 5: 就業の経験:2、卒業年度:2,就業の経験:2, 6: 就業の経験:3、卒業年度:2,就業の経験:3, 7: 就業の経験:1、卒業年度:1,就業の経験:1, 8: 就業の経験:1、卒業年度:2,,就業の経験:1
+    Values (Data 15):  3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 16):  3: 就業の経験:2、卒業年度:1、学歴:1, 4: 就業の経験:2、卒業年度:1、学歴:2, 5: 就業の経験:2、卒業年度:1、学歴:3, 6: 就業の経験:2、卒業年度:1、学歴:4, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 17):  3: 就業の経験:2、卒業年度:1、学歴:4, 4: 就業の経験:2、卒業年度:1、学歴:5,6, 5: 就業の経験:2、卒業年度:2, 6: 就業の経験:1, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 18):  3: 就業の経験:2、卒業年度:1、学歴:4, 4: 就業の経験:2、卒業年度:1、学歴:5,6, 5: 就業の経験:2、卒業年度:2, 6: 就業の経験:1, 7: 就業の経験:2、卒業年度:1、学歴:5,6, 8: 就業の経験:2、卒業年度:2, 9: 就業の経験:1
+    Values (Data 19):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
+    Values (Data 20):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
+    Values (Data 21):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
+    Values (Data 22):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
+    Values (Data 23):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
+    Values (Data 24):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
+    Values (Data 25):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
+    Values (Data 26):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v64_NEWVARIABLE = .
-local var_lab: variable label var64
-local val_lab: value label var64
-capture replace v64_NEWVARIABLE = var64  if `data'==1
-capture replace v64_NEWVARIABLE = var64  if `data'==2
-capture replace v64_NEWVARIABLE = var64  if `data'==3
-capture replace v64_NEWVARIABLE = var64  if `data'==4
-capture replace v64_NEWVARIABLE = var64  if `data'==5
-capture replace v64_NEWVARIABLE = var64  if `data'==6
-capture replace v64_NEWVARIABLE = var64  if `data'==7
-capture replace v64_NEWVARIABLE = var64  if `data'==8
-capture label variable v64_NEWVARIABLE `var_lab'
-capture label values v64_NEWVARIABLE `val_lab'
+gen v53_NEWVARIABLE = .
+local var_lab: variable label var53
+local val_lab: value label var53
+capture replace v53_NEWVARIABLE = var53  if `data'==1
+capture replace v53_NEWVARIABLE = var53  if `data'==2
+capture replace v53_NEWVARIABLE = var53  if `data'==3
+capture replace v53_NEWVARIABLE = var53  if `data'==4
+capture replace v53_NEWVARIABLE = var53  if `data'==5
+capture replace v53_NEWVARIABLE = var53  if `data'==6
+capture replace v53_NEWVARIABLE = var53  if `data'==7
+capture replace v53_NEWVARIABLE = var53  if `data'==8
+capture replace v53_NEWVARIABLE = var54  if `data'==9
+capture replace v53_NEWVARIABLE = var54  if `data'==10
+capture replace v53_NEWVARIABLE = var34  if `data'==11
+capture replace v53_NEWVARIABLE = var34  if `data'==12
+capture replace v53_NEWVARIABLE = var34  if `data'==13
+capture replace v53_NEWVARIABLE = var34  if `data'==14
+capture replace v53_NEWVARIABLE = var34  if `data'==15
+capture replace v53_NEWVARIABLE = var34  if `data'==16
+capture replace v53_NEWVARIABLE = var34  if `data'==17
+capture replace v53_NEWVARIABLE = var34  if `data'==18
+capture replace v53_NEWVARIABLE = var59  if `data'==19
+capture replace v53_NEWVARIABLE = var59  if `data'==20
+capture replace v53_NEWVARIABLE = var59  if `data'==21
+capture replace v53_NEWVARIABLE = var59  if `data'==22
+capture replace v53_NEWVARIABLE = var59  if `data'==23
+capture replace v53_NEWVARIABLE = var59  if `data'==24
+capture replace v53_NEWVARIABLE = var59  if `data'==25
+capture replace v53_NEWVARIABLE = var59  if `data'==26
+capture label variable v53_NEWVARIABLE `var_lab'
+capture label values v53_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目賃金変動: 賃金変動チェック済"
-    Description (Data 1):  "個人項目賃金変動: 賃金変動チェック済"
-    Description (Data 2):  "個人項目賃金変動: 賃金変動チェック済"
-    Description (Data 3):  "個人項目賃金変動: 賃金変動チェック済"
-    Description (Data 4):  "個人項目賃金変動: 賃金変動チェック済"
-    Description (Data 5):  "個人項目賃金変動: 賃金変動チェック済"
-    Description (Data 6):  "個人項目賃金変動: 賃金変動チェック済"
-    Description (Data 7):  "個人項目賃金変動: 賃金変動チェック済"
-    Description (Data 8):  "個人項目賃金変動: 賃金変動チェック済"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Base):    "個人項目転職理由その3: 分類表28"
+    Description (Data 1):  "個人項目転職理由その3: 分類表28"
+    Description (Data 2):  "個人項目転職理由その3: 分類表28"
+    Description (Data 3):  "個人項目転職理由その3: 分類表28"
+    Description (Data 4):  "個人項目転職理由その3: 分類表28"
+    Description (Data 5):  "個人項目転職理由その3: 分類表28"
+    Description (Data 6):  "個人項目転職理由その3: 分類表28"
+    Description (Data 7):  "個人項目転職理由その3: 分類表28"
+    Description (Data 8):  "個人項目転職理由その3: 分類表28"
+    Description (Data 9):  "個人項目転職理由その3: 分類表28"
+    Description (Data 10): "個人項目転職理由その3: 分類表28"
+    Description (Data 11): "個人項目前の勤め先を辞めた理由: 分類表28"
+    Description (Data 12): "個人項目前の勤め先を辞めた理由: 分類表28"
+    Description (Data 13): "個人項目前の勤め先を辞めた理由: 分類表28"
+    Description (Data 14): "個人項目前の勤め先を辞めた理由: 分類表28"
+    Description (Data 15): "個人項目前の勤め先を辞めた理由: 分類表28"
+    Description (Data 16): "個人項目前の勤め先を辞めた理由: 分類表28"
+    Description (Data 17): "個人項目前の勤め先を辞めた理由: 分類表28"
+    Description (Data 18): "個人項目前の勤め先を辞めた理由: 分類表28"
+    Description (Data 19): "個人項目前の勤め先を辞めた理由: 分類表28前"
+    Description (Data 20): "個人項目前の勤め先を辞めた理由: 分類表28前"
+    Description (Data 21): "個人項目前の勤め先を辞めた理由: 分類表28前"
+    Description (Data 22): "個人項目前の勤め先を辞めた理由: 分類表28前"
+    Description (Data 23): "個人項目前の勤め先を辞めた理由: 分類表28前"
+    Description (Data 24): "個人項目前の勤め先を辞めた理由: 分類表28前"
+    Description (Data 25): "個人項目前の勤め先を辞めた理由: 分類表28前"
+    Description (Data 26): "個人項目前の勤め先を辞めた理由: 分類表28前"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):     1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 1):   1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 2):   1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 3):   1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 4):   1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 5):   1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 6):   1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 7):   1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 8):   1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Base):     8: 能力・個性・資格が生かせる, 9: 仕事内容に興味があった, 10: 会社の将来性が期待できる, 11: 福利厚生制度・施設が充実している, 12: 給料等収入が多い, 13: 労働時間・休日等の労働条件が良い, 14: 前の仕事が合わなかったやりがいを感じられなかった, 15: 前の職場の人間関係が好ましくなかった, 16: その他の理由, 17: 通勤が便利, 18: 出向・出向からの復帰, 19: 定年・会社都合, 20: 健康上の理由, 21: 知人の紹介・スカウト等, 22: Uターン・家庭の事情
+    Values (Data 1):   8: 能力・個性・資格が生かせる, 9: 仕事内容に興味があった, 10: 会社の将来性が期待できる, 11: 福利厚生制度・施設が充実している, 12: 給料等収入が多い, 13: 労働時間・休日等の労働条件が良い, 14: 前の仕事が合わなかったやりがいを感じられなかった, 15: 前の職場の人間関係が好ましくなかった, 16: その他の理由, 17: 通勤が便利, 18: 出向・出向からの復帰, 19: 定年・会社都合, 20: 健康上の理由, 21: 知人の紹介・スカウト等, 22: Uターン・家庭の事情
+    Values (Data 2):   8: 能力・個性・資格が生かせる, 9: 仕事内容に興味があった, 10: 会社の将来性が期待できる, 11: 福利厚生制度・施設が充実している, 12: 給料等収入が多い, 13: 労働時間・休日等の労働条件が良い, 14: 前の仕事が合わなかったやりがいを感じられなかった, 15: 前の職場の人間関係が好ましくなかった, 16: その他の理由, 17: 通勤が便利, 18: 出向・出向からの復帰, 19: 定年・会社都合, 20: 健康上の理由, 21: 知人の紹介・スカウト等, 22: Uターン・家庭の事情
+    Values (Data 3):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 4):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 5):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 6):   1: チェック済データとデータの並びが異なる, 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 7):   1: 転職理由チェック済み:01, 2: 転職理由チェック済み:02, 3: 転職理由チェック済み:03, 4: 転職理由チェック済み:04, 5: 転職理由チェック済み:05, 6: 転職理由チェック済み:06, 7: 転職理由チェック済み:10, 8: 転職理由チェック済み:07, 9: 転職理由チェック済み:08, 10: 転職理由チェック済み:11, 11: 転職理由チェック済み:12, 12: 転職理由チェック済み:13, 13: 転職理由チェック済み:14, 14: 転職理由チェック済み:15, 15: 転職理由チェック済み:16
+    Values (Data 8):   1: 転職理由チェック済み:01, 2: 転職理由チェック済み:02, 3: 転職理由チェック済み:03, 4: 転職理由チェック済み:04, 5: 転職理由チェック済み:05, 6: 転職理由チェック済み:06, 7: 転職理由チェック済み:10, 8: 転職理由チェック済み:07, 9: 転職理由チェック済み:08, 10: 転職理由チェック済み:11, 11: 転職理由チェック済み:12, 12: 転職理由チェック済み:13, 13: 転職理由チェック済み:14, 14: 転職理由チェック済み:15, 15: 転職理由チェック済み:16
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 19):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 20):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 21):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 22):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 23):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 24):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 25):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 26):  1: 前の勤め先を辞めた理由チェック済:01, 2: 前の勤め先を辞めた理由チェック済:02, 3: 前の勤め先を辞めた理由チェック済:03, 4: 前の勤め先を辞めた理由チェック済:04, 5: 前の勤め先を辞めた理由チェック済:05, 6: 前の勤め先を辞めた理由チェック済:06, 7: 前の勤め先を辞めた理由チェック済:07, 8: 前の勤め先を辞めた理由チェック済:08, 9: 前の勤め先を辞めた理由チェック済:09, 10: 前の勤め先を辞めた理由チェック済:10
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v65_NEWVARIABLE = .
-local var_lab: variable label var65
-local val_lab: value label var65
-capture replace v65_NEWVARIABLE = var65  if `data'==1
-capture replace v65_NEWVARIABLE = var65  if `data'==2
-capture replace v65_NEWVARIABLE = var65  if `data'==3
-capture replace v65_NEWVARIABLE = var65  if `data'==4
-capture replace v65_NEWVARIABLE = var65  if `data'==5
-capture replace v65_NEWVARIABLE = var65  if `data'==6
-capture replace v65_NEWVARIABLE = var65  if `data'==7
-capture replace v65_NEWVARIABLE = var65  if `data'==8
-capture label variable v65_NEWVARIABLE `var_lab'
-capture label values v65_NEWVARIABLE `val_lab'
+gen v54_NEWVARIABLE = .
+local var_lab: variable label var54
+local val_lab: value label var54
+capture replace v54_NEWVARIABLE = var54  if `data'==1
+capture replace v54_NEWVARIABLE = var54  if `data'==2
+capture replace v54_NEWVARIABLE = var54  if `data'==3
+capture replace v54_NEWVARIABLE = var54  if `data'==4
+capture replace v54_NEWVARIABLE = var54  if `data'==5
+capture replace v54_NEWVARIABLE = var54  if `data'==6
+capture replace v54_NEWVARIABLE = var54  if `data'==7
+capture replace v54_NEWVARIABLE = var54  if `data'==8
+capture replace v54_NEWVARIABLE = var55  if `data'==9
+capture replace v54_NEWVARIABLE = var55  if `data'==10
+capture replace v54_NEWVARIABLE = var50  if `data'==11
+capture replace v54_NEWVARIABLE = var50  if `data'==12
+capture replace v54_NEWVARIABLE = var50  if `data'==13
+capture replace v54_NEWVARIABLE = var50  if `data'==14
+capture replace v54_NEWVARIABLE = var51  if `data'==15
+capture replace v54_NEWVARIABLE = var51  if `data'==16
+capture replace v54_NEWVARIABLE = var51  if `data'==17
+capture replace v54_NEWVARIABLE = var51  if `data'==18
+capture replace v54_NEWVARIABLE = var60  if `data'==19
+capture replace v54_NEWVARIABLE = var60  if `data'==20
+capture replace v54_NEWVARIABLE = var60  if `data'==21
+capture replace v54_NEWVARIABLE = var60  if `data'==22
+capture replace v54_NEWVARIABLE = var60  if `data'==23
+capture replace v54_NEWVARIABLE = var60  if `data'==24
+capture replace v54_NEWVARIABLE = var60  if `data'==25
+capture replace v54_NEWVARIABLE = var60  if `data'==26
+capture label variable v54_NEWVARIABLE `var_lab'
+capture label values v54_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目賃金変動: 分類表26-2"
-    Description (Data 1):  "個人項目賃金変動: 分類表26-2"
-    Description (Data 2):  "個人項目賃金変動: 分類表26-2"
-    Description (Data 3):  "個人項目賃金変動: 分類表26-2"
-    Description (Data 4):  "個人項目賃金変動: 分類表26-2"
-    Description (Data 5):  "個人項目賃金変動: 分類表26-2"
-    Description (Data 6):  "個人項目賃金変動: 分類表26-2"
-    Description (Data 7):  "個人項目賃金変動: 分類表26-2"
-    Description (Data 8):  "個人項目賃金変動: 分類表26-2"
-    Description (Data 9):  "賃金変動"
-    Description (Data 10): "賃金変動"
-    Description (Data 11): "個人項目: 賃金変動"
-    Description (Data 12): "個人項目: 賃金変動"
-    Description (Data 13): "個人項目: 賃金変動"
-    Description (Data 14): "個人項目: 賃金変動"
-    Description (Data 15): "個人項目: 賃金変動"
-    Description (Data 16): "個人項目: 賃金変動"
-    Description (Data 17): "個人項目: 賃金変動"
-    Description (Data 18): "個人項目: 賃金変動"
-    Description (Data 19): "個人項目: 賃金変動"
-    Description (Data 20): "個人項目: 賃金変動"
-    Description (Data 21): "個人項目: 賃金変動"
-    Description (Data 22): "個人項目: 賃金変動"
-    Description (Data 23): "個人項目: 賃金変動"
-    Description (Data 24): "個人項目: 賃金変動"
-    Description (Data 25): "個人項目: 賃金変動"
-    Description (Data 26): "個人項目: 賃金変動"
+    Description (Base):    "個人項目: 賃金変動"
+    Description (Data 1):  "個人項目: 賃金変動"
+    Description (Data 2):  "個人項目: 賃金変動"
+    Description (Data 3):  "個人項目内容: チェック済"
+    Description (Data 4):  "個人項目内容: チェック済"
+    Description (Data 5):  "個人項目内容: チェック済"
+    Description (Data 6):  "個人項目内容: チェック済"
+    Description (Data 7):  "個人項目就業の経験: 分類表13"
+    Description (Data 8):  "個人項目就業の経験: 分類表13"
+    Description (Data 9):  "個人項目就業の経験: 分類表13"
+    Description (Data 10): "個人項目就業の経験: 分類表13"
+    Description (Data 11): "個人項目賃金変動: 分類表26-3"
+    Description (Data 12): "個人項目賃金変動: 分類表26-3"
+    Description (Data 13): "個人項目賃金変動: 分類表26-3"
+    Description (Data 14): "個人項目賃金変動: 分類表26-3"
+    Description (Data 15): "個人項目賃金変動: 分類表26-3"
+    Description (Data 16): "個人項目賃金変動: 分類表26-3"
+    Description (Data 17): "個人項目賃金変動: 分類表26-3"
+    Description (Data 18): "個人項目賃金変動: 分類表26-3"
+    Description (Data 19): "個人項目賃金変動: 分類表26-3"
+    Description (Data 20): "個人項目賃金変動: 分類表26-3"
+    Description (Data 21): "個人項目賃金変動: 分類表26-3"
+    Description (Data 22): "個人項目賃金変動: 分類表26-3"
+    Description (Data 23): "個人項目賃金変動: 分類表26-3"
+    Description (Data 24): "個人項目賃金変動: 分類表26-3"
+    Description (Data 25): "個人項目賃金変動: 分類表26-3"
+    Description (Data 26): "個人項目賃金変動: 分類表26-3"
+    Description (Data 27): "賃金変動"
+    Description (Data 28): "賃金変動"
+    Description (Data 29): "個人項目: 賃金変動"
+    Description (Data 30): "個人項目: 賃金変動"
+    Description (Data 31): "個人項目: 賃金変動"
+    Description (Data 32): "個人項目: 賃金変動"
+    Description (Data 33): "個人項目: 賃金変動"
+    Description (Data 34): "個人項目: 賃金変動"
+    Description (Data 35): "個人項目: 賃金変動"
+    Description (Data 36): "個人項目: 賃金変動"
+    Description (Data 37): "個人項目: 賃金変動"
+    Description (Data 38): "個人項目: 賃金変動"
+    Description (Data 39): "個人項目: 賃金変動"
+    Description (Data 40): "個人項目: 賃金変動"
+    Description (Data 41): "個人項目: 賃金変動"
+    Description (Data 42): "個人項目: 賃金変動"
+    Description (Data 43): "個人項目: 賃金変動"
+    Description (Data 44): "個人項目: 賃金変動"
 
-    Values (Base):     1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
-    Values (Data 1):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
-    Values (Data 2):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
-    Values (Data 3):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
-    Values (Data 4):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
-    Values (Data 5):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
-    Values (Data 6):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
-    Values (Data 7):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
-    Values (Data 8):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
-    Values (Data 9):   1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 10):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
-    Values (Data 11):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 12):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 13):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 14):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 15):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 16):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 17):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 18):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 19):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 20):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 21):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 22):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 23):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 24):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 25):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
-    Values (Data 26):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Base):     1: 3割以上増加, 2: 1割以上3割未満増加, 3: 1割未満の増加, 4: 1割以上3割未満の減少, 5: 3割以上減少
+    Values (Data 1):   1: 3割以上増加, 2: 1割以上3割未満増加, 3: 1割未満の増加, 4: 1割以上3割未満の減少, 5: 3割以上減少
+    Values (Data 2):   1: 3割以上増加, 2: 1割以上3割未満増加, 3: 1割未満の増加, 4: 1割以上3割未満の減少, 5: 3割以上減少
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
+    Values (Data 7):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 8):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 9):   2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 10):  2: 就業の経験:2、卒業年度:1, 3: 就業の経験:2、卒業年度:2, 4: 就業の経験:1
+    Values (Data 11):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 12):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 13):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 14):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 15):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 16):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 17):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 18):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 19):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 20):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 21):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 22):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 23):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 24):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 25):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 26):  1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
+    Values (Data 27):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
+    Values (Data 28):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上
+    Values (Data 29):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 30):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 31):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 32):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 33):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 34):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 35):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 36):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 37):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 38):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 39):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 40):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 41):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 42):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 43):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
+    Values (Data 44):  1: 増加3割以上, 2: 増加1割以上3割未満, 3: 増加1割未満, 4: 変わらない, 5: 減少1割未満, 6: 減少1割以上3割未満, 7: 減少3割以上減少
 
 ----------------------------------------------------------------------*/
-gen v66_NEWVARIABLE = .
-local var_lab: variable label var66
-local val_lab: value label var66
-capture replace v66_NEWVARIABLE = var66  if `data'==1
-capture replace v66_NEWVARIABLE = var66  if `data'==2
-capture replace v66_NEWVARIABLE = var66  if `data'==3
-capture replace v66_NEWVARIABLE = var66  if `data'==4
-capture replace v66_NEWVARIABLE = var66  if `data'==5
-capture replace v66_NEWVARIABLE = var66  if `data'==6
-capture replace v66_NEWVARIABLE = var66  if `data'==7
-capture replace v66_NEWVARIABLE = var66  if `data'==8
-capture replace v66_NEWVARIABLE = var37  if `data'==9
-capture replace v66_NEWVARIABLE = var37  if `data'==10
-capture replace v66_NEWVARIABLE = var38  if `data'==11
-capture replace v66_NEWVARIABLE = var38  if `data'==12
-capture replace v66_NEWVARIABLE = var38  if `data'==13
-capture replace v66_NEWVARIABLE = var38  if `data'==14
-capture replace v66_NEWVARIABLE = var38  if `data'==15
-capture replace v66_NEWVARIABLE = var38  if `data'==16
-capture replace v66_NEWVARIABLE = var38  if `data'==17
-capture replace v66_NEWVARIABLE = var38  if `data'==18
-capture replace v66_NEWVARIABLE = var38  if `data'==19
-capture replace v66_NEWVARIABLE = var38  if `data'==20
-capture replace v66_NEWVARIABLE = var38  if `data'==21
-capture replace v66_NEWVARIABLE = var38  if `data'==22
-capture replace v66_NEWVARIABLE = var38  if `data'==23
-capture replace v66_NEWVARIABLE = var38  if `data'==24
-capture replace v66_NEWVARIABLE = var38  if `data'==25
-capture replace v66_NEWVARIABLE = var38  if `data'==26
-capture label variable v66_NEWVARIABLE `var_lab'
-capture label values v66_NEWVARIABLE `val_lab'
+gen v55_NEWVARIABLE = .
+local var_lab: variable label var55
+local val_lab: value label var55
+capture replace v55_NEWVARIABLE = var55  if `data'==1
+capture replace v55_NEWVARIABLE = var55  if `data'==2
+capture replace v55_NEWVARIABLE = var30  if `data'==3
+capture replace v55_NEWVARIABLE = var30  if `data'==4
+capture replace v55_NEWVARIABLE = var30  if `data'==5
+capture replace v55_NEWVARIABLE = var30  if `data'==6
+capture replace v55_NEWVARIABLE = var33  if `data'==7
+capture replace v55_NEWVARIABLE = var33  if `data'==8
+capture replace v55_NEWVARIABLE = var33  if `data'==9
+capture replace v55_NEWVARIABLE = var33  if `data'==10
+capture replace v55_NEWVARIABLE = var57  if `data'==11
+capture replace v55_NEWVARIABLE = var57  if `data'==12
+capture replace v55_NEWVARIABLE = var57  if `data'==13
+capture replace v55_NEWVARIABLE = var57  if `data'==14
+capture replace v55_NEWVARIABLE = var58  if `data'==15
+capture replace v55_NEWVARIABLE = var58  if `data'==16
+capture replace v55_NEWVARIABLE = var58  if `data'==17
+capture replace v55_NEWVARIABLE = var58  if `data'==18
+capture replace v55_NEWVARIABLE = var67  if `data'==19
+capture replace v55_NEWVARIABLE = var67  if `data'==20
+capture replace v55_NEWVARIABLE = var67  if `data'==21
+capture replace v55_NEWVARIABLE = var67  if `data'==22
+capture replace v55_NEWVARIABLE = var67  if `data'==23
+capture replace v55_NEWVARIABLE = var67  if `data'==24
+capture replace v55_NEWVARIABLE = var67  if `data'==25
+capture replace v55_NEWVARIABLE = var67  if `data'==26
+capture replace v55_NEWVARIABLE = var37  if `data'==27
+capture replace v55_NEWVARIABLE = var37  if `data'==28
+capture replace v55_NEWVARIABLE = var38  if `data'==29
+capture replace v55_NEWVARIABLE = var38  if `data'==30
+capture replace v55_NEWVARIABLE = var38  if `data'==31
+capture replace v55_NEWVARIABLE = var38  if `data'==32
+capture replace v55_NEWVARIABLE = var38  if `data'==33
+capture replace v55_NEWVARIABLE = var38  if `data'==34
+capture replace v55_NEWVARIABLE = var38  if `data'==35
+capture replace v55_NEWVARIABLE = var38  if `data'==36
+capture replace v55_NEWVARIABLE = var38  if `data'==37
+capture replace v55_NEWVARIABLE = var38  if `data'==38
+capture replace v55_NEWVARIABLE = var38  if `data'==39
+capture replace v55_NEWVARIABLE = var38  if `data'==40
+capture replace v55_NEWVARIABLE = var38  if `data'==41
+capture replace v55_NEWVARIABLE = var38  if `data'==42
+capture replace v55_NEWVARIABLE = var38  if `data'==43
+capture replace v55_NEWVARIABLE = var38  if `data'==44
+capture label variable v55_NEWVARIABLE `var_lab'
+capture label values v55_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目賃金変動: 分類表26-3"
-    Description (Data 1):  "個人項目賃金変動: 分類表26-3"
-    Description (Data 2):  "個人項目賃金変動: 分類表26-3"
-    Description (Data 3):  "個人項目賃金変動: 分類表26-3"
-    Description (Data 4):  "個人項目賃金変動: 分類表26-3"
-    Description (Data 5):  "個人項目賃金変動: 分類表26-3"
-    Description (Data 6):  "個人項目賃金変動: 分類表26-3"
-    Description (Data 7):  "個人項目賃金変動: 分類表26-3"
-    Description (Data 8):  "個人項目賃金変動: 分類表26-3"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): "個人項目インターネット有: 6"
-    Description (Data 12): "個人項目インターネット有: 6"
-    Description (Data 13): "個人項目インターネット有: 6"
-    Description (Data 14): "個人項目インターネット有: 6"
-    Description (Data 15): "個人項目インターネット有: 6"
-    Description (Data 16): "個人項目インターネット有: 6"
-    Description (Data 17): "個人項目インターネット有: 6"
-    Description (Data 18): "個人項目インターネット有: 6"
-    Description (Data 19): "個人項目インターネット有: 6"
-    Description (Data 20): "個人項目インターネット有: 6"
-    Description (Data 21): "個人項目インターネット有: 6"
-    Description (Data 22): "個人項目インターネット有: 6"
-    Description (Data 23): "個人項目インターネット有: 6"
-    Description (Data 24): "個人項目インターネット有: 6"
-    Description (Data 25): "個人項目インターネット有: 6"
-    Description (Data 26): "個人項目インターネット有: 6"
-
-    Values (Base):     1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
-    Values (Data 1):   1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
-    Values (Data 2):   1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
-    Values (Data 3):   1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
-    Values (Data 4):   1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
-    Values (Data 5):   1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
-    Values (Data 6):   1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
-    Values (Data 7):   1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
-    Values (Data 8):   1: 賃金変動チェック済:1, 2: 賃金変動チェック済:2, 3: 賃金変動チェック済:6, 4: 賃金変動チェック済:7
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 12):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 13):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 14):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 15):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 16):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 17):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 18):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 19):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 20):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 21):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 22):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 23):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 24):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 25):  6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 26):  6: 面接日の調整や企業に対する質問等に利用
-
-----------------------------------------------------------------------*/
-gen v67_NEWVARIABLE = .
-local var_lab: variable label var67
-local val_lab: value label var67
-capture replace v67_NEWVARIABLE = var67  if `data'==1
-capture replace v67_NEWVARIABLE = var67  if `data'==2
-capture replace v67_NEWVARIABLE = var67  if `data'==3
-capture replace v67_NEWVARIABLE = var67  if `data'==4
-capture replace v67_NEWVARIABLE = var67  if `data'==5
-capture replace v67_NEWVARIABLE = var67  if `data'==6
-capture replace v67_NEWVARIABLE = var67  if `data'==7
-capture replace v67_NEWVARIABLE = var67  if `data'==8
-capture replace v67_NEWVARIABLE = var23  if `data'==11
-capture replace v67_NEWVARIABLE = var23  if `data'==12
-capture replace v67_NEWVARIABLE = var23  if `data'==13
-capture replace v67_NEWVARIABLE = var23  if `data'==14
-capture replace v67_NEWVARIABLE = var23  if `data'==15
-capture replace v67_NEWVARIABLE = var23  if `data'==16
-capture replace v67_NEWVARIABLE = var23  if `data'==17
-capture replace v67_NEWVARIABLE = var23  if `data'==18
-capture replace v67_NEWVARIABLE = var23  if `data'==19
-capture replace v67_NEWVARIABLE = var23  if `data'==20
-capture replace v67_NEWVARIABLE = var23  if `data'==21
-capture replace v67_NEWVARIABLE = var23  if `data'==22
-capture replace v67_NEWVARIABLE = var23  if `data'==23
-capture replace v67_NEWVARIABLE = var23  if `data'==24
-capture replace v67_NEWVARIABLE = var23  if `data'==25
-capture replace v67_NEWVARIABLE = var23  if `data'==26
-capture label variable v67_NEWVARIABLE `var_lab'
-capture label values v67_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
-    Description (Data 1):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
-    Description (Data 2):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
-    Description (Data 3):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
-    Description (Data 4):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
-    Description (Data 5):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
-    Description (Data 6):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
-    Description (Data 7):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
-    Description (Data 8):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
-    Description (Data 9):  "求職活動でのインターネットの利用"
-    Description (Data 10): "求職活動でのインターネットの利用"
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):   1: 求人企業が直接運営するサイト
-    Values (Data 10):  1: 求人企業が直接運営するサイト
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v68_NEWVARIABLE = .
-local var_lab: variable label var68
-local val_lab: value label var68
-capture replace v68_NEWVARIABLE = var68  if `data'==1
-capture replace v68_NEWVARIABLE = var68  if `data'==2
-capture replace v68_NEWVARIABLE = var68  if `data'==3
-capture replace v68_NEWVARIABLE = var68  if `data'==4
-capture replace v68_NEWVARIABLE = var68  if `data'==5
-capture replace v68_NEWVARIABLE = var68  if `data'==6
-capture replace v68_NEWVARIABLE = var68  if `data'==7
-capture replace v68_NEWVARIABLE = var68  if `data'==8
-capture replace v68_NEWVARIABLE = var17  if `data'==9
-capture replace v68_NEWVARIABLE = var17  if `data'==10
-capture label variable v68_NEWVARIABLE `var_lab'
-capture label values v68_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
-    Description (Data 1):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
-    Description (Data 2):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
-    Description (Data 3):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
-    Description (Data 4):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
-    Description (Data 5):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
-    Description (Data 6):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
-    Description (Data 7):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
-    Description (Data 8):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
-    Description (Data 9):  "求職活動でのインターネットの利用"
-    Description (Data 10): "求職活動でのインターネットの利用"
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):   2: 民間等の求人広告会社のサイト
-    Values (Data 10):  2: 民間等の求人広告会社のサイト
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v69_NEWVARIABLE = .
-local var_lab: variable label var69
-local val_lab: value label var69
-capture replace v69_NEWVARIABLE = var69  if `data'==1
-capture replace v69_NEWVARIABLE = var69  if `data'==2
-capture replace v69_NEWVARIABLE = var69  if `data'==3
-capture replace v69_NEWVARIABLE = var69  if `data'==4
-capture replace v69_NEWVARIABLE = var69  if `data'==5
-capture replace v69_NEWVARIABLE = var69  if `data'==6
-capture replace v69_NEWVARIABLE = var69  if `data'==7
-capture replace v69_NEWVARIABLE = var69  if `data'==8
-capture replace v69_NEWVARIABLE = var18  if `data'==9
-capture replace v69_NEWVARIABLE = var18  if `data'==10
-capture label variable v69_NEWVARIABLE `var_lab'
-capture label values v69_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
-    Description (Data 1):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
-    Description (Data 2):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
-    Description (Data 3):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
-    Description (Data 4):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
-    Description (Data 5):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
-    Description (Data 6):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
-    Description (Data 7):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
-    Description (Data 8):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
-    Description (Data 9):  "求職活動でのインターネットの利用"
-    Description (Data 10): "求職活動でのインターネットの利用"
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):   3: しごと情報ネット
-    Values (Data 10):  3: しごと情報ネット
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-
-----------------------------------------------------------------------*/
-gen v70_NEWVARIABLE = .
-local var_lab: variable label var70
-local val_lab: value label var70
-capture replace v70_NEWVARIABLE = var70  if `data'==1
-capture replace v70_NEWVARIABLE = var70  if `data'==2
-capture replace v70_NEWVARIABLE = var70  if `data'==3
-capture replace v70_NEWVARIABLE = var70  if `data'==4
-capture replace v70_NEWVARIABLE = var70  if `data'==5
-capture replace v70_NEWVARIABLE = var70  if `data'==6
-capture replace v70_NEWVARIABLE = var70  if `data'==7
-capture replace v70_NEWVARIABLE = var70  if `data'==8
-capture replace v70_NEWVARIABLE = var19  if `data'==9
-capture replace v70_NEWVARIABLE = var19  if `data'==10
-capture label variable v70_NEWVARIABLE `var_lab'
-capture label values v70_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
-    Description (Data 1):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
-    Description (Data 2):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
-    Description (Data 3):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
-    Description (Data 4):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
-    Description (Data 5):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
-    Description (Data 6):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
-    Description (Data 7):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
-    Description (Data 8):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
-    Description (Data 9):  "求職活動でのインターネットの利用"
-    Description (Data 10): "求職活動でのインターネットの利用"
-    Description (Data 11): "個人項目インターネット有: 4"
-    Description (Data 12): "個人項目インターネット有: 4"
-    Description (Data 13): "個人項目インターネット有: 4"
-    Description (Data 14): "個人項目インターネット有: 4"
-    Description (Data 15): "個人項目インターネット有: 4"
-    Description (Data 16): "個人項目インターネット有: 4"
-    Description (Data 17): "個人項目インターネット有: 4"
-    Description (Data 18): "個人項目インターネット有: 4"
-    Description (Data 19): "個人項目インターネット有: 4"
-    Description (Data 20): "個人項目インターネット有: 4"
-    Description (Data 21): "個人項目インターネット有: 4"
-    Description (Data 22): "個人項目インターネット有: 4"
-    Description (Data 23): "個人項目インターネット有: 4"
-    Description (Data 24): "個人項目インターネット有: 4"
-    Description (Data 25): "個人項目インターネット有: 4"
-    Description (Data 26): "個人項目インターネット有: 4"
+    Description (Base):    "分類表1コード"
+    Description (Data 1):  "分類表1コード"
+    Description (Data 2):  "分類表1コード"
+    Description (Data 3):  "分類表1"
+    Description (Data 4):  "分類表1"
+    Description (Data 5):  "分類表1"
+    Description (Data 6):  "分類表1"
+    Description (Data 7):  "分類表1"
+    Description (Data 8):  "分類表1"
+    Description (Data 9):  "分類表1"
+    Description (Data 10): "分類表1"
+    Description (Data 11): "分類表1"
+    Description (Data 12): "分類表1"
+    Description (Data 13): "分類表1"
+    Description (Data 14): "分類表1"
+    Description (Data 15): "分類表1"
+    Description (Data 16): "分類表1"
+    Description (Data 17): "分類表1"
+    Description (Data 18): "分類表1"
+    Description (Data 19): "分類表1"
+    Description (Data 20): "分類表1"
+    Description (Data 21): "分類表1"
+    Description (Data 22): "分類表1"
+    Description (Data 23): "分類表1"
+    Description (Data 24): "分類表1"
+    Description (Data 25): "分類表1"
+    Description (Data 26): "分類表1"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): "年齢コード"
+    Description (Data 40): "年齢コード"
+    Description (Data 41): "年齢コード"
+    Description (Data 42): "年齢コード"
+    Description (Data 43): "年齢コード"
+    Description (Data 44): "年齢コード"
 
     Values (Base):    
     Values (Data 1):  
@@ -5782,65 +7445,1916 @@ capture label values v70_NEWVARIABLE `val_lab'
     Values (Data 12): 
     Values (Data 13): 
     Values (Data 14): 
-    Values (Data 15):  4: ハローワークインターネットサービス
-    Values (Data 16):  4: ハローワークインターネットサービス
-    Values (Data 17):  4: ハローワークインターネットサービス
-    Values (Data 18):  4: ハローワークインターネットサービス
-    Values (Data 19):  4: ハローワークインターネットサービス
-    Values (Data 20):  4: ハローワークインターネットサービス
-    Values (Data 21):  4: ハローワークインターネットサービス
-    Values (Data 22):  4: ハローワークインターネットサービス
-    Values (Data 23):  4: ハローワークインターネットサービス
-    Values (Data 24):  4: ハローワークインターネットサービス
-    Values (Data 25):  4: ハローワークインターネットサービス
-    Values (Data 26):  4: ハローワークインターネットサービス
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 40):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 41):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 42):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 43):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 44):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+
+----------------------------------------------------------------------*/
+gen v56_NEWVARIABLE = .
+local var_lab: variable label var56
+local val_lab: value label var56
+capture replace v56_NEWVARIABLE = var56  if `data'==1
+capture replace v56_NEWVARIABLE = var56  if `data'==2
+capture replace v56_NEWVARIABLE = var57  if `data'==3
+capture replace v56_NEWVARIABLE = var57  if `data'==4
+capture replace v56_NEWVARIABLE = var57  if `data'==5
+capture replace v56_NEWVARIABLE = var57  if `data'==6
+capture replace v56_NEWVARIABLE = var57  if `data'==7
+capture replace v56_NEWVARIABLE = var57  if `data'==8
+capture replace v56_NEWVARIABLE = var58  if `data'==9
+capture replace v56_NEWVARIABLE = var58  if `data'==10
+capture replace v56_NEWVARIABLE = var58  if `data'==11
+capture replace v56_NEWVARIABLE = var58  if `data'==12
+capture replace v56_NEWVARIABLE = var58  if `data'==13
+capture replace v56_NEWVARIABLE = var58  if `data'==14
+capture replace v56_NEWVARIABLE = var59  if `data'==15
+capture replace v56_NEWVARIABLE = var59  if `data'==16
+capture replace v56_NEWVARIABLE = var59  if `data'==17
+capture replace v56_NEWVARIABLE = var59  if `data'==18
+capture replace v56_NEWVARIABLE = var76  if `data'==19
+capture replace v56_NEWVARIABLE = var76  if `data'==20
+capture replace v56_NEWVARIABLE = var76  if `data'==21
+capture replace v56_NEWVARIABLE = var76  if `data'==22
+capture replace v56_NEWVARIABLE = var76  if `data'==23
+capture replace v56_NEWVARIABLE = var76  if `data'==24
+capture replace v56_NEWVARIABLE = var76  if `data'==25
+capture replace v56_NEWVARIABLE = var76  if `data'==26
+capture replace v56_NEWVARIABLE = var40  if `data'==39
+capture replace v56_NEWVARIABLE = var40  if `data'==40
+capture replace v56_NEWVARIABLE = var40  if `data'==41
+capture replace v56_NEWVARIABLE = var40  if `data'==42
+capture replace v56_NEWVARIABLE = var40  if `data'==43
+capture replace v56_NEWVARIABLE = var40  if `data'==44
+capture label variable v56_NEWVARIABLE `var_lab'
+capture label values v56_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "製造業分類コード"
+    Description (Data 1):  "製造業分類コード"
+    Description (Data 2):  "製造業分類コード"
+    Description (Data 3):  "製造業分類"
+    Description (Data 4):  "製造業分類"
+    Description (Data 5):  "製造業分類"
+    Description (Data 6):  "製造業分類"
+    Description (Data 7):  "製造業分類"
+    Description (Data 8):  "製造業分類"
+    Description (Data 9):  "製造業分類"
+    Description (Data 10): "製造業分類"
+    Description (Data 11): "製造業分類"
+    Description (Data 12): "製造業分類"
+    Description (Data 13): "製造業分類"
+    Description (Data 14): "製造業分類"
+    Description (Data 15): "製造業分類"
+    Description (Data 16): "製造業分類"
+    Description (Data 17): "製造業分類"
+    Description (Data 18): "製造業分類"
+    Description (Data 19): "製造業分類"
+    Description (Data 20): "製造業分類"
+    Description (Data 21): "製造業分類"
+    Description (Data 22): "製造業分類"
+    Description (Data 23): "製造業分類"
+    Description (Data 24): "製造業分類"
+    Description (Data 25): "製造業分類"
+    Description (Data 26): "製造業分類"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     42: 消費関連産業, 43: 素材関連産業, 44: 機械関連産業
+    Values (Data 1):   42: 消費関連産業, 43: 素材関連産業, 44: 機械関連産業
+    Values (Data 2):   42: 消費関連産業, 43: 素材関連産業, 44: 機械関連産業
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v57_NEWVARIABLE = .
+local var_lab: variable label var57
+local val_lab: value label var57
+capture replace v57_NEWVARIABLE = var57  if `data'==1
+capture replace v57_NEWVARIABLE = var57  if `data'==2
+capture replace v57_NEWVARIABLE = var58  if `data'==3
+capture replace v57_NEWVARIABLE = var58  if `data'==4
+capture replace v57_NEWVARIABLE = var58  if `data'==5
+capture replace v57_NEWVARIABLE = var58  if `data'==6
+capture replace v57_NEWVARIABLE = var58  if `data'==7
+capture replace v57_NEWVARIABLE = var58  if `data'==8
+capture replace v57_NEWVARIABLE = var59  if `data'==9
+capture replace v57_NEWVARIABLE = var59  if `data'==10
+capture replace v57_NEWVARIABLE = var59  if `data'==11
+capture replace v57_NEWVARIABLE = var59  if `data'==12
+capture replace v57_NEWVARIABLE = var59  if `data'==13
+capture replace v57_NEWVARIABLE = var59  if `data'==14
+capture replace v57_NEWVARIABLE = var60  if `data'==15
+capture replace v57_NEWVARIABLE = var60  if `data'==16
+capture replace v57_NEWVARIABLE = var60  if `data'==17
+capture replace v57_NEWVARIABLE = var60  if `data'==18
+capture replace v57_NEWVARIABLE = var77  if `data'==19
+capture replace v57_NEWVARIABLE = var77  if `data'==20
+capture replace v57_NEWVARIABLE = var77  if `data'==21
+capture replace v57_NEWVARIABLE = var77  if `data'==22
+capture replace v57_NEWVARIABLE = var77  if `data'==23
+capture replace v57_NEWVARIABLE = var77  if `data'==24
+capture replace v57_NEWVARIABLE = var77  if `data'==25
+capture replace v57_NEWVARIABLE = var77  if `data'==26
+capture label variable v57_NEWVARIABLE `var_lab'
+capture label values v57_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "調査IDT"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  "調査IDT"
+    Description (Data 4):  "調査IDT"
+    Description (Data 5):  "調査IDT"
+    Description (Data 6):  "調査IDT"
+    Description (Data 7):  "調査IDT"
+    Description (Data 8):  "調査IDT"
+    Description (Data 9):  "調査IDT"
+    Description (Data 10): "調査IDT"
+    Description (Data 11): "調査IDT"
+    Description (Data 12): "調査IDT"
+    Description (Data 13): "調査IDT"
+    Description (Data 14): "調査IDT"
+    Description (Data 15): "調査IDT"
+    Description (Data 16): "調査IDT"
+    Description (Data 17): "調査IDT"
+    Description (Data 18): "調査IDT"
+    Description (Data 19): "調査IDT"
+    Description (Data 20): "調査IDT"
+    Description (Data 21): "調査IDT"
+    Description (Data 22): "調査IDT"
+    Description (Data 23): "調査IDT"
+    Description (Data 24): "調査IDT"
+    Description (Data 25): "調査IDT"
+    Description (Data 26): "調査IDT"
+    Description (Data 27): "調査IDT"
+    Description (Data 28): "調査IDT"
+    Description (Data 29): "調査情報: 調査IDT"
+    Description (Data 30): "調査情報: 調査IDT"
+    Description (Data 31): "調査情報: 調査IDT"
+    Description (Data 32): "調査情報: 調査IDT"
+    Description (Data 33): "調査情報: 調査IDT"
+    Description (Data 34): "調査情報: 調査IDT"
+    Description (Data 35): "調査情報: 調査IDT"
+    Description (Data 36): "調査情報: 調査IDT"
+    Description (Data 37): "調査情報: 調査IDT"
+    Description (Data 38): "調査情報: 調査IDT"
+    Description (Data 39): "調査情報: 調査IDT"
+    Description (Data 40): "調査情報: 調査IDT"
+    Description (Data 41): "調査情報: 調査IDT"
+    Description (Data 42): "調査情報: 調査IDT"
+    Description (Data 43): "調査情報: 調査IDT"
+    Description (Data 44): "調査情報: 調査IDT"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+
+----------------------------------------------------------------------*/
+gen v58_NEWVARIABLE = .
+local var_lab: variable label var1
+local val_lab: value label var1
+capture replace v58_NEWVARIABLE = var1  if `data'==3
+capture replace v58_NEWVARIABLE = var1  if `data'==4
+capture replace v58_NEWVARIABLE = var1  if `data'==5
+capture replace v58_NEWVARIABLE = var1  if `data'==6
+capture replace v58_NEWVARIABLE = var1  if `data'==7
+capture replace v58_NEWVARIABLE = var1  if `data'==8
+capture replace v58_NEWVARIABLE = var1  if `data'==9
+capture replace v58_NEWVARIABLE = var1  if `data'==10
+capture replace v58_NEWVARIABLE = var1  if `data'==11
+capture replace v58_NEWVARIABLE = var1  if `data'==12
+capture replace v58_NEWVARIABLE = var1  if `data'==13
+capture replace v58_NEWVARIABLE = var1  if `data'==14
+capture replace v58_NEWVARIABLE = var1  if `data'==15
+capture replace v58_NEWVARIABLE = var1  if `data'==16
+capture replace v58_NEWVARIABLE = var1  if `data'==17
+capture replace v58_NEWVARIABLE = var1  if `data'==18
+capture replace v58_NEWVARIABLE = var1  if `data'==19
+capture replace v58_NEWVARIABLE = var1  if `data'==20
+capture replace v58_NEWVARIABLE = var1  if `data'==21
+capture replace v58_NEWVARIABLE = var1  if `data'==22
+capture replace v58_NEWVARIABLE = var1  if `data'==23
+capture replace v58_NEWVARIABLE = var1  if `data'==24
+capture replace v58_NEWVARIABLE = var1  if `data'==25
+capture replace v58_NEWVARIABLE = var1  if `data'==26
+capture replace v58_NEWVARIABLE = var1  if `data'==27
+capture replace v58_NEWVARIABLE = var1  if `data'==28
+capture replace v58_NEWVARIABLE = var1  if `data'==29
+capture replace v58_NEWVARIABLE = var1  if `data'==30
+capture replace v58_NEWVARIABLE = var1  if `data'==31
+capture replace v58_NEWVARIABLE = var1  if `data'==32
+capture replace v58_NEWVARIABLE = var1  if `data'==33
+capture replace v58_NEWVARIABLE = var1  if `data'==34
+capture replace v58_NEWVARIABLE = var1  if `data'==35
+capture replace v58_NEWVARIABLE = var1  if `data'==36
+capture replace v58_NEWVARIABLE = var1  if `data'==37
+capture replace v58_NEWVARIABLE = var1  if `data'==38
+capture replace v58_NEWVARIABLE = var1  if `data'==39
+capture replace v58_NEWVARIABLE = var1  if `data'==40
+capture replace v58_NEWVARIABLE = var1  if `data'==41
+capture replace v58_NEWVARIABLE = var1  if `data'==42
+capture replace v58_NEWVARIABLE = var1  if `data'==43
+capture replace v58_NEWVARIABLE = var1  if `data'==44
+capture label variable v58_NEWVARIABLE `var_lab'
+capture label values v58_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目前内容: 分類表7-2"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  "個人項目前内容: 分類表7-2"
+    Description (Data 4):  "個人項目前内容: 分類表7-2"
+    Description (Data 5):  "個人項目前内容: 分類表7-2"
+    Description (Data 6):  "個人項目前内容: 分類表7-2"
+    Description (Data 7):  "個人項目仕事の内容: 分類表6-2"
+    Description (Data 8):  "個人項目仕事の内容: 分類表6-2"
+    Description (Data 9):  "個人項目仕事の内容: 分類表6-2"
+    Description (Data 10): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 11): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 12): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 13): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 14): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 15): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 16): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 17): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 18): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 19): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 20): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 21): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 22): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 23): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 24): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 25): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 26): "個人項目仕事の内容: 分類表6-2"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "個人項目インターネット有: 2"
+    Description (Data 30): "個人項目インターネット有: 2"
+    Description (Data 31): "個人項目インターネット有: 2"
+    Description (Data 32): "個人項目インターネット有: 2"
+    Description (Data 33): "個人項目インターネット有: 2"
+    Description (Data 34): "個人項目インターネット有: 2"
+    Description (Data 35): "個人項目インターネット有: 2"
+    Description (Data 36): "個人項目インターネット有: 2"
+    Description (Data 37): "個人項目インターネット有: 2"
+    Description (Data 38): "個人項目インターネット有: 2"
+    Description (Data 39): "個人項目インターネット有: 2"
+    Description (Data 40): "個人項目インターネット有: 2"
+    Description (Data 41): "個人項目インターネット有: 2"
+    Description (Data 42): "個人項目インターネット有: 2"
+    Description (Data 43): "個人項目インターネット有: 2"
+    Description (Data 44): "個人項目インターネット有: 2"
+
+    Values (Base):     1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 4):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 5):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 6):   1: 前職の仕事の内容チェック済:1~4, 2: 前職の仕事の内容チェック済:7,8, 3: 前職の仕事の内容チェック済:5,6,9
+    Values (Data 7):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8,9
+    Values (Data 8):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8,9
+    Values (Data 9):   1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8,9
+    Values (Data 10):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8,9
+    Values (Data 11):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8
+    Values (Data 12):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8
+    Values (Data 13):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8
+    Values (Data 14):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8
+    Values (Data 15):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8
+    Values (Data 16):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8
+    Values (Data 17):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8
+    Values (Data 18):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:6,7, 3: 仕事の内容チェック済:5,8
+    Values (Data 19):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
+    Values (Data 20):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
+    Values (Data 21):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
+    Values (Data 22):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
+    Values (Data 23):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
+    Values (Data 24):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
+    Values (Data 25):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
+    Values (Data 26):  1: 仕事の内容チェック済:1~4, 2: 仕事の内容チェック済:7,8, 3: 仕事の内容チェック済:5,6,9
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29):  2: 民間等の求人広告会社のサイト
+    Values (Data 30):  2: 民間等の求人広告会社のサイト
+    Values (Data 31):  2: 民間等の求人広告会社のサイト
+    Values (Data 32):  2: 民間等の求人広告会社のサイト
+    Values (Data 33):  2: 民間等の求人広告会社のサイト
+    Values (Data 34):  2: 民間等の求人広告会社のサイト
+    Values (Data 35):  2: 民間等の求人広告会社のサイト
+    Values (Data 36):  2: 民間等の求人広告会社のサイト
+    Values (Data 37):  2: 民間等の求人広告会社のサイト
+    Values (Data 38):  2: 民間等の求人広告会社のサイト
+    Values (Data 39):  2: 民間等の求人広告会社のサイト
+    Values (Data 40):  2: 民間等の求人広告会社のサイト
+    Values (Data 41):  2: 民間等の求人広告会社のサイト
+    Values (Data 42):  2: 民間等の求人広告会社のサイト
+    Values (Data 43):  2: 民間等の求人広告会社のサイト
+    Values (Data 44):  2: 民間等の求人広告会社のサイト
+
+----------------------------------------------------------------------*/
+gen v59_NEWVARIABLE = .
+local var_lab: variable label var41
+local val_lab: value label var41
+capture replace v59_NEWVARIABLE = var41  if `data'==3
+capture replace v59_NEWVARIABLE = var41  if `data'==4
+capture replace v59_NEWVARIABLE = var41  if `data'==5
+capture replace v59_NEWVARIABLE = var41  if `data'==6
+capture replace v59_NEWVARIABLE = var31  if `data'==7
+capture replace v59_NEWVARIABLE = var31  if `data'==8
+capture replace v59_NEWVARIABLE = var31  if `data'==9
+capture replace v59_NEWVARIABLE = var31  if `data'==10
+capture replace v59_NEWVARIABLE = var31  if `data'==11
+capture replace v59_NEWVARIABLE = var31  if `data'==12
+capture replace v59_NEWVARIABLE = var31  if `data'==13
+capture replace v59_NEWVARIABLE = var31  if `data'==14
+capture replace v59_NEWVARIABLE = var30  if `data'==15
+capture replace v59_NEWVARIABLE = var30  if `data'==16
+capture replace v59_NEWVARIABLE = var30  if `data'==17
+capture replace v59_NEWVARIABLE = var30  if `data'==18
+capture replace v59_NEWVARIABLE = var39  if `data'==19
+capture replace v59_NEWVARIABLE = var39  if `data'==20
+capture replace v59_NEWVARIABLE = var39  if `data'==21
+capture replace v59_NEWVARIABLE = var39  if `data'==22
+capture replace v59_NEWVARIABLE = var39  if `data'==23
+capture replace v59_NEWVARIABLE = var39  if `data'==24
+capture replace v59_NEWVARIABLE = var39  if `data'==25
+capture replace v59_NEWVARIABLE = var39  if `data'==26
+capture replace v59_NEWVARIABLE = var19  if `data'==29
+capture replace v59_NEWVARIABLE = var19  if `data'==30
+capture replace v59_NEWVARIABLE = var19  if `data'==31
+capture replace v59_NEWVARIABLE = var19  if `data'==32
+capture replace v59_NEWVARIABLE = var19  if `data'==33
+capture replace v59_NEWVARIABLE = var19  if `data'==34
+capture replace v59_NEWVARIABLE = var19  if `data'==35
+capture replace v59_NEWVARIABLE = var19  if `data'==36
+capture replace v59_NEWVARIABLE = var19  if `data'==37
+capture replace v59_NEWVARIABLE = var19  if `data'==38
+capture replace v59_NEWVARIABLE = var19  if `data'==39
+capture replace v59_NEWVARIABLE = var19  if `data'==40
+capture replace v59_NEWVARIABLE = var19  if `data'==41
+capture replace v59_NEWVARIABLE = var19  if `data'==42
+capture replace v59_NEWVARIABLE = var19  if `data'==43
+capture replace v59_NEWVARIABLE = var19  if `data'==44
+capture label variable v59_NEWVARIABLE `var_lab'
+capture label values v59_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目変動: チェック済"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  "個人項目変動: チェック済"
+    Description (Data 4):  "個人項目変動: チェック済"
+    Description (Data 5):  "個人項目変動: チェック済"
+    Description (Data 6):  "個人項目変動: チェック済"
+    Description (Data 7):  "個人項目賃金変動: チェック済"
+    Description (Data 8):  "個人項目賃金変動: チェック済"
+    Description (Data 9):  "個人項目賃金変動: チェック済"
+    Description (Data 10): "個人項目賃金変動: チェック済"
+    Description (Data 11): "個人項目賃金変動: チェック済"
+    Description (Data 12): "個人項目賃金変動: チェック済"
+    Description (Data 13): "個人項目賃金変動: チェック済"
+    Description (Data 14): "個人項目賃金変動: チェック済"
+    Description (Data 15): "個人項目賃金変動: チェック済"
+    Description (Data 16): "個人項目賃金変動: チェック済"
+    Description (Data 17): "個人項目賃金変動: チェック済"
+    Description (Data 18): "個人項目賃金変動: チェック済"
+    Description (Data 19): "個人項目年齢: 年齢チェック済"
+    Description (Data 20): "個人項目年齢: 年齢チェック済"
+    Description (Data 21): "個人項目年齢: 年齢チェック済"
+    Description (Data 22): "個人項目年齢: 年齢チェック済"
+    Description (Data 23): "個人項目年齢: 年齢チェック済"
+    Description (Data 24): "個人項目年齢: 年齢チェック済"
+    Description (Data 25): "個人項目年齢: 年齢チェック済"
+    Description (Data 26): "個人項目年齢: 年齢チェック済"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "個人項目インターネット有: 4"
+    Description (Data 30): "個人項目インターネット有: 4"
+    Description (Data 31): "個人項目インターネット有: 4"
+    Description (Data 32): "個人項目インターネット有: 4"
+    Description (Data 33): "個人項目インターネット有: 4"
+    Description (Data 34): "個人項目インターネット有: 4"
+    Description (Data 35): "個人項目インターネット有: 4"
+    Description (Data 36): "個人項目インターネット有: 4"
+    Description (Data 37): "個人項目インターネット有: 4"
+    Description (Data 38): "個人項目インターネット有: 4"
+    Description (Data 39): "個人項目インターネット有: 4"
+    Description (Data 40): "個人項目インターネット有: 4"
+    Description (Data 41): "個人項目インターネット有: 4"
+    Description (Data 42): "個人項目インターネット有: 4"
+    Description (Data 43): "個人項目インターネット有: 4"
+    Description (Data 44): "個人項目インターネット有: 4"
+
+    Values (Base):     1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 5):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 6):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 7):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 8):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 9):   1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 10):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: , 7: 
+    Values (Data 19):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 20):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 21):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 22):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 23):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 24):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 25):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 26):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33):  4: ハローワークインターネットサービス
+    Values (Data 34):  4: ハローワークインターネットサービス
+    Values (Data 35):  4: ハローワークインターネットサービス
+    Values (Data 36):  4: ハローワークインターネットサービス
+    Values (Data 37):  4: ハローワークインターネットサービス
+    Values (Data 38):  4: ハローワークインターネットサービス
+    Values (Data 39):  4: ハローワークインターネットサービス
+    Values (Data 40):  4: ハローワークインターネットサービス
+    Values (Data 41):  4: ハローワークインターネットサービス
+    Values (Data 42):  4: ハローワークインターネットサービス
+    Values (Data 43):  4: ハローワークインターネットサービス
+    Values (Data 44):  4: ハローワークインターネットサービス
+
+----------------------------------------------------------------------*/
+gen v60_NEWVARIABLE = .
+local var_lab: variable label var55
+local val_lab: value label var55
+capture replace v60_NEWVARIABLE = var55  if `data'==3
+capture replace v60_NEWVARIABLE = var55  if `data'==4
+capture replace v60_NEWVARIABLE = var55  if `data'==5
+capture replace v60_NEWVARIABLE = var55  if `data'==6
+capture replace v60_NEWVARIABLE = var55  if `data'==7
+capture replace v60_NEWVARIABLE = var55  if `data'==8
+capture replace v60_NEWVARIABLE = var56  if `data'==9
+capture replace v60_NEWVARIABLE = var56  if `data'==10
+capture replace v60_NEWVARIABLE = var55  if `data'==11
+capture replace v60_NEWVARIABLE = var55  if `data'==12
+capture replace v60_NEWVARIABLE = var55  if `data'==13
+capture replace v60_NEWVARIABLE = var55  if `data'==14
+capture replace v60_NEWVARIABLE = var56  if `data'==15
+capture replace v60_NEWVARIABLE = var56  if `data'==16
+capture replace v60_NEWVARIABLE = var56  if `data'==17
+capture replace v60_NEWVARIABLE = var56  if `data'==18
+capture replace v60_NEWVARIABLE = var29  if `data'==19
+capture replace v60_NEWVARIABLE = var29  if `data'==20
+capture replace v60_NEWVARIABLE = var29  if `data'==21
+capture replace v60_NEWVARIABLE = var29  if `data'==22
+capture replace v60_NEWVARIABLE = var29  if `data'==23
+capture replace v60_NEWVARIABLE = var29  if `data'==24
+capture replace v60_NEWVARIABLE = var29  if `data'==25
+capture replace v60_NEWVARIABLE = var29  if `data'==26
+capture replace v60_NEWVARIABLE = var21  if `data'==29
+capture replace v60_NEWVARIABLE = var21  if `data'==30
+capture replace v60_NEWVARIABLE = var21  if `data'==31
+capture replace v60_NEWVARIABLE = var21  if `data'==32
+capture replace v60_NEWVARIABLE = var21  if `data'==33
+capture replace v60_NEWVARIABLE = var21  if `data'==34
+capture replace v60_NEWVARIABLE = var21  if `data'==35
+capture replace v60_NEWVARIABLE = var21  if `data'==36
+capture replace v60_NEWVARIABLE = var21  if `data'==37
+capture replace v60_NEWVARIABLE = var21  if `data'==38
+capture replace v60_NEWVARIABLE = var21  if `data'==39
+capture replace v60_NEWVARIABLE = var21  if `data'==40
+capture replace v60_NEWVARIABLE = var21  if `data'==41
+capture replace v60_NEWVARIABLE = var21  if `data'==42
+capture replace v60_NEWVARIABLE = var21  if `data'==43
+capture replace v60_NEWVARIABLE = var21  if `data'==44
+capture label variable v60_NEWVARIABLE `var_lab'
+capture label values v60_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目変動: 分類表26-2"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  "個人項目変動: 分類表26-2"
+    Description (Data 4):  "個人項目変動: 分類表26-2"
+    Description (Data 5):  "個人項目変動: 分類表26-2"
+    Description (Data 6):  "個人項目変動: 分類表26-2"
+    Description (Data 7):  "個人項目賃金変動: 分類表26-2"
+    Description (Data 8):  "個人項目賃金変動: 分類表26-2"
+    Description (Data 9):  "個人項目賃金変動: 分類表26-2"
+    Description (Data 10): "個人項目賃金変動: 分類表26-2"
+    Description (Data 11): "個人項目賃金変動: 分類表26-2"
+    Description (Data 12): "個人項目賃金変動: 分類表26-2"
+    Description (Data 13): "個人項目賃金変動: 分類表26-2"
+    Description (Data 14): "個人項目賃金変動: 分類表26-2"
+    Description (Data 15): "個人項目賃金変動: 分類表26-2"
+    Description (Data 16): "個人項目賃金変動: 分類表26-2"
+    Description (Data 17): "個人項目賃金変動: 分類表26-2"
+    Description (Data 18): "個人項目賃金変動: 分類表26-2"
+    Description (Data 19): "個人項目賃金変動: 分類表26-2"
+    Description (Data 20): "個人項目賃金変動: 分類表26-2"
+    Description (Data 21): "個人項目賃金変動: 分類表26-2"
+    Description (Data 22): "個人項目賃金変動: 分類表26-2"
+    Description (Data 23): "個人項目賃金変動: 分類表26-2"
+    Description (Data 24): "個人項目賃金変動: 分類表26-2"
+    Description (Data 25): "個人項目賃金変動: 分類表26-2"
+    Description (Data 26): "個人項目賃金変動: 分類表26-2"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: , 2: , 3: 
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):   1: , 2: , 3: 
+    Values (Data 4):   1: , 2: , 3: 
+    Values (Data 5):   1: , 2: , 3: 
+    Values (Data 6):   1: , 2: , 3: 
+    Values (Data 7):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 8):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 9):   1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 10):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 11):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 12):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 13):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 14):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 15):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 16):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 17):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 18):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 19):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 20):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 21):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 22):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 23):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 24):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 25):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 26):  1: 賃金変動チェック済:1,2, 2: 賃金変動チェック済:3, 3: 賃金変動チェック済:4, 4: 賃金変動チェック済:5, 5: 賃金変動チェック済:6,7
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v61_NEWVARIABLE = .
+local var_lab: variable label var56
+local val_lab: value label var56
+capture replace v61_NEWVARIABLE = var56  if `data'==3
+capture replace v61_NEWVARIABLE = var56  if `data'==4
+capture replace v61_NEWVARIABLE = var56  if `data'==5
+capture replace v61_NEWVARIABLE = var56  if `data'==6
+capture replace v61_NEWVARIABLE = var56  if `data'==7
+capture replace v61_NEWVARIABLE = var56  if `data'==8
+capture replace v61_NEWVARIABLE = var57  if `data'==9
+capture replace v61_NEWVARIABLE = var57  if `data'==10
+capture replace v61_NEWVARIABLE = var56  if `data'==11
+capture replace v61_NEWVARIABLE = var56  if `data'==12
+capture replace v61_NEWVARIABLE = var56  if `data'==13
+capture replace v61_NEWVARIABLE = var56  if `data'==14
+capture replace v61_NEWVARIABLE = var57  if `data'==15
+capture replace v61_NEWVARIABLE = var57  if `data'==16
+capture replace v61_NEWVARIABLE = var57  if `data'==17
+capture replace v61_NEWVARIABLE = var57  if `data'==18
+capture replace v61_NEWVARIABLE = var66  if `data'==19
+capture replace v61_NEWVARIABLE = var66  if `data'==20
+capture replace v61_NEWVARIABLE = var66  if `data'==21
+capture replace v61_NEWVARIABLE = var66  if `data'==22
+capture replace v61_NEWVARIABLE = var66  if `data'==23
+capture replace v61_NEWVARIABLE = var66  if `data'==24
+capture replace v61_NEWVARIABLE = var66  if `data'==25
+capture replace v61_NEWVARIABLE = var66  if `data'==26
+capture label variable v61_NEWVARIABLE `var_lab'
+capture label values v61_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "規模: 企業"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): "規模: 企業"
+    Description (Data 12): "規模: 企業"
+    Description (Data 13): "規模: 企業"
+    Description (Data 14): "規模: 企業"
+    Description (Data 15): "規模: 企業"
+    Description (Data 16): "規模: 企業"
+    Description (Data 17): "規模: 企業"
+    Description (Data 18): "規模: 企業"
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 12):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 13):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 14):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 15):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 16):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 17):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 18):  1: , 2: , 3: , 4: , 5: , 6: 
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v62_NEWVARIABLE = .
+local var_lab: variable label var12
+local val_lab: value label var12
+capture replace v62_NEWVARIABLE = var12  if `data'==11
+capture replace v62_NEWVARIABLE = var12  if `data'==12
+capture replace v62_NEWVARIABLE = var12  if `data'==13
+capture replace v62_NEWVARIABLE = var12  if `data'==14
+capture replace v62_NEWVARIABLE = var13  if `data'==15
+capture replace v62_NEWVARIABLE = var13  if `data'==16
+capture replace v62_NEWVARIABLE = var13  if `data'==17
+capture replace v62_NEWVARIABLE = var13  if `data'==18
+capture label variable v62_NEWVARIABLE `var_lab'
+capture label values v62_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目現在の勤め先を選んだ理由: チェック済"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): "個人項目現在の勤め先を選んだ理由: チェック済"
+    Description (Data 12): "個人項目現在の勤め先を選んだ理由: チェック済"
+    Description (Data 13): "個人項目現在の勤め先を選んだ理由: チェック済"
+    Description (Data 14): "個人項目現在の勤め先を選んだ理由: チェック済"
+    Description (Data 15): "個人項目現在の勤め先を選んだ理由: チェック済"
+    Description (Data 16): "個人項目現在の勤め先を選んだ理由: チェック済"
+    Description (Data 17): "個人項目現在の勤め先を選んだ理由: チェック済"
+    Description (Data 18): "個人項目現在の勤め先を選んだ理由: チェック済"
+    Description (Data 19): "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
+    Description (Data 20): "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
+    Description (Data 21): "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
+    Description (Data 22): "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
+    Description (Data 23): "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
+    Description (Data 24): "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
+    Description (Data 25): "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
+    Description (Data 26): "個人項目現在の勤め先を選んだ理由: 現在の勤め先を選んだ理由チェック済"
+    Description (Data 27): "現在の勤め先を選んだ理由"
+    Description (Data 28): "現在の勤め先を選んだ理由"
+    Description (Data 29): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 30): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 31): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 32): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 33): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 34): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 35): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 36): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 37): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 38): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 39): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 40): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 41): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 42): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 43): "個人項目: 現在の勤務先を選んだ理由"
+    Description (Data 44): "個人項目: 現在の勤務先を選んだ理由"
+
+    Values (Base):     9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11):  9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 12):  9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 13):  9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 14):  9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 15):  10: , 11: , 12: , 13: , 14: , 15: , 16: , 17: 
+    Values (Data 16):  10: , 11: , 12: , 13: , 14: , 15: , 16: , 17: 
+    Values (Data 17):  10: , 11: , 12: , 13: , 14: , 15: , 16: , 17: 
+    Values (Data 18):  10: , 11: , 12: , 13: , 14: , 15: , 16: , 17: 
+    Values (Data 19):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
+    Values (Data 20):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
+    Values (Data 21):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
+    Values (Data 22):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
+    Values (Data 23):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
+    Values (Data 24):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
+    Values (Data 25):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
+    Values (Data 26):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
+    Values (Data 27):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
+    Values (Data 28):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件がよい, 16: 通勤が便利, 17: とにかく仕事につきたかった, 18: その他の理由
+    Values (Data 29):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件が良い, 16: 通勤が便利, 17: とにかく仕事に就きたかった, 18: その他の理由(出向等を含む)
+    Values (Data 30):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件が良い, 16: 通勤が便利, 17: とにかく仕事に就きたかった, 18: その他の理由(出向等を含む)
+    Values (Data 31):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件が良い, 16: 通勤が便利, 17: とにかく仕事に就きたかった, 18: その他の理由(出向等を含む)
+    Values (Data 32):  11: 仕事の内容に興味, 12: 能力・個性・資格を生かせる, 13: 会社の将来に期待, 14: 収入が多い, 15: 労働条件が良い, 16: 通勤が便利, 17: とにかく仕事に就きたかった, 18: その他の理由(出向等を含む)
+    Values (Data 33):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 34):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 35):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 36):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 37):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 38):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 39):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 40):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 41):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 42):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 43):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+    Values (Data 44):  13: 仕事の内容に興味, 14: 能力・個性・資格を生かせる, 15: 会社の将来に期待, 16: 収入が多い, 17: 労働条件が良い, 18: 通勤が便利, 19: とにかく仕事に就きたかった, 20: その他の理由(出向等を含む)
+
+----------------------------------------------------------------------*/
+gen v63_NEWVARIABLE = .
+local var_lab: variable label var52
+local val_lab: value label var52
+capture replace v63_NEWVARIABLE = var52  if `data'==11
+capture replace v63_NEWVARIABLE = var52  if `data'==12
+capture replace v63_NEWVARIABLE = var52  if `data'==13
+capture replace v63_NEWVARIABLE = var52  if `data'==14
+capture replace v63_NEWVARIABLE = var53  if `data'==15
+capture replace v63_NEWVARIABLE = var53  if `data'==16
+capture replace v63_NEWVARIABLE = var53  if `data'==17
+capture replace v63_NEWVARIABLE = var53  if `data'==18
+capture replace v63_NEWVARIABLE = var62  if `data'==19
+capture replace v63_NEWVARIABLE = var62  if `data'==20
+capture replace v63_NEWVARIABLE = var62  if `data'==21
+capture replace v63_NEWVARIABLE = var62  if `data'==22
+capture replace v63_NEWVARIABLE = var62  if `data'==23
+capture replace v63_NEWVARIABLE = var62  if `data'==24
+capture replace v63_NEWVARIABLE = var62  if `data'==25
+capture replace v63_NEWVARIABLE = var62  if `data'==26
+capture replace v63_NEWVARIABLE = var36  if `data'==27
+capture replace v63_NEWVARIABLE = var36  if `data'==28
+capture replace v63_NEWVARIABLE = var37  if `data'==29
+capture replace v63_NEWVARIABLE = var37  if `data'==30
+capture replace v63_NEWVARIABLE = var37  if `data'==31
+capture replace v63_NEWVARIABLE = var37  if `data'==32
+capture replace v63_NEWVARIABLE = var37  if `data'==33
+capture replace v63_NEWVARIABLE = var37  if `data'==34
+capture replace v63_NEWVARIABLE = var37  if `data'==35
+capture replace v63_NEWVARIABLE = var37  if `data'==36
+capture replace v63_NEWVARIABLE = var37  if `data'==37
+capture replace v63_NEWVARIABLE = var37  if `data'==38
+capture replace v63_NEWVARIABLE = var37  if `data'==39
+capture replace v63_NEWVARIABLE = var37  if `data'==40
+capture replace v63_NEWVARIABLE = var37  if `data'==41
+capture replace v63_NEWVARIABLE = var37  if `data'==42
+capture replace v63_NEWVARIABLE = var37  if `data'==43
+capture replace v63_NEWVARIABLE = var37  if `data'==44
+capture label variable v63_NEWVARIABLE `var_lab'
+capture label values v63_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目現在の勤め先を選んだ理由: 分類表28"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): "個人項目現在の勤め先を選んだ理由: 分類表28"
+    Description (Data 12): "個人項目現在の勤め先を選んだ理由: 分類表28"
+    Description (Data 13): "個人項目現在の勤め先を選んだ理由: 分類表28"
+    Description (Data 14): "個人項目現在の勤め先を選んだ理由: 分類表28"
+    Description (Data 15): "個人項目現在の勤め先を選んだ理由: 分類表28"
+    Description (Data 16): "個人項目現在の勤め先を選んだ理由: 分類表28"
+    Description (Data 17): "個人項目現在の勤め先を選んだ理由: 分類表28"
+    Description (Data 18): "個人項目現在の勤め先を選んだ理由: 分類表28"
+    Description (Data 19): "個人項目現在の勤め先を選んだ理由: 分類表28後"
+    Description (Data 20): "個人項目現在の勤め先を選んだ理由: 分類表28後"
+    Description (Data 21): "個人項目現在の勤め先を選んだ理由: 分類表28後"
+    Description (Data 22): "個人項目現在の勤め先を選んだ理由: 分類表28後"
+    Description (Data 23): "個人項目現在の勤め先を選んだ理由: 分類表28後"
+    Description (Data 24): "個人項目現在の勤め先を選んだ理由: 分類表28後"
+    Description (Data 25): "個人項目現在の勤め先を選んだ理由: 分類表28後"
+    Description (Data 26): "個人項目現在の勤め先を選んだ理由: 分類表28後"
+    Description (Data 27): "前の勤め先を辞めた理由"
+    Description (Data 28): "前の勤め先を辞めた理由"
+    Description (Data 29): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 30): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 31): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 32): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 33): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 34): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 35): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 36): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 37): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 38): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 39): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 40): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 41): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 42): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 43): "個人項目: 前の勤務先を辞めた理由"
+    Description (Data 44): "個人項目: 前の勤務先を辞めた理由"
+
+    Values (Base):     9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11):  9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 12):  9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 13):  9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 14):  9: , 10: , 11: , 12: , 13: , 14: , 15: 
+    Values (Data 15):  10: , 11: , 12: , 13: , 14: , 15: , 16: , 17: 
+    Values (Data 16):  10: , 11: , 12: , 13: , 14: , 15: , 16: , 17: 
+    Values (Data 17):  10: , 11: , 12: , 13: , 14: , 15: , 16: , 17: 
+    Values (Data 18):  10: , 11: , 12: , 13: , 14: , 15: , 16: , 17: 
+    Values (Data 19):  11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 20):  11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 21):  11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 22):  11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 23):  11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 24):  11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 25):  11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 26):  11: 現在の勤め先を選んだ理由チェック済:11, 12: 現在の勤め先を選んだ理由チェック済:12, 13: 現在の勤め先を選んだ理由チェック済:13, 14: 現在の勤め先を選んだ理由チェック済:14, 15: 現在の勤め先を選んだ理由チェック済:15, 16: 現在の勤め先を選んだ理由チェック済:16, 17: 現在の勤め先を選んだ理由チェック済:17, 18: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 27):  1: 仕事の内容に興味がない, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
+    Values (Data 28):  1: 仕事の内容に興味がない, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年、契約期間の満了, 9: 会社都合, 10: その他の理由
+    Values (Data 29):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年・契約期間の満了, 9: 会社の都合, 10: その他の理由(出向等含む)
+    Values (Data 30):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年・契約期間の満了, 9: 会社の都合, 10: その他の理由(出向等含む)
+    Values (Data 31):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年・契約期間の満了, 9: 会社の都合, 10: その他の理由(出向等含む)
+    Values (Data 32):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚・出産・育児・介護, 8: 定年・契約期間の満了, 9: 会社の都合, 10: その他の理由(出向等含む)
+    Values (Data 33):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 34):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 35):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 36):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 37):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 38):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 39):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 40):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 41):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 42):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 43):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+    Values (Data 44):  1: 仕事の内容が不満, 2: 能力・個性・資格を生かせない, 3: 職場の人間関係, 4: 会社の将来が不安, 5: 収入が少ない, 6: 労働条件が悪い, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 定年・契約期間の満了, 11: 会社の都合, 12: その他の理由(出向等含む)
+
+----------------------------------------------------------------------*/
+gen v64_NEWVARIABLE = .
+local var_lab: variable label var53
+local val_lab: value label var53
+capture replace v64_NEWVARIABLE = var53  if `data'==11
+capture replace v64_NEWVARIABLE = var53  if `data'==12
+capture replace v64_NEWVARIABLE = var53  if `data'==13
+capture replace v64_NEWVARIABLE = var53  if `data'==14
+capture replace v64_NEWVARIABLE = var54  if `data'==15
+capture replace v64_NEWVARIABLE = var54  if `data'==16
+capture replace v64_NEWVARIABLE = var54  if `data'==17
+capture replace v64_NEWVARIABLE = var54  if `data'==18
+capture replace v64_NEWVARIABLE = var63  if `data'==19
+capture replace v64_NEWVARIABLE = var63  if `data'==20
+capture replace v64_NEWVARIABLE = var63  if `data'==21
+capture replace v64_NEWVARIABLE = var63  if `data'==22
+capture replace v64_NEWVARIABLE = var63  if `data'==23
+capture replace v64_NEWVARIABLE = var63  if `data'==24
+capture replace v64_NEWVARIABLE = var63  if `data'==25
+capture replace v64_NEWVARIABLE = var63  if `data'==26
+capture replace v64_NEWVARIABLE = var35  if `data'==27
+capture replace v64_NEWVARIABLE = var35  if `data'==28
+capture replace v64_NEWVARIABLE = var36  if `data'==29
+capture replace v64_NEWVARIABLE = var36  if `data'==30
+capture replace v64_NEWVARIABLE = var36  if `data'==31
+capture replace v64_NEWVARIABLE = var36  if `data'==32
+capture replace v64_NEWVARIABLE = var36  if `data'==33
+capture replace v64_NEWVARIABLE = var36  if `data'==34
+capture replace v64_NEWVARIABLE = var36  if `data'==35
+capture replace v64_NEWVARIABLE = var36  if `data'==36
+capture replace v64_NEWVARIABLE = var36  if `data'==37
+capture replace v64_NEWVARIABLE = var36  if `data'==38
+capture replace v64_NEWVARIABLE = var36  if `data'==39
+capture replace v64_NEWVARIABLE = var36  if `data'==40
+capture replace v64_NEWVARIABLE = var36  if `data'==41
+capture replace v64_NEWVARIABLE = var36  if `data'==42
+capture replace v64_NEWVARIABLE = var36  if `data'==43
+capture replace v64_NEWVARIABLE = var36  if `data'==44
+capture label variable v64_NEWVARIABLE `var_lab'
+capture label values v64_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "所在地: 地域9-2"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): "所在地: 地域9-2"
+    Description (Data 16): "所在地: 地域9-2"
+    Description (Data 17): "所在地: 地域9-2"
+    Description (Data 18): "所在地: 地域9-2"
+    Description (Data 19): "所在地: 地域9-2"
+    Description (Data 20): "所在地: 地域9-2"
+    Description (Data 21): "所在地: 地域9-2"
+    Description (Data 22): "所在地: 地域9-2"
+    Description (Data 23): "所在地: 地域9-2"
+    Description (Data 24): "所在地: 地域9-2"
+    Description (Data 25): "所在地: 地域9-2"
+    Description (Data 26): "所在地: 地域9-2"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 16):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 17):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 18):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 19):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 20):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 21):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 22):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 23):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 24):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 25):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 26):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42,44, 13: 県番号:43,45~47
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v65_NEWVARIABLE = .
+local var_lab: variable label var6
+local val_lab: value label var6
+capture replace v65_NEWVARIABLE = var6  if `data'==15
+capture replace v65_NEWVARIABLE = var6  if `data'==16
+capture replace v65_NEWVARIABLE = var6  if `data'==17
+capture replace v65_NEWVARIABLE = var6  if `data'==18
+capture replace v65_NEWVARIABLE = var8  if `data'==19
+capture replace v65_NEWVARIABLE = var8  if `data'==20
+capture replace v65_NEWVARIABLE = var8  if `data'==21
+capture replace v65_NEWVARIABLE = var8  if `data'==22
+capture replace v65_NEWVARIABLE = var8  if `data'==23
+capture replace v65_NEWVARIABLE = var8  if `data'==24
+capture replace v65_NEWVARIABLE = var8  if `data'==25
+capture replace v65_NEWVARIABLE = var8  if `data'==26
+capture label variable v65_NEWVARIABLE `var_lab'
+capture label values v65_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 16): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 17): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 18): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 19): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 20): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 21): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 22): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 23): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 24): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 25): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 26): "個人項目現在の勤め先を選んだ理由: 分類表28-3"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: 選んだ理由チェック済:10, 2: 現在の勤め先を選んだ理由チェック済:11, 3: 現在の勤め先を選んだ理由チェック済:12, 4: 現在の勤め先を選んだ理由チェック済:13, 5: 現在の勤め先を選んだ理由チェック済:14, 6: 現在の勤め先を選んだ理由チェック済:15, 7: 現在の勤め先を選んだ理由チェック済:16, 8: 現在の勤め先を選んだ理由チェック済:17
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15):  1: 選んだ理由チェック済:10, 2: 現在の勤め先を選んだ理由チェック済:11, 3: 現在の勤め先を選んだ理由チェック済:12, 4: 現在の勤め先を選んだ理由チェック済:13, 5: 現在の勤め先を選んだ理由チェック済:14, 6: 現在の勤め先を選んだ理由チェック済:15, 7: 現在の勤め先を選んだ理由チェック済:16, 8: 現在の勤め先を選んだ理由チェック済:17
+    Values (Data 16):  1: 選んだ理由チェック済:10, 2: 現在の勤め先を選んだ理由チェック済:11, 3: 現在の勤め先を選んだ理由チェック済:12, 4: 現在の勤め先を選んだ理由チェック済:13, 5: 現在の勤め先を選んだ理由チェック済:14, 6: 現在の勤め先を選んだ理由チェック済:15, 7: 現在の勤め先を選んだ理由チェック済:16, 8: 現在の勤め先を選んだ理由チェック済:17
+    Values (Data 17):  1: 選んだ理由チェック済:10, 2: 選んだ理由チェック済:11, 3: 選んだ理由チェック済:12, 4: 選んだ理由チェック済:13, 5: 選んだ理由チェック済:14, 6: 選んだ理由チェック済:15, 7: 選んだ理由チェック済:16, 8: 選んだ理由チェック済:17
+    Values (Data 18):  1: 選んだ理由チェック済:10, 2: 選んだ理由チェック済:11, 3: 選んだ理由チェック済:12, 4: 選んだ理由チェック済:13, 5: 選んだ理由チェック済:14, 6: 選んだ理由チェック済:15, 7: 選んだ理由チェック済:16, 8: 選んだ理由チェック済:17
+    Values (Data 19):  1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 20):  1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 21):  1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 22):  1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 23):  1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 24):  1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 25):  1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 26):  1: 現在の勤め先を選んだ理由チェック済:11, 2: 現在の勤め先を選んだ理由チェック済:12, 3: 現在の勤め先を選んだ理由チェック済:13, 4: 現在の勤め先を選んだ理由チェック済:14, 5: 現在の勤め先を選んだ理由チェック済:15, 6: 現在の勤め先を選んだ理由チェック済:16, 7: 現在の勤め先を選んだ理由チェック済:17, 8: 現在の勤め先を選んだ理由チェック済:18
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v66_NEWVARIABLE = .
+local var_lab: variable label var55
+local val_lab: value label var55
+capture replace v66_NEWVARIABLE = var55  if `data'==15
+capture replace v66_NEWVARIABLE = var55  if `data'==16
+capture replace v66_NEWVARIABLE = var55  if `data'==17
+capture replace v66_NEWVARIABLE = var55  if `data'==18
+capture replace v66_NEWVARIABLE = var64  if `data'==19
+capture replace v66_NEWVARIABLE = var64  if `data'==20
+capture replace v66_NEWVARIABLE = var64  if `data'==21
+capture replace v66_NEWVARIABLE = var64  if `data'==22
+capture replace v66_NEWVARIABLE = var64  if `data'==23
+capture replace v66_NEWVARIABLE = var64  if `data'==24
+capture replace v66_NEWVARIABLE = var64  if `data'==25
+capture replace v66_NEWVARIABLE = var64  if `data'==26
+capture label variable v66_NEWVARIABLE `var_lab'
+capture label values v66_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "DLM1"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "DLM1"
+    Description (Data 20): "DLM1"
+    Description (Data 21): "DLM1"
+    Description (Data 22): "DLM1"
+    Description (Data 23): "DLM1"
+    Description (Data 24): "DLM1"
+    Description (Data 25): "DLM1"
+    Description (Data 26): "DLM1"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v67_NEWVARIABLE = .
+local var_lab: variable label var5
+local val_lab: value label var5
+capture replace v67_NEWVARIABLE = var5  if `data'==19
+capture replace v67_NEWVARIABLE = var5  if `data'==20
+capture replace v67_NEWVARIABLE = var5  if `data'==21
+capture replace v67_NEWVARIABLE = var5  if `data'==22
+capture replace v67_NEWVARIABLE = var5  if `data'==23
+capture replace v67_NEWVARIABLE = var5  if `data'==24
+capture replace v67_NEWVARIABLE = var5  if `data'==25
+capture replace v67_NEWVARIABLE = var5  if `data'==26
+capture label variable v67_NEWVARIABLE `var_lab'
+capture label values v67_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "空白1"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "空白1"
+    Description (Data 20): "空白1"
+    Description (Data 21): "空白1"
+    Description (Data 22): "空白1"
+    Description (Data 23): "空白1"
+    Description (Data 24): "空白1"
+    Description (Data 25): "空白1"
+    Description (Data 26): "空白1"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v68_NEWVARIABLE = .
+local var_lab: variable label var6
+local val_lab: value label var6
+capture replace v68_NEWVARIABLE = var6  if `data'==19
+capture replace v68_NEWVARIABLE = var6  if `data'==20
+capture replace v68_NEWVARIABLE = var6  if `data'==21
+capture replace v68_NEWVARIABLE = var6  if `data'==22
+capture replace v68_NEWVARIABLE = var6  if `data'==23
+capture replace v68_NEWVARIABLE = var6  if `data'==24
+capture replace v68_NEWVARIABLE = var6  if `data'==25
+capture replace v68_NEWVARIABLE = var6  if `data'==26
+capture label variable v68_NEWVARIABLE `var_lab'
+capture label values v68_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "DLM2"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "DLM2"
+    Description (Data 20): "DLM2"
+    Description (Data 21): "DLM2"
+    Description (Data 22): "DLM2"
+    Description (Data 23): "DLM2"
+    Description (Data 24): "DLM2"
+    Description (Data 25): "DLM2"
+    Description (Data 26): "DLM2"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v69_NEWVARIABLE = .
+local var_lab: variable label var13
+local val_lab: value label var13
+capture replace v69_NEWVARIABLE = var13  if `data'==19
+capture replace v69_NEWVARIABLE = var13  if `data'==20
+capture replace v69_NEWVARIABLE = var13  if `data'==21
+capture replace v69_NEWVARIABLE = var13  if `data'==22
+capture replace v69_NEWVARIABLE = var13  if `data'==23
+capture replace v69_NEWVARIABLE = var13  if `data'==24
+capture replace v69_NEWVARIABLE = var13  if `data'==25
+capture replace v69_NEWVARIABLE = var13  if `data'==26
+capture label variable v69_NEWVARIABLE `var_lab'
+capture label values v69_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "DLM3"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "DLM3"
+    Description (Data 20): "DLM3"
+    Description (Data 21): "DLM3"
+    Description (Data 22): "DLM3"
+    Description (Data 23): "DLM3"
+    Description (Data 24): "DLM3"
+    Description (Data 25): "DLM3"
+    Description (Data 26): "DLM3"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v70_NEWVARIABLE = .
+local var_lab: variable label var15
+local val_lab: value label var15
+capture replace v70_NEWVARIABLE = var15  if `data'==19
+capture replace v70_NEWVARIABLE = var15  if `data'==20
+capture replace v70_NEWVARIABLE = var15  if `data'==21
+capture replace v70_NEWVARIABLE = var15  if `data'==22
+capture replace v70_NEWVARIABLE = var15  if `data'==23
+capture replace v70_NEWVARIABLE = var15  if `data'==24
+capture replace v70_NEWVARIABLE = var15  if `data'==25
+capture replace v70_NEWVARIABLE = var15  if `data'==26
+capture label variable v70_NEWVARIABLE `var_lab'
+capture label values v70_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "DLM4"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "DLM4"
+    Description (Data 20): "DLM4"
+    Description (Data 21): "DLM4"
+    Description (Data 22): "DLM4"
+    Description (Data 23): "DLM4"
+    Description (Data 24): "DLM4"
+    Description (Data 25): "DLM4"
+    Description (Data 26): "DLM4"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v71_NEWVARIABLE = .
-local var_lab: variable label var71
-local val_lab: value label var71
-capture replace v71_NEWVARIABLE = var71  if `data'==1
-capture replace v71_NEWVARIABLE = var71  if `data'==2
-capture replace v71_NEWVARIABLE = var71  if `data'==3
-capture replace v71_NEWVARIABLE = var71  if `data'==4
-capture replace v71_NEWVARIABLE = var71  if `data'==5
-capture replace v71_NEWVARIABLE = var71  if `data'==6
-capture replace v71_NEWVARIABLE = var71  if `data'==7
-capture replace v71_NEWVARIABLE = var71  if `data'==8
-capture replace v71_NEWVARIABLE = var20  if `data'==9
-capture replace v71_NEWVARIABLE = var20  if `data'==10
-capture replace v71_NEWVARIABLE = var21  if `data'==11
-capture replace v71_NEWVARIABLE = var21  if `data'==12
-capture replace v71_NEWVARIABLE = var21  if `data'==13
-capture replace v71_NEWVARIABLE = var21  if `data'==14
-capture replace v71_NEWVARIABLE = var21  if `data'==15
-capture replace v71_NEWVARIABLE = var21  if `data'==16
-capture replace v71_NEWVARIABLE = var21  if `data'==17
-capture replace v71_NEWVARIABLE = var21  if `data'==18
-capture replace v71_NEWVARIABLE = var21  if `data'==19
-capture replace v71_NEWVARIABLE = var21  if `data'==20
-capture replace v71_NEWVARIABLE = var21  if `data'==21
-capture replace v71_NEWVARIABLE = var21  if `data'==22
-capture replace v71_NEWVARIABLE = var21  if `data'==23
-capture replace v71_NEWVARIABLE = var21  if `data'==24
-capture replace v71_NEWVARIABLE = var21  if `data'==25
-capture replace v71_NEWVARIABLE = var21  if `data'==26
+local var_lab: variable label var18
+local val_lab: value label var18
+capture replace v71_NEWVARIABLE = var18  if `data'==19
+capture replace v71_NEWVARIABLE = var18  if `data'==20
+capture replace v71_NEWVARIABLE = var18  if `data'==21
+capture replace v71_NEWVARIABLE = var18  if `data'==22
+capture replace v71_NEWVARIABLE = var18  if `data'==23
+capture replace v71_NEWVARIABLE = var18  if `data'==24
+capture replace v71_NEWVARIABLE = var18  if `data'==25
+capture replace v71_NEWVARIABLE = var18  if `data'==26
 capture label variable v71_NEWVARIABLE `var_lab'
 capture label values v71_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
-    Description (Data 1):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
-    Description (Data 2):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
-    Description (Data 3):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
-    Description (Data 4):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
-    Description (Data 5):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
-    Description (Data 6):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
-    Description (Data 7):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
-    Description (Data 8):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
-    Description (Data 9):  "求職活動でのインターネットの利用"
-    Description (Data 10): "求職活動でのインターネットの利用"
+    Description (Base):    "乗率マトリックス用: 乗率用就業形態"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
     Description (Data 11): None
     Description (Data 12): None
     Description (Data 13): None
@@ -5849,26 +9363,44 @@ capture label values v71_NEWVARIABLE `val_lab'
     Description (Data 16): None
     Description (Data 17): None
     Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Data 19): "乗率マトリックス用: 乗率用就業形態"
+    Description (Data 20): "乗率マトリックス用: 乗率用就業形態"
+    Description (Data 21): "乗率マトリックス用: 乗率用就業形態"
+    Description (Data 22): "乗率マトリックス用: 乗率用就業形態"
+    Description (Data 23): "乗率マトリックス用: 乗率用就業形態"
+    Description (Data 24): "乗率マトリックス用: 乗率用就業形態"
+    Description (Data 25): "乗率マトリックス用: 乗率用就業形態"
+    Description (Data 26): "乗率マトリックス用: 乗率用就業形態"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):   5: その他のサイト
-    Values (Data 10):  5: その他のサイト
+    Values (Base):     1: 一般労働者, 2: パートタイム労働者
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
     Values (Data 11): None
     Values (Data 12): None
     Values (Data 13): None
@@ -5877,45 +9409,61 @@ capture label values v71_NEWVARIABLE `val_lab'
     Values (Data 16): None
     Values (Data 17): None
     Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 19):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 20):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 21):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 22):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 23):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 24):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 25):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 26):  1: 一般労働者, 2: パートタイム労働者
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v72_NEWVARIABLE = .
-local var_lab: variable label var72
-local val_lab: value label var72
-capture replace v72_NEWVARIABLE = var72  if `data'==1
-capture replace v72_NEWVARIABLE = var72  if `data'==2
-capture replace v72_NEWVARIABLE = var72  if `data'==3
-capture replace v72_NEWVARIABLE = var72  if `data'==4
-capture replace v72_NEWVARIABLE = var72  if `data'==5
-capture replace v72_NEWVARIABLE = var72  if `data'==6
-capture replace v72_NEWVARIABLE = var72  if `data'==7
-capture replace v72_NEWVARIABLE = var72  if `data'==8
-capture replace v72_NEWVARIABLE = var21  if `data'==9
-capture replace v72_NEWVARIABLE = var21  if `data'==10
+local var_lab: variable label var22
+local val_lab: value label var22
+capture replace v72_NEWVARIABLE = var22  if `data'==19
+capture replace v72_NEWVARIABLE = var22  if `data'==20
+capture replace v72_NEWVARIABLE = var22  if `data'==21
+capture replace v72_NEWVARIABLE = var22  if `data'==22
+capture replace v72_NEWVARIABLE = var22  if `data'==23
+capture replace v72_NEWVARIABLE = var22  if `data'==24
+capture replace v72_NEWVARIABLE = var22  if `data'==25
+capture replace v72_NEWVARIABLE = var22  if `data'==26
 capture label variable v72_NEWVARIABLE `var_lab'
 capture label values v72_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
-    Description (Data 1):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
-    Description (Data 2):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
-    Description (Data 3):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
-    Description (Data 4):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
-    Description (Data 5):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
-    Description (Data 6):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
-    Description (Data 7):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
-    Description (Data 8):  "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
-    Description (Data 9):  "求職活動でのインターネットの利用"
-    Description (Data 10): "求職活動でのインターネットの利用"
+    Description (Base):    "DLM5"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
     Description (Data 11): None
     Description (Data 12): None
     Description (Data 13): None
@@ -5924,26 +9472,44 @@ capture label values v72_NEWVARIABLE `val_lab'
     Description (Data 16): None
     Description (Data 17): None
     Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Data 19): "DLM5"
+    Description (Data 20): "DLM5"
+    Description (Data 21): "DLM5"
+    Description (Data 22): "DLM5"
+    Description (Data 23): "DLM5"
+    Description (Data 24): "DLM5"
+    Description (Data 25): "DLM5"
+    Description (Data 26): "DLM5"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
     Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):   6: 面接日の調整や企業に対する質問等に利用
-    Values (Data 10):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
     Values (Data 11): None
     Values (Data 12): None
     Values (Data 13): None
@@ -5952,112 +9518,146 @@ capture label values v72_NEWVARIABLE `val_lab'
     Values (Data 16): None
     Values (Data 17): None
     Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v73_NEWVARIABLE = .
-local var_lab: variable label var73
-local val_lab: value label var73
-capture replace v73_NEWVARIABLE = var73  if `data'==1
-capture replace v73_NEWVARIABLE = var73  if `data'==2
-capture replace v73_NEWVARIABLE = var73  if `data'==3
-capture replace v73_NEWVARIABLE = var73  if `data'==4
-capture replace v73_NEWVARIABLE = var73  if `data'==5
-capture replace v73_NEWVARIABLE = var73  if `data'==6
-capture replace v73_NEWVARIABLE = var73  if `data'==7
-capture replace v73_NEWVARIABLE = var73  if `data'==8
-capture replace v73_NEWVARIABLE = var22  if `data'==9
-capture replace v73_NEWVARIABLE = var22  if `data'==10
+local var_lab: variable label var23
+local val_lab: value label var23
+capture replace v73_NEWVARIABLE = var23  if `data'==19
+capture replace v73_NEWVARIABLE = var23  if `data'==20
+capture replace v73_NEWVARIABLE = var23  if `data'==21
+capture replace v73_NEWVARIABLE = var23  if `data'==22
+capture replace v73_NEWVARIABLE = var23  if `data'==23
+capture replace v73_NEWVARIABLE = var23  if `data'==24
+capture replace v73_NEWVARIABLE = var23  if `data'==25
+capture replace v73_NEWVARIABLE = var23  if `data'==26
 capture label variable v73_NEWVARIABLE `var_lab'
 capture label values v73_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
-    Description (Data 1):  "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
-    Description (Data 2):  "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
-    Description (Data 3):  "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
-    Description (Data 4):  "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
-    Description (Data 5):  "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
-    Description (Data 6):  "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
-    Description (Data 7):  "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
-    Description (Data 8):  "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
-    Description (Data 9):  "求職活動でのインターネットの利用"
-    Description (Data 10): "求職活動でのインターネットの利用"
-    Description (Data 11): "個人項目インターネット無: 7"
-    Description (Data 12): "個人項目インターネット無: 7"
-    Description (Data 13): "個人項目インターネット無: 7"
-    Description (Data 14): "個人項目インターネット無: 7"
-    Description (Data 15): "個人項目インターネット無: 7"
-    Description (Data 16): "個人項目インターネット無: 7"
-    Description (Data 17): "個人項目インターネット無: 7"
-    Description (Data 18): "個人項目インターネット無: 7"
-    Description (Data 19): "個人項目インターネット無: 7"
-    Description (Data 20): "個人項目インターネット無: 7"
-    Description (Data 21): "個人項目インターネット無: 7"
-    Description (Data 22): "個人項目インターネット無: 7"
-    Description (Data 23): "個人項目インターネット無: 7"
-    Description (Data 24): "個人項目インターネット無: 7"
-    Description (Data 25): "個人項目インターネット無: 7"
-    Description (Data 26): "個人項目インターネット無: 7"
+    Description (Base):    "空白2"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "空白2"
+    Description (Data 20): "空白2"
+    Description (Data 21): "空白2"
+    Description (Data 22): "空白2"
+    Description (Data 23): "空白2"
+    Description (Data 24): "空白2"
+    Description (Data 25): "空白2"
+    Description (Data 26): "空白2"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
     Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):   7: インターネットを利用しなかった
-    Values (Data 10):  7: インターネットを利用しなかった
-    Values (Data 11):  7: インターネットを利用しなかった
-    Values (Data 12):  7: インターネットを利用しなかった
-    Values (Data 13):  7: インターネットを利用しなかった
-    Values (Data 14):  7: インターネットを利用しなかった
-    Values (Data 15):  7: インターネットは利用しなかった
-    Values (Data 16):  7: インターネットは利用しなかった
-    Values (Data 17):  7: インターネットは利用しなかった
-    Values (Data 18):  7: インターネットは利用しなかった
-    Values (Data 19):  7: インターネットは利用しなかった
-    Values (Data 20):  7: インターネットは利用しなかった
-    Values (Data 21):  7: インターネットは利用しなかった
-    Values (Data 22):  7: インターネットは利用しなかった
-    Values (Data 23):  7: インターネットは利用しなかった
-    Values (Data 24):  7: インターネットは利用しなかった
-    Values (Data 25):  7: インターネットは利用しなかった
-    Values (Data 26):  7: インターネットは利用しなかった
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v74_NEWVARIABLE = .
-local var_lab: variable label var74
-local val_lab: value label var74
-capture replace v74_NEWVARIABLE = var74  if `data'==1
-capture replace v74_NEWVARIABLE = var74  if `data'==2
-capture replace v74_NEWVARIABLE = var74  if `data'==3
-capture replace v74_NEWVARIABLE = var74  if `data'==4
-capture replace v74_NEWVARIABLE = var74  if `data'==5
-capture replace v74_NEWVARIABLE = var74  if `data'==6
-capture replace v74_NEWVARIABLE = var74  if `data'==7
-capture replace v74_NEWVARIABLE = var74  if `data'==8
-capture replace v74_NEWVARIABLE = var23  if `data'==9
-capture replace v74_NEWVARIABLE = var23  if `data'==10
-capture replace v74_NEWVARIABLE = var24  if `data'==11
-capture replace v74_NEWVARIABLE = var24  if `data'==12
-capture replace v74_NEWVARIABLE = var24  if `data'==13
-capture replace v74_NEWVARIABLE = var24  if `data'==14
-capture replace v74_NEWVARIABLE = var24  if `data'==15
-capture replace v74_NEWVARIABLE = var24  if `data'==16
-capture replace v74_NEWVARIABLE = var24  if `data'==17
-capture replace v74_NEWVARIABLE = var24  if `data'==18
+local var_lab: variable label var24
+local val_lab: value label var24
 capture replace v74_NEWVARIABLE = var24  if `data'==19
 capture replace v74_NEWVARIABLE = var24  if `data'==20
 capture replace v74_NEWVARIABLE = var24  if `data'==21
@@ -6071,15 +9671,15 @@ capture label values v74_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "空白4"
-    Description (Data 1):  "空白4"
-    Description (Data 2):  "空白4"
-    Description (Data 3):  "空白4"
-    Description (Data 4):  "空白4"
-    Description (Data 5):  "空白4"
-    Description (Data 6):  "空白4"
-    Description (Data 7):  "空白4"
-    Description (Data 8):  "空白4"
+    Description (Base):    "DLM6"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -6090,24 +9690,42 @@ capture label values v74_NEWVARIABLE `val_lab'
     Description (Data 16): None
     Description (Data 17): None
     Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Data 19): "DLM6"
+    Description (Data 20): "DLM6"
+    Description (Data 21): "DLM6"
+    Description (Data 22): "DLM6"
+    Description (Data 23): "DLM6"
+    Description (Data 24): "DLM6"
+    Description (Data 25): "DLM6"
+    Description (Data 26): "DLM6"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
     Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
     Values (Data 9):  None
     Values (Data 10): None
     Values (Data 11): None
@@ -6118,41 +9736,59 @@ capture label values v74_NEWVARIABLE `val_lab'
     Values (Data 16): None
     Values (Data 17): None
     Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v75_NEWVARIABLE = .
-local var_lab: variable label var75
-local val_lab: value label var75
-capture replace v75_NEWVARIABLE = var75  if `data'==1
-capture replace v75_NEWVARIABLE = var75  if `data'==2
-capture replace v75_NEWVARIABLE = var75  if `data'==3
-capture replace v75_NEWVARIABLE = var75  if `data'==4
-capture replace v75_NEWVARIABLE = var75  if `data'==5
-capture replace v75_NEWVARIABLE = var75  if `data'==6
-capture replace v75_NEWVARIABLE = var75  if `data'==7
-capture replace v75_NEWVARIABLE = var75  if `data'==8
+local var_lab: variable label var25
+local val_lab: value label var25
+capture replace v75_NEWVARIABLE = var25  if `data'==19
+capture replace v75_NEWVARIABLE = var25  if `data'==20
+capture replace v75_NEWVARIABLE = var25  if `data'==21
+capture replace v75_NEWVARIABLE = var25  if `data'==22
+capture replace v75_NEWVARIABLE = var25  if `data'==23
+capture replace v75_NEWVARIABLE = var25  if `data'==24
+capture replace v75_NEWVARIABLE = var25  if `data'==25
+capture replace v75_NEWVARIABLE = var25  if `data'==26
 capture label variable v75_NEWVARIABLE `var_lab'
 capture label values v75_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "分類表1"
-    Description (Data 1):  "分類表1"
-    Description (Data 2):  "分類表1"
-    Description (Data 3):  "分類表1"
-    Description (Data 4):  "分類表1"
-    Description (Data 5):  "分類表1"
-    Description (Data 6):  "分類表1"
-    Description (Data 7):  "分類表1"
-    Description (Data 8):  "分類表1"
+    Description (Base):    "DLM7"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -6163,24 +9799,42 @@ capture label values v75_NEWVARIABLE `val_lab'
     Description (Data 16): None
     Description (Data 17): None
     Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Data 19): "DLM7"
+    Description (Data 20): "DLM7"
+    Description (Data 21): "DLM7"
+    Description (Data 22): "DLM7"
+    Description (Data 23): "DLM7"
+    Description (Data 24): "DLM7"
+    Description (Data 25): "DLM7"
+    Description (Data 26): "DLM7"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
     Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
     Values (Data 9):  None
     Values (Data 10): None
     Values (Data 11): None
@@ -6191,41 +9845,59 @@ capture label values v75_NEWVARIABLE `val_lab'
     Values (Data 16): None
     Values (Data 17): None
     Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v76_NEWVARIABLE = .
-local var_lab: variable label var76
-local val_lab: value label var76
-capture replace v76_NEWVARIABLE = var76  if `data'==1
-capture replace v76_NEWVARIABLE = var76  if `data'==2
-capture replace v76_NEWVARIABLE = var76  if `data'==3
-capture replace v76_NEWVARIABLE = var76  if `data'==4
-capture replace v76_NEWVARIABLE = var76  if `data'==5
-capture replace v76_NEWVARIABLE = var76  if `data'==6
-capture replace v76_NEWVARIABLE = var76  if `data'==7
-capture replace v76_NEWVARIABLE = var76  if `data'==8
+local var_lab: variable label var27
+local val_lab: value label var27
+capture replace v76_NEWVARIABLE = var27  if `data'==19
+capture replace v76_NEWVARIABLE = var27  if `data'==20
+capture replace v76_NEWVARIABLE = var27  if `data'==21
+capture replace v76_NEWVARIABLE = var27  if `data'==22
+capture replace v76_NEWVARIABLE = var27  if `data'==23
+capture replace v76_NEWVARIABLE = var27  if `data'==24
+capture replace v76_NEWVARIABLE = var27  if `data'==25
+capture replace v76_NEWVARIABLE = var27  if `data'==26
 capture label variable v76_NEWVARIABLE `var_lab'
 capture label values v76_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "製造業分類"
-    Description (Data 1):  "製造業分類"
-    Description (Data 2):  "製造業分類"
-    Description (Data 3):  "製造業分類"
-    Description (Data 4):  "製造業分類"
-    Description (Data 5):  "製造業分類"
-    Description (Data 6):  "製造業分類"
-    Description (Data 7):  "製造業分類"
-    Description (Data 8):  "製造業分類"
+    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -6236,24 +9908,42 @@ capture label values v76_NEWVARIABLE `val_lab'
     Description (Data 16): None
     Description (Data 17): None
     Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
+    Description (Data 19): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
+    Description (Data 20): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
+    Description (Data 21): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
+    Description (Data 22): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
+    Description (Data 23): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
+    Description (Data 24): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
+    Description (Data 25): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
+    Description (Data 26): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況1"
+    Description (Data 27): "求職活動でのインターネットの利用"
+    Description (Data 28): "求職活動でのインターネットの利用"
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
     Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
     Values (Data 9):  None
     Values (Data 10): None
     Values (Data 11): None
@@ -6264,41 +9954,977 @@ capture label values v76_NEWVARIABLE `val_lab'
     Values (Data 16): None
     Values (Data 17): None
     Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27):  1: 求人企業が直接運営するサイト
+    Values (Data 28):  1: 求人企業が直接運営するサイト
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
 gen v77_NEWVARIABLE = .
-local var_lab: variable label var77
-local val_lab: value label var77
-capture replace v77_NEWVARIABLE = var77  if `data'==1
-capture replace v77_NEWVARIABLE = var77  if `data'==2
-capture replace v77_NEWVARIABLE = var77  if `data'==3
-capture replace v77_NEWVARIABLE = var77  if `data'==4
-capture replace v77_NEWVARIABLE = var77  if `data'==5
-capture replace v77_NEWVARIABLE = var77  if `data'==6
-capture replace v77_NEWVARIABLE = var77  if `data'==7
-capture replace v77_NEWVARIABLE = var77  if `data'==8
+local var_lab: variable label var68
+local val_lab: value label var68
+capture replace v77_NEWVARIABLE = var68  if `data'==19
+capture replace v77_NEWVARIABLE = var68  if `data'==20
+capture replace v77_NEWVARIABLE = var68  if `data'==21
+capture replace v77_NEWVARIABLE = var68  if `data'==22
+capture replace v77_NEWVARIABLE = var68  if `data'==23
+capture replace v77_NEWVARIABLE = var68  if `data'==24
+capture replace v77_NEWVARIABLE = var68  if `data'==25
+capture replace v77_NEWVARIABLE = var68  if `data'==26
+capture replace v77_NEWVARIABLE = var17  if `data'==27
+capture replace v77_NEWVARIABLE = var17  if `data'==28
 capture label variable v77_NEWVARIABLE `var_lab'
 capture label values v77_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
+    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
+    Description (Data 20): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
+    Description (Data 21): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
+    Description (Data 22): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
+    Description (Data 23): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
+    Description (Data 24): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
+    Description (Data 25): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
+    Description (Data 26): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況2"
+    Description (Data 27): "求職活動でのインターネットの利用"
+    Description (Data 28): "求職活動でのインターネットの利用"
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27):  2: 民間等の求人広告会社のサイト
+    Values (Data 28):  2: 民間等の求人広告会社のサイト
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v78_NEWVARIABLE = .
+local var_lab: variable label var69
+local val_lab: value label var69
+capture replace v78_NEWVARIABLE = var69  if `data'==19
+capture replace v78_NEWVARIABLE = var69  if `data'==20
+capture replace v78_NEWVARIABLE = var69  if `data'==21
+capture replace v78_NEWVARIABLE = var69  if `data'==22
+capture replace v78_NEWVARIABLE = var69  if `data'==23
+capture replace v78_NEWVARIABLE = var69  if `data'==24
+capture replace v78_NEWVARIABLE = var69  if `data'==25
+capture replace v78_NEWVARIABLE = var69  if `data'==26
+capture replace v78_NEWVARIABLE = var18  if `data'==27
+capture replace v78_NEWVARIABLE = var18  if `data'==28
+capture label variable v78_NEWVARIABLE `var_lab'
+capture label values v78_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
+    Description (Data 20): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
+    Description (Data 21): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
+    Description (Data 22): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
+    Description (Data 23): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
+    Description (Data 24): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
+    Description (Data 25): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
+    Description (Data 26): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況3"
+    Description (Data 27): "求職活動でのインターネットの利用"
+    Description (Data 28): "求職活動でのインターネットの利用"
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27):  3: しごと情報ネット
+    Values (Data 28):  3: しごと情報ネット
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v79_NEWVARIABLE = .
+local var_lab: variable label var70
+local val_lab: value label var70
+capture replace v79_NEWVARIABLE = var70  if `data'==19
+capture replace v79_NEWVARIABLE = var70  if `data'==20
+capture replace v79_NEWVARIABLE = var70  if `data'==21
+capture replace v79_NEWVARIABLE = var70  if `data'==22
+capture replace v79_NEWVARIABLE = var70  if `data'==23
+capture replace v79_NEWVARIABLE = var70  if `data'==24
+capture replace v79_NEWVARIABLE = var70  if `data'==25
+capture replace v79_NEWVARIABLE = var70  if `data'==26
+capture replace v79_NEWVARIABLE = var19  if `data'==27
+capture replace v79_NEWVARIABLE = var19  if `data'==28
+capture label variable v79_NEWVARIABLE `var_lab'
+capture label values v79_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
+    Description (Data 20): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
+    Description (Data 21): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
+    Description (Data 22): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
+    Description (Data 23): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
+    Description (Data 24): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
+    Description (Data 25): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
+    Description (Data 26): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況4"
+    Description (Data 27): "求職活動でのインターネットの利用"
+    Description (Data 28): "求職活動でのインターネットの利用"
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v80_NEWVARIABLE = .
+local var_lab: variable label var71
+local val_lab: value label var71
+capture replace v80_NEWVARIABLE = var71  if `data'==19
+capture replace v80_NEWVARIABLE = var71  if `data'==20
+capture replace v80_NEWVARIABLE = var71  if `data'==21
+capture replace v80_NEWVARIABLE = var71  if `data'==22
+capture replace v80_NEWVARIABLE = var71  if `data'==23
+capture replace v80_NEWVARIABLE = var71  if `data'==24
+capture replace v80_NEWVARIABLE = var71  if `data'==25
+capture replace v80_NEWVARIABLE = var71  if `data'==26
+capture replace v80_NEWVARIABLE = var20  if `data'==27
+capture replace v80_NEWVARIABLE = var20  if `data'==28
+capture label variable v80_NEWVARIABLE `var_lab'
+capture label values v80_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
+    Description (Data 20): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
+    Description (Data 21): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
+    Description (Data 22): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
+    Description (Data 23): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
+    Description (Data 24): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
+    Description (Data 25): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
+    Description (Data 26): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況5"
+    Description (Data 27): "求職活動でのインターネットの利用"
+    Description (Data 28): "求職活動でのインターネットの利用"
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27):  5: その他のサイト
+    Values (Data 28):  5: その他のサイト
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v81_NEWVARIABLE = .
+local var_lab: variable label var72
+local val_lab: value label var72
+capture replace v81_NEWVARIABLE = var72  if `data'==19
+capture replace v81_NEWVARIABLE = var72  if `data'==20
+capture replace v81_NEWVARIABLE = var72  if `data'==21
+capture replace v81_NEWVARIABLE = var72  if `data'==22
+capture replace v81_NEWVARIABLE = var72  if `data'==23
+capture replace v81_NEWVARIABLE = var72  if `data'==24
+capture replace v81_NEWVARIABLE = var72  if `data'==25
+capture replace v81_NEWVARIABLE = var72  if `data'==26
+capture replace v81_NEWVARIABLE = var21  if `data'==27
+capture replace v81_NEWVARIABLE = var21  if `data'==28
+capture label variable v81_NEWVARIABLE `var_lab'
+capture label values v81_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
+    Description (Data 20): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
+    Description (Data 21): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
+    Description (Data 22): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
+    Description (Data 23): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
+    Description (Data 24): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
+    Description (Data 25): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
+    Description (Data 26): "個人項目インターネットの活用状況インターネットの活用状況有: インターネットの活用状況6"
+    Description (Data 27): "求職活動でのインターネットの利用"
+    Description (Data 28): "求職活動でのインターネットの利用"
+    Description (Data 29): "個人項目インターネット有: 6"
+    Description (Data 30): "個人項目インターネット有: 6"
+    Description (Data 31): "個人項目インターネット有: 6"
+    Description (Data 32): "個人項目インターネット有: 6"
+    Description (Data 33): "個人項目インターネット有: 6"
+    Description (Data 34): "個人項目インターネット有: 6"
+    Description (Data 35): "個人項目インターネット有: 6"
+    Description (Data 36): "個人項目インターネット有: 6"
+    Description (Data 37): "個人項目インターネット有: 6"
+    Description (Data 38): "個人項目インターネット有: 6"
+    Description (Data 39): "個人項目インターネット有: 6"
+    Description (Data 40): "個人項目インターネット有: 6"
+    Description (Data 41): "個人項目インターネット有: 6"
+    Description (Data 42): "個人項目インターネット有: 6"
+    Description (Data 43): "個人項目インターネット有: 6"
+    Description (Data 44): "個人項目インターネット有: 6"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 28):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 29):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 30):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 31):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 32):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 33):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 34):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 35):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 36):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 37):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 38):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 39):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 40):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 41):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 42):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 43):  6: 面接日の調整や企業に対する質問等に利用
+    Values (Data 44):  6: 面接日の調整や企業に対する質問等に利用
+
+----------------------------------------------------------------------*/
+gen v82_NEWVARIABLE = .
+local var_lab: variable label var73
+local val_lab: value label var73
+capture replace v82_NEWVARIABLE = var73  if `data'==19
+capture replace v82_NEWVARIABLE = var73  if `data'==20
+capture replace v82_NEWVARIABLE = var73  if `data'==21
+capture replace v82_NEWVARIABLE = var73  if `data'==22
+capture replace v82_NEWVARIABLE = var73  if `data'==23
+capture replace v82_NEWVARIABLE = var73  if `data'==24
+capture replace v82_NEWVARIABLE = var73  if `data'==25
+capture replace v82_NEWVARIABLE = var73  if `data'==26
+capture replace v82_NEWVARIABLE = var22  if `data'==27
+capture replace v82_NEWVARIABLE = var22  if `data'==28
+capture replace v82_NEWVARIABLE = var23  if `data'==29
+capture replace v82_NEWVARIABLE = var23  if `data'==30
+capture replace v82_NEWVARIABLE = var23  if `data'==31
+capture replace v82_NEWVARIABLE = var23  if `data'==32
+capture replace v82_NEWVARIABLE = var23  if `data'==33
+capture replace v82_NEWVARIABLE = var23  if `data'==34
+capture replace v82_NEWVARIABLE = var23  if `data'==35
+capture replace v82_NEWVARIABLE = var23  if `data'==36
+capture replace v82_NEWVARIABLE = var23  if `data'==37
+capture replace v82_NEWVARIABLE = var23  if `data'==38
+capture replace v82_NEWVARIABLE = var23  if `data'==39
+capture replace v82_NEWVARIABLE = var23  if `data'==40
+capture replace v82_NEWVARIABLE = var23  if `data'==41
+capture replace v82_NEWVARIABLE = var23  if `data'==42
+capture replace v82_NEWVARIABLE = var23  if `data'==43
+capture replace v82_NEWVARIABLE = var23  if `data'==44
+capture label variable v82_NEWVARIABLE `var_lab'
+capture label values v82_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
+    Description (Data 20): "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
+    Description (Data 21): "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
+    Description (Data 22): "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
+    Description (Data 23): "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
+    Description (Data 24): "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
+    Description (Data 25): "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
+    Description (Data 26): "個人項目インターネットの活用状況インターネットの活用状況無: インターネットの活用状況7"
+    Description (Data 27): "求職活動でのインターネットの利用"
+    Description (Data 28): "求職活動でのインターネットの利用"
+    Description (Data 29): "個人項目インターネット無: 7"
+    Description (Data 30): "個人項目インターネット無: 7"
+    Description (Data 31): "個人項目インターネット無: 7"
+    Description (Data 32): "個人項目インターネット無: 7"
+    Description (Data 33): "個人項目インターネット無: 7"
+    Description (Data 34): "個人項目インターネット無: 7"
+    Description (Data 35): "個人項目インターネット無: 7"
+    Description (Data 36): "個人項目インターネット無: 7"
+    Description (Data 37): "個人項目インターネット無: 7"
+    Description (Data 38): "個人項目インターネット無: 7"
+    Description (Data 39): "個人項目インターネット無: 7"
+    Description (Data 40): "個人項目インターネット無: 7"
+    Description (Data 41): "個人項目インターネット無: 7"
+    Description (Data 42): "個人項目インターネット無: 7"
+    Description (Data 43): "個人項目インターネット無: 7"
+    Description (Data 44): "個人項目インターネット無: 7"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27):  7: インターネットを利用しなかった
+    Values (Data 28):  7: インターネットを利用しなかった
+    Values (Data 29):  7: インターネットを利用しなかった
+    Values (Data 30):  7: インターネットを利用しなかった
+    Values (Data 31):  7: インターネットを利用しなかった
+    Values (Data 32):  7: インターネットを利用しなかった
+    Values (Data 33):  7: インターネットは利用しなかった
+    Values (Data 34):  7: インターネットは利用しなかった
+    Values (Data 35):  7: インターネットは利用しなかった
+    Values (Data 36):  7: インターネットは利用しなかった
+    Values (Data 37):  7: インターネットは利用しなかった
+    Values (Data 38):  7: インターネットは利用しなかった
+    Values (Data 39):  7: インターネットは利用しなかった
+    Values (Data 40):  7: インターネットは利用しなかった
+    Values (Data 41):  7: インターネットは利用しなかった
+    Values (Data 42):  7: インターネットは利用しなかった
+    Values (Data 43):  7: インターネットは利用しなかった
+    Values (Data 44):  7: インターネットは利用しなかった
+
+----------------------------------------------------------------------*/
+gen v83_NEWVARIABLE = .
+local var_lab: variable label var74
+local val_lab: value label var74
+capture replace v83_NEWVARIABLE = var74  if `data'==19
+capture replace v83_NEWVARIABLE = var74  if `data'==20
+capture replace v83_NEWVARIABLE = var74  if `data'==21
+capture replace v83_NEWVARIABLE = var74  if `data'==22
+capture replace v83_NEWVARIABLE = var74  if `data'==23
+capture replace v83_NEWVARIABLE = var74  if `data'==24
+capture replace v83_NEWVARIABLE = var74  if `data'==25
+capture replace v83_NEWVARIABLE = var74  if `data'==26
+capture replace v83_NEWVARIABLE = var23  if `data'==27
+capture replace v83_NEWVARIABLE = var23  if `data'==28
+capture replace v83_NEWVARIABLE = var24  if `data'==29
+capture replace v83_NEWVARIABLE = var24  if `data'==30
+capture replace v83_NEWVARIABLE = var24  if `data'==31
+capture replace v83_NEWVARIABLE = var24  if `data'==32
+capture replace v83_NEWVARIABLE = var24  if `data'==33
+capture replace v83_NEWVARIABLE = var24  if `data'==34
+capture replace v83_NEWVARIABLE = var24  if `data'==35
+capture replace v83_NEWVARIABLE = var24  if `data'==36
+capture replace v83_NEWVARIABLE = var24  if `data'==37
+capture replace v83_NEWVARIABLE = var24  if `data'==38
+capture replace v83_NEWVARIABLE = var24  if `data'==39
+capture replace v83_NEWVARIABLE = var24  if `data'==40
+capture replace v83_NEWVARIABLE = var24  if `data'==41
+capture replace v83_NEWVARIABLE = var24  if `data'==42
+capture replace v83_NEWVARIABLE = var24  if `data'==43
+capture replace v83_NEWVARIABLE = var24  if `data'==44
+capture label variable v83_NEWVARIABLE `var_lab'
+capture label values v83_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "空白4"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "空白4"
+    Description (Data 20): "空白4"
+    Description (Data 21): "空白4"
+    Description (Data 22): "空白4"
+    Description (Data 23): "空白4"
+    Description (Data 24): "空白4"
+    Description (Data 25): "空白4"
+    Description (Data 26): "空白4"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v84_NEWVARIABLE = .
+local var_lab: variable label var75
+local val_lab: value label var75
+capture replace v84_NEWVARIABLE = var75  if `data'==19
+capture replace v84_NEWVARIABLE = var75  if `data'==20
+capture replace v84_NEWVARIABLE = var75  if `data'==21
+capture replace v84_NEWVARIABLE = var75  if `data'==22
+capture replace v84_NEWVARIABLE = var75  if `data'==23
+capture replace v84_NEWVARIABLE = var75  if `data'==24
+capture replace v84_NEWVARIABLE = var75  if `data'==25
+capture replace v84_NEWVARIABLE = var75  if `data'==26
+capture label variable v84_NEWVARIABLE `var_lab'
+capture label values v84_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
     Description (Base):    "DLM8"
-    Description (Data 1):  "DLM8"
-    Description (Data 2):  "DLM8"
-    Description (Data 3):  "DLM8"
-    Description (Data 4):  "DLM8"
-    Description (Data 5):  "DLM8"
-    Description (Data 6):  "DLM8"
-    Description (Data 7):  "DLM8"
-    Description (Data 8):  "DLM8"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): "DLM8"
+    Description (Data 20): "DLM8"
+    Description (Data 21): "DLM8"
+    Description (Data 22): "DLM8"
+    Description (Data 23): "DLM8"
+    Description (Data 24): "DLM8"
+    Description (Data 25): "DLM8"
+    Description (Data 26): "DLM8"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v85_NEWVARIABLE = .
+local var_lab: variable label var78
+local val_lab: value label var78
+capture replace v85_NEWVARIABLE = var78  if `data'==19
+capture replace v85_NEWVARIABLE = var78  if `data'==20
+capture replace v85_NEWVARIABLE = var78  if `data'==21
+capture replace v85_NEWVARIABLE = var78  if `data'==22
+capture replace v85_NEWVARIABLE = var78  if `data'==23
+capture replace v85_NEWVARIABLE = var78  if `data'==24
+capture replace v85_NEWVARIABLE = var78  if `data'==25
+capture replace v85_NEWVARIABLE = var78  if `data'==26
+capture label variable v85_NEWVARIABLE `var_lab'
+capture label values v85_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "性別"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
     Description (Data 9):  None
     Description (Data 10): None
     Description (Data 11): None
@@ -6317,16 +10943,34 @@ capture label values v77_NEWVARIABLE `val_lab'
     Description (Data 24): None
     Description (Data 25): None
     Description (Data 26): None
+    Description (Data 27): "性別"
+    Description (Data 28): "性別"
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
+    Values (Base):     1: 男, 2: 女
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
     Values (Data 9):  None
     Values (Data 10): None
     Values (Data 11): None
@@ -6345,21 +10989,33 @@ capture label values v77_NEWVARIABLE `val_lab'
     Values (Data 24): None
     Values (Data 25): None
     Values (Data 26): None
+    Values (Data 27):  1: 男, 2: 女
+    Values (Data 28):  1: 男, 2: 女
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v78_NEWVARIABLE = .
-local var_lab: variable label var78
-local val_lab: value label var78
-capture replace v78_NEWVARIABLE = var78  if `data'==1
-capture replace v78_NEWVARIABLE = var78  if `data'==2
-capture replace v78_NEWVARIABLE = var78  if `data'==3
-capture replace v78_NEWVARIABLE = var78  if `data'==4
-capture replace v78_NEWVARIABLE = var78  if `data'==5
-capture replace v78_NEWVARIABLE = var78  if `data'==6
-capture replace v78_NEWVARIABLE = var78  if `data'==7
-capture replace v78_NEWVARIABLE = var78  if `data'==8
-capture label variable v78_NEWVARIABLE `var_lab'
-capture label values v78_NEWVARIABLE `val_lab'
+gen v86_NEWVARIABLE = .
+local var_lab: variable label var13
+local val_lab: value label var13
+capture replace v86_NEWVARIABLE = var13  if `data'==27
+capture replace v86_NEWVARIABLE = var13  if `data'==28
+capture label variable v86_NEWVARIABLE `var_lab'
+capture label values v86_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -6372,8 +11028,8 @@ capture label values v78_NEWVARIABLE `val_lab'
     Description (Data 6):  None
     Description (Data 7):  None
     Description (Data 8):  None
-    Description (Data 9):  "年齢"
-    Description (Data 10): "年齢"
+    Description (Data 9):  None
+    Description (Data 10): None
     Description (Data 11): None
     Description (Data 12): None
     Description (Data 13): None
@@ -6384,12 +11040,30 @@ capture label values v78_NEWVARIABLE `val_lab'
     Description (Data 18): None
     Description (Data 19): None
     Description (Data 20): None
-    Description (Data 21): "年齢コード"
-    Description (Data 22): "年齢コード"
-    Description (Data 23): "年齢コード"
-    Description (Data 24): "年齢コード"
-    Description (Data 25): "年齢コード"
-    Description (Data 26): "年齢コード"
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): "年齢"
+    Description (Data 28): "年齢"
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
     Values (Base):     1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
     Values (Data 1):  None
@@ -6400,8 +11074,8 @@ capture label values v78_NEWVARIABLE `val_lab'
     Values (Data 6):  None
     Values (Data 7):  None
     Values (Data 8):  None
-    Values (Data 9):   1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 10):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 9):  None
+    Values (Data 10): None
     Values (Data 11): None
     Values (Data 12): None
     Values (Data 13): None
@@ -6412,31 +11086,43 @@ capture label values v78_NEWVARIABLE `val_lab'
     Values (Data 18): None
     Values (Data 19): None
     Values (Data 20): None
-    Values (Data 21):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 22):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 23):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 24):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 25):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 26):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 28):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v79_NEWVARIABLE = .
+gen v87_NEWVARIABLE = .
 local var_lab: variable label var14
 local val_lab: value label var14
-capture replace v79_NEWVARIABLE = var14  if `data'==9
-capture replace v79_NEWVARIABLE = var14  if `data'==10
-capture replace v79_NEWVARIABLE = var40  if `data'==21
-capture replace v79_NEWVARIABLE = var40  if `data'==22
-capture replace v79_NEWVARIABLE = var40  if `data'==23
-capture replace v79_NEWVARIABLE = var40  if `data'==24
-capture replace v79_NEWVARIABLE = var40  if `data'==25
-capture replace v79_NEWVARIABLE = var40  if `data'==26
-capture label variable v79_NEWVARIABLE `var_lab'
-capture label values v79_NEWVARIABLE `val_lab'
+capture replace v87_NEWVARIABLE = var14  if `data'==27
+capture replace v87_NEWVARIABLE = var14  if `data'==28
+capture label variable v87_NEWVARIABLE `var_lab'
+capture label values v87_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "最終学歴"
+    Description (Base):    "卒業年度"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
@@ -6445,26 +11131,44 @@ capture label values v79_NEWVARIABLE `val_lab'
     Description (Data 6):  None
     Description (Data 7):  None
     Description (Data 8):  None
-    Description (Data 9):  "最終学歴"
-    Description (Data 10): "最終学歴"
-    Description (Data 11): "個人項目: 最終学歴"
-    Description (Data 12): "個人項目: 最終学歴"
-    Description (Data 13): "個人項目: 最終学歴"
-    Description (Data 14): "個人項目: 最終学歴"
-    Description (Data 15): "個人項目: 最終学歴"
-    Description (Data 16): "個人項目: 最終学歴"
-    Description (Data 17): "個人項目: 最終学歴"
-    Description (Data 18): "個人項目: 最終学歴"
-    Description (Data 19): "個人項目: 最終学歴"
-    Description (Data 20): "個人項目: 最終学歴"
-    Description (Data 21): "個人項目: 最終学歴"
-    Description (Data 22): "個人項目: 最終学歴"
-    Description (Data 23): "個人項目: 最終学歴"
-    Description (Data 24): "個人項目: 最終学歴"
-    Description (Data 25): "個人項目: 最終学歴"
-    Description (Data 26): "個人項目: 最終学歴"
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): "卒業年度"
+    Description (Data 28): "卒業年度"
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
 
-    Values (Base):     1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
+    Values (Base):     1: 平成20年3月新卒, 2: 平成19年3月以前卒
     Values (Data 1):  None
     Values (Data 2):  None
     Values (Data 3):  None
@@ -6473,49 +11177,392 @@ capture label values v79_NEWVARIABLE `val_lab'
     Values (Data 6):  None
     Values (Data 7):  None
     Values (Data 8):  None
-    Values (Data 9):   1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
-    Values (Data 10):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
-    Values (Data 11):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
-    Values (Data 12):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
-    Values (Data 13):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
-    Values (Data 14):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
-    Values (Data 15):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
-    Values (Data 16):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
-    Values (Data 17):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
-    Values (Data 18):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学・大学院(文科系)卒, 6: 大学・大学院(理科系)卒
-    Values (Data 19):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
-    Values (Data 20):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
-    Values (Data 21):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
-    Values (Data 22):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
-    Values (Data 23):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
-    Values (Data 24):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
-    Values (Data 25):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
-    Values (Data 26):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学(文科系)卒, 6: 大学(理科系)卒, 7: 大学院(文科系)卒, 8: 大学院(理科系)卒
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27):  1: 平成20年3月新卒, 2: 平成19年3月以前卒
+    Values (Data 28):  1: 平成20年3月新卒, 2: 平成19年3月以前卒
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
 
 ----------------------------------------------------------------------*/
-gen v80_NEWVARIABLE = .
-local var_lab: variable label var15
-local val_lab: value label var15
-capture replace v80_NEWVARIABLE = var15  if `data'==9
-capture replace v80_NEWVARIABLE = var15  if `data'==10
-capture replace v80_NEWVARIABLE = var16  if `data'==11
-capture replace v80_NEWVARIABLE = var16  if `data'==12
-capture replace v80_NEWVARIABLE = var16  if `data'==13
-capture replace v80_NEWVARIABLE = var16  if `data'==14
-capture replace v80_NEWVARIABLE = var16  if `data'==15
-capture replace v80_NEWVARIABLE = var16  if `data'==16
-capture replace v80_NEWVARIABLE = var16  if `data'==17
-capture replace v80_NEWVARIABLE = var16  if `data'==18
-capture replace v80_NEWVARIABLE = var16  if `data'==19
-capture replace v80_NEWVARIABLE = var16  if `data'==20
-capture replace v80_NEWVARIABLE = var16  if `data'==21
-capture replace v80_NEWVARIABLE = var16  if `data'==22
-capture replace v80_NEWVARIABLE = var16  if `data'==23
-capture replace v80_NEWVARIABLE = var16  if `data'==24
-capture replace v80_NEWVARIABLE = var16  if `data'==25
-capture replace v80_NEWVARIABLE = var16  if `data'==26
-capture label variable v80_NEWVARIABLE `var_lab'
-capture label values v80_NEWVARIABLE `val_lab'
+gen v88_NEWVARIABLE = .
+local var_lab: variable label var16
+local val_lab: value label var16
+capture replace v88_NEWVARIABLE = var16  if `data'==27
+capture replace v88_NEWVARIABLE = var16  if `data'==28
+capture label variable v88_NEWVARIABLE `var_lab'
+capture label values v88_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "仕事の内容"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): "仕事の内容"
+    Description (Data 28): "仕事の内容"
+    Description (Data 29): "個人項目: 仕事の内容"
+    Description (Data 30): "個人項目: 仕事の内容"
+    Description (Data 31): "個人項目: 仕事の内容"
+    Description (Data 32): "個人項目: 仕事の内容"
+    Description (Data 33): "個人項目: 仕事の内容"
+    Description (Data 34): "個人項目: 仕事の内容"
+    Description (Data 35): "個人項目: 仕事の内容"
+    Description (Data 36): "個人項目: 仕事の内容"
+    Description (Data 37): "個人項目: 仕事の内容"
+    Description (Data 38): "個人項目: 仕事の内容"
+    Description (Data 39): "個人項目: 仕事の内容"
+    Description (Data 40): "個人項目: 仕事の内容"
+    Description (Data 41): "個人項目: 仕事の内容"
+    Description (Data 42): "個人項目: 仕事の内容"
+    Description (Data 43): "個人項目: 仕事の内容"
+    Description (Data 44): "個人項目: 仕事の内容"
+
+    Values (Base):     1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 28):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 29):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
+    Values (Data 30):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
+    Values (Data 31):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
+    Values (Data 32):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
+    Values (Data 33):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 34):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 35):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 36):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 37):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 38):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 39):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 40):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 41):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 42):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 43):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 44):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+
+----------------------------------------------------------------------*/
+gen v89_NEWVARIABLE = .
+local var_lab: variable label var26
+local val_lab: value label var26
+capture replace v89_NEWVARIABLE = var26  if `data'==27
+capture replace v89_NEWVARIABLE = var26  if `data'==28
+capture replace v89_NEWVARIABLE = var27  if `data'==29
+capture replace v89_NEWVARIABLE = var27  if `data'==30
+capture replace v89_NEWVARIABLE = var27  if `data'==31
+capture replace v89_NEWVARIABLE = var27  if `data'==32
+capture replace v89_NEWVARIABLE = var27  if `data'==33
+capture replace v89_NEWVARIABLE = var27  if `data'==34
+capture replace v89_NEWVARIABLE = var27  if `data'==35
+capture replace v89_NEWVARIABLE = var27  if `data'==36
+capture replace v89_NEWVARIABLE = var27  if `data'==37
+capture replace v89_NEWVARIABLE = var27  if `data'==38
+capture replace v89_NEWVARIABLE = var27  if `data'==39
+capture replace v89_NEWVARIABLE = var27  if `data'==40
+capture replace v89_NEWVARIABLE = var27  if `data'==41
+capture replace v89_NEWVARIABLE = var27  if `data'==42
+capture replace v89_NEWVARIABLE = var27  if `data'==43
+capture replace v89_NEWVARIABLE = var27  if `data'==44
+capture label variable v89_NEWVARIABLE `var_lab'
+capture label values v89_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "前職の仕事の内容"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): "前職の仕事の内容"
+    Description (Data 28): "前職の仕事の内容"
+    Description (Data 29): "個人項目: 前職の仕事の内容"
+    Description (Data 30): "個人項目: 前職の仕事の内容"
+    Description (Data 31): "個人項目: 前職の仕事の内容"
+    Description (Data 32): "個人項目: 前職の仕事の内容"
+    Description (Data 33): "個人項目: 前職の仕事の内容"
+    Description (Data 34): "個人項目: 前職の仕事の内容"
+    Description (Data 35): "個人項目: 前職の仕事の内容"
+    Description (Data 36): "個人項目: 前職の仕事の内容"
+    Description (Data 37): "個人項目: 前職の仕事の内容"
+    Description (Data 38): "個人項目: 前職の仕事の内容"
+    Description (Data 39): "個人項目: 前職の仕事の内容"
+    Description (Data 40): "個人項目: 前職の仕事の内容"
+    Description (Data 41): "個人項目: 前職の仕事の内容"
+    Description (Data 42): "個人項目: 前職の仕事の内容"
+    Description (Data 43): "個人項目: 前職の仕事の内容"
+    Description (Data 44): "個人項目: 前職の仕事の内容"
+
+    Values (Base):     1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 28):  1: 専門的・技術的職業従事者, 2: 管理的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 運輸・通信従事者, 8: 生産工程・労務作業者, 9: その他の職業従事者
+    Values (Data 29):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
+    Values (Data 30):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
+    Values (Data 31):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
+    Values (Data 32):  1: 専門的・技術的職業, 2: 管理的職業, 3: 事務, 4: 販売, 5: サービス業, 6: 保安業, 7: 運輸・通信, 8: 生産工程・労務, 9: その他
+    Values (Data 33):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 34):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 35):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 36):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 37):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 38):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 39):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 40):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 41):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 42):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 43):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+    Values (Data 44):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
+
+----------------------------------------------------------------------*/
+gen v90_NEWVARIABLE = .
+local var_lab: variable label var31
+local val_lab: value label var31
+capture replace v90_NEWVARIABLE = var31  if `data'==27
+capture replace v90_NEWVARIABLE = var31  if `data'==28
+capture replace v90_NEWVARIABLE = var32  if `data'==29
+capture replace v90_NEWVARIABLE = var32  if `data'==30
+capture replace v90_NEWVARIABLE = var32  if `data'==31
+capture replace v90_NEWVARIABLE = var32  if `data'==32
+capture replace v90_NEWVARIABLE = var32  if `data'==33
+capture replace v90_NEWVARIABLE = var32  if `data'==34
+capture replace v90_NEWVARIABLE = var32  if `data'==35
+capture replace v90_NEWVARIABLE = var32  if `data'==36
+capture replace v90_NEWVARIABLE = var32  if `data'==37
+capture replace v90_NEWVARIABLE = var32  if `data'==38
+capture replace v90_NEWVARIABLE = var32  if `data'==39
+capture replace v90_NEWVARIABLE = var32  if `data'==40
+capture replace v90_NEWVARIABLE = var32  if `data'==41
+capture replace v90_NEWVARIABLE = var32  if `data'==42
+capture replace v90_NEWVARIABLE = var32  if `data'==43
+capture replace v90_NEWVARIABLE = var32  if `data'==44
+capture label variable v90_NEWVARIABLE `var_lab'
+capture label values v90_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "前職の従業員数"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): "前職の従業員数"
+    Description (Data 28): "前職の従業員数"
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+
+    Values (Base):     1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 28):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 4人以下, 7: 官公営
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+
+----------------------------------------------------------------------*/
+gen v91_NEWVARIABLE = .
+local var_lab: variable label var34
+local val_lab: value label var34
+capture replace v91_NEWVARIABLE = var34  if `data'==27
+capture replace v91_NEWVARIABLE = var34  if `data'==28
+capture label variable v91_NEWVARIABLE `var_lab'
+capture label values v91_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -6530,22 +11577,40 @@ capture label values v80_NEWVARIABLE `val_lab'
     Description (Data 8):  None
     Description (Data 9):  None
     Description (Data 10): None
-    Description (Data 11): "スペース1"
-    Description (Data 12): "スペース1"
-    Description (Data 13): "スペース1"
-    Description (Data 14): "スペース1"
-    Description (Data 15): "スペース1"
-    Description (Data 16): "スペース1"
-    Description (Data 17): "スペース1"
-    Description (Data 18): "スペース1"
-    Description (Data 19): "スペース1"
-    Description (Data 20): "スペース1"
-    Description (Data 21): "スペース1"
-    Description (Data 22): "スペース1"
-    Description (Data 23): "スペース1"
-    Description (Data 24): "スペース1"
-    Description (Data 25): "スペース1"
-    Description (Data 26): "スペース1"
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "スペース1"
+    Description (Data 30): "スペース1"
+    Description (Data 31): "スペース1"
+    Description (Data 32): "スペース1"
+    Description (Data 33): "スペース1"
+    Description (Data 34): "スペース1"
+    Description (Data 35): "スペース1"
+    Description (Data 36): "スペース1"
+    Description (Data 37): "スペース1"
+    Description (Data 38): "スペース1"
+    Description (Data 39): "スペース1"
+    Description (Data 40): "スペース1"
+    Description (Data 41): "スペース1"
+    Description (Data 42): "スペース1"
+    Description (Data 43): "スペース1"
+    Description (Data 44): "スペース1"
 
     Values (Base):    
     Values (Data 1):  None
@@ -6558,45 +11623,63 @@ capture label values v80_NEWVARIABLE `val_lab'
     Values (Data 8):  None
     Values (Data 9):  None
     Values (Data 10): None
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
 
 ----------------------------------------------------------------------*/
-gen v81_NEWVARIABLE = .
+gen v92_NEWVARIABLE = .
 local var_lab: variable label var4
 local val_lab: value label var4
-capture replace v81_NEWVARIABLE = var4  if `data'==11
-capture replace v81_NEWVARIABLE = var4  if `data'==12
-capture replace v81_NEWVARIABLE = var4  if `data'==13
-capture replace v81_NEWVARIABLE = var4  if `data'==14
-capture replace v81_NEWVARIABLE = var4  if `data'==15
-capture replace v81_NEWVARIABLE = var4  if `data'==16
-capture replace v81_NEWVARIABLE = var4  if `data'==17
-capture replace v81_NEWVARIABLE = var4  if `data'==18
-capture replace v81_NEWVARIABLE = var4  if `data'==19
-capture replace v81_NEWVARIABLE = var4  if `data'==20
-capture replace v81_NEWVARIABLE = var4  if `data'==21
-capture replace v81_NEWVARIABLE = var4  if `data'==22
-capture replace v81_NEWVARIABLE = var4  if `data'==23
-capture replace v81_NEWVARIABLE = var4  if `data'==24
-capture replace v81_NEWVARIABLE = var4  if `data'==25
-capture replace v81_NEWVARIABLE = var4  if `data'==26
-capture label variable v81_NEWVARIABLE `var_lab'
-capture label values v81_NEWVARIABLE `val_lab'
+capture replace v92_NEWVARIABLE = var4  if `data'==29
+capture replace v92_NEWVARIABLE = var4  if `data'==30
+capture replace v92_NEWVARIABLE = var4  if `data'==31
+capture replace v92_NEWVARIABLE = var4  if `data'==32
+capture replace v92_NEWVARIABLE = var4  if `data'==33
+capture replace v92_NEWVARIABLE = var4  if `data'==34
+capture replace v92_NEWVARIABLE = var4  if `data'==35
+capture replace v92_NEWVARIABLE = var4  if `data'==36
+capture replace v92_NEWVARIABLE = var4  if `data'==37
+capture replace v92_NEWVARIABLE = var4  if `data'==38
+capture replace v92_NEWVARIABLE = var4  if `data'==39
+capture replace v92_NEWVARIABLE = var4  if `data'==40
+capture replace v92_NEWVARIABLE = var4  if `data'==41
+capture replace v92_NEWVARIABLE = var4  if `data'==42
+capture replace v92_NEWVARIABLE = var4  if `data'==43
+capture replace v92_NEWVARIABLE = var4  if `data'==44
+capture label variable v92_NEWVARIABLE `var_lab'
+capture label values v92_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -6611,22 +11694,40 @@ capture label values v81_NEWVARIABLE `val_lab'
     Description (Data 8):  None
     Description (Data 9):  None
     Description (Data 10): None
-    Description (Data 11): "スペース2"
-    Description (Data 12): "スペース2"
-    Description (Data 13): "スペース2"
-    Description (Data 14): "スペース2"
-    Description (Data 15): "スペース2"
-    Description (Data 16): "スペース2"
-    Description (Data 17): "スペース2"
-    Description (Data 18): "スペース2"
-    Description (Data 19): "スペース2"
-    Description (Data 20): "スペース2"
-    Description (Data 21): "スペース2"
-    Description (Data 22): "スペース2"
-    Description (Data 23): "スペース2"
-    Description (Data 24): "スペース2"
-    Description (Data 25): "スペース2"
-    Description (Data 26): "スペース2"
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): "スペース2"
+    Description (Data 30): "スペース2"
+    Description (Data 31): "スペース2"
+    Description (Data 32): "スペース2"
+    Description (Data 33): "スペース2"
+    Description (Data 34): "スペース2"
+    Description (Data 35): "スペース2"
+    Description (Data 36): "スペース2"
+    Description (Data 37): "スペース2"
+    Description (Data 38): "スペース2"
+    Description (Data 39): "スペース2"
+    Description (Data 40): "スペース2"
+    Description (Data 41): "スペース2"
+    Description (Data 42): "スペース2"
+    Description (Data 43): "スペース2"
+    Description (Data 44): "スペース2"
 
     Values (Base):    
     Values (Data 1):  None
@@ -6639,45 +11740,63 @@ capture label values v81_NEWVARIABLE `val_lab'
     Values (Data 8):  None
     Values (Data 9):  None
     Values (Data 10): None
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
 
 ----------------------------------------------------------------------*/
-gen v82_NEWVARIABLE = .
+gen v93_NEWVARIABLE = .
 local var_lab: variable label var6
 local val_lab: value label var6
-capture replace v82_NEWVARIABLE = var6  if `data'==11
-capture replace v82_NEWVARIABLE = var6  if `data'==12
-capture replace v82_NEWVARIABLE = var6  if `data'==13
-capture replace v82_NEWVARIABLE = var6  if `data'==14
-capture replace v82_NEWVARIABLE = var6  if `data'==15
-capture replace v82_NEWVARIABLE = var6  if `data'==16
-capture replace v82_NEWVARIABLE = var6  if `data'==17
-capture replace v82_NEWVARIABLE = var6  if `data'==18
-capture replace v82_NEWVARIABLE = var6  if `data'==19
-capture replace v82_NEWVARIABLE = var6  if `data'==20
-capture replace v82_NEWVARIABLE = var6  if `data'==21
-capture replace v82_NEWVARIABLE = var6  if `data'==22
-capture replace v82_NEWVARIABLE = var6  if `data'==23
-capture replace v82_NEWVARIABLE = var6  if `data'==24
-capture replace v82_NEWVARIABLE = var6  if `data'==25
-capture replace v82_NEWVARIABLE = var6  if `data'==26
-capture label variable v82_NEWVARIABLE `var_lab'
-capture label values v82_NEWVARIABLE `val_lab'
+capture replace v93_NEWVARIABLE = var6  if `data'==29
+capture replace v93_NEWVARIABLE = var6  if `data'==30
+capture replace v93_NEWVARIABLE = var6  if `data'==31
+capture replace v93_NEWVARIABLE = var6  if `data'==32
+capture replace v93_NEWVARIABLE = var6  if `data'==33
+capture replace v93_NEWVARIABLE = var6  if `data'==34
+capture replace v93_NEWVARIABLE = var6  if `data'==35
+capture replace v93_NEWVARIABLE = var6  if `data'==36
+capture replace v93_NEWVARIABLE = var6  if `data'==37
+capture replace v93_NEWVARIABLE = var6  if `data'==38
+capture replace v93_NEWVARIABLE = var6  if `data'==39
+capture replace v93_NEWVARIABLE = var6  if `data'==40
+capture replace v93_NEWVARIABLE = var6  if `data'==41
+capture replace v93_NEWVARIABLE = var6  if `data'==42
+capture replace v93_NEWVARIABLE = var6  if `data'==43
+capture replace v93_NEWVARIABLE = var6  if `data'==44
+capture label variable v93_NEWVARIABLE `var_lab'
+capture label values v93_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -6706,8 +11825,26 @@ capture label values v82_NEWVARIABLE `val_lab'
     Description (Data 22): None
     Description (Data 23): None
     Description (Data 24): None
-    Description (Data 25): "最終学歴不明フラグ"
-    Description (Data 26): "最終学歴不明フラグ"
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): "最終学歴不明フラグ"
+    Description (Data 44): "最終学歴不明フラグ"
 
     Values (Base):     1: 最終学歴不明
     Values (Data 1):  None
@@ -6734,17 +11871,35 @@ capture label values v82_NEWVARIABLE `val_lab'
     Values (Data 22): None
     Values (Data 23): None
     Values (Data 24): None
-    Values (Data 25):  1: 最終学歴不明
-    Values (Data 26):  1: 最終学歴不明
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43):  1: 最終学歴不明
+    Values (Data 44):  1: 最終学歴不明
 
 ----------------------------------------------------------------------*/
-gen v83_NEWVARIABLE = .
+gen v94_NEWVARIABLE = .
 local var_lab: variable label var41
 local val_lab: value label var41
-capture replace v83_NEWVARIABLE = var41  if `data'==25
-capture replace v83_NEWVARIABLE = var41  if `data'==26
-capture label variable v83_NEWVARIABLE `var_lab'
-capture label values v83_NEWVARIABLE `val_lab'
+capture replace v94_NEWVARIABLE = var41  if `data'==43
+capture replace v94_NEWVARIABLE = var41  if `data'==44
+capture label variable v94_NEWVARIABLE `var_lab'
+capture label values v94_NEWVARIABLE `val_lab'
 
 
 keep *_NEWVARIABLE
