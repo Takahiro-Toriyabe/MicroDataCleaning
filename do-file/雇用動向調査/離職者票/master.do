@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/26 01:23:10
+    Date: 2019/02/26 16:06:30
 ----------------------------------------------------------------------*/
 
 
@@ -37,6 +37,42 @@ global DataFilePathTemp = ""
 
 tempvar dataclear
 set more off
+
+run "${DoFilePathTemp}/h3F/h3F_const.do"
+run "${DoFilePathTemp}/h3F/h3F_var.do"
+run "${DoFilePathTemp}/h3F/h3F_val.do"
+run "${DoFilePathTemp}/h3F/h3F_validate.do"
+save "${DataFilePathTemp}/H03_r-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h3L/h3L_const.do"
+run "${DoFilePathTemp}/h3L/h3L_var.do"
+run "${DoFilePathTemp}/h3L/h3L_val.do"
+run "${DoFilePathTemp}/h3L/h3L_validate.do"
+save "${DataFilePathTemp}/H03_r-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h4F/h4F_const.do"
+run "${DoFilePathTemp}/h4F/h4F_var.do"
+run "${DoFilePathTemp}/h4F/h4F_val.do"
+run "${DoFilePathTemp}/h4F/h4F_validate.do"
+save "${DataFilePathTemp}/H04_r-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h4L/h4L_const.do"
+run "${DoFilePathTemp}/h4L/h4L_var.do"
+run "${DoFilePathTemp}/h4L/h4L_val.do"
+run "${DoFilePathTemp}/h4L/h4L_validate.do"
+save "${DataFilePathTemp}/H04_r-koyo07.dta", replace
+
+clear
+
 
 run "${DoFilePathTemp}/h7F/h7F_const.do"
 run "${DoFilePathTemp}/h7F/h7F_var.do"
@@ -435,6 +471,10 @@ clear
 
 
 append using ///
+    "${DataFilePathTemp}/H03_r-koyo01.dta" ///
+    "${DataFilePathTemp}/H03_r-koyo07.dta" ///
+    "${DataFilePathTemp}/H04_r-koyo01.dta" ///
+    "${DataFilePathTemp}/H04_r-koyo07.dta" ///
     "${DataFilePathTemp}/H07_r-koyo01.dta" ///
     "${DataFilePathTemp}/H07_r-koyo07.dta" ///
     "${DataFilePathTemp}/H08_r-koyo01.dta" ///

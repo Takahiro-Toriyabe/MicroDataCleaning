@@ -18,24 +18,48 @@ datapath = "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報"
 os.chdir(inpath + "/賃金構造基本統計調査/符号表（個人票）")
 
 # List of layout tables
-infile_list = [
+infile_list = ['平成01年〜04年_賃金福祉基本統計調査_符号表(個人票).xlsx' for i in range(4)]
+infile_list = infile_list + [
+    '平成05年〜06年_賃金福祉基本統計調査_符号表(個人票).xlsx' for i in range(2)
+]
+infile_list = infile_list + [
+    '平成07年_賃金福祉基本統計調査_符号表(個人票).xlsx'        
+]
+infile_list = infile_list + [
+    '平成08年〜12年_賃金福祉基本統計調査_符号表(個人票).xlsx' for i in range(5)
+]
+infile_list = infile_list + [
+    '平成13年_賃金福祉基本統計調査_符号表(個人票).xlsx'
+]
+infile_list = infile_list + [
+    '平成14〜15年_賃金福祉基本統計調査_符号表(個人票).xlsx' for i in range(2)
+]
+infile_list = infile_list + [
+    '平成16年_賃金福祉基本統計調査_符号表(個人票).xlsx'
+]
+infile_list = infile_list + [
     "平成16～29年_賃金福祉基本統計調査_符号表(個人票).xlsx" for i in range(29-16)
 ]
 
 # List of indices of each sheet
-sheet_index_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+sheet_index_list = [0 for i in range(16)]
+sheet_index_list = sheet_index_list + [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
 # List of output file names
 outfile_list = []
-for i in range(17, 30):
+for i in range(1, 30):
     outfile = "h" + str(i) + "/h" + str(i)
     outfile_list.append(
         str(outpath) + "/賃金構造基本統計調査/個人票/" + str(outfile)
         )
 
 data_list = []
-for i in range(17, 30):
-    data = str(datapath) + "/賃金構造基本統計調査/h01-29_k-chin/h" + str(i) \
+for i in range(1, 30):
+    if i < 10:
+        year = '0' + str(i)
+    else:
+        year = str(i)
+    data = str(datapath) + "/賃金構造基本統計調査/h01-29_k-chin/h" + year \
         + "_k-chin.txt"
     data_list.append(data)
 
@@ -50,24 +74,42 @@ main.run()
 os.chdir(inpath + "/賃金構造基本統計調査/符号表（事業所票（初任給票））")
 
 # List of layout tables
-infile_list = [
+infile_list = ['平成01〜04 年_賃金構造基本統計調査_事業所票（初任給）.xlsx' for i in range(4)]
+infile_list = infile_list + [
+    "平成05〜07 年_賃金構造基本統計調査_事業所票（初任給）.xlsx" for i in range(3)
+]
+infile_list = infile_list + [
+    "平成08〜13年_賃金構造基本統計調査_事業所票（初任給）.xlsx" for i in range(6)
+]
+infile_list = infile_list + [
+    "平成14〜15年_賃金構造基本統計調査_事業所票（初任給）.xlsx" for i in range(2)
+]
+infile_list = infile_list + [
+    "平成16年_賃金構造基本統計調査_事業所票（初任給）.xlsx"
+]
+infile_list = infile_list + [
     "平成17～29年_賃金構造基本統計調査_事業所票（初任給）.xls" for i in range(29-16)
 ]
 
 # List of indices of each sheet
-sheet_index_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+sheet_index_list = [0 for i in range(16)]
+sheet_index_list = sheet_index_list + [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 # List of output file names
 outfile_list = []
-for i in range(17, 30):
+for i in range(1, 30):
     outfile = "h" + str(i) + "/h" + str(i)
     outfile_list.append(
         str(outpath) + "/賃金構造基本統計調査/事業所票/" + str(outfile)
         )
 
 data_list = []
-for i in range(17, 30):
-    data = str(datapath) + "/賃金構造基本統計調査/h01-29_j-chin/h" + str(i) \
+for i in range(1, 30):
+    if i < 10:
+        year = '0' + str(i)
+    else:
+        year = str(i)
+    data = str(datapath) + "/賃金構造基本統計調査/h01-29_j-chin/h" + year \
         + "_j-chin.txt"
     data_list.append(data)
 
@@ -141,12 +183,35 @@ main.run()
 os.chdir(inpath + "/雇用動向調査/入職者票")
 
 # List of layout tables
-infile_list = [
+infile_list = ['（参考）符号表_雇用動向調査（入職者票）h4.xlsx' for i in range(1*2)]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（入職者票）h8-9.xlsx" for i in range(2*2)
+]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（入職者票）h10.xlsx" for i in range(1*2)
+]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（入職者票）h11.xlsx" for i in range(1*2)
+]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（入職者票）h12.xlsx" for i in range(1*2)
+]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（入職者票）h13.xlsx" for i in range(1*2)
+]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（入職者票）h14.xlsx" for i in range(1*2)
+]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（入職者票）h15.xlsx" for i in range(1*2)
+]
+infile_list = infile_list + [
     "（参考）符号表_雇用動向調査（入職者票）h16-28.xlsx" for i in range((28-15)*2)
 ]
 
 # List of indices of each sheet
-sheet_index_list = [
+sheet_index_list = [0 for i in range(9*2)]
+sheet_index_list = sheet_index_list + [
     0, 0,
     0, 0,
     0, 0,
@@ -164,7 +229,7 @@ sheet_index_list = [
 
 # List of output file names
 outfile_list = []
-for i in range(16, 29):
+for i in [4] + [j for j in range(8, 29)]:
     for j in ["F", "L"]:
         outfile = "h" + str(i) + str(j) + "/h" + str(i) + str(j)
         outfile_list.append(
@@ -172,9 +237,13 @@ for i in range(16, 29):
         )
 
 data_list = []
-for i in range(16, 29):
+for i in [4] + [k for k in range(8, 29)]:
+    if i < 10:
+        year = '0' + str(i)
+    else:
+        year = str(i)
     for j in ["01", "07"]:
-        data = str(datapath) + "/雇用動向調査/H03-28_n-koyo/H" + str(i) \
+        data = str(datapath) + "/雇用動向調査/H03-28_n-koyo/H" + year \
             + "_n-koyo" + str(j) + ".txt"
         data_list.append(data)
 
@@ -190,12 +259,14 @@ main.run()
 os.chdir(inpath + "/雇用動向調査/離職者票")
 
 # List of layout tables
-infile_list = [
+infile_list = ['（参考）符号表_雇用動向調査（離職者票）h3-4' for i in range(2*2)]
+infile_list = infile_list + [
     "（参考）符号表_雇用動向調査（離職者票）h7-28.xlsx" for i in range((28-6)*2)
 ]
 
 # List of indices of each sheet
-sheet_index_list = [
+sheet_index_list = [0 for i in range(2*2)]
+sheet_index_list = sheet_index_list + [
     0, 0,
     0, 0,
     0, 0,
@@ -222,7 +293,7 @@ sheet_index_list = [
 
 # List of output file names
 outfile_list = []
-for i in range(7, 29):
+for i in [3, 4] + [k for k in range(7, 29)]:
     for j in ["F", "L"]:
         outfile = "h" + str(i) + str(j) + "/h" + str(i) + str(j)
         outfile_list.append(
@@ -230,13 +301,13 @@ for i in range(7, 29):
         )
 
 data_list = []
-for i in range(7, 29):
+for i in [3, 4] + [k for k in range(7, 29)]:
     if i < 10:
-        i_tmp = '0' + str(i)
+        year = '0' + str(i)
     else:
-        i_tmp = str(i)
+        year = str(i)
     for j in ["01", "07"]:
-        data = str(datapath) + "/雇用動向調査/H03-28_r-koyo/H" + i_tmp \
+        data = str(datapath) + "/雇用動向調査/H03-28_r-koyo/H" + year \
             + "_r-koyo" + str(j) + ".txt"
         data_list.append(data)
 

@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/26 01:21:49
+    Date: 2019/02/26 16:05:03
 ----------------------------------------------------------------------*/
 
 
@@ -37,6 +37,150 @@ global DataFilePathTemp = ""
 
 tempvar dataclear
 set more off
+
+run "${DoFilePathTemp}/h1/h1_const.do"
+run "${DoFilePathTemp}/h1/h1_var.do"
+run "${DoFilePathTemp}/h1/h1_val.do"
+run "${DoFilePathTemp}/h1/h1_validate.do"
+save "${DataFilePathTemp}/h01_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h2/h2_const.do"
+run "${DoFilePathTemp}/h2/h2_var.do"
+run "${DoFilePathTemp}/h2/h2_val.do"
+run "${DoFilePathTemp}/h2/h2_validate.do"
+save "${DataFilePathTemp}/h02_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h3/h3_const.do"
+run "${DoFilePathTemp}/h3/h3_var.do"
+run "${DoFilePathTemp}/h3/h3_val.do"
+run "${DoFilePathTemp}/h3/h3_validate.do"
+save "${DataFilePathTemp}/h03_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h4/h4_const.do"
+run "${DoFilePathTemp}/h4/h4_var.do"
+run "${DoFilePathTemp}/h4/h4_val.do"
+run "${DoFilePathTemp}/h4/h4_validate.do"
+save "${DataFilePathTemp}/h04_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h5/h5_const.do"
+run "${DoFilePathTemp}/h5/h5_var.do"
+run "${DoFilePathTemp}/h5/h5_val.do"
+run "${DoFilePathTemp}/h5/h5_validate.do"
+save "${DataFilePathTemp}/h05_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h6/h6_const.do"
+run "${DoFilePathTemp}/h6/h6_var.do"
+run "${DoFilePathTemp}/h6/h6_val.do"
+run "${DoFilePathTemp}/h6/h6_validate.do"
+save "${DataFilePathTemp}/h06_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h7/h7_const.do"
+run "${DoFilePathTemp}/h7/h7_var.do"
+run "${DoFilePathTemp}/h7/h7_val.do"
+run "${DoFilePathTemp}/h7/h7_validate.do"
+save "${DataFilePathTemp}/h07_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h8/h8_const.do"
+run "${DoFilePathTemp}/h8/h8_var.do"
+run "${DoFilePathTemp}/h8/h8_val.do"
+run "${DoFilePathTemp}/h8/h8_validate.do"
+save "${DataFilePathTemp}/h08_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h9/h9_const.do"
+run "${DoFilePathTemp}/h9/h9_var.do"
+run "${DoFilePathTemp}/h9/h9_val.do"
+run "${DoFilePathTemp}/h9/h9_validate.do"
+save "${DataFilePathTemp}/h09_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h10/h10_const.do"
+run "${DoFilePathTemp}/h10/h10_var.do"
+run "${DoFilePathTemp}/h10/h10_val.do"
+run "${DoFilePathTemp}/h10/h10_validate.do"
+save "${DataFilePathTemp}/h10_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h11/h11_const.do"
+run "${DoFilePathTemp}/h11/h11_var.do"
+run "${DoFilePathTemp}/h11/h11_val.do"
+run "${DoFilePathTemp}/h11/h11_validate.do"
+save "${DataFilePathTemp}/h11_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h12/h12_const.do"
+run "${DoFilePathTemp}/h12/h12_var.do"
+run "${DoFilePathTemp}/h12/h12_val.do"
+run "${DoFilePathTemp}/h12/h12_validate.do"
+save "${DataFilePathTemp}/h12_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h13/h13_const.do"
+run "${DoFilePathTemp}/h13/h13_var.do"
+run "${DoFilePathTemp}/h13/h13_val.do"
+run "${DoFilePathTemp}/h13/h13_validate.do"
+save "${DataFilePathTemp}/h13_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h14/h14_const.do"
+run "${DoFilePathTemp}/h14/h14_var.do"
+run "${DoFilePathTemp}/h14/h14_val.do"
+run "${DoFilePathTemp}/h14/h14_validate.do"
+save "${DataFilePathTemp}/h14_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h15/h15_const.do"
+run "${DoFilePathTemp}/h15/h15_var.do"
+run "${DoFilePathTemp}/h15/h15_val.do"
+run "${DoFilePathTemp}/h15/h15_validate.do"
+save "${DataFilePathTemp}/h15_j-chin.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h16/h16_const.do"
+run "${DoFilePathTemp}/h16/h16_var.do"
+run "${DoFilePathTemp}/h16/h16_val.do"
+run "${DoFilePathTemp}/h16/h16_validate.do"
+save "${DataFilePathTemp}/h16_j-chin.dta", replace
+
+clear
+
 
 run "${DoFilePathTemp}/h17/h17_const.do"
 run "${DoFilePathTemp}/h17/h17_var.do"
@@ -156,6 +300,22 @@ clear
 
 
 append using ///
+    "${DataFilePathTemp}/h01_j-chin.dta" ///
+    "${DataFilePathTemp}/h02_j-chin.dta" ///
+    "${DataFilePathTemp}/h03_j-chin.dta" ///
+    "${DataFilePathTemp}/h04_j-chin.dta" ///
+    "${DataFilePathTemp}/h05_j-chin.dta" ///
+    "${DataFilePathTemp}/h06_j-chin.dta" ///
+    "${DataFilePathTemp}/h07_j-chin.dta" ///
+    "${DataFilePathTemp}/h08_j-chin.dta" ///
+    "${DataFilePathTemp}/h09_j-chin.dta" ///
+    "${DataFilePathTemp}/h10_j-chin.dta" ///
+    "${DataFilePathTemp}/h11_j-chin.dta" ///
+    "${DataFilePathTemp}/h12_j-chin.dta" ///
+    "${DataFilePathTemp}/h13_j-chin.dta" ///
+    "${DataFilePathTemp}/h14_j-chin.dta" ///
+    "${DataFilePathTemp}/h15_j-chin.dta" ///
+    "${DataFilePathTemp}/h16_j-chin.dta" ///
     "${DataFilePathTemp}/h17_j-chin.dta" ///
     "${DataFilePathTemp}/h18_j-chin.dta" ///
     "${DataFilePathTemp}/h19_j-chin.dta" ///
