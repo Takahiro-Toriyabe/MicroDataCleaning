@@ -53,6 +53,8 @@ program define CheckAppendValidity
 
 	foreach v of varlist * {
 		if ("`v'"!="`data_id'") {
+			tempname `v'_l
+			local ``v'_l': variable label `v'
 			local `vars' "``vars'' `v'"
 			foreach stat in `stats' {
 				local `vars_`stat'' "``vars_`stat''' `v'_`stat'=`v'"
@@ -66,18 +68,20 @@ program define CheckAppendValidity
 	}
 	local `collapse_command' "``collapse_command'' , by(`data_id')"
 
-	``collapse_command''
-	
+		``collapse_command''
+		
 	foreach v in ``vars'' {
 		CheckVar, variable("`v'") tol(`tol') stats("`stats'")
 		tempname list
 		local `list' "`r(LIST)'"
 		if r(FLAG)==1 {
-			display as error "WARNING: `v' (Check``list'')"
+			display as error "WARNING: `v' (```v'_l'')"
+			display as error "Check:``list''"
 			foreach stat in ``list'' {
+				label variable `v'_`stat' "```v'_`stat'_l''"
+				display "```v'_`stat'_l''"
 				tabstat `v'_`stat', by(`data_id')
 			}
 		}
 	}
 end
-		

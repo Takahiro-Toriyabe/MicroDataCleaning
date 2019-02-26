@@ -28,15 +28,22 @@
 
 
     Source: 
-    Date: 2019/02/26 16:04:58
+    Date: 2019/02/26 18:09:11
 ----------------------------------------------------------------------*/
 
+
+
+clear all
+set more off
+capture log close _all
 
 global DoFilePathTemp = "D:/GitHub/MicroDataCleaning/do-file/賃金構造基本統計調査/個人票"
 global DataFilePathTemp = ""
 
-tempvar dataclear
-set more off
+capture mkdir "${DoFilePathTemp}/log"
+log using "${DoFilePathTemp}/log/log.smcl", replace
+
+tempvar data
 
 run "${DoFilePathTemp}/h1/h1_const.do"
 run "${DoFilePathTemp}/h1/h1_var.do"
@@ -329,12 +336,15 @@ append using ///
     "${DataFilePathTemp}/h27_k-chin.dta" ///
     "${DataFilePathTemp}/h28_k-chin.dta" ///
     "${DataFilePathTemp}/h29_k-chin.dta" ///
-    , gen(`data')
+    , gen(flag_tmp_NEWVARIABLE)
 
 run "${DoFilePathTemp}/rename.do"
-CheckAppendValidatity, data_id(`data') tol(0.2) stats("mean sd")
+save "${DataFilePathTemp}/data_appended.dta", replace
 
-save "${DataFilePathTemp}/data_appended.dta"
+CheckAppendValidity, data_id(flag_tmp) tol(0.2) stats("mean sd")
+drop flag_tmp
+
+log close
 
 macro drop DoFilePathTemp
 macro drop DataFilePathTemp

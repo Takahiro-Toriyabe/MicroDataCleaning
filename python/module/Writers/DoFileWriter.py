@@ -258,7 +258,7 @@ class RenameFileWriter(DoFileWriterBase):
 
                 self.file.write(
                     'capture replace ' + newname + ' = ' + var.name + ' '
-                    + " if `data'==" + str(i+1) + '\n'
+                    + " if flag_tmp_NEWVARIABLE==" + str(i+1) + '\n'
                 )
                 
         self.file.write('capture label variable ' + newname + ' `var_lab\'\n')
@@ -282,13 +282,19 @@ class MasterFileWriter(DoFileWriterBase):
 
     def __WriteMainPart__(self):
         root = os.path.dirname(self.filename)
+        
+        self.file.write('\n' + 'clear all\n')
+        self.file.write('set more off\n')
+        self.file.write('capture log close _all\n\n')
 
         self.file.write('global DoFilePathTemp = "' + root + '"\n')
         self.file.write('global DataFilePathTemp = ""\n\n')
-        self.file.write('tempvar data')
+        
+        self.file.write('capture mkdir "${DoFilePathTemp}/log"\n')
+        self.file.write('log using "${DoFilePathTemp}/log/log.smcl", replace\n\n')
 
-        self.file.write('clear' + '\n')
-        self.file.write('set more off' + '\n'*2)
+        self.file.write('tempvar data\n\n')
+
         append_command = 'append using ///'
         for outfile, data in zip(*self.source):
             outfile_cleaned = self.__CleanFileName__(outfile).replace(root, '${DoFilePathTemp}')
@@ -302,10 +308,13 @@ class MasterFileWriter(DoFileWriterBase):
             append_command = append_command + '\n' + self.indent \
                 + '"' + str(datafile_cleaned) + '.dta" ///'
         
-        self.file.write(append_command + "\n" + self.indent + ", gen(`data')\n\n")
+        self.file.write(append_command + "\n" + self.indent + ", gen(flag_tmp_NEWVARIABLE)\n\n")
         self.file.write('run "${DoFilePathTemp}/rename.do"\n')
-        self.file.write('CheckAppendValidatity, data_id(`data\') tol(0.2) stats("mean sd")\n\n')
-        self.file.write('save "${DataFilePathTemp}/data_appended.dta"\n\n')
+        self.file.write('save "${DataFilePathTemp}/data_appended.dta", replace\n\n')
+        
+        self.file.write('CheckAppendValidity, data_id(flag_tmp) tol(0.2) stats("mean sd")\n')
+        self.file.write('drop flag_tmp\n\n')
+        self.file.write('log close\n\n')
         self.file.write('macro drop DoFilePathTemp\n')
         self.file.write('macro drop DataFilePathTemp\n')
 
