@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/26 18:09:16
+    Date: 2019/02/27 01:39:11
 ----------------------------------------------------------------------*/
 
 
@@ -557,9 +557,9 @@ capture label values M_Chosaku_NEWVARIABLE `val_lab'
     Description (Data 24): "事業所番号"
     Description (Data 25): "事業所番号"
     Description (Data 26): "事業所番号"
-    Description (Data 27): "母集団: 共通事業所コード"
-    Description (Data 28): "母集団: 共通事業所コード"
-    Description (Data 29): "母集団: 共通事業所コード"
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
 
     Values (Base):    
     Values (Data 1):  
@@ -588,9 +588,9 @@ capture label values M_Chosaku_NEWVARIABLE `val_lab'
     Values (Data 24): 
     Values (Data 25): 
     Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
 
 ----------------------------------------------------------------------*/
 gen M_JigyoBan_NEWVARIABLE = .
@@ -622,9 +622,6 @@ capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==23
 capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==24
 capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==25
 capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==26
-capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==27
-capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==28
-capture replace M_JigyoBan_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==29
 capture label variable M_JigyoBan_NEWVARIABLE `var_lab'
 capture label values M_JigyoBan_NEWVARIABLE `val_lab'
 
@@ -2201,7 +2198,7 @@ capture label values M_Minko_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用: 男"
+    Description (Base):    "常用労働者数正社員・正職員: 男"
     Description (Data 1):  "常用: 男"
     Description (Data 2):  "常用: 男"
     Description (Data 3):  "常用: 男"
@@ -2221,16 +2218,16 @@ capture label values M_Minko_NEWVARIABLE `val_lab'
     Description (Data 17): "常用労働者・正社員・男"
     Description (Data 18): "常用労働者・正社員・男"
     Description (Data 19): "常用労働者・正社員・男"
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
+    Description (Data 20): "常用労働者数正社員・正職員: 男"
+    Description (Data 21): "常用労働者数正社員・正職員: 男"
+    Description (Data 22): "常用労働者数正社員・正職員: 男"
+    Description (Data 23): "常用労働者数正社員・正職員: 男"
+    Description (Data 24): "常用労働者数正社員・正職員: 男"
+    Description (Data 25): "常用労働者数正社員・正職員: 男"
+    Description (Data 26): "常用労働者数正社員・正職員: 男"
+    Description (Data 27): "常用労働者数正社員・正職員: 男"
+    Description (Data 28): "常用労働者数正社員・正職員: 男"
+    Description (Data 29): "常用労働者数正社員・正職員: 男"
 
     Values (Base):    
     Values (Data 1):  
@@ -2252,46 +2249,56 @@ capture label values M_Minko_NEWVARIABLE `val_lab'
     Values (Data 17): 
     Values (Data 18): 
     Values (Data 19): 
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen v3_NEWVARIABLE = .
+gen Syain_M_NEWVARIABLE = .
 local var_lab: variable label var23
 local val_lab: value label var23
-capture replace v3_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==1
-capture replace v3_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==2
-capture replace v3_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==3
-capture replace v3_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==4
-capture replace v3_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==5
-capture replace v3_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==6
-capture replace v3_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==7
-capture replace v3_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==8
-capture replace v3_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==9
-capture replace v3_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==10
-capture replace v3_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==11
-capture replace v3_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==12
-capture replace v3_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==13
-capture replace v3_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==14
-capture replace v3_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==15
-capture replace v3_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==16
-capture replace v3_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==17
-capture replace v3_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==18
-capture replace v3_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==19
-capture label variable v3_NEWVARIABLE `var_lab'
-capture label values v3_NEWVARIABLE `val_lab'
+capture replace Syain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==1
+capture replace Syain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==2
+capture replace Syain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==3
+capture replace Syain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==4
+capture replace Syain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==5
+capture replace Syain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==6
+capture replace Syain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==7
+capture replace Syain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==8
+capture replace Syain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==9
+capture replace Syain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==10
+capture replace Syain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==11
+capture replace Syain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==12
+capture replace Syain_M_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==13
+capture replace Syain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==14
+capture replace Syain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==15
+capture replace Syain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==16
+capture replace Syain_M_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==17
+capture replace Syain_M_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==18
+capture replace Syain_M_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==19
+capture replace Syain_M_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==20
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==21
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==22
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==23
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==24
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==25
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==26
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==27
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==28
+capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==29
+capture label variable Syain_M_NEWVARIABLE `var_lab'
+capture label values Syain_M_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用: 女"
+    Description (Base):    "常用労働者数正社員・正職員: 女"
     Description (Data 1):  "常用: 女"
     Description (Data 2):  "常用: 女"
     Description (Data 3):  "常用: 女"
@@ -2311,16 +2318,16 @@ capture label values v3_NEWVARIABLE `val_lab'
     Description (Data 17): "常用労働者・正社員・女"
     Description (Data 18): "常用労働者・正社員・女"
     Description (Data 19): "常用労働者・正社員・女"
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
+    Description (Data 20): "常用労働者数正社員・正職員: 女"
+    Description (Data 21): "常用労働者数正社員・正職員: 女"
+    Description (Data 22): "常用労働者数正社員・正職員: 女"
+    Description (Data 23): "常用労働者数正社員・正職員: 女"
+    Description (Data 24): "常用労働者数正社員・正職員: 女"
+    Description (Data 25): "常用労働者数正社員・正職員: 女"
+    Description (Data 26): "常用労働者数正社員・正職員: 女"
+    Description (Data 27): "常用労働者数正社員・正職員: 女"
+    Description (Data 28): "常用労働者数正社員・正職員: 女"
+    Description (Data 29): "常用労働者数正社員・正職員: 女"
 
     Values (Base):    
     Values (Data 1):  
@@ -2342,42 +2349,52 @@ capture label values v3_NEWVARIABLE `val_lab'
     Values (Data 17): 
     Values (Data 18): 
     Values (Data 19): 
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen v4_NEWVARIABLE = .
+gen Syain_W_NEWVARIABLE = .
 local var_lab: variable label var24
 local val_lab: value label var24
-capture replace v4_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==1
-capture replace v4_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==2
-capture replace v4_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==3
-capture replace v4_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==4
-capture replace v4_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==5
-capture replace v4_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==6
-capture replace v4_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==7
-capture replace v4_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==8
-capture replace v4_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==9
-capture replace v4_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==10
-capture replace v4_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==11
-capture replace v4_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==12
-capture replace v4_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==13
-capture replace v4_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==14
-capture replace v4_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==15
-capture replace v4_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==16
-capture replace v4_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==17
-capture replace v4_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==18
-capture replace v4_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==19
-capture label variable v4_NEWVARIABLE `var_lab'
-capture label values v4_NEWVARIABLE `val_lab'
+capture replace Syain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==1
+capture replace Syain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==2
+capture replace Syain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==3
+capture replace Syain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==4
+capture replace Syain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==5
+capture replace Syain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==6
+capture replace Syain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==7
+capture replace Syain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==8
+capture replace Syain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==9
+capture replace Syain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==10
+capture replace Syain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==11
+capture replace Syain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==12
+capture replace Syain_W_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==13
+capture replace Syain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==14
+capture replace Syain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==15
+capture replace Syain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==16
+capture replace Syain_W_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==17
+capture replace Syain_W_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==18
+capture replace Syain_W_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==19
+capture replace Syain_W_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==20
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==21
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==22
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==23
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==24
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==25
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==26
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==27
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==28
+capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==29
+capture label variable Syain_W_NEWVARIABLE `var_lab'
+capture label values Syain_W_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -2481,36 +2498,36 @@ capture label values Kakutei_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "中学卒事務: 男"
-    Description (Data 1):  "中学卒事務: 男"
-    Description (Data 2):  "中学卒事務: 男"
-    Description (Data 3):  "中学卒事務: 男"
-    Description (Data 4):  "中学卒事務: 男"
-    Description (Data 5):  "中学卒事務: 男"
-    Description (Data 6):  "中学卒事務: 男"
-    Description (Data 7):  "中学卒事務: 男"
-    Description (Data 8):  "中学卒事務: 男"
-    Description (Data 9):  "中学卒事務: 男"
-    Description (Data 10): "中学卒事務: 男"
-    Description (Data 11): "中学卒事務: 男"
-    Description (Data 12): "中学卒事務: 男"
-    Description (Data 13): "中学卒事務: 男"
-    Description (Data 14): "中学卒事務: 男"
-    Description (Data 15): "中学卒事務: 男"
-    Description (Data 16): "中学卒事務: 男"
+    Description (Base):    "大学院修士課程修了男: 初任給額"
+    Description (Data 1):  "中学卒事務: 男初任給額"
+    Description (Data 2):  "中学卒事務: 男初任給額"
+    Description (Data 3):  "中学卒事務: 男初任給額"
+    Description (Data 4):  "中学卒事務: 男初任給額"
+    Description (Data 5):  "中学卒事務: 男初任給額"
+    Description (Data 6):  "中学卒事務: 男初任給額"
+    Description (Data 7):  "中学卒事務: 男初任給額"
+    Description (Data 8):  "中学卒事務: 男初任給額"
+    Description (Data 9):  "中学卒事務: 男初任給額"
+    Description (Data 10): "中学卒事務: 男初任給額"
+    Description (Data 11): "中学卒事務: 男初任給額"
+    Description (Data 12): "中学卒事務: 男初任給額"
+    Description (Data 13): "中学卒事務: 男初任給額"
+    Description (Data 14): "中学卒事務: 男初任給額"
+    Description (Data 15): "中学卒事務: 男初任給額"
+    Description (Data 16): "中学卒事務: 男初任給額"
     Description (Data 17): None
     Description (Data 18): None
     Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
+    Description (Data 20): "大学院修士課程修了男: 初任給額"
+    Description (Data 21): "大学院修士課程修了男: 初任給額"
+    Description (Data 22): "大学院修士課程修了男: 初任給額"
+    Description (Data 23): "大学院修士課程修了男: 初任給額"
+    Description (Data 24): "大学院修士課程修了男: 初任給額"
+    Description (Data 25): "大学院修士課程修了男: 初任給額"
+    Description (Data 26): "大学院修士課程修了男: 初任給額"
+    Description (Data 27): "大学院修士課程修了男: 初任給額"
+    Description (Data 28): "大学院修士課程修了男: 初任給額"
+    Description (Data 29): "大学院修士課程修了男: 初任給額"
 
     Values (Base):    
     Values (Data 1):  
@@ -2532,1222 +2549,69 @@ capture label values Kakutei_NEWVARIABLE `val_lab'
     Values (Data 17): None
     Values (Data 18): None
     Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen v5_NEWVARIABLE = .
+gen In_Gaku_M_NEWVARIABLE = .
 local var_lab: variable label var26
 local val_lab: value label var26
-capture replace v5_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==1
-capture replace v5_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==2
-capture replace v5_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==3
-capture replace v5_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==4
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==5
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==6
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==7
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==8
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==9
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==10
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==11
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==12
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==13
-capture replace v5_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==14
-capture replace v5_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==15
-capture replace v5_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==16
-capture label variable v5_NEWVARIABLE `var_lab'
-capture label values v5_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "中学卒事務: 女"
-    Description (Data 1):  "中学卒事務: 女"
-    Description (Data 2):  "中学卒事務: 女"
-    Description (Data 3):  "中学卒事務: 女"
-    Description (Data 4):  "中学卒事務: 女"
-    Description (Data 5):  "中学卒事務: 女"
-    Description (Data 6):  "中学卒事務: 女"
-    Description (Data 7):  "中学卒事務: 女"
-    Description (Data 8):  "中学卒事務: 女"
-    Description (Data 9):  "中学卒事務: 女"
-    Description (Data 10): "中学卒事務: 女"
-    Description (Data 11): "中学卒事務: 女"
-    Description (Data 12): "中学卒事務: 女"
-    Description (Data 13): "中学卒事務: 女"
-    Description (Data 14): "中学卒事務: 女"
-    Description (Data 15): "中学卒事務: 女"
-    Description (Data 16): "中学卒事務: 女"
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v6_NEWVARIABLE = .
-local var_lab: variable label var27
-local val_lab: value label var27
-capture replace v6_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==1
-capture replace v6_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==2
-capture replace v6_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==3
-capture replace v6_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==4
-capture replace v6_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==5
-capture replace v6_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==6
-capture replace v6_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==7
-capture replace v6_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==8
-capture replace v6_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==9
-capture replace v6_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==10
-capture replace v6_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==11
-capture replace v6_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==12
-capture replace v6_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==13
-capture replace v6_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==14
-capture replace v6_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==15
-capture replace v6_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==16
-capture label variable v6_NEWVARIABLE `var_lab'
-capture label values v6_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "中学卒生産: 男"
-    Description (Data 1):  "中学卒生産: 男"
-    Description (Data 2):  "中学卒生産: 男"
-    Description (Data 3):  "中学卒生産: 男"
-    Description (Data 4):  "中学卒生産: 男"
-    Description (Data 5):  "中学卒生産: 男"
-    Description (Data 6):  "中学卒生産: 男"
-    Description (Data 7):  "中学卒生産: 男"
-    Description (Data 8):  "中学卒生産: 男"
-    Description (Data 9):  "中学卒生産: 男"
-    Description (Data 10): "中学卒生産: 男"
-    Description (Data 11): "中学卒生産: 男"
-    Description (Data 12): "中学卒生産: 男"
-    Description (Data 13): "中学卒生産: 男"
-    Description (Data 14): "中学卒生産: 男"
-    Description (Data 15): "中学卒生産: 男"
-    Description (Data 16): "中学卒生産: 男"
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v7_NEWVARIABLE = .
-local var_lab: variable label var28
-local val_lab: value label var28
-capture replace v7_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==1
-capture replace v7_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==2
-capture replace v7_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==3
-capture replace v7_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==4
-capture replace v7_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==5
-capture replace v7_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==6
-capture replace v7_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==7
-capture replace v7_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==8
-capture replace v7_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==9
-capture replace v7_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==10
-capture replace v7_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==11
-capture replace v7_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==12
-capture replace v7_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==13
-capture replace v7_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==14
-capture replace v7_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==15
-capture replace v7_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==16
-capture label variable v7_NEWVARIABLE `var_lab'
-capture label values v7_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "中学卒生産: 女"
-    Description (Data 1):  "中学卒生産: 女"
-    Description (Data 2):  "中学卒生産: 女"
-    Description (Data 3):  "中学卒生産: 女"
-    Description (Data 4):  "中学卒生産: 女"
-    Description (Data 5):  "中学卒生産: 女"
-    Description (Data 6):  "中学卒生産: 女"
-    Description (Data 7):  "中学卒生産: 女"
-    Description (Data 8):  "中学卒生産: 女"
-    Description (Data 9):  "中学卒生産: 女"
-    Description (Data 10): "中学卒生産: 女"
-    Description (Data 11): "中学卒生産: 女"
-    Description (Data 12): "中学卒生産: 女"
-    Description (Data 13): "中学卒生産: 女"
-    Description (Data 14): "中学卒生産: 女"
-    Description (Data 15): "中学卒生産: 女"
-    Description (Data 16): "中学卒生産: 女"
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v8_NEWVARIABLE = .
-local var_lab: variable label var29
-local val_lab: value label var29
-capture replace v8_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==1
-capture replace v8_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==2
-capture replace v8_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==3
-capture replace v8_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==4
-capture replace v8_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==5
-capture replace v8_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==6
-capture replace v8_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==7
-capture replace v8_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==8
-capture replace v8_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==9
-capture replace v8_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==10
-capture replace v8_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==11
-capture replace v8_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==12
-capture replace v8_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==13
-capture replace v8_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==14
-capture replace v8_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==15
-capture replace v8_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==16
-capture label variable v8_NEWVARIABLE `var_lab'
-capture label values v8_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高校卒事務: 男"
-    Description (Data 1):  "高校卒事務: 男"
-    Description (Data 2):  "高校卒事務: 男"
-    Description (Data 3):  "高校卒事務: 男"
-    Description (Data 4):  "高校卒事務: 男"
-    Description (Data 5):  "高校卒事務: 男"
-    Description (Data 6):  "高校卒事務: 男"
-    Description (Data 7):  "高校卒事務: 男"
-    Description (Data 8):  "高校卒事務: 男"
-    Description (Data 9):  "高校卒事務: 男"
-    Description (Data 10): "高校卒事務: 男"
-    Description (Data 11): "高校卒事務: 男"
-    Description (Data 12): "高校卒事務: 男"
-    Description (Data 13): "高校卒事務: 男"
-    Description (Data 14): "高校卒事務: 男"
-    Description (Data 15): "高校卒事務: 男"
-    Description (Data 16): "高校卒事務: 男"
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v9_NEWVARIABLE = .
-local var_lab: variable label var30
-local val_lab: value label var30
-capture replace v9_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==1
-capture replace v9_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==2
-capture replace v9_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==3
-capture replace v9_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==4
-capture replace v9_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==5
-capture replace v9_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==6
-capture replace v9_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==7
-capture replace v9_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==8
-capture replace v9_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==9
-capture replace v9_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==10
-capture replace v9_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==11
-capture replace v9_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==12
-capture replace v9_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==13
-capture replace v9_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==14
-capture replace v9_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==15
-capture replace v9_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==16
-capture label variable v9_NEWVARIABLE `var_lab'
-capture label values v9_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高校卒事務: 女"
-    Description (Data 1):  "高校卒事務: 女"
-    Description (Data 2):  "高校卒事務: 女"
-    Description (Data 3):  "高校卒事務: 女"
-    Description (Data 4):  "高校卒事務: 女"
-    Description (Data 5):  "高校卒事務: 女"
-    Description (Data 6):  "高校卒事務: 女"
-    Description (Data 7):  "高校卒事務: 女"
-    Description (Data 8):  "高校卒事務: 女"
-    Description (Data 9):  "高校卒事務: 女"
-    Description (Data 10): "高校卒事務: 女"
-    Description (Data 11): "高校卒事務: 女"
-    Description (Data 12): "高校卒事務: 女"
-    Description (Data 13): "高校卒事務: 女"
-    Description (Data 14): "高校卒事務: 女"
-    Description (Data 15): "高校卒事務: 女"
-    Description (Data 16): "高校卒事務: 女"
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v10_NEWVARIABLE = .
-local var_lab: variable label var31
-local val_lab: value label var31
-capture replace v10_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==1
-capture replace v10_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==2
-capture replace v10_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==3
-capture replace v10_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==4
-capture replace v10_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==5
-capture replace v10_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==6
-capture replace v10_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==7
-capture replace v10_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==8
-capture replace v10_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==9
-capture replace v10_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==10
-capture replace v10_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==11
-capture replace v10_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==12
-capture replace v10_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==13
-capture replace v10_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==14
-capture replace v10_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==15
-capture replace v10_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==16
-capture label variable v10_NEWVARIABLE `var_lab'
-capture label values v10_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高校卒生産: 男"
-    Description (Data 1):  "高校卒生産: 男"
-    Description (Data 2):  "高校卒生産: 男"
-    Description (Data 3):  "高校卒生産: 男"
-    Description (Data 4):  "高校卒生産: 男"
-    Description (Data 5):  "高校卒生産: 男"
-    Description (Data 6):  "高校卒生産: 男"
-    Description (Data 7):  "高校卒生産: 男"
-    Description (Data 8):  "高校卒生産: 男"
-    Description (Data 9):  "高校卒生産: 男"
-    Description (Data 10): "高校卒生産: 男"
-    Description (Data 11): "高校卒生産: 男"
-    Description (Data 12): "高校卒生産: 男"
-    Description (Data 13): "高校卒生産: 男"
-    Description (Data 14): "高校卒生産: 男"
-    Description (Data 15): "高校卒生産: 男"
-    Description (Data 16): "高校卒生産: 男"
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v11_NEWVARIABLE = .
-local var_lab: variable label var32
-local val_lab: value label var32
-capture replace v11_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==1
-capture replace v11_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==2
-capture replace v11_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==3
-capture replace v11_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==4
-capture replace v11_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==5
-capture replace v11_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==6
-capture replace v11_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==7
-capture replace v11_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==8
-capture replace v11_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==9
-capture replace v11_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==10
-capture replace v11_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==11
-capture replace v11_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==12
-capture replace v11_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==13
-capture replace v11_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==14
-capture replace v11_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==15
-capture replace v11_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==16
-capture label variable v11_NEWVARIABLE `var_lab'
-capture label values v11_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高校卒生産: 女"
-    Description (Data 1):  "高校卒生産: 女"
-    Description (Data 2):  "高校卒生産: 女"
-    Description (Data 3):  "高校卒生産: 女"
-    Description (Data 4):  "高校卒生産: 女"
-    Description (Data 5):  "高校卒生産: 女"
-    Description (Data 6):  "高校卒生産: 女"
-    Description (Data 7):  "高校卒生産: 女"
-    Description (Data 8):  "高校卒生産: 女"
-    Description (Data 9):  "高校卒生産: 女"
-    Description (Data 10): "高校卒生産: 女"
-    Description (Data 11): "高校卒生産: 女"
-    Description (Data 12): "高校卒生産: 女"
-    Description (Data 13): "高校卒生産: 女"
-    Description (Data 14): "高校卒生産: 女"
-    Description (Data 15): "高校卒生産: 女"
-    Description (Data 16): "高校卒生産: 女"
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v12_NEWVARIABLE = .
-local var_lab: variable label var33
-local val_lab: value label var33
-capture replace v12_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==1
-capture replace v12_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==2
-capture replace v12_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==3
-capture replace v12_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==4
-capture replace v12_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==5
-capture replace v12_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==6
-capture replace v12_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==7
-capture replace v12_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==8
-capture replace v12_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==9
-capture replace v12_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==10
-capture replace v12_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==11
-capture replace v12_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==12
-capture replace v12_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==13
-capture replace v12_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==14
-capture replace v12_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==15
-capture replace v12_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==16
-capture label variable v12_NEWVARIABLE `var_lab'
-capture label values v12_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "短大卒事務: 男"
-    Description (Data 1):  "短大卒事務: 男"
-    Description (Data 2):  "短大卒事務: 男"
-    Description (Data 3):  "短大卒事務: 男"
-    Description (Data 4):  "短大卒事務: 男"
-    Description (Data 5):  "短大卒事務: 男"
-    Description (Data 6):  "短大卒事務: 男"
-    Description (Data 7):  "短大卒事務: 男"
-    Description (Data 8):  "短大卒事務: 男"
-    Description (Data 9):  "短大卒事務: 男"
-    Description (Data 10): "短大卒事務: 男"
-    Description (Data 11): "短大卒事務: 男"
-    Description (Data 12): "短大卒事務: 男"
-    Description (Data 13): "短大卒事務: 男"
-    Description (Data 14): "短大卒事務: 男"
-    Description (Data 15): "短大卒事務: 男"
-    Description (Data 16): "短大卒事務: 男"
-    Description (Data 17): "大卒・事務系・男・初任給額"
-    Description (Data 18): "大卒・事務系・男・初任給額"
-    Description (Data 19): "大卒・事務系・男・初任給額"
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v13_NEWVARIABLE = .
-local var_lab: variable label var34
-local val_lab: value label var34
-capture replace v13_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==1
-capture replace v13_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==2
-capture replace v13_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==3
-capture replace v13_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==4
-capture replace v13_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==5
-capture replace v13_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==6
-capture replace v13_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==7
-capture replace v13_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==8
-capture replace v13_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==9
-capture replace v13_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==10
-capture replace v13_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==11
-capture replace v13_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==12
-capture replace v13_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==13
-capture replace v13_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==14
-capture replace v13_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==15
-capture replace v13_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==16
-capture replace v13_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==17
-capture replace v13_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==18
-capture replace v13_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==19
-capture label variable v13_NEWVARIABLE `var_lab'
-capture label values v13_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "短大卒事務: 女"
-    Description (Data 1):  "短大卒事務: 女"
-    Description (Data 2):  "短大卒事務: 女"
-    Description (Data 3):  "短大卒事務: 女"
-    Description (Data 4):  "短大卒事務: 女"
-    Description (Data 5):  "短大卒事務: 女"
-    Description (Data 6):  "短大卒事務: 女"
-    Description (Data 7):  "短大卒事務: 女"
-    Description (Data 8):  "短大卒事務: 女"
-    Description (Data 9):  "短大卒事務: 女"
-    Description (Data 10): "短大卒事務: 女"
-    Description (Data 11): "短大卒事務: 女"
-    Description (Data 12): "短大卒事務: 女"
-    Description (Data 13): "短大卒事務: 女"
-    Description (Data 14): "短大卒事務: 女"
-    Description (Data 15): "短大卒事務: 女"
-    Description (Data 16): "短大卒事務: 女"
-    Description (Data 17): "大卒・事務系・女・初任給額"
-    Description (Data 18): "大卒・事務系・女・初任給額"
-    Description (Data 19): "大卒・事務系・女・初任給額"
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v14_NEWVARIABLE = .
-local var_lab: variable label var35
-local val_lab: value label var35
-capture replace v14_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==1
-capture replace v14_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==2
-capture replace v14_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==3
-capture replace v14_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==4
-capture replace v14_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==5
-capture replace v14_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==6
-capture replace v14_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==7
-capture replace v14_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==8
-capture replace v14_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==9
-capture replace v14_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==10
-capture replace v14_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==11
-capture replace v14_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==12
-capture replace v14_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==13
-capture replace v14_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==14
-capture replace v14_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==15
-capture replace v14_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==16
-capture replace v14_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==17
-capture replace v14_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==18
-capture replace v14_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==19
-capture label variable v14_NEWVARIABLE `var_lab'
-capture label values v14_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "短大卒生産: 男"
-    Description (Data 1):  "短大卒生産: 男"
-    Description (Data 2):  "短大卒生産: 男"
-    Description (Data 3):  "短大卒生産: 男"
-    Description (Data 4):  "短大卒生産: 男"
-    Description (Data 5):  "短大卒生産: 男"
-    Description (Data 6):  "短大卒生産: 男"
-    Description (Data 7):  "短大卒生産: 男"
-    Description (Data 8):  "短大卒生産: 男"
-    Description (Data 9):  "短大卒生産: 男"
-    Description (Data 10): "短大卒生産: 男"
-    Description (Data 11): "短大卒生産: 男"
-    Description (Data 12): "短大卒生産: 男"
-    Description (Data 13): "短大卒生産: 男"
-    Description (Data 14): "短大卒生産: 男"
-    Description (Data 15): "短大卒生産: 男"
-    Description (Data 16): "短大卒生産: 男"
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v15_NEWVARIABLE = .
-local var_lab: variable label var36
-local val_lab: value label var36
-capture replace v15_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==1
-capture replace v15_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==2
-capture replace v15_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==3
-capture replace v15_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==4
-capture replace v15_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==5
-capture replace v15_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==6
-capture replace v15_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==7
-capture replace v15_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==8
-capture replace v15_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==9
-capture replace v15_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==10
-capture replace v15_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==11
-capture replace v15_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==12
-capture replace v15_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==13
-capture replace v15_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==14
-capture replace v15_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==15
-capture replace v15_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==16
-capture label variable v15_NEWVARIABLE `var_lab'
-capture label values v15_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "短大卒生産: 女"
-    Description (Data 1):  "短大卒生産: 女"
-    Description (Data 2):  "短大卒生産: 女"
-    Description (Data 3):  "短大卒生産: 女"
-    Description (Data 4):  "短大卒生産: 女"
-    Description (Data 5):  "短大卒生産: 女"
-    Description (Data 6):  "短大卒生産: 女"
-    Description (Data 7):  "短大卒生産: 女"
-    Description (Data 8):  "短大卒生産: 女"
-    Description (Data 9):  "短大卒生産: 女"
-    Description (Data 10): "短大卒生産: 女"
-    Description (Data 11): "短大卒生産: 女"
-    Description (Data 12): "短大卒生産: 女"
-    Description (Data 13): "短大卒生産: 女"
-    Description (Data 14): "短大卒生産: 女"
-    Description (Data 15): "短大卒生産: 女"
-    Description (Data 16): "短大卒生産: 女"
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-
-----------------------------------------------------------------------*/
-gen v16_NEWVARIABLE = .
-local var_lab: variable label var37
-local val_lab: value label var37
-capture replace v16_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==1
-capture replace v16_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==2
-capture replace v16_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==3
-capture replace v16_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==4
-capture replace v16_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==5
-capture replace v16_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==6
-capture replace v16_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==7
-capture replace v16_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==8
-capture replace v16_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==9
-capture replace v16_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==10
-capture replace v16_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==11
-capture replace v16_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==12
-capture replace v16_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==13
-capture replace v16_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==14
-capture replace v16_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==15
-capture replace v16_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==16
-capture label variable v16_NEWVARIABLE `var_lab'
-capture label values v16_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学卒事務系男: 初任給額"
-    Description (Data 1):  "大学卒事務: 男"
-    Description (Data 2):  "大学卒事務: 男"
-    Description (Data 3):  "大学卒事務: 男"
-    Description (Data 4):  "大学卒事務: 男"
-    Description (Data 5):  "大学卒事務: 男"
-    Description (Data 6):  "大学卒事務: 男"
-    Description (Data 7):  "大学卒事務: 男"
-    Description (Data 8):  "大学卒事務: 男"
-    Description (Data 9):  "大学卒事務: 男"
-    Description (Data 10): "大学卒事務: 男"
-    Description (Data 11): "大学卒事務: 男"
-    Description (Data 12): "大学卒事務: 男"
-    Description (Data 13): "大学卒事務: 男"
-    Description (Data 14): "大学卒事務: 男"
-    Description (Data 15): "大学卒事務: 男"
-    Description (Data 16): "大学卒事務: 男"
-    Description (Data 17): "大卒・事務系・男・採用人数"
-    Description (Data 18): "大卒・事務系・男・採用人数"
-    Description (Data 19): "大卒・事務系・男・採用人数"
-    Description (Data 20): "大学卒事務系男: 初任給額"
-    Description (Data 21): "大学卒事務系男: 初任給額"
-    Description (Data 22): "大学卒事務系男: 初任給額"
-    Description (Data 23): "大学卒事務系男: 初任給額"
-    Description (Data 24): "大学卒事務系男: 初任給額"
-    Description (Data 25): "大学卒事務系男: 初任給額"
-    Description (Data 26): "大学卒事務系男: 初任給額"
-    Description (Data 27): "大学卒事務系男: 初任給額"
-    Description (Data 28): "大学卒事務系男: 初任給額"
-    Description (Data 29): "大学卒事務系男: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Dai_Jimu_Gaku_M_NEWVARIABLE = .
-local var_lab: variable label var38
-local val_lab: value label var38
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==1
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==2
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==3
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==4
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==5
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==6
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==7
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==8
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==9
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==10
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==11
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==12
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==13
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==14
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==15
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==16
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==17
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==18
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==19
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==20
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==21
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==22
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==23
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==24
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==25
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==26
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==27
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==28
-capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Dai_Jimu_Gaku_M_NEWVARIABLE `var_lab'
-capture label values Dai_Jimu_Gaku_M_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学卒事務系女: 初任給額"
-    Description (Data 1):  "大学卒事務: 女"
-    Description (Data 2):  "大学卒事務: 女"
-    Description (Data 3):  "大学卒事務: 女"
-    Description (Data 4):  "大学卒事務: 女"
-    Description (Data 5):  "大学卒事務: 女"
-    Description (Data 6):  "大学卒事務: 女"
-    Description (Data 7):  "大学卒事務: 女"
-    Description (Data 8):  "大学卒事務: 女"
-    Description (Data 9):  "大学卒事務: 女"
-    Description (Data 10): "大学卒事務: 女"
-    Description (Data 11): "大学卒事務: 女"
-    Description (Data 12): "大学卒事務: 女"
-    Description (Data 13): "大学卒事務: 女"
-    Description (Data 14): "大学卒事務: 女"
-    Description (Data 15): "大学卒事務: 女"
-    Description (Data 16): "大学卒事務: 女"
-    Description (Data 17): "大卒・事務系・女・採用人数"
-    Description (Data 18): "大卒・事務系・女・採用人数"
-    Description (Data 19): "大卒・事務系・女・採用人数"
-    Description (Data 20): "大学卒事務系女: 初任給額"
-    Description (Data 21): "大学卒事務系女: 初任給額"
-    Description (Data 22): "大学卒事務系女: 初任給額"
-    Description (Data 23): "大学卒事務系女: 初任給額"
-    Description (Data 24): "大学卒事務系女: 初任給額"
-    Description (Data 25): "大学卒事務系女: 初任給額"
-    Description (Data 26): "大学卒事務系女: 初任給額"
-    Description (Data 27): "大学卒事務系女: 初任給額"
-    Description (Data 28): "大学卒事務系女: 初任給額"
-    Description (Data 29): "大学卒事務系女: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Dai_Jimu_Gaku_W_NEWVARIABLE = .
-local var_lab: variable label var39
-local val_lab: value label var39
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==1
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==2
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==3
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==4
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==5
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==6
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==7
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==8
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==9
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==10
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==11
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==12
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==13
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==14
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==15
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==16
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==17
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==18
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==19
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==20
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==21
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==22
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==23
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==24
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==25
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==26
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==27
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==28
-capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Dai_Jimu_Gaku_W_NEWVARIABLE `var_lab'
-capture label values Dai_Jimu_Gaku_W_NEWVARIABLE `val_lab'
+capture replace In_Gaku_M_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==1
+capture replace In_Gaku_M_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==2
+capture replace In_Gaku_M_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==3
+capture replace In_Gaku_M_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==4
+capture replace In_Gaku_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==5
+capture replace In_Gaku_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==6
+capture replace In_Gaku_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==7
+capture replace In_Gaku_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==8
+capture replace In_Gaku_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==9
+capture replace In_Gaku_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==10
+capture replace In_Gaku_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==11
+capture replace In_Gaku_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==12
+capture replace In_Gaku_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==13
+capture replace In_Gaku_M_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==14
+capture replace In_Gaku_M_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==15
+capture replace In_Gaku_M_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==16
+capture replace In_Gaku_M_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==20
+capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==21
+capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==22
+capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==23
+capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==24
+capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==25
+capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==26
+capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==27
+capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==28
+capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==29
+capture label variable In_Gaku_M_NEWVARIABLE `var_lab'
+capture label values In_Gaku_M_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
     Description (Base):    "大学院修士課程修了男: 採用人員"
-    Description (Data 1):  "大学卒生産: 男"
-    Description (Data 2):  "大学卒生産: 男"
-    Description (Data 3):  "大学卒生産: 男"
-    Description (Data 4):  "大学卒生産: 男"
-    Description (Data 5):  "大学卒生産: 男"
-    Description (Data 6):  "大学卒生産: 男"
-    Description (Data 7):  "大学卒生産: 男"
-    Description (Data 8):  "大学卒生産: 男"
-    Description (Data 9):  "大学卒生産: 男"
-    Description (Data 10): "大学卒生産: 男"
-    Description (Data 11): "大学卒生産: 男"
-    Description (Data 12): "大学卒生産: 男"
-    Description (Data 13): "大学卒生産: 男"
-    Description (Data 14): "大学卒生産: 男"
-    Description (Data 15): "大学卒生産: 男"
-    Description (Data 16): "大学卒生産: 男"
+    Description (Data 1):  "中学卒事務: 男採用人員"
+    Description (Data 2):  "中学卒事務: 男採用人員"
+    Description (Data 3):  "中学卒事務: 男採用人員"
+    Description (Data 4):  "中学卒事務: 男採用人員"
+    Description (Data 5):  "中学卒事務: 男採用人員"
+    Description (Data 6):  "中学卒事務: 男採用人員"
+    Description (Data 7):  "中学卒事務: 男採用人員"
+    Description (Data 8):  "中学卒事務: 男採用人員"
+    Description (Data 9):  "中学卒事務: 男採用人員"
+    Description (Data 10): "中学卒事務: 男採用人員"
+    Description (Data 11): "中学卒事務: 男採用人員"
+    Description (Data 12): "中学卒事務: 男採用人員"
+    Description (Data 13): "中学卒事務: 男採用人員"
+    Description (Data 14): "中学卒事務: 男採用人員"
+    Description (Data 15): "中学卒事務: 男採用人員"
+    Description (Data 16): "中学卒事務: 男採用人員"
     Description (Data 17): None
     Description (Data 18): None
     Description (Data 19): None
@@ -3795,24 +2659,24 @@ capture label values Dai_Jimu_Gaku_W_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen In_Jimu_M_NEWVARIABLE = .
-local var_lab: variable label var40
-local val_lab: value label var40
-capture replace In_Jimu_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==1
-capture replace In_Jimu_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==2
-capture replace In_Jimu_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==3
-capture replace In_Jimu_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==4
-capture replace In_Jimu_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==5
-capture replace In_Jimu_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==6
-capture replace In_Jimu_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==7
-capture replace In_Jimu_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==8
-capture replace In_Jimu_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==9
-capture replace In_Jimu_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==10
-capture replace In_Jimu_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==11
-capture replace In_Jimu_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==12
-capture replace In_Jimu_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==13
-capture replace In_Jimu_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==14
-capture replace In_Jimu_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==15
-capture replace In_Jimu_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==16
+local var_lab: variable label var27
+local val_lab: value label var27
+capture replace In_Jimu_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==1
+capture replace In_Jimu_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==2
+capture replace In_Jimu_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==3
+capture replace In_Jimu_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==4
+capture replace In_Jimu_M_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==5
+capture replace In_Jimu_M_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==6
+capture replace In_Jimu_M_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==7
+capture replace In_Jimu_M_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==8
+capture replace In_Jimu_M_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==9
+capture replace In_Jimu_M_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==10
+capture replace In_Jimu_M_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==11
+capture replace In_Jimu_M_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==12
+capture replace In_Jimu_M_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==13
+capture replace In_Jimu_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==14
+capture replace In_Jimu_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==15
+capture replace In_Jimu_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==16
 capture replace In_Jimu_M_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==20
 capture replace In_Jimu_M_NEWVARIABLE = In_Jimu_M  if flag_tmp_NEWVARIABLE==21
 capture replace In_Jimu_M_NEWVARIABLE = In_Jimu_M  if flag_tmp_NEWVARIABLE==22
@@ -3828,23 +2692,120 @@ capture label values In_Jimu_M_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
+    Description (Base):    "大学院修士課程修了女: 初任給額"
+    Description (Data 1):  "中学卒事務: 女初任給額"
+    Description (Data 2):  "中学卒事務: 女初任給額"
+    Description (Data 3):  "中学卒事務: 女初任給額"
+    Description (Data 4):  "中学卒事務: 女初任給額"
+    Description (Data 5):  "中学卒事務: 女初任給額"
+    Description (Data 6):  "中学卒事務: 女初任給額"
+    Description (Data 7):  "中学卒事務: 女初任給額"
+    Description (Data 8):  "中学卒事務: 女初任給額"
+    Description (Data 9):  "中学卒事務: 女初任給額"
+    Description (Data 10): "中学卒事務: 女初任給額"
+    Description (Data 11): "中学卒事務: 女初任給額"
+    Description (Data 12): "中学卒事務: 女初任給額"
+    Description (Data 13): "中学卒事務: 女初任給額"
+    Description (Data 14): "中学卒事務: 女初任給額"
+    Description (Data 15): "中学卒事務: 女初任給額"
+    Description (Data 16): "中学卒事務: 女初任給額"
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): "大学院修士課程修了女: 初任給額"
+    Description (Data 21): "大学院修士課程修了女: 初任給額"
+    Description (Data 22): "大学院修士課程修了女: 初任給額"
+    Description (Data 23): "大学院修士課程修了女: 初任給額"
+    Description (Data 24): "大学院修士課程修了女: 初任給額"
+    Description (Data 25): "大学院修士課程修了女: 初任給額"
+    Description (Data 26): "大学院修士課程修了女: 初任給額"
+    Description (Data 27): "大学院修士課程修了女: 初任給額"
+    Description (Data 28): "大学院修士課程修了女: 初任給額"
+    Description (Data 29): "大学院修士課程修了女: 初任給額"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen In_Gaku_W_NEWVARIABLE = .
+local var_lab: variable label var28
+local val_lab: value label var28
+capture replace In_Gaku_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==1
+capture replace In_Gaku_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==2
+capture replace In_Gaku_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==3
+capture replace In_Gaku_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==4
+capture replace In_Gaku_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==5
+capture replace In_Gaku_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==6
+capture replace In_Gaku_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==7
+capture replace In_Gaku_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==8
+capture replace In_Gaku_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==9
+capture replace In_Gaku_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==10
+capture replace In_Gaku_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==11
+capture replace In_Gaku_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==12
+capture replace In_Gaku_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==13
+capture replace In_Gaku_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==14
+capture replace In_Gaku_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==15
+capture replace In_Gaku_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==16
+capture replace In_Gaku_W_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==20
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==21
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==22
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==23
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==24
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==25
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==26
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==27
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==28
+capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==29
+capture label variable In_Gaku_W_NEWVARIABLE `var_lab'
+capture label values In_Gaku_W_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
     Description (Base):    "大学院修士課程修了女: 採用人員"
-    Description (Data 1):  "大学卒生産: 女"
-    Description (Data 2):  "大学卒生産: 女"
-    Description (Data 3):  "大学卒生産: 女"
-    Description (Data 4):  "大学卒生産: 女"
-    Description (Data 5):  "大学卒生産: 女"
-    Description (Data 6):  "大学卒生産: 女"
-    Description (Data 7):  "大学卒生産: 女"
-    Description (Data 8):  "大学卒生産: 女"
-    Description (Data 9):  "大学卒生産: 女"
-    Description (Data 10): "大学卒生産: 女"
-    Description (Data 11): "大学卒生産: 女"
-    Description (Data 12): "大学卒生産: 女"
-    Description (Data 13): "大学卒生産: 女"
-    Description (Data 14): "大学卒生産: 女"
-    Description (Data 15): "大学卒生産: 女"
-    Description (Data 16): "大学卒生産: 女"
+    Description (Data 1):  "中学卒事務: 女採用人員"
+    Description (Data 2):  "中学卒事務: 女採用人員"
+    Description (Data 3):  "中学卒事務: 女採用人員"
+    Description (Data 4):  "中学卒事務: 女採用人員"
+    Description (Data 5):  "中学卒事務: 女採用人員"
+    Description (Data 6):  "中学卒事務: 女採用人員"
+    Description (Data 7):  "中学卒事務: 女採用人員"
+    Description (Data 8):  "中学卒事務: 女採用人員"
+    Description (Data 9):  "中学卒事務: 女採用人員"
+    Description (Data 10): "中学卒事務: 女採用人員"
+    Description (Data 11): "中学卒事務: 女採用人員"
+    Description (Data 12): "中学卒事務: 女採用人員"
+    Description (Data 13): "中学卒事務: 女採用人員"
+    Description (Data 14): "中学卒事務: 女採用人員"
+    Description (Data 15): "中学卒事務: 女採用人員"
+    Description (Data 16): "中学卒事務: 女採用人員"
     Description (Data 17): None
     Description (Data 18): None
     Description (Data 19): None
@@ -3892,24 +2853,24 @@ capture label values In_Jimu_M_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen In_Jin_W_NEWVARIABLE = .
-local var_lab: variable label var41
-local val_lab: value label var41
-capture replace In_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==1
-capture replace In_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==2
-capture replace In_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==3
-capture replace In_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==4
-capture replace In_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==5
-capture replace In_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==6
-capture replace In_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==7
-capture replace In_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==8
-capture replace In_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==9
-capture replace In_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==10
-capture replace In_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==11
-capture replace In_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==12
-capture replace In_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==13
-capture replace In_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==14
-capture replace In_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==15
-capture replace In_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==16
+local var_lab: variable label var29
+local val_lab: value label var29
+capture replace In_Jin_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==1
+capture replace In_Jin_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==2
+capture replace In_Jin_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==3
+capture replace In_Jin_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==4
+capture replace In_Jin_W_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==5
+capture replace In_Jin_W_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==6
+capture replace In_Jin_W_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==7
+capture replace In_Jin_W_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==8
+capture replace In_Jin_W_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==9
+capture replace In_Jin_W_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==10
+capture replace In_Jin_W_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==11
+capture replace In_Jin_W_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==12
+capture replace In_Jin_W_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==13
+capture replace In_Jin_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==14
+capture replace In_Jin_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==15
+capture replace In_Jin_W_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==16
 capture replace In_Jin_W_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==20
 capture replace In_Jin_W_NEWVARIABLE = In_Jin_W  if flag_tmp_NEWVARIABLE==21
 capture replace In_Jin_W_NEWVARIABLE = In_Jin_W  if flag_tmp_NEWVARIABLE==22
@@ -3925,33 +2886,1181 @@ capture label values In_Jin_W_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "集計不能コード"
-    Description (Data 1):  "集計不能コード"
-    Description (Data 2):  "集計不能コード"
-    Description (Data 3):  "集計不能コード"
-    Description (Data 4):  "集計不能コード"
-    Description (Data 5):  "集計不能コード"
-    Description (Data 6):  "集計不能コード"
-    Description (Data 7):  "集計不能コード"
-    Description (Data 8):  "集計不能コード"
-    Description (Data 9):  "集計不能コード"
-    Description (Data 10): "集計不能コード"
-    Description (Data 11): "集計不能コード"
-    Description (Data 12): "集計不能コード"
-    Description (Data 13): "集計不能コード"
-    Description (Data 14): "集計不能コード"
-    Description (Data 15): "集計不能コード"
-    Description (Data 16): "集計不能コード"
-    Description (Data 17): "集計不能コード"
-    Description (Data 18): "集計不能コード"
-    Description (Data 19): "集計不能コード"
+    Description (Base):    "中学卒生産: 男初任給額"
+    Description (Data 1):  "中学卒生産: 男初任給額"
+    Description (Data 2):  "中学卒生産: 男初任給額"
+    Description (Data 3):  "中学卒生産: 男初任給額"
+    Description (Data 4):  "中学卒生産: 男初任給額"
+    Description (Data 5):  "中学卒生産: 男初任給額"
+    Description (Data 6):  "中学卒生産: 男初任給額"
+    Description (Data 7):  "中学卒生産: 男初任給額"
+    Description (Data 8):  "中学卒生産: 男初任給額"
+    Description (Data 9):  "中学卒生産: 男初任給額"
+    Description (Data 10): "中学卒生産: 男初任給額"
+    Description (Data 11): "中学卒生産: 男初任給額"
+    Description (Data 12): "中学卒生産: 男初任給額"
+    Description (Data 13): "中学卒生産: 男初任給額"
+    Description (Data 14): "中学卒生産: 男初任給額"
+    Description (Data 15): "中学卒生産: 男初任給額"
+    Description (Data 16): "中学卒生産: 男初任給額"
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
     Description (Data 20): None
     Description (Data 21): None
     Description (Data 22): None
     Description (Data 23): None
     Description (Data 24): None
-    Description (Data 25): "共通事業所コード"
-    Description (Data 26): "共通事業所コード"
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v3_NEWVARIABLE = .
+local var_lab: variable label var30
+local val_lab: value label var30
+capture replace v3_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==1
+capture replace v3_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==2
+capture replace v3_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==3
+capture replace v3_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==4
+capture replace v3_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==5
+capture replace v3_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==6
+capture replace v3_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==7
+capture replace v3_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==8
+capture replace v3_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==9
+capture replace v3_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==10
+capture replace v3_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==11
+capture replace v3_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==12
+capture replace v3_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==13
+capture replace v3_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==14
+capture replace v3_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==15
+capture replace v3_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==16
+capture label variable v3_NEWVARIABLE `var_lab'
+capture label values v3_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "中学卒生産: 男採用人員"
+    Description (Data 1):  "中学卒生産: 男採用人員"
+    Description (Data 2):  "中学卒生産: 男採用人員"
+    Description (Data 3):  "中学卒生産: 男採用人員"
+    Description (Data 4):  "中学卒生産: 男採用人員"
+    Description (Data 5):  "中学卒生産: 男採用人員"
+    Description (Data 6):  "中学卒生産: 男採用人員"
+    Description (Data 7):  "中学卒生産: 男採用人員"
+    Description (Data 8):  "中学卒生産: 男採用人員"
+    Description (Data 9):  "中学卒生産: 男採用人員"
+    Description (Data 10): "中学卒生産: 男採用人員"
+    Description (Data 11): "中学卒生産: 男採用人員"
+    Description (Data 12): "中学卒生産: 男採用人員"
+    Description (Data 13): "中学卒生産: 男採用人員"
+    Description (Data 14): "中学卒生産: 男採用人員"
+    Description (Data 15): "中学卒生産: 男採用人員"
+    Description (Data 16): "中学卒生産: 男採用人員"
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v4_NEWVARIABLE = .
+local var_lab: variable label var31
+local val_lab: value label var31
+capture replace v4_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==1
+capture replace v4_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==2
+capture replace v4_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==3
+capture replace v4_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==4
+capture replace v4_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==5
+capture replace v4_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==6
+capture replace v4_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==7
+capture replace v4_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==8
+capture replace v4_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==9
+capture replace v4_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==10
+capture replace v4_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==11
+capture replace v4_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==12
+capture replace v4_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==13
+capture replace v4_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==14
+capture replace v4_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==15
+capture replace v4_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==16
+capture label variable v4_NEWVARIABLE `var_lab'
+capture label values v4_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "中学卒生産: 女初任給額"
+    Description (Data 1):  "中学卒生産: 女初任給額"
+    Description (Data 2):  "中学卒生産: 女初任給額"
+    Description (Data 3):  "中学卒生産: 女初任給額"
+    Description (Data 4):  "中学卒生産: 女初任給額"
+    Description (Data 5):  "中学卒生産: 女初任給額"
+    Description (Data 6):  "中学卒生産: 女初任給額"
+    Description (Data 7):  "中学卒生産: 女初任給額"
+    Description (Data 8):  "中学卒生産: 女初任給額"
+    Description (Data 9):  "中学卒生産: 女初任給額"
+    Description (Data 10): "中学卒生産: 女初任給額"
+    Description (Data 11): "中学卒生産: 女初任給額"
+    Description (Data 12): "中学卒生産: 女初任給額"
+    Description (Data 13): "中学卒生産: 女初任給額"
+    Description (Data 14): "中学卒生産: 女初任給額"
+    Description (Data 15): "中学卒生産: 女初任給額"
+    Description (Data 16): "中学卒生産: 女初任給額"
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v5_NEWVARIABLE = .
+local var_lab: variable label var32
+local val_lab: value label var32
+capture replace v5_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==1
+capture replace v5_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==2
+capture replace v5_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==3
+capture replace v5_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==4
+capture replace v5_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==5
+capture replace v5_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==6
+capture replace v5_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==7
+capture replace v5_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==8
+capture replace v5_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==9
+capture replace v5_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==10
+capture replace v5_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==11
+capture replace v5_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==12
+capture replace v5_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==13
+capture replace v5_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==14
+capture replace v5_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==15
+capture replace v5_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==16
+capture label variable v5_NEWVARIABLE `var_lab'
+capture label values v5_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "中学卒生産: 女採用人員"
+    Description (Data 1):  "中学卒生産: 女採用人員"
+    Description (Data 2):  "中学卒生産: 女採用人員"
+    Description (Data 3):  "中学卒生産: 女採用人員"
+    Description (Data 4):  "中学卒生産: 女採用人員"
+    Description (Data 5):  "中学卒生産: 女採用人員"
+    Description (Data 6):  "中学卒生産: 女採用人員"
+    Description (Data 7):  "中学卒生産: 女採用人員"
+    Description (Data 8):  "中学卒生産: 女採用人員"
+    Description (Data 9):  "中学卒生産: 女採用人員"
+    Description (Data 10): "中学卒生産: 女採用人員"
+    Description (Data 11): "中学卒生産: 女採用人員"
+    Description (Data 12): "中学卒生産: 女採用人員"
+    Description (Data 13): "中学卒生産: 女採用人員"
+    Description (Data 14): "中学卒生産: 女採用人員"
+    Description (Data 15): "中学卒生産: 女採用人員"
+    Description (Data 16): "中学卒生産: 女採用人員"
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v6_NEWVARIABLE = .
+local var_lab: variable label var33
+local val_lab: value label var33
+capture replace v6_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==1
+capture replace v6_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==2
+capture replace v6_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==3
+capture replace v6_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==4
+capture replace v6_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==5
+capture replace v6_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==6
+capture replace v6_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==7
+capture replace v6_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==8
+capture replace v6_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==9
+capture replace v6_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==10
+capture replace v6_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==11
+capture replace v6_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==12
+capture replace v6_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==13
+capture replace v6_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==14
+capture replace v6_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==15
+capture replace v6_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==16
+capture label variable v6_NEWVARIABLE `var_lab'
+capture label values v6_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "高校卒男: 初任給額"
+    Description (Data 1):  "高校卒事務: 男初任給額"
+    Description (Data 2):  "高校卒事務: 男初任給額"
+    Description (Data 3):  "高校卒事務: 男初任給額"
+    Description (Data 4):  "高校卒事務: 男初任給額"
+    Description (Data 5):  "高校卒事務: 男初任給額"
+    Description (Data 6):  "高校卒事務: 男初任給額"
+    Description (Data 7):  "高校卒事務: 男初任給額"
+    Description (Data 8):  "高校卒事務: 男初任給額"
+    Description (Data 9):  "高校卒事務: 男初任給額"
+    Description (Data 10): "高校卒事務: 男初任給額"
+    Description (Data 11): "高校卒事務: 男初任給額"
+    Description (Data 12): "高校卒事務: 男初任給額"
+    Description (Data 13): "高校卒事務: 男初任給額"
+    Description (Data 14): "高校卒事務: 男初任給額"
+    Description (Data 15): "高校卒事務: 男初任給額"
+    Description (Data 16): "高校卒事務: 男初任給額"
+    Description (Data 17): "高卒・男・初任給額"
+    Description (Data 18): "高卒・男・初任給額"
+    Description (Data 19): "高卒・男・初任給額"
+    Description (Data 20): "高校卒男: 初任給額"
+    Description (Data 21): "高校卒男: 初任給額"
+    Description (Data 22): "高校卒男: 初任給額"
+    Description (Data 23): "高校卒男: 初任給額"
+    Description (Data 24): "高校卒男: 初任給額"
+    Description (Data 25): "高校卒男: 初任給額"
+    Description (Data 26): "高校卒男: 初任給額"
+    Description (Data 27): "高校卒男: 初任給額"
+    Description (Data 28): "高校卒男: 初任給額"
+    Description (Data 29): "高校卒男: 初任給額"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Kou_Gaku_M_NEWVARIABLE = .
+local var_lab: variable label var34
+local val_lab: value label var34
+capture replace Kou_Gaku_M_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==1
+capture replace Kou_Gaku_M_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==2
+capture replace Kou_Gaku_M_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==3
+capture replace Kou_Gaku_M_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==4
+capture replace Kou_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==5
+capture replace Kou_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==6
+capture replace Kou_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==7
+capture replace Kou_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==8
+capture replace Kou_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==9
+capture replace Kou_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==10
+capture replace Kou_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==11
+capture replace Kou_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==12
+capture replace Kou_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==13
+capture replace Kou_Gaku_M_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==14
+capture replace Kou_Gaku_M_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==15
+capture replace Kou_Gaku_M_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==16
+capture replace Kou_Gaku_M_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==17
+capture replace Kou_Gaku_M_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==18
+capture replace Kou_Gaku_M_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==19
+capture replace Kou_Gaku_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==20
+capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==21
+capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==22
+capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==23
+capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==24
+capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==25
+capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==26
+capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==27
+capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==28
+capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==29
+capture label variable Kou_Gaku_M_NEWVARIABLE `var_lab'
+capture label values Kou_Gaku_M_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "高校卒男: 採用人員"
+    Description (Data 1):  "高校卒事務: 男採用人員"
+    Description (Data 2):  "高校卒事務: 男採用人員"
+    Description (Data 3):  "高校卒事務: 男採用人員"
+    Description (Data 4):  "高校卒事務: 男採用人員"
+    Description (Data 5):  "高校卒事務: 男採用人員"
+    Description (Data 6):  "高校卒事務: 男採用人員"
+    Description (Data 7):  "高校卒事務: 男採用人員"
+    Description (Data 8):  "高校卒事務: 男採用人員"
+    Description (Data 9):  "高校卒事務: 男採用人員"
+    Description (Data 10): "高校卒事務: 男採用人員"
+    Description (Data 11): "高校卒事務: 男採用人員"
+    Description (Data 12): "高校卒事務: 男採用人員"
+    Description (Data 13): "高校卒事務: 男採用人員"
+    Description (Data 14): "高校卒事務: 男採用人員"
+    Description (Data 15): "高校卒事務: 男採用人員"
+    Description (Data 16): "高校卒事務: 男採用人員"
+    Description (Data 17): "高卒・男・採用人員"
+    Description (Data 18): "高卒・男・採用人員"
+    Description (Data 19): "高卒・男・採用人員"
+    Description (Data 20): "高校卒男: 採用人員"
+    Description (Data 21): "高校卒男: 採用人員"
+    Description (Data 22): "高校卒男: 採用人員"
+    Description (Data 23): "高校卒男: 採用人員"
+    Description (Data 24): "高校卒男: 採用人員"
+    Description (Data 25): "高校卒男: 採用人員"
+    Description (Data 26): "高校卒男: 採用人員"
+    Description (Data 27): "高校卒男: 採用人員"
+    Description (Data 28): "高校卒男: 採用人員"
+    Description (Data 29): "高校卒男: 採用人員"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Kou_Jin_M_NEWVARIABLE = .
+local var_lab: variable label var35
+local val_lab: value label var35
+capture replace Kou_Jin_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==1
+capture replace Kou_Jin_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==2
+capture replace Kou_Jin_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==3
+capture replace Kou_Jin_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==4
+capture replace Kou_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==5
+capture replace Kou_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==6
+capture replace Kou_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==7
+capture replace Kou_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==8
+capture replace Kou_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==9
+capture replace Kou_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==10
+capture replace Kou_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==11
+capture replace Kou_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==12
+capture replace Kou_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==13
+capture replace Kou_Jin_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==14
+capture replace Kou_Jin_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==15
+capture replace Kou_Jin_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==16
+capture replace Kou_Jin_M_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==17
+capture replace Kou_Jin_M_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==18
+capture replace Kou_Jin_M_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==19
+capture replace Kou_Jin_M_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==20
+capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==21
+capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==22
+capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==23
+capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==24
+capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==25
+capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==26
+capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==27
+capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==28
+capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==29
+capture label variable Kou_Jin_M_NEWVARIABLE `var_lab'
+capture label values Kou_Jin_M_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "高校卒女: 初任給額"
+    Description (Data 1):  "高校卒事務: 女初任給額"
+    Description (Data 2):  "高校卒事務: 女初任給額"
+    Description (Data 3):  "高校卒事務: 女初任給額"
+    Description (Data 4):  "高校卒事務: 女初任給額"
+    Description (Data 5):  "高校卒事務: 女初任給額"
+    Description (Data 6):  "高校卒事務: 女初任給額"
+    Description (Data 7):  "高校卒事務: 女初任給額"
+    Description (Data 8):  "高校卒事務: 女初任給額"
+    Description (Data 9):  "高校卒事務: 女初任給額"
+    Description (Data 10): "高校卒事務: 女初任給額"
+    Description (Data 11): "高校卒事務: 女初任給額"
+    Description (Data 12): "高校卒事務: 女初任給額"
+    Description (Data 13): "高校卒事務: 女初任給額"
+    Description (Data 14): "高校卒事務: 女初任給額"
+    Description (Data 15): "高校卒事務: 女初任給額"
+    Description (Data 16): "高校卒事務: 女初任給額"
+    Description (Data 17): "高卒・女・初任給額"
+    Description (Data 18): "高卒・女・初任給額"
+    Description (Data 19): "高卒・女・初任給額"
+    Description (Data 20): "高校卒女: 初任給額"
+    Description (Data 21): "高校卒女: 初任給額"
+    Description (Data 22): "高校卒女: 初任給額"
+    Description (Data 23): "高校卒女: 初任給額"
+    Description (Data 24): "高校卒女: 初任給額"
+    Description (Data 25): "高校卒女: 初任給額"
+    Description (Data 26): "高校卒女: 初任給額"
+    Description (Data 27): "高校卒女: 初任給額"
+    Description (Data 28): "高校卒女: 初任給額"
+    Description (Data 29): "高校卒女: 初任給額"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Kou_Gaku_W_NEWVARIABLE = .
+local var_lab: variable label var36
+local val_lab: value label var36
+capture replace Kou_Gaku_W_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==1
+capture replace Kou_Gaku_W_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==2
+capture replace Kou_Gaku_W_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==3
+capture replace Kou_Gaku_W_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==4
+capture replace Kou_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==5
+capture replace Kou_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==6
+capture replace Kou_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==7
+capture replace Kou_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==8
+capture replace Kou_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==9
+capture replace Kou_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==10
+capture replace Kou_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==11
+capture replace Kou_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==12
+capture replace Kou_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==13
+capture replace Kou_Gaku_W_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==14
+capture replace Kou_Gaku_W_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==15
+capture replace Kou_Gaku_W_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==16
+capture replace Kou_Gaku_W_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==17
+capture replace Kou_Gaku_W_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==18
+capture replace Kou_Gaku_W_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==19
+capture replace Kou_Gaku_W_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==20
+capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==21
+capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==22
+capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==23
+capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==24
+capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==25
+capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==26
+capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==27
+capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==28
+capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==29
+capture label variable Kou_Gaku_W_NEWVARIABLE `var_lab'
+capture label values Kou_Gaku_W_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "高校卒女: 採用人員"
+    Description (Data 1):  "高校卒事務: 女採用人員"
+    Description (Data 2):  "高校卒事務: 女採用人員"
+    Description (Data 3):  "高校卒事務: 女採用人員"
+    Description (Data 4):  "高校卒事務: 女採用人員"
+    Description (Data 5):  "高校卒事務: 女採用人員"
+    Description (Data 6):  "高校卒事務: 女採用人員"
+    Description (Data 7):  "高校卒事務: 女採用人員"
+    Description (Data 8):  "高校卒事務: 女採用人員"
+    Description (Data 9):  "高校卒事務: 女採用人員"
+    Description (Data 10): "高校卒事務: 女採用人員"
+    Description (Data 11): "高校卒事務: 女採用人員"
+    Description (Data 12): "高校卒事務: 女採用人員"
+    Description (Data 13): "高校卒事務: 女採用人員"
+    Description (Data 14): "高校卒事務: 女採用人員"
+    Description (Data 15): "高校卒事務: 女採用人員"
+    Description (Data 16): "高校卒事務: 女採用人員"
+    Description (Data 17): "高卒・女・採用人数"
+    Description (Data 18): "高卒・女・採用人数"
+    Description (Data 19): "高卒・女・採用人数"
+    Description (Data 20): "高校卒女: 採用人員"
+    Description (Data 21): "高校卒女: 採用人員"
+    Description (Data 22): "高校卒女: 採用人員"
+    Description (Data 23): "高校卒女: 採用人員"
+    Description (Data 24): "高校卒女: 採用人員"
+    Description (Data 25): "高校卒女: 採用人員"
+    Description (Data 26): "高校卒女: 採用人員"
+    Description (Data 27): "高校卒女: 採用人員"
+    Description (Data 28): "高校卒女: 採用人員"
+    Description (Data 29): "高校卒女: 採用人員"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Kou_Jin_W_NEWVARIABLE = .
+local var_lab: variable label var37
+local val_lab: value label var37
+capture replace Kou_Jin_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==1
+capture replace Kou_Jin_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==2
+capture replace Kou_Jin_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==3
+capture replace Kou_Jin_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==4
+capture replace Kou_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==5
+capture replace Kou_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==6
+capture replace Kou_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==7
+capture replace Kou_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==8
+capture replace Kou_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==9
+capture replace Kou_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==10
+capture replace Kou_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==11
+capture replace Kou_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==12
+capture replace Kou_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==13
+capture replace Kou_Jin_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==14
+capture replace Kou_Jin_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==15
+capture replace Kou_Jin_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==16
+capture replace Kou_Jin_W_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==17
+capture replace Kou_Jin_W_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==18
+capture replace Kou_Jin_W_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==19
+capture replace Kou_Jin_W_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==20
+capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==21
+capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==22
+capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==23
+capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==24
+capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==25
+capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==26
+capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==27
+capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==28
+capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==29
+capture label variable Kou_Jin_W_NEWVARIABLE `var_lab'
+capture label values Kou_Jin_W_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "高専・短大卒男: 初任給額"
+    Description (Data 1):  "高校卒生産: 男初任給額"
+    Description (Data 2):  "高校卒生産: 男初任給額"
+    Description (Data 3):  "高校卒生産: 男初任給額"
+    Description (Data 4):  "高校卒生産: 男初任給額"
+    Description (Data 5):  "高校卒生産: 男初任給額"
+    Description (Data 6):  "高校卒生産: 男初任給額"
+    Description (Data 7):  "高校卒生産: 男初任給額"
+    Description (Data 8):  "高校卒生産: 男初任給額"
+    Description (Data 9):  "高校卒生産: 男初任給額"
+    Description (Data 10): "高校卒生産: 男初任給額"
+    Description (Data 11): "高校卒生産: 男初任給額"
+    Description (Data 12): "高校卒生産: 男初任給額"
+    Description (Data 13): "高校卒生産: 男初任給額"
+    Description (Data 14): "高校卒生産: 男初任給額"
+    Description (Data 15): "高校卒生産: 男初任給額"
+    Description (Data 16): "高校卒生産: 男初任給額"
+    Description (Data 17): "高専短大・男・初任給額"
+    Description (Data 18): "高専短大・男・初任給額"
+    Description (Data 19): "高専短大・男・初任給額"
+    Description (Data 20): "高専・短大卒男: 初任給額"
+    Description (Data 21): "高専・短大卒男: 初任給額"
+    Description (Data 22): "高専・短大卒男: 初任給額"
+    Description (Data 23): "高専・短大卒男: 初任給額"
+    Description (Data 24): "高専・短大卒男: 初任給額"
+    Description (Data 25): "高専・短大卒男: 初任給額"
+    Description (Data 26): "高専・短大卒男: 初任給額"
+    Description (Data 27): "高専・短大卒男: 初任給額"
+    Description (Data 28): "高専・短大卒男: 初任給額"
+    Description (Data 29): "高専・短大卒男: 初任給額"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Tan_Gaku_M_NEWVARIABLE = .
+local var_lab: variable label var38
+local val_lab: value label var38
+capture replace Tan_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==1
+capture replace Tan_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==2
+capture replace Tan_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==3
+capture replace Tan_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==4
+capture replace Tan_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==5
+capture replace Tan_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==6
+capture replace Tan_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==7
+capture replace Tan_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==8
+capture replace Tan_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==9
+capture replace Tan_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==10
+capture replace Tan_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==11
+capture replace Tan_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==12
+capture replace Tan_Gaku_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==13
+capture replace Tan_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==14
+capture replace Tan_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==15
+capture replace Tan_Gaku_M_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==16
+capture replace Tan_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==17
+capture replace Tan_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==18
+capture replace Tan_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==19
+capture replace Tan_Gaku_M_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==20
+capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==21
+capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==22
+capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==23
+capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==24
+capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==25
+capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==26
+capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==27
+capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==28
+capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==29
+capture label variable Tan_Gaku_M_NEWVARIABLE `var_lab'
+capture label values Tan_Gaku_M_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "高専・短大卒男: 採用人員"
+    Description (Data 1):  "高校卒生産: 男採用人員"
+    Description (Data 2):  "高校卒生産: 男採用人員"
+    Description (Data 3):  "高校卒生産: 男採用人員"
+    Description (Data 4):  "高校卒生産: 男採用人員"
+    Description (Data 5):  "高校卒生産: 男採用人員"
+    Description (Data 6):  "高校卒生産: 男採用人員"
+    Description (Data 7):  "高校卒生産: 男採用人員"
+    Description (Data 8):  "高校卒生産: 男採用人員"
+    Description (Data 9):  "高校卒生産: 男採用人員"
+    Description (Data 10): "高校卒生産: 男採用人員"
+    Description (Data 11): "高校卒生産: 男採用人員"
+    Description (Data 12): "高校卒生産: 男採用人員"
+    Description (Data 13): "高校卒生産: 男採用人員"
+    Description (Data 14): "高校卒生産: 男採用人員"
+    Description (Data 15): "高校卒生産: 男採用人員"
+    Description (Data 16): "高校卒生産: 男採用人員"
+    Description (Data 17): "高専短大・男・採用人数"
+    Description (Data 18): "高専短大・男・採用人数"
+    Description (Data 19): "高専短大・男・採用人数"
+    Description (Data 20): "高専・短大卒男: 採用人員"
+    Description (Data 21): "高専・短大卒男: 採用人員"
+    Description (Data 22): "高専・短大卒男: 採用人員"
+    Description (Data 23): "高専・短大卒男: 採用人員"
+    Description (Data 24): "高専・短大卒男: 採用人員"
+    Description (Data 25): "高専・短大卒男: 採用人員"
+    Description (Data 26): "高専・短大卒男: 採用人員"
+    Description (Data 27): "高専・短大卒男: 採用人員"
+    Description (Data 28): "高専・短大卒男: 採用人員"
+    Description (Data 29): "高専・短大卒男: 採用人員"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Tan_Jin_M_NEWVARIABLE = .
+local var_lab: variable label var39
+local val_lab: value label var39
+capture replace Tan_Jin_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==1
+capture replace Tan_Jin_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==2
+capture replace Tan_Jin_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==3
+capture replace Tan_Jin_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==4
+capture replace Tan_Jin_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==5
+capture replace Tan_Jin_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==6
+capture replace Tan_Jin_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==7
+capture replace Tan_Jin_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==8
+capture replace Tan_Jin_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==9
+capture replace Tan_Jin_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==10
+capture replace Tan_Jin_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==11
+capture replace Tan_Jin_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==12
+capture replace Tan_Jin_M_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==13
+capture replace Tan_Jin_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==14
+capture replace Tan_Jin_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==15
+capture replace Tan_Jin_M_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==16
+capture replace Tan_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==17
+capture replace Tan_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==18
+capture replace Tan_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==19
+capture replace Tan_Jin_M_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==20
+capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==21
+capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==22
+capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==23
+capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==24
+capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==25
+capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==26
+capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==27
+capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==28
+capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==29
+capture label variable Tan_Jin_M_NEWVARIABLE `var_lab'
+capture label values Tan_Jin_M_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "高専・短大卒女: 初任給額"
+    Description (Data 1):  "高校卒生産: 女初任給額"
+    Description (Data 2):  "高校卒生産: 女初任給額"
+    Description (Data 3):  "高校卒生産: 女初任給額"
+    Description (Data 4):  "高校卒生産: 女初任給額"
+    Description (Data 5):  "高校卒生産: 女初任給額"
+    Description (Data 6):  "高校卒生産: 女初任給額"
+    Description (Data 7):  "高校卒生産: 女初任給額"
+    Description (Data 8):  "高校卒生産: 女初任給額"
+    Description (Data 9):  "高校卒生産: 女初任給額"
+    Description (Data 10): "高校卒生産: 女初任給額"
+    Description (Data 11): "高校卒生産: 女初任給額"
+    Description (Data 12): "高校卒生産: 女初任給額"
+    Description (Data 13): "高校卒生産: 女初任給額"
+    Description (Data 14): "高校卒生産: 女初任給額"
+    Description (Data 15): "高校卒生産: 女初任給額"
+    Description (Data 16): "高校卒生産: 女初任給額"
+    Description (Data 17): "高専短大・女・初任給額"
+    Description (Data 18): "高専短大・女・初任給額"
+    Description (Data 19): "高専短大・女・初任給額"
+    Description (Data 20): "高専・短大卒女: 初任給額"
+    Description (Data 21): "高専・短大卒女: 初任給額"
+    Description (Data 22): "高専・短大卒女: 初任給額"
+    Description (Data 23): "高専・短大卒女: 初任給額"
+    Description (Data 24): "高専・短大卒女: 初任給額"
+    Description (Data 25): "高専・短大卒女: 初任給額"
+    Description (Data 26): "高専・短大卒女: 初任給額"
+    Description (Data 27): "高専・短大卒女: 初任給額"
+    Description (Data 28): "高専・短大卒女: 初任給額"
+    Description (Data 29): "高専・短大卒女: 初任給額"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Tan_Gaku_W_NEWVARIABLE = .
+local var_lab: variable label var40
+local val_lab: value label var40
+capture replace Tan_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==1
+capture replace Tan_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==2
+capture replace Tan_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==3
+capture replace Tan_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==4
+capture replace Tan_Gaku_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==5
+capture replace Tan_Gaku_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==6
+capture replace Tan_Gaku_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==7
+capture replace Tan_Gaku_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==8
+capture replace Tan_Gaku_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==9
+capture replace Tan_Gaku_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==10
+capture replace Tan_Gaku_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==11
+capture replace Tan_Gaku_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==12
+capture replace Tan_Gaku_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==13
+capture replace Tan_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==14
+capture replace Tan_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==15
+capture replace Tan_Gaku_W_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==16
+capture replace Tan_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==17
+capture replace Tan_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==18
+capture replace Tan_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==19
+capture replace Tan_Gaku_W_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==20
+capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==21
+capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==22
+capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==23
+capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==24
+capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==25
+capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==26
+capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==27
+capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==28
+capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==29
+capture label variable Tan_Gaku_W_NEWVARIABLE `var_lab'
+capture label values Tan_Gaku_W_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "高専・短大卒女: 採用人員"
+    Description (Data 1):  "高校卒生産: 女採用人員"
+    Description (Data 2):  "高校卒生産: 女採用人員"
+    Description (Data 3):  "高校卒生産: 女採用人員"
+    Description (Data 4):  "高校卒生産: 女採用人員"
+    Description (Data 5):  "高校卒生産: 女採用人員"
+    Description (Data 6):  "高校卒生産: 女採用人員"
+    Description (Data 7):  "高校卒生産: 女採用人員"
+    Description (Data 8):  "高校卒生産: 女採用人員"
+    Description (Data 9):  "高校卒生産: 女採用人員"
+    Description (Data 10): "高校卒生産: 女採用人員"
+    Description (Data 11): "高校卒生産: 女採用人員"
+    Description (Data 12): "高校卒生産: 女採用人員"
+    Description (Data 13): "高校卒生産: 女採用人員"
+    Description (Data 14): "高校卒生産: 女採用人員"
+    Description (Data 15): "高校卒生産: 女採用人員"
+    Description (Data 16): "高校卒生産: 女採用人員"
+    Description (Data 17): "高専短大・女・採用人数"
+    Description (Data 18): "高専短大・女・採用人数"
+    Description (Data 19): "高専短大・女・採用人数"
+    Description (Data 20): "高専・短大卒女: 採用人員"
+    Description (Data 21): "高専・短大卒女: 採用人員"
+    Description (Data 22): "高専・短大卒女: 採用人員"
+    Description (Data 23): "高専・短大卒女: 採用人員"
+    Description (Data 24): "高専・短大卒女: 採用人員"
+    Description (Data 25): "高専・短大卒女: 採用人員"
+    Description (Data 26): "高専・短大卒女: 採用人員"
+    Description (Data 27): "高専・短大卒女: 採用人員"
+    Description (Data 28): "高専・短大卒女: 採用人員"
+    Description (Data 29): "高専・短大卒女: 採用人員"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Tan_Jin_W_NEWVARIABLE = .
+local var_lab: variable label var41
+local val_lab: value label var41
+capture replace Tan_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==1
+capture replace Tan_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==2
+capture replace Tan_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==3
+capture replace Tan_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==4
+capture replace Tan_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==5
+capture replace Tan_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==6
+capture replace Tan_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==7
+capture replace Tan_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==8
+capture replace Tan_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==9
+capture replace Tan_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==10
+capture replace Tan_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==11
+capture replace Tan_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==12
+capture replace Tan_Jin_W_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==13
+capture replace Tan_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==14
+capture replace Tan_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==15
+capture replace Tan_Jin_W_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==16
+capture replace Tan_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==17
+capture replace Tan_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==18
+capture replace Tan_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==19
+capture replace Tan_Jin_W_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==20
+capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==21
+capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==22
+capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==23
+capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==24
+capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==25
+capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==26
+capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==27
+capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==28
+capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==29
+capture label variable Tan_Jin_W_NEWVARIABLE `var_lab'
+capture label values Tan_Jin_W_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "短大卒事務: 男初任給額"
+    Description (Data 1):  "短大卒事務: 男初任給額"
+    Description (Data 2):  "短大卒事務: 男初任給額"
+    Description (Data 3):  "短大卒事務: 男初任給額"
+    Description (Data 4):  "短大卒事務: 男初任給額"
+    Description (Data 5):  "短大卒事務: 男初任給額"
+    Description (Data 6):  "短大卒事務: 男初任給額"
+    Description (Data 7):  "短大卒事務: 男初任給額"
+    Description (Data 8):  "短大卒事務: 男初任給額"
+    Description (Data 9):  "短大卒事務: 男初任給額"
+    Description (Data 10): "短大卒事務: 男初任給額"
+    Description (Data 11): "短大卒事務: 男初任給額"
+    Description (Data 12): "短大卒事務: 男初任給額"
+    Description (Data 13): "短大卒事務: 男初任給額"
+    Description (Data 14): "短大卒事務: 男初任給額"
+    Description (Data 15): "短大卒事務: 男初任給額"
+    Description (Data 16): "高校卒事務: 男初任給額"
+    Description (Data 17): "大卒・事務系・男・初任給額"
+    Description (Data 18): "大卒・事務系・男・初任給額"
+    Description (Data 19): "大卒・事務系・男・初任給額"
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
     Description (Data 27): None
     Description (Data 28): None
     Description (Data 29): None
@@ -3981,43 +4090,1549 @@ capture label values In_Jin_W_NEWVARIABLE `val_lab'
     Values (Data 22): None
     Values (Data 23): None
     Values (Data 24): None
-    Values (Data 25): 
-    Values (Data 26): 
+    Values (Data 25): None
+    Values (Data 26): None
     Values (Data 27): None
     Values (Data 28): None
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen v17_NEWVARIABLE = .
+gen v7_NEWVARIABLE = .
 local var_lab: variable label var42
 local val_lab: value label var42
-capture replace v17_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==1
-capture replace v17_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==2
-capture replace v17_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==3
-capture replace v17_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==4
-capture replace v17_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==5
-capture replace v17_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==6
-capture replace v17_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==7
-capture replace v17_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==8
-capture replace v17_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==9
-capture replace v17_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==10
-capture replace v17_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==11
-capture replace v17_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==12
-capture replace v17_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==13
-capture replace v17_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==14
-capture replace v17_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==15
-capture replace v17_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==16
-capture replace v17_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==17
-capture replace v17_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==18
-capture replace v17_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==19
-capture replace v17_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==25
-capture replace v17_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==26
-capture label variable v17_NEWVARIABLE `var_lab'
-capture label values v17_NEWVARIABLE `val_lab'
+capture replace v7_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==1
+capture replace v7_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==2
+capture replace v7_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==3
+capture replace v7_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==4
+capture replace v7_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==5
+capture replace v7_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==6
+capture replace v7_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==7
+capture replace v7_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==8
+capture replace v7_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==9
+capture replace v7_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==10
+capture replace v7_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==11
+capture replace v7_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==12
+capture replace v7_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==13
+capture replace v7_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==14
+capture replace v7_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==15
+capture replace v7_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==16
+capture replace v7_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==17
+capture replace v7_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==18
+capture replace v7_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==19
+capture label variable v7_NEWVARIABLE `var_lab'
+capture label values v7_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "マスター: 臨時雇用者規模番号"
+    Description (Base):    "短大卒事務: 男採用人員"
+    Description (Data 1):  "短大卒事務: 男採用人員"
+    Description (Data 2):  "短大卒事務: 男採用人員"
+    Description (Data 3):  "短大卒事務: 男採用人員"
+    Description (Data 4):  "短大卒事務: 男採用人員"
+    Description (Data 5):  "短大卒事務: 男採用人員"
+    Description (Data 6):  "短大卒事務: 男採用人員"
+    Description (Data 7):  "短大卒事務: 男採用人員"
+    Description (Data 8):  "短大卒事務: 男採用人員"
+    Description (Data 9):  "短大卒事務: 男採用人員"
+    Description (Data 10): "短大卒事務: 男採用人員"
+    Description (Data 11): "短大卒事務: 男採用人員"
+    Description (Data 12): "短大卒事務: 男採用人員"
+    Description (Data 13): "短大卒事務: 男採用人員"
+    Description (Data 14): "短大卒事務: 男採用人員"
+    Description (Data 15): "短大卒事務: 男採用人員"
+    Description (Data 16): "高校卒事務: 男採用人員"
+    Description (Data 17): "大卒・事務系・男・採用人数"
+    Description (Data 18): "大卒・事務系・男・採用人数"
+    Description (Data 19): "大卒・事務系・男・採用人数"
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v8_NEWVARIABLE = .
+local var_lab: variable label var43
+local val_lab: value label var43
+capture replace v8_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==1
+capture replace v8_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==2
+capture replace v8_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==3
+capture replace v8_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==4
+capture replace v8_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==5
+capture replace v8_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==6
+capture replace v8_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==7
+capture replace v8_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==8
+capture replace v8_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==9
+capture replace v8_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==10
+capture replace v8_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==11
+capture replace v8_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==12
+capture replace v8_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==13
+capture replace v8_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==14
+capture replace v8_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==15
+capture replace v8_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==16
+capture replace v8_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==17
+capture replace v8_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==18
+capture replace v8_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==19
+capture label variable v8_NEWVARIABLE `var_lab'
+capture label values v8_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "短大卒事務: 女初任給額"
+    Description (Data 1):  "短大卒事務: 女初任給額"
+    Description (Data 2):  "短大卒事務: 女初任給額"
+    Description (Data 3):  "短大卒事務: 女初任給額"
+    Description (Data 4):  "短大卒事務: 女初任給額"
+    Description (Data 5):  "短大卒事務: 女初任給額"
+    Description (Data 6):  "短大卒事務: 女初任給額"
+    Description (Data 7):  "短大卒事務: 女初任給額"
+    Description (Data 8):  "短大卒事務: 女初任給額"
+    Description (Data 9):  "短大卒事務: 女初任給額"
+    Description (Data 10): "短大卒事務: 女初任給額"
+    Description (Data 11): "短大卒事務: 女初任給額"
+    Description (Data 12): "短大卒事務: 女初任給額"
+    Description (Data 13): "短大卒事務: 女初任給額"
+    Description (Data 14): "短大卒事務: 女初任給額"
+    Description (Data 15): "短大卒事務: 女初任給額"
+    Description (Data 16): "高校卒事務: 女初任給額"
+    Description (Data 17): "大卒・事務系・女・初任給額"
+    Description (Data 18): "大卒・事務系・女・初任給額"
+    Description (Data 19): "大卒・事務系・女・初任給額"
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v9_NEWVARIABLE = .
+local var_lab: variable label var44
+local val_lab: value label var44
+capture replace v9_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==1
+capture replace v9_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==2
+capture replace v9_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==3
+capture replace v9_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==4
+capture replace v9_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==5
+capture replace v9_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==6
+capture replace v9_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==7
+capture replace v9_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==8
+capture replace v9_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==9
+capture replace v9_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==10
+capture replace v9_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==11
+capture replace v9_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==12
+capture replace v9_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==13
+capture replace v9_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==14
+capture replace v9_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==15
+capture replace v9_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==16
+capture replace v9_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==17
+capture replace v9_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==18
+capture replace v9_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==19
+capture label variable v9_NEWVARIABLE `var_lab'
+capture label values v9_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "短大卒事務: 女採用人員"
+    Description (Data 1):  "短大卒事務: 女採用人員"
+    Description (Data 2):  "短大卒事務: 女採用人員"
+    Description (Data 3):  "短大卒事務: 女採用人員"
+    Description (Data 4):  "短大卒事務: 女採用人員"
+    Description (Data 5):  "短大卒事務: 女採用人員"
+    Description (Data 6):  "短大卒事務: 女採用人員"
+    Description (Data 7):  "短大卒事務: 女採用人員"
+    Description (Data 8):  "短大卒事務: 女採用人員"
+    Description (Data 9):  "短大卒事務: 女採用人員"
+    Description (Data 10): "短大卒事務: 女採用人員"
+    Description (Data 11): "短大卒事務: 女採用人員"
+    Description (Data 12): "短大卒事務: 女採用人員"
+    Description (Data 13): "短大卒事務: 女採用人員"
+    Description (Data 14): "短大卒事務: 女採用人員"
+    Description (Data 15): "短大卒事務: 女採用人員"
+    Description (Data 16): "高校卒事務: 女採用人員"
+    Description (Data 17): "大卒・事務系・女・採用人数"
+    Description (Data 18): "大卒・事務系・女・採用人数"
+    Description (Data 19): "大卒・事務系・女・採用人数"
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v10_NEWVARIABLE = .
+local var_lab: variable label var45
+local val_lab: value label var45
+capture replace v10_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==1
+capture replace v10_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==2
+capture replace v10_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==3
+capture replace v10_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==4
+capture replace v10_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==5
+capture replace v10_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==6
+capture replace v10_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==7
+capture replace v10_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==8
+capture replace v10_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==9
+capture replace v10_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==10
+capture replace v10_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==11
+capture replace v10_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==12
+capture replace v10_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==13
+capture replace v10_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==14
+capture replace v10_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==15
+capture replace v10_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==16
+capture replace v10_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==17
+capture replace v10_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==18
+capture replace v10_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==19
+capture label variable v10_NEWVARIABLE `var_lab'
+capture label values v10_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "短大卒生産: 男初任給額"
+    Description (Data 1):  "短大卒生産: 男初任給額"
+    Description (Data 2):  "短大卒生産: 男初任給額"
+    Description (Data 3):  "短大卒生産: 男初任給額"
+    Description (Data 4):  "短大卒生産: 男初任給額"
+    Description (Data 5):  "短大卒生産: 男初任給額"
+    Description (Data 6):  "短大卒生産: 男初任給額"
+    Description (Data 7):  "短大卒生産: 男初任給額"
+    Description (Data 8):  "短大卒生産: 男初任給額"
+    Description (Data 9):  "短大卒生産: 男初任給額"
+    Description (Data 10): "短大卒生産: 男初任給額"
+    Description (Data 11): "短大卒生産: 男初任給額"
+    Description (Data 12): "短大卒生産: 男初任給額"
+    Description (Data 13): "短大卒生産: 男初任給額"
+    Description (Data 14): "短大卒生産: 男初任給額"
+    Description (Data 15): "短大卒生産: 男初任給額"
+    Description (Data 16): "高校卒生産: 男初任給額"
+    Description (Data 17): "大卒・技術系・男・初任給額"
+    Description (Data 18): "大卒・技術系・男・初任給額"
+    Description (Data 19): "大卒・技術系・男・初任給額"
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v11_NEWVARIABLE = .
+local var_lab: variable label var46
+local val_lab: value label var46
+capture replace v11_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==1
+capture replace v11_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==2
+capture replace v11_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==3
+capture replace v11_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==4
+capture replace v11_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==5
+capture replace v11_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==6
+capture replace v11_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==7
+capture replace v11_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==8
+capture replace v11_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==9
+capture replace v11_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==10
+capture replace v11_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==11
+capture replace v11_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==12
+capture replace v11_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==13
+capture replace v11_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==14
+capture replace v11_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==15
+capture replace v11_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==16
+capture replace v11_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==17
+capture replace v11_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==18
+capture replace v11_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==19
+capture label variable v11_NEWVARIABLE `var_lab'
+capture label values v11_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "短大卒生産: 男採用人員"
+    Description (Data 1):  "短大卒生産: 男採用人員"
+    Description (Data 2):  "短大卒生産: 男採用人員"
+    Description (Data 3):  "短大卒生産: 男採用人員"
+    Description (Data 4):  "短大卒生産: 男採用人員"
+    Description (Data 5):  "短大卒生産: 男採用人員"
+    Description (Data 6):  "短大卒生産: 男採用人員"
+    Description (Data 7):  "短大卒生産: 男採用人員"
+    Description (Data 8):  "短大卒生産: 男採用人員"
+    Description (Data 9):  "短大卒生産: 男採用人員"
+    Description (Data 10): "短大卒生産: 男採用人員"
+    Description (Data 11): "短大卒生産: 男採用人員"
+    Description (Data 12): "短大卒生産: 男採用人員"
+    Description (Data 13): "短大卒生産: 男採用人員"
+    Description (Data 14): "短大卒生産: 男採用人員"
+    Description (Data 15): "短大卒生産: 男採用人員"
+    Description (Data 16): "高校卒生産: 男採用人員"
+    Description (Data 17): "大卒・技術系・男・採用人数"
+    Description (Data 18): "大卒・技術系・男・採用人数"
+    Description (Data 19): "大卒・技術系・男・採用人数"
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v12_NEWVARIABLE = .
+local var_lab: variable label var47
+local val_lab: value label var47
+capture replace v12_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==1
+capture replace v12_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==2
+capture replace v12_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==3
+capture replace v12_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==4
+capture replace v12_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==5
+capture replace v12_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==6
+capture replace v12_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==7
+capture replace v12_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==8
+capture replace v12_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==9
+capture replace v12_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==10
+capture replace v12_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==11
+capture replace v12_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==12
+capture replace v12_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==13
+capture replace v12_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==14
+capture replace v12_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==15
+capture replace v12_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==16
+capture replace v12_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==17
+capture replace v12_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==18
+capture replace v12_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==19
+capture label variable v12_NEWVARIABLE `var_lab'
+capture label values v12_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "短大卒生産: 女初任給額"
+    Description (Data 1):  "短大卒生産: 女初任給額"
+    Description (Data 2):  "短大卒生産: 女初任給額"
+    Description (Data 3):  "短大卒生産: 女初任給額"
+    Description (Data 4):  "短大卒生産: 女初任給額"
+    Description (Data 5):  "短大卒生産: 女初任給額"
+    Description (Data 6):  "短大卒生産: 女初任給額"
+    Description (Data 7):  "短大卒生産: 女初任給額"
+    Description (Data 8):  "短大卒生産: 女初任給額"
+    Description (Data 9):  "短大卒生産: 女初任給額"
+    Description (Data 10): "短大卒生産: 女初任給額"
+    Description (Data 11): "短大卒生産: 女初任給額"
+    Description (Data 12): "短大卒生産: 女初任給額"
+    Description (Data 13): "短大卒生産: 女初任給額"
+    Description (Data 14): "短大卒生産: 女初任給額"
+    Description (Data 15): "短大卒生産: 女初任給額"
+    Description (Data 16): "高校卒生産: 女初任給額"
+    Description (Data 17): "大卒・技術系・女・初任給額"
+    Description (Data 18): "大卒・技術系・女・初任給額"
+    Description (Data 19): "大卒・技術系・女・初任給額"
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v13_NEWVARIABLE = .
+local var_lab: variable label var48
+local val_lab: value label var48
+capture replace v13_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==1
+capture replace v13_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==2
+capture replace v13_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==3
+capture replace v13_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==4
+capture replace v13_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==5
+capture replace v13_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==6
+capture replace v13_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==7
+capture replace v13_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==8
+capture replace v13_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==9
+capture replace v13_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==10
+capture replace v13_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==11
+capture replace v13_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==12
+capture replace v13_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==13
+capture replace v13_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==14
+capture replace v13_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==15
+capture replace v13_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==16
+capture replace v13_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==17
+capture replace v13_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==18
+capture replace v13_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==19
+capture label variable v13_NEWVARIABLE `var_lab'
+capture label values v13_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "短大卒生産: 女採用人員"
+    Description (Data 1):  "短大卒生産: 女採用人員"
+    Description (Data 2):  "短大卒生産: 女採用人員"
+    Description (Data 3):  "短大卒生産: 女採用人員"
+    Description (Data 4):  "短大卒生産: 女採用人員"
+    Description (Data 5):  "短大卒生産: 女採用人員"
+    Description (Data 6):  "短大卒生産: 女採用人員"
+    Description (Data 7):  "短大卒生産: 女採用人員"
+    Description (Data 8):  "短大卒生産: 女採用人員"
+    Description (Data 9):  "短大卒生産: 女採用人員"
+    Description (Data 10): "短大卒生産: 女採用人員"
+    Description (Data 11): "短大卒生産: 女採用人員"
+    Description (Data 12): "短大卒生産: 女採用人員"
+    Description (Data 13): "短大卒生産: 女採用人員"
+    Description (Data 14): "短大卒生産: 女採用人員"
+    Description (Data 15): "短大卒生産: 女採用人員"
+    Description (Data 16): "高校卒生産: 女採用人員"
+    Description (Data 17): "大卒・技術系・女・採用人数"
+    Description (Data 18): "大卒・技術系・女・採用人数"
+    Description (Data 19): "大卒・技術系・女・採用人数"
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v14_NEWVARIABLE = .
+local var_lab: variable label var49
+local val_lab: value label var49
+capture replace v14_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==1
+capture replace v14_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==2
+capture replace v14_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==3
+capture replace v14_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==4
+capture replace v14_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==5
+capture replace v14_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==6
+capture replace v14_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==7
+capture replace v14_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==8
+capture replace v14_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==9
+capture replace v14_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==10
+capture replace v14_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==11
+capture replace v14_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==12
+capture replace v14_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==13
+capture replace v14_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==14
+capture replace v14_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==15
+capture replace v14_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==16
+capture replace v14_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==17
+capture replace v14_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==18
+capture replace v14_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==19
+capture label variable v14_NEWVARIABLE `var_lab'
+capture label values v14_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "大学卒事務系男: 初任給額"
+    Description (Data 1):  "大学卒事務: 男初任給額"
+    Description (Data 2):  "大学卒事務: 男初任給額"
+    Description (Data 3):  "大学卒事務: 男初任給額"
+    Description (Data 4):  "大学卒事務: 男初任給額"
+    Description (Data 5):  "大学卒事務: 男初任給額"
+    Description (Data 6):  "大学卒事務: 男初任給額"
+    Description (Data 7):  "大学卒事務: 男初任給額"
+    Description (Data 8):  "大学卒事務: 男初任給額"
+    Description (Data 9):  "大学卒事務: 男初任給額"
+    Description (Data 10): "大学卒事務: 男初任給額"
+    Description (Data 11): "大学卒事務: 男初任給額"
+    Description (Data 12): "大学卒事務: 男初任給額"
+    Description (Data 13): "大学卒事務: 男初任給額"
+    Description (Data 14): "大学卒事務: 男初任給額"
+    Description (Data 15): "大学卒事務: 男初任給額"
+    Description (Data 16): "大学卒事務: 男初任給額"
+    Description (Data 17): "大学院・男・初任給額"
+    Description (Data 18): "大学院・男・初任給額"
+    Description (Data 19): "大学院・男・初任給額"
+    Description (Data 20): "大学卒事務系男: 初任給額"
+    Description (Data 21): "大学卒事務系男: 初任給額"
+    Description (Data 22): "大学卒事務系男: 初任給額"
+    Description (Data 23): "大学卒事務系男: 初任給額"
+    Description (Data 24): "大学卒事務系男: 初任給額"
+    Description (Data 25): "大学卒事務系男: 初任給額"
+    Description (Data 26): "大学卒事務系男: 初任給額"
+    Description (Data 27): "大学卒事務系男: 初任給額"
+    Description (Data 28): "大学卒事務系男: 初任給額"
+    Description (Data 29): "大学卒事務系男: 初任給額"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Dai_Jimu_Gaku_M_NEWVARIABLE = .
+local var_lab: variable label var50
+local val_lab: value label var50
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==1
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==2
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==3
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==4
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==5
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==6
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==7
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==8
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==9
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==10
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==11
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==12
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==13
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==14
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==15
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==16
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==17
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==18
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==19
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==20
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==21
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==22
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==23
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==24
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==25
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==26
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==27
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==28
+capture replace Dai_Jimu_Gaku_M_NEWVARIABLE = Dai_Jimu_Gaku_M  if flag_tmp_NEWVARIABLE==29
+capture label variable Dai_Jimu_Gaku_M_NEWVARIABLE `var_lab'
+capture label values Dai_Jimu_Gaku_M_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "大学卒事務系男: 採用人員"
+    Description (Data 1):  "大学卒事務: 男採用人員"
+    Description (Data 2):  "大学卒事務: 男採用人員"
+    Description (Data 3):  "大学卒事務: 男採用人員"
+    Description (Data 4):  "大学卒事務: 男採用人員"
+    Description (Data 5):  "大学卒事務: 男採用人員"
+    Description (Data 6):  "大学卒事務: 男採用人員"
+    Description (Data 7):  "大学卒事務: 男採用人員"
+    Description (Data 8):  "大学卒事務: 男採用人員"
+    Description (Data 9):  "大学卒事務: 男採用人員"
+    Description (Data 10): "大学卒事務: 男採用人員"
+    Description (Data 11): "大学卒事務: 男採用人員"
+    Description (Data 12): "大学卒事務: 男採用人員"
+    Description (Data 13): "大学卒事務: 男採用人員"
+    Description (Data 14): "大学卒事務: 男採用人員"
+    Description (Data 15): "大学卒事務: 男採用人員"
+    Description (Data 16): "大学卒事務: 男採用人員"
+    Description (Data 17): "大学院・男・採用人員"
+    Description (Data 18): "大学院・男・採用人員"
+    Description (Data 19): "大学院・男・採用人員"
+    Description (Data 20): "大学卒事務系男: 採用人員"
+    Description (Data 21): "大学卒事務系男: 採用人員"
+    Description (Data 22): "大学卒事務系男: 採用人員"
+    Description (Data 23): "大学卒事務系男: 採用人員"
+    Description (Data 24): "大学卒事務系男: 採用人員"
+    Description (Data 25): "大学卒事務系男: 採用人員"
+    Description (Data 26): "大学卒事務系男: 採用人員"
+    Description (Data 27): "大学卒事務系男: 採用人員"
+    Description (Data 28): "大学卒事務系男: 採用人員"
+    Description (Data 29): "大学卒事務系男: 採用人員"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Dai_Jimu_Jin_M_NEWVARIABLE = .
+local var_lab: variable label var51
+local val_lab: value label var51
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==1
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==2
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==3
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==4
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==5
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==6
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==7
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==8
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==9
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==10
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==11
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==12
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==13
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==14
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==15
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==16
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==17
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==18
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==19
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==20
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==21
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==22
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==23
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==24
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==25
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==26
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==27
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==28
+capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==29
+capture label variable Dai_Jimu_Jin_M_NEWVARIABLE `var_lab'
+capture label values Dai_Jimu_Jin_M_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "大学卒事務系女: 初任給額"
+    Description (Data 1):  "大学卒事務: 女初任給額"
+    Description (Data 2):  "大学卒事務: 女初任給額"
+    Description (Data 3):  "大学卒事務: 女初任給額"
+    Description (Data 4):  "大学卒事務: 女初任給額"
+    Description (Data 5):  "大学卒事務: 女初任給額"
+    Description (Data 6):  "大学卒事務: 女初任給額"
+    Description (Data 7):  "大学卒事務: 女初任給額"
+    Description (Data 8):  "大学卒事務: 女初任給額"
+    Description (Data 9):  "大学卒事務: 女初任給額"
+    Description (Data 10): "大学卒事務: 女初任給額"
+    Description (Data 11): "大学卒事務: 女初任給額"
+    Description (Data 12): "大学卒事務: 女初任給額"
+    Description (Data 13): "大学卒事務: 女初任給額"
+    Description (Data 14): "大学卒事務: 女初任給額"
+    Description (Data 15): "大学卒事務: 女初任給額"
+    Description (Data 16): "大学卒事務: 女初任給額"
+    Description (Data 17): "大学院・女・初任給額"
+    Description (Data 18): "大学院・女・初任給額"
+    Description (Data 19): "大学院・女・初任給額"
+    Description (Data 20): "大学卒事務系女: 初任給額"
+    Description (Data 21): "大学卒事務系女: 初任給額"
+    Description (Data 22): "大学卒事務系女: 初任給額"
+    Description (Data 23): "大学卒事務系女: 初任給額"
+    Description (Data 24): "大学卒事務系女: 初任給額"
+    Description (Data 25): "大学卒事務系女: 初任給額"
+    Description (Data 26): "大学卒事務系女: 初任給額"
+    Description (Data 27): "大学卒事務系女: 初任給額"
+    Description (Data 28): "大学卒事務系女: 初任給額"
+    Description (Data 29): "大学卒事務系女: 初任給額"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Dai_Jimu_Gaku_W_NEWVARIABLE = .
+local var_lab: variable label var52
+local val_lab: value label var52
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==1
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==2
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==3
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==4
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==5
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==6
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==7
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==8
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==9
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==10
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==11
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==12
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==13
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==14
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==15
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==16
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==17
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==18
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==19
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==20
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==21
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==22
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==23
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==24
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==25
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==26
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==27
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==28
+capture replace Dai_Jimu_Gaku_W_NEWVARIABLE = Dai_Jimu_Gaku_W  if flag_tmp_NEWVARIABLE==29
+capture label variable Dai_Jimu_Gaku_W_NEWVARIABLE `var_lab'
+capture label values Dai_Jimu_Gaku_W_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "大学卒事務系女: 採用人員"
+    Description (Data 1):  "大学卒事務: 女採用人員"
+    Description (Data 2):  "大学卒事務: 女採用人員"
+    Description (Data 3):  "大学卒事務: 女採用人員"
+    Description (Data 4):  "大学卒事務: 女採用人員"
+    Description (Data 5):  "大学卒事務: 女採用人員"
+    Description (Data 6):  "大学卒事務: 女採用人員"
+    Description (Data 7):  "大学卒事務: 女採用人員"
+    Description (Data 8):  "大学卒事務: 女採用人員"
+    Description (Data 9):  "大学卒事務: 女採用人員"
+    Description (Data 10): "大学卒事務: 女採用人員"
+    Description (Data 11): "大学卒事務: 女採用人員"
+    Description (Data 12): "大学卒事務: 女採用人員"
+    Description (Data 13): "大学卒事務: 女採用人員"
+    Description (Data 14): "大学卒事務: 女採用人員"
+    Description (Data 15): "大学卒事務: 女採用人員"
+    Description (Data 16): "大学卒事務: 女採用人員"
+    Description (Data 17): "大学院・女・採用人員"
+    Description (Data 18): "大学院・女・採用人員"
+    Description (Data 19): "大学院・女・採用人員"
+    Description (Data 20): "大学卒事務系女: 採用人員"
+    Description (Data 21): "大学卒事務系女: 採用人員"
+    Description (Data 22): "大学卒事務系女: 採用人員"
+    Description (Data 23): "大学卒事務系女: 採用人員"
+    Description (Data 24): "大学卒事務系女: 採用人員"
+    Description (Data 25): "大学卒事務系女: 採用人員"
+    Description (Data 26): "大学卒事務系女: 採用人員"
+    Description (Data 27): "大学卒事務系女: 採用人員"
+    Description (Data 28): "大学卒事務系女: 採用人員"
+    Description (Data 29): "大学卒事務系女: 採用人員"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Dai_Jimu_Jin_W_NEWVARIABLE = .
+local var_lab: variable label var53
+local val_lab: value label var53
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==1
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==2
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==3
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==4
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==5
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==6
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==7
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==8
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==9
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==10
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==11
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==12
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==13
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==14
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==15
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==16
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==17
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==18
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==19
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==20
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==21
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==22
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==23
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==24
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==25
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==26
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==27
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==28
+capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==29
+capture label variable Dai_Jimu_Jin_W_NEWVARIABLE `var_lab'
+capture label values Dai_Jimu_Jin_W_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "大学卒技術系男: 初任給額"
+    Description (Data 1):  "大学卒生産: 男初任給額"
+    Description (Data 2):  "大学卒生産: 男初任給額"
+    Description (Data 3):  "大学卒生産: 男初任給額"
+    Description (Data 4):  "大学卒生産: 男初任給額"
+    Description (Data 5):  "大学卒生産: 男初任給額"
+    Description (Data 6):  "大学卒生産: 男初任給額"
+    Description (Data 7):  "大学卒生産: 男初任給額"
+    Description (Data 8):  "大学卒生産: 男初任給額"
+    Description (Data 9):  "大学卒生産: 男初任給額"
+    Description (Data 10): "大学卒生産: 男初任給額"
+    Description (Data 11): "大学卒生産: 男初任給額"
+    Description (Data 12): "大学卒生産: 男初任給額"
+    Description (Data 13): "大学卒生産: 男初任給額"
+    Description (Data 14): "大学卒生産: 男初任給額"
+    Description (Data 15): "大学卒生産: 男初任給額"
+    Description (Data 16): "大学卒生産: 男初任給額"
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): "大学卒技術系男: 初任給額"
+    Description (Data 21): "大学卒技術系男: 初任給額"
+    Description (Data 22): "大学卒技術系男: 初任給額"
+    Description (Data 23): "大学卒技術系男: 初任給額"
+    Description (Data 24): "大学卒技術系男: 初任給額"
+    Description (Data 25): "大学卒技術系男: 初任給額"
+    Description (Data 26): "大学卒技術系男: 初任給額"
+    Description (Data 27): "大学卒技術系男: 初任給額"
+    Description (Data 28): "大学卒技術系男: 初任給額"
+    Description (Data 29): "大学卒技術系男: 初任給額"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Dai_Gijyu_Gaku_M_NEWVARIABLE = .
+local var_lab: variable label var54
+local val_lab: value label var54
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==1
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==2
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==3
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==4
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==5
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==6
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==7
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==8
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==9
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==10
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==11
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==12
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==13
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==14
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==15
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==16
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==20
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==21
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==22
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==23
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==24
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==25
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==26
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==27
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==28
+capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==29
+capture label variable Dai_Gijyu_Gaku_M_NEWVARIABLE `var_lab'
+capture label values Dai_Gijyu_Gaku_M_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "大学卒技術系男: 採用人員"
+    Description (Data 1):  "大学卒生産: 男採用人員"
+    Description (Data 2):  "大学卒生産: 男採用人員"
+    Description (Data 3):  "大学卒生産: 男採用人員"
+    Description (Data 4):  "大学卒生産: 男採用人員"
+    Description (Data 5):  "大学卒生産: 男採用人員"
+    Description (Data 6):  "大学卒生産: 男採用人員"
+    Description (Data 7):  "大学卒生産: 男採用人員"
+    Description (Data 8):  "大学卒生産: 男採用人員"
+    Description (Data 9):  "大学卒生産: 男採用人員"
+    Description (Data 10): "大学卒生産: 男採用人員"
+    Description (Data 11): "大学卒生産: 男採用人員"
+    Description (Data 12): "大学卒生産: 男採用人員"
+    Description (Data 13): "大学卒生産: 男採用人員"
+    Description (Data 14): "大学卒生産: 男採用人員"
+    Description (Data 15): "大学卒生産: 男採用人員"
+    Description (Data 16): "大学卒生産: 男採用人員"
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): "大学卒技術系男: 採用人員"
+    Description (Data 21): "大学卒技術系男: 採用人員"
+    Description (Data 22): "大学卒技術系男: 採用人員"
+    Description (Data 23): "大学卒技術系男: 採用人員"
+    Description (Data 24): "大学卒技術系男: 採用人員"
+    Description (Data 25): "大学卒技術系男: 採用人員"
+    Description (Data 26): "大学卒技術系男: 採用人員"
+    Description (Data 27): "大学卒技術系男: 採用人員"
+    Description (Data 28): "大学卒技術系男: 採用人員"
+    Description (Data 29): "大学卒技術系男: 採用人員"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Dai_Gijyu_Jin_M_NEWVARIABLE = .
+local var_lab: variable label var55
+local val_lab: value label var55
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==1
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==2
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==3
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==4
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==5
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==6
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==7
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==8
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==9
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==10
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==11
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==12
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==13
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==14
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==15
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==16
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==20
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==21
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==22
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==23
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==24
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==25
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==26
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==27
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==28
+capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==29
+capture label variable Dai_Gijyu_Jin_M_NEWVARIABLE `var_lab'
+capture label values Dai_Gijyu_Jin_M_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "大学卒技術系女: 初任給額"
+    Description (Data 1):  "大学卒生産: 女初任給額"
+    Description (Data 2):  "大学卒生産: 女初任給額"
+    Description (Data 3):  "大学卒生産: 女初任給額"
+    Description (Data 4):  "大学卒生産: 女初任給額"
+    Description (Data 5):  "大学卒生産: 女初任給額"
+    Description (Data 6):  "大学卒生産: 女初任給額"
+    Description (Data 7):  "大学卒生産: 女初任給額"
+    Description (Data 8):  "大学卒生産: 女初任給額"
+    Description (Data 9):  "大学卒生産: 女初任給額"
+    Description (Data 10): "大学卒生産: 女初任給額"
+    Description (Data 11): "大学卒生産: 女初任給額"
+    Description (Data 12): "大学卒生産: 女初任給額"
+    Description (Data 13): "大学卒生産: 女初任給額"
+    Description (Data 14): "大学卒生産: 女初任給額"
+    Description (Data 15): "大学卒生産: 女初任給額"
+    Description (Data 16): "大学卒生産: 女初任給額"
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): "大学卒技術系女: 初任給額"
+    Description (Data 21): "大学卒技術系女: 初任給額"
+    Description (Data 22): "大学卒技術系女: 初任給額"
+    Description (Data 23): "大学卒技術系女: 初任給額"
+    Description (Data 24): "大学卒技術系女: 初任給額"
+    Description (Data 25): "大学卒技術系女: 初任給額"
+    Description (Data 26): "大学卒技術系女: 初任給額"
+    Description (Data 27): "大学卒技術系女: 初任給額"
+    Description (Data 28): "大学卒技術系女: 初任給額"
+    Description (Data 29): "大学卒技術系女: 初任給額"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Dai_Gijyu_Gaku_W_NEWVARIABLE = .
+local var_lab: variable label var56
+local val_lab: value label var56
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==1
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==2
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==3
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==4
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==5
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==6
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==7
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==8
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==9
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==10
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==11
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==12
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==13
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==14
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==15
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==16
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==20
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==21
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==22
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==23
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==24
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==25
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==26
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==27
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==28
+capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==29
+capture label variable Dai_Gijyu_Gaku_W_NEWVARIABLE `var_lab'
+capture label values Dai_Gijyu_Gaku_W_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "大学卒技術系女: 採用人員"
+    Description (Data 1):  "大学卒生産: 女採用人員"
+    Description (Data 2):  "大学卒生産: 女採用人員"
+    Description (Data 3):  "大学卒生産: 女採用人員"
+    Description (Data 4):  "大学卒生産: 女採用人員"
+    Description (Data 5):  "大学卒生産: 女採用人員"
+    Description (Data 6):  "大学卒生産: 女採用人員"
+    Description (Data 7):  "大学卒生産: 女採用人員"
+    Description (Data 8):  "大学卒生産: 女採用人員"
+    Description (Data 9):  "大学卒生産: 女採用人員"
+    Description (Data 10): "大学卒生産: 女採用人員"
+    Description (Data 11): "大学卒生産: 女採用人員"
+    Description (Data 12): "大学卒生産: 女採用人員"
+    Description (Data 13): "大学卒生産: 女採用人員"
+    Description (Data 14): "大学卒生産: 女採用人員"
+    Description (Data 15): "大学卒生産: 女採用人員"
+    Description (Data 16): "大学卒生産: 女採用人員"
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): "大学卒技術系女: 採用人員"
+    Description (Data 21): "大学卒技術系女: 採用人員"
+    Description (Data 22): "大学卒技術系女: 採用人員"
+    Description (Data 23): "大学卒技術系女: 採用人員"
+    Description (Data 24): "大学卒技術系女: 採用人員"
+    Description (Data 25): "大学卒技術系女: 採用人員"
+    Description (Data 26): "大学卒技術系女: 採用人員"
+    Description (Data 27): "大学卒技術系女: 採用人員"
+    Description (Data 28): "大学卒技術系女: 採用人員"
+    Description (Data 29): "大学卒技術系女: 採用人員"
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Dai_Gijyu_Jin_W_NEWVARIABLE = .
+local var_lab: variable label var57
+local val_lab: value label var57
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==1
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==2
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==3
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==4
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==5
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==6
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==7
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==8
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==9
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==10
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==11
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==12
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==13
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==14
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==15
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==16
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==20
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==21
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==22
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==23
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==24
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==25
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==26
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==27
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==28
+capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==29
+capture label variable Dai_Gijyu_Jin_W_NEWVARIABLE `var_lab'
+capture label values Dai_Gijyu_Jin_W_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "集計不能コード"
+    Description (Data 1):  "集計不能コード"
+    Description (Data 2):  "集計不能コード"
+    Description (Data 3):  "集計不能コード"
+    Description (Data 4):  "集計不能コード"
+    Description (Data 5):  "集計不能コード"
+    Description (Data 6):  "集計不能コード"
+    Description (Data 7):  "集計不能コード"
+    Description (Data 8):  "集計不能コード"
+    Description (Data 9):  "集計不能コード"
+    Description (Data 10): "集計不能コード"
+    Description (Data 11): "集計不能コード"
+    Description (Data 12): "集計不能コード"
+    Description (Data 13): "集計不能コード"
+    Description (Data 14): "集計不能コード"
+    Description (Data 15): "集計不能コード"
+    Description (Data 16): "集計不能コード"
+    Description (Data 17): "集計不能コード"
+    Description (Data 18): "集計不能コード"
+    Description (Data 19): "集計不能コード"
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+
+    Values (Base):    
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v15_NEWVARIABLE = .
+local var_lab: variable label var58
+local val_lab: value label var58
+capture replace v15_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==1
+capture replace v15_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==2
+capture replace v15_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==3
+capture replace v15_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==4
+capture replace v15_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==5
+capture replace v15_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==6
+capture replace v15_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==7
+capture replace v15_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==8
+capture replace v15_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==9
+capture replace v15_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==10
+capture replace v15_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==11
+capture replace v15_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==12
+capture replace v15_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==13
+capture replace v15_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==14
+capture replace v15_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==15
+capture replace v15_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==16
+capture replace v15_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==17
+capture replace v15_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==18
+capture replace v15_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==19
+capture label variable v15_NEWVARIABLE `var_lab'
+capture label values v15_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "マスター: 抽出単位産業コード"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
@@ -4025,30 +5640,30 @@ capture label values v17_NEWVARIABLE `val_lab'
     Description (Data 5):  "マスター: 抽出単位産業コード"
     Description (Data 6):  "マスター: 抽出単位産業コード"
     Description (Data 7):  "マスター: 抽出単位産業コード"
-    Description (Data 8):  "マスター: 抽出単位産業コード"
-    Description (Data 9):  "マスター: 抽出単位産業コード"
-    Description (Data 10): "マスター: 抽出単位産業コード"
-    Description (Data 11): "マスター: 抽出単位産業コード"
-    Description (Data 12): "マスター: 抽出単位産業コード"
-    Description (Data 13): "マスター: 抽出単位産業コード"
+    Description (Data 8):  "抽出単位産業コード"
+    Description (Data 9):  "抽出単位産業コード"
+    Description (Data 10): "抽出単位産業コード"
+    Description (Data 11): "抽出単位産業コード"
+    Description (Data 12): "抽出単位産業コード"
+    Description (Data 13): "抽出単位産業コード"
     Description (Data 14): None
     Description (Data 15): None
     Description (Data 16): None
-    Description (Data 17): "マスター臨時雇用者規模番号"
-    Description (Data 18): "マスター臨時雇用者規模番号"
-    Description (Data 19): "マスター臨時雇用者規模番号"
-    Description (Data 20): "マスター: 臨時雇用者規模番号"
-    Description (Data 21): "マスター: 臨時雇用者規模番号"
-    Description (Data 22): "マスター: 臨時雇用者規模番号"
-    Description (Data 23): "マスター: 臨時雇用者規模番号"
-    Description (Data 24): "マスター: 臨時雇用者規模番号"
-    Description (Data 25): "マスター: 臨時雇用者規模番号"
-    Description (Data 26): "マスター: 臨時雇用者規模番号"
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
     Description (Data 27): None
     Description (Data 28): None
     Description (Data 29): None
 
-    Values (Base):     1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Base):    
     Values (Data 1):  None
     Values (Data 2):  None
     Values (Data 3):  None
@@ -4065,6 +5680,86 @@ capture label values v17_NEWVARIABLE `val_lab'
     Values (Data 14): None
     Values (Data 15): None
     Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+
+----------------------------------------------------------------------*/
+gen v16_NEWVARIABLE = .
+local var_lab: variable label var15
+local val_lab: value label var15
+capture replace v16_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==5
+capture replace v16_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==6
+capture replace v16_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==7
+capture replace v16_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==8
+capture replace v16_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==9
+capture replace v16_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==10
+capture replace v16_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==11
+capture replace v16_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==12
+capture replace v16_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==13
+capture label variable v16_NEWVARIABLE `var_lab'
+capture label values v16_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "マスター: 臨時雇用者規模番号"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): "マスター臨時雇用者規模番号"
+    Description (Data 18): "マスター臨時雇用者規模番号"
+    Description (Data 19): "マスター臨時雇用者規模番号"
+    Description (Data 20): "マスター: 臨時雇用者規模番号"
+    Description (Data 21): "マスター: 臨時雇用者規模番号"
+    Description (Data 22): "マスター: 臨時雇用者規模番号"
+    Description (Data 23): "マスター: 臨時雇用者規模番号"
+    Description (Data 24): "マスター: 臨時雇用者規模番号"
+    Description (Data 25): "マスター: 臨時雇用者規模番号"
+    Description (Data 26): "マスター: 臨時雇用者規模番号"
+    Description (Data 27): "母集団: 臨時雇用者規模番号"
+    Description (Data 28): "母集団: 臨時雇用者規模番号"
+    Description (Data 29): "母集団: 臨時雇用者規模番号"
+
+    Values (Base):     1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
     Values (Data 17):  1: 0~9人, 2: 10~99人, 3: 100人以上
     Values (Data 18):  1: 0~9人, 2: 10~99人, 3: 100人以上
     Values (Data 19):  1: 0~9人, 2: 10~99人, 3: 100人以上
@@ -4075,23 +5770,14 @@ capture label values v17_NEWVARIABLE `val_lab'
     Values (Data 24):  1: 0~9人, 2: 10~99人, 3: 100人以上
     Values (Data 25):  1: 0~9人, 2: 10~99人, 3: 100人以上
     Values (Data 26):  1: 0~9人, 2: 10~99人, 3: 100人以上
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
+    Values (Data 27):  1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 28):  1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 29):  1: 0~9人, 2: 10~99人, 3: 100人以上
 
 ----------------------------------------------------------------------*/
 gen M_RinjiKibo_NEWVARIABLE = .
-local var_lab: variable label var15
-local val_lab: value label var15
-capture replace M_RinjiKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==5
-capture replace M_RinjiKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==6
-capture replace M_RinjiKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==7
-capture replace M_RinjiKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==8
-capture replace M_RinjiKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==9
-capture replace M_RinjiKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==10
-capture replace M_RinjiKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==11
-capture replace M_RinjiKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==12
-capture replace M_RinjiKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==13
+local var_lab: variable label var9
+local val_lab: value label var9
 capture replace M_RinjiKibo_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==17
 capture replace M_RinjiKibo_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==18
 capture replace M_RinjiKibo_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==19
@@ -4102,6 +5788,9 @@ capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==
 capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==24
 capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==25
 capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==26
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==27
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==28
+capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==29
 capture label variable M_RinjiKibo_NEWVARIABLE `var_lab'
 capture label values M_RinjiKibo_NEWVARIABLE `val_lab'
 
@@ -4356,7 +6045,7 @@ capture label values M_Syurui_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者数正社員・正職員: 男"
+    Description (Base):    "常用労働者数正社員・正職員以外: 男"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
@@ -4376,16 +6065,16 @@ capture label values M_Syurui_NEWVARIABLE `val_lab'
     Description (Data 17): "常用労働者・正社員以外・男"
     Description (Data 18): "常用労働者・正社員以外・男"
     Description (Data 19): "常用労働者・正社員以外・男"
-    Description (Data 20): "常用労働者数正社員・正職員: 男"
-    Description (Data 21): "常用労働者数正社員・正職員: 男"
-    Description (Data 22): "常用労働者数正社員・正職員: 男"
-    Description (Data 23): "常用労働者数正社員・正職員: 男"
-    Description (Data 24): "常用労働者数正社員・正職員: 男"
-    Description (Data 25): "常用労働者数正社員・正職員: 男"
-    Description (Data 26): "常用労働者数正社員・正職員: 男"
-    Description (Data 27): "常用労働者数正社員・正職員: 男"
-    Description (Data 28): "常用労働者数正社員・正職員: 男"
-    Description (Data 29): "常用労働者数正社員・正職員: 男"
+    Description (Data 20): "常用労働者数正社員・正職員以外: 男"
+    Description (Data 21): "常用労働者数正社員・正職員以外: 男"
+    Description (Data 22): "常用労働者数正社員・正職員以外: 男"
+    Description (Data 23): "常用労働者数正社員・正職員以外: 男"
+    Description (Data 24): "常用労働者数正社員・正職員以外: 男"
+    Description (Data 25): "常用労働者数正社員・正職員以外: 男"
+    Description (Data 26): "常用労働者数正社員・正職員以外: 男"
+    Description (Data 27): "常用労働者数正社員・正職員以外: 男"
+    Description (Data 28): "常用労働者数正社員・正職員以外: 男"
+    Description (Data 29): "常用労働者数正社員・正職員以外: 男"
 
     Values (Base):    
     Values (Data 1):  None
@@ -4419,28 +6108,28 @@ capture label values M_Syurui_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Syain_M_NEWVARIABLE = .
+gen Hisyain_M_NEWVARIABLE = .
 local var_lab: variable label var23
 local val_lab: value label var23
-capture replace Syain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==17
-capture replace Syain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==18
-capture replace Syain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==19
-capture replace Syain_M_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==20
-capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==21
-capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==22
-capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==23
-capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==24
-capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==25
-capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==26
-capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==27
-capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==28
-capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Syain_M_NEWVARIABLE `var_lab'
-capture label values Syain_M_NEWVARIABLE `val_lab'
+capture replace Hisyain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==17
+capture replace Hisyain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==18
+capture replace Hisyain_M_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==19
+capture replace Hisyain_M_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==20
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==21
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==22
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==23
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==24
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==25
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==26
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==27
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==28
+capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==29
+capture label variable Hisyain_M_NEWVARIABLE `var_lab'
+capture label values Hisyain_M_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者数正社員・正職員: 女"
+    Description (Base):    "常用労働者数正社員・正職員以外: 女"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
@@ -4460,16 +6149,16 @@ capture label values Syain_M_NEWVARIABLE `val_lab'
     Description (Data 17): "常用労働者・正社員以外・女"
     Description (Data 18): "常用労働者・正社員以外・女"
     Description (Data 19): "常用労働者・正社員以外・女"
-    Description (Data 20): "常用労働者数正社員・正職員: 女"
-    Description (Data 21): "常用労働者数正社員・正職員: 女"
-    Description (Data 22): "常用労働者数正社員・正職員: 女"
-    Description (Data 23): "常用労働者数正社員・正職員: 女"
-    Description (Data 24): "常用労働者数正社員・正職員: 女"
-    Description (Data 25): "常用労働者数正社員・正職員: 女"
-    Description (Data 26): "常用労働者数正社員・正職員: 女"
-    Description (Data 27): "常用労働者数正社員・正職員: 女"
-    Description (Data 28): "常用労働者数正社員・正職員: 女"
-    Description (Data 29): "常用労働者数正社員・正職員: 女"
+    Description (Data 20): "常用労働者数正社員・正職員以外: 女"
+    Description (Data 21): "常用労働者数正社員・正職員以外: 女"
+    Description (Data 22): "常用労働者数正社員・正職員以外: 女"
+    Description (Data 23): "常用労働者数正社員・正職員以外: 女"
+    Description (Data 24): "常用労働者数正社員・正職員以外: 女"
+    Description (Data 25): "常用労働者数正社員・正職員以外: 女"
+    Description (Data 26): "常用労働者数正社員・正職員以外: 女"
+    Description (Data 27): "常用労働者数正社員・正職員以外: 女"
+    Description (Data 28): "常用労働者数正社員・正職員以外: 女"
+    Description (Data 29): "常用労働者数正社員・正職員以外: 女"
 
     Values (Base):    
     Values (Data 1):  None
@@ -4503,24 +6192,24 @@ capture label values Syain_M_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Syain_W_NEWVARIABLE = .
+gen Hisyain_W_NEWVARIABLE = .
 local var_lab: variable label var24
 local val_lab: value label var24
-capture replace Syain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==17
-capture replace Syain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==18
-capture replace Syain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==19
-capture replace Syain_W_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==20
-capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==21
-capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==22
-capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==23
-capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==24
-capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==25
-capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==26
-capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==27
-capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==28
-capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Syain_W_NEWVARIABLE `var_lab'
-capture label values Syain_W_NEWVARIABLE `val_lab'
+capture replace Hisyain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==17
+capture replace Hisyain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==18
+capture replace Hisyain_W_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==19
+capture replace Hisyain_W_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==20
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==21
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==22
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==23
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==24
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==25
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==26
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==27
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==28
+capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==29
+capture label variable Hisyain_W_NEWVARIABLE `var_lab'
+capture label values Hisyain_W_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -4608,1350 +6297,6 @@ capture label values Rinji_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "高校卒男: 初任給額"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "高卒・男・初任給額"
-    Description (Data 18): "高卒・男・初任給額"
-    Description (Data 19): "高卒・男・初任給額"
-    Description (Data 20): "高校卒男: 初任給額"
-    Description (Data 21): "高校卒男: 初任給額"
-    Description (Data 22): "高校卒男: 初任給額"
-    Description (Data 23): "高校卒男: 初任給額"
-    Description (Data 24): "高校卒男: 初任給額"
-    Description (Data 25): "高校卒男: 初任給額"
-    Description (Data 26): "高校卒男: 初任給額"
-    Description (Data 27): "高校卒男: 初任給額"
-    Description (Data 28): "高校卒男: 初任給額"
-    Description (Data 29): "高校卒男: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Kou_Gaku_M_NEWVARIABLE = .
-local var_lab: variable label var31
-local val_lab: value label var31
-capture replace Kou_Gaku_M_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==17
-capture replace Kou_Gaku_M_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==18
-capture replace Kou_Gaku_M_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==19
-capture replace Kou_Gaku_M_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==20
-capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==21
-capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==22
-capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==23
-capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==24
-capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==25
-capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==26
-capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==27
-capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==28
-capture replace Kou_Gaku_M_NEWVARIABLE = Kou_Gaku_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Kou_Gaku_M_NEWVARIABLE `var_lab'
-capture label values Kou_Gaku_M_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高校卒男: 採用人員"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "高卒・男・採用人員"
-    Description (Data 18): "高卒・男・採用人員"
-    Description (Data 19): "高卒・男・採用人員"
-    Description (Data 20): "高校卒男: 採用人員"
-    Description (Data 21): "高校卒男: 採用人員"
-    Description (Data 22): "高校卒男: 採用人員"
-    Description (Data 23): "高校卒男: 採用人員"
-    Description (Data 24): "高校卒男: 採用人員"
-    Description (Data 25): "高校卒男: 採用人員"
-    Description (Data 26): "高校卒男: 採用人員"
-    Description (Data 27): "高校卒男: 採用人員"
-    Description (Data 28): "高校卒男: 採用人員"
-    Description (Data 29): "高校卒男: 採用人員"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Kou_Jin_M_NEWVARIABLE = .
-local var_lab: variable label var32
-local val_lab: value label var32
-capture replace Kou_Jin_M_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==17
-capture replace Kou_Jin_M_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==18
-capture replace Kou_Jin_M_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==19
-capture replace Kou_Jin_M_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==20
-capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==21
-capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==22
-capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==23
-capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==24
-capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==25
-capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==26
-capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==27
-capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==28
-capture replace Kou_Jin_M_NEWVARIABLE = Kou_Jin_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Kou_Jin_M_NEWVARIABLE `var_lab'
-capture label values Kou_Jin_M_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高校卒女: 初任給額"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "高卒・女・初任給額"
-    Description (Data 18): "高卒・女・初任給額"
-    Description (Data 19): "高卒・女・初任給額"
-    Description (Data 20): "高校卒女: 初任給額"
-    Description (Data 21): "高校卒女: 初任給額"
-    Description (Data 22): "高校卒女: 初任給額"
-    Description (Data 23): "高校卒女: 初任給額"
-    Description (Data 24): "高校卒女: 初任給額"
-    Description (Data 25): "高校卒女: 初任給額"
-    Description (Data 26): "高校卒女: 初任給額"
-    Description (Data 27): "高校卒女: 初任給額"
-    Description (Data 28): "高校卒女: 初任給額"
-    Description (Data 29): "高校卒女: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Kou_Gaku_W_NEWVARIABLE = .
-local var_lab: variable label var33
-local val_lab: value label var33
-capture replace Kou_Gaku_W_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==17
-capture replace Kou_Gaku_W_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==18
-capture replace Kou_Gaku_W_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==19
-capture replace Kou_Gaku_W_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==20
-capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==21
-capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==22
-capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==23
-capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==24
-capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==25
-capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==26
-capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==27
-capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==28
-capture replace Kou_Gaku_W_NEWVARIABLE = Kou_Gaku_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Kou_Gaku_W_NEWVARIABLE `var_lab'
-capture label values Kou_Gaku_W_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高校卒女: 採用人員"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "高卒・女・採用人数"
-    Description (Data 18): "高卒・女・採用人数"
-    Description (Data 19): "高卒・女・採用人数"
-    Description (Data 20): "高校卒女: 採用人員"
-    Description (Data 21): "高校卒女: 採用人員"
-    Description (Data 22): "高校卒女: 採用人員"
-    Description (Data 23): "高校卒女: 採用人員"
-    Description (Data 24): "高校卒女: 採用人員"
-    Description (Data 25): "高校卒女: 採用人員"
-    Description (Data 26): "高校卒女: 採用人員"
-    Description (Data 27): "高校卒女: 採用人員"
-    Description (Data 28): "高校卒女: 採用人員"
-    Description (Data 29): "高校卒女: 採用人員"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Kou_Jin_W_NEWVARIABLE = .
-local var_lab: variable label var34
-local val_lab: value label var34
-capture replace Kou_Jin_W_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==17
-capture replace Kou_Jin_W_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==18
-capture replace Kou_Jin_W_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==19
-capture replace Kou_Jin_W_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==20
-capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==21
-capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==22
-capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==23
-capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==24
-capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==25
-capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==26
-capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==27
-capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==28
-capture replace Kou_Jin_W_NEWVARIABLE = Kou_Jin_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Kou_Jin_W_NEWVARIABLE `var_lab'
-capture label values Kou_Jin_W_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高専・短大卒男: 初任給額"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "高専短大・男・初任給額"
-    Description (Data 18): "高専短大・男・初任給額"
-    Description (Data 19): "高専短大・男・初任給額"
-    Description (Data 20): "高専・短大卒男: 初任給額"
-    Description (Data 21): "高専・短大卒男: 初任給額"
-    Description (Data 22): "高専・短大卒男: 初任給額"
-    Description (Data 23): "高専・短大卒男: 初任給額"
-    Description (Data 24): "高専・短大卒男: 初任給額"
-    Description (Data 25): "高専・短大卒男: 初任給額"
-    Description (Data 26): "高専・短大卒男: 初任給額"
-    Description (Data 27): "高専・短大卒男: 初任給額"
-    Description (Data 28): "高専・短大卒男: 初任給額"
-    Description (Data 29): "高専・短大卒男: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Tan_Gaku_M_NEWVARIABLE = .
-local var_lab: variable label var35
-local val_lab: value label var35
-capture replace Tan_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==17
-capture replace Tan_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==18
-capture replace Tan_Gaku_M_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==19
-capture replace Tan_Gaku_M_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==20
-capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==21
-capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==22
-capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==23
-capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==24
-capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==25
-capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==26
-capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==27
-capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==28
-capture replace Tan_Gaku_M_NEWVARIABLE = Tan_Gaku_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Tan_Gaku_M_NEWVARIABLE `var_lab'
-capture label values Tan_Gaku_M_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高専・短大卒男: 採用人員"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "高専短大・男・採用人数"
-    Description (Data 18): "高専短大・男・採用人数"
-    Description (Data 19): "高専短大・男・採用人数"
-    Description (Data 20): "高専・短大卒男: 採用人員"
-    Description (Data 21): "高専・短大卒男: 採用人員"
-    Description (Data 22): "高専・短大卒男: 採用人員"
-    Description (Data 23): "高専・短大卒男: 採用人員"
-    Description (Data 24): "高専・短大卒男: 採用人員"
-    Description (Data 25): "高専・短大卒男: 採用人員"
-    Description (Data 26): "高専・短大卒男: 採用人員"
-    Description (Data 27): "高専・短大卒男: 採用人員"
-    Description (Data 28): "高専・短大卒男: 採用人員"
-    Description (Data 29): "高専・短大卒男: 採用人員"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Tan_Jin_M_NEWVARIABLE = .
-local var_lab: variable label var36
-local val_lab: value label var36
-capture replace Tan_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==17
-capture replace Tan_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==18
-capture replace Tan_Jin_M_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==19
-capture replace Tan_Jin_M_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==20
-capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==21
-capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==22
-capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==23
-capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==24
-capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==25
-capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==26
-capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==27
-capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==28
-capture replace Tan_Jin_M_NEWVARIABLE = Tan_Jin_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Tan_Jin_M_NEWVARIABLE `var_lab'
-capture label values Tan_Jin_M_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高専・短大卒女: 初任給額"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "高専短大・女・初任給額"
-    Description (Data 18): "高専短大・女・初任給額"
-    Description (Data 19): "高専短大・女・初任給額"
-    Description (Data 20): "高専・短大卒女: 初任給額"
-    Description (Data 21): "高専・短大卒女: 初任給額"
-    Description (Data 22): "高専・短大卒女: 初任給額"
-    Description (Data 23): "高専・短大卒女: 初任給額"
-    Description (Data 24): "高専・短大卒女: 初任給額"
-    Description (Data 25): "高専・短大卒女: 初任給額"
-    Description (Data 26): "高専・短大卒女: 初任給額"
-    Description (Data 27): "高専・短大卒女: 初任給額"
-    Description (Data 28): "高専・短大卒女: 初任給額"
-    Description (Data 29): "高専・短大卒女: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Tan_Gaku_W_NEWVARIABLE = .
-local var_lab: variable label var37
-local val_lab: value label var37
-capture replace Tan_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==17
-capture replace Tan_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==18
-capture replace Tan_Gaku_W_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==19
-capture replace Tan_Gaku_W_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==20
-capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==21
-capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==22
-capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==23
-capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==24
-capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==25
-capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==26
-capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==27
-capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==28
-capture replace Tan_Gaku_W_NEWVARIABLE = Tan_Gaku_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Tan_Gaku_W_NEWVARIABLE `var_lab'
-capture label values Tan_Gaku_W_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "高専・短大卒女: 採用人員"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "高専短大・女・採用人数"
-    Description (Data 18): "高専短大・女・採用人数"
-    Description (Data 19): "高専短大・女・採用人数"
-    Description (Data 20): "高専・短大卒女: 採用人員"
-    Description (Data 21): "高専・短大卒女: 採用人員"
-    Description (Data 22): "高専・短大卒女: 採用人員"
-    Description (Data 23): "高専・短大卒女: 採用人員"
-    Description (Data 24): "高専・短大卒女: 採用人員"
-    Description (Data 25): "高専・短大卒女: 採用人員"
-    Description (Data 26): "高専・短大卒女: 採用人員"
-    Description (Data 27): "高専・短大卒女: 採用人員"
-    Description (Data 28): "高専・短大卒女: 採用人員"
-    Description (Data 29): "高専・短大卒女: 採用人員"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Tan_Jin_W_NEWVARIABLE = .
-local var_lab: variable label var38
-local val_lab: value label var38
-capture replace Tan_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==17
-capture replace Tan_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==18
-capture replace Tan_Jin_W_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==19
-capture replace Tan_Jin_W_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==20
-capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==21
-capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==22
-capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==23
-capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==24
-capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==25
-capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==26
-capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==27
-capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==28
-capture replace Tan_Jin_W_NEWVARIABLE = Tan_Jin_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Tan_Jin_W_NEWVARIABLE `var_lab'
-capture label values Tan_Jin_W_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学卒技術系男: 初任給額"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "大卒・技術系・男・初任給額"
-    Description (Data 18): "大卒・技術系・男・初任給額"
-    Description (Data 19): "大卒・技術系・男・初任給額"
-    Description (Data 20): "大学卒技術系男: 初任給額"
-    Description (Data 21): "大学卒技術系男: 初任給額"
-    Description (Data 22): "大学卒技術系男: 初任給額"
-    Description (Data 23): "大学卒技術系男: 初任給額"
-    Description (Data 24): "大学卒技術系男: 初任給額"
-    Description (Data 25): "大学卒技術系男: 初任給額"
-    Description (Data 26): "大学卒技術系男: 初任給額"
-    Description (Data 27): "大学卒技術系男: 初任給額"
-    Description (Data 28): "大学卒技術系男: 初任給額"
-    Description (Data 29): "大学卒技術系男: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Dai_Gijyu_Gaku_M_NEWVARIABLE = .
-local var_lab: variable label var43
-local val_lab: value label var43
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==17
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==18
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==19
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==20
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==21
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==22
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==23
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==24
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==25
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==26
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==27
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==28
-capture replace Dai_Gijyu_Gaku_M_NEWVARIABLE = Dai_Gijyu_Gaku_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Dai_Gijyu_Gaku_M_NEWVARIABLE `var_lab'
-capture label values Dai_Gijyu_Gaku_M_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学卒技術系男: 採用人員"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "大卒・技術系・男・採用人数"
-    Description (Data 18): "大卒・技術系・男・採用人数"
-    Description (Data 19): "大卒・技術系・男・採用人数"
-    Description (Data 20): "大学卒技術系男: 採用人員"
-    Description (Data 21): "大学卒技術系男: 採用人員"
-    Description (Data 22): "大学卒技術系男: 採用人員"
-    Description (Data 23): "大学卒技術系男: 採用人員"
-    Description (Data 24): "大学卒技術系男: 採用人員"
-    Description (Data 25): "大学卒技術系男: 採用人員"
-    Description (Data 26): "大学卒技術系男: 採用人員"
-    Description (Data 27): "大学卒技術系男: 採用人員"
-    Description (Data 28): "大学卒技術系男: 採用人員"
-    Description (Data 29): "大学卒技術系男: 採用人員"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Dai_Gijyu_Jin_M_NEWVARIABLE = .
-local var_lab: variable label var44
-local val_lab: value label var44
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==17
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==18
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==19
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==20
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==21
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==22
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==23
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==24
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==25
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==26
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==27
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==28
-capture replace Dai_Gijyu_Jin_M_NEWVARIABLE = Dai_Gijyu_Jin_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Dai_Gijyu_Jin_M_NEWVARIABLE `var_lab'
-capture label values Dai_Gijyu_Jin_M_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学卒技術系女: 初任給額"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "大卒・技術系・女・初任給額"
-    Description (Data 18): "大卒・技術系・女・初任給額"
-    Description (Data 19): "大卒・技術系・女・初任給額"
-    Description (Data 20): "大学卒技術系女: 初任給額"
-    Description (Data 21): "大学卒技術系女: 初任給額"
-    Description (Data 22): "大学卒技術系女: 初任給額"
-    Description (Data 23): "大学卒技術系女: 初任給額"
-    Description (Data 24): "大学卒技術系女: 初任給額"
-    Description (Data 25): "大学卒技術系女: 初任給額"
-    Description (Data 26): "大学卒技術系女: 初任給額"
-    Description (Data 27): "大学卒技術系女: 初任給額"
-    Description (Data 28): "大学卒技術系女: 初任給額"
-    Description (Data 29): "大学卒技術系女: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Dai_Gijyu_Gaku_W_NEWVARIABLE = .
-local var_lab: variable label var45
-local val_lab: value label var45
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==17
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==18
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==19
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==20
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==21
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==22
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==23
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==24
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==25
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==26
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==27
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==28
-capture replace Dai_Gijyu_Gaku_W_NEWVARIABLE = Dai_Gijyu_Gaku_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Dai_Gijyu_Gaku_W_NEWVARIABLE `var_lab'
-capture label values Dai_Gijyu_Gaku_W_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学卒技術系女: 採用人員"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "大卒・技術系・女・採用人数"
-    Description (Data 18): "大卒・技術系・女・採用人数"
-    Description (Data 19): "大卒・技術系・女・採用人数"
-    Description (Data 20): "大学卒技術系女: 採用人員"
-    Description (Data 21): "大学卒技術系女: 採用人員"
-    Description (Data 22): "大学卒技術系女: 採用人員"
-    Description (Data 23): "大学卒技術系女: 採用人員"
-    Description (Data 24): "大学卒技術系女: 採用人員"
-    Description (Data 25): "大学卒技術系女: 採用人員"
-    Description (Data 26): "大学卒技術系女: 採用人員"
-    Description (Data 27): "大学卒技術系女: 採用人員"
-    Description (Data 28): "大学卒技術系女: 採用人員"
-    Description (Data 29): "大学卒技術系女: 採用人員"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Dai_Gijyu_Jin_W_NEWVARIABLE = .
-local var_lab: variable label var46
-local val_lab: value label var46
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==17
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==18
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==19
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==20
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==21
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==22
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==23
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==24
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==25
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==26
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==27
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==28
-capture replace Dai_Gijyu_Jin_W_NEWVARIABLE = Dai_Gijyu_Jin_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Dai_Gijyu_Jin_W_NEWVARIABLE `var_lab'
-capture label values Dai_Gijyu_Jin_W_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学院修士課程修了男: 初任給額"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "大学院・男・初任給額"
-    Description (Data 18): "大学院・男・初任給額"
-    Description (Data 19): "大学院・男・初任給額"
-    Description (Data 20): "大学院修士課程修了男: 初任給額"
-    Description (Data 21): "大学院修士課程修了男: 初任給額"
-    Description (Data 22): "大学院修士課程修了男: 初任給額"
-    Description (Data 23): "大学院修士課程修了男: 初任給額"
-    Description (Data 24): "大学院修士課程修了男: 初任給額"
-    Description (Data 25): "大学院修士課程修了男: 初任給額"
-    Description (Data 26): "大学院修士課程修了男: 初任給額"
-    Description (Data 27): "大学院修士課程修了男: 初任給額"
-    Description (Data 28): "大学院修士課程修了男: 初任給額"
-    Description (Data 29): "大学院修士課程修了男: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen In_Gaku_M_NEWVARIABLE = .
-local var_lab: variable label var47
-local val_lab: value label var47
-capture replace In_Gaku_M_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==17
-capture replace In_Gaku_M_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==18
-capture replace In_Gaku_M_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==19
-capture replace In_Gaku_M_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==20
-capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==21
-capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==22
-capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==23
-capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==24
-capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==25
-capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==26
-capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==27
-capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==28
-capture replace In_Gaku_M_NEWVARIABLE = In_Gaku_M  if flag_tmp_NEWVARIABLE==29
-capture label variable In_Gaku_M_NEWVARIABLE `var_lab'
-capture label values In_Gaku_M_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学卒事務系男: 採用人員"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "大学院・男・採用人員"
-    Description (Data 18): "大学院・男・採用人員"
-    Description (Data 19): "大学院・男・採用人員"
-    Description (Data 20): "大学卒事務系男: 採用人員"
-    Description (Data 21): "大学卒事務系男: 採用人員"
-    Description (Data 22): "大学卒事務系男: 採用人員"
-    Description (Data 23): "大学卒事務系男: 採用人員"
-    Description (Data 24): "大学卒事務系男: 採用人員"
-    Description (Data 25): "大学卒事務系男: 採用人員"
-    Description (Data 26): "大学卒事務系男: 採用人員"
-    Description (Data 27): "大学卒事務系男: 採用人員"
-    Description (Data 28): "大学卒事務系男: 採用人員"
-    Description (Data 29): "大学卒事務系男: 採用人員"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Dai_Jimu_Jin_M_NEWVARIABLE = .
-local var_lab: variable label var48
-local val_lab: value label var48
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==17
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==18
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==19
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==20
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==21
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==22
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==23
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==24
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==25
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==26
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==27
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==28
-capture replace Dai_Jimu_Jin_M_NEWVARIABLE = Dai_Jimu_Jin_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Dai_Jimu_Jin_M_NEWVARIABLE `var_lab'
-capture label values Dai_Jimu_Jin_M_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学院修士課程修了女: 初任給額"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "大学院・女・初任給額"
-    Description (Data 18): "大学院・女・初任給額"
-    Description (Data 19): "大学院・女・初任給額"
-    Description (Data 20): "大学院修士課程修了女: 初任給額"
-    Description (Data 21): "大学院修士課程修了女: 初任給額"
-    Description (Data 22): "大学院修士課程修了女: 初任給額"
-    Description (Data 23): "大学院修士課程修了女: 初任給額"
-    Description (Data 24): "大学院修士課程修了女: 初任給額"
-    Description (Data 25): "大学院修士課程修了女: 初任給額"
-    Description (Data 26): "大学院修士課程修了女: 初任給額"
-    Description (Data 27): "大学院修士課程修了女: 初任給額"
-    Description (Data 28): "大学院修士課程修了女: 初任給額"
-    Description (Data 29): "大学院修士課程修了女: 初任給額"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen In_Gaku_W_NEWVARIABLE = .
-local var_lab: variable label var49
-local val_lab: value label var49
-capture replace In_Gaku_W_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==17
-capture replace In_Gaku_W_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==18
-capture replace In_Gaku_W_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==19
-capture replace In_Gaku_W_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==20
-capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==21
-capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==22
-capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==23
-capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==24
-capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==25
-capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==26
-capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==27
-capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==28
-capture replace In_Gaku_W_NEWVARIABLE = In_Gaku_W  if flag_tmp_NEWVARIABLE==29
-capture label variable In_Gaku_W_NEWVARIABLE `var_lab'
-capture label values In_Gaku_W_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "大学卒事務系女: 採用人員"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): "大学院・女・採用人員"
-    Description (Data 18): "大学院・女・採用人員"
-    Description (Data 19): "大学院・女・採用人員"
-    Description (Data 20): "大学卒事務系女: 採用人員"
-    Description (Data 21): "大学卒事務系女: 採用人員"
-    Description (Data 22): "大学卒事務系女: 採用人員"
-    Description (Data 23): "大学卒事務系女: 採用人員"
-    Description (Data 24): "大学卒事務系女: 採用人員"
-    Description (Data 25): "大学卒事務系女: 採用人員"
-    Description (Data 26): "大学卒事務系女: 採用人員"
-    Description (Data 27): "大学卒事務系女: 採用人員"
-    Description (Data 28): "大学卒事務系女: 採用人員"
-    Description (Data 29): "大学卒事務系女: 採用人員"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Dai_Jimu_Jin_W_NEWVARIABLE = .
-local var_lab: variable label var50
-local val_lab: value label var50
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==17
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==18
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==19
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==20
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==21
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==22
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==23
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==24
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==25
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==26
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==27
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==28
-capture replace Dai_Jimu_Jin_W_NEWVARIABLE = Dai_Jimu_Jin_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Dai_Jimu_Jin_W_NEWVARIABLE `var_lab'
-capture label values Dai_Jimu_Jin_W_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
     Description (Base):    "(チェックディジット)"
     Description (Data 1):  None
     Description (Data 2):  None
@@ -6033,169 +6378,7 @@ capture label values Digit_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "常用労働者数正社員・正職員以外: 男"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): "常用労働者数正社員・正職員以外: 男"
-    Description (Data 21): "常用労働者数正社員・正職員以外: 男"
-    Description (Data 22): "常用労働者数正社員・正職員以外: 男"
-    Description (Data 23): "常用労働者数正社員・正職員以外: 男"
-    Description (Data 24): "常用労働者数正社員・正職員以外: 男"
-    Description (Data 25): "常用労働者数正社員・正職員以外: 男"
-    Description (Data 26): "常用労働者数正社員・正職員以外: 男"
-    Description (Data 27): "常用労働者数正社員・正職員以外: 男"
-    Description (Data 28): "常用労働者数正社員・正職員以外: 男"
-    Description (Data 29): "常用労働者数正社員・正職員以外: 男"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Hisyain_M_NEWVARIABLE = .
-local var_lab: variable label var32
-local val_lab: value label var32
-capture replace Hisyain_M_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==20
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==21
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==22
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==23
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==24
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==25
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==26
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==27
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==28
-capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Hisyain_M_NEWVARIABLE `var_lab'
-capture label values Hisyain_M_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "常用労働者数正社員・正職員以外: 女"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): "常用労働者数正社員・正職員以外: 女"
-    Description (Data 21): "常用労働者数正社員・正職員以外: 女"
-    Description (Data 22): "常用労働者数正社員・正職員以外: 女"
-    Description (Data 23): "常用労働者数正社員・正職員以外: 女"
-    Description (Data 24): "常用労働者数正社員・正職員以外: 女"
-    Description (Data 25): "常用労働者数正社員・正職員以外: 女"
-    Description (Data 26): "常用労働者数正社員・正職員以外: 女"
-    Description (Data 27): "常用労働者数正社員・正職員以外: 女"
-    Description (Data 28): "常用労働者数正社員・正職員以外: 女"
-    Description (Data 29): "常用労働者数正社員・正職員以外: 女"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-
-----------------------------------------------------------------------*/
-gen Hisyain_W_NEWVARIABLE = .
-local var_lab: variable label var33
-local val_lab: value label var33
-capture replace Hisyain_W_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==20
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==21
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==22
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==23
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==24
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==25
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==26
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==27
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==28
-capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Hisyain_W_NEWVARIABLE `var_lab'
-capture label values Hisyain_W_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "母集団: 臨時雇用者規模番号"
+    Description (Base):    "共通事業所コード"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
@@ -6220,13 +6403,13 @@ capture label values Hisyain_W_NEWVARIABLE `val_lab'
     Description (Data 22): None
     Description (Data 23): None
     Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): "母集団: 臨時雇用者規模番号"
-    Description (Data 28): "母集団: 臨時雇用者規模番号"
-    Description (Data 29): "母集団: 臨時雇用者規模番号"
+    Description (Data 25): "共通事業所コード"
+    Description (Data 26): "共通事業所コード"
+    Description (Data 27): "母集団: 共通事業所コード"
+    Description (Data 28): "母集団: 共通事業所コード"
+    Description (Data 29): "母集団: 共通事業所コード"
 
-    Values (Base):     1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Base):    
     Values (Data 1):  None
     Values (Data 2):  None
     Values (Data 3):  None
@@ -6251,21 +6434,23 @@ capture label values Hisyain_W_NEWVARIABLE `val_lab'
     Values (Data 22): None
     Values (Data 23): None
     Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27):  1: 0~9人, 2: 10~99人, 3: 100人以上
-    Values (Data 28):  1: 0~9人, 2: 10~99人, 3: 100人以上
-    Values (Data 29):  1: 0~9人, 2: 10~99人, 3: 100人以上
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen v18_NEWVARIABLE = .
-local var_lab: variable label M_RinjiKibo
-local val_lab: value label M_RinjiKibo
-capture replace v18_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==27
-capture replace v18_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==28
-capture replace v18_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==29
-capture label variable v18_NEWVARIABLE `var_lab'
-capture label values v18_NEWVARIABLE `val_lab'
+gen v17_NEWVARIABLE = .
+local var_lab: variable label var2
+local val_lab: value label var2
+capture replace v17_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==25
+capture replace v17_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==26
+capture replace v17_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==27
+capture replace v17_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==28
+capture replace v17_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==29
+capture label variable v17_NEWVARIABLE `var_lab'
+capture label values v17_NEWVARIABLE `val_lab'
 
 
 keep *_NEWVARIABLE

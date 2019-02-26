@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h8-9.xlsx
-    Date: 2019/02/26 18:10:15
+    Date: 2019/02/27 01:44:08
 ----------------------------------------------------------------------*/
 
 
@@ -62,20 +62,11 @@ capture label values var18 var18
 capture label define var19 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 
 capture label values var19 var19
 
-capture label define var20 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 11 "" 12 "" 
-capture label values var20 var20
-
 capture label define var21 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 
 capture label values var21 var21
 
 capture label define var23 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 
 capture label values var23 var23
-
-capture label define var24 1 "" 2 "" 3 "" 4 "" 5 "" 
-capture label values var24 var24
-
-capture label define var25 1 "" 2 "" 3 "" 4 "" 6 "" 7 "" 
-capture label values var25 var25
 
 capture label define var26 1 "" 2 "" 
 capture label values var26 var26
@@ -83,17 +74,11 @@ capture label values var26 var26
 capture label define var27 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 
 capture label values var27 var27
 
-capture label define var28 1 "チェック済と並びが異なる" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 
-capture label values var28 var28
-
 capture label define var29 1 "" 2 "" 
 capture label values var29 var29
 
 capture label define var30 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 
 capture label values var30 var30
-
-capture label define var31 1 "" 2 "" 3 "" 
-capture label values var31 var31
 
 capture label define var34 1 "" 2 "" 
 capture label values var34 var34
@@ -104,32 +89,14 @@ capture label values var35 var35
 capture label define var36 1 "" 2 "" 
 capture label values var36 var36
 
-capture label define var37 2 "" 3 "" 4 "" 
-capture label values var37 var37
-
-capture label define var38 2 "" 3 "" 5 "" 6 "" 
-capture label values var38 var38
-
 capture label define var39 0 "" 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 
 capture label values var39 var39
 
 capture label define var40 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 
 capture label values var40 var40
 
-capture label define var41 1 "前職の仕事の内容チェック済:1~4" 2 "前職の仕事の内容チェック済:7,8" 3 "前職の仕事の内容チェック済:5,6,9" 
-capture label values var41 var41
-
 capture label define var42 1 "" 2 "" 3 "" 
 capture label values var42 var42
-
-capture label define var43 2 "前職の従業上の地位チェック済:1" 3 "前職の従業上の地位チェック済:2" 4 "前職の従業上の地位チェック済:3" 
-capture label values var43 var43
-
-capture label define var44 0 "" 1 "" 11 "" 
-capture label values var44 var44
-
-capture label define var45 0 "" 11 "" 22 "" 
-capture label values var45 var45
 
 capture label define var46 1 "" 2 "" 3 "" 4 "" 5 "" 
 capture label values var46 var46
@@ -143,24 +110,12 @@ capture label values var48 var48
 capture label define var49 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
 capture label values var49 var49
 
-capture label define var50 1 "チェック済データとデータの並びが異なる" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
-capture label values var50 var50
-
 capture label define var51 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
 capture label values var51 var51
-
-capture label define var52 1 "チェック済データとデータの並びが異なる" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
-capture label values var52 var52
 
 capture label define var53 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
 capture label values var53 var53
 
-capture label define var54 1 "チェック済データとデータの並びが異なる" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 8 "" 9 "" 10 "" 11 "" 12 "" 13 "" 14 "" 15 "" 
-capture label values var54 var54
-
 capture label define var55 1 "" 2 "" 3 "" 4 "" 5 "" 6 "" 7 "" 
 capture label values var55 var55
-
-capture label define var56 1 "" 2 "" 3 "" 
-capture label values var56 var56
 

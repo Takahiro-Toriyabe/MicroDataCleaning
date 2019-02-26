@@ -90,7 +90,7 @@ class Console():
     def __init__(self, frame, width, height, font=('Lucida Console', 11)):
         self.console = st.ScrolledText(frame, width=width, height=height, font=font, fg='white', bg='black', insertbackground='red')
         self.console.grid()
-        self.console.insert(tk.END, 'Initial Message\n\n')
+        self.console.insert(tk.END, 'Input layout sheet information...\n\n')
         self.console.config(state=tk.DISABLED)
 
 

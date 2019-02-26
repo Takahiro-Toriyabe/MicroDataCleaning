@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/26 18:10:45
+    Date: 2019/02/27 01:45:07
 ----------------------------------------------------------------------*/
 
 
@@ -666,100 +666,100 @@ capture label values v4_NEWVARIABLE `val_lab'
     Description (Data 2):  "括番号"
     Description (Data 3):  "括番号"
     Description (Data 4):  "括番号"
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-    Description (Data 30): None
+    Description (Data 5):  "個人項目: 離職者番号"
+    Description (Data 6):  "個人項目: 離職者番号"
+    Description (Data 7):  "個人項目: 離職者番号"
+    Description (Data 8):  "個人項目: 離職者番号"
+    Description (Data 9):  "個人項目: 離職者番号"
+    Description (Data 10): "個人項目: 離職者番号"
+    Description (Data 11): "個人項目: 離職者番号"
+    Description (Data 12): "個人項目: 離職者番号"
+    Description (Data 13): "個人項目: 離職者番号"
+    Description (Data 14): "個人項目: 離職者番号"
+    Description (Data 15): "個人項目: 離職者番号"
+    Description (Data 16): "個人項目: 離職者番号"
+    Description (Data 17): "個人項目: 離職者番号"
+    Description (Data 18): "個人項目: 離職者番号"
+    Description (Data 19): "個人項目: 離職者番号"
+    Description (Data 20): "個人項目: 離職者番号"
+    Description (Data 21): "個人項目: 離職者番号"
+    Description (Data 22): "個人項目: 離職者番号"
+    Description (Data 23): "個人項目: 離職者番号"
+    Description (Data 24): "個人項目: 離職者番号"
+    Description (Data 25): "個人項目: 離職者番号"
+    Description (Data 26): "個人項目: 離職者番号"
+    Description (Data 27): "個人項目: 離職者番号"
+    Description (Data 28): "個人項目: 離職者番号"
+    Description (Data 29): "個人項目: 離職者番号"
+    Description (Data 30): "個人項目: 離職者番号"
     Description (Data 31): "番号"
     Description (Data 32): "番号"
-    Description (Data 33): None
-    Description (Data 34): None
-    Description (Data 35): None
-    Description (Data 36): None
-    Description (Data 37): None
-    Description (Data 38): None
-    Description (Data 39): None
-    Description (Data 40): None
-    Description (Data 41): None
-    Description (Data 42): None
-    Description (Data 43): None
-    Description (Data 44): None
-    Description (Data 45): None
-    Description (Data 46): None
-    Description (Data 47): None
-    Description (Data 48): None
+    Description (Data 33): "個人項目: 番号"
+    Description (Data 34): "個人項目: 番号"
+    Description (Data 35): "個人項目: 番号"
+    Description (Data 36): "個人項目: 番号"
+    Description (Data 37): "個人項目: 番号"
+    Description (Data 38): "個人項目: 番号"
+    Description (Data 39): "個人項目: 番号"
+    Description (Data 40): "個人項目: 番号"
+    Description (Data 41): "個人項目: 番号"
+    Description (Data 42): "個人項目: 番号"
+    Description (Data 43): "個人項目: 番号"
+    Description (Data 44): "個人項目: 番号"
+    Description (Data 45): "個人項目: 番号"
+    Description (Data 46): "個人項目: 番号"
+    Description (Data 47): "個人項目: 番号"
+    Description (Data 48): "個人項目: 番号"
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-    Values (Data 30): None
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
     Values (Data 31): 
     Values (Data 32): 
-    Values (Data 33): None
-    Values (Data 34): None
-    Values (Data 35): None
-    Values (Data 36): None
-    Values (Data 37): None
-    Values (Data 38): None
-    Values (Data 39): None
-    Values (Data 40): None
-    Values (Data 41): None
-    Values (Data 42): None
-    Values (Data 43): None
-    Values (Data 44): None
-    Values (Data 45): None
-    Values (Data 46): None
-    Values (Data 47): None
-    Values (Data 48): None
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
 
 ----------------------------------------------------------------------*/
 gen v5_NEWVARIABLE = .
@@ -769,8 +769,50 @@ capture replace v5_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==1
 capture replace v5_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==2
 capture replace v5_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==3
 capture replace v5_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==4
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==5
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==6
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==7
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==8
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==9
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==10
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==11
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==12
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==13
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==14
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==15
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==16
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==17
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==18
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==19
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==20
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==21
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==22
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==23
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==24
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==25
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==26
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==27
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==28
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==29
+capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==30
 capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==31
 capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==32
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==33
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==34
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==35
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==36
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==37
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==38
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==39
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==40
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==41
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==42
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==43
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==44
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==45
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==46
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==47
+capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==48
 capture label variable v5_NEWVARIABLE `var_lab'
 capture label values v5_NEWVARIABLE `val_lab'
 
@@ -2714,100 +2756,100 @@ capture label values v18_NEWVARIABLE `val_lab'
     Description (Data 2):  "個人項目: 氏名番号"
     Description (Data 3):  "個人項目: 氏名番号"
     Description (Data 4):  "個人項目: 氏名番号"
-    Description (Data 5):  "個人項目: 離職者番号"
-    Description (Data 6):  "個人項目: 離職者番号"
-    Description (Data 7):  "個人項目: 離職者番号"
-    Description (Data 8):  "個人項目: 離職者番号"
-    Description (Data 9):  "個人項目: 離職者番号"
-    Description (Data 10): "個人項目: 離職者番号"
-    Description (Data 11): "個人項目: 離職者番号"
-    Description (Data 12): "個人項目: 離職者番号"
-    Description (Data 13): "個人項目: 離職者番号"
-    Description (Data 14): "個人項目: 離職者番号"
-    Description (Data 15): "個人項目: 離職者番号"
-    Description (Data 16): "個人項目: 離職者番号"
-    Description (Data 17): "個人項目: 離職者番号"
-    Description (Data 18): "個人項目: 離職者番号"
-    Description (Data 19): "個人項目: 離職者番号"
-    Description (Data 20): "個人項目: 離職者番号"
-    Description (Data 21): "個人項目: 離職者番号"
-    Description (Data 22): "個人項目: 離職者番号"
-    Description (Data 23): "個人項目: 離職者番号"
-    Description (Data 24): "個人項目: 離職者番号"
-    Description (Data 25): "個人項目: 離職者番号"
-    Description (Data 26): "個人項目: 離職者番号"
-    Description (Data 27): "個人項目: 離職者番号"
-    Description (Data 28): "個人項目: 離職者番号"
-    Description (Data 29): "個人項目: 離職者番号"
-    Description (Data 30): "個人項目: 離職者番号"
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
     Description (Data 31): None
     Description (Data 32): None
-    Description (Data 33): "個人項目: 番号"
-    Description (Data 34): "個人項目: 番号"
-    Description (Data 35): "個人項目: 番号"
-    Description (Data 36): "個人項目: 番号"
-    Description (Data 37): "個人項目: 番号"
-    Description (Data 38): "個人項目: 番号"
-    Description (Data 39): "個人項目: 番号"
-    Description (Data 40): "個人項目: 番号"
-    Description (Data 41): "個人項目: 番号"
-    Description (Data 42): "個人項目: 番号"
-    Description (Data 43): "個人項目: 番号"
-    Description (Data 44): "個人項目: 番号"
-    Description (Data 45): "個人項目: 番号"
-    Description (Data 46): "個人項目: 番号"
-    Description (Data 47): "個人項目: 番号"
-    Description (Data 48): "個人項目: 番号"
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
 
     Values (Base):    
     Values (Data 1):  
     Values (Data 2):  
     Values (Data 3):  
     Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
     Values (Data 31): None
     Values (Data 32): None
-    Values (Data 33): 
-    Values (Data 34): 
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
 
 ----------------------------------------------------------------------*/
 gen v19_NEWVARIABLE = .
@@ -2817,48 +2859,6 @@ capture replace v19_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==1
 capture replace v19_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==2
 capture replace v19_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==3
 capture replace v19_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==4
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==5
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==6
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==7
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==8
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==9
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==10
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==11
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==12
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==13
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==14
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==15
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==16
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==17
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==18
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==19
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==20
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==21
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==22
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==23
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==24
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==25
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==26
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==27
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==28
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==29
-capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==30
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==33
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==34
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==35
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==36
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==37
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==38
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==39
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==40
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==41
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==42
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==43
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==44
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==45
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==46
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==47
-capture replace v19_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==48
 capture label variable v19_NEWVARIABLE `var_lab'
 capture label values v19_NEWVARIABLE `val_lab'
 
@@ -3026,32 +3026,32 @@ capture label values v20_NEWVARIABLE `val_lab'
     Description (Data 2):  "個人項目: 年齢区分"
     Description (Data 3):  "個人項目: 年齢区分"
     Description (Data 4):  "個人項目: 年齢区分"
-    Description (Data 5):  "個人項目: 卒業時期"
-    Description (Data 6):  "個人項目: 卒業時期"
-    Description (Data 7):  "個人項目: 卒業時期"
-    Description (Data 8):  "個人項目: 卒業時期"
-    Description (Data 9):  "個人項目: 卒業時期"
-    Description (Data 10): "個人項目: 卒業時期"
-    Description (Data 11): "個人項目: 卒業時期"
-    Description (Data 12): "個人項目: 卒業時期"
-    Description (Data 13): "個人項目: 卒業時期"
-    Description (Data 14): "個人項目: 卒業時期"
-    Description (Data 15): "個人項目: 卒業時期"
-    Description (Data 16): "個人項目: 卒業時期"
-    Description (Data 17): "個人項目: 卒業時期"
-    Description (Data 18): "個人項目: 卒業時期"
-    Description (Data 19): "個人項目: 卒業時期"
-    Description (Data 20): "個人項目: 卒業時期"
-    Description (Data 21): "個人項目: 卒業時期"
-    Description (Data 22): "個人項目: 卒業時期"
-    Description (Data 23): "個人項目: 卒業時期"
-    Description (Data 24): "個人項目: 卒業時期"
-    Description (Data 25): "個人項目: 卒業時期"
-    Description (Data 26): "個人項目: 卒業時期"
-    Description (Data 27): "個人項目: 卒業時期"
-    Description (Data 28): "個人項目: 卒業時期"
-    Description (Data 29): "個人項目: 卒業時期"
-    Description (Data 30): "個人項目: 卒業時期"
+    Description (Data 5):  "個人項目年齢: 年齢チェック済"
+    Description (Data 6):  "個人項目年齢: 年齢チェック済"
+    Description (Data 7):  "個人項目年齢: 年齢チェック済"
+    Description (Data 8):  "個人項目年齢: 年齢チェック済"
+    Description (Data 9):  "個人項目年齢: 年齢チェック済"
+    Description (Data 10): "個人項目年齢: 年齢チェック済"
+    Description (Data 11): "個人項目年齢: 年齢チェック済"
+    Description (Data 12): "個人項目年齢: 年齢チェック済"
+    Description (Data 13): "個人項目年齢: 年齢チェック済"
+    Description (Data 14): "個人項目年齢: 年齢チェック済"
+    Description (Data 15): "個人項目年齢: 年齢チェック済"
+    Description (Data 16): "個人項目年齢: 年齢チェック済"
+    Description (Data 17): "個人項目年齢: 年齢チェック済"
+    Description (Data 18): "個人項目年齢: 年齢チェック済"
+    Description (Data 19): "個人項目年齢: 年齢チェック済"
+    Description (Data 20): "個人項目年齢: 年齢チェック済"
+    Description (Data 21): "個人項目年齢: 年齢チェック済"
+    Description (Data 22): "個人項目年齢: 年齢チェック済"
+    Description (Data 23): "個人項目年齢: 年齢チェック済"
+    Description (Data 24): "個人項目年齢: 年齢チェック済"
+    Description (Data 25): "個人項目年齢: 年齢チェック済"
+    Description (Data 26): "個人項目年齢: 年齢チェック済"
+    Description (Data 27): "個人項目年齢: 年齢チェック済"
+    Description (Data 28): "個人項目年齢: 年齢チェック済"
+    Description (Data 29): "個人項目年齢: 年齢チェック済"
+    Description (Data 30): "個人項目年齢: 年齢チェック済"
     Description (Data 31): "年齢"
     Description (Data 32): "年齢"
     Description (Data 33): "個人項目: 年齢"
@@ -3076,32 +3076,32 @@ capture label values v20_NEWVARIABLE `val_lab'
     Values (Data 2):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
     Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
     Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: 
-    Values (Data 5):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 6):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 7):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 8):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 9):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 10):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 11):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 12):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 13):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 14):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 15):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 16):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 17):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 18):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 19):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 20):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 21):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 22):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 23):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 24):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 25):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 26):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 27):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 28):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 29):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
-    Values (Data 30):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 5):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 6):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 7):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 8):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 9):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 10):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 11):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 12):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 13):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 14):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 15):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 16):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 17):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 18):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 19):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 20):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 21):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 22):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 23):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 24):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 25):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 26):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 27):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 28):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 29):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
+    Values (Data 30):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
     Values (Data 31):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
     Values (Data 32):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
     Values (Data 33):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
@@ -3129,32 +3129,32 @@ capture replace v21_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==1
 capture replace v21_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==2
 capture replace v21_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==3
 capture replace v21_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==4
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==5
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==6
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==7
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==8
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==9
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==10
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==11
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==12
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==13
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==14
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==15
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==16
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==17
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==18
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==19
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==20
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==21
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==22
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==23
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==24
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==25
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==26
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==27
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==28
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==29
-capture replace v21_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==30
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==5
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==6
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==7
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==8
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==9
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==10
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==11
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==12
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==13
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==14
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==15
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==16
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==17
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==18
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==19
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==20
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==21
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==22
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==23
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==24
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==25
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==26
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==27
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==28
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==29
+capture replace v21_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==30
 capture replace v21_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==31
 capture replace v21_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==32
 capture replace v21_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==33
@@ -3340,34 +3340,34 @@ capture label values v22_NEWVARIABLE `val_lab'
     Description (Data 2):  "個人項目: 最終学校卒業年区分"
     Description (Data 3):  "個人項目: 最終学校卒業年区分"
     Description (Data 4):  "個人項目: 最終学校卒業年区分"
-    Description (Data 5):  "個人項目年齢: 分類表21-2"
-    Description (Data 6):  "個人項目年齢: 分類表21-2"
-    Description (Data 7):  "個人項目年齢: 分類表21-2"
-    Description (Data 8):  "個人項目年齢: 分類表21-2"
-    Description (Data 9):  "個人項目年齢: 分類表21-2"
-    Description (Data 10): "個人項目年齢: 分類表21-2"
-    Description (Data 11): "個人項目年齢: 分類表21-2"
-    Description (Data 12): "個人項目年齢: 分類表21-2"
-    Description (Data 13): "個人項目年齢: 分類表21-2"
-    Description (Data 14): "個人項目年齢: 分類表21-2"
-    Description (Data 15): "個人項目年齢: 分類表21-2"
-    Description (Data 16): "個人項目年齢: 分類表21-2"
-    Description (Data 17): "個人項目年齢: 分類表21-2"
-    Description (Data 18): "個人項目年齢: 分類表21-2"
-    Description (Data 19): "個人項目年齢: 分類表21-2"
-    Description (Data 20): "個人項目年齢: 分類表21-2"
-    Description (Data 21): "個人項目年齢: 分類表21-2"
-    Description (Data 22): "個人項目年齢: 分類表21-2"
-    Description (Data 23): "個人項目年齢: 分類表21-2"
-    Description (Data 24): "個人項目年齢: 分類表21-2"
-    Description (Data 25): "個人項目年齢: 分類表21-2"
-    Description (Data 26): "個人項目年齢: 分類表21-2"
-    Description (Data 27): "個人項目年齢: 分類表21-2"
-    Description (Data 28): "個人項目年齢: 分類表21-2"
-    Description (Data 29): "個人項目年齢: 分類表21-2"
-    Description (Data 30): "個人項目年齢: 分類表21-2"
-    Description (Data 31): None
-    Description (Data 32): None
+    Description (Data 5):  "個人項目: 卒業時期"
+    Description (Data 6):  "個人項目: 卒業時期"
+    Description (Data 7):  "個人項目: 卒業時期"
+    Description (Data 8):  "個人項目: 卒業時期"
+    Description (Data 9):  "個人項目: 卒業時期"
+    Description (Data 10): "個人項目: 卒業時期"
+    Description (Data 11): "個人項目: 卒業時期"
+    Description (Data 12): "個人項目: 卒業時期"
+    Description (Data 13): "個人項目: 卒業時期"
+    Description (Data 14): "個人項目: 卒業時期"
+    Description (Data 15): "個人項目: 卒業時期"
+    Description (Data 16): "個人項目: 卒業時期"
+    Description (Data 17): "個人項目: 卒業時期"
+    Description (Data 18): "個人項目: 卒業時期"
+    Description (Data 19): "個人項目: 卒業時期"
+    Description (Data 20): "個人項目: 卒業時期"
+    Description (Data 21): "個人項目: 卒業時期"
+    Description (Data 22): "個人項目: 卒業時期"
+    Description (Data 23): "個人項目: 卒業時期"
+    Description (Data 24): "個人項目: 卒業時期"
+    Description (Data 25): "個人項目: 卒業時期"
+    Description (Data 26): "個人項目: 卒業時期"
+    Description (Data 27): "個人項目: 卒業時期"
+    Description (Data 28): "個人項目: 卒業時期"
+    Description (Data 29): "個人項目: 卒業時期"
+    Description (Data 30): "個人項目: 卒業時期"
+    Description (Data 31): "卒業時期"
+    Description (Data 32): "卒業時期"
     Description (Data 33): "個人項目: 卒業年度"
     Description (Data 34): "個人項目: 卒業年度"
     Description (Data 35): "個人項目: 卒業年度"
@@ -3390,34 +3390,34 @@ capture label values v22_NEWVARIABLE `val_lab'
     Values (Data 2):   1: , 2: 
     Values (Data 3):   1: , 2: 
     Values (Data 4):   1: , 2: 
-    Values (Data 5):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 6):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 7):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 8):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 9):   1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 10):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 11):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 12):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 13):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 14):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 15):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 16):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 17):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 18):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 19):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 20):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 21):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 22):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 23):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 24):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 25):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 26):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 27):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 28):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 29):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 30):  1: 年齢チェック済:01, 2: 年齢チェック済:02, 3: 年齢チェック済:03, 4: 年齢チェック済:04, 5: 年齢チェック済:05, 6: 年齢チェック済:06, 7: 年齢チェック済:07, 8: 年齢チェック済:08, 9: 年齢チェック済:09, 11: 年齢チェック済:10, 12: 年齢チェック済:11
-    Values (Data 31): None
-    Values (Data 32): None
+    Values (Data 5):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 6):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 7):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 8):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 9):   1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 10):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 11):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 12):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 13):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 14):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 15):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 16):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 17):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 18):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 19):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 20):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 21):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 22):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 23):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 24):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 25):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 26):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 27):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 28):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 29):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 30):  1: 平成19年3月新卒, 2: 平成18年3月以前卒
+    Values (Data 31):  1: 平成20年3月新卒, 2: 平成19年3月以前卒
+    Values (Data 32):  1: 平成20年3月新卒, 2: 平成19年3月以前卒
     Values (Data 33):  1: 本年3月新卒, 2: 前年3月以前卒
     Values (Data 34):  1: 本年3月新卒, 2: 前年3月以前卒
     Values (Data 35):  1: 本年3月新卒, 2: 前年3月以前卒
@@ -3443,32 +3443,34 @@ capture replace v23_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==1
 capture replace v23_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==2
 capture replace v23_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==3
 capture replace v23_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==4
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==5
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==6
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==7
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==8
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==9
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==10
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==11
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==12
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==13
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==14
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==15
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==16
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==17
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==18
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==19
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==20
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==21
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==22
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==23
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==24
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==25
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==26
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==27
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==28
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==29
-capture replace v23_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==30
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==5
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==6
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==7
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==8
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==9
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==10
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==11
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==12
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==13
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==14
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==15
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==16
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==17
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==18
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==19
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==20
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==21
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==22
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==23
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==24
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==25
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==26
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==27
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==28
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==29
+capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==30
+capture replace v23_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==31
+capture replace v23_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==32
 capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==33
 capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==34
 capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==35
@@ -3966,145 +3968,6 @@ capture label values v26_NEWVARIABLE `val_lab'
     Description (Data 2):  "個人項目離職理由: チェック済コード"
     Description (Data 3):  "個人項目離職理由: チェック済コード"
     Description (Data 4):  "個人項目離職理由: チェック済コード"
-    Description (Data 5):  "個人項目年齢: 年齢チェック済"
-    Description (Data 6):  "個人項目年齢: 年齢チェック済"
-    Description (Data 7):  "個人項目年齢: 年齢チェック済"
-    Description (Data 8):  "個人項目年齢: 年齢チェック済"
-    Description (Data 9):  "個人項目年齢: 年齢チェック済"
-    Description (Data 10): "個人項目年齢: 年齢チェック済"
-    Description (Data 11): "個人項目年齢: 年齢チェック済"
-    Description (Data 12): "個人項目年齢: 年齢チェック済"
-    Description (Data 13): "個人項目年齢: 年齢チェック済"
-    Description (Data 14): "個人項目年齢: 年齢チェック済"
-    Description (Data 15): "個人項目年齢: 年齢チェック済"
-    Description (Data 16): "個人項目年齢: 年齢チェック済"
-    Description (Data 17): "個人項目年齢: 年齢チェック済"
-    Description (Data 18): "個人項目年齢: 年齢チェック済"
-    Description (Data 19): "個人項目年齢: 年齢チェック済"
-    Description (Data 20): "個人項目年齢: 年齢チェック済"
-    Description (Data 21): "個人項目年齢: 年齢チェック済"
-    Description (Data 22): "個人項目年齢: 年齢チェック済"
-    Description (Data 23): "個人項目年齢: 年齢チェック済"
-    Description (Data 24): "個人項目年齢: 年齢チェック済"
-    Description (Data 25): "個人項目年齢: 年齢チェック済"
-    Description (Data 26): "個人項目年齢: 年齢チェック済"
-    Description (Data 27): "個人項目年齢: 年齢チェック済"
-    Description (Data 28): "個人項目年齢: 年齢チェック済"
-    Description (Data 29): "個人項目年齢: 年齢チェック済"
-    Description (Data 30): "個人項目年齢: 年齢チェック済"
-    Description (Data 31): None
-    Description (Data 32): None
-    Description (Data 33): None
-    Description (Data 34): None
-    Description (Data 35): None
-    Description (Data 36): None
-    Description (Data 37): None
-    Description (Data 38): None
-    Description (Data 39): None
-    Description (Data 40): None
-    Description (Data 41): None
-    Description (Data 42): None
-    Description (Data 43): None
-    Description (Data 44): None
-    Description (Data 45): None
-    Description (Data 46): None
-    Description (Data 47): None
-    Description (Data 48): None
-
-    Values (Base):     1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
-    Values (Data 1):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
-    Values (Data 2):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
-    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
-    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
-    Values (Data 5):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 6):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 7):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 8):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 9):   1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 10):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 11):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 12):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 13):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 14):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 15):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 16):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 17):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 18):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 19):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 20):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 21):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 22):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 23):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 24):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 25):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 26):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 27):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 28):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 29):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 30):  1: 19歳以下, 2: 20~24歳, 3: 24~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
-    Values (Data 31): None
-    Values (Data 32): None
-    Values (Data 33): None
-    Values (Data 34): None
-    Values (Data 35): None
-    Values (Data 36): None
-    Values (Data 37): None
-    Values (Data 38): None
-    Values (Data 39): None
-    Values (Data 40): None
-    Values (Data 41): None
-    Values (Data 42): None
-    Values (Data 43): None
-    Values (Data 44): None
-    Values (Data 45): None
-    Values (Data 46): None
-    Values (Data 47): None
-    Values (Data 48): None
-
-----------------------------------------------------------------------*/
-gen v27_NEWVARIABLE = .
-local var_lab: variable label var27
-local val_lab: value label var27
-capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==1
-capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==2
-capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==3
-capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==4
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==5
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==6
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==7
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==8
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==9
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==10
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==11
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==12
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==13
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==14
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==15
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==16
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==17
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==18
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==19
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==20
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==21
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==22
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==23
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==24
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==25
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==26
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==27
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==28
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==29
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==30
-capture label variable v27_NEWVARIABLE `var_lab'
-capture label values v27_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "個人項目離職理由: 離職理由コード"
-    Description (Data 1):  "個人項目離職理由: 離職理由コード"
-    Description (Data 2):  "個人項目離職理由: 離職理由コード"
-    Description (Data 3):  "個人項目離職理由: 離職理由コード"
-    Description (Data 4):  "個人項目離職理由: 離職理由コード"
     Description (Data 5):  "個人項目離職理由: 離職理由チェック済"
     Description (Data 6):  "個人項目離職理由: 離職理由チェック済"
     Description (Data 7):  "個人項目離職理由: 離職理由チェック済"
@@ -4131,30 +3994,30 @@ capture label values v27_NEWVARIABLE `val_lab'
     Description (Data 28): "個人項目離職理由: 離職理由チェック済"
     Description (Data 29): "個人項目離職理由: 離職理由チェック済"
     Description (Data 30): "個人項目離職理由: 離職理由チェック済"
-    Description (Data 31): None
-    Description (Data 32): None
-    Description (Data 33): None
-    Description (Data 34): None
-    Description (Data 35): None
-    Description (Data 36): None
-    Description (Data 37): None
-    Description (Data 38): None
-    Description (Data 39): None
-    Description (Data 40): None
-    Description (Data 41): None
-    Description (Data 42): None
-    Description (Data 43): None
-    Description (Data 44): None
-    Description (Data 45): None
-    Description (Data 46): None
-    Description (Data 47): None
-    Description (Data 48): None
+    Description (Data 31): "離職理由"
+    Description (Data 32): "離職理由"
+    Description (Data 33): "個人項目: 離職理由"
+    Description (Data 34): "個人項目: 離職理由"
+    Description (Data 35): "個人項目: 離職理由"
+    Description (Data 36): "個人項目: 離職理由"
+    Description (Data 37): "個人項目: 離職理由"
+    Description (Data 38): "個人項目: 離職理由"
+    Description (Data 39): "個人項目: 離職理由"
+    Description (Data 40): "個人項目: 離職理由"
+    Description (Data 41): "個人項目: 離職理由"
+    Description (Data 42): "個人項目: 離職理由"
+    Description (Data 43): "個人項目: 離職理由"
+    Description (Data 44): "個人項目: 離職理由"
+    Description (Data 45): "個人項目: 離職理由"
+    Description (Data 46): "個人項目: 離職理由"
+    Description (Data 47): "個人項目: 離職理由"
+    Description (Data 48): "個人項目: 離職理由"
 
-    Values (Base):     1: 分類表29を参照, 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
-    Values (Data 1):   1: 分類表29を参照, 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
-    Values (Data 2):   1: 分類表29を参照, 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
-    Values (Data 3):   1: 分類表29を参照, 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
-    Values (Data 4):   1: 分類表29を参照, 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
+    Values (Base):     1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
+    Values (Data 1):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
+    Values (Data 2):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
+    Values (Data 3):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
+    Values (Data 4):   1: , 2: , 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
     Values (Data 5):   1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
     Values (Data 6):   1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
     Values (Data 7):   1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
@@ -4181,6 +4044,163 @@ capture label values v27_NEWVARIABLE `val_lab'
     Values (Data 28):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
     Values (Data 29):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
     Values (Data 30):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 31):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 32):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 33):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 34):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 35):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 36):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 37):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 38):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 39):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 40):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 41):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 42):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 43):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 44):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 45):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 46):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 47):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+    Values (Data 48):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
+
+----------------------------------------------------------------------*/
+gen v27_NEWVARIABLE = .
+local var_lab: variable label var27
+local val_lab: value label var27
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==1
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==2
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==3
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==4
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==5
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==6
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==7
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==8
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==9
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==10
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==11
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==12
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==13
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==14
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==15
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==16
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==17
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==18
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==19
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==20
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==21
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==22
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==23
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==24
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==25
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==26
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==27
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==28
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==29
+capture replace v27_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==30
+capture replace v27_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==31
+capture replace v27_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==32
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==33
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==34
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==35
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==36
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==37
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==38
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==39
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==40
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==41
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==42
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==43
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==44
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==45
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==46
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==47
+capture replace v27_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==48
+capture label variable v27_NEWVARIABLE `var_lab'
+capture label values v27_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "個人項目離職理由: 離職理由コード"
+    Description (Data 1):  "個人項目離職理由: 離職理由コード"
+    Description (Data 2):  "個人項目離職理由: 離職理由コード"
+    Description (Data 3):  "個人項目離職理由: 離職理由コード"
+    Description (Data 4):  "個人項目離職理由: 離職理由コード"
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+
+    Values (Base):     1: 分類表29を参照, 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
+    Values (Data 1):   1: 分類表29を参照, 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
+    Values (Data 2):   1: 分類表29を参照, 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
+    Values (Data 3):   1: 分類表29を参照, 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
+    Values (Data 4):   1: 分類表29を参照, 3: , 4: , 5: , 6: , 7: , 8: , 9: , 10: 
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
     Values (Data 31): None
     Values (Data 32): None
     Values (Data 33): None
@@ -4208,32 +4228,6 @@ capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==1
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==2
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==3
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==4
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==5
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==6
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==7
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==8
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==9
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==10
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==11
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==12
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==13
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==14
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==15
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==16
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==17
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==18
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==19
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==20
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==21
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==22
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==23
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==24
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==25
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==26
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==27
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==28
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==29
-capture replace v28_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==30
 capture label variable v28_NEWVARIABLE `var_lab'
 capture label values v28_NEWVARIABLE `val_lab'
 
@@ -5706,294 +5700,6 @@ capture label values v39_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "個人項目離職理由: 分類表29"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  "個人項目離職理由: 分類表29"
-    Description (Data 6):  "個人項目離職理由: 分類表29"
-    Description (Data 7):  "個人項目離職理由: 分類表29"
-    Description (Data 8):  "個人項目離職理由: 分類表29"
-    Description (Data 9):  "個人項目離職理由: 分類表29"
-    Description (Data 10): "個人項目離職理由: 分類表29"
-    Description (Data 11): "個人項目離職理由: 分類表29"
-    Description (Data 12): "個人項目離職理由: 分類表29"
-    Description (Data 13): "個人項目離職理由: 分類表29"
-    Description (Data 14): "個人項目離職理由: 分類表29"
-    Description (Data 15): "個人項目離職理由: 分類表29"
-    Description (Data 16): "個人項目離職理由: 分類表29"
-    Description (Data 17): "個人項目離職理由: 分類表29"
-    Description (Data 18): "個人項目離職理由: 分類表29"
-    Description (Data 19): "個人項目離職理由: 分類表29"
-    Description (Data 20): "個人項目離職理由: 分類表29"
-    Description (Data 21): "個人項目離職理由: 分類表29"
-    Description (Data 22): "個人項目離職理由: 分類表29"
-    Description (Data 23): "個人項目離職理由: 分類表29"
-    Description (Data 24): "個人項目離職理由: 分類表29"
-    Description (Data 25): "個人項目離職理由: 分類表29"
-    Description (Data 26): "個人項目離職理由: 分類表29"
-    Description (Data 27): "個人項目離職理由: 分類表29"
-    Description (Data 28): "個人項目離職理由: 分類表29"
-    Description (Data 29): "個人項目離職理由: 分類表29"
-    Description (Data 30): "個人項目離職理由: 分類表29"
-    Description (Data 31): "離職理由"
-    Description (Data 32): "離職理由"
-    Description (Data 33): "個人項目: 離職理由"
-    Description (Data 34): "個人項目: 離職理由"
-    Description (Data 35): "個人項目: 離職理由"
-    Description (Data 36): "個人項目: 離職理由"
-    Description (Data 37): "個人項目: 離職理由"
-    Description (Data 38): "個人項目: 離職理由"
-    Description (Data 39): "個人項目: 離職理由"
-    Description (Data 40): "個人項目: 離職理由"
-    Description (Data 41): "個人項目: 離職理由"
-    Description (Data 42): "個人項目: 離職理由"
-    Description (Data 43): "個人項目: 離職理由"
-    Description (Data 44): "個人項目: 離職理由"
-    Description (Data 45): "個人項目: 離職理由"
-    Description (Data 46): "個人項目: 離職理由"
-    Description (Data 47): "個人項目: 離職理由"
-    Description (Data 48): "個人項目: 離職理由"
-
-    Values (Base):     1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):   1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 6):   1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 7):   1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 8):   1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 9):   1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 10):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 11):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 12):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 13):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 14):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 15):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 16):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 17):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 18):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 19):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 20):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 21):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 22):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 23):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 24):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 25):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 26):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 27):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 28):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 29):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 30):  1: 離職理由チェック済:01, 3: 離職理由チェック済:02, 4: 離職理由チェック済:03, 5: 離職理由チェック済:04, 6: 離職理由チェック済:05, 7: 離職理由チェック済:06, 8: 離職理由チェック済:11, 9: 離職理由チェック済:07, 10: 離職理由チェック済:08, 11: 離職理由チェック済:09, 12: 離職理由チェック済:10
-    Values (Data 31):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 32):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 33):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 34):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 35):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 36):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 37):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 38):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 39):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 40):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 41):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 42):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 43):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 44):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 45):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 46):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 47):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-    Values (Data 48):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
-
-----------------------------------------------------------------------*/
-gen v40_NEWVARIABLE = .
-local var_lab: variable label var37
-local val_lab: value label var37
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==5
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==6
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==7
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==8
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==9
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==10
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==11
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==12
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==13
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==14
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==15
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==16
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==17
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==18
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==19
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==20
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==21
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==22
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==23
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==24
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==25
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==26
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==27
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==28
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==29
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==30
-capture replace v40_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==31
-capture replace v40_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==32
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==33
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==34
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==35
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==36
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==37
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==38
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==39
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==40
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==41
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==42
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==43
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==44
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==45
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==46
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==47
-capture replace v40_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==48
-capture label variable v40_NEWVARIABLE `var_lab'
-capture label values v40_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "分類表1"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  "分類表1"
-    Description (Data 6):  "分類表1"
-    Description (Data 7):  "分類表1"
-    Description (Data 8):  "分類表1"
-    Description (Data 9):  "分類表1"
-    Description (Data 10): "分類表1"
-    Description (Data 11): "分類表1"
-    Description (Data 12): "分類表1"
-    Description (Data 13): "分類表1"
-    Description (Data 14): "分類表1"
-    Description (Data 15): "分類表1"
-    Description (Data 16): "分類表1"
-    Description (Data 17): "分類表1"
-    Description (Data 18): "分類表1"
-    Description (Data 19): "分類表1"
-    Description (Data 20): "分類表1"
-    Description (Data 21): "分類表1"
-    Description (Data 22): "分類表1"
-    Description (Data 23): "分類表1"
-    Description (Data 24): "分類表1"
-    Description (Data 25): "分類表1"
-    Description (Data 26): "分類表1"
-    Description (Data 27): "分類表1"
-    Description (Data 28): "分類表1"
-    Description (Data 29): "分類表1"
-    Description (Data 30): "分類表1"
-    Description (Data 31): None
-    Description (Data 32): None
-    Description (Data 33): None
-    Description (Data 34): None
-    Description (Data 35): None
-    Description (Data 36): None
-    Description (Data 37): None
-    Description (Data 38): None
-    Description (Data 39): None
-    Description (Data 40): None
-    Description (Data 41): None
-    Description (Data 42): None
-    Description (Data 43): None
-    Description (Data 44): None
-    Description (Data 45): None
-    Description (Data 46): None
-    Description (Data 47): None
-    Description (Data 48): None
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  
-    Values (Data 6):  
-    Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
-    Values (Data 31): None
-    Values (Data 32): None
-    Values (Data 33): None
-    Values (Data 34): None
-    Values (Data 35): None
-    Values (Data 36): None
-    Values (Data 37): None
-    Values (Data 38): None
-    Values (Data 39): None
-    Values (Data 40): None
-    Values (Data 41): None
-    Values (Data 42): None
-    Values (Data 43): None
-    Values (Data 44): None
-    Values (Data 45): None
-    Values (Data 46): None
-    Values (Data 47): None
-    Values (Data 48): None
-
-----------------------------------------------------------------------*/
-gen v41_NEWVARIABLE = .
-local var_lab: variable label var38
-local val_lab: value label var38
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==5
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==6
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==7
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==8
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==9
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==10
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==11
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==12
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==13
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==14
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==15
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==16
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==17
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==18
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==19
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==20
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==21
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==22
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==23
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==24
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==25
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==26
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==27
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==28
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==29
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==30
-capture label variable v41_NEWVARIABLE `var_lab'
-capture label values v41_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
     Description (Base):    "DLM8"
     Description (Data 1):  None
     Description (Data 2):  None
@@ -6095,37 +5801,37 @@ capture label values v41_NEWVARIABLE `val_lab'
     Values (Data 48): None
 
 ----------------------------------------------------------------------*/
-gen v42_NEWVARIABLE = .
+gen v40_NEWVARIABLE = .
 local var_lab: variable label var40
 local val_lab: value label var40
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==5
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==6
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==7
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==8
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==9
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==10
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==11
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==12
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==13
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==14
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==15
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==16
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==17
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==18
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==19
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==20
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==21
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==22
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==23
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==24
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==25
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==26
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==27
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==28
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==29
-capture replace v42_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==30
-capture label variable v42_NEWVARIABLE `var_lab'
-capture label values v42_NEWVARIABLE `val_lab'
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==5
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==6
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==7
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==8
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==9
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==10
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==11
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==12
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==13
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==14
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==15
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==16
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==17
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==18
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==19
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==20
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==21
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==22
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==23
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==24
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==25
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==26
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==27
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==28
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==29
+capture replace v40_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==30
+capture label variable v40_NEWVARIABLE `var_lab'
+capture label values v40_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -6230,148 +5936,37 @@ capture label values v42_NEWVARIABLE `val_lab'
     Values (Data 48): None
 
 ----------------------------------------------------------------------*/
-gen v43_NEWVARIABLE = .
+gen v41_NEWVARIABLE = .
 local var_lab: variable label var41
 local val_lab: value label var41
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==5
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==6
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==7
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==8
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==9
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==10
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==11
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==12
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==13
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==14
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==15
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==16
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==17
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==18
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==19
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==20
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==21
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==22
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==23
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==24
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==25
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==26
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==27
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==28
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==29
-capture replace v43_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==30
-capture label variable v43_NEWVARIABLE `var_lab'
-capture label values v43_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "卒業時期"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-    Description (Data 30): None
-    Description (Data 31): "卒業時期"
-    Description (Data 32): "卒業時期"
-    Description (Data 33): None
-    Description (Data 34): None
-    Description (Data 35): None
-    Description (Data 36): None
-    Description (Data 37): None
-    Description (Data 38): None
-    Description (Data 39): None
-    Description (Data 40): None
-    Description (Data 41): None
-    Description (Data 42): None
-    Description (Data 43): None
-    Description (Data 44): None
-    Description (Data 45): None
-    Description (Data 46): None
-    Description (Data 47): None
-    Description (Data 48): None
-
-    Values (Base):     1: 平成20年3月新卒, 2: 平成19年3月以前卒
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-    Values (Data 30): None
-    Values (Data 31):  1: 平成20年3月新卒, 2: 平成19年3月以前卒
-    Values (Data 32):  1: 平成20年3月新卒, 2: 平成19年3月以前卒
-    Values (Data 33): None
-    Values (Data 34): None
-    Values (Data 35): None
-    Values (Data 36): None
-    Values (Data 37): None
-    Values (Data 38): None
-    Values (Data 39): None
-    Values (Data 40): None
-    Values (Data 41): None
-    Values (Data 42): None
-    Values (Data 43): None
-    Values (Data 44): None
-    Values (Data 45): None
-    Values (Data 46): None
-    Values (Data 47): None
-    Values (Data 48): None
-
-----------------------------------------------------------------------*/
-gen v44_NEWVARIABLE = .
-local var_lab: variable label var15
-local val_lab: value label var15
-capture replace v44_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==31
-capture replace v44_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==32
-capture label variable v44_NEWVARIABLE `var_lab'
-capture label values v44_NEWVARIABLE `val_lab'
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==5
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==6
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==7
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==8
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==9
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==10
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==11
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==12
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==13
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==14
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==15
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==16
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==17
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==18
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==19
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==20
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==21
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==22
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==23
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==24
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==25
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==26
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==27
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==28
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==29
+capture replace v41_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==30
+capture label variable v41_NEWVARIABLE `var_lab'
+capture label values v41_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -6476,29 +6071,29 @@ capture label values v44_NEWVARIABLE `val_lab'
     Values (Data 48): 
 
 ----------------------------------------------------------------------*/
-gen v45_NEWVARIABLE = .
+gen v42_NEWVARIABLE = .
 local var_lab: variable label var20
 local val_lab: value label var20
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==31
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==32
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==33
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==34
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==35
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==36
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==37
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==38
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==39
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==40
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==41
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==42
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==43
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==44
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==45
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==46
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==47
-capture replace v45_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==48
-capture label variable v45_NEWVARIABLE `var_lab'
-capture label values v45_NEWVARIABLE `val_lab'
+capture replace v42_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==31
+capture replace v42_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==32
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==33
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==34
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==35
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==36
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==37
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==38
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==39
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==40
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==41
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==42
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==43
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==44
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==45
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==46
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==47
+capture replace v42_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==48
+capture label variable v42_NEWVARIABLE `var_lab'
+capture label values v42_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -6603,27 +6198,27 @@ capture label values v45_NEWVARIABLE `val_lab'
     Values (Data 48): 
 
 ----------------------------------------------------------------------*/
-gen v46_NEWVARIABLE = .
+gen v43_NEWVARIABLE = .
 local var_lab: variable label var4
 local val_lab: value label var4
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==33
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==34
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==35
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==36
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==37
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==38
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==39
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==40
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==41
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==42
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==43
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==44
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==45
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==46
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==47
-capture replace v46_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==48
-capture label variable v46_NEWVARIABLE `var_lab'
-capture label values v46_NEWVARIABLE `val_lab'
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==33
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==34
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==35
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==36
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==37
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==38
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==39
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==40
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==41
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==42
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==43
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==44
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==45
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==46
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==47
+capture replace v43_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==48
+capture label variable v43_NEWVARIABLE `var_lab'
+capture label values v43_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -6728,27 +6323,27 @@ capture label values v46_NEWVARIABLE `val_lab'
     Values (Data 48): 
 
 ----------------------------------------------------------------------*/
-gen v47_NEWVARIABLE = .
+gen v44_NEWVARIABLE = .
 local var_lab: variable label var6
 local val_lab: value label var6
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==33
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==34
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==35
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==36
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==37
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==38
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==39
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==40
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==41
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==42
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==43
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==44
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==45
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==46
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==47
-capture replace v47_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==48
-capture label variable v47_NEWVARIABLE `var_lab'
-capture label values v47_NEWVARIABLE `val_lab'
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==33
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==34
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==35
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==36
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==37
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==38
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==39
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==40
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==41
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==42
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==43
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==44
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==45
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==46
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==47
+capture replace v44_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==48
+capture label variable v44_NEWVARIABLE `var_lab'
+capture label values v44_NEWVARIABLE `val_lab'
 
 
 keep *_NEWVARIABLE

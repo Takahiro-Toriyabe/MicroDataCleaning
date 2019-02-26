@@ -86,22 +86,22 @@ class RenameExcelWriter(ExcelWriterBase):
         return len(self.source[first_key].list)
         
     def __WriteHeader__(self):
-        self.row = 0
-        self.ws1.write(self.row, 0, 'Description: Base')
-        self.ws2.write(self.row, 0, 'VarName: Base')
-        for c in range(self.__GetNumFiles__()):
-            self.ws1.write(self.row, c+1, 'Description: InFile ' + str(c))
-            self.ws2.write(self.row, c+1, 'VarName: InFile ' + str(c))
+        self.col = 0
+        self.ws1.write(0, self.col, 'Description: Base')
+        self.ws2.write(0, self.col, 'VarName: Base')
+        for r in range(self.__GetNumFiles__()):
+            self.ws1.write(r+1, self.col, 'Description: InFile ' + str(r))
+            self.ws2.write(r+1, self.col, 'VarName: InFile ' + str(r))
 
-    def __GetStyle__(self, synonym, c):
+    def __GetStyle__(self, synonym, i):
         l = synonym.list
-        var = l[c]
-        if c==0:
+        var = l[i]
+        if i==0:
             var_b = var
         else:
-            var_b = l[c-1]
+            var_b = l[i-1]
         try:
-            var_a = l[c+1]
+            var_a = l[i+1]
         except IndexError:
             var_a = var
         
@@ -137,17 +137,17 @@ class RenameExcelWriter(ExcelWriterBase):
         self.style2.pattern = pattern2
         
         for key, synonym in self.source.items():
-            self.row = self.row + 1
-            self.ws1.write(self.row, 0, synonym.baseinfo.GetFullDescription())
-            self.ws2.write(self.row, 0, synonym.baseinfo.name)
-            for c, var in enumerate(synonym.list):
-                style = self.__GetStyle__(synonym, c)
+            self.col = self.col + 1
+            self.ws1.write(0, self.col, synonym.baseinfo.GetFullDescription())
+            self.ws2.write(0, self.col, synonym.baseinfo.name)
+            for r, var in enumerate(synonym.list):
+                style = self.__GetStyle__(synonym, r)
                 try:
-                    self.ws1.write(self.row, c+1, var.GetFullDescription(), style)
-                    self.ws2.write(self.row, c+1, var.name, style) 
+                    self.ws1.write(r+1, self.col, var.GetFullDescription(), style)
+                    self.ws2.write(r+1, self.col, var.name, style) 
                 except AttributeError:
-                    self.ws1.write(self.row, c+1, '', style)
-                    self.ws2.write(self.row, c+1, '', style) 
+                    self.ws1.write(r+1, self.col, '', style)
+                    self.ws2.write(r+1, self.col, '', style) 
                        
 
     def __PrintEndMessage__(self):

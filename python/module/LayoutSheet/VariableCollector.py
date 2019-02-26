@@ -44,7 +44,6 @@ class VariableCollector:
                 del self.current_group[kaiso-1:]
                 self.current_group.append(komoku)
         
-#        print(str(self.field.GetValue(row_next, 'kaiso')))
         try:
             kaiso_next = int(float(self.field.GetValue(row_next, 'kaiso')))
             del self.current_group[kaiso_next-1:]
@@ -83,7 +82,8 @@ class VariableCollector:
                     del self.__collection[row].val_label_list[i:]
 
     def GetCollection(self):
-        return self.__collection
+        return [var for var in self.__collection if '分類表' not in var.GetFullDescription()]
+        # TODO: This filtering is ad hoc. Construct survey-specific filters.
         
 if __name__ == '__main__':
     from ExcelFileClass import ExcelFile
