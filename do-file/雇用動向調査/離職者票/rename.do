@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/27 19:01:26
+    Date: 2019/02/28 01:25:40
 ----------------------------------------------------------------------*/
 
 
@@ -6944,29 +6944,29 @@ capture label values v44_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v45_NEWVARIABLE = .
+gen v45_ToBeDropped_NEWVARIABLE = .
 local var_lab: variable label var20
 local val_lab: value label var20
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==35
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==36
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==37
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==38
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==39
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==40
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==41
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==42
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==43
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==44
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==45
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==46
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==47
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==48
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==49
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==50
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==51
-capture replace v45_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==52
-capture label variable v45_NEWVARIABLE `var_lab'
-capture label values v45_NEWVARIABLE `val_lab'
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==35
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==36
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==37
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==38
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==39
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==40
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==41
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==42
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==43
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==44
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==45
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==46
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==47
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==48
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==49
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==50
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==51
+capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==52
+capture label variable v45_ToBeDropped_NEWVARIABLE `var_lab'
+capture label values v45_ToBeDropped_NEWVARIABLE `val_lab'
 
 
 keep *_NEWVARIABLE
