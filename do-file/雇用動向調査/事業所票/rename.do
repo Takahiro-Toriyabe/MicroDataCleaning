@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/27 18:59:51
+    Date: 2019/02/28 01:21:55
 ----------------------------------------------------------------------*/
 
 
@@ -8229,18 +8229,18 @@ capture label values v49_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 42): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 43): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 44): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 45): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 46): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 47): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 48): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 49): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 50): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 51): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 52): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
@@ -8283,18 +8283,18 @@ capture label values v49_NEWVARIABLE `val_lab'
     Values (Data 38): None
     Values (Data 39): None
     Values (Data 40): None
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v50_NEWVARIABLE = .
@@ -8334,18 +8334,6 @@ capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==31
 capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==32
 capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==33
 capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==34
-capture replace v50_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==41
-capture replace v50_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==42
-capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==43
-capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==44
-capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==45
-capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==46
-capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==47
-capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==48
-capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==49
-capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==50
-capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==51
-capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==52
 capture label variable v50_NEWVARIABLE `var_lab'
 capture label values v50_NEWVARIABLE `val_lab'
 
@@ -9237,18 +9225,18 @@ capture label values v55_NEWVARIABLE `val_lab'
     Description (Data 38): None
     Description (Data 39): None
     Description (Data 40): None
-    Description (Data 41): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 42): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 43): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 44): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 45): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 46): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 47): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 48): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 49): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 50): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 51): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
-    Description (Data 52): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
@@ -9291,18 +9279,18 @@ capture label values v55_NEWVARIABLE `val_lab'
     Values (Data 38): None
     Values (Data 39): None
     Values (Data 40): None
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v56_NEWVARIABLE = .
@@ -9342,18 +9330,6 @@ capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==31
 capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==32
 capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==33
 capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==34
-capture replace v56_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==41
-capture replace v56_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==42
-capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==43
-capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==44
-capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==45
-capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==46
-capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==47
-capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==48
-capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==49
-capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==50
-capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==51
-capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==52
 capture label variable v56_NEWVARIABLE `var_lab'
 capture label values v56_NEWVARIABLE `val_lab'
 
@@ -19946,18 +19922,18 @@ capture label values v122_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数13常用労働者2: 管理"
     Description (Data 39): "職業別常用労働者数13常用労働者2: 管理"
     Description (Data 40): "職業別常用労働者数13常用労働者2: 管理"
-    Description (Data 41): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 42): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 43): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 44): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 45): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 46): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 47): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 48): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 49): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 50): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 51): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
-    Description (Data 52): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -20000,18 +19976,18 @@ capture label values v122_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v123_NEWVARIABLE = .
@@ -20039,18 +20015,6 @@ capture replace v123_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==37
 capture replace v123_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==38
 capture replace v123_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==39
 capture replace v123_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==40
-capture replace v123_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==41
-capture replace v123_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==42
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==43
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==44
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==45
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==46
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==47
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==48
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==49
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==50
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==51
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==52
 capture label variable v123_NEWVARIABLE `var_lab'
 capture label values v123_NEWVARIABLE `val_lab'
 
@@ -20097,18 +20061,18 @@ capture label values v123_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数13常用労働者3: 事務"
     Description (Data 39): "職業別常用労働者数13常用労働者3: 事務"
     Description (Data 40): "職業別常用労働者数13常用労働者3: 事務"
-    Description (Data 41): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 42): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 43): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 44): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 45): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 46): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 47): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 48): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 49): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 50): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 51): "職業別常用労働者数13常用労働者03: 事務従事者"
-    Description (Data 52): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -20151,18 +20115,18 @@ capture label values v123_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v124_NEWVARIABLE = .
@@ -20190,18 +20154,6 @@ capture replace v124_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==37
 capture replace v124_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==38
 capture replace v124_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==39
 capture replace v124_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==40
-capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==41
-capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==42
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==43
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==44
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==45
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==46
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==47
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==48
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==49
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==50
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==51
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==52
 capture label variable v124_NEWVARIABLE `var_lab'
 capture label values v124_NEWVARIABLE `val_lab'
 
@@ -20248,18 +20200,18 @@ capture label values v124_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数13常用労働者4: 販売"
     Description (Data 39): "職業別常用労働者数13常用労働者4: 販売"
     Description (Data 40): "職業別常用労働者数13常用労働者4: 販売"
-    Description (Data 41): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 42): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 43): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 44): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 45): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 46): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 47): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 48): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 49): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 50): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 51): "職業別常用労働者数13常用労働者04: 販売従事者"
-    Description (Data 52): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -20302,18 +20254,18 @@ capture label values v124_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v125_NEWVARIABLE = .
@@ -20341,18 +20293,6 @@ capture replace v125_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==37
 capture replace v125_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==38
 capture replace v125_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==39
 capture replace v125_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==40
-capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==41
-capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==42
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==43
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==44
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==45
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==46
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==47
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==48
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==49
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==50
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==51
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==52
 capture label variable v125_NEWVARIABLE `var_lab'
 capture label values v125_NEWVARIABLE `val_lab'
 
@@ -20550,18 +20490,18 @@ capture label values v126_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数13常用労働者7: 運輸・通信"
     Description (Data 39): "職業別常用労働者数13常用労働者7: 運輸・通信"
     Description (Data 40): "職業別常用労働者数13常用労働者7: 運輸・通信"
-    Description (Data 41): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 42): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 43): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 44): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 45): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 46): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 47): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 48): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 49): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 50): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 51): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
-    Description (Data 52): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -20604,18 +20544,18 @@ capture label values v126_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v127_NEWVARIABLE = .
@@ -20643,18 +20583,6 @@ capture replace v127_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==37
 capture replace v127_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==38
 capture replace v127_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==39
 capture replace v127_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==40
-capture replace v127_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==41
-capture replace v127_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==42
-capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==43
-capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==44
-capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==45
-capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==46
-capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==47
-capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==48
-capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==49
-capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==50
-capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==51
-capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==52
 capture label variable v127_NEWVARIABLE `var_lab'
 capture label values v127_NEWVARIABLE `val_lab'
 
@@ -20701,18 +20629,18 @@ capture label values v127_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数13常用労働者8: 生産・労務"
     Description (Data 39): "職業別常用労働者数13常用労働者8: 生産・労務"
     Description (Data 40): "職業別常用労働者数13常用労働者8: 生産・労務"
-    Description (Data 41): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 42): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 43): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 44): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 45): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 46): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 47): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 48): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 49): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 50): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 51): "職業別常用労働者数13常用労働者07: 生産工程従事者"
-    Description (Data 52): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -20755,18 +20683,18 @@ capture label values v127_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v128_NEWVARIABLE = .
@@ -20794,18 +20722,6 @@ capture replace v128_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==37
 capture replace v128_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==38
 capture replace v128_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==39
 capture replace v128_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==40
-capture replace v128_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==41
-capture replace v128_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==42
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==43
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==44
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==45
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==46
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==47
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==48
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==49
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==50
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==51
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==52
 capture label variable v128_NEWVARIABLE `var_lab'
 capture label values v128_NEWVARIABLE `val_lab'
 
@@ -21287,18 +21203,18 @@ capture label values v131_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数14うちパート2: 管理"
     Description (Data 39): "職業別常用労働者数14うちパート2: 管理"
     Description (Data 40): "職業別常用労働者数14うちパート2: 管理"
-    Description (Data 41): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 42): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 43): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 44): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 45): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 46): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 47): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 48): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 49): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 50): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 51): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
-    Description (Data 52): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -21341,18 +21257,18 @@ capture label values v131_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v132_NEWVARIABLE = .
@@ -21380,18 +21296,6 @@ capture replace v132_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==37
 capture replace v132_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==38
 capture replace v132_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==39
 capture replace v132_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==40
-capture replace v132_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==41
-capture replace v132_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==42
-capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==43
-capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==44
-capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==45
-capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==46
-capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==47
-capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==48
-capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==49
-capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==50
-capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==51
-capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==52
 capture label variable v132_NEWVARIABLE `var_lab'
 capture label values v132_NEWVARIABLE `val_lab'
 
@@ -21438,18 +21342,18 @@ capture label values v132_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数14うちパート3: 事務"
     Description (Data 39): "職業別常用労働者数14うちパート3: 事務"
     Description (Data 40): "職業別常用労働者数14うちパート3: 事務"
-    Description (Data 41): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 42): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 43): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 44): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 45): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 46): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 47): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 48): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 49): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 50): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 51): "職業別常用労働者数14うちパートタイム03: 事務従事者"
-    Description (Data 52): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -21492,18 +21396,18 @@ capture label values v132_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v133_NEWVARIABLE = .
@@ -21531,18 +21435,6 @@ capture replace v133_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==37
 capture replace v133_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==38
 capture replace v133_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==39
 capture replace v133_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==40
-capture replace v133_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==41
-capture replace v133_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==42
-capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==43
-capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==44
-capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==45
-capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==46
-capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==47
-capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==48
-capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==49
-capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==50
-capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==51
-capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==52
 capture label variable v133_NEWVARIABLE `var_lab'
 capture label values v133_NEWVARIABLE `val_lab'
 
@@ -21589,18 +21481,18 @@ capture label values v133_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数14うちパート4: 販売"
     Description (Data 39): "職業別常用労働者数14うちパート4: 販売"
     Description (Data 40): "職業別常用労働者数14うちパート4: 販売"
-    Description (Data 41): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 42): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 43): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 44): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 45): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 46): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 47): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 48): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 49): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 50): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 51): "職業別常用労働者数14うちパートタイム04: 販売従事者"
-    Description (Data 52): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -21643,18 +21535,18 @@ capture label values v133_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v134_NEWVARIABLE = .
@@ -21682,18 +21574,6 @@ capture replace v134_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==37
 capture replace v134_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==38
 capture replace v134_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==39
 capture replace v134_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==40
-capture replace v134_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==41
-capture replace v134_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==42
-capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==43
-capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==44
-capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==45
-capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==46
-capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==47
-capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==48
-capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==49
-capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==50
-capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==51
-capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==52
 capture label variable v134_NEWVARIABLE `var_lab'
 capture label values v134_NEWVARIABLE `val_lab'
 
@@ -21891,18 +21771,18 @@ capture label values v135_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数14うちパート7: 運輸・通信"
     Description (Data 39): "職業別常用労働者数14うちパート7: 運輸・通信"
     Description (Data 40): "職業別常用労働者数14うちパート7: 運輸・通信"
-    Description (Data 41): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 42): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 43): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 44): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 45): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 46): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 47): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 48): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 49): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 50): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 51): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 52): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -21945,18 +21825,18 @@ capture label values v135_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v136_NEWVARIABLE = .
@@ -21984,18 +21864,6 @@ capture replace v136_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==37
 capture replace v136_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==38
 capture replace v136_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==39
 capture replace v136_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==40
-capture replace v136_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==41
-capture replace v136_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==42
-capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==43
-capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==44
-capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==45
-capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==46
-capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==47
-capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==48
-capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==49
-capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==50
-capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==51
-capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==52
 capture label variable v136_NEWVARIABLE `var_lab'
 capture label values v136_NEWVARIABLE `val_lab'
 
@@ -22042,18 +21910,18 @@ capture label values v136_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数14うちパート8: 生産・労務"
     Description (Data 39): "職業別常用労働者数14うちパート8: 生産・労務"
     Description (Data 40): "職業別常用労働者数14うちパート8: 生産・労務"
-    Description (Data 41): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 42): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 43): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 44): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 45): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 46): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 47): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 48): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 49): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 50): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 51): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
-    Description (Data 52): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -22096,18 +21964,18 @@ capture label values v136_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v137_NEWVARIABLE = .
@@ -22135,18 +22003,6 @@ capture replace v137_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==37
 capture replace v137_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==38
 capture replace v137_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==39
 capture replace v137_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==40
-capture replace v137_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==41
-capture replace v137_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==42
-capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==43
-capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==44
-capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==45
-capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==46
-capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==47
-capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==48
-capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==49
-capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==50
-capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==51
-capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==52
 capture label variable v137_NEWVARIABLE `var_lab'
 capture label values v137_NEWVARIABLE `val_lab'
 
@@ -22628,18 +22484,18 @@ capture label values v140_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数15未充足求人数2: 管理"
     Description (Data 39): "職業別常用労働者数15未充足求人数2: 管理"
     Description (Data 40): "職業別常用労働者数15未充足求人数2: 管理"
-    Description (Data 41): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 42): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 43): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 44): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 45): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 46): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 47): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 48): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 49): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 50): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 51): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
-    Description (Data 52): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -22682,18 +22538,18 @@ capture label values v140_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v141_NEWVARIABLE = .
@@ -22721,18 +22577,6 @@ capture replace v141_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==37
 capture replace v141_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==38
 capture replace v141_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==39
 capture replace v141_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==40
-capture replace v141_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==41
-capture replace v141_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==42
-capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==43
-capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==44
-capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==45
-capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==46
-capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==47
-capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==48
-capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==49
-capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==50
-capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==51
-capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==52
 capture label variable v141_NEWVARIABLE `var_lab'
 capture label values v141_NEWVARIABLE `val_lab'
 
@@ -22779,18 +22623,18 @@ capture label values v141_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数15未充足求人数3: 事務"
     Description (Data 39): "職業別常用労働者数15未充足求人数3: 事務"
     Description (Data 40): "職業別常用労働者数15未充足求人数3: 事務"
-    Description (Data 41): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 42): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 43): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 44): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 45): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 46): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 47): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 48): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 49): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 50): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 51): "職業別常用労働者数15未充足求人数03: 事務従事者"
-    Description (Data 52): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -22833,18 +22677,18 @@ capture label values v141_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v142_NEWVARIABLE = .
@@ -22872,18 +22716,6 @@ capture replace v142_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==37
 capture replace v142_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==38
 capture replace v142_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==39
 capture replace v142_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==40
-capture replace v142_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==41
-capture replace v142_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==42
-capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==43
-capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==44
-capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==45
-capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==46
-capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==47
-capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==48
-capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==49
-capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==50
-capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==51
-capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==52
 capture label variable v142_NEWVARIABLE `var_lab'
 capture label values v142_NEWVARIABLE `val_lab'
 
@@ -22930,18 +22762,18 @@ capture label values v142_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数15未充足求人数4: 販売"
     Description (Data 39): "職業別常用労働者数15未充足求人数4: 販売"
     Description (Data 40): "職業別常用労働者数15未充足求人数4: 販売"
-    Description (Data 41): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 42): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 43): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 44): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 45): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 46): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 47): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 48): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 49): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 50): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 51): "職業別常用労働者数15未充足求人数04: 販売従事者"
-    Description (Data 52): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -22984,18 +22816,18 @@ capture label values v142_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v143_NEWVARIABLE = .
@@ -23023,18 +22855,6 @@ capture replace v143_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==37
 capture replace v143_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==38
 capture replace v143_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==39
 capture replace v143_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==40
-capture replace v143_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==41
-capture replace v143_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==42
-capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==43
-capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==44
-capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==45
-capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==46
-capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==47
-capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==48
-capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==49
-capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==50
-capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==51
-capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==52
 capture label variable v143_NEWVARIABLE `var_lab'
 capture label values v143_NEWVARIABLE `val_lab'
 
@@ -23232,18 +23052,18 @@ capture label values v144_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数15未充足求人数7: 運輸・通信"
     Description (Data 39): "職業別常用労働者数15未充足求人数7: 運輸・通信"
     Description (Data 40): "職業別常用労働者数15未充足求人数7: 運輸・通信"
-    Description (Data 41): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 42): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 43): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 44): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 45): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 46): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 47): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 48): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 49): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 50): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 51): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
-    Description (Data 52): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -23286,18 +23106,18 @@ capture label values v144_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v145_NEWVARIABLE = .
@@ -23325,18 +23145,6 @@ capture replace v145_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==37
 capture replace v145_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==38
 capture replace v145_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==39
 capture replace v145_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==40
-capture replace v145_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==41
-capture replace v145_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==42
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==43
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==44
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==45
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==46
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==47
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==48
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==49
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==50
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==51
-capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==52
 capture label variable v145_NEWVARIABLE `var_lab'
 capture label values v145_NEWVARIABLE `val_lab'
 
@@ -23383,18 +23191,18 @@ capture label values v145_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数15未充足求人数8: 生産・労務"
     Description (Data 39): "職業別常用労働者数15未充足求人数8: 生産・労務"
     Description (Data 40): "職業別常用労働者数15未充足求人数8: 生産・労務"
-    Description (Data 41): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 42): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 43): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 44): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 45): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 46): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 47): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 48): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 49): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 50): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 51): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
-    Description (Data 52): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -23437,18 +23245,18 @@ capture label values v145_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v146_NEWVARIABLE = .
@@ -23476,18 +23284,6 @@ capture replace v146_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==37
 capture replace v146_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==38
 capture replace v146_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==39
 capture replace v146_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==40
-capture replace v146_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==41
-capture replace v146_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==42
-capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==43
-capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==44
-capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==45
-capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==46
-capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==47
-capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==48
-capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==49
-capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==50
-capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==51
-capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==52
 capture label variable v146_NEWVARIABLE `var_lab'
 capture label values v146_NEWVARIABLE `val_lab'
 
@@ -23969,18 +23765,18 @@ capture label values v149_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数16うちパート2: 管理"
     Description (Data 39): "職業別常用労働者数16うちパート2: 管理"
     Description (Data 40): "職業別常用労働者数16うちパート2: 管理"
-    Description (Data 41): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 42): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 43): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 44): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 45): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 46): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 47): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 48): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 49): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 50): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 51): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
-    Description (Data 52): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -24023,18 +23819,18 @@ capture label values v149_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v150_NEWVARIABLE = .
@@ -24062,18 +23858,6 @@ capture replace v150_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==37
 capture replace v150_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==38
 capture replace v150_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==39
 capture replace v150_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==40
-capture replace v150_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==41
-capture replace v150_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==42
-capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==43
-capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==44
-capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==45
-capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==46
-capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==47
-capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==48
-capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==49
-capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==50
-capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==51
-capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==52
 capture label variable v150_NEWVARIABLE `var_lab'
 capture label values v150_NEWVARIABLE `val_lab'
 
@@ -24120,18 +23904,18 @@ capture label values v150_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数16うちパート3: 事務"
     Description (Data 39): "職業別常用労働者数16うちパート3: 事務"
     Description (Data 40): "職業別常用労働者数16うちパート3: 事務"
-    Description (Data 41): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 42): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 43): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 44): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 45): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 46): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 47): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 48): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 49): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 50): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 51): "職業別常用労働者数16うちパートタイム03: 事務従事者"
-    Description (Data 52): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -24174,18 +23958,18 @@ capture label values v150_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v151_NEWVARIABLE = .
@@ -24213,18 +23997,6 @@ capture replace v151_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==37
 capture replace v151_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==38
 capture replace v151_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==39
 capture replace v151_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==40
-capture replace v151_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==41
-capture replace v151_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==42
-capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==43
-capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==44
-capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==45
-capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==46
-capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==47
-capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==48
-capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==49
-capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==50
-capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==51
-capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==52
 capture label variable v151_NEWVARIABLE `var_lab'
 capture label values v151_NEWVARIABLE `val_lab'
 
@@ -24271,18 +24043,18 @@ capture label values v151_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数16うちパート4: 販売"
     Description (Data 39): "職業別常用労働者数16うちパート4: 販売"
     Description (Data 40): "職業別常用労働者数16うちパート4: 販売"
-    Description (Data 41): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 42): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 43): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 44): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 45): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 46): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 47): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 48): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 49): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 50): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 51): "職業別常用労働者数16うちパートタイム04: 販売従事者"
-    Description (Data 52): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -24325,18 +24097,18 @@ capture label values v151_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v152_NEWVARIABLE = .
@@ -24364,18 +24136,6 @@ capture replace v152_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==37
 capture replace v152_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==38
 capture replace v152_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==39
 capture replace v152_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==40
-capture replace v152_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==41
-capture replace v152_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==42
-capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==43
-capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==44
-capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==45
-capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==46
-capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==47
-capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==48
-capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==49
-capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==50
-capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==51
-capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==52
 capture label variable v152_NEWVARIABLE `var_lab'
 capture label values v152_NEWVARIABLE `val_lab'
 
@@ -24573,18 +24333,18 @@ capture label values v153_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数16うちパート7: 運輸・通信"
     Description (Data 39): "職業別常用労働者数16うちパート7: 運輸・通信"
     Description (Data 40): "職業別常用労働者数16うちパート7: 運輸・通信"
-    Description (Data 41): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 42): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 43): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 44): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 45): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 46): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 47): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 48): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 49): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 50): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 51): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
-    Description (Data 52): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -24627,18 +24387,18 @@ capture label values v153_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v154_NEWVARIABLE = .
@@ -24666,18 +24426,6 @@ capture replace v154_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==37
 capture replace v154_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==38
 capture replace v154_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==39
 capture replace v154_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==40
-capture replace v154_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==41
-capture replace v154_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==42
-capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==43
-capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==44
-capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==45
-capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==46
-capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==47
-capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==48
-capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==49
-capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==50
-capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==51
-capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==52
 capture label variable v154_NEWVARIABLE `var_lab'
 capture label values v154_NEWVARIABLE `val_lab'
 
@@ -24724,18 +24472,18 @@ capture label values v154_NEWVARIABLE `val_lab'
     Description (Data 38): "職業別常用労働者数16うちパート8: 生産・労務"
     Description (Data 39): "職業別常用労働者数16うちパート8: 生産・労務"
     Description (Data 40): "職業別常用労働者数16うちパート8: 生産・労務"
-    Description (Data 41): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 42): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 43): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 44): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 45): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 46): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 47): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 48): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 49): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 50): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 51): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
-    Description (Data 52): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  None
@@ -24778,18 +24526,18 @@ capture label values v154_NEWVARIABLE `val_lab'
     Values (Data 38): 
     Values (Data 39): 
     Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
 gen v155_NEWVARIABLE = .
@@ -24817,18 +24565,6 @@ capture replace v155_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==37
 capture replace v155_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==38
 capture replace v155_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==39
 capture replace v155_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==40
-capture replace v155_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==41
-capture replace v155_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==42
-capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==43
-capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==44
-capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==45
-capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==46
-capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==47
-capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==48
-capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==49
-capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==50
-capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==51
-capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==52
 capture label variable v155_NEWVARIABLE `var_lab'
 capture label values v155_NEWVARIABLE `val_lab'
 
@@ -27474,6 +27210,522 @@ capture label values v175_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 42): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 43): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 44): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 45): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 46): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 47): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 48): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 49): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 50): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 51): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+    Description (Data 52): "職業別常用労働者数13常用労働者01: 管理的職業従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v176_NEWVARIABLE = .
+local var_lab: variable label var100
+local val_lab: value label var100
+capture replace v176_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==41
+capture replace v176_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==42
+capture replace v176_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==43
+capture replace v176_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==44
+capture replace v176_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==45
+capture replace v176_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==46
+capture replace v176_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==47
+capture replace v176_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==48
+capture replace v176_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==49
+capture replace v176_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==50
+capture replace v176_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==51
+capture replace v176_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==52
+capture label variable v176_NEWVARIABLE `var_lab'
+capture label values v176_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 42): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 43): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 44): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 45): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 46): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 47): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 48): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 49): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 50): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 51): "職業別常用労働者数13常用労働者03: 事務従事者"
+    Description (Data 52): "職業別常用労働者数13常用労働者03: 事務従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v177_NEWVARIABLE = .
+local var_lab: variable label var102
+local val_lab: value label var102
+capture replace v177_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==41
+capture replace v177_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==42
+capture replace v177_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==43
+capture replace v177_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==44
+capture replace v177_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==45
+capture replace v177_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==46
+capture replace v177_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==47
+capture replace v177_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==48
+capture replace v177_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==49
+capture replace v177_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==50
+capture replace v177_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==51
+capture replace v177_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==52
+capture label variable v177_NEWVARIABLE `var_lab'
+capture label values v177_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 42): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 43): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 44): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 45): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 46): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 47): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 48): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 49): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 50): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 51): "職業別常用労働者数13常用労働者04: 販売従事者"
+    Description (Data 52): "職業別常用労働者数13常用労働者04: 販売従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v178_NEWVARIABLE = .
+local var_lab: variable label var103
+local val_lab: value label var103
+capture replace v178_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==41
+capture replace v178_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==42
+capture replace v178_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==43
+capture replace v178_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==44
+capture replace v178_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==45
+capture replace v178_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==46
+capture replace v178_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==47
+capture replace v178_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==48
+capture replace v178_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==49
+capture replace v178_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==50
+capture replace v178_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==51
+capture replace v178_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==52
+capture label variable v178_NEWVARIABLE `var_lab'
+capture label values v178_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 42): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 43): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 44): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 45): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 46): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 47): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 48): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 49): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 50): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 51): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+    Description (Data 52): "職業別常用労働者数13常用労働者07: 生産工程従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v179_NEWVARIABLE = .
+local var_lab: variable label var106
+local val_lab: value label var106
+capture replace v179_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==41
+capture replace v179_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==42
+capture replace v179_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==43
+capture replace v179_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==44
+capture replace v179_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==45
+capture replace v179_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==46
+capture replace v179_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==47
+capture replace v179_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==48
+capture replace v179_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==49
+capture replace v179_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==50
+capture replace v179_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==51
+capture replace v179_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==52
+capture label variable v179_NEWVARIABLE `var_lab'
+capture label values v179_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
     Description (Base):    "職業別常用労働者数13常用労働者08: 輸送・機械運転従事者"
     Description (Data 1):  None
     Description (Data 2):  None
@@ -27583,23 +27835,152 @@ capture label values v175_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v176_NEWVARIABLE = .
+gen v180_NEWVARIABLE = .
 local var_lab: variable label var107
 local val_lab: value label var107
-capture replace v176_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==41
-capture replace v176_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==42
-capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==43
-capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==44
-capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==45
-capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==46
-capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==47
-capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==48
-capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==49
-capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==50
-capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==51
-capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==52
-capture label variable v176_NEWVARIABLE `var_lab'
-capture label values v176_NEWVARIABLE `val_lab'
+capture replace v180_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==41
+capture replace v180_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==42
+capture replace v180_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==43
+capture replace v180_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==44
+capture replace v180_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==45
+capture replace v180_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==46
+capture replace v180_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==47
+capture replace v180_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==48
+capture replace v180_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==49
+capture replace v180_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==50
+capture replace v180_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==51
+capture replace v180_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==52
+capture label variable v180_NEWVARIABLE `var_lab'
+capture label values v180_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 42): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 43): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 44): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 45): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 46): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 47): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 48): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 49): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 50): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 51): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+    Description (Data 52): "職業別常用労働者数13常用労働者09: 建設・採掘従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v181_NEWVARIABLE = .
+local var_lab: variable label var108
+local val_lab: value label var108
+capture replace v181_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==41
+capture replace v181_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==42
+capture replace v181_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==43
+capture replace v181_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==44
+capture replace v181_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==45
+capture replace v181_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==46
+capture replace v181_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==47
+capture replace v181_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==48
+capture replace v181_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==49
+capture replace v181_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==50
+capture replace v181_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==51
+capture replace v181_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==52
+capture label variable v181_NEWVARIABLE `var_lab'
+capture label values v181_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27712,23 +28093,668 @@ capture label values v176_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v177_NEWVARIABLE = .
+gen v182_NEWVARIABLE = .
 local var_lab: variable label var109
 local val_lab: value label var109
-capture replace v177_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==41
-capture replace v177_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==42
-capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==43
-capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==44
-capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==45
-capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==46
-capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==47
-capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==48
-capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==49
-capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==50
-capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==51
-capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==52
-capture label variable v177_NEWVARIABLE `var_lab'
-capture label values v177_NEWVARIABLE `val_lab'
+capture replace v182_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==41
+capture replace v182_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==42
+capture replace v182_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==43
+capture replace v182_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==44
+capture replace v182_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==45
+capture replace v182_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==46
+capture replace v182_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==47
+capture replace v182_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==48
+capture replace v182_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==49
+capture replace v182_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==50
+capture replace v182_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==51
+capture replace v182_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==52
+capture label variable v182_NEWVARIABLE `var_lab'
+capture label values v182_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 42): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 43): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 44): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 45): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 46): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 47): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 48): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 49): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 50): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 51): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+    Description (Data 52): "職業別常用労働者数14うちパートタイム01: 管理的職業従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v183_NEWVARIABLE = .
+local var_lab: variable label var111
+local val_lab: value label var111
+capture replace v183_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==41
+capture replace v183_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==42
+capture replace v183_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==43
+capture replace v183_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==44
+capture replace v183_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==45
+capture replace v183_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==46
+capture replace v183_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==47
+capture replace v183_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==48
+capture replace v183_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==49
+capture replace v183_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==50
+capture replace v183_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==51
+capture replace v183_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==52
+capture label variable v183_NEWVARIABLE `var_lab'
+capture label values v183_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 42): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 43): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 44): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 45): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 46): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 47): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 48): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 49): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 50): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 51): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+    Description (Data 52): "職業別常用労働者数14うちパートタイム03: 事務従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v184_NEWVARIABLE = .
+local var_lab: variable label var113
+local val_lab: value label var113
+capture replace v184_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==41
+capture replace v184_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==42
+capture replace v184_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==43
+capture replace v184_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==44
+capture replace v184_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==45
+capture replace v184_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==46
+capture replace v184_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==47
+capture replace v184_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==48
+capture replace v184_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==49
+capture replace v184_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==50
+capture replace v184_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==51
+capture replace v184_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==52
+capture label variable v184_NEWVARIABLE `var_lab'
+capture label values v184_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 42): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 43): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 44): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 45): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 46): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 47): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 48): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 49): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 50): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 51): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+    Description (Data 52): "職業別常用労働者数14うちパートタイム04: 販売従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v185_NEWVARIABLE = .
+local var_lab: variable label var114
+local val_lab: value label var114
+capture replace v185_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==41
+capture replace v185_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==42
+capture replace v185_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==43
+capture replace v185_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==44
+capture replace v185_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==45
+capture replace v185_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==46
+capture replace v185_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==47
+capture replace v185_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==48
+capture replace v185_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==49
+capture replace v185_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==50
+capture replace v185_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==51
+capture replace v185_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==52
+capture label variable v185_NEWVARIABLE `var_lab'
+capture label values v185_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 42): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 43): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 44): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 45): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 46): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 47): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 48): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 49): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 50): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 51): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+    Description (Data 52): "職業別常用労働者数14うちパートタイム07: 生産工程従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v186_NEWVARIABLE = .
+local var_lab: variable label var117
+local val_lab: value label var117
+capture replace v186_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==41
+capture replace v186_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==42
+capture replace v186_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==43
+capture replace v186_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==44
+capture replace v186_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==45
+capture replace v186_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==46
+capture replace v186_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==47
+capture replace v186_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==48
+capture replace v186_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==49
+capture replace v186_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==50
+capture replace v186_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==51
+capture replace v186_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==52
+capture label variable v186_NEWVARIABLE `var_lab'
+capture label values v186_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 42): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 43): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 44): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 45): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 46): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 47): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 48): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 49): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 50): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 51): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 52): "職業別常用労働者数14うちパートタイム08: 輸送・機械運転従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v187_NEWVARIABLE = .
+local var_lab: variable label var118
+local val_lab: value label var118
+capture replace v187_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==41
+capture replace v187_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==42
+capture replace v187_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==43
+capture replace v187_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==44
+capture replace v187_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==45
+capture replace v187_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==46
+capture replace v187_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==47
+capture replace v187_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==48
+capture replace v187_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==49
+capture replace v187_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==50
+capture replace v187_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==51
+capture replace v187_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==52
+capture label variable v187_NEWVARIABLE `var_lab'
+capture label values v187_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27841,23 +28867,668 @@ capture label values v177_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v178_NEWVARIABLE = .
+gen v188_NEWVARIABLE = .
 local var_lab: variable label var119
 local val_lab: value label var119
-capture replace v178_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==41
-capture replace v178_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==42
-capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==43
-capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==44
-capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==45
-capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==46
-capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==47
-capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==48
-capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==49
-capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==50
-capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==51
-capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==52
-capture label variable v178_NEWVARIABLE `var_lab'
-capture label values v178_NEWVARIABLE `val_lab'
+capture replace v188_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==41
+capture replace v188_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==42
+capture replace v188_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==43
+capture replace v188_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==44
+capture replace v188_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==45
+capture replace v188_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==46
+capture replace v188_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==47
+capture replace v188_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==48
+capture replace v188_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==49
+capture replace v188_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==50
+capture replace v188_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==51
+capture replace v188_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==52
+capture label variable v188_NEWVARIABLE `var_lab'
+capture label values v188_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 42): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 43): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 44): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 45): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 46): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 47): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 48): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 49): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 50): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 51): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 52): "職業別常用労働者数14うちパートタイム10: 運搬・清掃・包装等従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v189_NEWVARIABLE = .
+local var_lab: variable label var120
+local val_lab: value label var120
+capture replace v189_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==41
+capture replace v189_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==42
+capture replace v189_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==43
+capture replace v189_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==44
+capture replace v189_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==45
+capture replace v189_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==46
+capture replace v189_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==47
+capture replace v189_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==48
+capture replace v189_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==49
+capture replace v189_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==50
+capture replace v189_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==51
+capture replace v189_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==52
+capture label variable v189_NEWVARIABLE `var_lab'
+capture label values v189_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 42): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 43): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 44): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 45): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 46): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 47): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 48): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 49): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 50): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 51): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+    Description (Data 52): "職業別常用労働者数15未充足求人数01: 管理的職業従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v190_NEWVARIABLE = .
+local var_lab: variable label var122
+local val_lab: value label var122
+capture replace v190_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==41
+capture replace v190_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==42
+capture replace v190_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==43
+capture replace v190_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==44
+capture replace v190_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==45
+capture replace v190_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==46
+capture replace v190_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==47
+capture replace v190_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==48
+capture replace v190_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==49
+capture replace v190_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==50
+capture replace v190_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==51
+capture replace v190_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==52
+capture label variable v190_NEWVARIABLE `var_lab'
+capture label values v190_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 42): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 43): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 44): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 45): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 46): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 47): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 48): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 49): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 50): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 51): "職業別常用労働者数15未充足求人数03: 事務従事者"
+    Description (Data 52): "職業別常用労働者数15未充足求人数03: 事務従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v191_NEWVARIABLE = .
+local var_lab: variable label var124
+local val_lab: value label var124
+capture replace v191_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==41
+capture replace v191_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==42
+capture replace v191_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==43
+capture replace v191_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==44
+capture replace v191_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==45
+capture replace v191_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==46
+capture replace v191_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==47
+capture replace v191_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==48
+capture replace v191_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==49
+capture replace v191_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==50
+capture replace v191_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==51
+capture replace v191_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==52
+capture label variable v191_NEWVARIABLE `var_lab'
+capture label values v191_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 42): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 43): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 44): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 45): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 46): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 47): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 48): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 49): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 50): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 51): "職業別常用労働者数15未充足求人数04: 販売従事者"
+    Description (Data 52): "職業別常用労働者数15未充足求人数04: 販売従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v192_NEWVARIABLE = .
+local var_lab: variable label var125
+local val_lab: value label var125
+capture replace v192_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==41
+capture replace v192_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==42
+capture replace v192_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==43
+capture replace v192_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==44
+capture replace v192_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==45
+capture replace v192_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==46
+capture replace v192_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==47
+capture replace v192_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==48
+capture replace v192_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==49
+capture replace v192_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==50
+capture replace v192_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==51
+capture replace v192_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==52
+capture label variable v192_NEWVARIABLE `var_lab'
+capture label values v192_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 42): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 43): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 44): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 45): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 46): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 47): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 48): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 49): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 50): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 51): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+    Description (Data 52): "職業別常用労働者数15未充足求人数07: 生産工程従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v193_NEWVARIABLE = .
+local var_lab: variable label var128
+local val_lab: value label var128
+capture replace v193_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==41
+capture replace v193_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==42
+capture replace v193_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==43
+capture replace v193_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==44
+capture replace v193_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==45
+capture replace v193_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==46
+capture replace v193_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==47
+capture replace v193_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==48
+capture replace v193_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==49
+capture replace v193_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==50
+capture replace v193_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==51
+capture replace v193_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==52
+capture label variable v193_NEWVARIABLE `var_lab'
+capture label values v193_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27970,23 +29641,152 @@ capture label values v178_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v179_NEWVARIABLE = .
+gen v194_NEWVARIABLE = .
 local var_lab: variable label var129
 local val_lab: value label var129
-capture replace v179_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==41
-capture replace v179_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==42
-capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==43
-capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==44
-capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==45
-capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==46
-capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==47
-capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==48
-capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==49
-capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==50
-capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==51
-capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==52
-capture label variable v179_NEWVARIABLE `var_lab'
-capture label values v179_NEWVARIABLE `val_lab'
+capture replace v194_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==41
+capture replace v194_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==42
+capture replace v194_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==43
+capture replace v194_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==44
+capture replace v194_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==45
+capture replace v194_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==46
+capture replace v194_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==47
+capture replace v194_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==48
+capture replace v194_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==49
+capture replace v194_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==50
+capture replace v194_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==51
+capture replace v194_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==52
+capture label variable v194_NEWVARIABLE `var_lab'
+capture label values v194_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 42): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 43): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 44): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 45): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 46): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 47): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 48): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 49): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 50): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 51): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+    Description (Data 52): "職業別常用労働者数15未充足求人数09: 建設・採掘従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v195_NEWVARIABLE = .
+local var_lab: variable label var130
+local val_lab: value label var130
+capture replace v195_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==41
+capture replace v195_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==42
+capture replace v195_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==43
+capture replace v195_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==44
+capture replace v195_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==45
+capture replace v195_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==46
+capture replace v195_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==47
+capture replace v195_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==48
+capture replace v195_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==49
+capture replace v195_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==50
+capture replace v195_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==51
+capture replace v195_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==52
+capture label variable v195_NEWVARIABLE `var_lab'
+capture label values v195_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28099,23 +29899,668 @@ capture label values v179_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v180_NEWVARIABLE = .
+gen v196_NEWVARIABLE = .
 local var_lab: variable label var131
 local val_lab: value label var131
-capture replace v180_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==41
-capture replace v180_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==42
-capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==43
-capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==44
-capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==45
-capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==46
-capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==47
-capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==48
-capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==49
-capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==50
-capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==51
-capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==52
-capture label variable v180_NEWVARIABLE `var_lab'
-capture label values v180_NEWVARIABLE `val_lab'
+capture replace v196_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==41
+capture replace v196_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==42
+capture replace v196_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==43
+capture replace v196_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==44
+capture replace v196_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==45
+capture replace v196_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==46
+capture replace v196_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==47
+capture replace v196_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==48
+capture replace v196_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==49
+capture replace v196_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==50
+capture replace v196_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==51
+capture replace v196_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==52
+capture label variable v196_NEWVARIABLE `var_lab'
+capture label values v196_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 42): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 43): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 44): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 45): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 46): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 47): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 48): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 49): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 50): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 51): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+    Description (Data 52): "職業別常用労働者数16うちパートタイム01: 管理的職業従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v197_NEWVARIABLE = .
+local var_lab: variable label var133
+local val_lab: value label var133
+capture replace v197_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==41
+capture replace v197_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==42
+capture replace v197_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==43
+capture replace v197_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==44
+capture replace v197_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==45
+capture replace v197_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==46
+capture replace v197_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==47
+capture replace v197_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==48
+capture replace v197_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==49
+capture replace v197_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==50
+capture replace v197_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==51
+capture replace v197_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==52
+capture label variable v197_NEWVARIABLE `var_lab'
+capture label values v197_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 42): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 43): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 44): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 45): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 46): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 47): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 48): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 49): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 50): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 51): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+    Description (Data 52): "職業別常用労働者数16うちパートタイム03: 事務従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v198_NEWVARIABLE = .
+local var_lab: variable label var135
+local val_lab: value label var135
+capture replace v198_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==41
+capture replace v198_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==42
+capture replace v198_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==43
+capture replace v198_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==44
+capture replace v198_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==45
+capture replace v198_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==46
+capture replace v198_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==47
+capture replace v198_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==48
+capture replace v198_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==49
+capture replace v198_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==50
+capture replace v198_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==51
+capture replace v198_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==52
+capture label variable v198_NEWVARIABLE `var_lab'
+capture label values v198_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 42): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 43): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 44): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 45): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 46): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 47): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 48): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 49): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 50): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 51): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+    Description (Data 52): "職業別常用労働者数16うちパートタイム04: 販売従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v199_NEWVARIABLE = .
+local var_lab: variable label var136
+local val_lab: value label var136
+capture replace v199_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==41
+capture replace v199_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==42
+capture replace v199_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==43
+capture replace v199_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==44
+capture replace v199_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==45
+capture replace v199_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==46
+capture replace v199_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==47
+capture replace v199_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==48
+capture replace v199_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==49
+capture replace v199_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==50
+capture replace v199_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==51
+capture replace v199_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==52
+capture label variable v199_NEWVARIABLE `var_lab'
+capture label values v199_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 42): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 43): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 44): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 45): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 46): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 47): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 48): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 49): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 50): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 51): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+    Description (Data 52): "職業別常用労働者数16うちパートタイム07: 生産工程従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v200_NEWVARIABLE = .
+local var_lab: variable label var139
+local val_lab: value label var139
+capture replace v200_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==41
+capture replace v200_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==42
+capture replace v200_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==43
+capture replace v200_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==44
+capture replace v200_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==45
+capture replace v200_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==46
+capture replace v200_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==47
+capture replace v200_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==48
+capture replace v200_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==49
+capture replace v200_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==50
+capture replace v200_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==51
+capture replace v200_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==52
+capture label variable v200_NEWVARIABLE `var_lab'
+capture label values v200_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 42): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 43): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 44): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 45): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 46): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 47): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 48): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 49): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 50): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 51): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+    Description (Data 52): "職業別常用労働者数16うちパートタイム08: 輸送・機械運転従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v201_NEWVARIABLE = .
+local var_lab: variable label var140
+local val_lab: value label var140
+capture replace v201_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==41
+capture replace v201_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==42
+capture replace v201_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==43
+capture replace v201_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==44
+capture replace v201_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==45
+capture replace v201_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==46
+capture replace v201_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==47
+capture replace v201_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==48
+capture replace v201_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==49
+capture replace v201_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==50
+capture replace v201_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==51
+capture replace v201_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==52
+capture label variable v201_NEWVARIABLE `var_lab'
+capture label values v201_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28228,23 +30673,152 @@ capture label values v180_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v181_NEWVARIABLE = .
+gen v202_NEWVARIABLE = .
 local var_lab: variable label var141
 local val_lab: value label var141
-capture replace v181_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==41
-capture replace v181_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==42
-capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==43
-capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==44
-capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==45
-capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==46
-capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==47
-capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==48
-capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==49
-capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==50
-capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==51
-capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==52
-capture label variable v181_NEWVARIABLE `var_lab'
-capture label values v181_NEWVARIABLE `val_lab'
+capture replace v202_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==41
+capture replace v202_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==42
+capture replace v202_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==43
+capture replace v202_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==44
+capture replace v202_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==45
+capture replace v202_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==46
+capture replace v202_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==47
+capture replace v202_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==48
+capture replace v202_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==49
+capture replace v202_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==50
+capture replace v202_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==51
+capture replace v202_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==52
+capture label variable v202_NEWVARIABLE `var_lab'
+capture label values v202_NEWVARIABLE `val_lab'
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 42): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 43): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 44): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 45): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 46): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 47): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 48): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 49): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 50): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 51): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+    Description (Data 52): "職業別常用労働者数16うちパートタイム10: 運搬・清掃・包装等従事者"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
+
+----------------------------------------------------------------------*/
+gen v203_NEWVARIABLE = .
+local var_lab: variable label var142
+local val_lab: value label var142
+capture replace v203_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==41
+capture replace v203_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==42
+capture replace v203_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==43
+capture replace v203_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==44
+capture replace v203_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==45
+capture replace v203_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==46
+capture replace v203_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==47
+capture replace v203_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==48
+capture replace v203_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==49
+capture replace v203_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==50
+capture replace v203_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==51
+capture replace v203_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==52
+capture label variable v203_NEWVARIABLE `var_lab'
+capture label values v203_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28357,23 +30931,23 @@ capture label values v181_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v182_NEWVARIABLE = .
+gen v204_NEWVARIABLE = .
 local var_lab: variable label var146
 local val_lab: value label var146
-capture replace v182_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==41
-capture replace v182_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==42
-capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==43
-capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==44
-capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==45
-capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==46
-capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==47
-capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==48
-capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==49
-capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==50
-capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==51
-capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==52
-capture label variable v182_NEWVARIABLE `var_lab'
-capture label values v182_NEWVARIABLE `val_lab'
+capture replace v204_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==41
+capture replace v204_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==42
+capture replace v204_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==43
+capture replace v204_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==44
+capture replace v204_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==45
+capture replace v204_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==46
+capture replace v204_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==47
+capture replace v204_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==48
+capture replace v204_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==49
+capture replace v204_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==50
+capture replace v204_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==51
+capture replace v204_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==52
+capture label variable v204_NEWVARIABLE `var_lab'
+capture label values v204_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28486,23 +31060,23 @@ capture label values v182_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v183_NEWVARIABLE = .
+gen v205_NEWVARIABLE = .
 local var_lab: variable label var147
 local val_lab: value label var147
-capture replace v183_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==41
-capture replace v183_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==42
-capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==43
-capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==44
-capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==45
-capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==46
-capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==47
-capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==48
-capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==49
-capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==50
-capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==51
-capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==52
-capture label variable v183_NEWVARIABLE `var_lab'
-capture label values v183_NEWVARIABLE `val_lab'
+capture replace v205_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==41
+capture replace v205_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==42
+capture replace v205_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==43
+capture replace v205_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==44
+capture replace v205_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==45
+capture replace v205_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==46
+capture replace v205_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==47
+capture replace v205_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==48
+capture replace v205_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==49
+capture replace v205_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==50
+capture replace v205_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==51
+capture replace v205_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==52
+capture label variable v205_NEWVARIABLE `var_lab'
+capture label values v205_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28615,21 +31189,21 @@ capture label values v183_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v184_NEWVARIABLE = .
+gen v206_NEWVARIABLE = .
 local var_lab: variable label var12
 local val_lab: value label var12
-capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==43
-capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==44
-capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==45
-capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==46
-capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==47
-capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==48
-capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==49
-capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==50
-capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==51
-capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==52
-capture label variable v184_NEWVARIABLE `var_lab'
-capture label values v184_NEWVARIABLE `val_lab'
+capture replace v206_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==43
+capture replace v206_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==44
+capture replace v206_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==45
+capture replace v206_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==46
+capture replace v206_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==47
+capture replace v206_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==48
+capture replace v206_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==49
+capture replace v206_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==50
+capture replace v206_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==51
+capture replace v206_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==52
+capture label variable v206_NEWVARIABLE `var_lab'
+capture label values v206_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28742,19 +31316,19 @@ capture label values v184_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v185_NEWVARIABLE = .
+gen v207_NEWVARIABLE = .
 local var_lab: variable label var149
 local val_lab: value label var149
-capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==45
-capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==46
-capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==47
-capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==48
-capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==49
-capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==50
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==51
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==52
-capture label variable v185_NEWVARIABLE `var_lab'
-capture label values v185_NEWVARIABLE `val_lab'
+capture replace v207_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==45
+capture replace v207_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==46
+capture replace v207_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==47
+capture replace v207_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==48
+capture replace v207_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==49
+capture replace v207_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==50
+capture replace v207_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==51
+capture replace v207_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==52
+capture label variable v207_NEWVARIABLE `var_lab'
+capture label values v207_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28867,19 +31441,19 @@ capture label values v185_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v186_NEWVARIABLE = .
+gen v208_NEWVARIABLE = .
 local var_lab: variable label var150
 local val_lab: value label var150
-capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==45
-capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==46
-capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==47
-capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==48
-capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==49
-capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==50
-capture replace v186_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==51
-capture replace v186_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==52
-capture label variable v186_NEWVARIABLE `var_lab'
-capture label values v186_NEWVARIABLE `val_lab'
+capture replace v208_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==45
+capture replace v208_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==46
+capture replace v208_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==47
+capture replace v208_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==48
+capture replace v208_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==49
+capture replace v208_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==50
+capture replace v208_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==51
+capture replace v208_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==52
+capture label variable v208_NEWVARIABLE `var_lab'
+capture label values v208_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28992,19 +31566,19 @@ capture label values v186_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v187_NEWVARIABLE = .
+gen v209_NEWVARIABLE = .
 local var_lab: variable label var151
 local val_lab: value label var151
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==45
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==46
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==47
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==48
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==49
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==50
-capture replace v187_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==51
-capture replace v187_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==52
-capture label variable v187_NEWVARIABLE `var_lab'
-capture label values v187_NEWVARIABLE `val_lab'
+capture replace v209_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==45
+capture replace v209_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==46
+capture replace v209_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==47
+capture replace v209_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==48
+capture replace v209_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==49
+capture replace v209_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==50
+capture replace v209_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==51
+capture replace v209_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==52
+capture label variable v209_NEWVARIABLE `var_lab'
+capture label values v209_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -29117,13 +31691,13 @@ capture label values v187_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 打鍵データ
 
 ----------------------------------------------------------------------*/
-gen v188_NEWVARIABLE = .
+gen v210_NEWVARIABLE = .
 local var_lab: variable label var149
 local val_lab: value label var149
-capture replace v188_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==51
-capture replace v188_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==52
-capture label variable v188_NEWVARIABLE `var_lab'
-capture label values v188_NEWVARIABLE `val_lab'
+capture replace v210_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==51
+capture replace v210_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==52
+capture label variable v210_NEWVARIABLE `var_lab'
+capture label values v210_NEWVARIABLE `val_lab'
 
 
 keep *_NEWVARIABLE
