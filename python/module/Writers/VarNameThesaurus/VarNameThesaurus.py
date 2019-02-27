@@ -4,7 +4,7 @@ import copy
 import sys
 from collections import OrderedDict
 from .AssortativeMatching import Agent, Market
-
+from .VarFilter import VarFilterFactory
 
 class SynonymVar:
     
@@ -30,6 +30,7 @@ class VarNameThesaurus:
         self.collections = collections
         self.reservation = reservation
         self.survey_name = SurveyName
+        self.filter = VarFilterFactory(self.survey_name)
         self.__MakeDict__()
         
     def __SetThesaurus__(self):
@@ -84,7 +85,8 @@ class VarNameThesaurus:
                 basevar = copy.copy([v for v in synonym.list if v is not None][0])
                 cnt = cnt + 1
                 basevar.name = 'v' + str(cnt)
-            
+                
+            basevar.name = basevar.name + '_ToBeDropped'*self.filter.IsTrashVar(basevar)
             self.dict[key].SetBaseInfo(basevar)
         
     def __MakeDict__(self):
