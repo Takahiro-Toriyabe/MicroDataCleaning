@@ -27,8 +27,8 @@
            across different data.
 
 
-    Source: （参考）符号表_雇用動向調査（入職者票）h4.xlsx
-    Date: 2019/02/27 14:27:28
+    Source: （参考）符号表_雇用動向調査（入職者票）h3-4.xlsx
+    Date: 2019/02/27 18:59:52
 ----------------------------------------------------------------------*/
 
 
@@ -86,6 +86,7 @@ capture label variable var51 "調査票コード"
 capture label variable var52 "分類表28"
 capture label variable var53 "調査票コード"
 capture label variable var54 "分類表28"
-capture label variable var55 "賃金変動"
-capture label variable var56 "分類表1コード"
-capture label variable var57 "製造業分類コード"
+capture label variable var55 "組み合せ7区分"
+capture label variable var56 "賃金変動"
+capture label variable var57 "分類表1コード"
+capture label variable var58 "製造業分類コード"

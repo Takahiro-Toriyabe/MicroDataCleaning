@@ -27,8 +27,8 @@
            across different data.
 
 
-    Source: （参考）符号表_雇用動向調査（入職者票）h4.xlsx
-    Date: 2019/02/27 14:27:28
+    Source: （参考）符号表_雇用動向調査（入職者票）h3-4.xlsx
+    Date: 2019/02/27 18:59:52
 ----------------------------------------------------------------------*/
 
 
@@ -506,27 +506,37 @@ if _rc!=0 {
 
 count if var55==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var55} (賃金変動)"
+    display as error "Only missing value: {bf:var55} (組み合せ7区分)"
 }
-capture assert inlist(var55, 1, 2, 3, 4, 5, .)
+capture assert inlist(var55, 1, 2, 3, 4, 5, 6, 7, .)
 if _rc!=0 {
-    display as error "WARNING: {bf:var55} (賃金変動) may have invalid values (Check layout sheet)"
+    display as error "WARNING: {bf:var55} (組み合せ7区分) may have invalid values (Check layout sheet)"
 }
 
 
 count if var56==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var56} (分類表1コード)"
+    display as error "Only missing value: {bf:var56} (賃金変動)"
+}
+capture assert inlist(var56, 1, 2, 3, 4, 5, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var56} (賃金変動) may have invalid values (Check layout sheet)"
 }
 
 
 count if var57==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var57} (製造業分類コード)"
+    display as error "Only missing value: {bf:var57} (分類表1コード)"
 }
-capture assert inlist(var57, 42, 43, 44, .)
+
+
+count if var58==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var58} (製造業分類コード)"
+}
+capture assert inlist(var58, 42, 43, 44, .)
 if _rc!=0 {
-    display as error "WARNING: {bf:var57} (製造業分類コード) may have invalid values (Check layout sheet)"
+    display as error "WARNING: {bf:var58} (製造業分類コード) may have invalid values (Check layout sheet)"
 }
 
 

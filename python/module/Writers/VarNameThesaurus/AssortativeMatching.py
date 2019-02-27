@@ -37,7 +37,7 @@ class Agent:
         i = self.__ArgMax__([self.MatchUtil(agent) for agent in agents])
         return agents[i]
 
-    
+
 class Market:
     
     def __init__(self, men, women):

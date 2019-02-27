@@ -183,7 +183,13 @@ main.run()
 os.chdir(inpath + "/雇用動向調査/入職者票")
 
 # List of layout tables
-infile_list = ['（参考）符号表_雇用動向調査（入職者票）h4.xlsx' for i in range(1*2)]
+infile_list = ['（参考）符号表_雇用動向調査（入職者票）h3-4.xlsx' for i in range(2*2)]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（入職者票）h5.xlsx" for i in range(1*2)
+]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（入職者票）h6-7.xlsx" for i in range(2*2)
+]
 infile_list = infile_list + [
     "（参考）符号表_雇用動向調査（入職者票）h8-9.xlsx" for i in range(2*2)
 ]
@@ -210,7 +216,7 @@ infile_list = infile_list + [
 ]
 
 # List of indices of each sheet
-sheet_index_list = [0 for i in range(9*2)]
+sheet_index_list = [0 for i in range(13*2)]
 sheet_index_list = sheet_index_list + [
     0, 0,
     0, 0,
@@ -229,7 +235,7 @@ sheet_index_list = sheet_index_list + [
 
 # List of output file names
 outfile_list = []
-for i in [4] + [j for j in range(8, 29)]:
+for i in range(3, 29):
     for j in ["F", "L"]:
         outfile = "h" + str(i) + str(j) + "/h" + str(i) + str(j)
         outfile_list.append(
@@ -237,7 +243,7 @@ for i in [4] + [j for j in range(8, 29)]:
         )
 
 data_list = []
-for i in [4] + [k for k in range(8, 29)]:
+for i in range(3, 29):
     if i < 10:
         year = '0' + str(i)
     else:
@@ -261,11 +267,17 @@ os.chdir(inpath + "/雇用動向調査/離職者票")
 # List of layout tables
 infile_list = ['（参考）符号表_雇用動向調査（離職者票）h3-4' for i in range(2*2)]
 infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（離職者票）h5.xlsx" for i in range(1*2)
+]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（離職者票）h6.xlsx" for i in range(1*2)
+]
+infile_list = infile_list + [
     "（参考）符号表_雇用動向調査（離職者票）h7-28.xlsx" for i in range((28-6)*2)
 ]
 
 # List of indices of each sheet
-sheet_index_list = [0 for i in range(2*2)]
+sheet_index_list = [0 for i in range(4*2)]
 sheet_index_list = sheet_index_list + [
     0, 0,
     0, 0,
@@ -293,7 +305,7 @@ sheet_index_list = sheet_index_list + [
 
 # List of output file names
 outfile_list = []
-for i in [3, 4] + [k for k in range(7, 29)]:
+for i in range(3, 29):
     for j in ["F", "L"]:
         outfile = "h" + str(i) + str(j) + "/h" + str(i) + str(j)
         outfile_list.append(
@@ -301,7 +313,7 @@ for i in [3, 4] + [k for k in range(7, 29)]:
         )
 
 data_list = []
-for i in [3, 4] + [k for k in range(7, 29)]:
+for i in range(3, 29):
     if i < 10:
         year = '0' + str(i)
     else:

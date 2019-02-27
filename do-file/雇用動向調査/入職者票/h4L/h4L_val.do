@@ -27,8 +27,8 @@
            across different data.
 
 
-    Source: （参考）符号表_雇用動向調査（入職者票）h4.xlsx
-    Date: 2019/02/27 14:27:28
+    Source: （参考）符号表_雇用動向調査（入職者票）h3-4.xlsx
+    Date: 2019/02/27 18:59:52
 ----------------------------------------------------------------------*/
 
 
@@ -143,9 +143,12 @@ capture label values var53 var53
 capture label define var54 8 "能力・個性・資格が生かせる" 9 "仕事内容に興味があった" 10 "会社の将来性が期待できる" 11 "福利厚生制度・施設が充実している" 12 "給料等収入が多い" 13 "労働時間・休日等の労働条件が良い" 14 "前の仕事が合わなかったやりがいを感じられなかった" 15 "前の職場の人間関係が好ましくなかった" 16 "その他の理由" 17 "通勤が便利" 18 "出向・出向からの復帰" 19 "定年・会社都合" 20 "健康上の理由" 21 "知人の紹介・スカウト等" 22 "Uターン・家庭の事情" 
 capture label values var54 var54
 
-capture label define var55 1 "3割以上増加" 2 "1割以上3割未満増加" 3 "1割未満の増加" 4 "1割以上3割未満の減少" 5 "3割以上減少" 
+capture label define var55 1 "積極的のみ" 2 "積極的+その他" 3 "積極的+消極的+その他" 4 "積極的+消極的+その他" 5 "消極的のみ" 6 "積極的+その他" 7 "その他のみ" 
 capture label values var55 var55
 
-capture label define var57 42 "消費関連産業" 43 "素材関連産業" 44 "機械関連産業" 
-capture label values var57 var57
+capture label define var56 1 "3割以上増加" 2 "1割以上3割未満増加" 3 "1割未満の増加" 4 "1割以上3割未満の減少" 5 "3割以上減少" 
+capture label values var56 var56
+
+capture label define var58 42 "消費関連産業" 43 "素材関連産業" 44 "機械関連産業" 
+capture label values var58 var58
 
