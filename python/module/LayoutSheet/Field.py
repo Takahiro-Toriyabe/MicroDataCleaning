@@ -119,9 +119,14 @@ class FieldCleaner():
         Field.row_header = 0
 
     def __KillFiller__(self, Field):
+        new_field_value = []
         for row, val in enumerate(Field.value):
-            if val[Field.info.komoku] in ['FILLER', 'Filler', 'スペース', 'ブランク', '**']:
-                del Field.value[row]
+#            trashes = ['FILLER', 'Filler', 'スペース', 'ブランク', '**']
+            trashes = ['FILLER', 'Filler', '**']
+            if all([trash not in val[Field.info.komoku] for trash in trashes]):
+                new_field_value.append(val)
+        
+        Field.value = new_field_value
 
     # Normalize cell values
     def __NormalizeCellValues__(self, Field):
