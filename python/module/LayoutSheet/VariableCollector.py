@@ -82,8 +82,10 @@ class VariableCollector:
                     del self.__collection[row].val_label_list[i:]
 
     def GetCollection(self):
-        return [var for var in self.__collection if '分類表' not in var.GetFullDescription()]
+#        return [var for var in self.__collection if '分類表' not in var.GetFullDescription()]
         # TODO: This filtering is ad hoc. Construct survey-specific filters.
+        return self.__collection
+
         
 if __name__ == '__main__':
     from ExcelFileClass import ExcelFile

@@ -310,13 +310,16 @@ class MasterFileWriter(DoFileWriterBase):
         
         self.file.write(append_command + "\n" + self.indent + ", gen(flag_tmp_NEWVARIABLE)\n\n")
         self.file.write('run "${DoFilePathTemp}/rename.do"\n')
+        self.file.write('capture drop *_ToBeDropped\n\n')
+
         self.file.write('save "${DataFilePathTemp}/data_appended.dta", replace\n\n')
         
-        self.file.write('CheckAppendValidity, data_id(flag_tmp) tol(0.2) stats("mean sd")\n')
-        self.file.write('drop flag_tmp\n\n')
-        self.file.write('log close\n\n')
+        self.file.write('CheckAppendValidity, data_id(flag_tmp) tol(0.2) stats("mean sd")\n\n')
+        
         self.file.write('macro drop DoFilePathTemp\n')
         self.file.write('macro drop DataFilePathTemp\n')
+        
+        self.file.write('log close\n\n')
 
     def __PrintEndMessage__(self):
         print('Master do-file: Done')
