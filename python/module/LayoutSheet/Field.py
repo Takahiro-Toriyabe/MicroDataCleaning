@@ -121,8 +121,7 @@ class FieldCleaner():
     def __KillFiller__(self, Field):
         new_field_value = []
         for row, val in enumerate(Field.value):
-#            trashes = ['FILLER', 'Filler', 'スペース', 'ブランク', '**']
-            trashes = ['FILLER', 'Filler', '**']
+            trashes = ['FILLER', 'Filler', 'スペース', 'ブランク', '**']
             if all([trash not in val[Field.info.komoku] for trash in trashes]):
                 new_field_value.append(val)
         

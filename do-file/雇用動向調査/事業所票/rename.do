@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/27 01:44:08
+    Date: 2019/02/27 14:27:28
 ----------------------------------------------------------------------*/
 
 
@@ -686,24 +686,24 @@ capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==31
 capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==32
 capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==33
 capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==34
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==35
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==36
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==37
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==38
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==39
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==40
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==41
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==42
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==43
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==44
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==45
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==46
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==47
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==48
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==49
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==50
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==51
-capture replace v4_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==52
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==35
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==36
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==37
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==38
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==39
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==40
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==41
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==42
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==43
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==44
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==45
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==46
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==47
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==48
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==49
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==50
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==51
+capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==52
 capture label variable v4_NEWVARIABLE `var_lab'
 capture label values v4_NEWVARIABLE `val_lab'
 
@@ -1006,24 +1006,24 @@ capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==31
 capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==32
 capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==33
 capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==34
-capture replace v6_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==35
-capture replace v6_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==36
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==37
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==38
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==39
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==40
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==41
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==42
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==43
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==44
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==45
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==46
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==47
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==48
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==49
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==50
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==51
-capture replace v6_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==52
+capture replace v6_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==35
+capture replace v6_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==36
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==37
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==38
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==39
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==40
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==41
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==42
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==43
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==44
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==45
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==46
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==47
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==48
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==49
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==50
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==51
+capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==52
 capture label variable v6_NEWVARIABLE `var_lab'
 capture label values v6_NEWVARIABLE `val_lab'
 
@@ -1175,24 +1175,24 @@ capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==31
 capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==32
 capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==33
 capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==34
-capture replace v7_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==35
-capture replace v7_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==36
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==37
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==38
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==39
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==40
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==41
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==42
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==43
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==44
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==45
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==46
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==47
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==48
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==49
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==50
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==51
-capture replace v7_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==52
+capture replace v7_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==35
+capture replace v7_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==36
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==37
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==38
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==39
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==40
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==41
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==42
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==43
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==44
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==45
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==46
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==47
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==48
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==49
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==50
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==51
+capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==52
 capture label variable v7_NEWVARIABLE `var_lab'
 capture label values v7_NEWVARIABLE `val_lab'
 
@@ -1495,24 +1495,24 @@ capture replace v9_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==31
 capture replace v9_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==32
 capture replace v9_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==33
 capture replace v9_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==34
-capture replace v9_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==35
-capture replace v9_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==36
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==37
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==38
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==39
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==40
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==41
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==42
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==43
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==44
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==45
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==46
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==47
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==48
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==49
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==50
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==51
-capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==52
+capture replace v9_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==35
+capture replace v9_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==36
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==37
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==38
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==39
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==40
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==41
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==42
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==43
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==44
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==45
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==46
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==47
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==48
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==49
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==50
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==51
+capture replace v9_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==52
 capture label variable v9_NEWVARIABLE `var_lab'
 capture label values v9_NEWVARIABLE `val_lab'
 
@@ -1664,24 +1664,24 @@ capture replace v10_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==31
 capture replace v10_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==32
 capture replace v10_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==33
 capture replace v10_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==34
-capture replace v10_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==35
-capture replace v10_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==36
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==37
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==38
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==39
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==40
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==41
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==42
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==43
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==44
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==45
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==46
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==47
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==48
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==49
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==50
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==51
-capture replace v10_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==52
+capture replace v10_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==35
+capture replace v10_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==36
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==37
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==38
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==39
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==40
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==41
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==42
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==43
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==44
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==45
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==46
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==47
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==48
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==49
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==50
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==51
+capture replace v10_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==52
 capture label variable v10_NEWVARIABLE `var_lab'
 capture label values v10_NEWVARIABLE `val_lab'
 
@@ -1833,24 +1833,24 @@ capture replace v11_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==31
 capture replace v11_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==32
 capture replace v11_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==33
 capture replace v11_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==34
-capture replace v11_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==35
-capture replace v11_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==36
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==37
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==38
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==39
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==40
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==41
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==42
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==43
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==44
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==45
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==46
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==47
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==48
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==49
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==50
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==51
-capture replace v11_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==52
+capture replace v11_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==35
+capture replace v11_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==36
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==37
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==38
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==39
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==40
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==41
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==42
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==43
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==44
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==45
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==46
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==47
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==48
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==49
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==50
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==51
+capture replace v11_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==52
 capture label variable v11_NEWVARIABLE `var_lab'
 capture label values v11_NEWVARIABLE `val_lab'
 
@@ -2002,24 +2002,24 @@ capture replace v12_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==31
 capture replace v12_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==32
 capture replace v12_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==33
 capture replace v12_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==34
-capture replace v12_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==35
-capture replace v12_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==36
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==37
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==38
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==39
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==40
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==41
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==42
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==43
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==44
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==45
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==46
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==47
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==48
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==49
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==50
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==51
-capture replace v12_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==52
+capture replace v12_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==35
+capture replace v12_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==36
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==37
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==38
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==39
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==40
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==41
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==42
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==43
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==44
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==45
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==46
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==47
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==48
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==49
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==50
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==51
+capture replace v12_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==52
 capture label variable v12_NEWVARIABLE `var_lab'
 capture label values v12_NEWVARIABLE `val_lab'
 
@@ -2775,24 +2775,24 @@ capture replace v17_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==31
 capture replace v17_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==32
 capture replace v17_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==33
 capture replace v17_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==34
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==35
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==36
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==37
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==38
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==39
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==40
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==41
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==42
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==43
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==44
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==45
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==46
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==47
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==48
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==49
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==50
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==51
-capture replace v17_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==52
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==35
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==36
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==37
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==38
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==39
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==40
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==41
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==42
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==43
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==44
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==45
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==46
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==47
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==48
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==49
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==50
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==51
+capture replace v17_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==52
 capture label variable v17_NEWVARIABLE `var_lab'
 capture label values v17_NEWVARIABLE `val_lab'
 
@@ -2944,24 +2944,24 @@ capture replace v18_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==31
 capture replace v18_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==32
 capture replace v18_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==33
 capture replace v18_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==34
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==35
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==36
-capture replace v18_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==37
-capture replace v18_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==38
-capture replace v18_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==39
-capture replace v18_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==40
-capture replace v18_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==41
-capture replace v18_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==42
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==43
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==44
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==45
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==46
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==47
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==48
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==49
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==50
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==51
-capture replace v18_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==52
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==35
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==36
+capture replace v18_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==37
+capture replace v18_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==38
+capture replace v18_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==39
+capture replace v18_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==40
+capture replace v18_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==41
+capture replace v18_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==42
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==43
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==44
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==45
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==46
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==47
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==48
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==49
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==50
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==51
+capture replace v18_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==52
 capture label variable v18_NEWVARIABLE `var_lab'
 capture label values v18_NEWVARIABLE `val_lab'
 
@@ -3113,24 +3113,24 @@ capture replace v19_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==31
 capture replace v19_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==32
 capture replace v19_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==33
 capture replace v19_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==34
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==35
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==36
-capture replace v19_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==37
-capture replace v19_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==38
-capture replace v19_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==39
-capture replace v19_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==40
-capture replace v19_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==41
-capture replace v19_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==42
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==43
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==44
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==45
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==46
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==47
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==48
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==49
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==50
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==51
-capture replace v19_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==52
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==35
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==36
+capture replace v19_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==37
+capture replace v19_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==38
+capture replace v19_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==39
+capture replace v19_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==40
+capture replace v19_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==41
+capture replace v19_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==42
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==43
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==44
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==45
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==46
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==47
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==48
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==49
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==50
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==51
+capture replace v19_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==52
 capture label variable v19_NEWVARIABLE `var_lab'
 capture label values v19_NEWVARIABLE `val_lab'
 
@@ -3282,24 +3282,24 @@ capture replace v20_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==31
 capture replace v20_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==32
 capture replace v20_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==33
 capture replace v20_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==34
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==35
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==36
-capture replace v20_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==37
-capture replace v20_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==38
-capture replace v20_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==39
-capture replace v20_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==40
-capture replace v20_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==41
-capture replace v20_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==42
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==43
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==44
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==45
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==46
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==47
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==48
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==49
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==50
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==51
-capture replace v20_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==52
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==35
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==36
+capture replace v20_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==37
+capture replace v20_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==38
+capture replace v20_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==39
+capture replace v20_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==40
+capture replace v20_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==41
+capture replace v20_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==42
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==43
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==44
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==45
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==46
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==47
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==48
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==49
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==50
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==51
+capture replace v20_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==52
 capture label variable v20_NEWVARIABLE `var_lab'
 capture label values v20_NEWVARIABLE `val_lab'
 
@@ -3451,24 +3451,24 @@ capture replace v21_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==31
 capture replace v21_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==32
 capture replace v21_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==33
 capture replace v21_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==34
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==35
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==36
-capture replace v21_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==37
-capture replace v21_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==38
-capture replace v21_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==39
-capture replace v21_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==40
-capture replace v21_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==41
-capture replace v21_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==42
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==43
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==44
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==45
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==46
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==47
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==48
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==49
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==50
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==51
-capture replace v21_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==52
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==35
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==36
+capture replace v21_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==37
+capture replace v21_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==38
+capture replace v21_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==39
+capture replace v21_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==40
+capture replace v21_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==41
+capture replace v21_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==42
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==43
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==44
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==45
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==46
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==47
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==48
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==49
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==50
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==51
+capture replace v21_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==52
 capture label variable v21_NEWVARIABLE `var_lab'
 capture label values v21_NEWVARIABLE `val_lab'
 
@@ -3620,24 +3620,24 @@ capture replace v22_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==31
 capture replace v22_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==32
 capture replace v22_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==33
 capture replace v22_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==34
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==35
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==36
-capture replace v22_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==37
-capture replace v22_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==38
-capture replace v22_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==39
-capture replace v22_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==40
-capture replace v22_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==41
-capture replace v22_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==42
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==43
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==44
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==45
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==46
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==47
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==48
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==49
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==50
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==51
-capture replace v22_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==52
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==35
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==36
+capture replace v22_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==37
+capture replace v22_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==38
+capture replace v22_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==39
+capture replace v22_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==40
+capture replace v22_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==41
+capture replace v22_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==42
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==43
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==44
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==45
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==46
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==47
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==48
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==49
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==50
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==51
+capture replace v22_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==52
 capture label variable v22_NEWVARIABLE `var_lab'
 capture label values v22_NEWVARIABLE `val_lab'
 
@@ -3789,24 +3789,24 @@ capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==31
 capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==32
 capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==33
 capture replace v23_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==34
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==35
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==36
-capture replace v23_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==37
-capture replace v23_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==38
-capture replace v23_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==39
-capture replace v23_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==40
-capture replace v23_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==41
-capture replace v23_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==42
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==43
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==44
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==45
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==46
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==47
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==48
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==49
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==50
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==51
-capture replace v23_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==52
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==35
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==36
+capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==37
+capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==38
+capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==39
+capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==40
+capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==41
+capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==42
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==43
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==44
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==45
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==46
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==47
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==48
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==49
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==50
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==51
+capture replace v23_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==52
 capture label variable v23_NEWVARIABLE `var_lab'
 capture label values v23_NEWVARIABLE `val_lab'
 
@@ -3958,24 +3958,24 @@ capture replace v24_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==31
 capture replace v24_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==32
 capture replace v24_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==33
 capture replace v24_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==34
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==35
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==36
-capture replace v24_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==37
-capture replace v24_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==38
-capture replace v24_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==39
-capture replace v24_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==40
-capture replace v24_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==41
-capture replace v24_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==42
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==43
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==44
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==45
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==46
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==47
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==48
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==49
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==50
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==51
-capture replace v24_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==52
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==35
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==36
+capture replace v24_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==37
+capture replace v24_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==38
+capture replace v24_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==39
+capture replace v24_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==40
+capture replace v24_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==41
+capture replace v24_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==42
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==43
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==44
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==45
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==46
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==47
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==48
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==49
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==50
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==51
+capture replace v24_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==52
 capture label variable v24_NEWVARIABLE `var_lab'
 capture label values v24_NEWVARIABLE `val_lab'
 
@@ -4127,24 +4127,24 @@ capture replace v25_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==31
 capture replace v25_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==32
 capture replace v25_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==33
 capture replace v25_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==34
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==35
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==36
-capture replace v25_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==37
-capture replace v25_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==38
-capture replace v25_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==39
-capture replace v25_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==40
-capture replace v25_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==41
-capture replace v25_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==42
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==43
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==44
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==45
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==46
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==47
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==48
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==49
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==50
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==51
-capture replace v25_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==52
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==35
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==36
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==37
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==38
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==39
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==40
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==41
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==42
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==43
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==44
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==45
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==46
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==47
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==48
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==49
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==50
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==51
+capture replace v25_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==52
 capture label variable v25_NEWVARIABLE `var_lab'
 capture label values v25_NEWVARIABLE `val_lab'
 
@@ -4296,24 +4296,24 @@ capture replace v26_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==31
 capture replace v26_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==32
 capture replace v26_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==33
 capture replace v26_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==34
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==35
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==36
-capture replace v26_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==37
-capture replace v26_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==38
-capture replace v26_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==39
-capture replace v26_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==40
-capture replace v26_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==41
-capture replace v26_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==42
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==43
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==44
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==45
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==46
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==47
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==48
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==49
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==50
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==51
-capture replace v26_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==52
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==35
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==36
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==37
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==38
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==39
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==40
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==41
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==42
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==43
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==44
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==45
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==46
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==47
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==48
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==49
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==50
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==51
+capture replace v26_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==52
 capture label variable v26_NEWVARIABLE `var_lab'
 capture label values v26_NEWVARIABLE `val_lab'
 
@@ -4465,24 +4465,24 @@ capture replace v27_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==31
 capture replace v27_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==32
 capture replace v27_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==33
 capture replace v27_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==34
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==35
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==36
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==37
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==38
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==39
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==40
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==41
-capture replace v27_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==42
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==43
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==44
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==45
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==46
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==47
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==48
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==49
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==50
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==51
-capture replace v27_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==52
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==35
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==36
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==37
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==38
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==39
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==40
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==41
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==42
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==43
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==44
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==45
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==46
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==47
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==48
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==49
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==50
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==51
+capture replace v27_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==52
 capture label variable v27_NEWVARIABLE `var_lab'
 capture label values v27_NEWVARIABLE `val_lab'
 
@@ -4634,24 +4634,24 @@ capture replace v28_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==31
 capture replace v28_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==32
 capture replace v28_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==33
 capture replace v28_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==34
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==35
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==36
-capture replace v28_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==37
-capture replace v28_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==38
-capture replace v28_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==39
-capture replace v28_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==40
-capture replace v28_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==41
-capture replace v28_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==42
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==43
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==44
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==45
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==46
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==47
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==48
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==49
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==50
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==51
-capture replace v28_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==52
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==35
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==36
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==37
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==38
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==39
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==40
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==41
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==42
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==43
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==44
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==45
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==46
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==47
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==48
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==49
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==50
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==51
+capture replace v28_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==52
 capture label variable v28_NEWVARIABLE `var_lab'
 capture label values v28_NEWVARIABLE `val_lab'
 
@@ -4803,24 +4803,24 @@ capture replace v29_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==31
 capture replace v29_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==32
 capture replace v29_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==33
 capture replace v29_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==34
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==35
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==36
-capture replace v29_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==37
-capture replace v29_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==38
-capture replace v29_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==39
-capture replace v29_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==40
-capture replace v29_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==41
-capture replace v29_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==42
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==43
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==44
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==45
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==46
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==47
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==48
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==49
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==50
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==51
-capture replace v29_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==52
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==35
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==36
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==37
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==38
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==39
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==40
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==41
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==42
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==43
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==44
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==45
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==46
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==47
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==48
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==49
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==50
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==51
+capture replace v29_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==52
 capture label variable v29_NEWVARIABLE `var_lab'
 capture label values v29_NEWVARIABLE `val_lab'
 
@@ -4972,24 +4972,24 @@ capture replace v30_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==31
 capture replace v30_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==32
 capture replace v30_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==33
 capture replace v30_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==34
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==35
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==36
-capture replace v30_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==37
-capture replace v30_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==38
-capture replace v30_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==39
-capture replace v30_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==40
-capture replace v30_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==41
-capture replace v30_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==42
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==43
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==44
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==45
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==46
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==47
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==48
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==49
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==50
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==51
-capture replace v30_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==52
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==35
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==36
+capture replace v30_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==37
+capture replace v30_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==38
+capture replace v30_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==39
+capture replace v30_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==40
+capture replace v30_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==41
+capture replace v30_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==42
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==43
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==44
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==45
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==46
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==47
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==48
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==49
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==50
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==51
+capture replace v30_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==52
 capture label variable v30_NEWVARIABLE `var_lab'
 capture label values v30_NEWVARIABLE `val_lab'
 
@@ -5141,24 +5141,24 @@ capture replace v31_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==31
 capture replace v31_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==32
 capture replace v31_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==33
 capture replace v31_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==34
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==35
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==36
-capture replace v31_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==37
-capture replace v31_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==38
-capture replace v31_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==39
-capture replace v31_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==40
-capture replace v31_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==41
-capture replace v31_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==42
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==43
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==44
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==45
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==46
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==47
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==48
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==49
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==50
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==51
-capture replace v31_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==52
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==35
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==36
+capture replace v31_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==37
+capture replace v31_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==38
+capture replace v31_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==39
+capture replace v31_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==40
+capture replace v31_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==41
+capture replace v31_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==42
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==43
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==44
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==45
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==46
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==47
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==48
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==49
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==50
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==51
+capture replace v31_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==52
 capture label variable v31_NEWVARIABLE `var_lab'
 capture label values v31_NEWVARIABLE `val_lab'
 
@@ -5310,24 +5310,24 @@ capture replace v32_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==31
 capture replace v32_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==32
 capture replace v32_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==33
 capture replace v32_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==34
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==35
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==36
-capture replace v32_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==37
-capture replace v32_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==38
-capture replace v32_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==39
-capture replace v32_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==40
-capture replace v32_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==41
-capture replace v32_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==42
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==43
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==44
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==45
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==46
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==47
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==48
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==49
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==50
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==51
-capture replace v32_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==52
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==35
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==36
+capture replace v32_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==37
+capture replace v32_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==38
+capture replace v32_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==39
+capture replace v32_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==40
+capture replace v32_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==41
+capture replace v32_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==42
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==43
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==44
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==45
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==46
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==47
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==48
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==49
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==50
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==51
+capture replace v32_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==52
 capture label variable v32_NEWVARIABLE `var_lab'
 capture label values v32_NEWVARIABLE `val_lab'
 
@@ -5479,24 +5479,24 @@ capture replace v33_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==31
 capture replace v33_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==32
 capture replace v33_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==33
 capture replace v33_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==34
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==35
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==36
-capture replace v33_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==37
-capture replace v33_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==38
-capture replace v33_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==39
-capture replace v33_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==40
-capture replace v33_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==41
-capture replace v33_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==42
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==43
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==44
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==45
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==46
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==47
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==48
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==49
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==50
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==51
-capture replace v33_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==52
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==35
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==36
+capture replace v33_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==37
+capture replace v33_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==38
+capture replace v33_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==39
+capture replace v33_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==40
+capture replace v33_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==41
+capture replace v33_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==42
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==43
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==44
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==45
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==46
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==47
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==48
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==49
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==50
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==51
+capture replace v33_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==52
 capture label variable v33_NEWVARIABLE `var_lab'
 capture label values v33_NEWVARIABLE `val_lab'
 
@@ -5648,24 +5648,24 @@ capture replace v34_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==31
 capture replace v34_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==32
 capture replace v34_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==33
 capture replace v34_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==34
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==35
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==36
-capture replace v34_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==37
-capture replace v34_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==38
-capture replace v34_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==39
-capture replace v34_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==40
-capture replace v34_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==41
-capture replace v34_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==42
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==43
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==44
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==45
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==46
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==47
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==48
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==49
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==50
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==51
-capture replace v34_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==52
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==35
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==36
+capture replace v34_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==37
+capture replace v34_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==38
+capture replace v34_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==39
+capture replace v34_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==40
+capture replace v34_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==41
+capture replace v34_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==42
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==43
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==44
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==45
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==46
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==47
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==48
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==49
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==50
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==51
+capture replace v34_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==52
 capture label variable v34_NEWVARIABLE `var_lab'
 capture label values v34_NEWVARIABLE `val_lab'
 
@@ -5817,24 +5817,24 @@ capture replace v35_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==31
 capture replace v35_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==32
 capture replace v35_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==33
 capture replace v35_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==34
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==35
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==36
-capture replace v35_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==37
-capture replace v35_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==38
-capture replace v35_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==39
-capture replace v35_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==40
-capture replace v35_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==41
-capture replace v35_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==42
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==43
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==44
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==45
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==46
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==47
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==48
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==49
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==50
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==51
-capture replace v35_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==52
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==35
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==36
+capture replace v35_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==37
+capture replace v35_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==38
+capture replace v35_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==39
+capture replace v35_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==40
+capture replace v35_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==41
+capture replace v35_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==42
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==43
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==44
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==45
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==46
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==47
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==48
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==49
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==50
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==51
+capture replace v35_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==52
 capture label variable v35_NEWVARIABLE `var_lab'
 capture label values v35_NEWVARIABLE `val_lab'
 
@@ -5986,24 +5986,24 @@ capture replace v36_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==31
 capture replace v36_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==32
 capture replace v36_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==33
 capture replace v36_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==34
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==35
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==36
-capture replace v36_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==37
-capture replace v36_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==38
-capture replace v36_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==39
-capture replace v36_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==40
-capture replace v36_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==41
-capture replace v36_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==42
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==43
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==44
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==45
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==46
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==47
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==48
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==49
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==50
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==51
-capture replace v36_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==52
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==35
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==36
+capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==37
+capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==38
+capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==39
+capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==40
+capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==41
+capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==42
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==43
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==44
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==45
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==46
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==47
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==48
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==49
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==50
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==51
+capture replace v36_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==52
 capture label variable v36_NEWVARIABLE `var_lab'
 capture label values v36_NEWVARIABLE `val_lab'
 
@@ -6155,24 +6155,24 @@ capture replace v37_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==31
 capture replace v37_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==32
 capture replace v37_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==33
 capture replace v37_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==34
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==35
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==36
-capture replace v37_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==37
-capture replace v37_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==38
-capture replace v37_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==39
-capture replace v37_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==40
-capture replace v37_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==41
-capture replace v37_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==42
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==43
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==44
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==45
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==46
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==47
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==48
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==49
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==50
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==51
-capture replace v37_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==52
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==35
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==36
+capture replace v37_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==37
+capture replace v37_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==38
+capture replace v37_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==39
+capture replace v37_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==40
+capture replace v37_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==41
+capture replace v37_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==42
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==43
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==44
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==45
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==46
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==47
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==48
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==49
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==50
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==51
+capture replace v37_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==52
 capture label variable v37_NEWVARIABLE `var_lab'
 capture label values v37_NEWVARIABLE `val_lab'
 
@@ -6324,24 +6324,24 @@ capture replace v38_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==31
 capture replace v38_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==32
 capture replace v38_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==33
 capture replace v38_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==34
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==35
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==36
-capture replace v38_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==37
-capture replace v38_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==38
-capture replace v38_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==39
-capture replace v38_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==40
-capture replace v38_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==41
-capture replace v38_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==42
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==43
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==44
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==45
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==46
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==47
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==48
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==49
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==50
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==51
-capture replace v38_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==52
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==35
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==36
+capture replace v38_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==37
+capture replace v38_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==38
+capture replace v38_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==39
+capture replace v38_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==40
+capture replace v38_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==41
+capture replace v38_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==42
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==43
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==44
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==45
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==46
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==47
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==48
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==49
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==50
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==51
+capture replace v38_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==52
 capture label variable v38_NEWVARIABLE `var_lab'
 capture label values v38_NEWVARIABLE `val_lab'
 
@@ -6493,24 +6493,24 @@ capture replace v39_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==31
 capture replace v39_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==32
 capture replace v39_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==33
 capture replace v39_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==34
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==35
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==36
-capture replace v39_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==37
-capture replace v39_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==38
-capture replace v39_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==39
-capture replace v39_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==40
-capture replace v39_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==41
-capture replace v39_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==42
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==43
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==44
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==45
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==46
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==47
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==48
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==49
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==50
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==51
-capture replace v39_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==52
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==35
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==36
+capture replace v39_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==37
+capture replace v39_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==38
+capture replace v39_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==39
+capture replace v39_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==40
+capture replace v39_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==41
+capture replace v39_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==42
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==43
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==44
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==45
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==46
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==47
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==48
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==49
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==50
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==51
+capture replace v39_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==52
 capture label variable v39_NEWVARIABLE `var_lab'
 capture label values v39_NEWVARIABLE `val_lab'
 
@@ -6662,24 +6662,24 @@ capture replace v40_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==31
 capture replace v40_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==32
 capture replace v40_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==33
 capture replace v40_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==34
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==35
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==36
-capture replace v40_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==37
-capture replace v40_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==38
-capture replace v40_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==39
-capture replace v40_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==40
-capture replace v40_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==41
-capture replace v40_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==42
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==43
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==44
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==45
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==46
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==47
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==48
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==49
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==50
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==51
-capture replace v40_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==52
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==35
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==36
+capture replace v40_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==37
+capture replace v40_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==38
+capture replace v40_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==39
+capture replace v40_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==40
+capture replace v40_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==41
+capture replace v40_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==42
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==43
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==44
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==45
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==46
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==47
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==48
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==49
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==50
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==51
+capture replace v40_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==52
 capture label variable v40_NEWVARIABLE `var_lab'
 capture label values v40_NEWVARIABLE `val_lab'
 
@@ -6831,24 +6831,24 @@ capture replace v41_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==31
 capture replace v41_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==32
 capture replace v41_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==33
 capture replace v41_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==34
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==35
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==36
-capture replace v41_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==37
-capture replace v41_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==38
-capture replace v41_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==39
-capture replace v41_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==40
-capture replace v41_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==41
-capture replace v41_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==42
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==43
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==44
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==45
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==46
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==47
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==48
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==49
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==50
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==51
-capture replace v41_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==52
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==35
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==36
+capture replace v41_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==37
+capture replace v41_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==38
+capture replace v41_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==39
+capture replace v41_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==40
+capture replace v41_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==41
+capture replace v41_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==42
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==43
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==44
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==45
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==46
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==47
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==48
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==49
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==50
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==51
+capture replace v41_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==52
 capture label variable v41_NEWVARIABLE `var_lab'
 capture label values v41_NEWVARIABLE `val_lab'
 
@@ -7000,24 +7000,24 @@ capture replace v42_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==31
 capture replace v42_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==32
 capture replace v42_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==33
 capture replace v42_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==34
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==35
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==36
-capture replace v42_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==37
-capture replace v42_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==38
-capture replace v42_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==39
-capture replace v42_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==40
-capture replace v42_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==41
-capture replace v42_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==42
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==43
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==44
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==45
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==46
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==47
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==48
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==49
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==50
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==51
-capture replace v42_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==52
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==35
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==36
+capture replace v42_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==37
+capture replace v42_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==38
+capture replace v42_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==39
+capture replace v42_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==40
+capture replace v42_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==41
+capture replace v42_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==42
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==43
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==44
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==45
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==46
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==47
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==48
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==49
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==50
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==51
+capture replace v42_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==52
 capture label variable v42_NEWVARIABLE `var_lab'
 capture label values v42_NEWVARIABLE `val_lab'
 
@@ -7169,24 +7169,24 @@ capture replace v43_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==31
 capture replace v43_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==32
 capture replace v43_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==33
 capture replace v43_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==34
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==35
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==36
-capture replace v43_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==37
-capture replace v43_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==38
-capture replace v43_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==39
-capture replace v43_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==40
-capture replace v43_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==41
-capture replace v43_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==42
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==43
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==44
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==45
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==46
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==47
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==48
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==49
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==50
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==51
-capture replace v43_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==52
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==35
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==36
+capture replace v43_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==37
+capture replace v43_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==38
+capture replace v43_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==39
+capture replace v43_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==40
+capture replace v43_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==41
+capture replace v43_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==42
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==43
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==44
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==45
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==46
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==47
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==48
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==49
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==50
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==51
+capture replace v43_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==52
 capture label variable v43_NEWVARIABLE `var_lab'
 capture label values v43_NEWVARIABLE `val_lab'
 
@@ -7489,24 +7489,24 @@ capture replace v45_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==31
 capture replace v45_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==32
 capture replace v45_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==33
 capture replace v45_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==34
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==35
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==36
-capture replace v45_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==37
-capture replace v45_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==38
-capture replace v45_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==39
-capture replace v45_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==40
-capture replace v45_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==41
-capture replace v45_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==42
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==43
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==44
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==45
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==46
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==47
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==48
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==49
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==50
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==51
-capture replace v45_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==52
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==35
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==36
+capture replace v45_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==37
+capture replace v45_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==38
+capture replace v45_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==39
+capture replace v45_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==40
+capture replace v45_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==41
+capture replace v45_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==42
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==43
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==44
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==45
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==46
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==47
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==48
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==49
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==50
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==51
+capture replace v45_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==52
 capture label variable v45_NEWVARIABLE `var_lab'
 capture label values v45_NEWVARIABLE `val_lab'
 
@@ -7658,24 +7658,24 @@ capture replace v46_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==31
 capture replace v46_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==32
 capture replace v46_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==33
 capture replace v46_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==34
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==35
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==36
-capture replace v46_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==37
-capture replace v46_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==38
-capture replace v46_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==39
-capture replace v46_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==40
-capture replace v46_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==41
-capture replace v46_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==42
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==43
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==44
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==45
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==46
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==47
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==48
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==49
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==50
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==51
-capture replace v46_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==52
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==35
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==36
+capture replace v46_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==37
+capture replace v46_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==38
+capture replace v46_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==39
+capture replace v46_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==40
+capture replace v46_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==41
+capture replace v46_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==42
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==43
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==44
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==45
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==46
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==47
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==48
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==49
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==50
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==51
+capture replace v46_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==52
 capture label variable v46_NEWVARIABLE `var_lab'
 capture label values v46_NEWVARIABLE `val_lab'
 
@@ -7827,24 +7827,24 @@ capture replace v47_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==31
 capture replace v47_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==32
 capture replace v47_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==33
 capture replace v47_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==34
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==35
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==36
-capture replace v47_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==37
-capture replace v47_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==38
-capture replace v47_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==39
-capture replace v47_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==40
-capture replace v47_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==41
-capture replace v47_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==42
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==43
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==44
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==45
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==46
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==47
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==48
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==49
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==50
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==51
-capture replace v47_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==52
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==35
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==36
+capture replace v47_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==37
+capture replace v47_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==38
+capture replace v47_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==39
+capture replace v47_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==40
+capture replace v47_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==41
+capture replace v47_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==42
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==43
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==44
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==45
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==46
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==47
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==48
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==49
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==50
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==51
+capture replace v47_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==52
 capture label variable v47_NEWVARIABLE `var_lab'
 capture label values v47_NEWVARIABLE `val_lab'
 
@@ -7996,24 +7996,24 @@ capture replace v48_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==31
 capture replace v48_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==32
 capture replace v48_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==33
 capture replace v48_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==34
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==35
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==36
-capture replace v48_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==37
-capture replace v48_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==38
-capture replace v48_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==39
-capture replace v48_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==40
-capture replace v48_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==41
-capture replace v48_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==42
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==43
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==44
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==45
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==46
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==47
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==48
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==49
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==50
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==51
-capture replace v48_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==52
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==35
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==36
+capture replace v48_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==37
+capture replace v48_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==38
+capture replace v48_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==39
+capture replace v48_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==40
+capture replace v48_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==41
+capture replace v48_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==42
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==43
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==44
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==45
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==46
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==47
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==48
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==49
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==50
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==51
+capture replace v48_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==52
 capture label variable v48_NEWVARIABLE `var_lab'
 capture label values v48_NEWVARIABLE `val_lab'
 
@@ -8165,24 +8165,24 @@ capture replace v49_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==31
 capture replace v49_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==32
 capture replace v49_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==33
 capture replace v49_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==34
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==35
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==36
-capture replace v49_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==37
-capture replace v49_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==38
-capture replace v49_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==39
-capture replace v49_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==40
-capture replace v49_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==41
-capture replace v49_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==42
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==43
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==44
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==45
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==46
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==47
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==48
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==49
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==50
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==51
-capture replace v49_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==52
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==35
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==36
+capture replace v49_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==37
+capture replace v49_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==38
+capture replace v49_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==39
+capture replace v49_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==40
+capture replace v49_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==41
+capture replace v49_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==42
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==43
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==44
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==45
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==46
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==47
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==48
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==49
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==50
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==51
+capture replace v49_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==52
 capture label variable v49_NEWVARIABLE `var_lab'
 capture label values v49_NEWVARIABLE `val_lab'
 
@@ -8334,18 +8334,18 @@ capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==31
 capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==32
 capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==33
 capture replace v50_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==34
-capture replace v50_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==41
-capture replace v50_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==42
-capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==43
-capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==44
-capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==45
-capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==46
-capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==47
-capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==48
-capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==49
-capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==50
-capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==51
-capture replace v50_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==52
+capture replace v50_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==41
+capture replace v50_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==42
+capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==43
+capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==44
+capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==45
+capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==46
+capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==47
+capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==48
+capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==49
+capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==50
+capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==51
+capture replace v50_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==52
 capture label variable v50_NEWVARIABLE `var_lab'
 capture label values v50_NEWVARIABLE `val_lab'
 
@@ -8497,24 +8497,24 @@ capture replace v51_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==31
 capture replace v51_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==32
 capture replace v51_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==33
 capture replace v51_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==34
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==35
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==36
-capture replace v51_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==37
-capture replace v51_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==38
-capture replace v51_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==39
-capture replace v51_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==40
-capture replace v51_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==41
-capture replace v51_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==42
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==43
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==44
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==45
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==46
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==47
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==48
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==49
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==50
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==51
-capture replace v51_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==52
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==35
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==36
+capture replace v51_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==37
+capture replace v51_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==38
+capture replace v51_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==39
+capture replace v51_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==40
+capture replace v51_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==41
+capture replace v51_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==42
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==43
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==44
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==45
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==46
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==47
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==48
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==49
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==50
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==51
+capture replace v51_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==52
 capture label variable v51_NEWVARIABLE `var_lab'
 capture label values v51_NEWVARIABLE `val_lab'
 
@@ -8666,24 +8666,24 @@ capture replace v52_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==31
 capture replace v52_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==32
 capture replace v52_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==33
 capture replace v52_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==34
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==35
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==36
-capture replace v52_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==37
-capture replace v52_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==38
-capture replace v52_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==39
-capture replace v52_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==40
-capture replace v52_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==41
-capture replace v52_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==42
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==43
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==44
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==45
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==46
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==47
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==48
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==49
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==50
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==51
-capture replace v52_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==52
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==35
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==36
+capture replace v52_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==37
+capture replace v52_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==38
+capture replace v52_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==39
+capture replace v52_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==40
+capture replace v52_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==41
+capture replace v52_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==42
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==43
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==44
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==45
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==46
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==47
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==48
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==49
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==50
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==51
+capture replace v52_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==52
 capture label variable v52_NEWVARIABLE `var_lab'
 capture label values v52_NEWVARIABLE `val_lab'
 
@@ -8835,24 +8835,24 @@ capture replace v53_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==31
 capture replace v53_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==32
 capture replace v53_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==33
 capture replace v53_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==34
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==35
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==36
-capture replace v53_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==37
-capture replace v53_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==38
-capture replace v53_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==39
-capture replace v53_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==40
-capture replace v53_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==41
-capture replace v53_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==42
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==43
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==44
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==45
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==46
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==47
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==48
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==49
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==50
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==51
-capture replace v53_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==52
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==35
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==36
+capture replace v53_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==37
+capture replace v53_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==38
+capture replace v53_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==39
+capture replace v53_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==40
+capture replace v53_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==41
+capture replace v53_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==42
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==43
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==44
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==45
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==46
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==47
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==48
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==49
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==50
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==51
+capture replace v53_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==52
 capture label variable v53_NEWVARIABLE `var_lab'
 capture label values v53_NEWVARIABLE `val_lab'
 
@@ -9004,24 +9004,24 @@ capture replace v54_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==31
 capture replace v54_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==32
 capture replace v54_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==33
 capture replace v54_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==34
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==35
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==36
-capture replace v54_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==37
-capture replace v54_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==38
-capture replace v54_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==39
-capture replace v54_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==40
-capture replace v54_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==41
-capture replace v54_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==42
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==43
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==44
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==45
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==46
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==47
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==48
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==49
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==50
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==51
-capture replace v54_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==52
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==35
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==36
+capture replace v54_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==37
+capture replace v54_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==38
+capture replace v54_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==39
+capture replace v54_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==40
+capture replace v54_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==41
+capture replace v54_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==42
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==43
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==44
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==45
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==46
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==47
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==48
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==49
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==50
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==51
+capture replace v54_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==52
 capture label variable v54_NEWVARIABLE `var_lab'
 capture label values v54_NEWVARIABLE `val_lab'
 
@@ -9173,24 +9173,24 @@ capture replace v55_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==31
 capture replace v55_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==32
 capture replace v55_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==33
 capture replace v55_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==34
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==35
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==36
-capture replace v55_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==37
-capture replace v55_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==38
-capture replace v55_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==39
-capture replace v55_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==40
-capture replace v55_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==41
-capture replace v55_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==42
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==43
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==44
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==45
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==46
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==47
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==48
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==49
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==50
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==51
-capture replace v55_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==52
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==35
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==36
+capture replace v55_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==37
+capture replace v55_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==38
+capture replace v55_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==39
+capture replace v55_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==40
+capture replace v55_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==41
+capture replace v55_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==42
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==43
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==44
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==45
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==46
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==47
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==48
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==49
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==50
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==51
+capture replace v55_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==52
 capture label variable v55_NEWVARIABLE `var_lab'
 capture label values v55_NEWVARIABLE `val_lab'
 
@@ -9342,18 +9342,18 @@ capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==31
 capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==32
 capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==33
 capture replace v56_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==34
-capture replace v56_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==41
-capture replace v56_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==42
-capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==43
-capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==44
-capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==45
-capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==46
-capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==47
-capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==48
-capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==49
-capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==50
-capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==51
-capture replace v56_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==52
+capture replace v56_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==41
+capture replace v56_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==42
+capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==43
+capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==44
+capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==45
+capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==46
+capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==47
+capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==48
+capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==49
+capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==50
+capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==51
+capture replace v56_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==52
 capture label variable v56_NEWVARIABLE `var_lab'
 capture label values v56_NEWVARIABLE `val_lab'
 
@@ -9505,24 +9505,24 @@ capture replace v57_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==31
 capture replace v57_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==32
 capture replace v57_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==33
 capture replace v57_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==34
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==35
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==36
-capture replace v57_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==37
-capture replace v57_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==38
-capture replace v57_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==39
-capture replace v57_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==40
-capture replace v57_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==41
-capture replace v57_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==42
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==43
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==44
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==45
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==46
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==47
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==48
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==49
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==50
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==51
-capture replace v57_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==52
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==35
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==36
+capture replace v57_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==37
+capture replace v57_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==38
+capture replace v57_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==39
+capture replace v57_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==40
+capture replace v57_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==41
+capture replace v57_NEWVARIABLE = var48  if flag_tmp_NEWVARIABLE==42
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==43
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==44
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==45
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==46
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==47
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==48
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==49
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==50
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==51
+capture replace v57_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==52
 capture label variable v57_NEWVARIABLE `var_lab'
 capture label values v57_NEWVARIABLE `val_lab'
 
@@ -9674,24 +9674,24 @@ capture replace v58_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==31
 capture replace v58_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==32
 capture replace v58_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==33
 capture replace v58_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==34
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==35
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==36
-capture replace v58_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==37
-capture replace v58_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==38
-capture replace v58_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==39
-capture replace v58_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==40
-capture replace v58_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==41
-capture replace v58_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==42
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==43
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==44
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==45
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==46
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==47
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==48
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==49
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==50
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==51
-capture replace v58_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==52
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==35
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==36
+capture replace v58_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==37
+capture replace v58_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==38
+capture replace v58_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==39
+capture replace v58_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==40
+capture replace v58_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==41
+capture replace v58_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==42
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==43
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==44
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==45
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==46
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==47
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==48
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==49
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==50
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==51
+capture replace v58_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==52
 capture label variable v58_NEWVARIABLE `var_lab'
 capture label values v58_NEWVARIABLE `val_lab'
 
@@ -9843,24 +9843,24 @@ capture replace v59_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==31
 capture replace v59_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==32
 capture replace v59_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==33
 capture replace v59_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==34
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==35
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==36
-capture replace v59_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==37
-capture replace v59_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==38
-capture replace v59_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==39
-capture replace v59_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==40
-capture replace v59_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==41
-capture replace v59_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==42
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==43
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==44
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==45
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==46
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==47
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==48
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==49
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==50
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==51
-capture replace v59_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==52
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==35
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==36
+capture replace v59_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==37
+capture replace v59_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==38
+capture replace v59_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==39
+capture replace v59_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==40
+capture replace v59_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==41
+capture replace v59_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==42
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==43
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==44
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==45
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==46
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==47
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==48
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==49
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==50
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==51
+capture replace v59_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==52
 capture label variable v59_NEWVARIABLE `var_lab'
 capture label values v59_NEWVARIABLE `val_lab'
 
@@ -10012,24 +10012,24 @@ capture replace v60_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==31
 capture replace v60_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==32
 capture replace v60_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==33
 capture replace v60_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==34
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==35
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==36
-capture replace v60_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==37
-capture replace v60_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==38
-capture replace v60_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==39
-capture replace v60_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==40
-capture replace v60_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==41
-capture replace v60_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==42
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==43
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==44
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==45
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==46
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==47
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==48
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==49
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==50
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==51
-capture replace v60_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==52
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==35
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==36
+capture replace v60_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==37
+capture replace v60_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==38
+capture replace v60_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==39
+capture replace v60_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==40
+capture replace v60_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==41
+capture replace v60_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==42
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==43
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==44
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==45
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==46
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==47
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==48
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==49
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==50
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==51
+capture replace v60_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==52
 capture label variable v60_NEWVARIABLE `var_lab'
 capture label values v60_NEWVARIABLE `val_lab'
 
@@ -10483,24 +10483,24 @@ capture replace v63_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==31
 capture replace v63_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==32
 capture replace v63_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==33
 capture replace v63_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==34
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==35
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==36
-capture replace v63_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==37
-capture replace v63_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==38
-capture replace v63_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==39
-capture replace v63_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==40
-capture replace v63_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==41
-capture replace v63_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==42
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==43
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==44
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==45
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==46
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==47
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==48
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==49
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==50
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==51
-capture replace v63_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==52
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==35
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==36
+capture replace v63_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==37
+capture replace v63_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==38
+capture replace v63_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==39
+capture replace v63_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==40
+capture replace v63_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==41
+capture replace v63_NEWVARIABLE = var52  if flag_tmp_NEWVARIABLE==42
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==43
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==44
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==45
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==46
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==47
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==48
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==49
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==50
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==51
+capture replace v63_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==52
 capture label variable v63_NEWVARIABLE `var_lab'
 capture label values v63_NEWVARIABLE `val_lab'
 
@@ -10803,24 +10803,24 @@ capture replace v65_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==31
 capture replace v65_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==32
 capture replace v65_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==33
 capture replace v65_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==34
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==35
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==36
-capture replace v65_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==37
-capture replace v65_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==38
-capture replace v65_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==39
-capture replace v65_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==40
-capture replace v65_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==41
-capture replace v65_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==42
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==43
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==44
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==45
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==46
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==47
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==48
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==49
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==50
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==51
-capture replace v65_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==52
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==35
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==36
+capture replace v65_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==37
+capture replace v65_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==38
+capture replace v65_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==39
+capture replace v65_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==40
+capture replace v65_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==41
+capture replace v65_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==42
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==43
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==44
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==45
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==46
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==47
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==48
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==49
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==50
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==51
+capture replace v65_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==52
 capture label variable v65_NEWVARIABLE `var_lab'
 capture label values v65_NEWVARIABLE `val_lab'
 
@@ -10972,24 +10972,24 @@ capture replace v66_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==31
 capture replace v66_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==32
 capture replace v66_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==33
 capture replace v66_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==34
-capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==35
-capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==36
-capture replace v66_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==37
-capture replace v66_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==38
-capture replace v66_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==39
-capture replace v66_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==40
-capture replace v66_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==41
-capture replace v66_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==42
-capture replace v66_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==43
-capture replace v66_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==44
-capture replace v66_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==45
-capture replace v66_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==46
-capture replace v66_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==47
-capture replace v66_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==48
-capture replace v66_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==49
-capture replace v66_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==50
-capture replace v66_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==51
-capture replace v66_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==52
+capture replace v66_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==35
+capture replace v66_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==36
+capture replace v66_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==37
+capture replace v66_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==38
+capture replace v66_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==39
+capture replace v66_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==40
+capture replace v66_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==41
+capture replace v66_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==42
+capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==43
+capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==44
+capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==45
+capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==46
+capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==47
+capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==48
+capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==49
+capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==50
+capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==51
+capture replace v66_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==52
 capture label variable v66_NEWVARIABLE `var_lab'
 capture label values v66_NEWVARIABLE `val_lab'
 
@@ -11141,24 +11141,24 @@ capture replace v67_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==31
 capture replace v67_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==32
 capture replace v67_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==33
 capture replace v67_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==34
-capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==35
-capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==36
-capture replace v67_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==37
-capture replace v67_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==38
-capture replace v67_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==39
-capture replace v67_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==40
-capture replace v67_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==41
-capture replace v67_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==42
-capture replace v67_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==43
-capture replace v67_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==44
-capture replace v67_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==45
-capture replace v67_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==46
-capture replace v67_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==47
-capture replace v67_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==48
-capture replace v67_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==49
-capture replace v67_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==50
-capture replace v67_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==51
-capture replace v67_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==52
+capture replace v67_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==35
+capture replace v67_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==36
+capture replace v67_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==37
+capture replace v67_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==38
+capture replace v67_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==39
+capture replace v67_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==40
+capture replace v67_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==41
+capture replace v67_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==42
+capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==43
+capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==44
+capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==45
+capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==46
+capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==47
+capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==48
+capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==49
+capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==50
+capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==51
+capture replace v67_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==52
 capture label variable v67_NEWVARIABLE `var_lab'
 capture label values v67_NEWVARIABLE `val_lab'
 
@@ -11310,24 +11310,24 @@ capture replace v68_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==31
 capture replace v68_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==32
 capture replace v68_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==33
 capture replace v68_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==34
-capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==35
-capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==36
-capture replace v68_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==37
-capture replace v68_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==38
-capture replace v68_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==39
-capture replace v68_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==40
-capture replace v68_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==41
-capture replace v68_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==42
-capture replace v68_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==43
-capture replace v68_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==44
-capture replace v68_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==45
-capture replace v68_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==46
-capture replace v68_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==47
-capture replace v68_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==48
-capture replace v68_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==49
-capture replace v68_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==50
-capture replace v68_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==51
-capture replace v68_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==52
+capture replace v68_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==35
+capture replace v68_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==36
+capture replace v68_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==37
+capture replace v68_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==38
+capture replace v68_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==39
+capture replace v68_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==40
+capture replace v68_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==41
+capture replace v68_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==42
+capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==43
+capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==44
+capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==45
+capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==46
+capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==47
+capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==48
+capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==49
+capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==50
+capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==51
+capture replace v68_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==52
 capture label variable v68_NEWVARIABLE `var_lab'
 capture label values v68_NEWVARIABLE `val_lab'
 
@@ -11479,24 +11479,24 @@ capture replace v69_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==31
 capture replace v69_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==32
 capture replace v69_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==33
 capture replace v69_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==34
-capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==35
-capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==36
-capture replace v69_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==37
-capture replace v69_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==38
-capture replace v69_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==39
-capture replace v69_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==40
-capture replace v69_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==41
-capture replace v69_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==42
-capture replace v69_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==43
-capture replace v69_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==44
-capture replace v69_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==45
-capture replace v69_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==46
-capture replace v69_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==47
-capture replace v69_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==48
-capture replace v69_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==49
-capture replace v69_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==50
-capture replace v69_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==51
-capture replace v69_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==52
+capture replace v69_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==35
+capture replace v69_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==36
+capture replace v69_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==37
+capture replace v69_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==38
+capture replace v69_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==39
+capture replace v69_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==40
+capture replace v69_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==41
+capture replace v69_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==42
+capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==43
+capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==44
+capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==45
+capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==46
+capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==47
+capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==48
+capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==49
+capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==50
+capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==51
+capture replace v69_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==52
 capture label variable v69_NEWVARIABLE `var_lab'
 capture label values v69_NEWVARIABLE `val_lab'
 
@@ -11890,24 +11890,24 @@ capture replace v72_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==31
 capture replace v72_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==32
 capture replace v72_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==33
 capture replace v72_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==34
-capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==35
-capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==36
-capture replace v72_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==37
-capture replace v72_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==38
-capture replace v72_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==39
-capture replace v72_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==40
-capture replace v72_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==41
-capture replace v72_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==42
-capture replace v72_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==43
-capture replace v72_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==44
-capture replace v72_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==45
-capture replace v72_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==46
-capture replace v72_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==47
-capture replace v72_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==48
-capture replace v72_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==49
-capture replace v72_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==50
-capture replace v72_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==51
-capture replace v72_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==52
+capture replace v72_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==35
+capture replace v72_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==36
+capture replace v72_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==37
+capture replace v72_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==38
+capture replace v72_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==39
+capture replace v72_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==40
+capture replace v72_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==41
+capture replace v72_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==42
+capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==43
+capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==44
+capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==45
+capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==46
+capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==47
+capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==48
+capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==49
+capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==50
+capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==51
+capture replace v72_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==52
 capture label variable v72_NEWVARIABLE `var_lab'
 capture label values v72_NEWVARIABLE `val_lab'
 
@@ -12059,24 +12059,24 @@ capture replace v73_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==31
 capture replace v73_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==32
 capture replace v73_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==33
 capture replace v73_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==34
-capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==35
-capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==36
-capture replace v73_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==37
-capture replace v73_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==38
-capture replace v73_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==39
-capture replace v73_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==40
-capture replace v73_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==41
-capture replace v73_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==42
-capture replace v73_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==43
-capture replace v73_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==44
-capture replace v73_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==45
-capture replace v73_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==46
-capture replace v73_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==47
-capture replace v73_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==48
-capture replace v73_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==49
-capture replace v73_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==50
-capture replace v73_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==51
-capture replace v73_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==52
+capture replace v73_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==35
+capture replace v73_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==36
+capture replace v73_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==37
+capture replace v73_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==38
+capture replace v73_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==39
+capture replace v73_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==40
+capture replace v73_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==41
+capture replace v73_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==42
+capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==43
+capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==44
+capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==45
+capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==46
+capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==47
+capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==48
+capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==49
+capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==50
+capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==51
+capture replace v73_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==52
 capture label variable v73_NEWVARIABLE `var_lab'
 capture label values v73_NEWVARIABLE `val_lab'
 
@@ -12228,24 +12228,24 @@ capture replace v74_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==31
 capture replace v74_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==32
 capture replace v74_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==33
 capture replace v74_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==34
-capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==35
-capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==36
-capture replace v74_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==37
-capture replace v74_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==38
-capture replace v74_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==39
-capture replace v74_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==40
-capture replace v74_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==41
-capture replace v74_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==42
-capture replace v74_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==43
-capture replace v74_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==44
-capture replace v74_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==45
-capture replace v74_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==46
-capture replace v74_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==47
-capture replace v74_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==48
-capture replace v74_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==49
-capture replace v74_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==50
-capture replace v74_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==51
-capture replace v74_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==52
+capture replace v74_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==35
+capture replace v74_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==36
+capture replace v74_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==37
+capture replace v74_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==38
+capture replace v74_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==39
+capture replace v74_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==40
+capture replace v74_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==41
+capture replace v74_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==42
+capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==43
+capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==44
+capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==45
+capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==46
+capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==47
+capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==48
+capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==49
+capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==50
+capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==51
+capture replace v74_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==52
 capture label variable v74_NEWVARIABLE `var_lab'
 capture label values v74_NEWVARIABLE `val_lab'
 
@@ -12397,24 +12397,24 @@ capture replace v75_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==31
 capture replace v75_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==32
 capture replace v75_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==33
 capture replace v75_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==34
-capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==35
-capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==36
-capture replace v75_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==37
-capture replace v75_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==38
-capture replace v75_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==39
-capture replace v75_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==40
-capture replace v75_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==41
-capture replace v75_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==42
-capture replace v75_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==43
-capture replace v75_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==44
-capture replace v75_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==45
-capture replace v75_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==46
-capture replace v75_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==47
-capture replace v75_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==48
-capture replace v75_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==49
-capture replace v75_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==50
-capture replace v75_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==51
-capture replace v75_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==52
+capture replace v75_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==35
+capture replace v75_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==36
+capture replace v75_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==37
+capture replace v75_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==38
+capture replace v75_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==39
+capture replace v75_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==40
+capture replace v75_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==41
+capture replace v75_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==42
+capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==43
+capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==44
+capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==45
+capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==46
+capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==47
+capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==48
+capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==49
+capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==50
+capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==51
+capture replace v75_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==52
 capture label variable v75_NEWVARIABLE `var_lab'
 capture label values v75_NEWVARIABLE `val_lab'
 
@@ -12566,24 +12566,24 @@ capture replace v76_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==31
 capture replace v76_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==32
 capture replace v76_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==33
 capture replace v76_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==34
-capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==35
-capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==36
-capture replace v76_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==37
-capture replace v76_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==38
-capture replace v76_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==39
-capture replace v76_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==40
-capture replace v76_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==41
-capture replace v76_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==42
-capture replace v76_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==43
-capture replace v76_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==44
-capture replace v76_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==45
-capture replace v76_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==46
-capture replace v76_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==47
-capture replace v76_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==48
-capture replace v76_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==49
-capture replace v76_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==50
-capture replace v76_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==51
-capture replace v76_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==52
+capture replace v76_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==35
+capture replace v76_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==36
+capture replace v76_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==37
+capture replace v76_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==38
+capture replace v76_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==39
+capture replace v76_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==40
+capture replace v76_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==41
+capture replace v76_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==42
+capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==43
+capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==44
+capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==45
+capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==46
+capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==47
+capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==48
+capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==49
+capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==50
+capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==51
+capture replace v76_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==52
 capture label variable v76_NEWVARIABLE `var_lab'
 capture label values v76_NEWVARIABLE `val_lab'
 
@@ -12735,24 +12735,24 @@ capture replace v77_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==31
 capture replace v77_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==32
 capture replace v77_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==33
 capture replace v77_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==34
-capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==35
-capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==36
-capture replace v77_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==37
-capture replace v77_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==38
-capture replace v77_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==39
-capture replace v77_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==40
-capture replace v77_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==41
-capture replace v77_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==42
-capture replace v77_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==43
-capture replace v77_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==44
-capture replace v77_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==45
-capture replace v77_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==46
-capture replace v77_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==47
-capture replace v77_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==48
-capture replace v77_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==49
-capture replace v77_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==50
-capture replace v77_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==51
-capture replace v77_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==52
+capture replace v77_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==35
+capture replace v77_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==36
+capture replace v77_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==37
+capture replace v77_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==38
+capture replace v77_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==39
+capture replace v77_NEWVARIABLE = var67  if flag_tmp_NEWVARIABLE==40
+capture replace v77_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==41
+capture replace v77_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==42
+capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==43
+capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==44
+capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==45
+capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==46
+capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==47
+capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==48
+capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==49
+capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==50
+capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==51
+capture replace v77_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==52
 capture label variable v77_NEWVARIABLE `var_lab'
 capture label values v77_NEWVARIABLE `val_lab'
 
@@ -12904,24 +12904,24 @@ capture replace v78_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==31
 capture replace v78_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==32
 capture replace v78_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==33
 capture replace v78_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==34
-capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==35
-capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==36
-capture replace v78_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==37
-capture replace v78_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==38
-capture replace v78_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==39
-capture replace v78_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==40
-capture replace v78_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==41
-capture replace v78_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==42
-capture replace v78_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==43
-capture replace v78_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==44
-capture replace v78_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==45
-capture replace v78_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==46
-capture replace v78_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==47
-capture replace v78_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==48
-capture replace v78_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==49
-capture replace v78_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==50
-capture replace v78_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==51
-capture replace v78_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==52
+capture replace v78_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==35
+capture replace v78_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==36
+capture replace v78_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==37
+capture replace v78_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==38
+capture replace v78_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==39
+capture replace v78_NEWVARIABLE = var68  if flag_tmp_NEWVARIABLE==40
+capture replace v78_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==41
+capture replace v78_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==42
+capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==43
+capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==44
+capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==45
+capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==46
+capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==47
+capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==48
+capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==49
+capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==50
+capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==51
+capture replace v78_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==52
 capture label variable v78_NEWVARIABLE `var_lab'
 capture label values v78_NEWVARIABLE `val_lab'
 
@@ -13315,24 +13315,24 @@ capture replace v81_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==31
 capture replace v81_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==32
 capture replace v81_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==33
 capture replace v81_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==34
-capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==35
-capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==36
-capture replace v81_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==37
-capture replace v81_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==38
-capture replace v81_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==39
-capture replace v81_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==40
-capture replace v81_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==41
-capture replace v81_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==42
-capture replace v81_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==43
-capture replace v81_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==44
-capture replace v81_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==45
-capture replace v81_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==46
-capture replace v81_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==47
-capture replace v81_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==48
-capture replace v81_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==49
-capture replace v81_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==50
-capture replace v81_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==51
-capture replace v81_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==52
+capture replace v81_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==35
+capture replace v81_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==36
+capture replace v81_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==37
+capture replace v81_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==38
+capture replace v81_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==39
+capture replace v81_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==40
+capture replace v81_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==41
+capture replace v81_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==42
+capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==43
+capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==44
+capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==45
+capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==46
+capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==47
+capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==48
+capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==49
+capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==50
+capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==51
+capture replace v81_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==52
 capture label variable v81_NEWVARIABLE `var_lab'
 capture label values v81_NEWVARIABLE `val_lab'
 
@@ -13484,24 +13484,24 @@ capture replace v82_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==31
 capture replace v82_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==32
 capture replace v82_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==33
 capture replace v82_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==34
-capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==35
-capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==36
-capture replace v82_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==37
-capture replace v82_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==38
-capture replace v82_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==39
-capture replace v82_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==40
-capture replace v82_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==41
-capture replace v82_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==42
-capture replace v82_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==43
-capture replace v82_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==44
-capture replace v82_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==45
-capture replace v82_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==46
-capture replace v82_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==47
-capture replace v82_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==48
-capture replace v82_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==49
-capture replace v82_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==50
-capture replace v82_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==51
-capture replace v82_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==52
+capture replace v82_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==35
+capture replace v82_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==36
+capture replace v82_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==37
+capture replace v82_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==38
+capture replace v82_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==39
+capture replace v82_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==40
+capture replace v82_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==41
+capture replace v82_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==42
+capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==43
+capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==44
+capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==45
+capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==46
+capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==47
+capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==48
+capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==49
+capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==50
+capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==51
+capture replace v82_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==52
 capture label variable v82_NEWVARIABLE `var_lab'
 capture label values v82_NEWVARIABLE `val_lab'
 
@@ -13653,24 +13653,24 @@ capture replace v83_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==31
 capture replace v83_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==32
 capture replace v83_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==33
 capture replace v83_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==34
-capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==35
-capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==36
-capture replace v83_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==37
-capture replace v83_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==38
-capture replace v83_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==39
-capture replace v83_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==40
-capture replace v83_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==41
-capture replace v83_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==42
-capture replace v83_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==43
-capture replace v83_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==44
-capture replace v83_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==45
-capture replace v83_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==46
-capture replace v83_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==47
-capture replace v83_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==48
-capture replace v83_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==49
-capture replace v83_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==50
-capture replace v83_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==51
-capture replace v83_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==52
+capture replace v83_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==35
+capture replace v83_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==36
+capture replace v83_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==37
+capture replace v83_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==38
+capture replace v83_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==39
+capture replace v83_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==40
+capture replace v83_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==41
+capture replace v83_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==42
+capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==43
+capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==44
+capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==45
+capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==46
+capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==47
+capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==48
+capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==49
+capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==50
+capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==51
+capture replace v83_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==52
 capture label variable v83_NEWVARIABLE `var_lab'
 capture label values v83_NEWVARIABLE `val_lab'
 
@@ -13822,24 +13822,24 @@ capture replace v84_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==31
 capture replace v84_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==32
 capture replace v84_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==33
 capture replace v84_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==34
-capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==35
-capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==36
-capture replace v84_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==37
-capture replace v84_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==38
-capture replace v84_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==39
-capture replace v84_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==40
-capture replace v84_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==41
-capture replace v84_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==42
-capture replace v84_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==43
-capture replace v84_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==44
-capture replace v84_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==45
-capture replace v84_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==46
-capture replace v84_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==47
-capture replace v84_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==48
-capture replace v84_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==49
-capture replace v84_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==50
-capture replace v84_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==51
-capture replace v84_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==52
+capture replace v84_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==35
+capture replace v84_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==36
+capture replace v84_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==37
+capture replace v84_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==38
+capture replace v84_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==39
+capture replace v84_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==40
+capture replace v84_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==41
+capture replace v84_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==42
+capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==43
+capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==44
+capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==45
+capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==46
+capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==47
+capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==48
+capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==49
+capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==50
+capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==51
+capture replace v84_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==52
 capture label variable v84_NEWVARIABLE `var_lab'
 capture label values v84_NEWVARIABLE `val_lab'
 
@@ -13991,24 +13991,24 @@ capture replace v85_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==31
 capture replace v85_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==32
 capture replace v85_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==33
 capture replace v85_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==34
-capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==35
-capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==36
-capture replace v85_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==37
-capture replace v85_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==38
-capture replace v85_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==39
-capture replace v85_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==40
-capture replace v85_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==41
-capture replace v85_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==42
-capture replace v85_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==43
-capture replace v85_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==44
-capture replace v85_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==45
-capture replace v85_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==46
-capture replace v85_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==47
-capture replace v85_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==48
-capture replace v85_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==49
-capture replace v85_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==50
-capture replace v85_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==51
-capture replace v85_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==52
+capture replace v85_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==35
+capture replace v85_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==36
+capture replace v85_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==37
+capture replace v85_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==38
+capture replace v85_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==39
+capture replace v85_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==40
+capture replace v85_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==41
+capture replace v85_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==42
+capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==43
+capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==44
+capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==45
+capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==46
+capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==47
+capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==48
+capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==49
+capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==50
+capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==51
+capture replace v85_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==52
 capture label variable v85_NEWVARIABLE `var_lab'
 capture label values v85_NEWVARIABLE `val_lab'
 
@@ -14160,24 +14160,24 @@ capture replace v86_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==31
 capture replace v86_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==32
 capture replace v86_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==33
 capture replace v86_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==34
-capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==35
-capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==36
-capture replace v86_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==37
-capture replace v86_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==38
-capture replace v86_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==39
-capture replace v86_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==40
-capture replace v86_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==41
-capture replace v86_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==42
-capture replace v86_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==43
-capture replace v86_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==44
-capture replace v86_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==45
-capture replace v86_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==46
-capture replace v86_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==47
-capture replace v86_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==48
-capture replace v86_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==49
-capture replace v86_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==50
-capture replace v86_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==51
-capture replace v86_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==52
+capture replace v86_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==35
+capture replace v86_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==36
+capture replace v86_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==37
+capture replace v86_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==38
+capture replace v86_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==39
+capture replace v86_NEWVARIABLE = var78  if flag_tmp_NEWVARIABLE==40
+capture replace v86_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==41
+capture replace v86_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==42
+capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==43
+capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==44
+capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==45
+capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==46
+capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==47
+capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==48
+capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==49
+capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==50
+capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==51
+capture replace v86_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==52
 capture label variable v86_NEWVARIABLE `var_lab'
 capture label values v86_NEWVARIABLE `val_lab'
 
@@ -14329,24 +14329,24 @@ capture replace v87_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==31
 capture replace v87_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==32
 capture replace v87_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==33
 capture replace v87_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==34
-capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==35
-capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==36
-capture replace v87_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==37
-capture replace v87_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==38
-capture replace v87_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==39
-capture replace v87_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==40
-capture replace v87_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==41
-capture replace v87_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==42
-capture replace v87_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==43
-capture replace v87_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==44
-capture replace v87_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==45
-capture replace v87_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==46
-capture replace v87_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==47
-capture replace v87_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==48
-capture replace v87_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==49
-capture replace v87_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==50
-capture replace v87_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==51
-capture replace v87_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==52
+capture replace v87_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==35
+capture replace v87_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==36
+capture replace v87_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==37
+capture replace v87_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==38
+capture replace v87_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==39
+capture replace v87_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==40
+capture replace v87_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==41
+capture replace v87_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==42
+capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==43
+capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==44
+capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==45
+capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==46
+capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==47
+capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==48
+capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==49
+capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==50
+capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==51
+capture replace v87_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==52
 capture label variable v87_NEWVARIABLE `var_lab'
 capture label values v87_NEWVARIABLE `val_lab'
 
@@ -14740,24 +14740,24 @@ capture replace v90_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==31
 capture replace v90_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==32
 capture replace v90_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==33
 capture replace v90_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==34
-capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==35
-capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==36
-capture replace v90_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==37
-capture replace v90_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==38
-capture replace v90_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==39
-capture replace v90_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==40
-capture replace v90_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==41
-capture replace v90_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==42
-capture replace v90_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==43
-capture replace v90_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==44
-capture replace v90_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==45
-capture replace v90_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==46
-capture replace v90_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==47
-capture replace v90_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==48
-capture replace v90_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==49
-capture replace v90_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==50
-capture replace v90_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==51
-capture replace v90_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==52
+capture replace v90_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==35
+capture replace v90_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==36
+capture replace v90_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==37
+capture replace v90_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==38
+capture replace v90_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==39
+capture replace v90_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==40
+capture replace v90_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==41
+capture replace v90_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==42
+capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==43
+capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==44
+capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==45
+capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==46
+capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==47
+capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==48
+capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==49
+capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==50
+capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==51
+capture replace v90_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==52
 capture label variable v90_NEWVARIABLE `var_lab'
 capture label values v90_NEWVARIABLE `val_lab'
 
@@ -14909,24 +14909,24 @@ capture replace v91_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==31
 capture replace v91_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==32
 capture replace v91_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==33
 capture replace v91_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==34
-capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==35
-capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==36
-capture replace v91_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==37
-capture replace v91_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==38
-capture replace v91_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==39
-capture replace v91_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==40
-capture replace v91_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==41
-capture replace v91_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==42
-capture replace v91_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==43
-capture replace v91_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==44
-capture replace v91_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==45
-capture replace v91_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==46
-capture replace v91_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==47
-capture replace v91_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==48
-capture replace v91_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==49
-capture replace v91_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==50
-capture replace v91_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==51
-capture replace v91_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==52
+capture replace v91_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==35
+capture replace v91_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==36
+capture replace v91_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==37
+capture replace v91_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==38
+capture replace v91_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==39
+capture replace v91_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==40
+capture replace v91_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==41
+capture replace v91_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==42
+capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==43
+capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==44
+capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==45
+capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==46
+capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==47
+capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==48
+capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==49
+capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==50
+capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==51
+capture replace v91_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==52
 capture label variable v91_NEWVARIABLE `var_lab'
 capture label values v91_NEWVARIABLE `val_lab'
 
@@ -15078,24 +15078,24 @@ capture replace v92_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==31
 capture replace v92_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==32
 capture replace v92_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==33
 capture replace v92_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==34
-capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==35
-capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==36
-capture replace v92_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==37
-capture replace v92_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==38
-capture replace v92_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==39
-capture replace v92_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==40
-capture replace v92_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==41
-capture replace v92_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==42
-capture replace v92_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==43
-capture replace v92_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==44
-capture replace v92_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==45
-capture replace v92_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==46
-capture replace v92_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==47
-capture replace v92_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==48
-capture replace v92_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==49
-capture replace v92_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==50
-capture replace v92_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==51
-capture replace v92_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==52
+capture replace v92_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==35
+capture replace v92_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==36
+capture replace v92_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==37
+capture replace v92_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==38
+capture replace v92_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==39
+capture replace v92_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==40
+capture replace v92_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==41
+capture replace v92_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==42
+capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==43
+capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==44
+capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==45
+capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==46
+capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==47
+capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==48
+capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==49
+capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==50
+capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==51
+capture replace v92_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==52
 capture label variable v92_NEWVARIABLE `var_lab'
 capture label values v92_NEWVARIABLE `val_lab'
 
@@ -15247,24 +15247,24 @@ capture replace v93_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==31
 capture replace v93_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==32
 capture replace v93_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==33
 capture replace v93_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==34
-capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==35
-capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==36
-capture replace v93_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==37
-capture replace v93_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==38
-capture replace v93_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==39
-capture replace v93_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==40
-capture replace v93_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==41
-capture replace v93_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==42
-capture replace v93_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==43
-capture replace v93_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==44
-capture replace v93_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==45
-capture replace v93_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==46
-capture replace v93_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==47
-capture replace v93_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==48
-capture replace v93_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==49
-capture replace v93_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==50
-capture replace v93_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==51
-capture replace v93_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==52
+capture replace v93_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==35
+capture replace v93_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==36
+capture replace v93_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==37
+capture replace v93_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==38
+capture replace v93_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==39
+capture replace v93_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==40
+capture replace v93_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==41
+capture replace v93_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==42
+capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==43
+capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==44
+capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==45
+capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==46
+capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==47
+capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==48
+capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==49
+capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==50
+capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==51
+capture replace v93_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==52
 capture label variable v93_NEWVARIABLE `var_lab'
 capture label values v93_NEWVARIABLE `val_lab'
 
@@ -15416,24 +15416,24 @@ capture replace v94_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==31
 capture replace v94_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==32
 capture replace v94_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==33
 capture replace v94_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==34
-capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==35
-capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==36
-capture replace v94_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==37
-capture replace v94_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==38
-capture replace v94_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==39
-capture replace v94_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==40
-capture replace v94_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==41
-capture replace v94_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==42
-capture replace v94_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==43
-capture replace v94_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==44
-capture replace v94_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==45
-capture replace v94_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==46
-capture replace v94_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==47
-capture replace v94_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==48
-capture replace v94_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==49
-capture replace v94_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==50
-capture replace v94_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==51
-capture replace v94_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==52
+capture replace v94_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==35
+capture replace v94_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==36
+capture replace v94_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==37
+capture replace v94_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==38
+capture replace v94_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==39
+capture replace v94_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==40
+capture replace v94_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==41
+capture replace v94_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==42
+capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==43
+capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==44
+capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==45
+capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==46
+capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==47
+capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==48
+capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==49
+capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==50
+capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==51
+capture replace v94_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==52
 capture label variable v94_NEWVARIABLE `var_lab'
 capture label values v94_NEWVARIABLE `val_lab'
 
@@ -15585,24 +15585,24 @@ capture replace v95_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==31
 capture replace v95_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==32
 capture replace v95_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==33
 capture replace v95_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==34
-capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==35
-capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==36
-capture replace v95_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==37
-capture replace v95_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==38
-capture replace v95_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==39
-capture replace v95_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==40
-capture replace v95_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==41
-capture replace v95_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==42
-capture replace v95_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==43
-capture replace v95_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==44
-capture replace v95_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==45
-capture replace v95_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==46
-capture replace v95_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==47
-capture replace v95_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==48
-capture replace v95_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==49
-capture replace v95_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==50
-capture replace v95_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==51
-capture replace v95_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==52
+capture replace v95_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==35
+capture replace v95_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==36
+capture replace v95_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==37
+capture replace v95_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==38
+capture replace v95_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==39
+capture replace v95_NEWVARIABLE = var89  if flag_tmp_NEWVARIABLE==40
+capture replace v95_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==41
+capture replace v95_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==42
+capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==43
+capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==44
+capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==45
+capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==46
+capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==47
+capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==48
+capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==49
+capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==50
+capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==51
+capture replace v95_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==52
 capture label variable v95_NEWVARIABLE `var_lab'
 capture label values v95_NEWVARIABLE `val_lab'
 
@@ -15754,24 +15754,24 @@ capture replace v96_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==31
 capture replace v96_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==32
 capture replace v96_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==33
 capture replace v96_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==34
-capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==35
-capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==36
-capture replace v96_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==37
-capture replace v96_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==38
-capture replace v96_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==39
-capture replace v96_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==40
-capture replace v96_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==41
-capture replace v96_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==42
-capture replace v96_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==43
-capture replace v96_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==44
-capture replace v96_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==45
-capture replace v96_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==46
-capture replace v96_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==47
-capture replace v96_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==48
-capture replace v96_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==49
-capture replace v96_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==50
-capture replace v96_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==51
-capture replace v96_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==52
+capture replace v96_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==35
+capture replace v96_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==36
+capture replace v96_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==37
+capture replace v96_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==38
+capture replace v96_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==39
+capture replace v96_NEWVARIABLE = var90  if flag_tmp_NEWVARIABLE==40
+capture replace v96_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==41
+capture replace v96_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==42
+capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==43
+capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==44
+capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==45
+capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==46
+capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==47
+capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==48
+capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==49
+capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==50
+capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==51
+capture replace v96_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==52
 capture label variable v96_NEWVARIABLE `var_lab'
 capture label values v96_NEWVARIABLE `val_lab'
 
@@ -16165,24 +16165,24 @@ capture replace v99_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==31
 capture replace v99_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==32
 capture replace v99_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==33
 capture replace v99_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==34
-capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==35
-capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==36
-capture replace v99_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==37
-capture replace v99_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==38
-capture replace v99_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==39
-capture replace v99_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==40
-capture replace v99_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==41
-capture replace v99_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==42
-capture replace v99_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==43
-capture replace v99_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==44
-capture replace v99_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==45
-capture replace v99_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==46
-capture replace v99_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==47
-capture replace v99_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==48
-capture replace v99_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==49
-capture replace v99_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==50
-capture replace v99_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==51
-capture replace v99_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==52
+capture replace v99_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==35
+capture replace v99_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==36
+capture replace v99_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==37
+capture replace v99_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==38
+capture replace v99_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==39
+capture replace v99_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==40
+capture replace v99_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==41
+capture replace v99_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==42
+capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==43
+capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==44
+capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==45
+capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==46
+capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==47
+capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==48
+capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==49
+capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==50
+capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==51
+capture replace v99_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==52
 capture label variable v99_NEWVARIABLE `var_lab'
 capture label values v99_NEWVARIABLE `val_lab'
 
@@ -16334,24 +16334,24 @@ capture replace v100_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==31
 capture replace v100_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==32
 capture replace v100_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==33
 capture replace v100_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==34
-capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==35
-capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==36
-capture replace v100_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==37
-capture replace v100_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==38
-capture replace v100_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==39
-capture replace v100_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==40
-capture replace v100_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==41
-capture replace v100_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==42
-capture replace v100_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==43
-capture replace v100_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==44
-capture replace v100_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==45
-capture replace v100_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==46
-capture replace v100_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==47
-capture replace v100_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==48
-capture replace v100_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==49
-capture replace v100_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==50
-capture replace v100_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==51
-capture replace v100_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==52
+capture replace v100_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==35
+capture replace v100_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==36
+capture replace v100_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==37
+capture replace v100_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==38
+capture replace v100_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==39
+capture replace v100_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==40
+capture replace v100_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==41
+capture replace v100_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==42
+capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==43
+capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==44
+capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==45
+capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==46
+capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==47
+capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==48
+capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==49
+capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==50
+capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==51
+capture replace v100_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==52
 capture label variable v100_NEWVARIABLE `var_lab'
 capture label values v100_NEWVARIABLE `val_lab'
 
@@ -16503,24 +16503,24 @@ capture replace v101_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==31
 capture replace v101_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==32
 capture replace v101_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==33
 capture replace v101_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==34
-capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==35
-capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==36
-capture replace v101_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==37
-capture replace v101_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==38
-capture replace v101_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==39
-capture replace v101_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==40
-capture replace v101_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==41
-capture replace v101_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==42
-capture replace v101_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==43
-capture replace v101_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==44
-capture replace v101_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==45
-capture replace v101_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==46
-capture replace v101_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==47
-capture replace v101_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==48
-capture replace v101_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==49
-capture replace v101_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==50
-capture replace v101_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==51
-capture replace v101_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==52
+capture replace v101_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==35
+capture replace v101_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==36
+capture replace v101_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==37
+capture replace v101_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==38
+capture replace v101_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==39
+capture replace v101_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==40
+capture replace v101_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==41
+capture replace v101_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==42
+capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==43
+capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==44
+capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==45
+capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==46
+capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==47
+capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==48
+capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==49
+capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==50
+capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==51
+capture replace v101_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==52
 capture label variable v101_NEWVARIABLE `var_lab'
 capture label values v101_NEWVARIABLE `val_lab'
 
@@ -16668,24 +16668,24 @@ capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==31
 capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==32
 capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==33
 capture replace v102_NEWVARIABLE = var79  if flag_tmp_NEWVARIABLE==34
-capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==35
-capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==36
-capture replace v102_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==37
-capture replace v102_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==38
-capture replace v102_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==39
-capture replace v102_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==40
-capture replace v102_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==41
-capture replace v102_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==42
-capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==43
-capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==44
-capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==45
-capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==46
-capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==47
-capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==48
-capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==49
-capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==50
-capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==51
-capture replace v102_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==52
+capture replace v102_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==35
+capture replace v102_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==36
+capture replace v102_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==37
+capture replace v102_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==38
+capture replace v102_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==39
+capture replace v102_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==40
+capture replace v102_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==41
+capture replace v102_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==42
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==43
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==44
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==45
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==46
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==47
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==48
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==49
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==50
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==51
+capture replace v102_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==52
 capture label variable v102_NEWVARIABLE `var_lab'
 capture label values v102_NEWVARIABLE `val_lab'
 
@@ -16833,24 +16833,24 @@ capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==31
 capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==32
 capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==33
 capture replace v103_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==34
-capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==35
-capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==36
-capture replace v103_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==37
-capture replace v103_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==38
-capture replace v103_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==39
-capture replace v103_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==40
-capture replace v103_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==41
-capture replace v103_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==42
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==43
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==44
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==45
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==46
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==47
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==48
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==49
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==50
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==51
-capture replace v103_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==52
+capture replace v103_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==35
+capture replace v103_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==36
+capture replace v103_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==37
+capture replace v103_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==38
+capture replace v103_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==39
+capture replace v103_NEWVARIABLE = var59  if flag_tmp_NEWVARIABLE==40
+capture replace v103_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==41
+capture replace v103_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==42
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==43
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==44
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==45
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==46
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==47
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==48
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==49
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==50
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==51
+capture replace v103_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==52
 capture label variable v103_NEWVARIABLE `var_lab'
 capture label values v103_NEWVARIABLE `val_lab'
 
@@ -16998,24 +16998,24 @@ capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==31
 capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==32
 capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==33
 capture replace v104_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==34
-capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==35
-capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==36
-capture replace v104_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==37
-capture replace v104_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==38
-capture replace v104_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==39
-capture replace v104_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==40
-capture replace v104_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==41
-capture replace v104_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==42
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==43
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==44
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==45
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==46
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==47
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==48
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==49
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==50
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==51
-capture replace v104_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==52
+capture replace v104_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==35
+capture replace v104_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==36
+capture replace v104_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==37
+capture replace v104_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==38
+capture replace v104_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==39
+capture replace v104_NEWVARIABLE = var60  if flag_tmp_NEWVARIABLE==40
+capture replace v104_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==41
+capture replace v104_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==42
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==43
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==44
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==45
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==46
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==47
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==48
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==49
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==50
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==51
+capture replace v104_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==52
 capture label variable v104_NEWVARIABLE `var_lab'
 capture label values v104_NEWVARIABLE `val_lab'
 
@@ -17163,24 +17163,24 @@ capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==31
 capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==32
 capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==33
 capture replace v105_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==34
-capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==35
-capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==36
-capture replace v105_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==37
-capture replace v105_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==38
-capture replace v105_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==39
-capture replace v105_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==40
-capture replace v105_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==41
-capture replace v105_NEWVARIABLE = var65  if flag_tmp_NEWVARIABLE==42
-capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==43
-capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==44
-capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==45
-capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==46
-capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==47
-capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==48
-capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==49
-capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==50
-capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==51
-capture replace v105_NEWVARIABLE = var66  if flag_tmp_NEWVARIABLE==52
+capture replace v105_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==35
+capture replace v105_NEWVARIABLE = var62  if flag_tmp_NEWVARIABLE==36
+capture replace v105_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==37
+capture replace v105_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==38
+capture replace v105_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==39
+capture replace v105_NEWVARIABLE = var61  if flag_tmp_NEWVARIABLE==40
+capture replace v105_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==41
+capture replace v105_NEWVARIABLE = var63  if flag_tmp_NEWVARIABLE==42
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==43
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==44
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==45
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==46
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==47
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==48
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==49
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==50
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==51
+capture replace v105_NEWVARIABLE = var64  if flag_tmp_NEWVARIABLE==52
 capture label variable v105_NEWVARIABLE `var_lab'
 capture label values v105_NEWVARIABLE `val_lab'
 
@@ -17475,24 +17475,24 @@ capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==31
 capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==32
 capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==33
 capture replace v107_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==34
-capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==35
-capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==36
-capture replace v107_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==37
-capture replace v107_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==38
-capture replace v107_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==39
-capture replace v107_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==40
-capture replace v107_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==41
-capture replace v107_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==42
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==43
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==44
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==45
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==46
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==47
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==48
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==49
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==50
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==51
-capture replace v107_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==52
+capture replace v107_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==35
+capture replace v107_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==36
+capture replace v107_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==37
+capture replace v107_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==38
+capture replace v107_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==39
+capture replace v107_NEWVARIABLE = var69  if flag_tmp_NEWVARIABLE==40
+capture replace v107_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==41
+capture replace v107_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==42
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==43
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==44
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==45
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==46
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==47
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==48
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==49
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==50
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==51
+capture replace v107_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==52
 capture label variable v107_NEWVARIABLE `var_lab'
 capture label values v107_NEWVARIABLE `val_lab'
 
@@ -17640,24 +17640,24 @@ capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==31
 capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==32
 capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==33
 capture replace v108_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==34
-capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==35
-capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==36
-capture replace v108_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==37
-capture replace v108_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==38
-capture replace v108_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==39
-capture replace v108_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==40
-capture replace v108_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==41
-capture replace v108_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==42
-capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==43
-capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==44
-capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==45
-capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==46
-capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==47
-capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==48
-capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==49
-capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==50
-capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==51
-capture replace v108_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==52
+capture replace v108_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==35
+capture replace v108_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==36
+capture replace v108_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==37
+capture replace v108_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==38
+capture replace v108_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==39
+capture replace v108_NEWVARIABLE = var70  if flag_tmp_NEWVARIABLE==40
+capture replace v108_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==41
+capture replace v108_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==42
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==43
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==44
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==45
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==46
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==47
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==48
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==49
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==50
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==51
+capture replace v108_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==52
 capture label variable v108_NEWVARIABLE `var_lab'
 capture label values v108_NEWVARIABLE `val_lab'
 
@@ -17805,24 +17805,24 @@ capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==31
 capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==32
 capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==33
 capture replace v109_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==34
-capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==35
-capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==36
-capture replace v109_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==37
-capture replace v109_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==38
-capture replace v109_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==39
-capture replace v109_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==40
-capture replace v109_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==41
-capture replace v109_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==42
-capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==43
-capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==44
-capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==45
-capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==46
-capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==47
-capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==48
-capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==49
-capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==50
-capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==51
-capture replace v109_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==52
+capture replace v109_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==35
+capture replace v109_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==36
+capture replace v109_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==37
+capture replace v109_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==38
+capture replace v109_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==39
+capture replace v109_NEWVARIABLE = var71  if flag_tmp_NEWVARIABLE==40
+capture replace v109_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==41
+capture replace v109_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==42
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==43
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==44
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==45
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==46
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==47
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==48
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==49
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==50
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==51
+capture replace v109_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==52
 capture label variable v109_NEWVARIABLE `var_lab'
 capture label values v109_NEWVARIABLE `val_lab'
 
@@ -17970,24 +17970,24 @@ capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==31
 capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==32
 capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==33
 capture replace v110_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==34
-capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==35
-capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==36
-capture replace v110_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==37
-capture replace v110_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==38
-capture replace v110_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==39
-capture replace v110_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==40
-capture replace v110_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==41
-capture replace v110_NEWVARIABLE = var76  if flag_tmp_NEWVARIABLE==42
-capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==43
-capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==44
-capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==45
-capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==46
-capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==47
-capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==48
-capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==49
-capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==50
-capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==51
-capture replace v110_NEWVARIABLE = var77  if flag_tmp_NEWVARIABLE==52
+capture replace v110_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==35
+capture replace v110_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==36
+capture replace v110_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==37
+capture replace v110_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==38
+capture replace v110_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==39
+capture replace v110_NEWVARIABLE = var72  if flag_tmp_NEWVARIABLE==40
+capture replace v110_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==41
+capture replace v110_NEWVARIABLE = var74  if flag_tmp_NEWVARIABLE==42
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==43
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==44
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==45
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==46
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==47
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==48
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==49
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==50
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==51
+capture replace v110_NEWVARIABLE = var75  if flag_tmp_NEWVARIABLE==52
 capture label variable v110_NEWVARIABLE `var_lab'
 capture label values v110_NEWVARIABLE `val_lab'
 
@@ -18282,24 +18282,24 @@ capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==31
 capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==32
 capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==33
 capture replace v112_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==34
-capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==35
-capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==36
-capture replace v112_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==37
-capture replace v112_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==38
-capture replace v112_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==39
-capture replace v112_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==40
-capture replace v112_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==41
-capture replace v112_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==42
-capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==43
-capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==44
-capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==45
-capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==46
-capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==47
-capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==48
-capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==49
-capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==50
-capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==51
-capture replace v112_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==52
+capture replace v112_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==35
+capture replace v112_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==36
+capture replace v112_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==37
+capture replace v112_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==38
+capture replace v112_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==39
+capture replace v112_NEWVARIABLE = var80  if flag_tmp_NEWVARIABLE==40
+capture replace v112_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==41
+capture replace v112_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==42
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==43
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==44
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==45
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==46
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==47
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==48
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==49
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==50
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==51
+capture replace v112_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==52
 capture label variable v112_NEWVARIABLE `var_lab'
 capture label values v112_NEWVARIABLE `val_lab'
 
@@ -18447,24 +18447,24 @@ capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==31
 capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==32
 capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==33
 capture replace v113_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==34
-capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==35
-capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==36
-capture replace v113_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==37
-capture replace v113_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==38
-capture replace v113_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==39
-capture replace v113_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==40
-capture replace v113_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==41
-capture replace v113_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==42
-capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==43
-capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==44
-capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==45
-capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==46
-capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==47
-capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==48
-capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==49
-capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==50
-capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==51
-capture replace v113_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==52
+capture replace v113_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==35
+capture replace v113_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==36
+capture replace v113_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==37
+capture replace v113_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==38
+capture replace v113_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==39
+capture replace v113_NEWVARIABLE = var81  if flag_tmp_NEWVARIABLE==40
+capture replace v113_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==41
+capture replace v113_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==42
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==43
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==44
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==45
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==46
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==47
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==48
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==49
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==50
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==51
+capture replace v113_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==52
 capture label variable v113_NEWVARIABLE `var_lab'
 capture label values v113_NEWVARIABLE `val_lab'
 
@@ -18612,24 +18612,24 @@ capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==31
 capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==32
 capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==33
 capture replace v114_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==34
-capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==35
-capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==36
-capture replace v114_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==37
-capture replace v114_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==38
-capture replace v114_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==39
-capture replace v114_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==40
-capture replace v114_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==41
-capture replace v114_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==42
-capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==43
-capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==44
-capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==45
-capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==46
-capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==47
-capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==48
-capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==49
-capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==50
-capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==51
-capture replace v114_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==52
+capture replace v114_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==35
+capture replace v114_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==36
+capture replace v114_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==37
+capture replace v114_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==38
+capture replace v114_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==39
+capture replace v114_NEWVARIABLE = var82  if flag_tmp_NEWVARIABLE==40
+capture replace v114_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==41
+capture replace v114_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==42
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==43
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==44
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==45
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==46
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==47
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==48
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==49
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==50
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==51
+capture replace v114_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==52
 capture label variable v114_NEWVARIABLE `var_lab'
 capture label values v114_NEWVARIABLE `val_lab'
 
@@ -18777,24 +18777,24 @@ capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==31
 capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==32
 capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==33
 capture replace v115_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==34
-capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==35
-capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==36
-capture replace v115_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==37
-capture replace v115_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==38
-capture replace v115_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==39
-capture replace v115_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==40
-capture replace v115_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==41
-capture replace v115_NEWVARIABLE = var87  if flag_tmp_NEWVARIABLE==42
-capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==43
-capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==44
-capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==45
-capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==46
-capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==47
-capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==48
-capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==49
-capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==50
-capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==51
-capture replace v115_NEWVARIABLE = var88  if flag_tmp_NEWVARIABLE==52
+capture replace v115_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==35
+capture replace v115_NEWVARIABLE = var84  if flag_tmp_NEWVARIABLE==36
+capture replace v115_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==37
+capture replace v115_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==38
+capture replace v115_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==39
+capture replace v115_NEWVARIABLE = var83  if flag_tmp_NEWVARIABLE==40
+capture replace v115_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==41
+capture replace v115_NEWVARIABLE = var85  if flag_tmp_NEWVARIABLE==42
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==43
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==44
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==45
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==46
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==47
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==48
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==49
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==50
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==51
+capture replace v115_NEWVARIABLE = var86  if flag_tmp_NEWVARIABLE==52
 capture label variable v115_NEWVARIABLE `var_lab'
 capture label values v115_NEWVARIABLE `val_lab'
 
@@ -19089,24 +19089,24 @@ capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==31
 capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==32
 capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==33
 capture replace v117_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==34
-capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==35
-capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==36
-capture replace v117_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==37
-capture replace v117_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==38
-capture replace v117_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==39
-capture replace v117_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==40
-capture replace v117_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==41
-capture replace v117_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==42
-capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==43
-capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==44
-capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==45
-capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==46
-capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==47
-capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==48
-capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==49
-capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==50
-capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==51
-capture replace v117_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==52
+capture replace v117_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==35
+capture replace v117_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==36
+capture replace v117_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==37
+capture replace v117_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==38
+capture replace v117_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==39
+capture replace v117_NEWVARIABLE = var91  if flag_tmp_NEWVARIABLE==40
+capture replace v117_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==41
+capture replace v117_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==42
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==43
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==44
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==45
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==46
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==47
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==48
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==49
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==50
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==51
+capture replace v117_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==52
 capture label variable v117_NEWVARIABLE `var_lab'
 capture label values v117_NEWVARIABLE `val_lab'
 
@@ -19254,24 +19254,24 @@ capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==31
 capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==32
 capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==33
 capture replace v118_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==34
-capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==35
-capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==36
-capture replace v118_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==37
-capture replace v118_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==38
-capture replace v118_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==39
-capture replace v118_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==40
-capture replace v118_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==41
-capture replace v118_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==42
-capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==43
-capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==44
-capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==45
-capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==46
-capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==47
-capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==48
-capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==49
-capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==50
-capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==51
-capture replace v118_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==52
+capture replace v118_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==35
+capture replace v118_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==36
+capture replace v118_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==37
+capture replace v118_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==38
+capture replace v118_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==39
+capture replace v118_NEWVARIABLE = var92  if flag_tmp_NEWVARIABLE==40
+capture replace v118_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==41
+capture replace v118_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==42
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==43
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==44
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==45
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==46
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==47
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==48
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==49
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==50
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==51
+capture replace v118_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==52
 capture label variable v118_NEWVARIABLE `var_lab'
 capture label values v118_NEWVARIABLE `val_lab'
 
@@ -19419,24 +19419,24 @@ capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==31
 capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==32
 capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==33
 capture replace v119_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==34
-capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==35
-capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==36
-capture replace v119_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==37
-capture replace v119_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==38
-capture replace v119_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==39
-capture replace v119_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==40
-capture replace v119_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==41
-capture replace v119_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==42
-capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==43
-capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==44
-capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==45
-capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==46
-capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==47
-capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==48
-capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==49
-capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==50
-capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==51
-capture replace v119_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==52
+capture replace v119_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==35
+capture replace v119_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==36
+capture replace v119_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==37
+capture replace v119_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==38
+capture replace v119_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==39
+capture replace v119_NEWVARIABLE = var93  if flag_tmp_NEWVARIABLE==40
+capture replace v119_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==41
+capture replace v119_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==42
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==43
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==44
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==45
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==46
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==47
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==48
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==49
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==50
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==51
+capture replace v119_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==52
 capture label variable v119_NEWVARIABLE `var_lab'
 capture label values v119_NEWVARIABLE `val_lab'
 
@@ -19584,24 +19584,24 @@ capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==31
 capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==32
 capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==33
 capture replace v120_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==34
-capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==35
-capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==36
-capture replace v120_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==37
-capture replace v120_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==38
-capture replace v120_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==39
-capture replace v120_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==40
-capture replace v120_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==41
-capture replace v120_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==42
-capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==43
-capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==44
-capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==45
-capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==46
-capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==47
-capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==48
-capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==49
-capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==50
-capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==51
-capture replace v120_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==52
+capture replace v120_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==35
+capture replace v120_NEWVARIABLE = var95  if flag_tmp_NEWVARIABLE==36
+capture replace v120_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==37
+capture replace v120_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==38
+capture replace v120_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==39
+capture replace v120_NEWVARIABLE = var94  if flag_tmp_NEWVARIABLE==40
+capture replace v120_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==41
+capture replace v120_NEWVARIABLE = var96  if flag_tmp_NEWVARIABLE==42
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==43
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==44
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==45
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==46
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==47
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==48
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==49
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==50
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==51
+capture replace v120_NEWVARIABLE = var97  if flag_tmp_NEWVARIABLE==52
 capture label variable v120_NEWVARIABLE `var_lab'
 capture label values v120_NEWVARIABLE `val_lab'
 
@@ -19882,24 +19882,24 @@ capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==31
 capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==32
 capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==33
 capture replace v122_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==34
-capture replace v122_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==35
-capture replace v122_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==36
-capture replace v122_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==37
-capture replace v122_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==38
-capture replace v122_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==39
-capture replace v122_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==40
-capture replace v122_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==41
-capture replace v122_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==42
-capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==43
-capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==44
-capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==45
-capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==46
-capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==47
-capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==48
-capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==49
-capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==50
-capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==51
-capture replace v122_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==52
+capture replace v122_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==35
+capture replace v122_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==36
+capture replace v122_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==37
+capture replace v122_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==38
+capture replace v122_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==39
+capture replace v122_NEWVARIABLE = var98  if flag_tmp_NEWVARIABLE==40
+capture replace v122_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==41
+capture replace v122_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==42
+capture replace v122_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==43
+capture replace v122_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==44
+capture replace v122_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==45
+capture replace v122_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==46
+capture replace v122_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==47
+capture replace v122_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==48
+capture replace v122_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==49
+capture replace v122_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==50
+capture replace v122_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==51
+capture replace v122_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==52
 capture label variable v122_NEWVARIABLE `var_lab'
 capture label values v122_NEWVARIABLE `val_lab'
 
@@ -20033,24 +20033,24 @@ capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==31
 capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==32
 capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==33
 capture replace v123_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==34
-capture replace v123_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==35
-capture replace v123_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==36
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==37
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==38
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==39
-capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==40
-capture replace v123_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==41
-capture replace v123_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==42
-capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==43
-capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==44
-capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==45
-capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==46
-capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==47
-capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==48
-capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==49
-capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==50
-capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==51
-capture replace v123_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==52
+capture replace v123_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==35
+capture replace v123_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==36
+capture replace v123_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==37
+capture replace v123_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==38
+capture replace v123_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==39
+capture replace v123_NEWVARIABLE = var99  if flag_tmp_NEWVARIABLE==40
+capture replace v123_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==41
+capture replace v123_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==42
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==43
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==44
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==45
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==46
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==47
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==48
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==49
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==50
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==51
+capture replace v123_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==52
 capture label variable v123_NEWVARIABLE `var_lab'
 capture label values v123_NEWVARIABLE `val_lab'
 
@@ -20184,24 +20184,24 @@ capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==31
 capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==32
 capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==33
 capture replace v124_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==34
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==35
-capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==36
-capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==37
-capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==38
-capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==39
-capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==40
-capture replace v124_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==41
-capture replace v124_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==42
-capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==43
-capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==44
-capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==45
-capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==46
-capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==47
-capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==48
-capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==49
-capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==50
-capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==51
-capture replace v124_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==52
+capture replace v124_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==35
+capture replace v124_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==36
+capture replace v124_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==37
+capture replace v124_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==38
+capture replace v124_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==39
+capture replace v124_NEWVARIABLE = var100  if flag_tmp_NEWVARIABLE==40
+capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==41
+capture replace v124_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==42
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==43
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==44
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==45
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==46
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==47
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==48
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==49
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==50
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==51
+capture replace v124_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==52
 capture label variable v124_NEWVARIABLE `var_lab'
 capture label values v124_NEWVARIABLE `val_lab'
 
@@ -20335,24 +20335,24 @@ capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==31
 capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==32
 capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==33
 capture replace v125_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==34
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==35
-capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==36
-capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==37
-capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==38
-capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==39
-capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==40
-capture replace v125_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==41
-capture replace v125_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==42
-capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==43
-capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==44
-capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==45
-capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==46
-capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==47
-capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==48
-capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==49
-capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==50
-capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==51
-capture replace v125_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==52
+capture replace v125_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==35
+capture replace v125_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==36
+capture replace v125_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==37
+capture replace v125_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==38
+capture replace v125_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==39
+capture replace v125_NEWVARIABLE = var101  if flag_tmp_NEWVARIABLE==40
+capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==41
+capture replace v125_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==42
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==43
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==44
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==45
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==46
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==47
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==48
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==49
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==50
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==51
+capture replace v125_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==52
 capture label variable v125_NEWVARIABLE `var_lab'
 capture label values v125_NEWVARIABLE `val_lab'
 
@@ -20486,24 +20486,24 @@ capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==31
 capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==32
 capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==33
 capture replace v126_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==34
-capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==35
-capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==36
-capture replace v126_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==37
-capture replace v126_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==38
-capture replace v126_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==39
-capture replace v126_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==40
-capture replace v126_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==41
-capture replace v126_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==42
-capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==43
-capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==44
-capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==45
-capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==46
-capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==47
-capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==48
-capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==49
-capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==50
-capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==51
-capture replace v126_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==52
+capture replace v126_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==35
+capture replace v126_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==36
+capture replace v126_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==37
+capture replace v126_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==38
+capture replace v126_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==39
+capture replace v126_NEWVARIABLE = var102  if flag_tmp_NEWVARIABLE==40
+capture replace v126_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==41
+capture replace v126_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==42
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==43
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==44
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==45
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==46
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==47
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==48
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==49
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==50
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==51
+capture replace v126_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==52
 capture label variable v126_NEWVARIABLE `var_lab'
 capture label values v126_NEWVARIABLE `val_lab'
 
@@ -20637,24 +20637,24 @@ capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==31
 capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==32
 capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==33
 capture replace v127_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==34
-capture replace v127_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==35
-capture replace v127_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==36
-capture replace v127_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==37
-capture replace v127_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==38
-capture replace v127_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==39
-capture replace v127_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==40
-capture replace v127_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==41
-capture replace v127_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==42
-capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==43
-capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==44
-capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==45
-capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==46
-capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==47
-capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==48
-capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==49
-capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==50
-capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==51
-capture replace v127_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==52
+capture replace v127_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==35
+capture replace v127_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==36
+capture replace v127_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==37
+capture replace v127_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==38
+capture replace v127_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==39
+capture replace v127_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==40
+capture replace v127_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==41
+capture replace v127_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==42
+capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==43
+capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==44
+capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==45
+capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==46
+capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==47
+capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==48
+capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==49
+capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==50
+capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==51
+capture replace v127_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==52
 capture label variable v127_NEWVARIABLE `var_lab'
 capture label values v127_NEWVARIABLE `val_lab'
 
@@ -20788,24 +20788,24 @@ capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==31
 capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==32
 capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==33
 capture replace v128_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==34
-capture replace v128_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==35
-capture replace v128_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==36
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==37
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==38
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==39
-capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==40
-capture replace v128_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==41
-capture replace v128_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==42
-capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==43
-capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==44
-capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==45
-capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==46
-capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==47
-capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==48
-capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==49
-capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==50
-capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==51
-capture replace v128_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==52
+capture replace v128_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==35
+capture replace v128_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==36
+capture replace v128_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==37
+capture replace v128_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==38
+capture replace v128_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==39
+capture replace v128_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==40
+capture replace v128_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==41
+capture replace v128_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==42
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==43
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==44
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==45
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==46
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==47
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==48
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==49
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==50
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==51
+capture replace v128_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==52
 capture label variable v128_NEWVARIABLE `var_lab'
 capture label values v128_NEWVARIABLE `val_lab'
 
@@ -20939,24 +20939,24 @@ capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==31
 capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==32
 capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==33
 capture replace v129_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==34
-capture replace v129_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==35
-capture replace v129_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==36
-capture replace v129_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==37
-capture replace v129_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==38
-capture replace v129_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==39
-capture replace v129_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==40
-capture replace v129_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==41
-capture replace v129_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==42
-capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==43
-capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==44
-capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==45
-capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==46
-capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==47
-capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==48
-capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==49
-capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==50
-capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==51
-capture replace v129_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==52
+capture replace v129_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==35
+capture replace v129_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==36
+capture replace v129_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==37
+capture replace v129_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==38
+capture replace v129_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==39
+capture replace v129_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==40
+capture replace v129_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==41
+capture replace v129_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==42
+capture replace v129_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==43
+capture replace v129_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==44
+capture replace v129_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==45
+capture replace v129_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==46
+capture replace v129_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==47
+capture replace v129_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==48
+capture replace v129_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==49
+capture replace v129_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==50
+capture replace v129_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==51
+capture replace v129_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==52
 capture label variable v129_NEWVARIABLE `var_lab'
 capture label values v129_NEWVARIABLE `val_lab'
 
@@ -21223,24 +21223,24 @@ capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==31
 capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==32
 capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==33
 capture replace v131_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==34
-capture replace v131_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==35
-capture replace v131_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==36
-capture replace v131_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==37
-capture replace v131_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==38
-capture replace v131_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==39
-capture replace v131_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==40
-capture replace v131_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==41
-capture replace v131_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==42
-capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==43
-capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==44
-capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==45
-capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==46
-capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==47
-capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==48
-capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==49
-capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==50
-capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==51
-capture replace v131_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==52
+capture replace v131_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==35
+capture replace v131_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==36
+capture replace v131_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==37
+capture replace v131_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==38
+capture replace v131_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==39
+capture replace v131_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==40
+capture replace v131_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==41
+capture replace v131_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==42
+capture replace v131_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==43
+capture replace v131_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==44
+capture replace v131_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==45
+capture replace v131_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==46
+capture replace v131_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==47
+capture replace v131_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==48
+capture replace v131_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==49
+capture replace v131_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==50
+capture replace v131_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==51
+capture replace v131_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==52
 capture label variable v131_NEWVARIABLE `var_lab'
 capture label values v131_NEWVARIABLE `val_lab'
 
@@ -21374,24 +21374,24 @@ capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==31
 capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==32
 capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==33
 capture replace v132_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==34
-capture replace v132_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==35
-capture replace v132_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==36
-capture replace v132_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==37
-capture replace v132_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==38
-capture replace v132_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==39
-capture replace v132_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==40
-capture replace v132_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==41
-capture replace v132_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==42
-capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==43
-capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==44
-capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==45
-capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==46
-capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==47
-capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==48
-capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==49
-capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==50
-capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==51
-capture replace v132_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==52
+capture replace v132_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==35
+capture replace v132_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==36
+capture replace v132_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==37
+capture replace v132_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==38
+capture replace v132_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==39
+capture replace v132_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==40
+capture replace v132_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==41
+capture replace v132_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==42
+capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==43
+capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==44
+capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==45
+capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==46
+capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==47
+capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==48
+capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==49
+capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==50
+capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==51
+capture replace v132_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==52
 capture label variable v132_NEWVARIABLE `var_lab'
 capture label values v132_NEWVARIABLE `val_lab'
 
@@ -21525,24 +21525,24 @@ capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==31
 capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==32
 capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==33
 capture replace v133_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==34
-capture replace v133_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==35
-capture replace v133_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==36
-capture replace v133_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==37
-capture replace v133_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==38
-capture replace v133_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==39
-capture replace v133_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==40
-capture replace v133_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==41
-capture replace v133_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==42
-capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==43
-capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==44
-capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==45
-capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==46
-capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==47
-capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==48
-capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==49
-capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==50
-capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==51
-capture replace v133_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==52
+capture replace v133_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==35
+capture replace v133_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==36
+capture replace v133_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==37
+capture replace v133_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==38
+capture replace v133_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==39
+capture replace v133_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==40
+capture replace v133_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==41
+capture replace v133_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==42
+capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==43
+capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==44
+capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==45
+capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==46
+capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==47
+capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==48
+capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==49
+capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==50
+capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==51
+capture replace v133_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==52
 capture label variable v133_NEWVARIABLE `var_lab'
 capture label values v133_NEWVARIABLE `val_lab'
 
@@ -21676,24 +21676,24 @@ capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==31
 capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==32
 capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==33
 capture replace v134_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==34
-capture replace v134_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==35
-capture replace v134_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==36
-capture replace v134_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==37
-capture replace v134_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==38
-capture replace v134_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==39
-capture replace v134_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==40
-capture replace v134_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==41
-capture replace v134_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==42
-capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==43
-capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==44
-capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==45
-capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==46
-capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==47
-capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==48
-capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==49
-capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==50
-capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==51
-capture replace v134_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==52
+capture replace v134_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==35
+capture replace v134_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==36
+capture replace v134_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==37
+capture replace v134_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==38
+capture replace v134_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==39
+capture replace v134_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==40
+capture replace v134_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==41
+capture replace v134_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==42
+capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==43
+capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==44
+capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==45
+capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==46
+capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==47
+capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==48
+capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==49
+capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==50
+capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==51
+capture replace v134_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==52
 capture label variable v134_NEWVARIABLE `var_lab'
 capture label values v134_NEWVARIABLE `val_lab'
 
@@ -21827,24 +21827,24 @@ capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==31
 capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==32
 capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==33
 capture replace v135_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==34
-capture replace v135_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==35
-capture replace v135_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==36
-capture replace v135_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==37
-capture replace v135_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==38
-capture replace v135_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==39
-capture replace v135_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==40
-capture replace v135_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==41
-capture replace v135_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==42
-capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==43
-capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==44
-capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==45
-capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==46
-capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==47
-capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==48
-capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==49
-capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==50
-capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==51
-capture replace v135_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==52
+capture replace v135_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==35
+capture replace v135_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==36
+capture replace v135_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==37
+capture replace v135_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==38
+capture replace v135_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==39
+capture replace v135_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==40
+capture replace v135_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==41
+capture replace v135_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==42
+capture replace v135_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==43
+capture replace v135_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==44
+capture replace v135_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==45
+capture replace v135_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==46
+capture replace v135_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==47
+capture replace v135_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==48
+capture replace v135_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==49
+capture replace v135_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==50
+capture replace v135_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==51
+capture replace v135_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==52
 capture label variable v135_NEWVARIABLE `var_lab'
 capture label values v135_NEWVARIABLE `val_lab'
 
@@ -21978,24 +21978,24 @@ capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==31
 capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==32
 capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==33
 capture replace v136_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==34
-capture replace v136_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==35
-capture replace v136_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==36
-capture replace v136_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==37
-capture replace v136_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==38
-capture replace v136_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==39
-capture replace v136_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==40
-capture replace v136_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==41
-capture replace v136_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==42
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==43
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==44
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==45
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==46
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==47
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==48
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==49
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==50
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==51
-capture replace v136_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==52
+capture replace v136_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==35
+capture replace v136_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==36
+capture replace v136_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==37
+capture replace v136_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==38
+capture replace v136_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==39
+capture replace v136_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==40
+capture replace v136_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==41
+capture replace v136_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==42
+capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==43
+capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==44
+capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==45
+capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==46
+capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==47
+capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==48
+capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==49
+capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==50
+capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==51
+capture replace v136_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==52
 capture label variable v136_NEWVARIABLE `var_lab'
 capture label values v136_NEWVARIABLE `val_lab'
 
@@ -22129,24 +22129,24 @@ capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==31
 capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==32
 capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==33
 capture replace v137_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==34
-capture replace v137_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==35
-capture replace v137_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==36
-capture replace v137_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==37
-capture replace v137_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==38
-capture replace v137_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==39
-capture replace v137_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==40
-capture replace v137_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==41
-capture replace v137_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==42
-capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==43
-capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==44
-capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==45
-capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==46
-capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==47
-capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==48
-capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==49
-capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==50
-capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==51
-capture replace v137_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==52
+capture replace v137_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==35
+capture replace v137_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==36
+capture replace v137_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==37
+capture replace v137_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==38
+capture replace v137_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==39
+capture replace v137_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==40
+capture replace v137_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==41
+capture replace v137_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==42
+capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==43
+capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==44
+capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==45
+capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==46
+capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==47
+capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==48
+capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==49
+capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==50
+capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==51
+capture replace v137_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==52
 capture label variable v137_NEWVARIABLE `var_lab'
 capture label values v137_NEWVARIABLE `val_lab'
 
@@ -22280,24 +22280,24 @@ capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==31
 capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==32
 capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==33
 capture replace v138_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==34
-capture replace v138_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==35
-capture replace v138_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==36
-capture replace v138_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==37
-capture replace v138_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==38
-capture replace v138_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==39
-capture replace v138_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==40
-capture replace v138_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==41
-capture replace v138_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==42
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==43
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==44
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==45
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==46
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==47
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==48
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==49
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==50
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==51
-capture replace v138_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==52
+capture replace v138_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==35
+capture replace v138_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==36
+capture replace v138_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==37
+capture replace v138_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==38
+capture replace v138_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==39
+capture replace v138_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==40
+capture replace v138_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==41
+capture replace v138_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==42
+capture replace v138_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==43
+capture replace v138_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==44
+capture replace v138_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==45
+capture replace v138_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==46
+capture replace v138_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==47
+capture replace v138_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==48
+capture replace v138_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==49
+capture replace v138_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==50
+capture replace v138_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==51
+capture replace v138_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==52
 capture label variable v138_NEWVARIABLE `var_lab'
 capture label values v138_NEWVARIABLE `val_lab'
 
@@ -22564,24 +22564,24 @@ capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==31
 capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==32
 capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==33
 capture replace v140_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==34
-capture replace v140_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==35
-capture replace v140_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==36
-capture replace v140_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==37
-capture replace v140_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==38
-capture replace v140_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==39
-capture replace v140_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==40
-capture replace v140_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==41
-capture replace v140_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==42
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==43
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==44
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==45
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==46
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==47
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==48
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==49
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==50
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==51
-capture replace v140_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==52
+capture replace v140_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==35
+capture replace v140_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==36
+capture replace v140_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==37
+capture replace v140_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==38
+capture replace v140_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==39
+capture replace v140_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==40
+capture replace v140_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==41
+capture replace v140_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==42
+capture replace v140_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==43
+capture replace v140_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==44
+capture replace v140_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==45
+capture replace v140_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==46
+capture replace v140_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==47
+capture replace v140_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==48
+capture replace v140_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==49
+capture replace v140_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==50
+capture replace v140_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==51
+capture replace v140_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==52
 capture label variable v140_NEWVARIABLE `var_lab'
 capture label values v140_NEWVARIABLE `val_lab'
 
@@ -22715,24 +22715,24 @@ capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==31
 capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==32
 capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==33
 capture replace v141_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==34
-capture replace v141_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==35
-capture replace v141_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==36
-capture replace v141_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==37
-capture replace v141_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==38
-capture replace v141_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==39
-capture replace v141_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==40
-capture replace v141_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==41
-capture replace v141_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==42
-capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==43
-capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==44
-capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==45
-capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==46
-capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==47
-capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==48
-capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==49
-capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==50
-capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==51
-capture replace v141_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==52
+capture replace v141_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==35
+capture replace v141_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==36
+capture replace v141_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==37
+capture replace v141_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==38
+capture replace v141_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==39
+capture replace v141_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==40
+capture replace v141_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==41
+capture replace v141_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==42
+capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==43
+capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==44
+capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==45
+capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==46
+capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==47
+capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==48
+capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==49
+capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==50
+capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==51
+capture replace v141_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==52
 capture label variable v141_NEWVARIABLE `var_lab'
 capture label values v141_NEWVARIABLE `val_lab'
 
@@ -22866,24 +22866,24 @@ capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==31
 capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==32
 capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==33
 capture replace v142_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==34
-capture replace v142_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==35
-capture replace v142_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==36
-capture replace v142_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==37
-capture replace v142_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==38
-capture replace v142_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==39
-capture replace v142_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==40
-capture replace v142_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==41
-capture replace v142_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==42
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==43
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==44
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==45
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==46
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==47
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==48
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==49
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==50
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==51
-capture replace v142_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==52
+capture replace v142_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==35
+capture replace v142_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==36
+capture replace v142_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==37
+capture replace v142_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==38
+capture replace v142_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==39
+capture replace v142_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==40
+capture replace v142_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==41
+capture replace v142_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==42
+capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==43
+capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==44
+capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==45
+capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==46
+capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==47
+capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==48
+capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==49
+capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==50
+capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==51
+capture replace v142_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==52
 capture label variable v142_NEWVARIABLE `var_lab'
 capture label values v142_NEWVARIABLE `val_lab'
 
@@ -23017,24 +23017,24 @@ capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==31
 capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==32
 capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==33
 capture replace v143_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==34
-capture replace v143_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==35
-capture replace v143_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==36
-capture replace v143_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==37
-capture replace v143_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==38
-capture replace v143_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==39
-capture replace v143_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==40
-capture replace v143_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==41
-capture replace v143_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==42
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==43
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==44
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==45
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==46
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==47
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==48
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==49
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==50
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==51
-capture replace v143_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==52
+capture replace v143_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==35
+capture replace v143_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==36
+capture replace v143_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==37
+capture replace v143_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==38
+capture replace v143_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==39
+capture replace v143_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==40
+capture replace v143_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==41
+capture replace v143_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==42
+capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==43
+capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==44
+capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==45
+capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==46
+capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==47
+capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==48
+capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==49
+capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==50
+capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==51
+capture replace v143_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==52
 capture label variable v143_NEWVARIABLE `var_lab'
 capture label values v143_NEWVARIABLE `val_lab'
 
@@ -23168,24 +23168,24 @@ capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==31
 capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==32
 capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==33
 capture replace v144_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==34
-capture replace v144_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==35
-capture replace v144_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==36
-capture replace v144_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==37
-capture replace v144_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==38
-capture replace v144_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==39
-capture replace v144_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==40
-capture replace v144_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==41
-capture replace v144_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==42
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==43
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==44
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==45
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==46
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==47
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==48
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==49
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==50
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==51
-capture replace v144_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==52
+capture replace v144_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==35
+capture replace v144_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==36
+capture replace v144_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==37
+capture replace v144_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==38
+capture replace v144_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==39
+capture replace v144_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==40
+capture replace v144_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==41
+capture replace v144_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==42
+capture replace v144_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==43
+capture replace v144_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==44
+capture replace v144_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==45
+capture replace v144_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==46
+capture replace v144_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==47
+capture replace v144_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==48
+capture replace v144_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==49
+capture replace v144_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==50
+capture replace v144_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==51
+capture replace v144_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==52
 capture label variable v144_NEWVARIABLE `var_lab'
 capture label values v144_NEWVARIABLE `val_lab'
 
@@ -23319,24 +23319,24 @@ capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==31
 capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==32
 capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==33
 capture replace v145_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==34
-capture replace v145_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==35
-capture replace v145_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==36
-capture replace v145_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==37
-capture replace v145_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==38
-capture replace v145_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==39
-capture replace v145_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==40
-capture replace v145_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==41
-capture replace v145_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==42
-capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==43
-capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==44
-capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==45
-capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==46
-capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==47
-capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==48
-capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==49
-capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==50
-capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==51
-capture replace v145_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==52
+capture replace v145_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==35
+capture replace v145_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==36
+capture replace v145_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==37
+capture replace v145_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==38
+capture replace v145_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==39
+capture replace v145_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==40
+capture replace v145_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==41
+capture replace v145_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==42
+capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==43
+capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==44
+capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==45
+capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==46
+capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==47
+capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==48
+capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==49
+capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==50
+capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==51
+capture replace v145_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==52
 capture label variable v145_NEWVARIABLE `var_lab'
 capture label values v145_NEWVARIABLE `val_lab'
 
@@ -23470,24 +23470,24 @@ capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==31
 capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==32
 capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==33
 capture replace v146_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==34
-capture replace v146_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==35
-capture replace v146_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==36
-capture replace v146_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==37
-capture replace v146_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==38
-capture replace v146_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==39
-capture replace v146_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==40
-capture replace v146_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==41
-capture replace v146_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==42
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==43
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==44
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==45
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==46
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==47
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==48
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==49
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==50
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==51
-capture replace v146_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==52
+capture replace v146_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==35
+capture replace v146_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==36
+capture replace v146_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==37
+capture replace v146_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==38
+capture replace v146_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==39
+capture replace v146_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==40
+capture replace v146_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==41
+capture replace v146_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==42
+capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==43
+capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==44
+capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==45
+capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==46
+capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==47
+capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==48
+capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==49
+capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==50
+capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==51
+capture replace v146_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==52
 capture label variable v146_NEWVARIABLE `var_lab'
 capture label values v146_NEWVARIABLE `val_lab'
 
@@ -23621,24 +23621,24 @@ capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==31
 capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==32
 capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==33
 capture replace v147_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==34
-capture replace v147_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==35
-capture replace v147_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==36
-capture replace v147_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==37
-capture replace v147_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==38
-capture replace v147_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==39
-capture replace v147_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==40
-capture replace v147_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==41
-capture replace v147_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==42
-capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==43
-capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==44
-capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==45
-capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==46
-capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==47
-capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==48
-capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==49
-capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==50
-capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==51
-capture replace v147_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==52
+capture replace v147_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==35
+capture replace v147_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==36
+capture replace v147_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==37
+capture replace v147_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==38
+capture replace v147_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==39
+capture replace v147_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==40
+capture replace v147_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==41
+capture replace v147_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==42
+capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==43
+capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==44
+capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==45
+capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==46
+capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==47
+capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==48
+capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==49
+capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==50
+capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==51
+capture replace v147_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==52
 capture label variable v147_NEWVARIABLE `var_lab'
 capture label values v147_NEWVARIABLE `val_lab'
 
@@ -23905,24 +23905,24 @@ capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==31
 capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==32
 capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==33
 capture replace v149_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==34
-capture replace v149_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==35
-capture replace v149_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==36
-capture replace v149_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==37
-capture replace v149_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==38
-capture replace v149_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==39
-capture replace v149_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==40
-capture replace v149_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==41
-capture replace v149_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==42
-capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==43
-capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==44
-capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==45
-capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==46
-capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==47
-capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==48
-capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==49
-capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==50
-capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==51
-capture replace v149_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==52
+capture replace v149_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==35
+capture replace v149_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==36
+capture replace v149_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==37
+capture replace v149_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==38
+capture replace v149_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==39
+capture replace v149_NEWVARIABLE = var125  if flag_tmp_NEWVARIABLE==40
+capture replace v149_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==41
+capture replace v149_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==42
+capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==43
+capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==44
+capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==45
+capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==46
+capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==47
+capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==48
+capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==49
+capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==50
+capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==51
+capture replace v149_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==52
 capture label variable v149_NEWVARIABLE `var_lab'
 capture label values v149_NEWVARIABLE `val_lab'
 
@@ -24056,24 +24056,24 @@ capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==31
 capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==32
 capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==33
 capture replace v150_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==34
-capture replace v150_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==35
-capture replace v150_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==36
-capture replace v150_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==37
-capture replace v150_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==38
-capture replace v150_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==39
-capture replace v150_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==40
-capture replace v150_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==41
-capture replace v150_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==42
-capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==43
-capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==44
-capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==45
-capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==46
-capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==47
-capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==48
-capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==49
-capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==50
-capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==51
-capture replace v150_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==52
+capture replace v150_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==35
+capture replace v150_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==36
+capture replace v150_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==37
+capture replace v150_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==38
+capture replace v150_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==39
+capture replace v150_NEWVARIABLE = var126  if flag_tmp_NEWVARIABLE==40
+capture replace v150_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==41
+capture replace v150_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==42
+capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==43
+capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==44
+capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==45
+capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==46
+capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==47
+capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==48
+capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==49
+capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==50
+capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==51
+capture replace v150_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==52
 capture label variable v150_NEWVARIABLE `var_lab'
 capture label values v150_NEWVARIABLE `val_lab'
 
@@ -24207,24 +24207,24 @@ capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==31
 capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==32
 capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==33
 capture replace v151_NEWVARIABLE = var155  if flag_tmp_NEWVARIABLE==34
-capture replace v151_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==35
-capture replace v151_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==36
-capture replace v151_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==37
-capture replace v151_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==38
-capture replace v151_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==39
-capture replace v151_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==40
-capture replace v151_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==41
-capture replace v151_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==42
-capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==43
-capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==44
-capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==45
-capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==46
-capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==47
-capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==48
-capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==49
-capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==50
-capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==51
-capture replace v151_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==52
+capture replace v151_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==35
+capture replace v151_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==36
+capture replace v151_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==37
+capture replace v151_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==38
+capture replace v151_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==39
+capture replace v151_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==40
+capture replace v151_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==41
+capture replace v151_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==42
+capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==43
+capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==44
+capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==45
+capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==46
+capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==47
+capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==48
+capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==49
+capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==50
+capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==51
+capture replace v151_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==52
 capture label variable v151_NEWVARIABLE `var_lab'
 capture label values v151_NEWVARIABLE `val_lab'
 
@@ -24358,24 +24358,24 @@ capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==31
 capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==32
 capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==33
 capture replace v152_NEWVARIABLE = var156  if flag_tmp_NEWVARIABLE==34
-capture replace v152_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==35
-capture replace v152_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==36
-capture replace v152_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==37
-capture replace v152_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==38
-capture replace v152_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==39
-capture replace v152_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==40
-capture replace v152_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==41
-capture replace v152_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==42
-capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==43
-capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==44
-capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==45
-capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==46
-capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==47
-capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==48
-capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==49
-capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==50
-capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==51
-capture replace v152_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==52
+capture replace v152_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==35
+capture replace v152_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==36
+capture replace v152_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==37
+capture replace v152_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==38
+capture replace v152_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==39
+capture replace v152_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==40
+capture replace v152_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==41
+capture replace v152_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==42
+capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==43
+capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==44
+capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==45
+capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==46
+capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==47
+capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==48
+capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==49
+capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==50
+capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==51
+capture replace v152_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==52
 capture label variable v152_NEWVARIABLE `var_lab'
 capture label values v152_NEWVARIABLE `val_lab'
 
@@ -24509,24 +24509,24 @@ capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==31
 capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==32
 capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==33
 capture replace v153_NEWVARIABLE = var157  if flag_tmp_NEWVARIABLE==34
-capture replace v153_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==35
-capture replace v153_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==36
-capture replace v153_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==37
-capture replace v153_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==38
-capture replace v153_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==39
-capture replace v153_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==40
-capture replace v153_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==41
-capture replace v153_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==42
-capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==43
-capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==44
-capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==45
-capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==46
-capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==47
-capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==48
-capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==49
-capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==50
-capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==51
-capture replace v153_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==52
+capture replace v153_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==35
+capture replace v153_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==36
+capture replace v153_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==37
+capture replace v153_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==38
+capture replace v153_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==39
+capture replace v153_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==40
+capture replace v153_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==41
+capture replace v153_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==42
+capture replace v153_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==43
+capture replace v153_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==44
+capture replace v153_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==45
+capture replace v153_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==46
+capture replace v153_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==47
+capture replace v153_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==48
+capture replace v153_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==49
+capture replace v153_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==50
+capture replace v153_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==51
+capture replace v153_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==52
 capture label variable v153_NEWVARIABLE `var_lab'
 capture label values v153_NEWVARIABLE `val_lab'
 
@@ -24660,24 +24660,24 @@ capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==31
 capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==32
 capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==33
 capture replace v154_NEWVARIABLE = var159  if flag_tmp_NEWVARIABLE==34
-capture replace v154_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==35
-capture replace v154_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==36
-capture replace v154_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==37
-capture replace v154_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==38
-capture replace v154_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==39
-capture replace v154_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==40
-capture replace v154_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==41
-capture replace v154_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==42
-capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==43
-capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==44
-capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==45
-capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==46
-capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==47
-capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==48
-capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==49
-capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==50
-capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==51
-capture replace v154_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==52
+capture replace v154_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==35
+capture replace v154_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==36
+capture replace v154_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==37
+capture replace v154_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==38
+capture replace v154_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==39
+capture replace v154_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==40
+capture replace v154_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==41
+capture replace v154_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==42
+capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==43
+capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==44
+capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==45
+capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==46
+capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==47
+capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==48
+capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==49
+capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==50
+capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==51
+capture replace v154_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==52
 capture label variable v154_NEWVARIABLE `var_lab'
 capture label values v154_NEWVARIABLE `val_lab'
 
@@ -24811,24 +24811,24 @@ capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==31
 capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==32
 capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==33
 capture replace v155_NEWVARIABLE = var160  if flag_tmp_NEWVARIABLE==34
-capture replace v155_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==35
-capture replace v155_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==36
-capture replace v155_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==37
-capture replace v155_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==38
-capture replace v155_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==39
-capture replace v155_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==40
-capture replace v155_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==41
-capture replace v155_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==42
-capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==43
-capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==44
-capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==45
-capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==46
-capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==47
-capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==48
-capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==49
-capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==50
-capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==51
-capture replace v155_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==52
+capture replace v155_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==35
+capture replace v155_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==36
+capture replace v155_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==37
+capture replace v155_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==38
+capture replace v155_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==39
+capture replace v155_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==40
+capture replace v155_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==41
+capture replace v155_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==42
+capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==43
+capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==44
+capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==45
+capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==46
+capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==47
+capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==48
+capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==49
+capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==50
+capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==51
+capture replace v155_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==52
 capture label variable v155_NEWVARIABLE `var_lab'
 capture label values v155_NEWVARIABLE `val_lab'
 
@@ -24962,24 +24962,24 @@ capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==31
 capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==32
 capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==33
 capture replace v156_NEWVARIABLE = var161  if flag_tmp_NEWVARIABLE==34
-capture replace v156_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==35
-capture replace v156_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==36
-capture replace v156_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==37
-capture replace v156_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==38
-capture replace v156_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==39
-capture replace v156_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==40
-capture replace v156_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==41
-capture replace v156_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==42
-capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==43
-capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==44
-capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==45
-capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==46
-capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==47
-capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==48
-capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==49
-capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==50
-capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==51
-capture replace v156_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==52
+capture replace v156_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==35
+capture replace v156_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==36
+capture replace v156_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==37
+capture replace v156_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==38
+capture replace v156_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==39
+capture replace v156_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==40
+capture replace v156_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==41
+capture replace v156_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==42
+capture replace v156_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==43
+capture replace v156_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==44
+capture replace v156_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==45
+capture replace v156_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==46
+capture replace v156_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==47
+capture replace v156_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==48
+capture replace v156_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==49
+capture replace v156_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==50
+capture replace v156_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==51
+capture replace v156_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==52
 capture label variable v156_NEWVARIABLE `var_lab'
 capture label values v156_NEWVARIABLE `val_lab'
 
@@ -25227,19 +25227,19 @@ capture label values v157_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v158_NEWVARIABLE = .
+gen v158_ToBeDropped_NEWVARIABLE = .
 local var_lab: variable label var5
 local val_lab: value label var5
-capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==27
-capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==28
-capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==29
-capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==30
-capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==31
-capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==32
-capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==33
-capture replace v158_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==34
-capture label variable v158_NEWVARIABLE `var_lab'
-capture label values v158_NEWVARIABLE `val_lab'
+capture replace v158_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==27
+capture replace v158_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==28
+capture replace v158_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==29
+capture replace v158_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==30
+capture replace v158_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==31
+capture replace v158_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==32
+capture replace v158_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==33
+capture replace v158_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==34
+capture label variable v158_ToBeDropped_NEWVARIABLE `var_lab'
+capture label values v158_ToBeDropped_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25352,19 +25352,19 @@ capture label values v158_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v159_NEWVARIABLE = .
+gen v159_ToBeDropped_NEWVARIABLE = .
 local var_lab: variable label var6
 local val_lab: value label var6
-capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==27
-capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==28
-capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==29
-capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==30
-capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==31
-capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==32
-capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==33
-capture replace v159_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==34
-capture label variable v159_NEWVARIABLE `var_lab'
-capture label values v159_NEWVARIABLE `val_lab'
+capture replace v159_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==27
+capture replace v159_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==28
+capture replace v159_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==29
+capture replace v159_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==30
+capture replace v159_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==31
+capture replace v159_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==32
+capture replace v159_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==33
+capture replace v159_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==34
+capture label variable v159_ToBeDropped_NEWVARIABLE `var_lab'
+capture label values v159_ToBeDropped_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25477,19 +25477,19 @@ capture label values v159_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v160_NEWVARIABLE = .
+gen v160_ToBeDropped_NEWVARIABLE = .
 local var_lab: variable label var12
 local val_lab: value label var12
-capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==27
-capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==28
-capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==29
-capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==30
-capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==31
-capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==32
-capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==33
-capture replace v160_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==34
-capture label variable v160_NEWVARIABLE `var_lab'
-capture label values v160_NEWVARIABLE `val_lab'
+capture replace v160_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==27
+capture replace v160_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==28
+capture replace v160_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==29
+capture replace v160_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==30
+capture replace v160_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==31
+capture replace v160_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==32
+capture replace v160_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==33
+capture replace v160_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==34
+capture label variable v160_ToBeDropped_NEWVARIABLE `var_lab'
+capture label values v160_ToBeDropped_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25602,19 +25602,19 @@ capture label values v160_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v161_NEWVARIABLE = .
+gen v161_ToBeDropped_NEWVARIABLE = .
 local var_lab: variable label var14
 local val_lab: value label var14
-capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==27
-capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==28
-capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==29
-capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==30
-capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==31
-capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==32
-capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==33
-capture replace v161_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==34
-capture label variable v161_NEWVARIABLE `var_lab'
-capture label values v161_NEWVARIABLE `val_lab'
+capture replace v161_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==27
+capture replace v161_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==28
+capture replace v161_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==29
+capture replace v161_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==30
+capture replace v161_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==31
+capture replace v161_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==32
+capture replace v161_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==33
+capture replace v161_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==34
+capture label variable v161_ToBeDropped_NEWVARIABLE `var_lab'
+capture label values v161_ToBeDropped_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25727,19 +25727,19 @@ capture label values v161_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v162_NEWVARIABLE = .
+gen v162_ToBeDropped_NEWVARIABLE = .
 local var_lab: variable label var17
 local val_lab: value label var17
-capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==27
-capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==28
-capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==29
-capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==30
-capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==31
-capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==32
-capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==33
-capture replace v162_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==34
-capture label variable v162_NEWVARIABLE `var_lab'
-capture label values v162_NEWVARIABLE `val_lab'
+capture replace v162_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==27
+capture replace v162_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==28
+capture replace v162_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==29
+capture replace v162_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==30
+capture replace v162_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==31
+capture replace v162_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==32
+capture replace v162_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==33
+capture replace v162_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==34
+capture label variable v162_ToBeDropped_NEWVARIABLE `var_lab'
+capture label values v162_ToBeDropped_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25852,19 +25852,19 @@ capture label values v162_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v163_NEWVARIABLE = .
+gen v163_ToBeDropped_NEWVARIABLE = .
 local var_lab: variable label var22
 local val_lab: value label var22
-capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==27
-capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==28
-capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==29
-capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==30
-capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==31
-capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==32
-capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==33
-capture replace v163_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==34
-capture label variable v163_NEWVARIABLE `var_lab'
-capture label values v163_NEWVARIABLE `val_lab'
+capture replace v163_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==27
+capture replace v163_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==28
+capture replace v163_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==29
+capture replace v163_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==30
+capture replace v163_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==31
+capture replace v163_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==32
+capture replace v163_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==33
+capture replace v163_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==34
+capture label variable v163_ToBeDropped_NEWVARIABLE `var_lab'
+capture label values v163_ToBeDropped_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -25977,19 +25977,19 @@ capture label values v163_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v164_NEWVARIABLE = .
+gen v164_ToBeDropped_NEWVARIABLE = .
 local var_lab: variable label var23
 local val_lab: value label var23
-capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==27
-capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==28
-capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==29
-capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==30
-capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==31
-capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==32
-capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==33
-capture replace v164_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==34
-capture label variable v164_NEWVARIABLE `var_lab'
-capture label values v164_NEWVARIABLE `val_lab'
+capture replace v164_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==27
+capture replace v164_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==28
+capture replace v164_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==29
+capture replace v164_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==30
+capture replace v164_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==31
+capture replace v164_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==32
+capture replace v164_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==33
+capture replace v164_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==34
+capture label variable v164_ToBeDropped_NEWVARIABLE `var_lab'
+capture label values v164_ToBeDropped_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -26102,19 +26102,19 @@ capture label values v164_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v165_NEWVARIABLE = .
+gen v165_ToBeDropped_NEWVARIABLE = .
 local var_lab: variable label var24
 local val_lab: value label var24
-capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==27
-capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==28
-capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==29
-capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==30
-capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==31
-capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==32
-capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==33
-capture replace v165_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==34
-capture label variable v165_NEWVARIABLE `var_lab'
-capture label values v165_NEWVARIABLE `val_lab'
+capture replace v165_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==27
+capture replace v165_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==28
+capture replace v165_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==29
+capture replace v165_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==30
+capture replace v165_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==31
+capture replace v165_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==32
+capture replace v165_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==33
+capture replace v165_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==34
+capture label variable v165_ToBeDropped_NEWVARIABLE `var_lab'
+capture label values v165_ToBeDropped_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -26227,19 +26227,19 @@ capture label values v165_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v166_NEWVARIABLE = .
+gen v166_ToBeDropped_NEWVARIABLE = .
 local var_lab: variable label var26
 local val_lab: value label var26
-capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==27
-capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==28
-capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==29
-capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==30
-capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==31
-capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==32
-capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==33
-capture replace v166_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==34
-capture label variable v166_NEWVARIABLE `var_lab'
-capture label values v166_NEWVARIABLE `val_lab'
+capture replace v166_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==27
+capture replace v166_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==28
+capture replace v166_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==29
+capture replace v166_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==30
+capture replace v166_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==31
+capture replace v166_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==32
+capture replace v166_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==33
+capture replace v166_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==34
+capture label variable v166_ToBeDropped_NEWVARIABLE `var_lab'
+capture label values v166_ToBeDropped_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -26363,24 +26363,24 @@ capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==31
 capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==32
 capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==33
 capture replace v167_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==34
-capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==35
-capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==36
-capture replace v167_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==37
-capture replace v167_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==38
-capture replace v167_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==39
-capture replace v167_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==40
-capture replace v167_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==41
-capture replace v167_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==42
-capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==43
-capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==44
-capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==45
-capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==46
-capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==47
-capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==48
-capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==49
-capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==50
-capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==51
-capture replace v167_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==52
+capture replace v167_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==35
+capture replace v167_NEWVARIABLE = var104  if flag_tmp_NEWVARIABLE==36
+capture replace v167_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==37
+capture replace v167_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==38
+capture replace v167_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==39
+capture replace v167_NEWVARIABLE = var103  if flag_tmp_NEWVARIABLE==40
+capture replace v167_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==41
+capture replace v167_NEWVARIABLE = var105  if flag_tmp_NEWVARIABLE==42
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==43
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==44
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==45
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==46
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==47
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==48
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==49
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==50
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==51
+capture replace v167_NEWVARIABLE = var106  if flag_tmp_NEWVARIABLE==52
 capture label variable v167_NEWVARIABLE `var_lab'
 capture label values v167_NEWVARIABLE `val_lab'
 
@@ -26506,24 +26506,24 @@ capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==31
 capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==32
 capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==33
 capture replace v168_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==34
-capture replace v168_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==35
-capture replace v168_NEWVARIABLE = var115  if flag_tmp_NEWVARIABLE==36
-capture replace v168_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==37
-capture replace v168_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==38
-capture replace v168_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==39
-capture replace v168_NEWVARIABLE = var114  if flag_tmp_NEWVARIABLE==40
-capture replace v168_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==41
-capture replace v168_NEWVARIABLE = var118  if flag_tmp_NEWVARIABLE==42
-capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==43
-capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==44
-capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==45
-capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==46
-capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==47
-capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==48
-capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==49
-capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==50
-capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==51
-capture replace v168_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==52
+capture replace v168_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==35
+capture replace v168_NEWVARIABLE = var113  if flag_tmp_NEWVARIABLE==36
+capture replace v168_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==37
+capture replace v168_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==38
+capture replace v168_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==39
+capture replace v168_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==40
+capture replace v168_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==41
+capture replace v168_NEWVARIABLE = var116  if flag_tmp_NEWVARIABLE==42
+capture replace v168_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==43
+capture replace v168_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==44
+capture replace v168_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==45
+capture replace v168_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==46
+capture replace v168_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==47
+capture replace v168_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==48
+capture replace v168_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==49
+capture replace v168_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==50
+capture replace v168_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==51
+capture replace v168_NEWVARIABLE = var117  if flag_tmp_NEWVARIABLE==52
 capture label variable v168_NEWVARIABLE `var_lab'
 capture label values v168_NEWVARIABLE `val_lab'
 
@@ -26649,24 +26649,24 @@ capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==31
 capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==32
 capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==33
 capture replace v169_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==34
-capture replace v169_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==35
-capture replace v169_NEWVARIABLE = var124  if flag_tmp_NEWVARIABLE==36
-capture replace v169_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==37
-capture replace v169_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==38
-capture replace v169_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==39
-capture replace v169_NEWVARIABLE = var123  if flag_tmp_NEWVARIABLE==40
-capture replace v169_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==41
-capture replace v169_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==42
-capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==43
-capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==44
-capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==45
-capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==46
-capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==47
-capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==48
-capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==49
-capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==50
-capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==51
-capture replace v169_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==52
+capture replace v169_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==35
+capture replace v169_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==36
+capture replace v169_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==37
+capture replace v169_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==38
+capture replace v169_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==39
+capture replace v169_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==40
+capture replace v169_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==41
+capture replace v169_NEWVARIABLE = var127  if flag_tmp_NEWVARIABLE==42
+capture replace v169_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==43
+capture replace v169_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==44
+capture replace v169_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==45
+capture replace v169_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==46
+capture replace v169_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==47
+capture replace v169_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==48
+capture replace v169_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==49
+capture replace v169_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==50
+capture replace v169_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==51
+capture replace v169_NEWVARIABLE = var128  if flag_tmp_NEWVARIABLE==52
 capture label variable v169_NEWVARIABLE `var_lab'
 capture label values v169_NEWVARIABLE `val_lab'
 
@@ -26792,24 +26792,24 @@ capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==31
 capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==32
 capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==33
 capture replace v170_NEWVARIABLE = var158  if flag_tmp_NEWVARIABLE==34
-capture replace v170_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==35
-capture replace v170_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==36
-capture replace v170_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==37
-capture replace v170_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==38
-capture replace v170_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==39
-capture replace v170_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==40
-capture replace v170_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==41
-capture replace v170_NEWVARIABLE = var140  if flag_tmp_NEWVARIABLE==42
-capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==43
-capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==44
-capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==45
-capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==46
-capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==47
-capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==48
-capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==49
-capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==50
-capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==51
-capture replace v170_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==52
+capture replace v170_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==35
+capture replace v170_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==36
+capture replace v170_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==37
+capture replace v170_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==38
+capture replace v170_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==39
+capture replace v170_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==40
+capture replace v170_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==41
+capture replace v170_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==42
+capture replace v170_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==43
+capture replace v170_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==44
+capture replace v170_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==45
+capture replace v170_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==46
+capture replace v170_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==47
+capture replace v170_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==48
+capture replace v170_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==49
+capture replace v170_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==50
+capture replace v170_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==51
+capture replace v170_NEWVARIABLE = var139  if flag_tmp_NEWVARIABLE==52
 capture label variable v170_NEWVARIABLE `var_lab'
 capture label values v170_NEWVARIABLE `val_lab'
 
@@ -26933,24 +26933,24 @@ capture replace v171_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==31
 capture replace v171_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==32
 capture replace v171_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==33
 capture replace v171_NEWVARIABLE = var163  if flag_tmp_NEWVARIABLE==34
-capture replace v171_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==35
-capture replace v171_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==36
-capture replace v171_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==37
-capture replace v171_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==38
-capture replace v171_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==39
-capture replace v171_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==40
-capture replace v171_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==41
-capture replace v171_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==42
-capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==43
-capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==44
-capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==45
-capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==46
-capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==47
-capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==48
-capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==49
-capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==50
-capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==51
-capture replace v171_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==52
+capture replace v171_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==35
+capture replace v171_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==36
+capture replace v171_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==37
+capture replace v171_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==38
+capture replace v171_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==39
+capture replace v171_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==40
+capture replace v171_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==41
+capture replace v171_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==42
+capture replace v171_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==43
+capture replace v171_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==44
+capture replace v171_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==45
+capture replace v171_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==46
+capture replace v171_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==47
+capture replace v171_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==48
+capture replace v171_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==49
+capture replace v171_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==50
+capture replace v171_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==51
+capture replace v171_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==52
 capture label variable v171_NEWVARIABLE `var_lab'
 capture label values v171_NEWVARIABLE `val_lab'
 
@@ -27074,296 +27074,26 @@ capture replace v172_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==31
 capture replace v172_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==32
 capture replace v172_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==33
 capture replace v172_NEWVARIABLE = var164  if flag_tmp_NEWVARIABLE==34
-capture replace v172_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==35
-capture replace v172_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==36
-capture replace v172_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==37
-capture replace v172_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==38
-capture replace v172_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==39
-capture replace v172_NEWVARIABLE = var137  if flag_tmp_NEWVARIABLE==40
-capture replace v172_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==41
-capture replace v172_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==42
-capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==43
-capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==44
-capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==45
-capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==46
-capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==47
-capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==48
-capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==49
-capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==50
-capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==51
-capture replace v172_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==52
+capture replace v172_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==35
+capture replace v172_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==36
+capture replace v172_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==37
+capture replace v172_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==38
+capture replace v172_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==39
+capture replace v172_NEWVARIABLE = var135  if flag_tmp_NEWVARIABLE==40
+capture replace v172_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==41
+capture replace v172_NEWVARIABLE = var145  if flag_tmp_NEWVARIABLE==42
+capture replace v172_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==43
+capture replace v172_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==44
+capture replace v172_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==45
+capture replace v172_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==46
+capture replace v172_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==47
+capture replace v172_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==48
+capture replace v172_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==49
+capture replace v172_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==50
+capture replace v172_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==51
+capture replace v172_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==52
 capture label variable v172_NEWVARIABLE `var_lab'
 capture label values v172_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "スペース1"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-    Description (Data 30): None
-    Description (Data 31): None
-    Description (Data 32): None
-    Description (Data 33): None
-    Description (Data 34): None
-    Description (Data 35): "スペース1"
-    Description (Data 36): "スペース1"
-    Description (Data 37): "スペース1"
-    Description (Data 38): "スペース1"
-    Description (Data 39): "スペース1"
-    Description (Data 40): "スペース1"
-    Description (Data 41): "スペース1"
-    Description (Data 42): "スペース1"
-    Description (Data 43): "スペース1"
-    Description (Data 44): "スペース1"
-    Description (Data 45): "スペース1"
-    Description (Data 46): "スペース1"
-    Description (Data 47): "スペース1"
-    Description (Data 48): "スペース1"
-    Description (Data 49): "スペース1"
-    Description (Data 50): "スペース1"
-    Description (Data 51): "スペース1"
-    Description (Data 52): "スペース1"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-    Values (Data 30): None
-    Values (Data 31): None
-    Values (Data 32): None
-    Values (Data 33): None
-    Values (Data 34): None
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
-
-----------------------------------------------------------------------*/
-gen v173_NEWVARIABLE = .
-local var_lab: variable label var4
-local val_lab: value label var4
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==35
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==36
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==37
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==38
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==39
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==40
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==41
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==42
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==43
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==44
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==45
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==46
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==47
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==48
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==49
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==50
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==51
-capture replace v173_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==52
-capture label variable v173_NEWVARIABLE `var_lab'
-capture label values v173_NEWVARIABLE `val_lab'
-
-
-/*----------------------------------------------------------------------
-    Description (Base):    "スペース2"
-    Description (Data 1):  None
-    Description (Data 2):  None
-    Description (Data 3):  None
-    Description (Data 4):  None
-    Description (Data 5):  None
-    Description (Data 6):  None
-    Description (Data 7):  None
-    Description (Data 8):  None
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-    Description (Data 30): None
-    Description (Data 31): None
-    Description (Data 32): None
-    Description (Data 33): None
-    Description (Data 34): None
-    Description (Data 35): "スペース2"
-    Description (Data 36): "スペース2"
-    Description (Data 37): "スペース2"
-    Description (Data 38): "スペース2"
-    Description (Data 39): "スペース2"
-    Description (Data 40): "スペース2"
-    Description (Data 41): "スペース2"
-    Description (Data 42): "スペース2"
-    Description (Data 43): "スペース2"
-    Description (Data 44): "スペース2"
-    Description (Data 45): "スペース2"
-    Description (Data 46): "スペース2"
-    Description (Data 47): "スペース2"
-    Description (Data 48): "スペース2"
-    Description (Data 49): "スペース2"
-    Description (Data 50): "スペース2"
-    Description (Data 51): "スペース2"
-    Description (Data 52): "スペース2"
-
-    Values (Base):    
-    Values (Data 1):  None
-    Values (Data 2):  None
-    Values (Data 3):  None
-    Values (Data 4):  None
-    Values (Data 5):  None
-    Values (Data 6):  None
-    Values (Data 7):  None
-    Values (Data 8):  None
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-    Values (Data 30): None
-    Values (Data 31): None
-    Values (Data 32): None
-    Values (Data 33): None
-    Values (Data 34): None
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
-
-----------------------------------------------------------------------*/
-gen v174_NEWVARIABLE = .
-local var_lab: variable label var6
-local val_lab: value label var6
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==35
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==36
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==37
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==38
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==39
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==40
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==41
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==42
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==43
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==44
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==45
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==46
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==47
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==48
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==49
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==50
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==51
-capture replace v174_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==52
-capture label variable v174_NEWVARIABLE `var_lab'
-capture label values v174_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27476,13 +27206,13 @@ capture label values v174_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v175_NEWVARIABLE = .
-local var_lab: variable label var138
-local val_lab: value label var138
-capture replace v175_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==37
-capture replace v175_NEWVARIABLE = var138  if flag_tmp_NEWVARIABLE==38
-capture label variable v175_NEWVARIABLE `var_lab'
-capture label values v175_NEWVARIABLE `val_lab'
+gen v173_NEWVARIABLE = .
+local var_lab: variable label var136
+local val_lab: value label var136
+capture replace v173_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==37
+capture replace v173_NEWVARIABLE = var136  if flag_tmp_NEWVARIABLE==38
+capture label variable v173_NEWVARIABLE `var_lab'
+capture label values v173_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27595,23 +27325,23 @@ capture label values v175_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v176_NEWVARIABLE = .
-local var_lab: variable label var56
-local val_lab: value label var56
-capture replace v176_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==41
-capture replace v176_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==42
-capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==43
-capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==44
-capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==45
-capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==46
-capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==47
-capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==48
-capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==49
-capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==50
-capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==51
-capture replace v176_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==52
-capture label variable v176_NEWVARIABLE `var_lab'
-capture label values v176_NEWVARIABLE `val_lab'
+gen v174_NEWVARIABLE = .
+local var_lab: variable label var54
+local val_lab: value label var54
+capture replace v174_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==41
+capture replace v174_NEWVARIABLE = var54  if flag_tmp_NEWVARIABLE==42
+capture replace v174_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==43
+capture replace v174_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==44
+capture replace v174_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==45
+capture replace v174_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==46
+capture replace v174_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==47
+capture replace v174_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==48
+capture replace v174_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==49
+capture replace v174_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==50
+capture replace v174_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==51
+capture replace v174_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==52
+capture label variable v174_NEWVARIABLE `var_lab'
+capture label values v174_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27724,23 +27454,23 @@ capture label values v176_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v177_NEWVARIABLE = .
-local var_lab: variable label var57
-local val_lab: value label var57
-capture replace v177_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==41
-capture replace v177_NEWVARIABLE = var57  if flag_tmp_NEWVARIABLE==42
-capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==43
-capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==44
-capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==45
-capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==46
-capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==47
-capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==48
-capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==49
-capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==50
-capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==51
-capture replace v177_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==52
-capture label variable v177_NEWVARIABLE `var_lab'
-capture label values v177_NEWVARIABLE `val_lab'
+gen v175_NEWVARIABLE = .
+local var_lab: variable label var55
+local val_lab: value label var55
+capture replace v175_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==41
+capture replace v175_NEWVARIABLE = var55  if flag_tmp_NEWVARIABLE==42
+capture replace v175_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==43
+capture replace v175_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==44
+capture replace v175_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==45
+capture replace v175_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==46
+capture replace v175_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==47
+capture replace v175_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==48
+capture replace v175_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==49
+capture replace v175_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==50
+capture replace v175_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==51
+capture replace v175_NEWVARIABLE = var56  if flag_tmp_NEWVARIABLE==52
+capture label variable v175_NEWVARIABLE `var_lab'
+capture label values v175_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27853,23 +27583,23 @@ capture label values v177_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v178_NEWVARIABLE = .
-local var_lab: variable label var109
-local val_lab: value label var109
-capture replace v178_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==41
-capture replace v178_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==42
-capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==43
-capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==44
-capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==45
-capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==46
-capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==47
-capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==48
-capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==49
-capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==50
-capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==51
-capture replace v178_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==52
-capture label variable v178_NEWVARIABLE `var_lab'
-capture label values v178_NEWVARIABLE `val_lab'
+gen v176_NEWVARIABLE = .
+local var_lab: variable label var107
+local val_lab: value label var107
+capture replace v176_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==41
+capture replace v176_NEWVARIABLE = var107  if flag_tmp_NEWVARIABLE==42
+capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==43
+capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==44
+capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==45
+capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==46
+capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==47
+capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==48
+capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==49
+capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==50
+capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==51
+capture replace v176_NEWVARIABLE = var108  if flag_tmp_NEWVARIABLE==52
+capture label variable v176_NEWVARIABLE `var_lab'
+capture label values v176_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -27982,23 +27712,23 @@ capture label values v178_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v179_NEWVARIABLE = .
-local var_lab: variable label var111
-local val_lab: value label var111
-capture replace v179_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==41
-capture replace v179_NEWVARIABLE = var111  if flag_tmp_NEWVARIABLE==42
-capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==43
-capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==44
-capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==45
-capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==46
-capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==47
-capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==48
-capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==49
-capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==50
-capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==51
-capture replace v179_NEWVARIABLE = var112  if flag_tmp_NEWVARIABLE==52
-capture label variable v179_NEWVARIABLE `var_lab'
-capture label values v179_NEWVARIABLE `val_lab'
+gen v177_NEWVARIABLE = .
+local var_lab: variable label var109
+local val_lab: value label var109
+capture replace v177_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==41
+capture replace v177_NEWVARIABLE = var109  if flag_tmp_NEWVARIABLE==42
+capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==43
+capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==44
+capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==45
+capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==46
+capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==47
+capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==48
+capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==49
+capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==50
+capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==51
+capture replace v177_NEWVARIABLE = var110  if flag_tmp_NEWVARIABLE==52
+capture label variable v177_NEWVARIABLE `var_lab'
+capture label values v177_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28111,23 +27841,23 @@ capture label values v179_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v180_NEWVARIABLE = .
-local var_lab: variable label var121
-local val_lab: value label var121
-capture replace v180_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==41
-capture replace v180_NEWVARIABLE = var121  if flag_tmp_NEWVARIABLE==42
-capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==43
-capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==44
-capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==45
-capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==46
-capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==47
-capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==48
-capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==49
-capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==50
-capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==51
-capture replace v180_NEWVARIABLE = var122  if flag_tmp_NEWVARIABLE==52
-capture label variable v180_NEWVARIABLE `var_lab'
-capture label values v180_NEWVARIABLE `val_lab'
+gen v178_NEWVARIABLE = .
+local var_lab: variable label var119
+local val_lab: value label var119
+capture replace v178_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==41
+capture replace v178_NEWVARIABLE = var119  if flag_tmp_NEWVARIABLE==42
+capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==43
+capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==44
+capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==45
+capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==46
+capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==47
+capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==48
+capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==49
+capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==50
+capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==51
+capture replace v178_NEWVARIABLE = var120  if flag_tmp_NEWVARIABLE==52
+capture label variable v178_NEWVARIABLE `var_lab'
+capture label values v178_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28240,23 +27970,23 @@ capture label values v180_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v181_NEWVARIABLE = .
-local var_lab: variable label var131
-local val_lab: value label var131
-capture replace v181_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==41
-capture replace v181_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==42
-capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==43
-capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==44
-capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==45
-capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==46
-capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==47
-capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==48
-capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==49
-capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==50
-capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==51
-capture replace v181_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==52
-capture label variable v181_NEWVARIABLE `var_lab'
-capture label values v181_NEWVARIABLE `val_lab'
+gen v179_NEWVARIABLE = .
+local var_lab: variable label var129
+local val_lab: value label var129
+capture replace v179_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==41
+capture replace v179_NEWVARIABLE = var129  if flag_tmp_NEWVARIABLE==42
+capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==43
+capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==44
+capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==45
+capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==46
+capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==47
+capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==48
+capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==49
+capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==50
+capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==51
+capture replace v179_NEWVARIABLE = var130  if flag_tmp_NEWVARIABLE==52
+capture label variable v179_NEWVARIABLE `var_lab'
+capture label values v179_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28369,23 +28099,23 @@ capture label values v181_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v182_NEWVARIABLE = .
-local var_lab: variable label var133
-local val_lab: value label var133
-capture replace v182_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==41
-capture replace v182_NEWVARIABLE = var133  if flag_tmp_NEWVARIABLE==42
-capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==43
-capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==44
-capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==45
-capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==46
-capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==47
-capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==48
-capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==49
-capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==50
-capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==51
-capture replace v182_NEWVARIABLE = var134  if flag_tmp_NEWVARIABLE==52
-capture label variable v182_NEWVARIABLE `var_lab'
-capture label values v182_NEWVARIABLE `val_lab'
+gen v180_NEWVARIABLE = .
+local var_lab: variable label var131
+local val_lab: value label var131
+capture replace v180_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==41
+capture replace v180_NEWVARIABLE = var131  if flag_tmp_NEWVARIABLE==42
+capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==43
+capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==44
+capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==45
+capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==46
+capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==47
+capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==48
+capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==49
+capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==50
+capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==51
+capture replace v180_NEWVARIABLE = var132  if flag_tmp_NEWVARIABLE==52
+capture label variable v180_NEWVARIABLE `var_lab'
+capture label values v180_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28498,23 +28228,23 @@ capture label values v182_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v183_NEWVARIABLE = .
-local var_lab: variable label var143
-local val_lab: value label var143
-capture replace v183_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==41
-capture replace v183_NEWVARIABLE = var143  if flag_tmp_NEWVARIABLE==42
-capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==43
-capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==44
-capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==45
-capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==46
-capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==47
-capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==48
-capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==49
-capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==50
-capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==51
-capture replace v183_NEWVARIABLE = var144  if flag_tmp_NEWVARIABLE==52
-capture label variable v183_NEWVARIABLE `var_lab'
-capture label values v183_NEWVARIABLE `val_lab'
+gen v181_NEWVARIABLE = .
+local var_lab: variable label var141
+local val_lab: value label var141
+capture replace v181_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==41
+capture replace v181_NEWVARIABLE = var141  if flag_tmp_NEWVARIABLE==42
+capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==43
+capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==44
+capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==45
+capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==46
+capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==47
+capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==48
+capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==49
+capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==50
+capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==51
+capture replace v181_NEWVARIABLE = var142  if flag_tmp_NEWVARIABLE==52
+capture label variable v181_NEWVARIABLE `var_lab'
+capture label values v181_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28627,23 +28357,23 @@ capture label values v183_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v184_NEWVARIABLE = .
-local var_lab: variable label var148
-local val_lab: value label var148
-capture replace v184_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==41
-capture replace v184_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==42
-capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==43
-capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==44
-capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==45
-capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==46
-capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==47
-capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==48
-capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==49
-capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==50
-capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==51
-capture replace v184_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==52
-capture label variable v184_NEWVARIABLE `var_lab'
-capture label values v184_NEWVARIABLE `val_lab'
+gen v182_NEWVARIABLE = .
+local var_lab: variable label var146
+local val_lab: value label var146
+capture replace v182_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==41
+capture replace v182_NEWVARIABLE = var146  if flag_tmp_NEWVARIABLE==42
+capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==43
+capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==44
+capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==45
+capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==46
+capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==47
+capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==48
+capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==49
+capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==50
+capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==51
+capture replace v182_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==52
+capture label variable v182_NEWVARIABLE `var_lab'
+capture label values v182_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28756,23 +28486,23 @@ capture label values v184_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v185_NEWVARIABLE = .
-local var_lab: variable label var149
-local val_lab: value label var149
-capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==41
-capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==42
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==43
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==44
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==45
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==46
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==47
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==48
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==49
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==50
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==51
-capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==52
-capture label variable v185_NEWVARIABLE `var_lab'
-capture label values v185_NEWVARIABLE `val_lab'
+gen v183_NEWVARIABLE = .
+local var_lab: variable label var147
+local val_lab: value label var147
+capture replace v183_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==41
+capture replace v183_NEWVARIABLE = var147  if flag_tmp_NEWVARIABLE==42
+capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==43
+capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==44
+capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==45
+capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==46
+capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==47
+capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==48
+capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==49
+capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==50
+capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==51
+capture replace v183_NEWVARIABLE = var148  if flag_tmp_NEWVARIABLE==52
+capture label variable v183_NEWVARIABLE `var_lab'
+capture label values v183_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -28885,21 +28615,21 @@ capture label values v185_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v186_NEWVARIABLE = .
-local var_lab: variable label var14
-local val_lab: value label var14
-capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==43
-capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==44
-capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==45
-capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==46
-capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==47
-capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==48
-capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==49
-capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==50
-capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==51
-capture replace v186_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==52
-capture label variable v186_NEWVARIABLE `var_lab'
-capture label values v186_NEWVARIABLE `val_lab'
+gen v184_NEWVARIABLE = .
+local var_lab: variable label var12
+local val_lab: value label var12
+capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==43
+capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==44
+capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==45
+capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==46
+capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==47
+capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==48
+capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==49
+capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==50
+capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==51
+capture replace v184_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==52
+capture label variable v184_NEWVARIABLE `var_lab'
+capture label values v184_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -29012,19 +28742,19 @@ capture label values v186_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v187_NEWVARIABLE = .
-local var_lab: variable label var151
-local val_lab: value label var151
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==45
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==46
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==47
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==48
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==49
-capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==50
-capture replace v187_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==51
-capture replace v187_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==52
-capture label variable v187_NEWVARIABLE `var_lab'
-capture label values v187_NEWVARIABLE `val_lab'
+gen v185_NEWVARIABLE = .
+local var_lab: variable label var149
+local val_lab: value label var149
+capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==45
+capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==46
+capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==47
+capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==48
+capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==49
+capture replace v185_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==50
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==51
+capture replace v185_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==52
+capture label variable v185_NEWVARIABLE `var_lab'
+capture label values v185_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -29137,19 +28867,19 @@ capture label values v187_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v188_NEWVARIABLE = .
-local var_lab: variable label var152
-local val_lab: value label var152
-capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==45
-capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==46
-capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==47
-capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==48
-capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==49
-capture replace v188_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==50
-capture replace v188_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==51
-capture replace v188_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==52
-capture label variable v188_NEWVARIABLE `var_lab'
-capture label values v188_NEWVARIABLE `val_lab'
+gen v186_NEWVARIABLE = .
+local var_lab: variable label var150
+local val_lab: value label var150
+capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==45
+capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==46
+capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==47
+capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==48
+capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==49
+capture replace v186_NEWVARIABLE = var150  if flag_tmp_NEWVARIABLE==50
+capture replace v186_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==51
+capture replace v186_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==52
+capture label variable v186_NEWVARIABLE `var_lab'
+capture label values v186_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -29262,19 +28992,19 @@ capture label values v188_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v189_NEWVARIABLE = .
-local var_lab: variable label var153
-local val_lab: value label var153
-capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==45
-capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==46
-capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==47
-capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==48
-capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==49
-capture replace v189_NEWVARIABLE = var153  if flag_tmp_NEWVARIABLE==50
-capture replace v189_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==51
-capture replace v189_NEWVARIABLE = var154  if flag_tmp_NEWVARIABLE==52
-capture label variable v189_NEWVARIABLE `var_lab'
-capture label values v189_NEWVARIABLE `val_lab'
+gen v187_NEWVARIABLE = .
+local var_lab: variable label var151
+local val_lab: value label var151
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==45
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==46
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==47
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==48
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==49
+capture replace v187_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==50
+capture replace v187_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==51
+capture replace v187_NEWVARIABLE = var152  if flag_tmp_NEWVARIABLE==52
+capture label variable v187_NEWVARIABLE `var_lab'
+capture label values v187_NEWVARIABLE `val_lab'
 
 
 /*----------------------------------------------------------------------
@@ -29387,13 +29117,13 @@ capture label values v189_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 打鍵データ
 
 ----------------------------------------------------------------------*/
-gen v190_NEWVARIABLE = .
-local var_lab: variable label var151
-local val_lab: value label var151
-capture replace v190_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==51
-capture replace v190_NEWVARIABLE = var151  if flag_tmp_NEWVARIABLE==52
-capture label variable v190_NEWVARIABLE `var_lab'
-capture label values v190_NEWVARIABLE `val_lab'
+gen v188_NEWVARIABLE = .
+local var_lab: variable label var149
+local val_lab: value label var149
+capture replace v188_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==51
+capture replace v188_NEWVARIABLE = var149  if flag_tmp_NEWVARIABLE==52
+capture label variable v188_NEWVARIABLE `var_lab'
+capture label values v188_NEWVARIABLE `val_lab'
 
 
 keep *_NEWVARIABLE

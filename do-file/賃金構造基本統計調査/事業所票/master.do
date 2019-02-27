@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/27 01:39:11
+    Date: 2019/02/27 14:22:39
 ----------------------------------------------------------------------*/
 
 
@@ -339,12 +339,13 @@ append using ///
     , gen(flag_tmp_NEWVARIABLE)
 
 run "${DoFilePathTemp}/rename.do"
+capture drop *_ToBeDropped
+
 save "${DataFilePathTemp}/data_appended.dta", replace
 
 CheckAppendValidity, data_id(flag_tmp) tol(0.2) stats("mean sd")
-drop flag_tmp
-
-log close
 
 macro drop DoFilePathTemp
 macro drop DataFilePathTemp
+log close
+

@@ -28,16 +28,16 @@
 
 
     Source: （参考）符号表_雇用動向調査（事業所票）h16-28.xlsx
-    Date: 2019/02/27 01:39:19
+    Date: 2019/02/27 14:22:47
 ----------------------------------------------------------------------*/
 
 
 capture label define var3 7 "下期" 
 capture label values var3 var3
 
-capture label define var12 1 "500人以上" 2 "100~499人" 3 "30~99人" 4 "5~29人" 
-capture label values var12 var12
+capture label define var10 1 "500人以上" 2 "100~499人" 3 "30~99人" 4 "5~29人" 
+capture label values var10 var10
 
-capture label define var13 1 "1000人以上" 2 "300~999人" 3 "100~299人" 4 "30~99人" 5 "5~29人" 6 "官公営" 
-capture label values var13 var13
+capture label define var11 1 "1000人以上" 2 "300~999人" 3 "100~299人" 4 "30~99人" 5 "5~29人" 6 "官公営" 
+capture label values var11 var11
 

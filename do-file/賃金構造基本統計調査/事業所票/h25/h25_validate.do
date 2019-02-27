@@ -28,7 +28,7 @@
 
 
     Source: 平成17～29年_賃金構造基本統計調査_事業所票（初任給）.xls
-    Date: 2019/02/27 01:39:02
+    Date: 2019/02/27 14:22:31
 ----------------------------------------------------------------------*/
 
 
@@ -386,9 +386,9 @@ if r(N)==_N {
 }
 
 
-count if var2==.
+count if var1==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var2} (共通事業所コード)"
+    display as error "Only missing value: {bf:var1} (共通事業所コード)"
 }
 
 
