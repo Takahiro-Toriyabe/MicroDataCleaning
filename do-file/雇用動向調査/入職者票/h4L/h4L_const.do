@@ -27,8 +27,8 @@
            across different data.
 
 
-    Source: （参考）符号表_雇用動向調査（入職者票）h4.xlsx
-    Date: 2019/02/27 14:27:28
+    Source: （参考）符号表_雇用動向調査（入職者票）h3-4.xlsx
+    Date: 2019/02/27 18:59:52
 ----------------------------------------------------------------------*/
 
 
@@ -88,8 +88,9 @@
         var52 99-100
         var53 101-102
         var54 103-104
-        var55 107-107
-        var56 108-109
-        var57 110-111
+        var55 105-106
+        var56 107-107
+        var57 108-109
+        var58 110-111
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_n-koyo/H04_n-koyo07.txt";
 #delimit cr

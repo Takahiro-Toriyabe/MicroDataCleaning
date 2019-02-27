@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/27 14:28:26
+    Date: 2019/02/27 19:01:01
 ----------------------------------------------------------------------*/
 
 
@@ -45,6 +45,24 @@ log using "${DoFilePathTemp}/log/log.smcl", replace
 
 tempvar data
 
+run "${DoFilePathTemp}/h3F/h3F_const.do"
+run "${DoFilePathTemp}/h3F/h3F_var.do"
+run "${DoFilePathTemp}/h3F/h3F_val.do"
+run "${DoFilePathTemp}/h3F/h3F_validate.do"
+save "${DataFilePathTemp}/H03_n-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h3L/h3L_const.do"
+run "${DoFilePathTemp}/h3L/h3L_var.do"
+run "${DoFilePathTemp}/h3L/h3L_val.do"
+run "${DoFilePathTemp}/h3L/h3L_validate.do"
+save "${DataFilePathTemp}/H03_n-koyo07.dta", replace
+
+clear
+
+
 run "${DoFilePathTemp}/h4F/h4F_const.do"
 run "${DoFilePathTemp}/h4F/h4F_var.do"
 run "${DoFilePathTemp}/h4F/h4F_val.do"
@@ -59,6 +77,60 @@ run "${DoFilePathTemp}/h4L/h4L_var.do"
 run "${DoFilePathTemp}/h4L/h4L_val.do"
 run "${DoFilePathTemp}/h4L/h4L_validate.do"
 save "${DataFilePathTemp}/H04_n-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h5F/h5F_const.do"
+run "${DoFilePathTemp}/h5F/h5F_var.do"
+run "${DoFilePathTemp}/h5F/h5F_val.do"
+run "${DoFilePathTemp}/h5F/h5F_validate.do"
+save "${DataFilePathTemp}/H05_n-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h5L/h5L_const.do"
+run "${DoFilePathTemp}/h5L/h5L_var.do"
+run "${DoFilePathTemp}/h5L/h5L_val.do"
+run "${DoFilePathTemp}/h5L/h5L_validate.do"
+save "${DataFilePathTemp}/H05_n-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h6F/h6F_const.do"
+run "${DoFilePathTemp}/h6F/h6F_var.do"
+run "${DoFilePathTemp}/h6F/h6F_val.do"
+run "${DoFilePathTemp}/h6F/h6F_validate.do"
+save "${DataFilePathTemp}/H06_n-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h6L/h6L_const.do"
+run "${DoFilePathTemp}/h6L/h6L_var.do"
+run "${DoFilePathTemp}/h6L/h6L_val.do"
+run "${DoFilePathTemp}/h6L/h6L_validate.do"
+save "${DataFilePathTemp}/H06_n-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h7F/h7F_const.do"
+run "${DoFilePathTemp}/h7F/h7F_var.do"
+run "${DoFilePathTemp}/h7F/h7F_val.do"
+run "${DoFilePathTemp}/h7F/h7F_validate.do"
+save "${DataFilePathTemp}/H07_n-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h7L/h7L_const.do"
+run "${DoFilePathTemp}/h7L/h7L_var.do"
+run "${DoFilePathTemp}/h7L/h7L_val.do"
+run "${DoFilePathTemp}/h7L/h7L_validate.do"
+save "${DataFilePathTemp}/H07_n-koyo07.dta", replace
 
 clear
 
@@ -442,8 +514,16 @@ clear
 
 
 append using ///
+    "${DataFilePathTemp}/H03_n-koyo01.dta" ///
+    "${DataFilePathTemp}/H03_n-koyo07.dta" ///
     "${DataFilePathTemp}/H04_n-koyo01.dta" ///
     "${DataFilePathTemp}/H04_n-koyo07.dta" ///
+    "${DataFilePathTemp}/H05_n-koyo01.dta" ///
+    "${DataFilePathTemp}/H05_n-koyo07.dta" ///
+    "${DataFilePathTemp}/H06_n-koyo01.dta" ///
+    "${DataFilePathTemp}/H06_n-koyo07.dta" ///
+    "${DataFilePathTemp}/H07_n-koyo01.dta" ///
+    "${DataFilePathTemp}/H07_n-koyo07.dta" ///
     "${DataFilePathTemp}/H08_n-koyo01.dta" ///
     "${DataFilePathTemp}/H08_n-koyo07.dta" ///
     "${DataFilePathTemp}/H09_n-koyo01.dta" ///

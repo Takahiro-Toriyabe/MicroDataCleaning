@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/27 14:28:47
+    Date: 2019/02/27 19:01:26
 ----------------------------------------------------------------------*/
 
 
@@ -77,6 +77,42 @@ run "${DoFilePathTemp}/h4L/h4L_var.do"
 run "${DoFilePathTemp}/h4L/h4L_val.do"
 run "${DoFilePathTemp}/h4L/h4L_validate.do"
 save "${DataFilePathTemp}/H04_r-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h5F/h5F_const.do"
+run "${DoFilePathTemp}/h5F/h5F_var.do"
+run "${DoFilePathTemp}/h5F/h5F_val.do"
+run "${DoFilePathTemp}/h5F/h5F_validate.do"
+save "${DataFilePathTemp}/H05_r-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h5L/h5L_const.do"
+run "${DoFilePathTemp}/h5L/h5L_var.do"
+run "${DoFilePathTemp}/h5L/h5L_val.do"
+run "${DoFilePathTemp}/h5L/h5L_validate.do"
+save "${DataFilePathTemp}/H05_r-koyo07.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h6F/h6F_const.do"
+run "${DoFilePathTemp}/h6F/h6F_var.do"
+run "${DoFilePathTemp}/h6F/h6F_val.do"
+run "${DoFilePathTemp}/h6F/h6F_validate.do"
+save "${DataFilePathTemp}/H06_r-koyo01.dta", replace
+
+clear
+
+
+run "${DoFilePathTemp}/h6L/h6L_const.do"
+run "${DoFilePathTemp}/h6L/h6L_var.do"
+run "${DoFilePathTemp}/h6L/h6L_val.do"
+run "${DoFilePathTemp}/h6L/h6L_validate.do"
+save "${DataFilePathTemp}/H06_r-koyo07.dta", replace
 
 clear
 
@@ -482,6 +518,10 @@ append using ///
     "${DataFilePathTemp}/H03_r-koyo07.dta" ///
     "${DataFilePathTemp}/H04_r-koyo01.dta" ///
     "${DataFilePathTemp}/H04_r-koyo07.dta" ///
+    "${DataFilePathTemp}/H05_r-koyo01.dta" ///
+    "${DataFilePathTemp}/H05_r-koyo07.dta" ///
+    "${DataFilePathTemp}/H06_r-koyo01.dta" ///
+    "${DataFilePathTemp}/H06_r-koyo07.dta" ///
     "${DataFilePathTemp}/H07_r-koyo01.dta" ///
     "${DataFilePathTemp}/H07_r-koyo07.dta" ///
     "${DataFilePathTemp}/H08_r-koyo01.dta" ///
