@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h7-28.xlsx
-    Date: 2019/02/27 01:44:49
+    Date: 2019/02/27 14:28:28
 ----------------------------------------------------------------------*/
 
 
@@ -242,6 +242,16 @@ if _rc!=0 {
 }
 
 
+count if var30==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var30} (分類表21-2)"
+}
+capture assert inlist(var30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var30} (分類表21-2) may have invalid values (Check layout sheet)"
+}
+
+
 count if var31==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var31} (学歴)"
@@ -299,6 +309,22 @@ if r(N)==_N {
 capture assert inlist(var36, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var36} (離職理由チェック済) may have invalid values (Check layout sheet)"
+}
+
+
+count if var37==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var37} (分類表29)"
+}
+capture assert inlist(var37, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var37} (分類表29) may have invalid values (Check layout sheet)"
+}
+
+
+count if var38==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var38} (分類表1)"
 }
 
 

@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h4.xlsx
-    Date: 2019/02/27 01:44:08
+    Date: 2019/02/27 14:27:28
 ----------------------------------------------------------------------*/
 
 
@@ -56,9 +56,12 @@ capture label variable var21 "年齢階級区分"
 capture label variable var22 "地域区分"
 capture label variable var23 "都道府県番号"
 capture label variable var24 "調査票コード"
+capture label variable var25 "分類表19コード"
+capture label variable var26 "分類表20コード"
 capture label variable var27 "最終学歴卒業年区分"
 capture label variable var28 "専修学校卒業の有無"
 capture label variable var29 "調査票コード"
+capture label variable var30 "分類表24コード"
 capture label variable var31 "就業形態区分"
 capture label variable var32 "職業区分"
 capture label variable var33 "地域区分"
@@ -66,14 +69,23 @@ capture label variable var34 "都道府県番号"
 capture label variable var35 "在籍の有無"
 capture label variable var36 "就業の動機区分"
 capture label variable var37 "調査票コード"
+capture label variable var38 "分類表13"
+capture label variable var39 "分類表15コード"
 capture label variable var40 "前職産業区分"
 capture label variable var41 "前職職業区分"
 capture label variable var42 "調査票コード"
+capture label variable var43 "分類表25コード"
+capture label variable var44 "分類表31コード"
+capture label variable var45 "分類表32コード"
 capture label variable var46 "離職期間区分"
 capture label variable var47 "前職企業規模区分"
 capture label variable var48 "理由数数"
 capture label variable var49 "調査票コード"
+capture label variable var50 "分類表28コード"
 capture label variable var51 "調査票コード"
+capture label variable var52 "分類表28"
 capture label variable var53 "調査票コード"
+capture label variable var54 "分類表28"
 capture label variable var55 "賃金変動"
+capture label variable var56 "分類表1コード"
 capture label variable var57 "製造業分類コード"

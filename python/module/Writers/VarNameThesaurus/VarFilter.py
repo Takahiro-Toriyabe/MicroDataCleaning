@@ -18,7 +18,7 @@ class VarFilterFactory:
         if SurveyName == '雇用動向調査':
             from .TrashVarList.SurveyEmpTrend import trash_list
         elif SurveyName == '賃金構造基本統計調査':
-            from .Thesaurus.WageCensus import trash_list
+            from .TrashVarList.WageCensus import trash_list
         else:
             trash_list = []
 

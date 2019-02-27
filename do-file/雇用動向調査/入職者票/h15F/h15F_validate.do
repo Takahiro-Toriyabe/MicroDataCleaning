@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h15.xlsx
-    Date: 2019/02/27 01:44:09
+    Date: 2019/02/27 14:27:30
 ----------------------------------------------------------------------*/
 
 
@@ -196,6 +196,16 @@ if _rc!=0 {
 }
 
 
+count if var21==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var21} (分類表21-2)"
+}
+capture assert inlist(var21, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var21} (分類表21-2) may have invalid values (Check layout sheet)"
+}
+
+
 count if var22==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var22} (チェック済)"
@@ -203,6 +213,26 @@ if r(N)==_N {
 capture assert inlist(var22, 1, 2, 3, 4, 5, 6, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var22} (チェック済) may have invalid values (Check layout sheet)"
+}
+
+
+count if var23==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var23} (分類表19)"
+}
+capture assert inlist(var23, 1, 2, 3, 4, 5, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var23} (分類表19) may have invalid values (Check layout sheet)"
+}
+
+
+count if var24==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var24} (分類表20)"
+}
+capture assert inlist(var24, 1, 2, 3, 4, 6, 7, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var24} (分類表20) may have invalid values (Check layout sheet)"
 }
 
 
@@ -226,6 +256,16 @@ if _rc!=0 {
 }
 
 
+count if var27==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var27} (分類表24)"
+}
+capture assert inlist(var27, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var27} (分類表24) may have invalid values (Check layout sheet)"
+}
+
+
 count if var28==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var28} (就業形態)"
@@ -246,6 +286,16 @@ if _rc!=0 {
 }
 
 
+count if var30==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var30} (分類表6-2)"
+}
+capture assert inlist(var30, 1, 2, 3, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var30} (分類表6-2) may have invalid values (Check layout sheet)"
+}
+
+
 count if var31==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var31} (チェック済)"
@@ -253,6 +303,46 @@ if r(N)==_N {
 capture assert inlist(var31, 1, 2, 3, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var31} (チェック済) may have invalid values (Check layout sheet)"
+}
+
+
+count if var32==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var32} (分類表13)"
+}
+capture assert inlist(var32, 2, 3, 4, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var32} (分類表13) may have invalid values (Check layout sheet)"
+}
+
+
+count if var33==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var33} (分類表13-2)"
+}
+capture assert inlist(var33, 3, 4, 6, 7, 9, 10, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var33} (分類表13-2) may have invalid values (Check layout sheet)"
+}
+
+
+count if var34==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var34} (分類表14)"
+}
+capture assert inlist(var34, 3, 4, 5, 6, 7, 8, 9, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var34} (分類表14) may have invalid values (Check layout sheet)"
+}
+
+
+count if var35==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var35} (分類表18-2)"
+}
+capture assert inlist(var35, 2, 3, 4, 5, 6, 7, 9, 10, 11, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var35} (分類表18-2) may have invalid values (Check layout sheet)"
 }
 
 
@@ -310,6 +400,16 @@ if _rc!=0 {
 }
 
 
+count if var43==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var43} (分類表7-2)"
+}
+capture assert inlist(var43, 1, 2, 3, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var43} (分類表7-2) may have invalid values (Check layout sheet)"
+}
+
+
 count if var44==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var44} (チェック済)"
@@ -317,6 +417,36 @@ if r(N)==_N {
 capture assert inlist(var44, 1, 2, 3, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var44} (チェック済) may have invalid values (Check layout sheet)"
+}
+
+
+count if var45==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var45} (分類表25)"
+}
+capture assert inlist(var45, 2, 3, 4, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var45} (分類表25) may have invalid values (Check layout sheet)"
+}
+
+
+count if var46==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var46} (分類表31)"
+}
+capture assert inlist(var46, 0, 1, 11, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var46} (分類表31) may have invalid values (Check layout sheet)"
+}
+
+
+count if var47==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var47} (分類表32)"
+}
+capture assert inlist(var47, 0, 11, 22, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var47} (分類表32) may have invalid values (Check layout sheet)"
 }
 
 
@@ -350,6 +480,26 @@ if _rc!=0 {
 }
 
 
+count if var51==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var51} (分類表28)"
+}
+capture assert inlist(var51, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var51} (分類表28) may have invalid values (Check layout sheet)"
+}
+
+
+count if var52==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var52} (分類表28-2)"
+}
+capture assert inlist(var52, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var52} (分類表28-2) may have invalid values (Check layout sheet)"
+}
+
+
 count if var53==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var53} (チェック済)"
@@ -360,6 +510,26 @@ if _rc!=0 {
 }
 
 
+count if var54==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var54} (分類表28)"
+}
+capture assert inlist(var54, 10, 11, 12, 13, 14, 15, 16, 17, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var54} (分類表28) may have invalid values (Check layout sheet)"
+}
+
+
+count if var55==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var55} (分類表28-3)"
+}
+capture assert inlist(var55, 1, 2, 3, 4, 5, 6, 7, 8, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var55} (分類表28-3) may have invalid values (Check layout sheet)"
+}
+
+
 count if var56==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var56} (チェック済)"
@@ -367,6 +537,32 @@ if r(N)==_N {
 capture assert inlist(var56, 1, 2, 3, 4, 5, 6, 7, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var56} (チェック済) may have invalid values (Check layout sheet)"
+}
+
+
+count if var57==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var57} (分類表26-2)"
+}
+capture assert inlist(var57, 1, 2, 3, 4, 5, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var57} (分類表26-2) may have invalid values (Check layout sheet)"
+}
+
+
+count if var58==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var58} (分類表26-3)"
+}
+capture assert inlist(var58, 1, 2, 3, 4, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var58} (分類表26-3) may have invalid values (Check layout sheet)"
+}
+
+
+count if var59==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var59} (分類表1)"
 }
 
 

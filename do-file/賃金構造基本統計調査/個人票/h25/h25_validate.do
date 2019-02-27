@@ -28,7 +28,7 @@
 
 
     Source: 平成16～29年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/02/27 01:38:48
+    Date: 2019/02/27 14:22:18
 ----------------------------------------------------------------------*/
 
 
@@ -412,9 +412,9 @@ if r(N)==_N {
 }
 
 
-count if var2==.
+count if var1==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var2} (共通事業所コード)"
+    display as error "Only missing value: {bf:var1} (共通事業所コード)"
 }
 
 

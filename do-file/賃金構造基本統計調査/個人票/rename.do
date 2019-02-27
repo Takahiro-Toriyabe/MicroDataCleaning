@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/27 01:39:00
+    Date: 2019/02/27 14:22:29
 ----------------------------------------------------------------------*/
 
 
@@ -312,8 +312,8 @@ capture replace Jigyousho_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==10
 capture replace Jigyousho_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==11
 capture replace Jigyousho_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==12
 capture replace Jigyousho_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==13
-capture replace Jigyousho_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==25
-capture replace Jigyousho_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==26
+capture replace Jigyousho_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==25
+capture replace Jigyousho_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==26
 capture replace Jigyousho_NEWVARIABLE = Jigyousho  if flag_tmp_NEWVARIABLE==27
 capture replace Jigyousho_NEWVARIABLE = Jigyousho  if flag_tmp_NEWVARIABLE==28
 capture replace Jigyousho_NEWVARIABLE = Jigyousho  if flag_tmp_NEWVARIABLE==29

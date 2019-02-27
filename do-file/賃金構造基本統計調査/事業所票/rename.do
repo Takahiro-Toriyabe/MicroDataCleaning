@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/27 01:39:11
+    Date: 2019/02/27 14:22:39
 ----------------------------------------------------------------------*/
 
 
@@ -6442,10 +6442,10 @@ capture label values Digit_NEWVARIABLE `val_lab'
 
 ----------------------------------------------------------------------*/
 gen v17_NEWVARIABLE = .
-local var_lab: variable label var2
-local val_lab: value label var2
-capture replace v17_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==25
-capture replace v17_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==26
+local var_lab: variable label var1
+local val_lab: value label var1
+capture replace v17_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==25
+capture replace v17_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==26
 capture replace v17_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==27
 capture replace v17_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==28
 capture replace v17_NEWVARIABLE = M_JigyoBan  if flag_tmp_NEWVARIABLE==29

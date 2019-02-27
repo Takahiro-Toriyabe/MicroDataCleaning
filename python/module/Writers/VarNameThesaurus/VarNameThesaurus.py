@@ -30,7 +30,7 @@ class VarNameThesaurus:
         self.collections = collections
         self.reservation = reservation
         self.survey_name = SurveyName
-        self.filter = VarFilterFactory(self.survey_name)
+        self.filter = VarFilterFactory().CreateFilter(self.survey_name)
         self.__MakeDict__()
         
     def __SetThesaurus__(self):
