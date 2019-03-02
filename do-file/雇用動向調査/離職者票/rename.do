@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/28 01:25:40
+    Date: 2019/03/03 01:08:49
 ----------------------------------------------------------------------*/
 
 
@@ -142,9 +142,7 @@
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v1_NEWVARIABLE = .
-local var_lab: variable label var1
-local val_lab: value label var1
+gen v1_NEWVARIABLE = "."
 capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==1
 capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==2
 capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==3
@@ -197,8 +195,7 @@ capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==49
 capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==50
 capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==51
 capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==52
-capture label variable v1_NEWVARIABLE `var_lab'
-capture label values v1_NEWVARIABLE `val_lab'
+capture label variable v1_NEWVARIABLE "調査IDT"
 
 
 /*----------------------------------------------------------------------
@@ -311,9 +308,7 @@ capture label values v1_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v2_NEWVARIABLE = .
-local var_lab: variable label var2
-local val_lab: value label var2
+gen v2_NEWVARIABLE = "."
 capture replace v2_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==1
 capture replace v2_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==2
 capture replace v2_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==3
@@ -366,8 +361,7 @@ capture replace v2_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==49
 capture replace v2_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==50
 capture replace v2_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==51
 capture replace v2_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==52
-capture label variable v2_NEWVARIABLE `var_lab'
-capture label values v2_NEWVARIABLE `val_lab'
+capture label variable v2_NEWVARIABLE "調査年月: 調査年"
 
 
 /*----------------------------------------------------------------------
@@ -480,9 +474,7 @@ capture label values v2_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 上期, 7: 下期
 
 ----------------------------------------------------------------------*/
-gen v3_NEWVARIABLE = .
-local var_lab: variable label var3
-local val_lab: value label var3
+gen v3_NEWVARIABLE = "."
 capture replace v3_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==1
 capture replace v3_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==2
 capture replace v3_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==3
@@ -535,8 +527,7 @@ capture replace v3_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==49
 capture replace v3_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==50
 capture replace v3_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==51
 capture replace v3_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==52
-capture label variable v3_NEWVARIABLE `var_lab'
-capture label values v3_NEWVARIABLE `val_lab'
+capture label variable v3_NEWVARIABLE "調査年月: 調査月"
 
 
 /*----------------------------------------------------------------------
@@ -649,9 +640,7 @@ capture label values v3_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v4_NEWVARIABLE = .
-local var_lab: variable label var4
-local val_lab: value label var4
+gen v4_NEWVARIABLE = "."
 capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==1
 capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==2
 capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==3
@@ -704,8 +693,7 @@ capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==49
 capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==50
 capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==51
 capture replace v4_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==52
-capture label variable v4_NEWVARIABLE `var_lab'
-capture label values v4_NEWVARIABLE `val_lab'
+capture label variable v4_NEWVARIABLE "調査票区分"
 
 
 /*----------------------------------------------------------------------
@@ -718,50 +706,50 @@ capture label values v4_NEWVARIABLE `val_lab'
     Description (Data 6):  None
     Description (Data 7):  None
     Description (Data 8):  None
-    Description (Data 9):  "個人項目: 離職者番号"
-    Description (Data 10): "個人項目: 離職者番号"
-    Description (Data 11): "個人項目: 離職者番号"
-    Description (Data 12): "個人項目: 離職者番号"
-    Description (Data 13): "個人項目: 離職者番号"
-    Description (Data 14): "個人項目: 離職者番号"
-    Description (Data 15): "個人項目: 離職者番号"
-    Description (Data 16): "個人項目: 離職者番号"
-    Description (Data 17): "個人項目: 離職者番号"
-    Description (Data 18): "個人項目: 離職者番号"
-    Description (Data 19): "個人項目: 離職者番号"
-    Description (Data 20): "個人項目: 離職者番号"
-    Description (Data 21): "個人項目: 離職者番号"
-    Description (Data 22): "個人項目: 離職者番号"
-    Description (Data 23): "個人項目: 離職者番号"
-    Description (Data 24): "個人項目: 離職者番号"
-    Description (Data 25): "個人項目: 離職者番号"
-    Description (Data 26): "個人項目: 離職者番号"
-    Description (Data 27): "個人項目: 離職者番号"
-    Description (Data 28): "個人項目: 離職者番号"
-    Description (Data 29): "個人項目: 離職者番号"
-    Description (Data 30): "個人項目: 離職者番号"
-    Description (Data 31): "個人項目: 離職者番号"
-    Description (Data 32): "個人項目: 離職者番号"
-    Description (Data 33): "個人項目: 離職者番号"
-    Description (Data 34): "個人項目: 離職者番号"
-    Description (Data 35): "番号"
-    Description (Data 36): "番号"
-    Description (Data 37): "個人項目: 番号"
-    Description (Data 38): "個人項目: 番号"
-    Description (Data 39): "個人項目: 番号"
-    Description (Data 40): "個人項目: 番号"
-    Description (Data 41): "個人項目: 番号"
-    Description (Data 42): "個人項目: 番号"
-    Description (Data 43): "個人項目: 番号"
-    Description (Data 44): "個人項目: 番号"
-    Description (Data 45): "個人項目: 番号"
-    Description (Data 46): "個人項目: 番号"
-    Description (Data 47): "個人項目: 番号"
-    Description (Data 48): "個人項目: 番号"
-    Description (Data 49): "個人項目: 番号"
-    Description (Data 50): "個人項目: 番号"
-    Description (Data 51): "個人項目: 番号"
-    Description (Data 52): "個人項目: 番号"
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
+    Description (Data 30): None
+    Description (Data 31): None
+    Description (Data 32): None
+    Description (Data 33): None
+    Description (Data 34): None
+    Description (Data 35): None
+    Description (Data 36): None
+    Description (Data 37): None
+    Description (Data 38): None
+    Description (Data 39): None
+    Description (Data 40): None
+    Description (Data 41): None
+    Description (Data 42): None
+    Description (Data 43): None
+    Description (Data 44): None
+    Description (Data 45): None
+    Description (Data 46): None
+    Description (Data 47): None
+    Description (Data 48): None
+    Description (Data 49): None
+    Description (Data 50): None
+    Description (Data 51): None
+    Description (Data 52): None
 
     Values (Base):    
     Values (Data 1):  
@@ -772,105 +760,58 @@ capture label values v4_NEWVARIABLE `val_lab'
     Values (Data 6):  None
     Values (Data 7):  None
     Values (Data 8):  None
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
-    Values (Data 17): 
-    Values (Data 18): 
-    Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
-    Values (Data 30): 
-    Values (Data 31): 
-    Values (Data 32): 
-    Values (Data 33): 
-    Values (Data 34): 
-    Values (Data 35): 
-    Values (Data 36): 
-    Values (Data 37): 
-    Values (Data 38): 
-    Values (Data 39): 
-    Values (Data 40): 
-    Values (Data 41): 
-    Values (Data 42): 
-    Values (Data 43): 
-    Values (Data 44): 
-    Values (Data 45): 
-    Values (Data 46): 
-    Values (Data 47): 
-    Values (Data 48): 
-    Values (Data 49): 
-    Values (Data 50): 
-    Values (Data 51): 
-    Values (Data 52): 
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
+    Values (Data 30): None
+    Values (Data 31): None
+    Values (Data 32): None
+    Values (Data 33): None
+    Values (Data 34): None
+    Values (Data 35): None
+    Values (Data 36): None
+    Values (Data 37): None
+    Values (Data 38): None
+    Values (Data 39): None
+    Values (Data 40): None
+    Values (Data 41): None
+    Values (Data 42): None
+    Values (Data 43): None
+    Values (Data 44): None
+    Values (Data 45): None
+    Values (Data 46): None
+    Values (Data 47): None
+    Values (Data 48): None
+    Values (Data 49): None
+    Values (Data 50): None
+    Values (Data 51): None
+    Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v5_NEWVARIABLE = .
-local var_lab: variable label var5
-local val_lab: value label var5
+gen v5_NEWVARIABLE = "."
 capture replace v5_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==1
 capture replace v5_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==2
 capture replace v5_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==3
 capture replace v5_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==4
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==9
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==10
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==11
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==12
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==13
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==14
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==15
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==16
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==17
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==18
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==19
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==20
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==21
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==22
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==23
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==24
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==25
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==26
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==27
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==28
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==29
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==30
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==31
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==32
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==33
-capture replace v5_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==34
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==35
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==36
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==37
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==38
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==39
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==40
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==41
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==42
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==43
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==44
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==45
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==46
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==47
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==48
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==49
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==50
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==51
-capture replace v5_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==52
-capture label variable v5_NEWVARIABLE `var_lab'
-capture label values v5_NEWVARIABLE `val_lab'
+capture label variable v5_NEWVARIABLE "括番号"
 
 
 /*----------------------------------------------------------------------
@@ -983,9 +924,7 @@ capture label values v5_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v6_NEWVARIABLE = .
-local var_lab: variable label var6
-local val_lab: value label var6
+gen v6_NEWVARIABLE = "."
 capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==1
 capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==2
 capture replace v6_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==3
@@ -1020,8 +959,7 @@ capture replace v6_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==31
 capture replace v6_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==32
 capture replace v6_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==33
 capture replace v6_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==34
-capture label variable v6_NEWVARIABLE `var_lab'
-capture label values v6_NEWVARIABLE `val_lab'
+capture label variable v6_NEWVARIABLE "所在地: 地域番号"
 
 
 /*----------------------------------------------------------------------
@@ -1134,9 +1072,7 @@ capture label values v6_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v7_NEWVARIABLE = .
-local var_lab: variable label var7
-local val_lab: value label var7
+gen v7_NEWVARIABLE = "."
 capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==1
 capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==2
 capture replace v7_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==3
@@ -1189,8 +1125,7 @@ capture replace v7_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==49
 capture replace v7_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==50
 capture replace v7_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==51
 capture replace v7_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==52
-capture label variable v7_NEWVARIABLE `var_lab'
-capture label values v7_NEWVARIABLE `val_lab'
+capture label variable v7_NEWVARIABLE "所在地: 都道府県番号"
 
 
 /*----------------------------------------------------------------------
@@ -1199,10 +1134,10 @@ capture label values v7_NEWVARIABLE `val_lab'
     Description (Data 2):  "事業所番号"
     Description (Data 3):  "事業所番号"
     Description (Data 4):  "事業所番号"
-    Description (Data 5):  "所在地: 事業所番号"
-    Description (Data 6):  "所在地: 事業所番号"
-    Description (Data 7):  "所在地: 事業所番号"
-    Description (Data 8):  "所在地: 事業所番号"
+    Description (Data 5):  "事業所番号"
+    Description (Data 6):  "事業所番号"
+    Description (Data 7):  "事業所番号"
+    Description (Data 8):  "事業所番号"
     Description (Data 9):  "事業所番号"
     Description (Data 10): "事業所番号"
     Description (Data 11): "事業所番号"
@@ -1303,9 +1238,7 @@ capture label values v7_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v8_NEWVARIABLE = .
-local var_lab: variable label var8
-local val_lab: value label var8
+gen v8_NEWVARIABLE = "."
 capture replace v8_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==1
 capture replace v8_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==2
 capture replace v8_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==3
@@ -1358,8 +1291,7 @@ capture replace v8_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==49
 capture replace v8_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==50
 capture replace v8_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==51
 capture replace v8_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==52
-capture label variable v8_NEWVARIABLE `var_lab'
-capture label values v8_NEWVARIABLE `val_lab'
+capture label variable v8_NEWVARIABLE "事業所番号"
 
 
 /*----------------------------------------------------------------------
@@ -1472,9 +1404,7 @@ capture label values v8_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v9_NEWVARIABLE = .
-local var_lab: variable label var9
-local val_lab: value label var9
+gen v9_NEWVARIABLE = "."
 capture replace v9_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==1
 capture replace v9_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==2
 capture replace v9_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==3
@@ -1509,8 +1439,7 @@ capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==31
 capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==32
 capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==33
 capture replace v9_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==34
-capture label variable v9_NEWVARIABLE `var_lab'
-capture label values v9_NEWVARIABLE `val_lab'
+capture label variable v9_NEWVARIABLE "産業: 大分類"
 
 
 /*----------------------------------------------------------------------
@@ -1623,9 +1552,7 @@ capture label values v9_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v10_NEWVARIABLE = .
-local var_lab: variable label var10
-local val_lab: value label var10
+gen v10_NEWVARIABLE = "."
 capture replace v10_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==1
 capture replace v10_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==2
 capture replace v10_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==3
@@ -1678,8 +1605,7 @@ capture replace v10_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==49
 capture replace v10_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==50
 capture replace v10_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==51
 capture replace v10_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==52
-capture label variable v10_NEWVARIABLE `var_lab'
-capture label values v10_NEWVARIABLE `val_lab'
+capture label variable v10_NEWVARIABLE "産業: 中分類"
 
 
 /*----------------------------------------------------------------------
@@ -1792,9 +1718,7 @@ capture label values v10_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v11_NEWVARIABLE = .
-local var_lab: variable label var11
-local val_lab: value label var11
+gen v11_NEWVARIABLE = "."
 capture replace v11_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==1
 capture replace v11_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==2
 capture replace v11_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==3
@@ -1847,8 +1771,7 @@ capture replace v11_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==49
 capture replace v11_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==50
 capture replace v11_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==51
 capture replace v11_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==52
-capture label variable v11_NEWVARIABLE `var_lab'
-capture label values v11_NEWVARIABLE `val_lab'
+capture label variable v11_NEWVARIABLE "抽出符号"
 
 
 /*----------------------------------------------------------------------
@@ -1961,9 +1884,7 @@ capture label values v11_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
 
 ----------------------------------------------------------------------*/
-gen v12_NEWVARIABLE = .
-local var_lab: variable label var12
-local val_lab: value label var12
+gen v12_NEWVARIABLE = "."
 capture replace v12_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==1
 capture replace v12_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==2
 capture replace v12_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==3
@@ -2016,8 +1937,7 @@ capture replace v12_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==49
 capture replace v12_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==50
 capture replace v12_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==51
 capture replace v12_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==52
-capture label variable v12_NEWVARIABLE `var_lab'
-capture label values v12_NEWVARIABLE `val_lab'
+capture label variable v12_NEWVARIABLE "事業所規模"
 
 
 /*----------------------------------------------------------------------
@@ -2130,9 +2050,7 @@ capture label values v12_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 1000人以上, 2: 300~999人, 3: 100~299人, 4: 30~99人, 5: 5~29人, 6: 官公営
 
 ----------------------------------------------------------------------*/
-gen v13_NEWVARIABLE = .
-local var_lab: variable label var13
-local val_lab: value label var13
+gen v13_NEWVARIABLE = "."
 capture replace v13_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==1
 capture replace v13_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==2
 capture replace v13_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==3
@@ -2185,8 +2103,7 @@ capture replace v13_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==49
 capture replace v13_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==50
 capture replace v13_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==51
 capture replace v13_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==52
-capture label variable v13_NEWVARIABLE `var_lab'
-capture label values v13_NEWVARIABLE `val_lab'
+capture label variable v13_NEWVARIABLE "企業規模"
 
 
 /*----------------------------------------------------------------------
@@ -2299,9 +2216,7 @@ capture label values v13_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v14_NEWVARIABLE = .
-local var_lab: variable label var14
-local val_lab: value label var14
+gen v14_NEWVARIABLE = "."
 capture replace v14_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==1
 capture replace v14_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==2
 capture replace v14_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==3
@@ -2336,8 +2251,7 @@ capture replace v14_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==31
 capture replace v14_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==32
 capture replace v14_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==33
 capture replace v14_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==34
-capture label variable v14_NEWVARIABLE `var_lab'
-capture label values v14_NEWVARIABLE `val_lab'
+capture label variable v14_NEWVARIABLE "乗率マトリックス: 産業連番"
 
 
 /*----------------------------------------------------------------------
@@ -2450,9 +2364,7 @@ capture label values v14_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v15_NEWVARIABLE = .
-local var_lab: variable label var15
-local val_lab: value label var15
+gen v15_NEWVARIABLE = "."
 capture replace v15_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==1
 capture replace v15_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==2
 capture replace v15_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==3
@@ -2487,8 +2399,7 @@ capture replace v15_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==31
 capture replace v15_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==32
 capture replace v15_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==33
 capture replace v15_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==34
-capture label variable v15_NEWVARIABLE `var_lab'
-capture label values v15_NEWVARIABLE `val_lab'
+capture label variable v15_NEWVARIABLE "乗率マトリックス: 事業所規模"
 
 
 /*----------------------------------------------------------------------
@@ -2601,9 +2512,7 @@ capture label values v15_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v16_NEWVARIABLE = .
-local var_lab: variable label var16
-local val_lab: value label var16
+gen v16_NEWVARIABLE = "."
 capture replace v16_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==1
 capture replace v16_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==2
 capture replace v16_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==3
@@ -2638,8 +2547,7 @@ capture replace v16_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==31
 capture replace v16_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==32
 capture replace v16_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==33
 capture replace v16_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==34
-capture label variable v16_NEWVARIABLE `var_lab'
-capture label values v16_NEWVARIABLE `val_lab'
+capture label variable v16_NEWVARIABLE "乗率マトリックス: 性別"
 
 
 /*----------------------------------------------------------------------
@@ -2752,9 +2660,7 @@ capture label values v16_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v17_NEWVARIABLE = .
-local var_lab: variable label var17
-local val_lab: value label var17
+gen v17_NEWVARIABLE = "."
 capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==1
 capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==2
 capture replace v17_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==3
@@ -2789,8 +2695,7 @@ capture replace v17_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==31
 capture replace v17_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==32
 capture replace v17_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==33
 capture replace v17_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==34
-capture label variable v17_NEWVARIABLE `var_lab'
-capture label values v17_NEWVARIABLE `val_lab'
+capture label variable v17_NEWVARIABLE "乗率マトリックス: 就業形態"
 
 
 /*----------------------------------------------------------------------
@@ -2903,9 +2808,7 @@ capture label values v17_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v18_NEWVARIABLE = .
-local var_lab: variable label var18
-local val_lab: value label var18
+gen v18_NEWVARIABLE = "."
 capture replace v18_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==1
 capture replace v18_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==2
 capture replace v18_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==3
@@ -2958,8 +2861,7 @@ capture replace v18_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==49
 capture replace v18_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==50
 capture replace v18_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==51
 capture replace v18_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==52
-capture label variable v18_NEWVARIABLE `var_lab'
-capture label values v18_NEWVARIABLE `val_lab'
+capture label variable v18_NEWVARIABLE "乗率"
 
 
 /*----------------------------------------------------------------------
@@ -2972,50 +2874,50 @@ capture label values v18_NEWVARIABLE `val_lab'
     Description (Data 6):  "個人項目: 氏名番号"
     Description (Data 7):  "個人項目: 氏名・番号"
     Description (Data 8):  "個人項目: 氏名・番号"
-    Description (Data 9):  None
-    Description (Data 10): None
-    Description (Data 11): None
-    Description (Data 12): None
-    Description (Data 13): None
-    Description (Data 14): None
-    Description (Data 15): None
-    Description (Data 16): None
-    Description (Data 17): None
-    Description (Data 18): None
-    Description (Data 19): None
-    Description (Data 20): None
-    Description (Data 21): None
-    Description (Data 22): None
-    Description (Data 23): None
-    Description (Data 24): None
-    Description (Data 25): None
-    Description (Data 26): None
-    Description (Data 27): None
-    Description (Data 28): None
-    Description (Data 29): None
-    Description (Data 30): None
-    Description (Data 31): None
-    Description (Data 32): None
-    Description (Data 33): None
-    Description (Data 34): None
-    Description (Data 35): None
-    Description (Data 36): None
-    Description (Data 37): None
-    Description (Data 38): None
-    Description (Data 39): None
-    Description (Data 40): None
-    Description (Data 41): None
-    Description (Data 42): None
-    Description (Data 43): None
-    Description (Data 44): None
-    Description (Data 45): None
-    Description (Data 46): None
-    Description (Data 47): None
-    Description (Data 48): None
-    Description (Data 49): None
-    Description (Data 50): None
-    Description (Data 51): None
-    Description (Data 52): None
+    Description (Data 9):  "個人項目: 離職者番号"
+    Description (Data 10): "個人項目: 離職者番号"
+    Description (Data 11): "個人項目: 離職者番号"
+    Description (Data 12): "個人項目: 離職者番号"
+    Description (Data 13): "個人項目: 離職者番号"
+    Description (Data 14): "個人項目: 離職者番号"
+    Description (Data 15): "個人項目: 離職者番号"
+    Description (Data 16): "個人項目: 離職者番号"
+    Description (Data 17): "個人項目: 離職者番号"
+    Description (Data 18): "個人項目: 離職者番号"
+    Description (Data 19): "個人項目: 離職者番号"
+    Description (Data 20): "個人項目: 離職者番号"
+    Description (Data 21): "個人項目: 離職者番号"
+    Description (Data 22): "個人項目: 離職者番号"
+    Description (Data 23): "個人項目: 離職者番号"
+    Description (Data 24): "個人項目: 離職者番号"
+    Description (Data 25): "個人項目: 離職者番号"
+    Description (Data 26): "個人項目: 離職者番号"
+    Description (Data 27): "個人項目: 離職者番号"
+    Description (Data 28): "個人項目: 離職者番号"
+    Description (Data 29): "個人項目: 離職者番号"
+    Description (Data 30): "個人項目: 離職者番号"
+    Description (Data 31): "個人項目: 離職者番号"
+    Description (Data 32): "個人項目: 離職者番号"
+    Description (Data 33): "個人項目: 離職者番号"
+    Description (Data 34): "個人項目: 離職者番号"
+    Description (Data 35): "番号"
+    Description (Data 36): "番号"
+    Description (Data 37): "個人項目: 番号"
+    Description (Data 38): "個人項目: 番号"
+    Description (Data 39): "個人項目: 番号"
+    Description (Data 40): "個人項目: 番号"
+    Description (Data 41): "個人項目: 番号"
+    Description (Data 42): "個人項目: 番号"
+    Description (Data 43): "個人項目: 番号"
+    Description (Data 44): "個人項目: 番号"
+    Description (Data 45): "個人項目: 番号"
+    Description (Data 46): "個人項目: 番号"
+    Description (Data 47): "個人項目: 番号"
+    Description (Data 48): "個人項目: 番号"
+    Description (Data 49): "個人項目: 番号"
+    Description (Data 50): "個人項目: 番号"
+    Description (Data 51): "個人項目: 番号"
+    Description (Data 52): "個人項目: 番号"
 
     Values (Base):    
     Values (Data 1):  
@@ -3026,55 +2928,53 @@ capture label values v18_NEWVARIABLE `val_lab'
     Values (Data 6):  
     Values (Data 7):  
     Values (Data 8):  
-    Values (Data 9):  None
-    Values (Data 10): None
-    Values (Data 11): None
-    Values (Data 12): None
-    Values (Data 13): None
-    Values (Data 14): None
-    Values (Data 15): None
-    Values (Data 16): None
-    Values (Data 17): None
-    Values (Data 18): None
-    Values (Data 19): None
-    Values (Data 20): None
-    Values (Data 21): None
-    Values (Data 22): None
-    Values (Data 23): None
-    Values (Data 24): None
-    Values (Data 25): None
-    Values (Data 26): None
-    Values (Data 27): None
-    Values (Data 28): None
-    Values (Data 29): None
-    Values (Data 30): None
-    Values (Data 31): None
-    Values (Data 32): None
-    Values (Data 33): None
-    Values (Data 34): None
-    Values (Data 35): None
-    Values (Data 36): None
-    Values (Data 37): None
-    Values (Data 38): None
-    Values (Data 39): None
-    Values (Data 40): None
-    Values (Data 41): None
-    Values (Data 42): None
-    Values (Data 43): None
-    Values (Data 44): None
-    Values (Data 45): None
-    Values (Data 46): None
-    Values (Data 47): None
-    Values (Data 48): None
-    Values (Data 49): None
-    Values (Data 50): None
-    Values (Data 51): None
-    Values (Data 52): None
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17): 
+    Values (Data 18): 
+    Values (Data 19): 
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+    Values (Data 30): 
+    Values (Data 31): 
+    Values (Data 32): 
+    Values (Data 33): 
+    Values (Data 34): 
+    Values (Data 35): 
+    Values (Data 36): 
+    Values (Data 37): 
+    Values (Data 38): 
+    Values (Data 39): 
+    Values (Data 40): 
+    Values (Data 41): 
+    Values (Data 42): 
+    Values (Data 43): 
+    Values (Data 44): 
+    Values (Data 45): 
+    Values (Data 46): 
+    Values (Data 47): 
+    Values (Data 48): 
+    Values (Data 49): 
+    Values (Data 50): 
+    Values (Data 51): 
+    Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v19_NEWVARIABLE = .
-local var_lab: variable label var19
-local val_lab: value label var19
+gen v19_NEWVARIABLE = "."
 capture replace v19_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==1
 capture replace v19_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==2
 capture replace v19_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==3
@@ -3083,8 +2983,51 @@ capture replace v19_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==5
 capture replace v19_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==6
 capture replace v19_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==7
 capture replace v19_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==8
-capture label variable v19_NEWVARIABLE `var_lab'
-capture label values v19_NEWVARIABLE `val_lab'
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==9
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==10
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==11
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==12
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==13
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==14
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==15
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==16
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==17
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==18
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==19
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==20
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==21
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==22
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==23
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==24
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==25
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==26
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==27
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==28
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==29
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==30
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==31
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==32
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==33
+capture replace v19_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==34
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==35
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==36
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==37
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==38
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==39
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==40
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==41
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==42
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==43
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==44
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==45
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==46
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==47
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==48
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==49
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==50
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==51
+capture replace v19_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==52
+capture label variable v19_NEWVARIABLE "個人項目: 氏名番号"
 
 
 /*----------------------------------------------------------------------
@@ -3197,9 +3140,7 @@ capture label values v19_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 男, 2: 女
 
 ----------------------------------------------------------------------*/
-gen v20_NEWVARIABLE = .
-local var_lab: variable label var20
-local val_lab: value label var20
+gen v20_NEWVARIABLE = "."
 capture replace v20_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==1
 capture replace v20_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==2
 capture replace v20_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==3
@@ -3252,8 +3193,7 @@ capture replace v20_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==49
 capture replace v20_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==50
 capture replace v20_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==51
 capture replace v20_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==52
-capture label variable v20_NEWVARIABLE `var_lab'
-capture label values v20_NEWVARIABLE `val_lab'
+capture label variable v20_NEWVARIABLE "個人項目: 性別"
 
 
 /*----------------------------------------------------------------------
@@ -3366,9 +3306,7 @@ capture label values v20_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 19歳以下, 2: 20~24歳, 3: 25~29歳, 4: 30~34歳, 5: 35~39歳, 6: 40~44歳, 7: 45~49歳, 8: 50~54歳, 9: 55~59歳, 10: 60~64歳, 11: 65歳以上
 
 ----------------------------------------------------------------------*/
-gen v21_NEWVARIABLE = .
-local var_lab: variable label var21
-local val_lab: value label var21
+gen v21_NEWVARIABLE = "."
 capture replace v21_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==1
 capture replace v21_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==2
 capture replace v21_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==3
@@ -3421,8 +3359,7 @@ capture replace v21_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==49
 capture replace v21_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==50
 capture replace v21_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==51
 capture replace v21_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==52
-capture label variable v21_NEWVARIABLE `var_lab'
-capture label values v21_NEWVARIABLE `val_lab'
+capture label variable v21_NEWVARIABLE "個人項目: 年齢区分"
 
 
 /*----------------------------------------------------------------------
@@ -3535,9 +3472,7 @@ capture label values v21_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 中学卒, 2: 高校卒, 3: 専修学校卒, 4: 高専・短大卒, 5: 大学卒, 6: 大学院卒
 
 ----------------------------------------------------------------------*/
-gen v22_NEWVARIABLE = .
-local var_lab: variable label var22
-local val_lab: value label var22
+gen v22_NEWVARIABLE = "."
 capture replace v22_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==1
 capture replace v22_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==2
 capture replace v22_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==3
@@ -3590,8 +3525,7 @@ capture replace v22_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==49
 capture replace v22_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==50
 capture replace v22_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==51
 capture replace v22_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==52
-capture label variable v22_NEWVARIABLE `var_lab'
-capture label values v22_NEWVARIABLE `val_lab'
+capture label variable v22_NEWVARIABLE "個人項目: 最終学歴"
 
 
 /*----------------------------------------------------------------------
@@ -3704,9 +3638,7 @@ capture label values v22_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 新規学卒者(平成27年1月以降卒業), 2: 新規学卒者以外(平成26年12月以前卒業)
 
 ----------------------------------------------------------------------*/
-gen v23_NEWVARIABLE = .
-local var_lab: variable label var23
-local val_lab: value label var23
+gen v23_NEWVARIABLE = "."
 capture replace v23_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==1
 capture replace v23_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==2
 capture replace v23_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==3
@@ -3759,8 +3691,7 @@ capture replace v23_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==49
 capture replace v23_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==50
 capture replace v23_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==51
 capture replace v23_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==52
-capture label variable v23_NEWVARIABLE `var_lab'
-capture label values v23_NEWVARIABLE `val_lab'
+capture label variable v23_NEWVARIABLE "個人項目: 最終学校卒業年区分"
 
 
 /*----------------------------------------------------------------------
@@ -3873,9 +3804,7 @@ capture label values v23_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 一般労働者(雇用期間の定めなし), 2: 一般労働者(雇用期間の定めあり), 3: パートタイム労働者(雇用期間の定めなし), 4: パートタイム労働者(雇用期間の定めあり)
 
 ----------------------------------------------------------------------*/
-gen v24_NEWVARIABLE = .
-local var_lab: variable label var24
-local val_lab: value label var24
+gen v24_NEWVARIABLE = "."
 capture replace v24_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==1
 capture replace v24_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==2
 capture replace v24_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==3
@@ -3928,8 +3857,7 @@ capture replace v24_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==49
 capture replace v24_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==50
 capture replace v24_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==51
 capture replace v24_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==52
-capture label variable v24_NEWVARIABLE `var_lab'
-capture label values v24_NEWVARIABLE `val_lab'
+capture label variable v24_NEWVARIABLE "個人項目: 就業形態"
 
 
 /*----------------------------------------------------------------------
@@ -4042,9 +3970,7 @@ capture label values v24_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 管理的職業従事者, 2: 専門的・技術的職業従事者, 3: 事務従事者, 4: 販売従事者, 5: サービス職業従事者, 6: 保安職業従事者, 7: 生産工程従事者, 8: 輸送・機械運転従事者, 9: 建設・採掘従事者, 10: 運搬・清掃・包装等従事者, 11: その他の職業従事者
 
 ----------------------------------------------------------------------*/
-gen v25_NEWVARIABLE = .
-local var_lab: variable label var25
-local val_lab: value label var25
+gen v25_NEWVARIABLE = "."
 capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==1
 capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==2
 capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==3
@@ -4097,8 +4023,7 @@ capture replace v25_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==49
 capture replace v25_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==50
 capture replace v25_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==51
 capture replace v25_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==52
-capture label variable v25_NEWVARIABLE `var_lab'
-capture label values v25_NEWVARIABLE `val_lab'
+capture label variable v25_NEWVARIABLE "個人項目: 仕事の内容"
 
 
 /*----------------------------------------------------------------------
@@ -4211,9 +4136,7 @@ capture label values v25_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 6ヶ月未満, 2: 6ヶ月~1年未満, 3: 1~2年未満, 4: 2~5年未満, 5: 5~10年未満, 6: 10年以上
 
 ----------------------------------------------------------------------*/
-gen v26_NEWVARIABLE = .
-local var_lab: variable label var26
-local val_lab: value label var26
+gen v26_NEWVARIABLE = "."
 capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==1
 capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==2
 capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==3
@@ -4266,8 +4189,7 @@ capture replace v26_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==49
 capture replace v26_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==50
 capture replace v26_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==51
 capture replace v26_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==52
-capture label variable v26_NEWVARIABLE `var_lab'
-capture label values v26_NEWVARIABLE `val_lab'
+capture label variable v26_NEWVARIABLE "個人項目: 勤続期間区分"
 
 
 /*----------------------------------------------------------------------
@@ -4380,9 +4302,7 @@ capture label values v26_NEWVARIABLE `val_lab'
     Values (Data 52):  1: 契約期間の満了, 2: 経営上の都合, 3: 出向, 4: 出向元への復帰, 5: 定年, 6: 本人の責による, 7: 結婚, 8: 出産・育児, 9: 介護・看護, 10: 死亡・傷病, 11: その他の個人的理由
 
 ----------------------------------------------------------------------*/
-gen v27_NEWVARIABLE = .
-local var_lab: variable label var27
-local val_lab: value label var27
+gen v27_NEWVARIABLE = "."
 capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==1
 capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==2
 capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==3
@@ -4435,8 +4355,7 @@ capture replace v27_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==49
 capture replace v27_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==50
 capture replace v27_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==51
 capture replace v27_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==52
-capture label variable v27_NEWVARIABLE `var_lab'
-capture label values v27_NEWVARIABLE `val_lab'
+capture label variable v27_NEWVARIABLE "個人項目離職理由: チェック済コード"
 
 
 /*----------------------------------------------------------------------
@@ -4549,15 +4468,12 @@ capture label values v27_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v28_NEWVARIABLE = .
-local var_lab: variable label var28
-local val_lab: value label var28
+gen v28_NEWVARIABLE = "."
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==1
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==2
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==3
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==4
-capture label variable v28_NEWVARIABLE `var_lab'
-capture label values v28_NEWVARIABLE `val_lab'
+capture label variable v28_NEWVARIABLE "個人項目離職理由: 離職理由コード"
 
 
 /*----------------------------------------------------------------------
@@ -4670,15 +4586,12 @@ capture label values v28_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v29_NEWVARIABLE = .
-local var_lab: variable label var29
-local val_lab: value label var29
+gen v29_NEWVARIABLE = "."
 capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==1
 capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==2
 capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==3
 capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==4
-capture label variable v29_NEWVARIABLE `var_lab'
-capture label values v29_NEWVARIABLE `val_lab'
+capture label variable v29_NEWVARIABLE "現職区分コード"
 
 
 /*----------------------------------------------------------------------
@@ -4791,9 +4704,7 @@ capture label values v29_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v30_NEWVARIABLE = .
-local var_lab: variable label var30
-local val_lab: value label var30
+gen v30_NEWVARIABLE = "."
 capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==1
 capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==2
 capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==3
@@ -4828,8 +4739,7 @@ capture replace v30_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==31
 capture replace v30_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==32
 capture replace v30_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==33
 capture replace v30_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==34
-capture label variable v30_NEWVARIABLE `var_lab'
-capture label values v30_NEWVARIABLE `val_lab'
+capture label variable v30_NEWVARIABLE "製造業分類コード"
 
 
 /*----------------------------------------------------------------------
@@ -4942,9 +4852,7 @@ capture label values v30_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v31_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var5
-local val_lab: value label var5
+gen v31_ToBeDropped_NEWVARIABLE = "."
 capture replace v31_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==9
 capture replace v31_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==10
 capture replace v31_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==11
@@ -4971,8 +4879,7 @@ capture replace v31_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==31
 capture replace v31_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==32
 capture replace v31_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==33
 capture replace v31_ToBeDropped_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==34
-capture label variable v31_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v31_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v31_ToBeDropped_NEWVARIABLE "DLM1"
 
 
 /*----------------------------------------------------------------------
@@ -5085,9 +4992,7 @@ capture label values v31_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v32_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var6
-local val_lab: value label var6
+gen v32_ToBeDropped_NEWVARIABLE = "."
 capture replace v32_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==9
 capture replace v32_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==10
 capture replace v32_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==11
@@ -5114,8 +5019,7 @@ capture replace v32_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==31
 capture replace v32_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==32
 capture replace v32_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==33
 capture replace v32_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==34
-capture label variable v32_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v32_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v32_ToBeDropped_NEWVARIABLE "空白1"
 
 
 /*----------------------------------------------------------------------
@@ -5228,9 +5132,7 @@ capture label values v32_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v33_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var12
-local val_lab: value label var12
+gen v33_ToBeDropped_NEWVARIABLE = "."
 capture replace v33_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==9
 capture replace v33_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==10
 capture replace v33_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==11
@@ -5257,8 +5159,7 @@ capture replace v33_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==31
 capture replace v33_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==32
 capture replace v33_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==33
 capture replace v33_ToBeDropped_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==34
-capture label variable v33_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v33_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v33_ToBeDropped_NEWVARIABLE "DLM2"
 
 
 /*----------------------------------------------------------------------
@@ -5371,9 +5272,7 @@ capture label values v33_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v34_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var14
-local val_lab: value label var14
+gen v34_ToBeDropped_NEWVARIABLE = "."
 capture replace v34_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==9
 capture replace v34_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==10
 capture replace v34_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==11
@@ -5400,8 +5299,7 @@ capture replace v34_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==31
 capture replace v34_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==32
 capture replace v34_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==33
 capture replace v34_ToBeDropped_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==34
-capture label variable v34_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v34_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v34_ToBeDropped_NEWVARIABLE "DLM3"
 
 
 /*----------------------------------------------------------------------
@@ -5514,9 +5412,7 @@ capture label values v34_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v35_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var17
-local val_lab: value label var17
+gen v35_ToBeDropped_NEWVARIABLE = "."
 capture replace v35_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==9
 capture replace v35_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==10
 capture replace v35_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==11
@@ -5543,8 +5439,7 @@ capture replace v35_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==31
 capture replace v35_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==32
 capture replace v35_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==33
 capture replace v35_ToBeDropped_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==34
-capture label variable v35_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v35_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v35_ToBeDropped_NEWVARIABLE "DLM4"
 
 
 /*----------------------------------------------------------------------
@@ -5657,9 +5552,7 @@ capture label values v35_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v36_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var22
-local val_lab: value label var22
+gen v36_ToBeDropped_NEWVARIABLE = "."
 capture replace v36_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==9
 capture replace v36_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==10
 capture replace v36_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==11
@@ -5686,8 +5579,7 @@ capture replace v36_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==31
 capture replace v36_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==32
 capture replace v36_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==33
 capture replace v36_ToBeDropped_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==34
-capture label variable v36_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v36_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v36_ToBeDropped_NEWVARIABLE "DLM5"
 
 
 /*----------------------------------------------------------------------
@@ -5800,9 +5692,7 @@ capture label values v36_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v37_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var23
-local val_lab: value label var23
+gen v37_ToBeDropped_NEWVARIABLE = "."
 capture replace v37_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==9
 capture replace v37_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==10
 capture replace v37_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==11
@@ -5829,8 +5719,7 @@ capture replace v37_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==31
 capture replace v37_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==32
 capture replace v37_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==33
 capture replace v37_ToBeDropped_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==34
-capture label variable v37_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v37_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v37_ToBeDropped_NEWVARIABLE "空白2"
 
 
 /*----------------------------------------------------------------------
@@ -5943,9 +5832,7 @@ capture label values v37_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v38_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var24
-local val_lab: value label var24
+gen v38_ToBeDropped_NEWVARIABLE = "."
 capture replace v38_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==9
 capture replace v38_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==10
 capture replace v38_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==11
@@ -5972,8 +5859,7 @@ capture replace v38_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==31
 capture replace v38_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==32
 capture replace v38_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==33
 capture replace v38_ToBeDropped_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==34
-capture label variable v38_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v38_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v38_ToBeDropped_NEWVARIABLE "DLM6"
 
 
 /*----------------------------------------------------------------------
@@ -6086,9 +5972,7 @@ capture label values v38_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v39_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var26
-local val_lab: value label var26
+gen v39_ToBeDropped_NEWVARIABLE = "."
 capture replace v39_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==9
 capture replace v39_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==10
 capture replace v39_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==11
@@ -6115,8 +5999,7 @@ capture replace v39_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==31
 capture replace v39_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==32
 capture replace v39_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==33
 capture replace v39_ToBeDropped_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==34
-capture label variable v39_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v39_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v39_ToBeDropped_NEWVARIABLE "DLM7"
 
 
 /*----------------------------------------------------------------------
@@ -6229,9 +6112,7 @@ capture label values v39_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v40_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var30
-local val_lab: value label var30
+gen v40_ToBeDropped_NEWVARIABLE = "."
 capture replace v40_ToBeDropped_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==9
 capture replace v40_ToBeDropped_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==10
 capture replace v40_ToBeDropped_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==11
@@ -6258,8 +6139,7 @@ capture replace v40_ToBeDropped_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==31
 capture replace v40_ToBeDropped_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==32
 capture replace v40_ToBeDropped_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==33
 capture replace v40_ToBeDropped_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==34
-capture label variable v40_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v40_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v40_ToBeDropped_NEWVARIABLE "個人項目年齢: 分類表21-2"
 
 
 /*----------------------------------------------------------------------
@@ -6372,9 +6252,7 @@ capture label values v40_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v41_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var37
-local val_lab: value label var37
+gen v41_ToBeDropped_NEWVARIABLE = "."
 capture replace v41_ToBeDropped_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==9
 capture replace v41_ToBeDropped_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==10
 capture replace v41_ToBeDropped_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==11
@@ -6401,8 +6279,7 @@ capture replace v41_ToBeDropped_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==31
 capture replace v41_ToBeDropped_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==32
 capture replace v41_ToBeDropped_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==33
 capture replace v41_ToBeDropped_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==34
-capture label variable v41_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v41_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v41_ToBeDropped_NEWVARIABLE "個人項目離職理由: 分類表29"
 
 
 /*----------------------------------------------------------------------
@@ -6515,9 +6392,7 @@ capture label values v41_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v42_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var38
-local val_lab: value label var38
+gen v42_ToBeDropped_NEWVARIABLE = "."
 capture replace v42_ToBeDropped_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==9
 capture replace v42_ToBeDropped_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==10
 capture replace v42_ToBeDropped_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==11
@@ -6544,8 +6419,7 @@ capture replace v42_ToBeDropped_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==31
 capture replace v42_ToBeDropped_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==32
 capture replace v42_ToBeDropped_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==33
 capture replace v42_ToBeDropped_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==34
-capture label variable v42_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v42_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v42_ToBeDropped_NEWVARIABLE "分類表1"
 
 
 /*----------------------------------------------------------------------
@@ -6658,9 +6532,7 @@ capture label values v42_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v43_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var40
-local val_lab: value label var40
+gen v43_ToBeDropped_NEWVARIABLE = "."
 capture replace v43_ToBeDropped_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==9
 capture replace v43_ToBeDropped_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==10
 capture replace v43_ToBeDropped_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==11
@@ -6687,8 +6559,7 @@ capture replace v43_ToBeDropped_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==31
 capture replace v43_ToBeDropped_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==32
 capture replace v43_ToBeDropped_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==33
 capture replace v43_ToBeDropped_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==34
-capture label variable v43_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v43_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v43_ToBeDropped_NEWVARIABLE "DLM8"
 
 
 /*----------------------------------------------------------------------
@@ -6801,9 +6672,7 @@ capture label values v43_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): None
 
 ----------------------------------------------------------------------*/
-gen v44_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var41
-local val_lab: value label var41
+gen v44_ToBeDropped_NEWVARIABLE = "."
 capture replace v44_ToBeDropped_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==9
 capture replace v44_ToBeDropped_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==10
 capture replace v44_ToBeDropped_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==11
@@ -6830,8 +6699,7 @@ capture replace v44_ToBeDropped_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==31
 capture replace v44_ToBeDropped_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==32
 capture replace v44_ToBeDropped_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==33
 capture replace v44_ToBeDropped_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==34
-capture label variable v44_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v44_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v44_ToBeDropped_NEWVARIABLE "空白3"
 
 
 /*----------------------------------------------------------------------
@@ -6944,9 +6812,7 @@ capture label values v44_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 52): 
 
 ----------------------------------------------------------------------*/
-gen v45_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var20
-local val_lab: value label var20
+gen v45_ToBeDropped_NEWVARIABLE = "."
 capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==35
 capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==36
 capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==37
@@ -6965,8 +6831,7 @@ capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==49
 capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==50
 capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==51
 capture replace v45_ToBeDropped_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==52
-capture label variable v45_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values v45_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable v45_ToBeDropped_NEWVARIABLE "枚目"
 
 
 keep *_NEWVARIABLE

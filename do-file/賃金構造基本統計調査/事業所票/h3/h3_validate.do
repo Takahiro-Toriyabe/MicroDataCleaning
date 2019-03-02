@@ -28,83 +28,83 @@
 
 
     Source: 平成01〜04 年_賃金構造基本統計調査_事業所票（初任給）.xlsx
-    Date: 2019/02/28 01:08:31
+    Date: 2019/03/03 01:00:03
 ----------------------------------------------------------------------*/
 
 
-count if var1==.
+capture count if var1==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var1} (調査年)"
 }
 
 
-count if var2==.
+capture count if var2==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var2} (都道府県番号)"
 }
 
 
-count if var3==.
+capture count if var3==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var3} (事業所一連番号)"
 }
 
 
-count if var4==.
+capture count if var4==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var4} (市区町村番号)"
 }
 
 
-count if var5==.
+capture count if var5==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var5} (基本調査区番号)"
 }
 
 
-count if var6==.
+capture count if var6==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var6} (事業所番号)"
 }
 
 
-count if var7==.
+capture count if var7==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var7} (ブロック番号)"
 }
 
 
-count if var8==.
+capture count if var8==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var8} (大)"
 }
 
 
-count if var9==.
+capture count if var9==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var9} (中)"
 }
 
 
-count if var10==.
+capture count if var10==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var10} (小)"
 }
 
 
-count if var11==.
+capture count if var11==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var11} (企業規模)"
 }
 
 
-count if var12==.
+capture count if var12==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var12} (産業番号)"
 }
 
 
-count if var13==.
+capture count if var13==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var13} (事業所規模)"
 }
@@ -114,7 +114,7 @@ if _rc!=0 {
 }
 
 
-count if var14==.
+capture count if var14==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var14} (企業規模)"
 }
@@ -124,13 +124,13 @@ if _rc!=0 {
 }
 
 
-count if var15==.
+capture count if var15==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var15} (産業番号)"
 }
 
 
-count if var16==.
+capture count if var16==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var16} (事業所規模)"
 }
@@ -140,7 +140,7 @@ if _rc!=0 {
 }
 
 
-count if var17==.
+capture count if var17==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var17} (企業規模)"
 }
@@ -150,7 +150,7 @@ if _rc!=0 {
 }
 
 
-count if var18==.
+capture count if var18==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var18} (ベースアップ決定状況)"
 }
@@ -160,19 +160,19 @@ if _rc!=0 {
 }
 
 
-count if var19==.
+capture count if var19==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var19} (事業所)"
 }
 
 
-count if var20==.
+capture count if var20==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var20} (労働者)"
 }
 
 
-count if var21==.
+capture count if var21==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var21} (本支区分)"
 }
@@ -182,7 +182,7 @@ if _rc!=0 {
 }
 
 
-count if var22==.
+capture count if var22==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var22} (民公区分)"
 }
@@ -192,19 +192,19 @@ if _rc!=0 {
 }
 
 
-count if var23==.
+capture count if var23==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var23} (男)"
 }
 
 
-count if var24==.
+capture count if var24==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var24} (女)"
 }
 
 
-count if var25==.
+capture count if var25==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var25} (確定・未確定)"
 }
@@ -214,199 +214,199 @@ if _rc!=0 {
 }
 
 
-count if var26==.
+capture count if var26==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var26} (男初任給額)"
 }
 
 
-count if var27==.
+capture count if var27==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var27} (男採用人員)"
 }
 
 
-count if var28==.
+capture count if var28==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var28} (女初任給額)"
 }
 
 
-count if var29==.
+capture count if var29==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var29} (女採用人員)"
 }
 
 
-count if var30==.
+capture count if var30==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var30} (男初任給額)"
 }
 
 
-count if var31==.
+capture count if var31==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var31} (男採用人員)"
 }
 
 
-count if var32==.
+capture count if var32==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var32} (女初任給額)"
 }
 
 
-count if var33==.
+capture count if var33==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var33} (女採用人員)"
 }
 
 
-count if var34==.
+capture count if var34==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var34} (男初任給額)"
 }
 
 
-count if var35==.
+capture count if var35==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var35} (男採用人員)"
 }
 
 
-count if var36==.
+capture count if var36==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var36} (女初任給額)"
 }
 
 
-count if var37==.
+capture count if var37==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var37} (女採用人員)"
 }
 
 
-count if var38==.
+capture count if var38==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var38} (男初任給額)"
 }
 
 
-count if var39==.
+capture count if var39==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var39} (男採用人員)"
 }
 
 
-count if var40==.
+capture count if var40==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var40} (女初任給額)"
 }
 
 
-count if var41==.
+capture count if var41==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var41} (女採用人員)"
 }
 
 
-count if var42==.
+capture count if var42==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var42} (男初任給額)"
 }
 
 
-count if var43==.
+capture count if var43==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var43} (男採用人員)"
 }
 
 
-count if var44==.
+capture count if var44==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var44} (女初任給額)"
 }
 
 
-count if var45==.
+capture count if var45==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var45} (女採用人員)"
 }
 
 
-count if var46==.
+capture count if var46==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var46} (男初任給額)"
 }
 
 
-count if var47==.
+capture count if var47==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var47} (男採用人員)"
 }
 
 
-count if var48==.
+capture count if var48==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var48} (女初任給額)"
 }
 
 
-count if var49==.
+capture count if var49==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var49} (女採用人員)"
 }
 
 
-count if var50==.
+capture count if var50==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var50} (男初任給額)"
 }
 
 
-count if var51==.
+capture count if var51==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var51} (男採用人員)"
 }
 
 
-count if var52==.
+capture count if var52==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var52} (女初任給額)"
 }
 
 
-count if var53==.
+capture count if var53==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var53} (女採用人員)"
 }
 
 
-count if var54==.
+capture count if var54==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var54} (男初任給額)"
 }
 
 
-count if var55==.
+capture count if var55==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var55} (男採用人員)"
 }
 
 
-count if var56==.
+capture count if var56==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var56} (女初任給額)"
 }
 
 
-count if var57==.
+capture count if var57==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var57} (女採用人員)"
 }
 
 
-count if var58==.
+capture count if var58==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var58} (集計不能コード)"
 }

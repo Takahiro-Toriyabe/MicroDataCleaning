@@ -28,70 +28,70 @@
 
 
     Source: 平成05〜07 年_賃金構造基本統計調査_事業所票（初任給）.xlsx
-    Date: 2019/02/28 01:08:31
+    Date: 2019/03/03 01:00:03
 ----------------------------------------------------------------------*/
 
 
 #delimit ;
     quietly infix
-        var1 1-5
-        var2 7-8
-        var3 9-14
-        var4 16-18
-        var5 19-24
-        var6 25-28
-        var7 32-33
-        var8 34-34
-        var9 35-36
-        var10 37-37
-        var11 38-39
-        var12 42-44
-        var13 45-45
-        var14 46-46
-        var15 47-50
-        var16 52-54
-        var17 55-55
-        var18 56-56
-        var19 57-57
-        var20 59-62
-        var21 63-64
-        var22 65-65
-        var23 66-66
-        var24 67-71
-        var25 72-76
-        var26 78-78
-        var27 79-82
-        var28 83-86
-        var29 87-90
-        var30 91-94
-        var31 95-98
-        var32 99-102
-        var33 103-106
-        var34 107-110
-        var35 111-114
-        var36 115-118
-        var37 119-122
-        var38 123-126
-        var39 127-130
-        var40 131-134
-        var41 135-138
-        var42 139-142
-        var43 143-146
-        var44 147-150
-        var45 151-154
-        var46 155-158
-        var47 159-162
-        var48 163-166
-        var49 167-170
-        var50 171-174
-        var51 175-178
-        var52 179-182
-        var53 183-186
-        var54 187-190
-        var55 191-194
-        var56 195-198
-        var57 199-202
-        var58 203-206
-        var59 208-208
+        str var1 1-5
+        str var2 7-8
+        str var3 9-14
+        str var4 16-18
+        str var5 19-24
+        str var6 25-28
+        str var7 32-33
+        str var8 34-34
+        str var9 35-36
+        str var10 37-37
+        str var11 38-39
+        str var12 42-44
+        str var13 45-45
+        str var14 46-46
+        str var15 47-50
+        str var16 52-54
+        str var17 55-55
+        str var18 56-56
+        str var19 57-57
+        str var20 59-62
+        str var21 63-64
+        str var22 65-65
+        str var23 66-66
+        str var24 67-71
+        str var25 72-76
+        str var26 78-78
+        str var27 79-82
+        str var28 83-86
+        str var29 87-90
+        str var30 91-94
+        str var31 95-98
+        str var32 99-102
+        str var33 103-106
+        str var34 107-110
+        str var35 111-114
+        str var36 115-118
+        str var37 119-122
+        str var38 123-126
+        str var39 127-130
+        str var40 131-134
+        str var41 135-138
+        str var42 139-142
+        str var43 143-146
+        str var44 147-150
+        str var45 151-154
+        str var46 155-158
+        str var47 159-162
+        str var48 163-166
+        str var49 167-170
+        str var50 171-174
+        str var51 175-178
+        str var52 179-182
+        str var53 183-186
+        str var54 187-190
+        str var55 191-194
+        str var56 195-198
+        str var57 199-202
+        str var58 203-206
+        str var59 208-208
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_j-chin/h07_j-chin.txt";
 #delimit cr

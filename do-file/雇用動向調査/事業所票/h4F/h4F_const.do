@@ -28,112 +28,113 @@
 
 
     Source: （参考）符号表_雇用動向調査（事業所票）h03-04
-    Date: 2019/02/28 01:09:14
+    Date: 2019/03/03 01:00:24
 ----------------------------------------------------------------------*/
 
 
 #delimit ;
     quietly infix
-        var1 1-3
-        var2 4-7
-        var3 8-9
-        var4 10-10
-        var5 16-17
-        var6 18-19
-        var7 20-23
-        var8 24-24
-        var9 25-26
-        var10 28-30
-        var11 32-32
-        var12 33-33
-        var13 35-36
-        var14 37-37
-        var15 38-38
-        var16 39-39
-        var17 44-53
-        var18 57-62
-        var19 63-68
-        var20 69-74
-        var21 75-80
-        var22 81-86
-        var23 87-92
-        var24 93-98
-        var25 99-104
-        var26 105-110
-        var27 111-116
-        var28 117-122
-        var29 123-128
-        var30 129-134
-        var31 135-140
-        var32 141-146
-        var33 147-152
-        var34 153-158
-        var35 159-164
-        var36 165-170
-        var37 171-176
-        var38 177-182
-        var39 183-188
-        var40 189-194
-        var41 195-200
-        var42 201-206
-        var43 207-212
-        var44 213-218
-        var45 219-224
-        var46 225-230
-        var47 231-236
-        var48 237-242
-        var49 243-248
-        var50 249-254
-        var51 255-260
-        var52 261-266
-        var53 267-272
-        var54 273-278
-        var55 279-284
-        var56 285-290
-        var57 291-296
-        var58 297-302
-        var59 303-308
-        var60 309-314
-        var61 315-320
-        var62 321-326
-        var63 327-332
-        var64 333-338
-        var65 339-344
-        var66 345-350
-        var67 351-356
-        var68 357-362
-        var69 363-368
-        var70 369-374
-        var71 375-380
-        var72 381-386
-        var73 387-392
-        var74 393-398
-        var75 399-404
-        var76 405-410
-        var77 411-416
-        var78 417-422
-        var79 423-428
-        var80 429-434
-        var81 435-440
-        var82 441-446
-        var83 447-452
-        var84 453-458
-        var85 459-464
-        var86 465-470
-        var87 471-476
-        var88 477-482
-        var89 483-488
-        var90 489-494
-        var91 495-500
-        var92 501-506
-        var93 507-512
-        var94 513-518
-        var95 519-524
-        var96 525-530
-        var97 531-536
-        var98 537-542
-        var99 543-548
-        var100 549-554
-        var101 555-560
+        str var1 1-3
+        str var2 4-7
+        str var3 8-9
+        str var4 10-10
+        str var5 13-14
+        str var6 16-17
+        str var7 18-19
+        str var8 20-23
+        str var9 24-24
+        str var10 25-26
+        str var11 28-30
+        str var12 32-32
+        str var13 33-33
+        str var14 35-36
+        str var15 37-37
+        str var16 38-38
+        str var17 39-39
+        str var18 44-53
+        str var19 57-62
+        str var20 63-68
+        str var21 69-74
+        str var22 75-80
+        str var23 81-86
+        str var24 87-92
+        str var25 93-98
+        str var26 99-104
+        str var27 105-110
+        str var28 111-116
+        str var29 117-122
+        str var30 123-128
+        str var31 129-134
+        str var32 135-140
+        str var33 141-146
+        str var34 147-152
+        str var35 153-158
+        str var36 159-164
+        str var37 165-170
+        str var38 171-176
+        str var39 177-182
+        str var40 183-188
+        str var41 189-194
+        str var42 195-200
+        str var43 201-206
+        str var44 207-212
+        str var45 213-218
+        str var46 219-224
+        str var47 225-230
+        str var48 231-236
+        str var49 237-242
+        str var50 243-248
+        str var51 249-254
+        str var52 255-260
+        str var53 261-266
+        str var54 267-272
+        str var55 273-278
+        str var56 279-284
+        str var57 285-290
+        str var58 291-296
+        str var59 297-302
+        str var60 303-308
+        str var61 309-314
+        str var62 315-320
+        str var63 321-326
+        str var64 327-332
+        str var65 333-338
+        str var66 339-344
+        str var67 345-350
+        str var68 351-356
+        str var69 357-362
+        str var70 363-368
+        str var71 369-374
+        str var72 375-380
+        str var73 381-386
+        str var74 387-392
+        str var75 393-398
+        str var76 399-404
+        str var77 405-410
+        str var78 411-416
+        str var79 417-422
+        str var80 423-428
+        str var81 429-434
+        str var82 435-440
+        str var83 441-446
+        str var84 447-452
+        str var85 453-458
+        str var86 459-464
+        str var87 465-470
+        str var88 471-476
+        str var89 477-482
+        str var90 483-488
+        str var91 489-494
+        str var92 495-500
+        str var93 501-506
+        str var94 507-512
+        str var95 513-518
+        str var96 519-524
+        str var97 525-530
+        str var98 531-536
+        str var99 537-542
+        str var100 543-548
+        str var101 549-554
+        str var102 555-560
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_j-koyo/H04_j-koyo01.txt";
 #delimit cr

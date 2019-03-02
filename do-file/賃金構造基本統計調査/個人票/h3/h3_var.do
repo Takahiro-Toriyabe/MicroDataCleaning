@@ -28,7 +28,7 @@
 
 
     Source: 平成01年〜04年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/02/28 01:07:40
+    Date: 2019/03/03 00:59:38
 ----------------------------------------------------------------------*/
 
 
@@ -42,23 +42,23 @@ capture label variable var7 "労働者一連番号"
 capture label variable var8 "市区町村番号"
 capture label variable var9 "基本調査区番号"
 capture label variable var10 "事業所番号"
-capture label variable var11 "産業番号"
-capture label variable var12 "事業所規模"
-capture label variable var13 "企業規模"
-capture label variable var14 "産業番号"
-capture label variable var15 "事業所規模"
-capture label variable var16 "企業規模"
+capture label variable var11 "マスター: 産業番号"
+capture label variable var12 "マスター: 事業所規模"
+capture label variable var13 "マスター: 企業規模"
+capture label variable var14 "調査票: 産業番号"
+capture label variable var15 "調査票: 事業所規模"
+capture label variable var16 "調査票: 企業規模"
 capture label variable var17 "ベースアップ"
-capture label variable var18 "事業所"
-capture label variable var19 "労働者"
+capture label variable var18 "抽出率: 事業所"
+capture label variable var19 "抽出率: 労働者"
 capture label variable var20 "復元倍率"
 capture label variable var21 "本支区分"
 capture label variable var22 "民公区分"
-capture label variable var23 "男"
-capture label variable var24 "女"
-capture label variable var25 "大分類"
-capture label variable var26 "中分類"
-capture label variable var27 "小分類"
+capture label variable var23 "常用労働者: 男"
+capture label variable var24 "常用労働者: 女"
+capture label variable var25 "産業: 大分類"
+capture label variable var26 "産業: 中分類"
+capture label variable var27 "産業: 小分類"
 capture label variable var28 "性別"
 capture label variable var29 "労働者の種類"
 capture label variable var30 "雇用形態"

@@ -28,50 +28,50 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h16-28.xlsx
-    Date: 2019/02/28 01:22:17
+    Date: 2019/03/03 01:07:08
 ----------------------------------------------------------------------*/
 
 
 #delimit ;
     quietly infix
-        var1 1-2
-        var2 3-6
-        var3 7-8
-        var4 11-11
-        var5 14-23
-        var6 31-32
-        var7 33-36
-        var8 37-38
-        var9 39-41
-        var10 42-42
-        var11 43-43
-        var12 44-44
-        var13 45-46
-        var14 47-47
-        var15 48-48
-        var16 49-49
-        var17 50-50
-        var18 51-51
-        var19 52-52
-        var20 53-53
-        var21 54-54
-        var22 55-55
-        var23 56-57
-        var24 58-58
-        var25 59-60
-        var26 61-61
-        var27 62-63
-        var28 64-64
-        var29 65-66
-        var30 67-68
-        var31 69-69
-        var32 70-70
-        var33 71-71
-        var34 72-73
-        var35 74-75
-        var36 76-76
-        var37 77-78
-        var38 79-80
-        var39 81-81
+        str var1 1-2
+        str var2 3-6
+        str var3 7-8
+        str var4 11-11
+        str var5 14-23
+        str var6 31-32
+        str var7 33-36
+        str var8 37-38
+        str var9 39-41
+        str var10 42-42
+        str var11 43-43
+        str var12 44-44
+        str var13 45-46
+        str var14 47-47
+        str var15 48-48
+        str var16 49-49
+        str var17 50-50
+        str var18 51-51
+        str var19 52-52
+        str var20 53-53
+        str var21 54-54
+        str var22 55-55
+        str var23 56-57
+        str var24 58-58
+        str var25 59-60
+        str var26 61-61
+        str var27 62-63
+        str var28 64-64
+        str var29 65-66
+        str var30 67-68
+        str var31 69-69
+        str var32 70-70
+        str var33 71-71
+        str var34 72-73
+        str var35 74-75
+        str var36 76-76
+        str var37 77-78
+        str var38 79-80
+        str var39 81-81
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_n-koyo/H28_n-koyo07.txt";
 #delimit cr

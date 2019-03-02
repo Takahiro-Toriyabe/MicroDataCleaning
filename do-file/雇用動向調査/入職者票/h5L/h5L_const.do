@@ -28,67 +28,67 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h5.xlsx
-    Date: 2019/02/28 01:21:56
+    Date: 2019/03/03 01:06:59
 ----------------------------------------------------------------------*/
 
 
 #delimit ;
     quietly infix
-        var1 1-3
-        var2 4-7
-        var3 8-9
-        var4 10-10
-        var5 16-17
-        var6 18-19
-        var7 20-23
-        var8 24-24
-        var9 25-26
-        var10 28-30
-        var11 32-32
-        var12 33-33
-        var13 35-36
-        var14 37-37
-        var15 38-38
-        var16 39-39
-        var17 44-53
-        var18 57-57
-        var19 58-59
-        var20 60-61
-        var21 62-63
-        var22 64-64
-        var23 65-65
-        var24 66-66
-        var25 67-67
-        var26 68-68
-        var27 69-69
-        var28 70-70
-        var29 71-71
-        var30 72-72
-        var31 73-74
-        var32 75-76
-        var33 77-77
-        var34 78-78
-        var35 79-79
-        var36 80-80
-        var37 82-82
-        var38 83-83
-        var39 84-84
-        var40 85-85
-        var41 86-86
-        var42 87-88
-        var43 89-90
-        var44 91-91
-        var45 92-92
-        var46 93-93
-        var47 94-95
-        var48 96-97
-        var49 98-99
-        var50 100-101
-        var51 102-103
-        var52 104-105
-        var53 106-107
-        var54 108-108
-        var55 109-110
-        var56 111-112
+        str var1 1-3
+        str var2 4-7
+        str var3 8-9
+        str var4 10-10
+        str var5 16-17
+        str var6 18-19
+        str var7 20-23
+        str var8 24-24
+        str var9 25-26
+        str var10 28-30
+        str var11 32-32
+        str var12 33-33
+        str var13 35-36
+        str var14 37-37
+        str var15 38-38
+        str var16 39-39
+        str var17 44-53
+        str var18 57-57
+        str var19 58-59
+        str var20 60-61
+        str var21 62-63
+        str var22 64-64
+        str var23 65-65
+        str var24 66-66
+        str var25 67-67
+        str var26 68-68
+        str var27 69-69
+        str var28 70-70
+        str var29 71-71
+        str var30 72-72
+        str var31 73-74
+        str var32 75-76
+        str var33 77-77
+        str var34 78-78
+        str var35 79-79
+        str var36 80-80
+        str var37 82-82
+        str var38 83-83
+        str var39 84-84
+        str var40 85-85
+        str var41 86-86
+        str var42 87-88
+        str var43 89-90
+        str var44 91-91
+        str var45 92-92
+        str var46 93-93
+        str var47 94-95
+        str var48 96-97
+        str var49 98-99
+        str var50 100-101
+        str var51 102-103
+        str var52 104-105
+        str var53 106-107
+        str var54 108-108
+        str var55 109-110
+        str var56 111-112
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_n-koyo/H05_n-koyo07.txt";
 #delimit cr

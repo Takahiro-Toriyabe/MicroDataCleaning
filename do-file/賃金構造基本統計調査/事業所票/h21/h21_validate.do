@@ -28,11 +28,11 @@
 
 
     Source: 平成17～29年_賃金構造基本統計調査_事業所票（初任給）.xls
-    Date: 2019/02/28 01:08:34
+    Date: 2019/03/03 01:00:04
 ----------------------------------------------------------------------*/
 
 
-count if Nen==.
+capture count if Nen==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Nen} (調査年)"
 }
@@ -42,49 +42,49 @@ if _rc!=0 {
 }
 
 
-count if Ken==.
+capture count if Ken==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Ken} (都道府県番号)"
 }
 
 
-count if JigyoRen==.
+capture count if JigyoRen==.
 if r(N)==_N {
     display as error "Only missing value: {bf:JigyoRen} (事業所一連番号)"
 }
 
 
-count if Digit==.
+capture count if Digit==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Digit} ((チェックディジット))"
 }
 
 
-count if M_Shi==.
+capture count if M_Shi==.
 if r(N)==_N {
     display as error "Only missing value: {bf:M_Shi} (市区町村番号)"
 }
 
 
-count if M_Chosaku==.
+capture count if M_Chosaku==.
 if r(N)==_N {
     display as error "Only missing value: {bf:M_Chosaku} (基本調査区番号)"
 }
 
 
-count if M_JigyoBan==.
+capture count if M_JigyoBan==.
 if r(N)==_N {
     display as error "Only missing value: {bf:M_JigyoBan} (事業所番号)"
 }
 
 
-count if M_Sangyo==.
+capture count if M_Sangyo==.
 if r(N)==_N {
     display as error "Only missing value: {bf:M_Sangyo} (産業番号)"
 }
 
 
-count if M_JigyoKibo==.
+capture count if M_JigyoKibo==.
 if r(N)==_N {
     display as error "Only missing value: {bf:M_JigyoKibo} (事業所規模番号)"
 }
@@ -94,7 +94,7 @@ if _rc!=0 {
 }
 
 
-count if M_RinjiKibo==.
+capture count if M_RinjiKibo==.
 if r(N)==_N {
     display as error "Only missing value: {bf:M_RinjiKibo} (臨時雇用者規模番号)"
 }
@@ -104,7 +104,7 @@ if _rc!=0 {
 }
 
 
-count if M_KigyoKibo==.
+capture count if M_KigyoKibo==.
 if r(N)==_N {
     display as error "Only missing value: {bf:M_KigyoKibo} (企業規模番号)"
 }
@@ -114,13 +114,13 @@ if _rc!=0 {
 }
 
 
-count if Sangyo==.
+capture count if Sangyo==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Sangyo} (産業番号)"
 }
 
 
-count if JigyoKibo==.
+capture count if JigyoKibo==.
 if r(N)==_N {
     display as error "Only missing value: {bf:JigyoKibo} (事業所規模番号)"
 }
@@ -130,7 +130,7 @@ if _rc!=0 {
 }
 
 
-count if RinjiKibo==.
+capture count if RinjiKibo==.
 if r(N)==_N {
     display as error "Only missing value: {bf:RinjiKibo} (臨時雇用者規模番号)"
 }
@@ -140,7 +140,7 @@ if _rc!=0 {
 }
 
 
-count if KigyoKibo==.
+capture count if KigyoKibo==.
 if r(N)==_N {
     display as error "Only missing value: {bf:KigyoKibo} (企業規模番号)"
 }
@@ -150,25 +150,25 @@ if _rc!=0 {
 }
 
 
-count if JigyoRitsu==.
+capture count if JigyoRitsu==.
 if r(N)==_N {
     display as error "Only missing value: {bf:JigyoRitsu} (事業所)"
 }
 
 
-count if RodoRitsu==.
+capture count if RodoRitsu==.
 if r(N)==_N {
     display as error "Only missing value: {bf:RodoRitsu} (常用労働者)"
 }
 
 
-count if RinjiRitsu==.
+capture count if RinjiRitsu==.
 if r(N)==_N {
     display as error "Only missing value: {bf:RinjiRitsu} (臨時労働者)"
 }
 
 
-count if M_Honshi==.
+capture count if M_Honshi==.
 if r(N)==_N {
     display as error "Only missing value: {bf:M_Honshi} (本・支区分)"
 }
@@ -178,7 +178,7 @@ if _rc!=0 {
 }
 
 
-count if M_Minko==.
+capture count if M_Minko==.
 if r(N)==_N {
     display as error "Only missing value: {bf:M_Minko} (民・公区分)"
 }
@@ -188,7 +188,7 @@ if _rc!=0 {
 }
 
 
-count if M_Syurui==.
+capture count if M_Syurui==.
 if r(N)==_N {
     display as error "Only missing value: {bf:M_Syurui} (種類)"
 }
@@ -198,49 +198,49 @@ if _rc!=0 {
 }
 
 
-count if Syain_M==.
+capture count if Syain_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Syain_M} (男)"
 }
 
 
-count if Syain_W==.
+capture count if Syain_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Syain_W} (女)"
 }
 
 
-count if Hisyain_M==.
+capture count if Hisyain_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Hisyain_M} (男)"
 }
 
 
-count if Hisyain_W==.
+capture count if Hisyain_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Hisyain_W} (女)"
 }
 
 
-count if Rinji==.
+capture count if Rinji==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Rinji} (臨時労働者数)"
 }
 
 
-count if SangyoD==.
+capture count if SangyoD==.
 if r(N)==_N {
     display as error "Only missing value: {bf:SangyoD} (大)"
 }
 
 
-count if SangyoC==.
+capture count if SangyoC==.
 if r(N)==_N {
     display as error "Only missing value: {bf:SangyoC} (中)"
 }
 
 
-count if SangyoS==.
+capture count if SangyoS==.
 if r(N)==_N {
     display as error "Only missing value: {bf:SangyoS} (小)"
 }
@@ -250,13 +250,13 @@ if _rc!=0 {
 }
 
 
-count if KigyoKiboKbn==.
+capture count if KigyoKiboKbn==.
 if r(N)==_N {
     display as error "Only missing value: {bf:KigyoKiboKbn} (企業規模)"
 }
 
 
-count if Kakutei==.
+capture count if Kakutei==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Kakutei} (確定・未確定)"
 }
@@ -266,121 +266,121 @@ if _rc!=0 {
 }
 
 
-count if Kou_Gaku_M==.
+capture count if Kou_Gaku_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Kou_Gaku_M} (初任給額)"
 }
 
 
-count if Kou_Jin_M==.
+capture count if Kou_Jin_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Kou_Jin_M} (採用人員)"
 }
 
 
-count if Kou_Gaku_W==.
+capture count if Kou_Gaku_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Kou_Gaku_W} (初任給額)"
 }
 
 
-count if Kou_Jin_W==.
+capture count if Kou_Jin_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Kou_Jin_W} (採用人員)"
 }
 
 
-count if Tan_Gaku_M==.
+capture count if Tan_Gaku_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Tan_Gaku_M} (初任給額)"
 }
 
 
-count if Tan_Jin_M==.
+capture count if Tan_Jin_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Tan_Jin_M} (採用人員)"
 }
 
 
-count if Tan_Gaku_W==.
+capture count if Tan_Gaku_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Tan_Gaku_W} (初任給額)"
 }
 
 
-count if Tan_Jin_W==.
+capture count if Tan_Jin_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Tan_Jin_W} (採用人員)"
 }
 
 
-count if Dai_Jimu_Gaku_M==.
+capture count if Dai_Jimu_Gaku_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Dai_Jimu_Gaku_M} (初任給額)"
 }
 
 
-count if Dai_Jimu_Jin_M==.
+capture count if Dai_Jimu_Jin_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Dai_Jimu_Jin_M} (採用人員)"
 }
 
 
-count if Dai_Jimu_Gaku_W==.
+capture count if Dai_Jimu_Gaku_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Dai_Jimu_Gaku_W} (初任給額)"
 }
 
 
-count if Dai_Jimu_Jin_W==.
+capture count if Dai_Jimu_Jin_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Dai_Jimu_Jin_W} (採用人員)"
 }
 
 
-count if Dai_Gijyu_Gaku_M==.
+capture count if Dai_Gijyu_Gaku_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Dai_Gijyu_Gaku_M} (初任給額)"
 }
 
 
-count if Dai_Gijyu_Jin_M==.
+capture count if Dai_Gijyu_Jin_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Dai_Gijyu_Jin_M} (採用人員)"
 }
 
 
-count if Dai_Gijyu_Gaku_W==.
+capture count if Dai_Gijyu_Gaku_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Dai_Gijyu_Gaku_W} (初任給額)"
 }
 
 
-count if Dai_Gijyu_Jin_W==.
+capture count if Dai_Gijyu_Jin_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:Dai_Gijyu_Jin_W} (採用人員)"
 }
 
 
-count if In_Gaku_M==.
+capture count if In_Gaku_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:In_Gaku_M} (初任給額)"
 }
 
 
-count if In_Jimu_M==.
+capture count if In_Jimu_M==.
 if r(N)==_N {
     display as error "Only missing value: {bf:In_Jimu_M} (採用人員)"
 }
 
 
-count if In_Gaku_W==.
+capture count if In_Gaku_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:In_Gaku_W} (初任給額)"
 }
 
 
-count if In_Jin_W==.
+capture count if In_Jin_W==.
 if r(N)==_N {
     display as error "Only missing value: {bf:In_Jin_W} (採用人員)"
 }

@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/02/28 01:08:30
+    Date: 2019/03/03 01:00:03
 ----------------------------------------------------------------------*/
 
 
@@ -96,9 +96,7 @@
     Values (Data 29):  2017: 西暦
 
 ----------------------------------------------------------------------*/
-gen Chosa_Nen_NEWVARIABLE = .
-local var_lab: variable label var1
-local val_lab: value label var1
+gen Chosa_Nen_NEWVARIABLE = "."
 capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==1
 capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==2
 capture replace Chosa_Nen_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==3
@@ -128,8 +126,7 @@ capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==26
 capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==27
 capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==28
 capture replace Chosa_Nen_NEWVARIABLE = Chosa_Nen  if flag_tmp_NEWVARIABLE==29
-capture label variable Chosa_Nen_NEWVARIABLE `var_lab'
-capture label values Chosa_Nen_NEWVARIABLE `val_lab'
+capture label variable Chosa_Nen_NEWVARIABLE "調査年"
 
 
 /*----------------------------------------------------------------------
@@ -196,9 +193,7 @@ capture label values Chosa_Nen_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Katsu_NEWVARIABLE = .
-local var_lab: variable label var2
-local val_lab: value label var2
+gen Katsu_NEWVARIABLE = "."
 capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==1
 capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==2
 capture replace Katsu_NEWVARIABLE = var2  if flag_tmp_NEWVARIABLE==3
@@ -228,8 +223,7 @@ capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==26
 capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==27
 capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==28
 capture replace Katsu_NEWVARIABLE = Katsu  if flag_tmp_NEWVARIABLE==29
-capture label variable Katsu_NEWVARIABLE `var_lab'
-capture label values Katsu_NEWVARIABLE `val_lab'
+capture label variable Katsu_NEWVARIABLE "府県ごとの括通し番号"
 
 
 /*----------------------------------------------------------------------
@@ -296,9 +290,7 @@ capture label values Katsu_NEWVARIABLE `val_lab'
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen v1_NEWVARIABLE = .
-local var_lab: variable label var3
-local val_lab: value label var3
+gen v1_NEWVARIABLE = "."
 capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==1
 capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==2
 capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==3
@@ -312,8 +304,7 @@ capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==10
 capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==11
 capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==12
 capture replace v1_NEWVARIABLE = var3  if flag_tmp_NEWVARIABLE==13
-capture label variable v1_NEWVARIABLE `var_lab'
-capture label values v1_NEWVARIABLE `val_lab'
+capture label variable v1_NEWVARIABLE "括内事業所番号"
 
 
 /*----------------------------------------------------------------------
@@ -380,9 +371,7 @@ capture label values v1_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Ken_NEWVARIABLE = .
-local var_lab: variable label var4
-local val_lab: value label var4
+gen Ken_NEWVARIABLE = "."
 capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==1
 capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==2
 capture replace Ken_NEWVARIABLE = var4  if flag_tmp_NEWVARIABLE==3
@@ -412,8 +401,7 @@ capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==26
 capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==27
 capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==28
 capture replace Ken_NEWVARIABLE = Ken  if flag_tmp_NEWVARIABLE==29
-capture label variable Ken_NEWVARIABLE `var_lab'
-capture label values Ken_NEWVARIABLE `val_lab'
+capture label variable Ken_NEWVARIABLE "都道府県番号"
 
 
 /*----------------------------------------------------------------------
@@ -480,9 +468,7 @@ capture label values Ken_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen JigyoRen_NEWVARIABLE = .
-local var_lab: variable label var5
-local val_lab: value label var5
+gen JigyoRen_NEWVARIABLE = "."
 capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==1
 capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==2
 capture replace JigyoRen_NEWVARIABLE = var5  if flag_tmp_NEWVARIABLE==3
@@ -512,8 +498,7 @@ capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==26
 capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==27
 capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==28
 capture replace JigyoRen_NEWVARIABLE = JigyoRen  if flag_tmp_NEWVARIABLE==29
-capture label variable JigyoRen_NEWVARIABLE `var_lab'
-capture label values JigyoRen_NEWVARIABLE `val_lab'
+capture label variable JigyoRen_NEWVARIABLE "事業所一連番号"
 
 
 /*----------------------------------------------------------------------
@@ -580,9 +565,7 @@ capture label values JigyoRen_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Maime_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var6
-local val_lab: value label var6
+gen Maime_ToBeDropped_NEWVARIABLE = "."
 capture replace Maime_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==1
 capture replace Maime_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==2
 capture replace Maime_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==3
@@ -612,8 +595,7 @@ capture replace Maime_ToBeDropped_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==
 capture replace Maime_ToBeDropped_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==27
 capture replace Maime_ToBeDropped_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==28
 capture replace Maime_ToBeDropped_NEWVARIABLE = Maime  if flag_tmp_NEWVARIABLE==29
-capture label variable Maime_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values Maime_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable Maime_ToBeDropped_NEWVARIABLE "○○枚目"
 
 
 /*----------------------------------------------------------------------
@@ -680,9 +662,7 @@ capture label values Maime_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen RouRen_NEWVARIABLE = .
-local var_lab: variable label var7
-local val_lab: value label var7
+gen RouRen_NEWVARIABLE = "."
 capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==1
 capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==2
 capture replace RouRen_NEWVARIABLE = var7  if flag_tmp_NEWVARIABLE==3
@@ -712,8 +692,7 @@ capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==26
 capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==27
 capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==28
 capture replace RouRen_NEWVARIABLE = RouRen  if flag_tmp_NEWVARIABLE==29
-capture label variable RouRen_NEWVARIABLE `var_lab'
-capture label values RouRen_NEWVARIABLE `val_lab'
+capture label variable RouRen_NEWVARIABLE "労働者一連番号"
 
 
 /*----------------------------------------------------------------------
@@ -780,9 +759,7 @@ capture label values RouRen_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Shiku_NEWVARIABLE = .
-local var_lab: variable label var8
-local val_lab: value label var8
+gen Shiku_NEWVARIABLE = "."
 capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==1
 capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==2
 capture replace Shiku_NEWVARIABLE = var8  if flag_tmp_NEWVARIABLE==3
@@ -812,8 +789,7 @@ capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==26
 capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==27
 capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==28
 capture replace Shiku_NEWVARIABLE = Shiku  if flag_tmp_NEWVARIABLE==29
-capture label variable Shiku_NEWVARIABLE `var_lab'
-capture label values Shiku_NEWVARIABLE `val_lab'
+capture label variable Shiku_NEWVARIABLE "市区町村番号"
 
 
 /*----------------------------------------------------------------------
@@ -880,9 +856,7 @@ capture label values Shiku_NEWVARIABLE `val_lab'
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen Kihon_NEWVARIABLE = .
-local var_lab: variable label var9
-local val_lab: value label var9
+gen Kihon_NEWVARIABLE = "."
 capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==1
 capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==2
 capture replace Kihon_NEWVARIABLE = var9  if flag_tmp_NEWVARIABLE==3
@@ -909,8 +883,7 @@ capture replace Kihon_NEWVARIABLE = Kihon  if flag_tmp_NEWVARIABLE==23
 capture replace Kihon_NEWVARIABLE = Kihon  if flag_tmp_NEWVARIABLE==24
 capture replace Kihon_NEWVARIABLE = Kihon  if flag_tmp_NEWVARIABLE==25
 capture replace Kihon_NEWVARIABLE = Kihon  if flag_tmp_NEWVARIABLE==26
-capture label variable Kihon_NEWVARIABLE `var_lab'
-capture label values Kihon_NEWVARIABLE `val_lab'
+capture label variable Kihon_NEWVARIABLE "基本調査区番号"
 
 
 /*----------------------------------------------------------------------
@@ -977,9 +950,7 @@ capture label values Kihon_NEWVARIABLE `val_lab'
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen Jigyosyo_NEWVARIABLE = .
-local var_lab: variable label var10
-local val_lab: value label var10
+gen Jigyosyo_NEWVARIABLE = "."
 capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==1
 capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==2
 capture replace Jigyosyo_NEWVARIABLE = var10  if flag_tmp_NEWVARIABLE==3
@@ -1006,8 +977,7 @@ capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if flag_tmp_NEWVARIABLE==23
 capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if flag_tmp_NEWVARIABLE==24
 capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if flag_tmp_NEWVARIABLE==25
 capture replace Jigyosyo_NEWVARIABLE = Jigyosyo  if flag_tmp_NEWVARIABLE==26
-capture label variable Jigyosyo_NEWVARIABLE `var_lab'
-capture label values Jigyosyo_NEWVARIABLE `val_lab'
+capture label variable Jigyosyo_NEWVARIABLE "事業所番号"
 
 
 /*----------------------------------------------------------------------
@@ -1074,9 +1044,7 @@ capture label values Jigyosyo_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen M_Sangyo_NEWVARIABLE = .
-local var_lab: variable label var11
-local val_lab: value label var11
+gen M_Sangyo_NEWVARIABLE = "."
 capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==1
 capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==2
 capture replace M_Sangyo_NEWVARIABLE = var11  if flag_tmp_NEWVARIABLE==3
@@ -1106,8 +1074,7 @@ capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==26
 capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==27
 capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==28
 capture replace M_Sangyo_NEWVARIABLE = M_Sangyo  if flag_tmp_NEWVARIABLE==29
-capture label variable M_Sangyo_NEWVARIABLE `var_lab'
-capture label values M_Sangyo_NEWVARIABLE `val_lab'
+capture label variable M_Sangyo_NEWVARIABLE "マスター: 産業分類番号"
 
 
 /*----------------------------------------------------------------------
@@ -1174,9 +1141,7 @@ capture label values M_Sangyo_NEWVARIABLE `val_lab'
     Values (Data 29):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
 
 ----------------------------------------------------------------------*/
-gen M_JigyoKibo_NEWVARIABLE = .
-local var_lab: variable label var12
-local val_lab: value label var12
+gen M_JigyoKibo_NEWVARIABLE = "."
 capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==1
 capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==2
 capture replace M_JigyoKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==3
@@ -1206,8 +1171,7 @@ capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==27
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==28
 capture replace M_JigyoKibo_NEWVARIABLE = M_JigyoKibo  if flag_tmp_NEWVARIABLE==29
-capture label variable M_JigyoKibo_NEWVARIABLE `var_lab'
-capture label values M_JigyoKibo_NEWVARIABLE `val_lab'
+capture label variable M_JigyoKibo_NEWVARIABLE "マスター: 事業所規模"
 
 
 /*----------------------------------------------------------------------
@@ -1274,9 +1238,7 @@ capture label values M_JigyoKibo_NEWVARIABLE `val_lab'
     Values (Data 29):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
 
 ----------------------------------------------------------------------*/
-gen M_Kigyokibo_NEWVARIABLE = .
-local var_lab: variable label var13
-local val_lab: value label var13
+gen M_Kigyokibo_NEWVARIABLE = "."
 capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==1
 capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==2
 capture replace M_Kigyokibo_NEWVARIABLE = var13  if flag_tmp_NEWVARIABLE==3
@@ -1306,8 +1268,7 @@ capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==
 capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==27
 capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==28
 capture replace M_Kigyokibo_NEWVARIABLE = M_Kigyokibo  if flag_tmp_NEWVARIABLE==29
-capture label variable M_Kigyokibo_NEWVARIABLE `var_lab'
-capture label values M_Kigyokibo_NEWVARIABLE `val_lab'
+capture label variable M_Kigyokibo_NEWVARIABLE "マスター: 企業規模"
 
 
 /*----------------------------------------------------------------------
@@ -1374,9 +1335,7 @@ capture label values M_Kigyokibo_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Sangyo_NEWVARIABLE = .
-local var_lab: variable label var14
-local val_lab: value label var14
+gen Sangyo_NEWVARIABLE = "."
 capture replace Sangyo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==1
 capture replace Sangyo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==2
 capture replace Sangyo_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==3
@@ -1406,8 +1365,7 @@ capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==26
 capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==27
 capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==28
 capture replace Sangyo_NEWVARIABLE = Sangyo  if flag_tmp_NEWVARIABLE==29
-capture label variable Sangyo_NEWVARIABLE `var_lab'
-capture label values Sangyo_NEWVARIABLE `val_lab'
+capture label variable Sangyo_NEWVARIABLE "事業所票: 産業分類番号"
 
 
 /*----------------------------------------------------------------------
@@ -1474,9 +1432,7 @@ capture label values Sangyo_NEWVARIABLE `val_lab'
     Values (Data 29):  0: 15,000人以上, 1: 5,000~14,999人, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 50~99人, 7: 30~49人, 8: 10~29人, 9: 5~9人
 
 ----------------------------------------------------------------------*/
-gen JigyoKibo_NEWVARIABLE = .
-local var_lab: variable label var15
-local val_lab: value label var15
+gen JigyoKibo_NEWVARIABLE = "."
 capture replace JigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==1
 capture replace JigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==2
 capture replace JigyoKibo_NEWVARIABLE = var15  if flag_tmp_NEWVARIABLE==3
@@ -1506,8 +1462,7 @@ capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==26
 capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==27
 capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==28
 capture replace JigyoKibo_NEWVARIABLE = JigyoKibo  if flag_tmp_NEWVARIABLE==29
-capture label variable JigyoKibo_NEWVARIABLE `var_lab'
-capture label values JigyoKibo_NEWVARIABLE `val_lab'
+capture label variable JigyoKibo_NEWVARIABLE "事業所票: 事業所規模"
 
 
 /*----------------------------------------------------------------------
@@ -1574,9 +1529,7 @@ capture label values JigyoKibo_NEWVARIABLE `val_lab'
     Values (Data 29):  1: 5,000人以上, 2: 1,000~4,999人, 3: 500~999人, 4: 300~499人, 5: 100~299人, 6: 30~99人, 7: 10~29人, 8: 5~9人
 
 ----------------------------------------------------------------------*/
-gen KigyoKibo_NEWVARIABLE = .
-local var_lab: variable label var16
-local val_lab: value label var16
+gen KigyoKibo_NEWVARIABLE = "."
 capture replace KigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==1
 capture replace KigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==2
 capture replace KigyoKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==3
@@ -1606,8 +1559,7 @@ capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==26
 capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==27
 capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==28
 capture replace KigyoKibo_NEWVARIABLE = KigyoKibo  if flag_tmp_NEWVARIABLE==29
-capture label variable KigyoKibo_NEWVARIABLE `var_lab'
-capture label values KigyoKibo_NEWVARIABLE `val_lab'
+capture label variable KigyoKibo_NEWVARIABLE "事業所票: 企業規模"
 
 
 /*----------------------------------------------------------------------
@@ -1674,9 +1626,7 @@ capture label values KigyoKibo_NEWVARIABLE `val_lab'
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen v2_NEWVARIABLE = .
-local var_lab: variable label var17
-local val_lab: value label var17
+gen v2_NEWVARIABLE = "."
 capture replace v2_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==1
 capture replace v2_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==2
 capture replace v2_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==3
@@ -1693,8 +1643,7 @@ capture replace v2_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==13
 capture replace v2_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==14
 capture replace v2_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==15
 capture replace v2_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==16
-capture label variable v2_NEWVARIABLE `var_lab'
-capture label values v2_NEWVARIABLE `val_lab'
+capture label variable v2_NEWVARIABLE "ベースアップ"
 
 
 /*----------------------------------------------------------------------
@@ -1761,9 +1710,7 @@ capture label values v2_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen JigyoRitsu_NEWVARIABLE = .
-local var_lab: variable label var18
-local val_lab: value label var18
+gen JigyoRitsu_NEWVARIABLE = "."
 capture replace JigyoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==1
 capture replace JigyoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==2
 capture replace JigyoRitsu_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==3
@@ -1793,8 +1740,7 @@ capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==26
 capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==27
 capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==28
 capture replace JigyoRitsu_NEWVARIABLE = JigyoRitsu  if flag_tmp_NEWVARIABLE==29
-capture label variable JigyoRitsu_NEWVARIABLE `var_lab'
-capture label values JigyoRitsu_NEWVARIABLE `val_lab'
+capture label variable JigyoRitsu_NEWVARIABLE "抽出率: 事業所"
 
 
 /*----------------------------------------------------------------------
@@ -1861,9 +1807,7 @@ capture label values JigyoRitsu_NEWVARIABLE `val_lab'
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen v3_NEWVARIABLE = .
-local var_lab: variable label var19
-local val_lab: value label var19
+gen v3_NEWVARIABLE = "."
 capture replace v3_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==1
 capture replace v3_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==2
 capture replace v3_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==3
@@ -1880,8 +1824,7 @@ capture replace v3_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==13
 capture replace v3_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==14
 capture replace v3_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==15
 capture replace v3_NEWVARIABLE = var18  if flag_tmp_NEWVARIABLE==16
-capture label variable v3_NEWVARIABLE `var_lab'
-capture label values v3_NEWVARIABLE `val_lab'
+capture label variable v3_NEWVARIABLE "抽出率: 労働者"
 
 
 /*----------------------------------------------------------------------
@@ -1948,9 +1891,7 @@ capture label values v3_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Fukugen_NEWVARIABLE = .
-local var_lab: variable label var20
-local val_lab: value label var20
+gen Fukugen_NEWVARIABLE = "."
 capture replace Fukugen_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==1
 capture replace Fukugen_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==2
 capture replace Fukugen_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==3
@@ -1980,8 +1921,7 @@ capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==26
 capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==27
 capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==28
 capture replace Fukugen_NEWVARIABLE = Fukugen  if flag_tmp_NEWVARIABLE==29
-capture label variable Fukugen_NEWVARIABLE `var_lab'
-capture label values Fukugen_NEWVARIABLE `val_lab'
+capture label variable Fukugen_NEWVARIABLE "復元倍率"
 
 
 /*----------------------------------------------------------------------
@@ -2048,9 +1988,7 @@ capture label values Fukugen_NEWVARIABLE `val_lab'
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen Honshi_NEWVARIABLE = .
-local var_lab: variable label var21
-local val_lab: value label var21
+gen Honshi_NEWVARIABLE = "."
 capture replace Honshi_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==1
 capture replace Honshi_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==2
 capture replace Honshi_NEWVARIABLE = var21  if flag_tmp_NEWVARIABLE==3
@@ -2077,8 +2015,7 @@ capture replace Honshi_NEWVARIABLE = Honshi  if flag_tmp_NEWVARIABLE==23
 capture replace Honshi_NEWVARIABLE = Honshi  if flag_tmp_NEWVARIABLE==24
 capture replace Honshi_NEWVARIABLE = Honshi  if flag_tmp_NEWVARIABLE==25
 capture replace Honshi_NEWVARIABLE = Honshi  if flag_tmp_NEWVARIABLE==26
-capture label variable Honshi_NEWVARIABLE `var_lab'
-capture label values Honshi_NEWVARIABLE `val_lab'
+capture label variable Honshi_NEWVARIABLE "本・支区分"
 
 
 /*----------------------------------------------------------------------
@@ -2145,9 +2082,7 @@ capture label values Honshi_NEWVARIABLE `val_lab'
     Values (Data 29):  4: 民営事業所, 5: 公営事業所
 
 ----------------------------------------------------------------------*/
-gen Minko_NEWVARIABLE = .
-local var_lab: variable label var22
-local val_lab: value label var22
+gen Minko_NEWVARIABLE = "."
 capture replace Minko_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==1
 capture replace Minko_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==2
 capture replace Minko_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==3
@@ -2177,8 +2112,7 @@ capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==26
 capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==27
 capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==28
 capture replace Minko_NEWVARIABLE = Minko  if flag_tmp_NEWVARIABLE==29
-capture label variable Minko_NEWVARIABLE `var_lab'
-capture label values Minko_NEWVARIABLE `val_lab'
+capture label variable Minko_NEWVARIABLE "民・公区分"
 
 
 /*----------------------------------------------------------------------
@@ -2245,9 +2179,7 @@ capture label values Minko_NEWVARIABLE `val_lab'
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen v4_NEWVARIABLE = .
-local var_lab: variable label var23
-local val_lab: value label var23
+gen v4_NEWVARIABLE = "."
 capture replace v4_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==1
 capture replace v4_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==2
 capture replace v4_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==3
@@ -2264,8 +2196,7 @@ capture replace v4_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==13
 capture replace v4_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==14
 capture replace v4_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==15
 capture replace v4_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==16
-capture label variable v4_NEWVARIABLE `var_lab'
-capture label values v4_NEWVARIABLE `val_lab'
+capture label variable v4_NEWVARIABLE "常用労働者: 男"
 
 
 /*----------------------------------------------------------------------
@@ -2332,9 +2263,7 @@ capture label values v4_NEWVARIABLE `val_lab'
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen v5_NEWVARIABLE = .
-local var_lab: variable label var24
-local val_lab: value label var24
+gen v5_NEWVARIABLE = "."
 capture replace v5_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==1
 capture replace v5_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==2
 capture replace v5_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==3
@@ -2351,8 +2280,7 @@ capture replace v5_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==13
 capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==14
 capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==15
 capture replace v5_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==16
-capture label variable v5_NEWVARIABLE `var_lab'
-capture label values v5_NEWVARIABLE `val_lab'
+capture label variable v5_NEWVARIABLE "常用労働者: 女"
 
 
 /*----------------------------------------------------------------------
@@ -2419,9 +2347,7 @@ capture label values v5_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen SangyoDai_NEWVARIABLE = .
-local var_lab: variable label var25
-local val_lab: value label var25
+gen SangyoDai_NEWVARIABLE = "."
 capture replace SangyoDai_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==1
 capture replace SangyoDai_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==2
 capture replace SangyoDai_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==3
@@ -2451,8 +2377,7 @@ capture replace SangyoDai_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==26
 capture replace SangyoDai_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==27
 capture replace SangyoDai_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==28
 capture replace SangyoDai_NEWVARIABLE = SangyoDai  if flag_tmp_NEWVARIABLE==29
-capture label variable SangyoDai_NEWVARIABLE `var_lab'
-capture label values SangyoDai_NEWVARIABLE `val_lab'
+capture label variable SangyoDai_NEWVARIABLE "産業番号: 大"
 
 
 /*----------------------------------------------------------------------
@@ -2519,9 +2444,7 @@ capture label values SangyoDai_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen SangyoChu_NEWVARIABLE = .
-local var_lab: variable label var26
-local val_lab: value label var26
+gen SangyoChu_NEWVARIABLE = "."
 capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==1
 capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==2
 capture replace SangyoChu_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==3
@@ -2551,8 +2474,7 @@ capture replace SangyoChu_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==26
 capture replace SangyoChu_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==27
 capture replace SangyoChu_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==28
 capture replace SangyoChu_NEWVARIABLE = SangyoChu  if flag_tmp_NEWVARIABLE==29
-capture label variable SangyoChu_NEWVARIABLE `var_lab'
-capture label values SangyoChu_NEWVARIABLE `val_lab'
+capture label variable SangyoChu_NEWVARIABLE "産業番号: 中"
 
 
 /*----------------------------------------------------------------------
@@ -2619,9 +2541,7 @@ capture label values SangyoChu_NEWVARIABLE `val_lab'
     Values (Data 29):  1: H481のみ
 
 ----------------------------------------------------------------------*/
-gen SangyoSyo_NEWVARIABLE = .
-local var_lab: variable label var27
-local val_lab: value label var27
+gen SangyoSyo_NEWVARIABLE = "."
 capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==1
 capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==2
 capture replace SangyoSyo_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==3
@@ -2651,8 +2571,7 @@ capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==26
 capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==27
 capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==28
 capture replace SangyoSyo_NEWVARIABLE = SangyoSyo  if flag_tmp_NEWVARIABLE==29
-capture label variable SangyoSyo_NEWVARIABLE `var_lab'
-capture label values SangyoSyo_NEWVARIABLE `val_lab'
+capture label variable SangyoSyo_NEWVARIABLE "産業番号: 小"
 
 
 /*----------------------------------------------------------------------
@@ -2719,9 +2638,7 @@ capture label values SangyoSyo_NEWVARIABLE `val_lab'
     Values (Data 29):  1: 男, 2: 女
 
 ----------------------------------------------------------------------*/
-gen Sei_NEWVARIABLE = .
-local var_lab: variable label var28
-local val_lab: value label var28
+gen Sei_NEWVARIABLE = "."
 capture replace Sei_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==1
 capture replace Sei_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==2
 capture replace Sei_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==3
@@ -2751,8 +2668,7 @@ capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==26
 capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==27
 capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==28
 capture replace Sei_NEWVARIABLE = Sei  if flag_tmp_NEWVARIABLE==29
-capture label variable Sei_NEWVARIABLE `var_lab'
-capture label values Sei_NEWVARIABLE `val_lab'
+capture label variable Sei_NEWVARIABLE "性別"
 
 
 /*----------------------------------------------------------------------
@@ -2819,9 +2735,7 @@ capture label values Sei_NEWVARIABLE `val_lab'
     Values (Data 29):  1: 生産, 2: 管理・事務・技術
 
 ----------------------------------------------------------------------*/
-gen RouSyu_NEWVARIABLE = .
-local var_lab: variable label var29
-local val_lab: value label var29
+gen RouSyu_NEWVARIABLE = "."
 capture replace RouSyu_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==1
 capture replace RouSyu_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==2
 capture replace RouSyu_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==3
@@ -2851,8 +2765,7 @@ capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==26
 capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==27
 capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==28
 capture replace RouSyu_NEWVARIABLE = RouSyu  if flag_tmp_NEWVARIABLE==29
-capture label variable RouSyu_NEWVARIABLE `var_lab'
-capture label values RouSyu_NEWVARIABLE `val_lab'
+capture label variable RouSyu_NEWVARIABLE "労働者の種類"
 
 
 /*----------------------------------------------------------------------
@@ -2919,9 +2832,7 @@ capture label values RouSyu_NEWVARIABLE `val_lab'
     Values (Data 29):  1: 正社員・正職員のうち雇用期間の定め無し, 2: 正社員・正職員のうち雇用期間の定め有り, 3: 正社員・正職員以外のうち雇用期間の定め無し, 4: 正社員・正職員以外のうち雇用期間の定め有り, 5: 臨時労働者
 
 ----------------------------------------------------------------------*/
-gen Koyo_NEWVARIABLE = .
-local var_lab: variable label var30
-local val_lab: value label var30
+gen Koyo_NEWVARIABLE = "."
 capture replace Koyo_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==1
 capture replace Koyo_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==2
 capture replace Koyo_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==3
@@ -2951,8 +2862,7 @@ capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==26
 capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==27
 capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==28
 capture replace Koyo_NEWVARIABLE = Koyo  if flag_tmp_NEWVARIABLE==29
-capture label variable Koyo_NEWVARIABLE `var_lab'
-capture label values Koyo_NEWVARIABLE `val_lab'
+capture label variable Koyo_NEWVARIABLE "雇用形態"
 
 
 /*----------------------------------------------------------------------
@@ -3019,9 +2929,7 @@ capture label values Koyo_NEWVARIABLE `val_lab'
     Values (Data 29):  1: 一般, 2: 短時間
 
 ----------------------------------------------------------------------*/
-gen Syugyo_NEWVARIABLE = .
-local var_lab: variable label var31
-local val_lab: value label var31
+gen Syugyo_NEWVARIABLE = "."
 capture replace Syugyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==1
 capture replace Syugyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==2
 capture replace Syugyo_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==3
@@ -3051,8 +2959,7 @@ capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==26
 capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==27
 capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==28
 capture replace Syugyo_NEWVARIABLE = Syugyo  if flag_tmp_NEWVARIABLE==29
-capture label variable Syugyo_NEWVARIABLE `var_lab'
-capture label values Syugyo_NEWVARIABLE `val_lab'
+capture label variable Syugyo_NEWVARIABLE "就業形態"
 
 
 /*----------------------------------------------------------------------
@@ -3119,9 +3026,7 @@ capture label values Syugyo_NEWVARIABLE `val_lab'
     Values (Data 29):  1: 中学卒, 2: 高校卒, 3: 高専・短大卒, 4: 大学・大学院卒
 
 ----------------------------------------------------------------------*/
-gen Gakureki_NEWVARIABLE = .
-local var_lab: variable label var32
-local val_lab: value label var32
+gen Gakureki_NEWVARIABLE = "."
 capture replace Gakureki_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==1
 capture replace Gakureki_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==2
 capture replace Gakureki_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==3
@@ -3151,8 +3056,7 @@ capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==26
 capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==27
 capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==28
 capture replace Gakureki_NEWVARIABLE = Gakureki  if flag_tmp_NEWVARIABLE==29
-capture label variable Gakureki_NEWVARIABLE `var_lab'
-capture label values Gakureki_NEWVARIABLE `val_lab'
+capture label variable Gakureki_NEWVARIABLE "最終学歴"
 
 
 /*----------------------------------------------------------------------
@@ -3219,9 +3123,7 @@ capture label values Gakureki_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Nenrei_NEWVARIABLE = .
-local var_lab: variable label var33
-local val_lab: value label var33
+gen Nenrei_NEWVARIABLE = "."
 capture replace Nenrei_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==1
 capture replace Nenrei_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==2
 capture replace Nenrei_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==3
@@ -3251,8 +3153,7 @@ capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==26
 capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==27
 capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==28
 capture replace Nenrei_NEWVARIABLE = Nenrei  if flag_tmp_NEWVARIABLE==29
-capture label variable Nenrei_NEWVARIABLE `var_lab'
-capture label values Nenrei_NEWVARIABLE `val_lab'
+capture label variable Nenrei_NEWVARIABLE "年齢"
 
 
 /*----------------------------------------------------------------------
@@ -3319,9 +3220,7 @@ capture label values Nenrei_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Kinzoku_NEWVARIABLE = .
-local var_lab: variable label var34
-local val_lab: value label var34
+gen Kinzoku_NEWVARIABLE = "."
 capture replace Kinzoku_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==1
 capture replace Kinzoku_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==2
 capture replace Kinzoku_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==3
@@ -3351,8 +3250,7 @@ capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==26
 capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==27
 capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==28
 capture replace Kinzoku_NEWVARIABLE = Kinzoku  if flag_tmp_NEWVARIABLE==29
-capture label variable Kinzoku_NEWVARIABLE `var_lab'
-capture label values Kinzoku_NEWVARIABLE `val_lab'
+capture label variable Kinzoku_NEWVARIABLE "勤続年数"
 
 
 /*----------------------------------------------------------------------
@@ -3419,9 +3317,7 @@ capture label values Kinzoku_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Syoku_NEWVARIABLE = .
-local var_lab: variable label var35
-local val_lab: value label var35
+gen Syoku_NEWVARIABLE = "."
 capture replace Syoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==1
 capture replace Syoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==2
 capture replace Syoku_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==3
@@ -3451,8 +3347,7 @@ capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==26
 capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==27
 capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==28
 capture replace Syoku_NEWVARIABLE = Syoku  if flag_tmp_NEWVARIABLE==29
-capture label variable Syoku_NEWVARIABLE `var_lab'
-capture label values Syoku_NEWVARIABLE `val_lab'
+capture label variable Syoku_NEWVARIABLE "役職・職種番号"
 
 
 /*----------------------------------------------------------------------
@@ -3519,9 +3414,7 @@ capture label values Syoku_NEWVARIABLE `val_lab'
     Values (Data 29):  1: 1年未満, 2: 1~4年, 3: 5~9年, 4: 10~14年, 5: 15年以上
 
 ----------------------------------------------------------------------*/
-gen Keiken_NEWVARIABLE = .
-local var_lab: variable label var36
-local val_lab: value label var36
+gen Keiken_NEWVARIABLE = "."
 capture replace Keiken_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==1
 capture replace Keiken_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==2
 capture replace Keiken_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==3
@@ -3551,8 +3444,7 @@ capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==26
 capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==27
 capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==28
 capture replace Keiken_NEWVARIABLE = Keiken  if flag_tmp_NEWVARIABLE==29
-capture label variable Keiken_NEWVARIABLE `var_lab'
-capture label values Keiken_NEWVARIABLE `val_lab'
+capture label variable Keiken_NEWVARIABLE "経験年数"
 
 
 /*----------------------------------------------------------------------
@@ -3619,9 +3511,7 @@ capture label values Keiken_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen RouNissu_NEWVARIABLE = .
-local var_lab: variable label var37
-local val_lab: value label var37
+gen RouNissu_NEWVARIABLE = "."
 capture replace RouNissu_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==1
 capture replace RouNissu_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==2
 capture replace RouNissu_NEWVARIABLE = var37  if flag_tmp_NEWVARIABLE==3
@@ -3651,8 +3541,7 @@ capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==26
 capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==27
 capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==28
 capture replace RouNissu_NEWVARIABLE = RouNissu  if flag_tmp_NEWVARIABLE==29
-capture label variable RouNissu_NEWVARIABLE `var_lab'
-capture label values RouNissu_NEWVARIABLE `val_lab'
+capture label variable RouNissu_NEWVARIABLE "実労働日数"
 
 
 /*----------------------------------------------------------------------
@@ -3719,9 +3608,7 @@ capture label values RouNissu_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen SyoteiJikan_NEWVARIABLE = .
-local var_lab: variable label var38
-local val_lab: value label var38
+gen SyoteiJikan_NEWVARIABLE = "."
 capture replace SyoteiJikan_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==1
 capture replace SyoteiJikan_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==2
 capture replace SyoteiJikan_NEWVARIABLE = var38  if flag_tmp_NEWVARIABLE==3
@@ -3751,8 +3638,7 @@ capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==
 capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==27
 capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==28
 capture replace SyoteiJikan_NEWVARIABLE = SyoteiJikan  if flag_tmp_NEWVARIABLE==29
-capture label variable SyoteiJikan_NEWVARIABLE `var_lab'
-capture label values SyoteiJikan_NEWVARIABLE `val_lab'
+capture label variable SyoteiJikan_NEWVARIABLE "所定内実労働時間数"
 
 
 /*----------------------------------------------------------------------
@@ -3819,9 +3705,7 @@ capture label values SyoteiJikan_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen ChokaJikan_NEWVARIABLE = .
-local var_lab: variable label var39
-local val_lab: value label var39
+gen ChokaJikan_NEWVARIABLE = "."
 capture replace ChokaJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==1
 capture replace ChokaJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==2
 capture replace ChokaJikan_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==3
@@ -3851,8 +3735,7 @@ capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==26
 capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==27
 capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==28
 capture replace ChokaJikan_NEWVARIABLE = ChokaJikan  if flag_tmp_NEWVARIABLE==29
-capture label variable ChokaJikan_NEWVARIABLE `var_lab'
-capture label values ChokaJikan_NEWVARIABLE `val_lab'
+capture label variable ChokaJikan_NEWVARIABLE "超過実労働時間数"
 
 
 /*----------------------------------------------------------------------
@@ -3919,9 +3802,7 @@ capture label values ChokaJikan_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Genkin_NEWVARIABLE = .
-local var_lab: variable label var40
-local val_lab: value label var40
+gen Genkin_NEWVARIABLE = "."
 capture replace Genkin_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==1
 capture replace Genkin_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==2
 capture replace Genkin_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==3
@@ -3951,8 +3832,7 @@ capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==26
 capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==27
 capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==28
 capture replace Genkin_NEWVARIABLE = Genkin  if flag_tmp_NEWVARIABLE==29
-capture label variable Genkin_NEWVARIABLE `var_lab'
-capture label values Genkin_NEWVARIABLE `val_lab'
+capture label variable Genkin_NEWVARIABLE "決まって支給する現金給与額"
 
 
 /*----------------------------------------------------------------------
@@ -4019,9 +3899,7 @@ capture label values Genkin_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen ChokaKyuyo_NEWVARIABLE = .
-local var_lab: variable label var41
-local val_lab: value label var41
+gen ChokaKyuyo_NEWVARIABLE = "."
 capture replace ChokaKyuyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==1
 capture replace ChokaKyuyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==2
 capture replace ChokaKyuyo_NEWVARIABLE = var41  if flag_tmp_NEWVARIABLE==3
@@ -4051,8 +3929,7 @@ capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==26
 capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==27
 capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==28
 capture replace ChokaKyuyo_NEWVARIABLE = ChokaKyuyo  if flag_tmp_NEWVARIABLE==29
-capture label variable ChokaKyuyo_NEWVARIABLE `var_lab'
-capture label values ChokaKyuyo_NEWVARIABLE `val_lab'
+capture label variable ChokaKyuyo_NEWVARIABLE "超過労働給与額"
 
 
 /*----------------------------------------------------------------------
@@ -4119,9 +3996,7 @@ capture label values ChokaKyuyo_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen SyoteiKyuyo_NEWVARIABLE = .
-local var_lab: variable label var42
-local val_lab: value label var42
+gen SyoteiKyuyo_NEWVARIABLE = "."
 capture replace SyoteiKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==1
 capture replace SyoteiKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==2
 capture replace SyoteiKyuyo_NEWVARIABLE = var42  if flag_tmp_NEWVARIABLE==3
@@ -4151,8 +4026,7 @@ capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==
 capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==27
 capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==28
 capture replace SyoteiKyuyo_NEWVARIABLE = SyoteiKyuyo  if flag_tmp_NEWVARIABLE==29
-capture label variable SyoteiKyuyo_NEWVARIABLE `var_lab'
-capture label values SyoteiKyuyo_NEWVARIABLE `val_lab'
+capture label variable SyoteiKyuyo_NEWVARIABLE "所定内給与額"
 
 
 /*----------------------------------------------------------------------
@@ -4219,9 +4093,7 @@ capture label values SyoteiKyuyo_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Tsukin_NEWVARIABLE = .
-local var_lab: variable label var43
-local val_lab: value label var43
+gen Tsukin_NEWVARIABLE = "."
 capture replace Tsukin_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==1
 capture replace Tsukin_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==2
 capture replace Tsukin_NEWVARIABLE = var43  if flag_tmp_NEWVARIABLE==3
@@ -4251,8 +4123,7 @@ capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==26
 capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==27
 capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==28
 capture replace Tsukin_NEWVARIABLE = Tsukin  if flag_tmp_NEWVARIABLE==29
-capture label variable Tsukin_NEWVARIABLE `var_lab'
-capture label values Tsukin_NEWVARIABLE `val_lab'
+capture label variable Tsukin_NEWVARIABLE "通勤手当"
 
 
 /*----------------------------------------------------------------------
@@ -4319,9 +4190,7 @@ capture label values Tsukin_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Seikin_NEWVARIABLE = .
-local var_lab: variable label var44
-local val_lab: value label var44
+gen Seikin_NEWVARIABLE = "."
 capture replace Seikin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==1
 capture replace Seikin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==2
 capture replace Seikin_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==3
@@ -4351,8 +4220,7 @@ capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==26
 capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==27
 capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==28
 capture replace Seikin_NEWVARIABLE = Seikin  if flag_tmp_NEWVARIABLE==29
-capture label variable Seikin_NEWVARIABLE `var_lab'
-capture label values Seikin_NEWVARIABLE `val_lab'
+capture label variable Seikin_NEWVARIABLE "精皆勤手当"
 
 
 /*----------------------------------------------------------------------
@@ -4419,9 +4287,7 @@ capture label values Seikin_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Kazoku_NEWVARIABLE = .
-local var_lab: variable label var45
-local val_lab: value label var45
+gen Kazoku_NEWVARIABLE = "."
 capture replace Kazoku_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==1
 capture replace Kazoku_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==2
 capture replace Kazoku_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==3
@@ -4451,8 +4317,7 @@ capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==26
 capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==27
 capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==28
 capture replace Kazoku_NEWVARIABLE = Kazoku  if flag_tmp_NEWVARIABLE==29
-capture label variable Kazoku_NEWVARIABLE `var_lab'
-capture label values Kazoku_NEWVARIABLE `val_lab'
+capture label variable Kazoku_NEWVARIABLE "家族手当"
 
 
 /*----------------------------------------------------------------------
@@ -4519,9 +4384,7 @@ capture label values Kazoku_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Tokubetsu_NEWVARIABLE = .
-local var_lab: variable label var46
-local val_lab: value label var46
+gen Tokubetsu_NEWVARIABLE = "."
 capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==1
 capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==2
 capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==3
@@ -4551,8 +4414,7 @@ capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==26
 capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==27
 capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==28
 capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==29
-capture label variable Tokubetsu_NEWVARIABLE `var_lab'
-capture label values Tokubetsu_NEWVARIABLE `val_lab'
+capture label variable Tokubetsu_NEWVARIABLE "昨年1年間の賞与期末手当等特別支給額"
 
 
 /*----------------------------------------------------------------------
@@ -4619,9 +4481,7 @@ capture label values Tokubetsu_NEWVARIABLE `val_lab'
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen v6_NEWVARIABLE = .
-local var_lab: variable label var14
-local val_lab: value label var14
+gen v6_NEWVARIABLE = "."
 capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==5
 capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==6
 capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==7
@@ -4631,8 +4491,7 @@ capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==10
 capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==11
 capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==12
 capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==13
-capture label variable v6_NEWVARIABLE `var_lab'
-capture label values v6_NEWVARIABLE `val_lab'
+capture label variable v6_NEWVARIABLE "抽出産業番号"
 
 
 /*----------------------------------------------------------------------
@@ -4699,9 +4558,7 @@ capture label values v6_NEWVARIABLE `val_lab'
     Values (Data 29):  1: 0~9人, 2: 10~99人, 3: 100人以上
 
 ----------------------------------------------------------------------*/
-gen M_RinjiKibo_NEWVARIABLE = .
-local var_lab: variable label var12
-local val_lab: value label var12
+gen M_RinjiKibo_NEWVARIABLE = "."
 capture replace M_RinjiKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==17
 capture replace M_RinjiKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==18
 capture replace M_RinjiKibo_NEWVARIABLE = var12  if flag_tmp_NEWVARIABLE==19
@@ -4715,8 +4572,7 @@ capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==
 capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==27
 capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==28
 capture replace M_RinjiKibo_NEWVARIABLE = M_RinjiKibo  if flag_tmp_NEWVARIABLE==29
-capture label variable M_RinjiKibo_NEWVARIABLE `var_lab'
-capture label values M_RinjiKibo_NEWVARIABLE `val_lab'
+capture label variable M_RinjiKibo_NEWVARIABLE "マスター: 臨時雇用者規模番号"
 
 
 /*----------------------------------------------------------------------
@@ -4783,9 +4639,7 @@ capture label values M_RinjiKibo_NEWVARIABLE `val_lab'
     Values (Data 29):  1: 0~9人, 2: 10~99人, 3: 100人以上
 
 ----------------------------------------------------------------------*/
-gen RinjiKibo_NEWVARIABLE = .
-local var_lab: variable label var16
-local val_lab: value label var16
+gen RinjiKibo_NEWVARIABLE = "."
 capture replace RinjiKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==17
 capture replace RinjiKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==18
 capture replace RinjiKibo_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==19
@@ -4799,8 +4653,7 @@ capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==26
 capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==27
 capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==28
 capture replace RinjiKibo_NEWVARIABLE = RinjiKibo  if flag_tmp_NEWVARIABLE==29
-capture label variable RinjiKibo_NEWVARIABLE `var_lab'
-capture label values RinjiKibo_NEWVARIABLE `val_lab'
+capture label variable RinjiKibo_NEWVARIABLE "事業所票: 臨時雇用者規模番号"
 
 
 /*----------------------------------------------------------------------
@@ -4867,9 +4720,7 @@ capture label values RinjiKibo_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen RodoRitsu_NEWVARIABLE = .
-local var_lab: variable label var19
-local val_lab: value label var19
+gen RodoRitsu_NEWVARIABLE = "."
 capture replace RodoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==17
 capture replace RodoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==18
 capture replace RodoRitsu_NEWVARIABLE = var19  if flag_tmp_NEWVARIABLE==19
@@ -4883,8 +4734,7 @@ capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==26
 capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==27
 capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==28
 capture replace RodoRitsu_NEWVARIABLE = RodoRitsu  if flag_tmp_NEWVARIABLE==29
-capture label variable RodoRitsu_NEWVARIABLE `var_lab'
-capture label values RodoRitsu_NEWVARIABLE `val_lab'
+capture label variable RodoRitsu_NEWVARIABLE "抽出率: 常用労働者"
 
 
 /*----------------------------------------------------------------------
@@ -4951,9 +4801,7 @@ capture label values RodoRitsu_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen RinjiRitsu_NEWVARIABLE = .
-local var_lab: variable label var20
-local val_lab: value label var20
+gen RinjiRitsu_NEWVARIABLE = "."
 capture replace RinjiRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==17
 capture replace RinjiRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==18
 capture replace RinjiRitsu_NEWVARIABLE = var20  if flag_tmp_NEWVARIABLE==19
@@ -4967,8 +4815,7 @@ capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==26
 capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==27
 capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==28
 capture replace RinjiRitsu_NEWVARIABLE = RinjiRitsu  if flag_tmp_NEWVARIABLE==29
-capture label variable RinjiRitsu_NEWVARIABLE `var_lab'
-capture label values RinjiRitsu_NEWVARIABLE `val_lab'
+capture label variable RinjiRitsu_NEWVARIABLE "抽出率: 臨時労働者"
 
 
 /*----------------------------------------------------------------------
@@ -5035,9 +4882,7 @@ capture label values RinjiRitsu_NEWVARIABLE `val_lab'
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen Syurui_NEWVARIABLE = .
-local var_lab: variable label var24
-local val_lab: value label var24
+gen Syurui_NEWVARIABLE = "."
 capture replace Syurui_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==17
 capture replace Syurui_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==18
 capture replace Syurui_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==19
@@ -5048,8 +4893,7 @@ capture replace Syurui_NEWVARIABLE = Syurui  if flag_tmp_NEWVARIABLE==23
 capture replace Syurui_NEWVARIABLE = Syurui  if flag_tmp_NEWVARIABLE==24
 capture replace Syurui_NEWVARIABLE = Syurui  if flag_tmp_NEWVARIABLE==25
 capture replace Syurui_NEWVARIABLE = Syurui  if flag_tmp_NEWVARIABLE==26
-capture label variable Syurui_NEWVARIABLE `var_lab'
-capture label values Syurui_NEWVARIABLE `val_lab'
+capture label variable Syurui_NEWVARIABLE "種類"
 
 
 /*----------------------------------------------------------------------
@@ -5116,9 +4960,7 @@ capture label values Syurui_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Syain_M_NEWVARIABLE = .
-local var_lab: variable label var25
-local val_lab: value label var25
+gen Syain_M_NEWVARIABLE = "."
 capture replace Syain_M_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==17
 capture replace Syain_M_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==18
 capture replace Syain_M_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==19
@@ -5132,8 +4974,7 @@ capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==26
 capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==27
 capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==28
 capture replace Syain_M_NEWVARIABLE = Syain_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Syain_M_NEWVARIABLE `var_lab'
-capture label values Syain_M_NEWVARIABLE `val_lab'
+capture label variable Syain_M_NEWVARIABLE "常用労働者数正社員・正職員: 男"
 
 
 /*----------------------------------------------------------------------
@@ -5200,9 +5041,7 @@ capture label values Syain_M_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Syain_W_NEWVARIABLE = .
-local var_lab: variable label var26
-local val_lab: value label var26
+gen Syain_W_NEWVARIABLE = "."
 capture replace Syain_W_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==17
 capture replace Syain_W_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==18
 capture replace Syain_W_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==19
@@ -5216,8 +5055,7 @@ capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==26
 capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==27
 capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==28
 capture replace Syain_W_NEWVARIABLE = Syain_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Syain_W_NEWVARIABLE `var_lab'
-capture label values Syain_W_NEWVARIABLE `val_lab'
+capture label variable Syain_W_NEWVARIABLE "常用労働者数正社員・正職員: 女"
 
 
 /*----------------------------------------------------------------------
@@ -5284,9 +5122,7 @@ capture label values Syain_W_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Hisyain_M_NEWVARIABLE = .
-local var_lab: variable label var27
-local val_lab: value label var27
+gen Hisyain_M_NEWVARIABLE = "."
 capture replace Hisyain_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==17
 capture replace Hisyain_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==18
 capture replace Hisyain_M_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==19
@@ -5300,8 +5136,7 @@ capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==26
 capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==27
 capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==28
 capture replace Hisyain_M_NEWVARIABLE = Hisyain_M  if flag_tmp_NEWVARIABLE==29
-capture label variable Hisyain_M_NEWVARIABLE `var_lab'
-capture label values Hisyain_M_NEWVARIABLE `val_lab'
+capture label variable Hisyain_M_NEWVARIABLE "常用労働者数正社員・正職員以外: 男"
 
 
 /*----------------------------------------------------------------------
@@ -5368,9 +5203,7 @@ capture label values Hisyain_M_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Hisyain_W_NEWVARIABLE = .
-local var_lab: variable label var28
-local val_lab: value label var28
+gen Hisyain_W_NEWVARIABLE = "."
 capture replace Hisyain_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==17
 capture replace Hisyain_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==18
 capture replace Hisyain_W_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==19
@@ -5384,8 +5217,7 @@ capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==26
 capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==27
 capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==28
 capture replace Hisyain_W_NEWVARIABLE = Hisyain_W  if flag_tmp_NEWVARIABLE==29
-capture label variable Hisyain_W_NEWVARIABLE `var_lab'
-capture label values Hisyain_W_NEWVARIABLE `val_lab'
+capture label variable Hisyain_W_NEWVARIABLE "常用労働者数正社員・正職員以外: 女"
 
 
 /*----------------------------------------------------------------------
@@ -5452,9 +5284,7 @@ capture label values Hisyain_W_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Rinji_NEWVARIABLE = .
-local var_lab: variable label var29
-local val_lab: value label var29
+gen Rinji_NEWVARIABLE = "."
 capture replace Rinji_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==17
 capture replace Rinji_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==18
 capture replace Rinji_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==19
@@ -5468,8 +5298,7 @@ capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==26
 capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==27
 capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==28
 capture replace Rinji_NEWVARIABLE = Rinji  if flag_tmp_NEWVARIABLE==29
-capture label variable Rinji_NEWVARIABLE `var_lab'
-capture label values Rinji_NEWVARIABLE `val_lab'
+capture label variable Rinji_NEWVARIABLE "臨時労働者数"
 
 
 /*----------------------------------------------------------------------
@@ -5536,9 +5365,7 @@ capture label values Rinji_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Digit_ToBeDropped_NEWVARIABLE = .
-local var_lab: variable label var6
-local val_lab: value label var6
+gen Digit_ToBeDropped_NEWVARIABLE = "."
 capture replace Digit_ToBeDropped_NEWVARIABLE = var6  if flag_tmp_NEWVARIABLE==20
 capture replace Digit_ToBeDropped_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==21
 capture replace Digit_ToBeDropped_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==22
@@ -5549,8 +5376,7 @@ capture replace Digit_ToBeDropped_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==
 capture replace Digit_ToBeDropped_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==27
 capture replace Digit_ToBeDropped_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==28
 capture replace Digit_ToBeDropped_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==29
-capture label variable Digit_ToBeDropped_NEWVARIABLE `var_lab'
-capture label values Digit_ToBeDropped_NEWVARIABLE `val_lab'
+capture label variable Digit_ToBeDropped_NEWVARIABLE "チェックディジット"
 
 
 /*----------------------------------------------------------------------
@@ -5617,16 +5443,13 @@ capture label values Digit_ToBeDropped_NEWVARIABLE `val_lab'
     Values (Data 29): 
 
 ----------------------------------------------------------------------*/
-gen Jigyousho_NEWVARIABLE = .
-local var_lab: variable label var1
-local val_lab: value label var1
+gen Jigyousho_NEWVARIABLE = "."
 capture replace Jigyousho_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==25
 capture replace Jigyousho_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==26
 capture replace Jigyousho_NEWVARIABLE = Jigyousho  if flag_tmp_NEWVARIABLE==27
 capture replace Jigyousho_NEWVARIABLE = Jigyousho  if flag_tmp_NEWVARIABLE==28
 capture replace Jigyousho_NEWVARIABLE = Jigyousho  if flag_tmp_NEWVARIABLE==29
-capture label variable Jigyousho_NEWVARIABLE `var_lab'
-capture label values Jigyousho_NEWVARIABLE `val_lab'
+capture label variable Jigyousho_NEWVARIABLE "母集団: 共通事業所コード"
 
 
 keep *_NEWVARIABLE

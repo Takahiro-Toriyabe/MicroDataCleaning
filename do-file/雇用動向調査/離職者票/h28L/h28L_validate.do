@@ -28,23 +28,23 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h7-28.xlsx
-    Date: 2019/02/28 01:24:49
+    Date: 2019/03/03 01:08:25
 ----------------------------------------------------------------------*/
 
 
-count if var1==.
+capture count if var1==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var1} (調査IDT)"
 }
 
 
-count if var2==.
+capture count if var2==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var2} (調査年)"
 }
 
 
-count if var3==.
+capture count if var3==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var3} (調査月)"
 }
@@ -54,43 +54,43 @@ if _rc!=0 {
 }
 
 
-count if var4==.
+capture count if var4==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var4} (調査票区分)"
 }
 
 
-count if var5==.
+capture count if var5==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var5} (乗率)"
 }
 
 
-count if var6==.
+capture count if var6==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var6} (都道府県番号)"
 }
 
 
-count if var7==.
+capture count if var7==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var7} (事業所番号)"
 }
 
 
-count if var8==.
+capture count if var8==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var8} (産業中分類)"
 }
 
 
-count if var9==.
+capture count if var9==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var9} (抽出番号)"
 }
 
 
-count if var10==.
+capture count if var10==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var10} (事業所規模)"
 }
@@ -100,7 +100,7 @@ if _rc!=0 {
 }
 
 
-count if var11==.
+capture count if var11==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var11} (企業規模)"
 }
@@ -110,7 +110,7 @@ if _rc!=0 {
 }
 
 
-count if var12==.
+capture count if var12==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var12} (性別)"
 }
@@ -120,7 +120,7 @@ if _rc!=0 {
 }
 
 
-count if var13==.
+capture count if var13==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var13} (年齢)"
 }
@@ -130,7 +130,7 @@ if _rc!=0 {
 }
 
 
-count if var14==.
+capture count if var14==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var14} (最終学歴)"
 }
@@ -140,7 +140,7 @@ if _rc!=0 {
 }
 
 
-count if var15==.
+capture count if var15==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var15} (卒業年度)"
 }
@@ -150,7 +150,7 @@ if _rc!=0 {
 }
 
 
-count if var16==.
+capture count if var16==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var16} (就業形態)"
 }
@@ -160,7 +160,7 @@ if _rc!=0 {
 }
 
 
-count if var17==.
+capture count if var17==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var17} (仕事の内容)"
 }
@@ -170,7 +170,7 @@ if _rc!=0 {
 }
 
 
-count if var18==.
+capture count if var18==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var18} (勤続期間)"
 }
@@ -180,7 +180,7 @@ if _rc!=0 {
 }
 
 
-count if var19==.
+capture count if var19==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var19} (離職理由)"
 }
@@ -190,13 +190,13 @@ if _rc!=0 {
 }
 
 
-count if var20==.
+capture count if var20==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var20} (枚目)"
 }
 
 
-count if var21==.
+capture count if var21==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var21} (番号)"
 }

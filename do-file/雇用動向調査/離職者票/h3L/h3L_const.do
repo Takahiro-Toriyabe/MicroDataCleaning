@@ -28,41 +28,41 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h3-4
-    Date: 2019/02/28 01:24:40
+    Date: 2019/03/03 01:08:20
 ----------------------------------------------------------------------*/
 
 
 #delimit ;
     quietly infix
-        var1 1-3
-        var2 4-7
-        var3 8-9
-        var4 10-10
-        var5 13-14
-        var6 16-17
-        var7 18-19
-        var8 20-23
-        var9 24-24
-        var10 25-26
-        var11 28-30
-        var12 32-32
-        var13 33-33
-        var14 35-36
-        var15 37-37
-        var16 38-38
-        var17 39-39
-        var18 44-53
-        var19 57-58
-        var20 59-59
-        var21 60-60
-        var22 61-61
-        var23 62-62
-        var24 63-63
-        var25 64-64
-        var26 65-65
-        var27 66-67
-        var28 68-69
-        var29 70-71
-        var30 72-73
+        str var1 1-3
+        str var2 4-7
+        str var3 8-9
+        str var4 10-10
+        str var5 13-14
+        str var6 16-17
+        str var7 18-19
+        str var8 20-23
+        str var9 24-24
+        str var10 25-26
+        str var11 28-30
+        str var12 32-32
+        str var13 33-33
+        str var14 35-36
+        str var15 37-37
+        str var16 38-38
+        str var17 39-39
+        str var18 44-53
+        str var19 57-58
+        str var20 59-59
+        str var21 60-60
+        str var22 61-61
+        str var23 62-62
+        str var24 63-63
+        str var25 64-64
+        str var26 65-65
+        str var27 66-67
+        str var28 68-69
+        str var29 70-71
+        str var30 72-73
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_r-koyo/H03_r-koyo07.txt";
 #delimit cr

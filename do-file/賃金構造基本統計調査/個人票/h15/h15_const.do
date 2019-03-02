@@ -28,56 +28,56 @@
 
 
     Source: 平成14〜15年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/02/28 01:07:42
+    Date: 2019/03/03 00:59:39
 ----------------------------------------------------------------------*/
 
 
 #delimit ;
     quietly infix
-        var1 1-4
-        var2 5-6
-        var3 10-11
-        var4 12-17
-        var5 18-19
-        var6 20-21
-        var7 22-24
-        var8 25-30
-        var9 31-34
-        var10 36-38
-        var11 39-39
-        var12 40-40
-        var13 45-47
-        var14 48-48
-        var15 49-49
-        var16 50-50
-        var17 51-54
-        var18 55-56
-        var19 57-62
-        var20 63-63
-        var21 64-64
-        var22 65-69
-        var23 70-74
-        var24 75-75
-        var25 76-77
-        var26 78-78
-        var27 79-79
-        var28 80-80
-        var29 81-81
-        var30 82-82
-        var31 83-83
-        var32 84-85
-        var33 86-87
-        var34 88-90
-        var35 91-91
-        var36 92-93
-        var37 94-96
-        var38 97-99
-        var39 100-104
-        var40 105-108
-        var41 109-113
-        var42 114-116
-        var43 117-119
-        var44 120-122
-        var45 123-128
+        str var1 1-4
+        str var2 5-6
+        str var3 10-11
+        str var4 12-17
+        str var5 18-19
+        str var6 20-21
+        str var7 22-24
+        str var8 25-30
+        str var9 31-34
+        str var10 36-38
+        str var11 39-39
+        str var12 40-40
+        str var13 45-47
+        str var14 48-48
+        str var15 49-49
+        str var16 50-50
+        str var17 51-54
+        str var18 55-56
+        str var19 57-62
+        str var20 63-63
+        str var21 64-64
+        str var22 65-69
+        str var23 70-74
+        str var24 75-75
+        str var25 76-77
+        str var26 78-78
+        str var27 79-79
+        str var28 80-80
+        str var29 81-81
+        str var30 82-82
+        str var31 83-83
+        str var32 84-85
+        str var33 86-87
+        str var34 88-90
+        str var35 91-91
+        str var36 92-93
+        str var37 94-96
+        str var38 97-99
+        str var39 100-104
+        str var40 105-108
+        str var41 109-113
+        str var42 114-116
+        str var43 117-119
+        str var44 120-122
+        str var45 123-128
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_k-chin/h15_k-chin.txt";
 #delimit cr
