@@ -28,17 +28,17 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h11.xlsx
-    Date: 2019/02/28 01:21:58
+    Date: 2019/03/03 01:07:00
 ----------------------------------------------------------------------*/
 
 
-count if var1==.
+capture count if var1==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var1} (調査IDT)"
 }
 
 
-count if var2==.
+capture count if var2==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var2} (西暦年)"
 }
@@ -48,7 +48,7 @@ if _rc!=0 {
 }
 
 
-count if var3==.
+capture count if var3==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var3} (調査月)"
 }
@@ -58,13 +58,13 @@ if _rc!=0 {
 }
 
 
-count if var4==.
+capture count if var4==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var4} (調査区分)"
 }
 
 
-count if var5==.
+capture count if var5==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var5} (地域番号)"
 }
@@ -74,37 +74,37 @@ if _rc!=0 {
 }
 
 
-count if var6==.
+capture count if var6==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var6} (都道府県番号)"
 }
 
 
-count if var7==.
+capture count if var7==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var7} (事業所番号)"
 }
 
 
-count if var8==.
+capture count if var8==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var8} (大分類)"
 }
 
 
-count if var9==.
+capture count if var9==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var9} (中分類)"
 }
 
 
-count if var10==.
+capture count if var10==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var10} (抽出符号)"
 }
 
 
-count if var11==.
+capture count if var11==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var11} (事業所規模)"
 }
@@ -114,7 +114,7 @@ if _rc!=0 {
 }
 
 
-count if var12==.
+capture count if var12==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var12} (企業規模)"
 }
@@ -124,13 +124,13 @@ if _rc!=0 {
 }
 
 
-count if var13==.
+capture count if var13==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var13} (産業連番)"
 }
 
 
-count if var14==.
+capture count if var14==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var14} (事業所規模)"
 }
@@ -140,7 +140,7 @@ if _rc!=0 {
 }
 
 
-count if var15==.
+capture count if var15==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var15} (性別)"
 }
@@ -150,7 +150,7 @@ if _rc!=0 {
 }
 
 
-count if var16==.
+capture count if var16==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var16} (就業形態)"
 }
@@ -160,13 +160,13 @@ if _rc!=0 {
 }
 
 
-count if var17==.
+capture count if var17==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var17} (乗率)"
 }
 
 
-count if var18==.
+capture count if var18==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var18} (性別)"
 }
@@ -176,7 +176,7 @@ if _rc!=0 {
 }
 
 
-count if var19==.
+capture count if var19==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var19} (チェック済)"
 }
@@ -186,7 +186,7 @@ if _rc!=0 {
 }
 
 
-count if var20==.
+capture count if var20==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var20} (分類表21-2)"
 }
@@ -196,7 +196,7 @@ if _rc!=0 {
 }
 
 
-count if var21==.
+capture count if var21==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var21} (地区)"
 }
@@ -206,13 +206,13 @@ if _rc!=0 {
 }
 
 
-count if var22==.
+capture count if var22==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var22} (都道府県)"
 }
 
 
-count if var23==.
+capture count if var23==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var23} (チェック済)"
 }
@@ -222,7 +222,7 @@ if _rc!=0 {
 }
 
 
-count if var24==.
+capture count if var24==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var24} (分類表19)"
 }
@@ -232,7 +232,7 @@ if _rc!=0 {
 }
 
 
-count if var25==.
+capture count if var25==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var25} (分類表20)"
 }
@@ -242,7 +242,7 @@ if _rc!=0 {
 }
 
 
-count if var26==.
+capture count if var26==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var26} (卒業時期)"
 }
@@ -252,7 +252,7 @@ if _rc!=0 {
 }
 
 
-count if var27==.
+capture count if var27==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var27} (チェック済)"
 }
@@ -262,7 +262,7 @@ if _rc!=0 {
 }
 
 
-count if var28==.
+capture count if var28==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var28} (分類表24)"
 }
@@ -272,7 +272,7 @@ if _rc!=0 {
 }
 
 
-count if var29==.
+capture count if var29==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var29} (就業形態)"
 }
@@ -282,7 +282,7 @@ if _rc!=0 {
 }
 
 
-count if var30==.
+capture count if var30==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var30} (チェック済)"
 }
@@ -292,7 +292,7 @@ if _rc!=0 {
 }
 
 
-count if var31==.
+capture count if var31==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var31} (分類表6-2)"
 }
@@ -302,7 +302,7 @@ if _rc!=0 {
 }
 
 
-count if var32==.
+capture count if var32==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var32} (チェック済)"
 }
@@ -312,7 +312,7 @@ if _rc!=0 {
 }
 
 
-count if var33==.
+capture count if var33==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var33} (分類表13)"
 }
@@ -322,7 +322,7 @@ if _rc!=0 {
 }
 
 
-count if var34==.
+capture count if var34==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var34} (分類表14)"
 }
@@ -332,7 +332,7 @@ if _rc!=0 {
 }
 
 
-count if var35==.
+capture count if var35==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var35} (分類表15)"
 }
@@ -342,19 +342,19 @@ if _rc!=0 {
 }
 
 
-count if var36==.
+capture count if var36==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var36} (地域)"
 }
 
 
-count if var37==.
+capture count if var37==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var37} (都道府県)"
 }
 
 
-count if var38==.
+capture count if var38==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var38} (在籍の有無)"
 }
@@ -364,7 +364,7 @@ if _rc!=0 {
 }
 
 
-count if var39==.
+capture count if var39==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var39} (就業の動機)"
 }
@@ -374,7 +374,7 @@ if _rc!=0 {
 }
 
 
-count if var40==.
+capture count if var40==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var40} (前職の産業)"
 }
@@ -384,7 +384,7 @@ if _rc!=0 {
 }
 
 
-count if var41==.
+capture count if var41==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var41} (チェック済)"
 }
@@ -394,7 +394,7 @@ if _rc!=0 {
 }
 
 
-count if var42==.
+capture count if var42==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var42} (分類表7-2)"
 }
@@ -404,7 +404,7 @@ if _rc!=0 {
 }
 
 
-count if var43==.
+capture count if var43==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var43} (チェック済)"
 }
@@ -414,7 +414,7 @@ if _rc!=0 {
 }
 
 
-count if var44==.
+capture count if var44==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var44} (分類表25)"
 }
@@ -424,7 +424,7 @@ if _rc!=0 {
 }
 
 
-count if var45==.
+capture count if var45==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var45} (分類表31)"
 }
@@ -434,7 +434,7 @@ if _rc!=0 {
 }
 
 
-count if var46==.
+capture count if var46==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var46} (分類表32)"
 }
@@ -444,7 +444,7 @@ if _rc!=0 {
 }
 
 
-count if var47==.
+capture count if var47==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var47} (離職期間)"
 }
@@ -454,7 +454,7 @@ if _rc!=0 {
 }
 
 
-count if var48==.
+capture count if var48==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var48} (前職の従業員数)"
 }
@@ -464,7 +464,7 @@ if _rc!=0 {
 }
 
 
-count if var49==.
+capture count if var49==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var49} (転職理由数)"
 }
@@ -474,7 +474,7 @@ if _rc!=0 {
 }
 
 
-count if var50==.
+capture count if var50==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var50} (チェック済)"
 }
@@ -484,7 +484,7 @@ if _rc!=0 {
 }
 
 
-count if var51==.
+capture count if var51==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var51} (分類表28)"
 }
@@ -494,7 +494,7 @@ if _rc!=0 {
 }
 
 
-count if var52==.
+capture count if var52==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var52} (チェック済)"
 }
@@ -504,7 +504,7 @@ if _rc!=0 {
 }
 
 
-count if var53==.
+capture count if var53==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var53} (分類表28)"
 }
@@ -514,7 +514,7 @@ if _rc!=0 {
 }
 
 
-count if var54==.
+capture count if var54==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var54} (チェック済)"
 }
@@ -524,7 +524,7 @@ if _rc!=0 {
 }
 
 
-count if var55==.
+capture count if var55==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var55} (分類表28)"
 }
@@ -534,7 +534,7 @@ if _rc!=0 {
 }
 
 
-count if var56==.
+capture count if var56==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var56} (チェック済)"
 }
@@ -544,7 +544,7 @@ if _rc!=0 {
 }
 
 
-count if var57==.
+capture count if var57==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var57} (分類表26-2)"
 }
@@ -554,13 +554,13 @@ if _rc!=0 {
 }
 
 
-count if var58==.
+capture count if var58==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var58} (分類表1)"
 }
 
 
-count if var59==.
+capture count if var59==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var59} (製造業分類)"
 }

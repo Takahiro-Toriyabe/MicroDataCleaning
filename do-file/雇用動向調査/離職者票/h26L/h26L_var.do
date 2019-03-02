@@ -28,28 +28,28 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h7-28.xlsx
-    Date: 2019/02/28 01:24:48
+    Date: 2019/03/03 01:08:24
 ----------------------------------------------------------------------*/
 
 
-capture label variable var1 "調査IDT"
-capture label variable var2 "調査年"
-capture label variable var3 "調査月"
+capture label variable var1 "調査情報: 調査IDT"
+capture label variable var2 "調査情報: 調査年"
+capture label variable var3 "調査情報: 調査月"
 capture label variable var4 "調査票区分"
 capture label variable var5 "乗率"
-capture label variable var6 "都道府県番号"
-capture label variable var7 "事業所番号"
-capture label variable var8 "産業中分類"
-capture label variable var9 "抽出番号"
-capture label variable var10 "事業所規模"
-capture label variable var11 "企業規模"
-capture label variable var12 "性別"
-capture label variable var13 "年齢"
-capture label variable var14 "最終学歴"
-capture label variable var15 "卒業年度"
-capture label variable var16 "就業形態"
-capture label variable var17 "仕事の内容"
-capture label variable var18 "勤続期間"
-capture label variable var19 "離職理由"
-capture label variable var20 "枚目"
-capture label variable var21 "番号"
+capture label variable var6 "共通項目: 都道府県番号"
+capture label variable var7 "共通項目: 事業所番号"
+capture label variable var8 "共通項目: 産業中分類"
+capture label variable var9 "共通項目: 抽出番号"
+capture label variable var10 "共通項目: 事業所規模"
+capture label variable var11 "共通項目: 企業規模"
+capture label variable var12 "個人項目: 性別"
+capture label variable var13 "個人項目: 年齢"
+capture label variable var14 "個人項目: 最終学歴"
+capture label variable var15 "個人項目: 卒業年度"
+capture label variable var16 "個人項目: 就業形態"
+capture label variable var17 "個人項目: 仕事の内容"
+capture label variable var18 "個人項目: 勤続期間"
+capture label variable var19 "個人項目: 離職理由"
+capture label variable var20 "個人項目: 枚目"
+capture label variable var21 "個人項目: 番号"

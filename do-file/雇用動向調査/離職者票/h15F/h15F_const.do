@@ -28,52 +28,52 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h7-28.xlsx
-    Date: 2019/02/28 01:24:44
+    Date: 2019/03/03 01:08:22
 ----------------------------------------------------------------------*/
 
 
 #delimit ;
     quietly infix
-        var1 1-3
-        var2 4-7
-        var3 8-9
-        var4 10-10
-        var5 11-12
-        var6 13-15
-        var7 16-17
-        var8 18-19
-        var9 20-23
-        var10 24-24
-        var11 25-26
-        var12 27-27
-        var13 28-30
-        var14 31-31
-        var15 32-32
-        var16 33-33
-        var17 34-34
-        var18 35-36
-        var19 37-37
-        var20 38-38
-        var21 39-39
-        var22 40-40
-        var23 41-42
-        var24 43-43
-        var25 44-53
-        var26 54-56
-        var27 57-58
-        var28 59-59
-        var29 60-61
-        var30 62-63
-        var31 64-64
-        var32 65-65
-        var33 66-66
-        var34 67-67
-        var35 68-68
-        var36 69-70
-        var37 71-72
-        var38 73-74
-        var39 75-76
-        var40 77-79
-        var41 80-80
+        str var1 1-3
+        str var2 4-7
+        str var3 8-9
+        str var4 10-10
+        str var5 11-12
+        str var6 13-15
+        str var7 16-17
+        str var8 18-19
+        str var9 20-23
+        str var10 24-24
+        str var11 25-26
+        str var12 27-27
+        str var13 28-30
+        str var14 31-31
+        str var15 32-32
+        str var16 33-33
+        str var17 34-34
+        str var18 35-36
+        str var19 37-37
+        str var20 38-38
+        str var21 39-39
+        str var22 40-40
+        str var23 41-42
+        str var24 43-43
+        str var25 44-53
+        str var26 54-56
+        str var27 57-58
+        str var28 59-59
+        str var29 60-61
+        str var30 62-63
+        str var31 64-64
+        str var32 65-65
+        str var33 66-66
+        str var34 67-67
+        str var35 68-68
+        str var36 69-70
+        str var37 71-72
+        str var38 73-74
+        str var39 75-76
+        str var40 77-79
+        str var41 80-80
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_r-koyo/H15_r-koyo01.txt";
 #delimit cr

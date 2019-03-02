@@ -28,47 +28,47 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h16-28.xlsx
-    Date: 2019/02/28 01:22:09
+    Date: 2019/03/03 01:07:05
 ----------------------------------------------------------------------*/
 
 
 #delimit ;
     quietly infix
-        var1 1-2
-        var2 3-6
-        var3 7-8
-        var4 11-11
-        var5 14-23
-        var6 31-32
-        var7 33-36
-        var8 37-38
-        var9 39-41
-        var10 42-42
-        var11 43-43
-        var12 44-44
-        var13 45-46
-        var14 47-47
-        var15 48-48
-        var16 49-49
-        var17 50-50
-        var18 51-51
-        var19 52-52
-        var20 53-53
-        var21 54-54
-        var22 55-55
-        var23 56-57
-        var24 58-58
-        var25 59-59
-        var26 60-60
-        var27 61-62
-        var28 63-63
-        var29 64-65
-        var30 66-66
-        var31 67-67
-        var32 68-68
-        var33 69-69
-        var34 70-71
-        var35 72-73
-        var36 74-74
+        str var1 1-2
+        str var2 3-6
+        str var3 7-8
+        str var4 11-11
+        str var5 14-23
+        str var6 31-32
+        str var7 33-36
+        str var8 37-38
+        str var9 39-41
+        str var10 42-42
+        str var11 43-43
+        str var12 44-44
+        str var13 45-46
+        str var14 47-47
+        str var15 48-48
+        str var16 49-49
+        str var17 50-50
+        str var18 51-51
+        str var19 52-52
+        str var20 53-53
+        str var21 54-54
+        str var22 55-55
+        str var23 56-57
+        str var24 58-58
+        str var25 59-59
+        str var26 60-60
+        str var27 61-62
+        str var28 63-63
+        str var29 64-65
+        str var30 66-66
+        str var31 67-67
+        str var32 68-68
+        str var33 69-69
+        str var34 70-71
+        str var35 72-73
+        str var36 74-74
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_n-koyo/H22_n-koyo07.txt";
 #delimit cr

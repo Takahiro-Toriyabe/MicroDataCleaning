@@ -28,64 +28,64 @@
 
 
     Source: 平成16～29年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/02/28 01:07:49
+    Date: 2019/03/03 00:59:42
 ----------------------------------------------------------------------*/
 
 
 #delimit ;
     quietly infix
-        Chosa_Nen 1-4
-        Katsu 5-6
-        Ken 10-11
-        JigyoRen 12-16
-        Digit 17-17
-        Maime 18-19
-        RouRen 20-21
-        Shiku 22-24
-        Kihon 25-28
-        Jigyosyo 31-34
-        M_Sangyo 36-38
-        M_JigyoKibo 39-39
-        M_RinjiKibo 40-40
-        M_Kigyokibo 41-41
-        Sangyo 46-48
-        JigyoKibo 49-49
-        RinjiKibo 50-50
-        KigyoKibo 51-51
-        JigyoRitsu 52-55
-        RodoRitsu 56-57
-        RinjiRitsu 58-59
-        Fukugen 60-69
-        Honshi 70-70
-        Minko 71-71
-        Syurui 72-72
-        Syain_M 74-78
-        Syain_W 79-83
-        Hisyain_M 84-88
-        Hisyain_W 89-93
-        Rinji 94-98
-        SangyoDai 99-99
-        SangyoChu 100-101
-        SangyoSyo 102-102
-        Sei 108-108
-        Koyo 109-109
-        Syugyo 110-110
-        Gakureki 111-111
-        Nenrei 112-113
-        Kinzoku 114-115
-        RouSyu 116-116
-        Syoku 117-119
-        Keiken 120-120
-        RouNissu 121-122
-        SyoteiJikan 123-125
-        ChokaJikan 126-128
-        Genkin 129-133
-        ChokaKyuyo 134-137
-        SyoteiKyuyo 138-142
-        Tsukin 143-145
-        Seikin 146-148
-        Kazoku 149-151
-        Tokubetsu 152-157
-        var1 158-166
+        str Chosa_Nen 1-4
+        str Katsu 5-6
+        str Ken 10-11
+        str JigyoRen 12-16
+        str Digit 17-17
+        str Maime 18-19
+        str RouRen 20-21
+        str Shiku 22-24
+        str Kihon 25-28
+        str Jigyosyo 31-34
+        str M_Sangyo 36-38
+        str M_JigyoKibo 39-39
+        str M_RinjiKibo 40-40
+        str M_Kigyokibo 41-41
+        str Sangyo 46-48
+        str JigyoKibo 49-49
+        str RinjiKibo 50-50
+        str KigyoKibo 51-51
+        str JigyoRitsu 52-55
+        str RodoRitsu 56-57
+        str RinjiRitsu 58-59
+        str Fukugen 60-69
+        str Honshi 70-70
+        str Minko 71-71
+        str Syurui 72-72
+        str Syain_M 74-78
+        str Syain_W 79-83
+        str Hisyain_M 84-88
+        str Hisyain_W 89-93
+        str Rinji 94-98
+        str SangyoDai 99-99
+        str SangyoChu 100-101
+        str SangyoSyo 102-102
+        str Sei 108-108
+        str Koyo 109-109
+        str Syugyo 110-110
+        str Gakureki 111-111
+        str Nenrei 112-113
+        str Kinzoku 114-115
+        str RouSyu 116-116
+        str Syoku 117-119
+        str Keiken 120-120
+        str RouNissu 121-122
+        str SyoteiJikan 123-125
+        str ChokaJikan 126-128
+        str Genkin 129-133
+        str ChokaKyuyo 134-137
+        str SyoteiKyuyo 138-142
+        str Tsukin 143-145
+        str Seikin 146-148
+        str Kazoku 149-151
+        str Tokubetsu 152-157
+        str var1 158-166
     using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_k-chin/h25_k-chin.txt";
 #delimit cr

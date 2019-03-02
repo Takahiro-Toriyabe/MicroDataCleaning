@@ -1,30 +1,31 @@
 # -*- coding: utf-8 -*-
 
-import copy 
+import copy
 import sys
 from collections import OrderedDict
 from .AssortativeMatching import Agent, Market
 from .VarFilter import VarFilterFactory
 
+
 class SynonymVar:
-    
+
     def __init__(self):
         self.baseinfo = None
         self.list = []
-        
+
     def AddVar(self, var):
         self.list.append(var)
-        
+
     def AddNone(self, cnt):
         for i in range(cnt):
             self.list.append(None)
-            
+
     def SetBaseInfo(self, var):
         self.baseinfo = var
-    
-    
+
+
 class VarNameThesaurus:
-    
+
     def __init__(self, collections, reservation, SurveyName):
         self.dict = OrderedDict()
         self.collections = collections
@@ -32,14 +33,14 @@ class VarNameThesaurus:
         self.survey_name = SurveyName
         self.filter = VarFilterFactory().CreateFilter(self.survey_name)
         self.__MakeDict__()
-        
+
     def __SetThesaurus__(self):
         self.cnt = 1
         self.base_collection = copy.copy(self.collections[0])
         for var in self.base_collection:
             self.dict[var.group + var.description] = SynonymVar()
             self.dict[var.group + var.description].AddVar(var)
-            
+
     def __UpdateThesaurus__(self, collection):
         self.cnt = self.cnt + 1
         Base = [
@@ -50,7 +51,7 @@ class VarNameThesaurus:
         ]
         market = Market(NewAgents, Base)
         market.Match()
-        
+
         for agent in NewAgents:
             if agent.partner is None:
                 self.dict[agent.group + agent.endowment] = SynonymVar()
@@ -60,17 +61,17 @@ class VarNameThesaurus:
             else:
                 partner = agent.partner
                 self.dict[partner.group + partner.endowment].AddVar(agent.var)
-                
+
         for key in self.dict.keys():
             if len(self.dict[key].list) != self.cnt:
                 self.dict[key].AddNone(1)
-    
+
     def __FinalizeThesaurus__(self):
         registered_names = []
         cnt = 0
         for key, synonym in self.dict.items():
             var_list = [
-                var for var in synonym.list if var is not None and 
+                var for var in synonym.list if var is not None and
                 var.name not in registered_names
             ]
             var_list_withname = [v for v in var_list if 'var' not in v.name]
@@ -85,10 +86,10 @@ class VarNameThesaurus:
                 basevar = copy.copy([v for v in synonym.list if v is not None][0])
                 cnt = cnt + 1
                 basevar.name = 'v' + str(cnt)
-                
+
             basevar.name = basevar.name + '_ToBeDropped'*self.filter.IsTrashVar(basevar)
             self.dict[key].SetBaseInfo(basevar)
-        
+
     def __MakeDict__(self):
         self.__SetThesaurus__()
         for collection in self.collections[1:]:
@@ -106,6 +107,6 @@ class VarNameThesaurus:
                     print(synonym.baseinfo.GetFullDescription() + ': ' + var.GetFullDescription())
                     print(synonym.baseinfo.name + ': ' + var.name)
                 sys.exit()
-        
+
     def GetDict(self):
         return self.dict
