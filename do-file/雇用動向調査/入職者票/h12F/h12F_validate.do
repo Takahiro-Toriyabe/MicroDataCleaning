@@ -28,13 +28,13 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h12.xlsx
-    Date: 2019/03/03 16:54:48
+    Date: 2019/03/06 18:21:22
 ----------------------------------------------------------------------*/
 
 
 capture count if var1==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var1} (調査IDT)"
+    display as error "Only missing value: {bf:var1} (調査アイデント)"
 }
 
 
@@ -50,11 +50,11 @@ if _rc!=0 {
 
 capture count if var3==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var3} (調査月)"
+    display as error "Only missing value: {bf:var3} (月)"
 }
 capture assert inlist(var3, 1, 7, .)
 if _rc!=0 {
-    display as error "WARNING: {bf:var3} (調査月) may have invalid values (Check layout sheet)"
+    display as error "WARNING: {bf:var3} (月) may have invalid values (Check layout sheet)"
 }
 
 
@@ -326,7 +326,7 @@ capture count if var34==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var34} (分類表14)"
 }
-capture assert inlist(var34, 3, 4, 5, 6, 7, 8, .)
+capture assert inlist(var34, 3, 4, 5, 6, 7, 8, 9, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var34} (分類表14) may have invalid values (Check layout sheet)"
 }
@@ -344,7 +344,11 @@ if _rc!=0 {
 
 capture count if var36==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var36} (地域)"
+    display as error "Only missing value: {bf:var36} (地区)"
+}
+capture assert inlist(var36, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var36} (地区) may have invalid values (Check layout sheet)"
 }
 
 
@@ -374,7 +378,7 @@ capture count if var40==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var40} (前職の産業)"
 }
-capture assert inlist(var40, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
+capture assert inlist(var40, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var40} (前職の産業) may have invalid values (Check layout sheet)"
 }
@@ -484,7 +488,7 @@ capture count if var51==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var51} (分類表28-2)"
 }
-capture assert inlist(var51, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
+capture assert inlist(var51, 1, 2, 3, 4, 5, 6, 7, 8, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var51} (分類表28-2) may have invalid values (Check layout sheet)"
 }

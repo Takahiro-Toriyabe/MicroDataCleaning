@@ -28,13 +28,13 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h14.xlsx
-    Date: 2019/03/03 16:54:48
+    Date: 2019/03/06 18:21:23
 ----------------------------------------------------------------------*/
 
 
-capture label variable var1 "調査IDT"
+capture label variable var1 "調査アイデント"
 capture label variable var2 "調査年月: 西暦年"
-capture label variable var3 "調査年月: 調査月"
+capture label variable var3 "調査年月: 月"
 capture label variable var4 "調査区分"
 capture label variable var5 "所在地: 地域9-4"
 capture label variable var6 "所在地: 地域9-2"

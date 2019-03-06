@@ -28,23 +28,19 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h3-4
-    Date: 2019/03/03 16:55:59
+    Date: 2019/03/06 18:22:37
 ----------------------------------------------------------------------*/
 
 
 capture count if var1==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var1} (調査IDT)"
+    display as error "Only missing value: {bf:var1} (調査アイデント)"
 }
 
 
 capture count if var2==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var2} (調査年)"
-}
-capture assert inlist(var2, 1992, .)
-if _rc!=0 {
-    display as error "WARNING: {bf:var2} (調査年) may have invalid values (Check layout sheet)"
 }
 
 
@@ -230,11 +226,11 @@ if _rc!=0 {
 
 capture count if var25==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var25} (仕事の内容)"
+    display as error "Only missing value: {bf:var25} (仕事の内容(職業))"
 }
 capture assert inlist(var25, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
 if _rc!=0 {
-    display as error "WARNING: {bf:var25} (仕事の内容) may have invalid values (Check layout sheet)"
+    display as error "WARNING: {bf:var25} (仕事の内容(職業)) may have invalid values (Check layout sheet)"
 }
 
 
@@ -277,6 +273,10 @@ if r(N)==_N {
 capture count if var30==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var30} (製造業分類コード)"
+}
+capture assert inlist(var30, 42, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var30} (製造業分類コード) may have invalid values (Check layout sheet)"
 }
 
 

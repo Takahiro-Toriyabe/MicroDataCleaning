@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h3-4.xlsx
-    Date: 2019/03/03 16:54:47
+    Date: 2019/03/06 18:21:21
 ----------------------------------------------------------------------*/
 
 
@@ -37,7 +37,7 @@ capture label variable var2 "共通項目集計ID: 調査集計名"
 capture label variable var3 "共通項目集計ID: 調査実施年"
 capture label variable var4 "共通項目調査年月: 年"
 capture label variable var5 "共通項目調査年月: 月(期)"
-capture label variable var6 "共通項目: 調査区分"
+capture label variable var6 "共通項目: 調査票区分"
 capture label variable var7 "共通項目所在地: 地域区分"
 capture label variable var8 "共通項目所在地: 都道府県番号"
 capture label variable var9 "共通項目: 事業所番号"
@@ -80,7 +80,7 @@ capture label variable var45 "個人項目前従業上地位区分: 分類表31�
 capture label variable var46 "個人項目前従業上地位区分: 分類表32コード"
 capture label variable var47 "個人項目: 離職期間区分"
 capture label variable var48 "個人項目: 前職企業規模区分"
-capture label variable var49 "個人項目転職理由: 理由数数"
+capture label variable var49 "個人項目転職理由: 理由数"
 capture label variable var50 "個人項目転職理由その1: 調査票コード"
 capture label variable var51 "個人項目転職理由その1: 分類表28コード"
 capture label variable var52 "個人項目転職理由その2: 調査票コード"

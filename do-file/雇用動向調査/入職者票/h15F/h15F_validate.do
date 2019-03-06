@@ -28,13 +28,13 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h15.xlsx
-    Date: 2019/03/03 16:54:48
+    Date: 2019/03/06 18:21:23
 ----------------------------------------------------------------------*/
 
 
 capture count if var1==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var1} (調査IDT)"
+    display as error "Only missing value: {bf:var1} (調査アイデント)"
 }
 
 
@@ -50,11 +50,11 @@ if _rc!=0 {
 
 capture count if var3==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var3} (調査月)"
+    display as error "Only missing value: {bf:var3} (月)"
 }
 capture assert inlist(var3, 1, 7, .)
 if _rc!=0 {
-    display as error "WARNING: {bf:var3} (調査月) may have invalid values (Check layout sheet)"
+    display as error "WARNING: {bf:var3} (月) may have invalid values (Check layout sheet)"
 }
 
 
@@ -350,11 +350,19 @@ capture count if var36==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var36} (地域9-5)"
 }
+capture assert inlist(var36, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var36} (地域9-5) may have invalid values (Check layout sheet)"
+}
 
 
 capture count if var37==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var37} (地域9-3)"
+}
+capture assert inlist(var37, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var37} (地域9-3) may have invalid values (Check layout sheet)"
 }
 
 

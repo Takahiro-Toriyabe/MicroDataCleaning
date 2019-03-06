@@ -28,13 +28,13 @@
 
 
     Source: （参考）符号表_雇用動向調査（事業所票）h03-04
-    Date: 2019/03/03 16:49:21
+    Date: 2019/03/06 18:15:15
 ----------------------------------------------------------------------*/
 
 
 capture count if var1==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var1} (調査IDT)"
+    display as error "Only missing value: {bf:var1} (調査アイデント)"
 }
 
 

@@ -28,11 +28,11 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h13.xlsx
-    Date: 2019/03/03 16:54:48
+    Date: 2019/03/06 18:21:23
 ----------------------------------------------------------------------*/
 
 
-capture label variable var1 "調査IDT"
+capture label variable var1 "調査アイデント"
 capture label variable var2 "調査年月: 西暦年"
 capture label variable var3 "調査年月: 調査月"
 capture label variable var4 "調査区分"
@@ -67,7 +67,7 @@ capture label variable var32 "個人項目就業の経験: チェック済"
 capture label variable var33 "個人項目就業の経験: 分類表13"
 capture label variable var34 "個人項目就業の経験: 分類表14"
 capture label variable var35 "個人項目就業の経験: 分類表15"
-capture label variable var36 "個人項目入職前の住所: 地域"
+capture label variable var36 "個人項目入職前の住所: 地区"
 capture label variable var37 "個人項目入職前の住所: 都道府県"
 capture label variable var38 "個人項目: 在籍の有無"
 capture label variable var39 "個人項目: 就業の動機"
