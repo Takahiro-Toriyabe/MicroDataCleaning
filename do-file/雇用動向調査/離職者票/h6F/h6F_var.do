@@ -28,11 +28,11 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h6.xlsx
-    Date: 2019/03/03 16:55:59
+    Date: 2019/03/06 18:22:38
 ----------------------------------------------------------------------*/
 
 
-capture label variable var1 "調査票情報: 調査IDT"
+capture label variable var1 "調査票情報: 調査アイデント"
 capture label variable var2 "調査票情報: 調査年"
 capture label variable var3 "調査票情報: 調査月"
 capture label variable var4 "調査票情報: 調査票区分"

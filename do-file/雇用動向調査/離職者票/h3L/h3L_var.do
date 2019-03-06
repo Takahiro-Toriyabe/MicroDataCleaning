@@ -28,11 +28,11 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h3-4
-    Date: 2019/03/03 16:55:59
+    Date: 2019/03/06 18:22:37
 ----------------------------------------------------------------------*/
 
 
-capture label variable var1 "調査IDT"
+capture label variable var1 "調査アイデント"
 capture label variable var2 "調査年月: 調査年"
 capture label variable var3 "調査年月: 調査月"
 capture label variable var4 "調査票区分"
@@ -56,7 +56,7 @@ capture label variable var21 "個人項目: 年齢区分"
 capture label variable var22 "個人項目: 最終学歴"
 capture label variable var23 "個人項目: 最終学校卒業年区分"
 capture label variable var24 "個人項目: 就業形態"
-capture label variable var25 "個人項目: 仕事の内容"
+capture label variable var25 "個人項目: 仕事の内容(職業)"
 capture label variable var26 "個人項目: 勤続期間区分"
 capture label variable var27 "個人項目離職理由: チェック済コード"
 capture label variable var28 "個人項目離職理由: 離職理由コード"

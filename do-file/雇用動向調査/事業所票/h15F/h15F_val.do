@@ -28,17 +28,17 @@
 
 
     Source: （参考）符号表_雇用動向調査（事業所票）h12-15
-    Date: 2019/03/03 16:49:22
+    Date: 2019/03/06 18:15:16
 ----------------------------------------------------------------------*/
 
 
-capture label define var2 2000 "" 
+capture label define var2 2000 "2000" 
 capture label values var2 var2
 
 capture label define var3 1 "上期" 7 "下期" 
 capture label values var3 var3
 
-capture label define var5 1 "県番号:01" 2 "県番号:02~07" 3 "県番号:08~10,19,20" 4 "県番号:11~14" 5 "県番号:15~18" 6 "県番号:21~24" 7 "県番号:25,29,30" 8 "県番号:26~28" 9 "県番号:31,32" 10 "県番号:33~35" 11 "県番号:36~39" 12 "県番号:40~42" 13 "県番号:43,45~47" 
+capture label define var5 1 "北海道" 2 "東北" 3 "北関東" 4 "南関東" 5 "北陸" 6 "東海" 7 "近畿" 8 "京阪神" 9 "山陰" 10 "山陽" 11 "四国" 12 "北九州" 13 "南九州" 
 capture label values var5 var5
 
 capture label define var11 1 "500人以上" 2 "100~499人" 3 "30~99人" 4 "5~29人" 

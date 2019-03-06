@@ -28,12 +28,15 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h6-7.xlsx
-    Date: 2019/03/03 16:54:47
+    Date: 2019/03/06 18:21:21
 ----------------------------------------------------------------------*/
 
 
 capture label define var3 1 "上半期" 7 "下半期" 
 capture label values var3 var3
+
+capture label define var5 1 "北海道" 2 "東北" 3 "北関東" 4 "南関東" 5 "北陸" 6 "東海" 7 "近畿" 8 "京阪神" 9 "山陰" 10 "山陽" 11 "四国" 12 "北九州" 13 "南九州" 
+capture label values var5 var5
 
 capture label define var11 1 "500人以上" 2 "100-499人" 3 "30-99人" 4 "5-29人" 
 capture label values var11 var11
@@ -44,7 +47,7 @@ capture label values var12 var12
 capture label define var14 1 "500人以上" 2 "100-499人" 3 "30-99人" 4 "5-29人" 
 capture label values var14 var14
 
-capture label define var15 1 "男子" 2 "女子" 
+capture label define var15 1 "男" 2 "女" 
 capture label values var15 var15
 
 capture label define var16 1 "一般労働者" 2 "パートタイム労働者" 
@@ -53,71 +56,50 @@ capture label values var16 var16
 capture label define var18 1 "男" 2 "女" 
 capture label values var18 var18
 
-capture label define var19 1 "19歳以下" 2 "20歳〜24歳" 3 "25歳〜29歳" 4 "30歳〜34歳" 5 "35歳〜44歳" 6 "45歳〜55歳" 7 "56歳〜59歳" 8 "60歳〜64歳" 9 "65歳以上" 
+capture label define var19 1 "19歳以下" 2 "20歳〜24歳" 3 "25歳〜29歳" 4 "30歳〜34歳" 5 "35歳〜39歳" 6 "40歳~44歳" 7 "45歳〜49歳" 8 "50歳~54歳" 9 "55歳〜59歳" 10 "60歳〜64歳" 11 "65歳以上" 
 capture label values var19 var19
 
-capture label define var22 1 "1:新中・旧小卒" 2 "2:新高・旧中卒" 3 "3:短大・高専卒" 4 "4:新大・旧大卒(文科系)" 5 "5:新大・旧大卒(理科系)" 
+capture label define var20 1 "北海道" 2 "東北" 3 "北関東" 4 "南関東" 5 "北陸" 6 "東海" 7 "近畿" 8 "京阪神" 9 "山陰" 10 "山陽" 11 "四国" 12 "北九州" 13 "南九州" 
+capture label values var20 var20
+
+capture label define var22 1 "新中・旧小卒" 2 "新高・旧中卒" 3 "短大・高専卒" 4 "新大・旧大・大学院卒(文科系)" 5 "新大・旧大・大学院卒(理科系)" 
 capture label values var22 var22
 
-capture label define var23 1 "1:新中・旧小卒" 2 "2:新高・旧中卒" 3 "3:短大・高専卒" 4 "4:新大・旧大卒" 
-capture label values var23 var23
-
-capture label define var24 1 "1:新中・旧小卒" 2 "2:新高・旧中卒" 3 "3:短大・高専卒" 5 "4:新大・旧大卒(文科系)" 6 "5:新大・旧大卒(理科系)" 
-capture label values var24 var24
-
-capture label define var25 1 "1:平成3年3月新卒" 2 "2:平成3年3月以前" 
+capture label define var25 1 "新卒" 2 "新卒以外" 
 capture label values var25 var25
 
-capture label define var26 1 "1:ある(入戦前1年以内に卒業した)" 2 "2:ある(それ以外の時期に卒業した)" 3 "3:ない" 
+capture label define var26 1 "ある(入戦前1年以内に卒業した)" 2 "ある(それ以外の時期に卒業した)" 3 "ない" 
 capture label values var26 var26
 
-capture label define var27 1 "1:安定所" 2 "2:学校" 3 "3:前の会社" 4 "4:出向" 5 "5:出向先からの復帰" 6 "6:縁故" 7 "7:広告" 8 "8:その他" 
+capture label define var27 1 "安定所" 2 "学校" 3 "前の会社" 4 "出向" 5 "出向先からの復帰" 6 "縁故" 7 "広告" 8 "その他" 
 capture label values var27 var27
 
-capture label define var28 1 "1:安定所" 2 "2:学校" 3 "3:前の会社" 4 "4:出向" 5 "5:出向先からの復帰" 6 "6:縁故" 7 "7:広告" 8 "8:その他" 
-capture label values var28 var28
-
-capture label define var29 1 "1:一般労働者" 2 "2:パートタイム労働者" 
+capture label define var29 1 "一般労働者" 2 "パートタイム労働者" 
 capture label values var29 var29
 
-capture label define var30 1 "1:専門・技術的職業従事者" 2 "2:管理的職業従事者" 3 "3:事務従事者" 4 "4:販売従事者" 5 "5:サービス職業従事者" 6 "6:保安職業従事者" 7 "7:運輸通信従事者" 8 "8:技能工生産工程作業者" 9 "9:その他職業従事者" 
+capture label define var30 1 "専門・技術的職業従事者" 2 "管理的職業従事者" 3 "事務従事者" 4 "販売従事者" 5 "サービス職業従事者" 6 "保安職業従事者" 7 "運輸通信従事者" 8 "技能工・製造・建設作業者" 9 "その他職業従事者" 
 capture label values var30 var30
+
+capture label define var31 1 "北海道" 2 "東北" 3 "北関東" 4 "南関東" 5 "北陸" 6 "東海" 7 "近畿" 8 "京阪神" 9 "山陰" 10 "山陽" 11 "四国" 12 "北九州" 13 "南九州" 
+capture label values var31 var31
 
 capture label define var33 1 "いる" 2 "いない" 
 capture label values var33 var33
 
-capture label define var34 1 "主な生活収入" 2 "家計の補助" 3 "生活水準の向上" 4 "余暇の利用" 5 "その他の理由" 
+capture label define var34 1 "主な生活収入" 2 "家計の補助" 3 "生活水準の向上" 4 "余暇の活用(社会参加、資格の活用等含む)" 5 "その他の理由" 
 capture label values var34 var34
 
 capture label define var35 1 "ある" 2 "ない" 
 capture label values var35 var35
 
-capture label define var36 2 "未就業者(学卒者)" 3 "未就職業者(一般)" 4 "既就業者" 
-capture label values var36 var36
-
-capture label define var37 2 "未就業者(学卒者)" 3 "未就職業者(一般)" 4 "未就職業者(一般:うち専修学校卒)" 5 "既就業者" 
-capture label values var37 var37
-
-capture label define var38 2 "未就業者(学卒者)" 3 "未就職業者(一般)" 4 "未就職業者(一般:うち専修学校卒)" 5 "既就業者" 
-capture label values var38 var38
-
-capture label define var39 1 "農林建業" 2 "鉱業" 3 "建設業" 4 "製造業" 5 "運輸通信業" 6 "卸売・小売業・飲食店" 7 "金融・保険・不動産業" 8 "サービス業" 9 "その他の産業" 
+capture label define var39 1 "農林漁業" 2 "鉱業" 3 "建設業" 4 "製造業" 5 "運輸・通信業" 6 "卸売・小売業・飲食店" 7 "金融・保険業・不動産業" 8 "サービス業" 9 "その他の産業" 
 capture label values var39 var39
 
-capture label define var40 1 "1:専門・技術的職業従事者" 2 "2:管理的職業従事者" 3 "3:事務従事者" 4 "4:販売従事者" 5 "5:サービス職業従事者" 6 "6:保安職業従事者" 7 "7:運輸通信従事者" 8 "8:技能工生産工程作業者" 9 "9:その他職業従事者" 
+capture label define var40 1 "専門・技術的職業従事者" 2 "管理的職業従事者" 3 "事務従事者" 4 "販売従事者" 5 "サービス職業従事者" 6 "保安職業従事者" 7 "運輸通信従事者" 8 "技能工・製造・建設作業者" 9 "その他職業従事者" 
 capture label values var40 var40
 
-capture label define var41 1 "雇用者(一般労働者)" 2 "雇用者(パートタイム労働者)" 3 "自営業・家族従事者" 
+capture label define var41 1 "雇用者(一般労働者)" 2 "雇用者(パートタイム労働者)" 3 "自営業主・家族従事者" 
 capture label values var41 var41
-
-capture label define var42 2 "雇用者(一般労働者)" 3 "雇用者(パートタイム労働者)" 4 "自営業・家族従事者" 
-capture label values var42 var42
-
-capture label define var43 0 "1,2,3,V・2" 1 "2,3,V・1" 11 "1・1" 
-capture label values var43 var43
-
-capture label define var44 0 "1,2・1,2" 11 "1・1" 22 "2・2" 
-capture label values var44 var44
 
 capture label define var45 1 "15日未満" 2 "15日〜1ヶ月未満" 3 "1ヶ月〜3ヶ月未満" 4 "3ヶ月〜6ヶ月未満" 5 "6ヶ月〜1年未満" 
 capture label values var45 var45
@@ -125,31 +107,16 @@ capture label values var45 var45
 capture label define var46 1 "1000人以上" 2 "300〜999人" 3 "100〜299人" 4 "30〜99人" 5 "5〜29人" 6 "1〜4人" 7 "官公営" 
 capture label values var46 var46
 
-capture label define var47 0 "" 1 "不詳" 2 "対象外" 3 "" 
-capture label values var47 var47
-
-capture label define var48 1 "能力・個性・資格が生かせる" 2 "仕事内容に興味があった" 3 "会社の将来性が期待できる" 4 "福利厚生制度・施設が充実している" 5 "給料等収入が多い" 6 "労働時間・休日等の労働条件が良い" 7 "通勤が便利" 8 "前の仕事が合わなかったやりがいを感じられなかった" 9 "前の職場の人間関係が好ましくなかった" 10 "出向・出向からの復帰" 11 "定年・会社都合" 12 "知人の紹介・スカウト等" 13 "Uターン・家庭の事情" 14 "健康上の理由" 15 "その他の理由" 
+capture label define var48 1 "能力・個性・資格が活かせる" 2 "仕事の内容に興味があった" 3 "会社の将来性が期待できる" 4 "福利厚生制度・施設が充実している" 5 "給料等収入が多い" 6 "労働時間・休日等の労働条件が良い" 7 "通勤が便利" 8 "前の仕事が合わなかったやりがいを感じられなかった" 9 "前の職場の人間関係が好ましくなかった" 10 "出向・出向からの復帰" 11 "定年・会社都合・契約期間の満了" 12 "知人の紹介・スカウト等" 13 "Uターン・家庭の事情" 14 "健康上の理由" 15 "その他の理由" 
 capture label values var48 var48
 
-capture label define var49 8 "能力・個性・資格が生かせる" 9 "仕事内容に興味があった" 10 "会社の将来性が期待できる" 11 "福利厚生制度・施設が充実している" 12 "給料等収入が多い" 13 "労働時間・休日等の労働条件が良い" 14 "前の仕事が合わなかったやりがいを感じられなかった" 15 "前の職場の人間関係が好ましくなかった" 16 "その他の理由" 17 "通勤が便利" 18 "出向・出向からの復帰" 19 "定年・会社都合" 20 "健康上の理由" 21 "知人の紹介・スカウト等" 22 "Uターン・家庭の事情" 
-capture label values var49 var49
-
-capture label define var50 1 "能力・個性・資格が生かせる" 2 "仕事内容に興味があった" 3 "会社の将来性が期待できる" 4 "福利厚生制度・施設が充実している" 5 "給料等収入が多い" 6 "労働時間・休日等の労働条件が良い" 7 "通勤が便利" 8 "前の仕事が合わなかったやりがいを感じられなかった" 9 "前の職場の人間関係が好ましくなかった" 10 "出向・出向からの復帰" 11 "定年・会社都合" 12 "知人の紹介・スカウト等" 13 "Uターン・家庭の事情" 14 "健康上の理由" 15 "その他の理由" 
+capture label define var50 1 "能力・個性・資格が活かせる" 2 "仕事の内容に興味があった" 3 "会社の将来性が期待できる" 4 "福利厚生制度・施設が充実している" 5 "給料等収入が多い" 6 "労働時間・休日等の労働条件が良い" 7 "通勤が便利" 8 "前の仕事が合わなかったやりがいを感じられなかった" 9 "前の職場の人間関係が好ましくなかった" 10 "出向・出向からの復帰" 11 "定年・会社都合・契約期間の満了" 12 "知人の紹介・スカウト等" 13 "Uターン・家庭の事情" 14 "健康上の理由" 15 "その他の理由" 
 capture label values var50 var50
 
-capture label define var51 8 "能力・個性・資格が生かせる" 9 "仕事内容に興味があった" 10 "会社の将来性が期待できる" 11 "福利厚生制度・施設が充実している" 12 "給料等収入が多い" 13 "労働時間・休日等の労働条件が良い" 14 "前の仕事が合わなかったやりがいを感じられなかった" 15 "前の職場の人間関係が好ましくなかった" 16 "その他の理由" 17 "通勤が便利" 18 "出向・出向からの復帰" 19 "定年・会社都合" 20 "健康上の理由" 21 "知人の紹介・スカウト等" 22 "Uターン・家庭の事情" 
-capture label values var51 var51
-
-capture label define var52 1 "能力・個性・資格が生かせる" 2 "仕事内容に興味があった" 3 "会社の将来性が期待できる" 4 "福利厚生制度・施設が充実している" 5 "給料等収入が多い" 6 "労働時間・休日等の労働条件が良い" 7 "通勤が便利" 8 "前の仕事が合わなかったやりがいを感じられなかった" 9 "前の職場の人間関係が好ましくなかった" 10 "出向・出向からの復帰" 11 "定年・会社都合" 12 "知人の紹介・スカウト等" 13 "Uターン・家庭の事情" 14 "健康上の理由" 15 "その他の理由" 
+capture label define var52 1 "能力・個性・資格が活かせる" 2 "仕事の内容に興味があった" 3 "会社の将来性が期待できる" 4 "福利厚生制度・施設が充実している" 5 "給料等収入が多い" 6 "労働時間・休日等の労働条件が良い" 7 "通勤が便利" 8 "前の仕事が合わなかったやりがいを感じられなかった" 9 "前の職場の人間関係が好ましくなかった" 10 "出向・出向からの復帰" 11 "定年・会社都合・契約期間の満了" 12 "知人の紹介・スカウト等" 13 "Uターン・家庭の事情" 14 "健康上の理由" 15 "その他の理由" 
 capture label values var52 var52
 
-capture label define var53 8 "能力・個性・資格が生かせる" 9 "仕事内容に興味があった" 10 "会社の将来性が期待できる" 11 "福利厚生制度・施設が充実している" 12 "給料等収入が多い" 13 "労働時間・休日等の労働条件が良い" 14 "前の仕事が合わなかったやりがいを感じられなかった" 15 "前の職場の人間関係が好ましくなかった" 16 "その他の理由" 17 "通勤が便利" 18 "出向・出向からの復帰" 19 "定年・会社都合" 20 "健康上の理由" 21 "知人の紹介・スカウト等" 22 "Uターン・家庭の事情" 
-capture label values var53 var53
-
-capture label define var54 1 "積極的のみ" 2 "積極的+その他" 3 "積極的+消極的+その他" 4 "積極的+消極的+その他" 5 "消極的のみ" 6 "積極的+その他" 7 "その他のみ" 
-capture label values var54 var54
-
-capture label define var55 1 "3割以上増加" 2 "1割以上3割未満増加" 3 "1割未満の増加" 4 "1割以上3割未満の減少" 5 "3割以上減少" 
+capture label define var55 1 "3割以上増加" 2 "1割以上3割未満増加" 3 "1割未満の増減" 4 "1割以上3割未満の減少" 5 "3割以上減少" 
 capture label values var55 var55
 
 capture label define var58 42 "消費関連産業" 43 "素材関連産業" 44 "機械関連産業" 

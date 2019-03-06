@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h3-4.xlsx
-    Date: 2019/03/03 16:54:47
+    Date: 2019/03/06 18:21:21
 ----------------------------------------------------------------------*/
 
 
@@ -68,13 +68,17 @@ if _rc!=0 {
 
 capture count if var6==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var6} (調査区分)"
+    display as error "Only missing value: {bf:var6} (調査票区分)"
 }
 
 
 capture count if var7==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var7} (地域区分)"
+}
+capture assert inlist(var7, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var7} (地域区分) may have invalid values (Check layout sheet)"
 }
 
 
@@ -193,6 +197,10 @@ if _rc!=0 {
 capture count if var22==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var22} (地域区分)"
+}
+capture assert inlist(var22, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var22} (地域区分) may have invalid values (Check layout sheet)"
 }
 
 
@@ -446,11 +454,11 @@ if _rc!=0 {
 
 capture count if var49==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var49} (理由数数)"
+    display as error "Only missing value: {bf:var49} (理由数)"
 }
 capture assert inlist(var49, 0, 1, 2, 3, .)
 if _rc!=0 {
-    display as error "WARNING: {bf:var49} (理由数数) may have invalid values (Check layout sheet)"
+    display as error "WARNING: {bf:var49} (理由数) may have invalid values (Check layout sheet)"
 }
 
 

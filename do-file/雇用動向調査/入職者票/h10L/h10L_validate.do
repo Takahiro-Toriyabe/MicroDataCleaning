@@ -28,23 +28,23 @@
 
 
     Source: （参考）符号表_雇用動向調査（入職者票）h10.xlsx
-    Date: 2019/03/03 16:54:48
+    Date: 2019/03/06 18:21:22
 ----------------------------------------------------------------------*/
 
 
 capture count if var1==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var1} (調査IDT)"
+    display as error "Only missing value: {bf:var1} (調査アイデント)"
 }
 
 
 capture count if var2==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var2} (西暦年)"
+    display as error "Only missing value: {bf:var2} (調査年)"
 }
 capture assert inlist(var2, 1998, .)
 if _rc!=0 {
-    display as error "WARNING: {bf:var2} (西暦年) may have invalid values (Check layout sheet)"
+    display as error "WARNING: {bf:var2} (調査年) may have invalid values (Check layout sheet)"
 }
 
 
@@ -60,7 +60,7 @@ if _rc!=0 {
 
 capture count if var4==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var4} (調査区分)"
+    display as error "Only missing value: {bf:var4} (調査票区分)"
 }
 
 
@@ -336,6 +336,10 @@ capture count if var35==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var35} (地区)"
 }
+capture assert inlist(var35, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var35} (地区) may have invalid values (Check layout sheet)"
+}
 
 
 capture count if var36==.
@@ -368,7 +372,7 @@ capture count if var39==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var39} (前職の産業)"
 }
-capture assert inlist(var39, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
+capture assert inlist(var39, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var39} (前職の産業) may have invalid values (Check layout sheet)"
 }
@@ -553,6 +557,10 @@ if r(N)==_N {
 capture count if var58==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var58} (製造業分類)"
+}
+capture assert inlist(var58, 42, 43, 44, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var58} (製造業分類) may have invalid values (Check layout sheet)"
 }
 
 

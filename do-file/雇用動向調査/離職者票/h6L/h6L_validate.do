@@ -28,13 +28,13 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h6.xlsx
-    Date: 2019/03/03 16:55:59
+    Date: 2019/03/06 18:22:38
 ----------------------------------------------------------------------*/
 
 
 capture count if var1==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var1} (調査IDT)"
+    display as error "Only missing value: {bf:var1} (調査アイデント)"
 }
 
 
@@ -182,7 +182,7 @@ capture count if var20==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var20} (チェック済)"
 }
-capture assert inlist(var20, 1, 2, 3, 4, 5, 6, 7, 8, 9, .)
+capture assert inlist(var20, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var20} (チェック済) may have invalid values (Check layout sheet)"
 }
@@ -242,7 +242,7 @@ capture count if var26==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var26} (チェック済)"
 }
-capture assert inlist(var26, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, .)
+capture assert inlist(var26, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var26} (チェック済) may have invalid values (Check layout sheet)"
 }

@@ -28,30 +28,30 @@
 
 
     Source: 
-    Date: 2019/03/03 16:54:46
+    Date: 2019/03/06 18:21:21
 ----------------------------------------------------------------------*/
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "調査IDT"
-    Description (Data 1):  "調査IDT"
-    Description (Data 2):  "調査IDT"
-    Description (Data 3):  "調査IDT"
-    Description (Data 4):  "調査IDT"
-    Description (Data 5):  "調査IDT"
-    Description (Data 6):  "調査IDT"
-    Description (Data 7):  "調査IDT"
-    Description (Data 8):  "調査IDT"
-    Description (Data 9):  "調査IDT"
-    Description (Data 10): "調査IDT"
-    Description (Data 11): "調査IDT"
-    Description (Data 12): "調査IDT"
-    Description (Data 13): "調査IDT"
-    Description (Data 14): "調査IDT"
-    Description (Data 15): "調査IDT"
-    Description (Data 16): "調査IDT"
-    Description (Data 17): "調査IDT"
-    Description (Data 18): "調査IDT"
+    Description (Base):    "調査アイデント"
+    Description (Data 1):  "調査アイデント"
+    Description (Data 2):  "調査アイデント"
+    Description (Data 3):  "調査アイデント"
+    Description (Data 4):  "調査アイデント"
+    Description (Data 5):  "調査アイデント"
+    Description (Data 6):  "調査アイデント"
+    Description (Data 7):  "調査アイデント"
+    Description (Data 8):  "調査アイデント"
+    Description (Data 9):  "調査アイデント"
+    Description (Data 10): "調査アイデント"
+    Description (Data 11): "調査アイデント"
+    Description (Data 12): "調査アイデント"
+    Description (Data 13): "調査アイデント"
+    Description (Data 14): "調査アイデント"
+    Description (Data 15): "調査アイデント"
+    Description (Data 16): "調査アイデント"
+    Description (Data 17): "調査アイデント"
+    Description (Data 18): "調査アイデント"
     Description (Data 19): "調査IDT"
     Description (Data 20): "調査IDT"
     Description (Data 21): "調査IDT"
@@ -195,7 +195,7 @@ capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==49
 capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==50
 capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==51
 capture replace v1_NEWVARIABLE = var1  if flag_tmp_NEWVARIABLE==52
-capture label variable v1_NEWVARIABLE "調査IDT"
+capture label variable v1_NEWVARIABLE "調査アイデント"
 
 
 /*----------------------------------------------------------------------
@@ -253,33 +253,33 @@ capture label variable v1_NEWVARIABLE "調査IDT"
     Description (Data 51): "調査情報: 調査年"
     Description (Data 52): "調査情報: 調査年"
 
-    Values (Base):     1992: 西暦(年)
-    Values (Data 1):   1992: 西暦(年)
-    Values (Data 2):   1992: 西暦(年)
-    Values (Data 3):   1992: 西暦(年)
-    Values (Data 4):   1992: 西暦(年)
-    Values (Data 5):   1998: 
-    Values (Data 6):   1998: 
-    Values (Data 7):   1998: 
-    Values (Data 8):   1998: 
-    Values (Data 9):   1998: 
-    Values (Data 10):  1998: 
-    Values (Data 11):  1998: 
-    Values (Data 12):  1998: 
-    Values (Data 13):  1998: 
-    Values (Data 14):  1998: 
-    Values (Data 15):  1998: 
-    Values (Data 16):  1998: 
-    Values (Data 17):  1999: 
-    Values (Data 18):  1999: 
-    Values (Data 19):  2000: 
-    Values (Data 20):  2000: 
-    Values (Data 21):  2000: 
-    Values (Data 22):  2000: 
-    Values (Data 23):  2000: 
-    Values (Data 24):  2000: 
-    Values (Data 25):  2000: 
-    Values (Data 26):  2000: 
+    Values (Base):     1992: 1992
+    Values (Data 1):   1992: 1992
+    Values (Data 2):   1992: 1992
+    Values (Data 3):   1992: 1992
+    Values (Data 4):   1992: 1992
+    Values (Data 5):  
+    Values (Data 6):  
+    Values (Data 7):  
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
+    Values (Data 13): 
+    Values (Data 14): 
+    Values (Data 15): 
+    Values (Data 16): 
+    Values (Data 17):  1999: 1999
+    Values (Data 18):  1999: 1999
+    Values (Data 19):  2000: 2000
+    Values (Data 20):  2000: 2000
+    Values (Data 21):  2000: 2000
+    Values (Data 22):  2000: 2000
+    Values (Data 23):  2000: 2000
+    Values (Data 24):  2000: 2000
+    Values (Data 25):  2000: 2000
+    Values (Data 26):  2000: 2000
     Values (Data 27): 
     Values (Data 28): 
     Values (Data 29): 
@@ -881,33 +881,33 @@ capture label variable v5_NEWVARIABLE "括番号"
     Description (Data 51): None
     Description (Data 52): None
 
-    Values (Base):     1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 1):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 2):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 3):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 4):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 5):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 6):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 7):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 8):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 9):   1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 10):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 11):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 12):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 13):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 14):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 15):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 16):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 17):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 18):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 19):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 20):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 21):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 22):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 23):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 24):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 25):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
-    Values (Data 26):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
+    Values (Base):     1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 1):   1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 2):   1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 3):   1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 4):   1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 5):   1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 6):   1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 7):   1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 8):   1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 9):   1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 10):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 11):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 12):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 13):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 14):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 15):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 16):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 17):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 18):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 19):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 20):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 21):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 22):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 23):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 24):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 25):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
+    Values (Data 26):  1: 北海道, 2: 東北, 3: 北関東, 4: 南関東, 5: 北陸, 6: 東海, 7: 近畿, 8: 京阪神, 9: 山陰, 10: 山陽, 11: 四国, 12: 北九州, 13: 南九州
     Values (Data 27):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
     Values (Data 28):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
     Values (Data 29):  1: 県番号:01, 2: 県番号:02~07, 3: 県番号:08~10,19,20, 4: 県番号:11~14, 5: 県番号:15~18, 6: 県番号:21~24, 7: 県番号:25,29,30, 8: 県番号:26~28, 9: 県番号:31,32, 10: 県番号:33~35, 11: 県番号:36~39, 12: 県番号:40~42, 13: 県番号:43,45~47
@@ -2321,11 +2321,11 @@ capture label variable v14_NEWVARIABLE "乗率マトリックス: 産業連番"
     Description (Data 51): None
     Description (Data 52): None
 
-    Values (Base):     1: , 2: , 3: , 4: 
-    Values (Data 1):   1: , 2: , 3: , 4: 
-    Values (Data 2):   1: , 2: , 3: , 4: 
-    Values (Data 3):   1: , 2: , 3: , 4: 
-    Values (Data 4):   1: , 2: , 3: , 4: 
+    Values (Base):     1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 1):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 2):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 3):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
+    Values (Data 4):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
     Values (Data 5):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
     Values (Data 6):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
     Values (Data 7):   1: 500人以上, 2: 100~499人, 3: 30~99人, 4: 5~29人
@@ -3375,33 +3375,33 @@ capture label variable v21_NEWVARIABLE "異動状況区分1常用名義男: 常�
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分1常用名義男減少労働者数: 離職者"
-    Description (Data 1):  "異動状況区分1常用名義男減少労働者数: 離職者"
-    Description (Data 2):  "異動状況区分1常用名義男減少労働者数: 離職者"
-    Description (Data 3):  "異動状況区分1常用名義男減少労働者数: 離職者"
-    Description (Data 4):  "異動状況区分1常用名義男減少労働者数: 離職者"
-    Description (Data 5):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 6):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 7):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 8):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 9):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 10): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 11): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 12): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 13): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 14): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 15): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 16): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 17): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 18): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 19): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 20): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 21): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 22): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 23): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 24): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 25): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
-    Description (Data 26): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
+    Description (Base):    "異動状況区分1常用名義男減少常用労働者: 離職者"
+    Description (Data 1):  "異動状況区分1常用名義男減少常用労働者: 離職者"
+    Description (Data 2):  "異動状況区分1常用名義男減少常用労働者: 離職者"
+    Description (Data 3):  "異動状況区分1常用名義男減少常用労働者: 離職者"
+    Description (Data 4):  "異動状況区分1常用名義男減少常用労働者: 離職者"
+    Description (Data 5):  "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 6):  "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 7):  "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 8):  "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 9):  "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 10): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 11): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 12): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 13): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 14): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 15): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 16): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 17): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 18): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 19): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 20): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 21): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 22): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 23): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 24): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 25): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
+    Description (Data 26): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: イ離職者"
     Description (Data 27): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
     Description (Data 28): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
     Description (Data 29): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: イ離職者"
@@ -3537,37 +3537,37 @@ capture replace v22_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==49
 capture replace v22_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==50
 capture replace v22_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==51
 capture replace v22_NEWVARIABLE = var16  if flag_tmp_NEWVARIABLE==52
-capture label variable v22_NEWVARIABLE "異動状況区分1常用名義男減少労働者数: 離職者"
+capture label variable v22_NEWVARIABLE "異動状況区分1常用名義男減少常用労働者: 離職者"
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分1常用名義男減少労働者数: 転出者等"
-    Description (Data 1):  "異動状況区分1常用名義男減少労働者数: 転出者等"
-    Description (Data 2):  "異動状況区分1常用名義男減少労働者数: 転出者等"
-    Description (Data 3):  "異動状況区分1常用名義男減少労働者数: 転出者等"
-    Description (Data 4):  "異動状況区分1常用名義男減少労働者数: 転出者等"
-    Description (Data 5):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 6):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 7):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 8):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 9):  "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 10): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 11): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 12): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 13): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 14): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 15): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 16): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 17): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 18): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 19): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 20): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 21): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 22): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 23): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 24): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 25): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 26): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
+    Description (Base):    "異動状況区分1常用名義男減少常用労働者: 転出者等"
+    Description (Data 1):  "異動状況区分1常用名義男減少常用労働者: 転出者等"
+    Description (Data 2):  "異動状況区分1常用名義男減少常用労働者: 転出者等"
+    Description (Data 3):  "異動状況区分1常用名義男減少常用労働者: 転出者等"
+    Description (Data 4):  "異動状況区分1常用名義男減少常用労働者: 転出者等"
+    Description (Data 5):  "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 6):  "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 7):  "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 8):  "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 9):  "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 10): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 11): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 12): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 13): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 14): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 15): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 16): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 17): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 18): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 19): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 20): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 21): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 22): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 23): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 24): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 25): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 26): "常用労働者の異動状況区分1常用名義男(4)減少常用労働者: ロ転出者等"
     Description (Data 27): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
     Description (Data 28): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
     Description (Data 29): "常用労働者の異動状況区分1常用名義男(4)減少労働者数: ロ転出者等"
@@ -3703,7 +3703,7 @@ capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==49
 capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==50
 capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==51
 capture replace v23_NEWVARIABLE = var17  if flag_tmp_NEWVARIABLE==52
-capture label variable v23_NEWVARIABLE "異動状況区分1常用名義男減少労働者数: 転出者等"
+capture label variable v23_NEWVARIABLE "異動状況区分1常用名義男減少常用労働者: 転出者等"
 
 
 /*----------------------------------------------------------------------
@@ -3878,20 +3878,20 @@ capture label variable v24_NEWVARIABLE "異動状況区分1常用名義男: 期�
     Description (Data 2):  "異動状況区分2常用名義女増加常用労働者: 入職者"
     Description (Data 3):  "異動状況区分2常用名義女増加常用労働者: 入職者"
     Description (Data 4):  "異動状況区分2常用名義女増加常用労働者: 入職者"
-    Description (Data 5):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 6):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 7):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 8):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 9):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 10): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 11): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 12): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 13): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 14): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 15): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 16): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 17): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
-    Description (Data 18): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 5):  "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 6):  "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 7):  "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 8):  "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 9):  "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 10): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 11): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 12): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 13): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 14): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 15): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 16): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 17): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
+    Description (Data 18): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
     Description (Data 19): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
     Description (Data 20): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
     Description (Data 21): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: イ入職者"
@@ -3987,20 +3987,20 @@ capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==1
 capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==2
 capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==3
 capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==4
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==5
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==6
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==7
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==8
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==9
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==10
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==11
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==12
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==13
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==14
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==15
-capture replace v25_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==16
-capture replace v25_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==17
-capture replace v25_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==18
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==5
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==6
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==7
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==8
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==9
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==10
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==11
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==12
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==13
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==14
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==15
+capture replace v25_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==16
+capture replace v25_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==17
+capture replace v25_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==18
 capture replace v25_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==19
 capture replace v25_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==20
 capture replace v25_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==21
@@ -4044,20 +4044,20 @@ capture label variable v25_NEWVARIABLE "異動状況区分2常用名義女増加
     Description (Data 2):  "異動状況区分2常用名義女増加常用労働者: 転入者等"
     Description (Data 3):  "異動状況区分2常用名義女増加常用労働者: 転入者等"
     Description (Data 4):  "異動状況区分2常用名義女増加常用労働者: 転入者等"
-    Description (Data 5):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 6):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 7):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 8):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 9):  "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 10): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 11): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 12): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 13): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 14): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 15): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 16): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 17): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
-    Description (Data 18): "常用労働者の異動状況区分3常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 5):  "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 6):  "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 7):  "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 8):  "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 9):  "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 10): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 11): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 12): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 13): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 14): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 15): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 16): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 17): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
+    Description (Data 18): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
     Description (Data 19): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
     Description (Data 20): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
     Description (Data 21): "常用労働者の異動状況区分2常用名義女(2)増加常用労働者: ロ転入者等"
@@ -4153,20 +4153,20 @@ capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==1
 capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==2
 capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==3
 capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==4
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==5
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==6
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==7
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==8
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==9
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==10
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==11
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==12
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==13
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==14
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==15
-capture replace v26_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==16
-capture replace v26_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==17
-capture replace v26_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==18
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==5
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==6
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==7
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==8
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==9
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==10
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==11
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==12
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==13
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==14
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==15
+capture replace v26_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==16
+capture replace v26_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==17
+capture replace v26_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==18
 capture replace v26_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==19
 capture replace v26_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==20
 capture replace v26_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==21
@@ -4210,20 +4210,20 @@ capture label variable v26_NEWVARIABLE "異動状況区分2常用名義女増加
     Description (Data 2):  "異動状況区分2常用名義女: 常用に切り替えられた者"
     Description (Data 3):  "異動状況区分2常用名義女: 常用に切り替えられた者"
     Description (Data 4):  "異動状況区分2常用名義女: 常用に切り替えられた者"
-    Description (Data 5):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 6):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 7):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 8):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 9):  "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 10): "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 11): "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 12): "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 13): "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 14): "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 15): "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 16): "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 17): "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
-    Description (Data 18): "常用労働者の異動状況区分3常用名義女: (3)常用に切り替えられた者"
+    Description (Data 5):  "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 6):  "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 7):  "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 8):  "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 9):  "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 10): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 11): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 12): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 13): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 14): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 15): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 16): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 17): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
+    Description (Data 18): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
     Description (Data 19): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
     Description (Data 20): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
     Description (Data 21): "常用労働者の異動状況区分2常用名義女: (3)常用に切り替えられた者"
@@ -4319,20 +4319,20 @@ capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==1
 capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==2
 capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==3
 capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==4
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==5
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==6
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==7
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==8
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==9
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==10
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==11
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==12
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==13
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==14
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==15
-capture replace v27_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==16
-capture replace v27_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==17
-capture replace v27_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==18
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==5
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==6
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==7
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==8
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==9
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==10
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==11
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==12
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==13
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==14
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==15
+capture replace v27_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==16
+capture replace v27_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==17
+capture replace v27_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==18
 capture replace v27_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==19
 capture replace v27_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==20
 capture replace v27_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==21
@@ -4371,33 +4371,33 @@ capture label variable v27_NEWVARIABLE "異動状況区分2常用名義女: 常�
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分2常用名義女減少労働者数: 離職者"
-    Description (Data 1):  "異動状況区分2常用名義女減少労働者数: 離職者"
-    Description (Data 2):  "異動状況区分2常用名義女減少労働者数: 離職者"
-    Description (Data 3):  "異動状況区分2常用名義女減少労働者数: 離職者"
-    Description (Data 4):  "異動状況区分2常用名義女減少労働者数: 離職者"
-    Description (Data 5):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 6):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 7):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 8):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 9):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 10): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 11): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 12): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 13): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 14): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 15): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 16): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 17): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 18): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 19): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 20): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 21): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 22): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 23): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 24): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 25): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: イ離職者"
-    Description (Data 26): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: イ離職者"
+    Description (Base):    "異動状況区分2常用名義女減少常用労働者: 離職者"
+    Description (Data 1):  "異動状況区分2常用名義女減少常用労働者: 離職者"
+    Description (Data 2):  "異動状況区分2常用名義女減少常用労働者: 離職者"
+    Description (Data 3):  "異動状況区分2常用名義女減少常用労働者: 離職者"
+    Description (Data 4):  "異動状況区分2常用名義女減少常用労働者: 離職者"
+    Description (Data 5):  "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 6):  "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 7):  "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 8):  "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 9):  "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 10): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 11): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 12): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 13): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 14): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 15): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 16): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 17): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 18): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 19): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 20): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 21): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 22): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 23): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 24): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 25): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
+    Description (Data 26): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: イ離職者"
     Description (Data 27): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
     Description (Data 28): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
     Description (Data 29): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: イ離職者"
@@ -4485,20 +4485,20 @@ capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==1
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==2
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==3
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==4
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==5
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==6
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==7
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==8
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==9
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==10
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==11
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==12
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==13
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==14
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==15
-capture replace v28_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==16
-capture replace v28_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==17
-capture replace v28_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==18
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==5
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==6
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==7
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==8
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==9
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==10
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==11
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==12
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==13
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==14
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==15
+capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==16
+capture replace v28_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==17
+capture replace v28_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==18
 capture replace v28_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==19
 capture replace v28_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==20
 capture replace v28_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==21
@@ -4533,37 +4533,37 @@ capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==49
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==50
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==51
 capture replace v28_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==52
-capture label variable v28_NEWVARIABLE "異動状況区分2常用名義女減少労働者数: 離職者"
+capture label variable v28_NEWVARIABLE "異動状況区分2常用名義女減少常用労働者: 離職者"
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分2常用名義女減少労働者数: 転出者等"
-    Description (Data 1):  "異動状況区分2常用名義女減少労働者数: 転出者等"
-    Description (Data 2):  "異動状況区分2常用名義女減少労働者数: 転出者等"
-    Description (Data 3):  "異動状況区分2常用名義女減少労働者数: 転出者等"
-    Description (Data 4):  "異動状況区分2常用名義女減少労働者数: 転出者等"
-    Description (Data 5):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 6):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 7):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 8):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 9):  "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 10): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 11): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 12): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 13): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 14): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 15): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 16): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 17): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 18): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 19): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 20): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 21): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 22): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 23): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 24): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 25): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 26): "常用労働者の異動状況区分2常用名義女(4)減少労働者数: ロ転出者等"
+    Description (Base):    "異動状況区分2常用名義女減少常用労働者: 転出者等"
+    Description (Data 1):  "異動状況区分2常用名義女減少常用労働者: 転出者等"
+    Description (Data 2):  "異動状況区分2常用名義女減少常用労働者: 転出者等"
+    Description (Data 3):  "異動状況区分2常用名義女減少常用労働者: 転出者等"
+    Description (Data 4):  "異動状況区分2常用名義女減少常用労働者: 転出者等"
+    Description (Data 5):  "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 6):  "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 7):  "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 8):  "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 9):  "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 10): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 11): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 12): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 13): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 14): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 15): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 16): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 17): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 18): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 19): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 20): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 21): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 22): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 23): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 24): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 25): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 26): "常用労働者の異動状況区分2常用名義女(4)減少常用労働者: ロ転出者等"
     Description (Data 27): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
     Description (Data 28): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
     Description (Data 29): "常用労働者の異動状況区分3常用名義女(4)減少労働者数: ロ転出者等"
@@ -4651,20 +4651,20 @@ capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==1
 capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==2
 capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==3
 capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==4
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==5
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==6
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==7
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==8
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==9
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==10
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==11
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==12
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==13
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==14
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==15
-capture replace v29_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==16
-capture replace v29_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==17
-capture replace v29_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==18
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==5
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==6
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==7
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==8
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==9
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==10
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==11
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==12
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==13
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==14
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==15
+capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==16
+capture replace v29_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==17
+capture replace v29_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==18
 capture replace v29_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==19
 capture replace v29_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==20
 capture replace v29_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==21
@@ -4699,7 +4699,7 @@ capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==49
 capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==50
 capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==51
 capture replace v29_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==52
-capture label variable v29_NEWVARIABLE "異動状況区分2常用名義女減少労働者数: 転出者等"
+capture label variable v29_NEWVARIABLE "異動状況区分2常用名義女減少常用労働者: 転出者等"
 
 
 /*----------------------------------------------------------------------
@@ -4708,20 +4708,20 @@ capture label variable v29_NEWVARIABLE "異動状況区分2常用名義女減少
     Description (Data 2):  "異動状況区分2常用名義女: 期末常用労働者"
     Description (Data 3):  "異動状況区分2常用名義女: 期末常用労働者"
     Description (Data 4):  "異動状況区分2常用名義女: 期末常用労働者"
-    Description (Data 5):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 6):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 7):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 8):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 9):  "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 10): "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 11): "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 12): "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 13): "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 14): "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 15): "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 16): "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 17): "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
-    Description (Data 18): "常用労働者の異動状況区分3常用名義女: (5)期末常用労働者"
+    Description (Data 5):  "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 6):  "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 7):  "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 8):  "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 9):  "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 10): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 11): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 12): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 13): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 14): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 15): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 16): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 17): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
+    Description (Data 18): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
     Description (Data 19): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
     Description (Data 20): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
     Description (Data 21): "常用労働者の異動状況区分2常用名義女: (5)期末常用労働者"
@@ -4817,20 +4817,20 @@ capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==1
 capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==2
 capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==3
 capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==4
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==5
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==6
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==7
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==8
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==9
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==10
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==11
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==12
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==13
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==14
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==15
-capture replace v30_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==16
-capture replace v30_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==17
-capture replace v30_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==18
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==5
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==6
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==7
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==8
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==9
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==10
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==11
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==12
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==13
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==14
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==15
+capture replace v30_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==16
+capture replace v30_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==17
+capture replace v30_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==18
 capture replace v30_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==19
 capture replace v30_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==20
 capture replace v30_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==21
@@ -4874,20 +4874,20 @@ capture label variable v30_NEWVARIABLE "異動状況区分2常用名義女: 期�
     Description (Data 2):  "異動状況区分3臨時・日雇名義男増加常用労働者: 入職者"
     Description (Data 3):  "異動状況区分3臨時・日雇名義男増加常用労働者: 入職者"
     Description (Data 4):  "異動状況区分3臨時・日雇名義男増加常用労働者: 入職者"
-    Description (Data 5):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 6):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 7):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 8):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 9):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 10): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 11): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 12): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 13): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 14): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 15): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 16): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 17): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
-    Description (Data 18): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: イ入職者"
+    Description (Data 5):  "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 6):  "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 7):  "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 8):  "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 9):  "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 10): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 11): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 12): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 13): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 14): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 15): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 16): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 17): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
+    Description (Data 18): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
     Description (Data 19): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
     Description (Data 20): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
     Description (Data 21): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: イ入職者"
@@ -4983,20 +4983,20 @@ capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==1
 capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==2
 capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==3
 capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==4
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==5
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==6
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==7
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==8
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==9
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==10
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==11
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==12
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==13
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==14
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==15
-capture replace v31_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==16
-capture replace v31_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==17
-capture replace v31_NEWVARIABLE = var24  if flag_tmp_NEWVARIABLE==18
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==5
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==6
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==7
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==8
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==9
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==10
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==11
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==12
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==13
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==14
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==15
+capture replace v31_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==16
+capture replace v31_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==17
+capture replace v31_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==18
 capture replace v31_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==19
 capture replace v31_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==20
 capture replace v31_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==21
@@ -5040,20 +5040,20 @@ capture label variable v31_NEWVARIABLE "異動状況区分3臨時・日雇名義
     Description (Data 2):  "異動状況区分3臨時・日雇名義男増加常用労働者: 転入者等"
     Description (Data 3):  "異動状況区分3臨時・日雇名義男増加常用労働者: 転入者等"
     Description (Data 4):  "異動状況区分3臨時・日雇名義男増加常用労働者: 転入者等"
-    Description (Data 5):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 6):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 7):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 8):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 9):  "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 10): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 11): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 12): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 13): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 14): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 15): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 16): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 17): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
-    Description (Data 18): "常用労働者の異動状況区分2臨時・日雇名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 5):  "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 6):  "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 7):  "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 8):  "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 9):  "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 10): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 11): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 12): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 13): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 14): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 15): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 16): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 17): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
+    Description (Data 18): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
     Description (Data 19): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
     Description (Data 20): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
     Description (Data 21): "常用労働者の異動状況区分3臨時・日雇い名義男(2)増加常用労働者: ロ転入者等"
@@ -5149,20 +5149,20 @@ capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==1
 capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==2
 capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==3
 capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==4
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==5
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==6
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==7
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==8
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==9
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==10
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==11
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==12
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==13
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==14
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==15
-capture replace v32_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==16
-capture replace v32_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==17
-capture replace v32_NEWVARIABLE = var25  if flag_tmp_NEWVARIABLE==18
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==5
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==6
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==7
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==8
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==9
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==10
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==11
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==12
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==13
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==14
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==15
+capture replace v32_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==16
+capture replace v32_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==17
+capture replace v32_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==18
 capture replace v32_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==19
 capture replace v32_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==20
 capture replace v32_NEWVARIABLE = var31  if flag_tmp_NEWVARIABLE==21
@@ -5206,20 +5206,20 @@ capture label variable v32_NEWVARIABLE "異動状況区分3臨時・日雇名義
     Description (Data 2):  "異動状況区分3臨時・日雇名義男: 常用に切り替えられた者"
     Description (Data 3):  "異動状況区分3臨時・日雇名義男: 常用に切り替えられた者"
     Description (Data 4):  "異動状況区分3臨時・日雇名義男: 常用に切り替えられた者"
-    Description (Data 5):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 6):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 7):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 8):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 9):  "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 10): "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 11): "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 12): "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 13): "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 14): "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 15): "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 16): "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 17): "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
-    Description (Data 18): "常用労働者の異動状況区分2臨時・日雇名義男: (3)常用に切り替えられた者"
+    Description (Data 5):  "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 6):  "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 7):  "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 8):  "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 9):  "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 10): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 11): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 12): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 13): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 14): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 15): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 16): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 17): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
+    Description (Data 18): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
     Description (Data 19): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
     Description (Data 20): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
     Description (Data 21): "常用労働者の異動状況区分3臨時・日雇い名義男: (3)常用に切り替えられた者"
@@ -5315,20 +5315,20 @@ capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==1
 capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==2
 capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==3
 capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==4
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==5
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==6
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==7
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==8
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==9
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==10
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==11
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==12
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==13
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==14
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==15
-capture replace v33_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==16
-capture replace v33_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==17
-capture replace v33_NEWVARIABLE = var26  if flag_tmp_NEWVARIABLE==18
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==5
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==6
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==7
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==8
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==9
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==10
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==11
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==12
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==13
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==14
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==15
+capture replace v33_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==16
+capture replace v33_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==17
+capture replace v33_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==18
 capture replace v33_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==19
 capture replace v33_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==20
 capture replace v33_NEWVARIABLE = var32  if flag_tmp_NEWVARIABLE==21
@@ -5367,33 +5367,33 @@ capture label variable v33_NEWVARIABLE "異動状況区分3臨時・日雇名義
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分3臨時・日雇名義男減少労働者数: 離職者"
-    Description (Data 1):  "異動状況区分3臨時・日雇名義男減少労働者数: 離職者"
-    Description (Data 2):  "異動状況区分3臨時・日雇名義男減少労働者数: 離職者"
-    Description (Data 3):  "異動状況区分3臨時・日雇名義男減少労働者数: 離職者"
-    Description (Data 4):  "異動状況区分3臨時・日雇名義男減少労働者数: 離職者"
-    Description (Data 5):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 6):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 7):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 8):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 9):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 10): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 11): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 12): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 13): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 14): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 15): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 16): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 17): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 18): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
-    Description (Data 19): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: イ離職者"
-    Description (Data 20): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: イ離職者"
-    Description (Data 21): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: イ離職者"
-    Description (Data 22): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: イ離職者"
-    Description (Data 23): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: イ離職者"
-    Description (Data 24): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: イ離職者"
-    Description (Data 25): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: イ離職者"
-    Description (Data 26): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: イ離職者"
+    Description (Base):    "異動状況区分3臨時・日雇名義男減少常用労働者: 離職者"
+    Description (Data 1):  "異動状況区分3臨時・日雇名義男減少常用労働者: 離職者"
+    Description (Data 2):  "異動状況区分3臨時・日雇名義男減少常用労働者: 離職者"
+    Description (Data 3):  "異動状況区分3臨時・日雇名義男減少常用労働者: 離職者"
+    Description (Data 4):  "異動状況区分3臨時・日雇名義男減少常用労働者: 離職者"
+    Description (Data 5):  "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 6):  "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 7):  "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 8):  "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 9):  "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 10): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 11): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 12): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 13): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 14): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 15): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 16): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 17): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 18): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 19): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 20): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 21): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 22): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 23): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 24): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 25): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
+    Description (Data 26): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: イ離職者"
     Description (Data 27): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
     Description (Data 28): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
     Description (Data 29): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: イ離職者"
@@ -5481,20 +5481,20 @@ capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==1
 capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==2
 capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==3
 capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==4
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==5
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==6
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==7
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==8
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==9
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==10
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==11
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==12
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==13
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==14
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==15
-capture replace v34_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==16
-capture replace v34_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==17
-capture replace v34_NEWVARIABLE = var27  if flag_tmp_NEWVARIABLE==18
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==5
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==6
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==7
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==8
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==9
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==10
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==11
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==12
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==13
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==14
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==15
+capture replace v34_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==16
+capture replace v34_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==17
+capture replace v34_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==18
 capture replace v34_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==19
 capture replace v34_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==20
 capture replace v34_NEWVARIABLE = var33  if flag_tmp_NEWVARIABLE==21
@@ -5529,37 +5529,37 @@ capture replace v34_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==49
 capture replace v34_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==50
 capture replace v34_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==51
 capture replace v34_NEWVARIABLE = var22  if flag_tmp_NEWVARIABLE==52
-capture label variable v34_NEWVARIABLE "異動状況区分3臨時・日雇名義男減少労働者数: 離職者"
+capture label variable v34_NEWVARIABLE "異動状況区分3臨時・日雇名義男減少常用労働者: 離職者"
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分3臨時・日雇名義男減少労働者数: 転出者等"
-    Description (Data 1):  "異動状況区分3臨時・日雇名義男減少労働者数: 転出者等"
-    Description (Data 2):  "異動状況区分3臨時・日雇名義男減少労働者数: 転出者等"
-    Description (Data 3):  "異動状況区分3臨時・日雇名義男減少労働者数: 転出者等"
-    Description (Data 4):  "異動状況区分3臨時・日雇名義男減少労働者数: 転出者等"
-    Description (Data 5):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 6):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 7):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 8):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 9):  "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 10): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 11): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 12): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 13): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 14): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 15): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 16): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 17): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 18): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 19): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 20): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 21): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 22): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 23): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 24): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 25): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: ロ転出者等"
-    Description (Data 26): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少労働者数: ロ転出者等"
+    Description (Base):    "異動状況区分3臨時・日雇名義男減少常用労働者: 転出者等"
+    Description (Data 1):  "異動状況区分3臨時・日雇名義男減少常用労働者: 転出者等"
+    Description (Data 2):  "異動状況区分3臨時・日雇名義男減少常用労働者: 転出者等"
+    Description (Data 3):  "異動状況区分3臨時・日雇名義男減少常用労働者: 転出者等"
+    Description (Data 4):  "異動状況区分3臨時・日雇名義男減少常用労働者: 転出者等"
+    Description (Data 5):  "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 6):  "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 7):  "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 8):  "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 9):  "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 10): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 11): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 12): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 13): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 14): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 15): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 16): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 17): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 18): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 19): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 20): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 21): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 22): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 23): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 24): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 25): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
+    Description (Data 26): "常用労働者の異動状況区分3臨時・日雇い名義男(4)減少常用労働者: ロ転出者等"
     Description (Data 27): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
     Description (Data 28): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
     Description (Data 29): "常用労働者の異動状況区分2臨時・日雇名義男(4)減少労働者数: ロ転出者等"
@@ -5647,20 +5647,20 @@ capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==1
 capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==2
 capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==3
 capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==4
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==5
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==6
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==7
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==8
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==9
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==10
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==11
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==12
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==13
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==14
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==15
-capture replace v35_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==16
-capture replace v35_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==17
-capture replace v35_NEWVARIABLE = var28  if flag_tmp_NEWVARIABLE==18
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==5
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==6
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==7
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==8
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==9
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==10
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==11
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==12
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==13
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==14
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==15
+capture replace v35_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==16
+capture replace v35_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==17
+capture replace v35_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==18
 capture replace v35_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==19
 capture replace v35_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==20
 capture replace v35_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==21
@@ -5695,7 +5695,7 @@ capture replace v35_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==49
 capture replace v35_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==50
 capture replace v35_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==51
 capture replace v35_NEWVARIABLE = var23  if flag_tmp_NEWVARIABLE==52
-capture label variable v35_NEWVARIABLE "異動状況区分3臨時・日雇名義男減少労働者数: 転出者等"
+capture label variable v35_NEWVARIABLE "異動状況区分3臨時・日雇名義男減少常用労働者: 転出者等"
 
 
 /*----------------------------------------------------------------------
@@ -5704,20 +5704,20 @@ capture label variable v35_NEWVARIABLE "異動状況区分3臨時・日雇名義
     Description (Data 2):  "異動状況区分3臨時・日雇名義男: 期末常用労働者"
     Description (Data 3):  "異動状況区分3臨時・日雇名義男: 期末常用労働者"
     Description (Data 4):  "異動状況区分3臨時・日雇名義男: 期末常用労働者"
-    Description (Data 5):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 6):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 7):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 8):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 9):  "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 10): "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 11): "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 12): "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 13): "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 14): "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 15): "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 16): "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 17): "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
-    Description (Data 18): "常用労働者の異動状況区分2臨時・日雇名義男: (5)期末常用労働者"
+    Description (Data 5):  "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 6):  "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 7):  "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 8):  "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 9):  "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 10): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 11): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 12): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 13): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 14): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 15): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 16): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 17): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
+    Description (Data 18): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
     Description (Data 19): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
     Description (Data 20): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
     Description (Data 21): "常用労働者の異動状況区分3臨時・日雇い名義男: (5)期末常用労働者"
@@ -5813,20 +5813,20 @@ capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==1
 capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==2
 capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==3
 capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==4
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==5
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==6
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==7
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==8
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==9
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==10
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==11
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==12
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==13
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==14
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==15
-capture replace v36_NEWVARIABLE = var30  if flag_tmp_NEWVARIABLE==16
-capture replace v36_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==17
-capture replace v36_NEWVARIABLE = var29  if flag_tmp_NEWVARIABLE==18
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==5
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==6
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==7
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==8
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==9
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==10
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==11
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==12
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==13
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==14
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==15
+capture replace v36_NEWVARIABLE = var36  if flag_tmp_NEWVARIABLE==16
+capture replace v36_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==17
+capture replace v36_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==18
 capture replace v36_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==19
 capture replace v36_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==20
 capture replace v36_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==21
@@ -6363,33 +6363,33 @@ capture label variable v39_NEWVARIABLE "異動状況区分4臨時・日雇名義
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分4臨時・日雇名義女減少労働者数: 離職者"
-    Description (Data 1):  "異動状況区分4臨時・日雇名義女減少労働者数: 離職者"
-    Description (Data 2):  "異動状況区分4臨時・日雇名義女減少労働者数: 離職者"
-    Description (Data 3):  "異動状況区分4臨時・日雇名義女減少労働者数: 離職者"
-    Description (Data 4):  "異動状況区分4臨時・日雇名義女減少労働者数: 離職者"
-    Description (Data 5):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 6):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 7):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 8):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 9):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 10): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 11): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 12): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 13): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 14): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 15): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 16): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 17): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 18): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 19): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 20): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 21): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 22): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 23): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 24): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 25): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
-    Description (Data 26): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: イ離職者"
+    Description (Base):    "異動状況区分4臨時・日雇名義女減少常用労働者: 離職者"
+    Description (Data 1):  "異動状況区分4臨時・日雇名義女減少常用労働者: 離職者"
+    Description (Data 2):  "異動状況区分4臨時・日雇名義女減少常用労働者: 離職者"
+    Description (Data 3):  "異動状況区分4臨時・日雇名義女減少常用労働者: 離職者"
+    Description (Data 4):  "異動状況区分4臨時・日雇名義女減少常用労働者: 離職者"
+    Description (Data 5):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 6):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 7):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 8):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 9):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 10): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 11): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 12): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 13): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 14): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 15): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 16): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 17): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 18): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 19): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 20): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 21): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 22): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 23): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 24): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 25): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
+    Description (Data 26): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: イ離職者"
     Description (Data 27): "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: イ離職者"
     Description (Data 28): "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: イ離職者"
     Description (Data 29): "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: イ離職者"
@@ -6525,37 +6525,37 @@ capture replace v40_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==49
 capture replace v40_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==50
 capture replace v40_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==51
 capture replace v40_NEWVARIABLE = var34  if flag_tmp_NEWVARIABLE==52
-capture label variable v40_NEWVARIABLE "異動状況区分4臨時・日雇名義女減少労働者数: 離職者"
+capture label variable v40_NEWVARIABLE "異動状況区分4臨時・日雇名義女減少常用労働者: 離職者"
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分4臨時・日雇名義女減少労働者数: 転出者等"
-    Description (Data 1):  "異動状況区分4臨時・日雇名義女減少労働者数: 転出者等"
-    Description (Data 2):  "異動状況区分4臨時・日雇名義女減少労働者数: 転出者等"
-    Description (Data 3):  "異動状況区分4臨時・日雇名義女減少労働者数: 転出者等"
-    Description (Data 4):  "異動状況区分4臨時・日雇名義女減少労働者数: 転出者等"
-    Description (Data 5):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 6):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 7):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 8):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 9):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 10): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 11): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 12): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 13): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 14): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 15): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 16): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 17): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 18): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 19): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 20): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 21): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 22): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 23): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 24): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 25): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
-    Description (Data 26): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少労働者数: ロ転出者等"
+    Description (Base):    "異動状況区分4臨時・日雇名義女減少常用労働者: 転出者等"
+    Description (Data 1):  "異動状況区分4臨時・日雇名義女減少常用労働者: 転出者等"
+    Description (Data 2):  "異動状況区分4臨時・日雇名義女減少常用労働者: 転出者等"
+    Description (Data 3):  "異動状況区分4臨時・日雇名義女減少常用労働者: 転出者等"
+    Description (Data 4):  "異動状況区分4臨時・日雇名義女減少常用労働者: 転出者等"
+    Description (Data 5):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 6):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 7):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 8):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 9):  "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 10): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 11): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 12): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 13): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 14): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 15): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 16): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 17): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 18): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 19): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 20): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 21): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 22): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 23): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 24): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 25): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
+    Description (Data 26): "常用労働者の異動状況区分4臨時・日雇い名義女(4)減少常用労働者: ロ転出者等"
     Description (Data 27): "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: ロ転出者等"
     Description (Data 28): "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: ロ転出者等"
     Description (Data 29): "常用労働者の異動状況区分4臨時・日雇名義女(4)減少労働者数: ロ転出者等"
@@ -6691,7 +6691,7 @@ capture replace v41_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==49
 capture replace v41_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==50
 capture replace v41_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==51
 capture replace v41_NEWVARIABLE = var35  if flag_tmp_NEWVARIABLE==52
-capture label variable v41_NEWVARIABLE "異動状況区分4臨時・日雇名義女減少労働者数: 転出者等"
+capture label variable v41_NEWVARIABLE "異動状況区分4臨時・日雇名義女減少常用労働者: 転出者等"
 
 
 /*----------------------------------------------------------------------
@@ -7341,33 +7341,33 @@ capture label variable v45_NEWVARIABLE "異動状況区分5合計: 常用に切�
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分5合計減少労働者数: 離職者"
-    Description (Data 1):  "異動状況区分5合計減少労働者数: 離職者"
-    Description (Data 2):  "異動状況区分5合計減少労働者数: 離職者"
-    Description (Data 3):  "異動状況区分5合計減少労働者数: 離職者"
-    Description (Data 4):  "異動状況区分5合計減少労働者数: 離職者"
-    Description (Data 5):  "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 6):  "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 7):  "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 8):  "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 9):  "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 10): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 11): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 12): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 13): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 14): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 15): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 16): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 17): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 18): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 19): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 20): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 21): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 22): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 23): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 24): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 25): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
-    Description (Data 26): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
+    Description (Base):    "異動状況区分5合計減少常用労働者: 離職者"
+    Description (Data 1):  "異動状況区分5合計減少常用労働者: 離職者"
+    Description (Data 2):  "異動状況区分5合計減少常用労働者: 離職者"
+    Description (Data 3):  "異動状況区分5合計減少常用労働者: 離職者"
+    Description (Data 4):  "異動状況区分5合計減少常用労働者: 離職者"
+    Description (Data 5):  "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 6):  "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 7):  "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 8):  "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 9):  "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 10): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 11): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 12): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 13): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 14): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 15): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 16): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 17): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 18): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 19): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 20): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 21): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 22): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 23): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 24): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 25): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
+    Description (Data 26): "常用労働者の異動状況区分5合計(4)減少常用労働者: イ離職者"
     Description (Data 27): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
     Description (Data 28): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
     Description (Data 29): "常用労働者の異動状況区分5合計(4)減少労働者数: イ離職者"
@@ -7503,37 +7503,37 @@ capture replace v46_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==49
 capture replace v46_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==50
 capture replace v46_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==51
 capture replace v46_NEWVARIABLE = var39  if flag_tmp_NEWVARIABLE==52
-capture label variable v46_NEWVARIABLE "異動状況区分5合計減少労働者数: 離職者"
+capture label variable v46_NEWVARIABLE "異動状況区分5合計減少常用労働者: 離職者"
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分5合計減少労働者数: 転出者等"
-    Description (Data 1):  "異動状況区分5合計減少労働者数: 転出者等"
-    Description (Data 2):  "異動状況区分5合計減少労働者数: 転出者等"
-    Description (Data 3):  "異動状況区分5合計減少労働者数: 転出者等"
-    Description (Data 4):  "異動状況区分5合計減少労働者数: 転出者等"
-    Description (Data 5):  "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 6):  "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 7):  "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 8):  "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 9):  "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 10): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 11): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 12): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 13): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 14): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 15): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 16): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 17): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 18): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 19): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 20): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 21): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 22): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 23): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 24): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 25): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
-    Description (Data 26): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
+    Description (Base):    "異動状況区分5合計減少常用労働者: 転出者等"
+    Description (Data 1):  "異動状況区分5合計減少常用労働者: 転出者等"
+    Description (Data 2):  "異動状況区分5合計減少常用労働者: 転出者等"
+    Description (Data 3):  "異動状況区分5合計減少常用労働者: 転出者等"
+    Description (Data 4):  "異動状況区分5合計減少常用労働者: 転出者等"
+    Description (Data 5):  "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 6):  "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 7):  "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 8):  "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 9):  "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 10): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 11): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 12): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 13): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 14): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 15): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 16): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 17): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 18): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 19): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 20): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 21): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 22): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 23): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 24): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 25): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
+    Description (Data 26): "常用労働者の異動状況区分5合計(4)減少常用労働者: ロ転出者等"
     Description (Data 27): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
     Description (Data 28): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
     Description (Data 29): "常用労働者の異動状況区分5合計(4)減少労働者数: ロ転出者等"
@@ -7669,7 +7669,7 @@ capture replace v47_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==49
 capture replace v47_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==50
 capture replace v47_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==51
 capture replace v47_NEWVARIABLE = var40  if flag_tmp_NEWVARIABLE==52
-capture label variable v47_NEWVARIABLE "異動状況区分5合計減少労働者数: 転出者等"
+capture label variable v47_NEWVARIABLE "異動状況区分5合計減少常用労働者: 転出者等"
 
 
 /*----------------------------------------------------------------------
@@ -8319,33 +8319,33 @@ capture label variable v51_NEWVARIABLE "異動状況区分6うちパートタイ
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分6うちパートタイム男減少労働者数: 離職者"
-    Description (Data 1):  "異動状況区分6うちパートタイム男減少労働者数: 離職者"
-    Description (Data 2):  "異動状況区分6うちパートタイム男減少労働者数: 離職者"
-    Description (Data 3):  "異動状況区分6うちパートタイム男減少労働者数: 離職者"
-    Description (Data 4):  "異動状況区分6うちパートタイム男減少労働者数: 離職者"
-    Description (Data 5):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 6):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 7):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 8):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 9):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 10): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 11): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 12): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 13): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 14): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 15): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 16): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 17): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 18): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 19): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 20): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 21): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 22): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 23): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 24): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 25): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
-    Description (Data 26): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
+    Description (Base):    "異動状況区分6うちパートタイム男減少常用労働者: 離職者"
+    Description (Data 1):  "異動状況区分6うちパートタイム男減少常用労働者: 離職者"
+    Description (Data 2):  "異動状況区分6うちパートタイム男減少常用労働者: 離職者"
+    Description (Data 3):  "異動状況区分6うちパートタイム男減少常用労働者: 離職者"
+    Description (Data 4):  "異動状況区分6うちパートタイム男減少常用労働者: 離職者"
+    Description (Data 5):  "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 6):  "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 7):  "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 8):  "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 9):  "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 10): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 11): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 12): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 13): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 14): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 15): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 16): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 17): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 18): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 19): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 20): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 21): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 22): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 23): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 24): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 25): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
+    Description (Data 26): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: イ離職者"
     Description (Data 27): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
     Description (Data 28): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
     Description (Data 29): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: イ離職者"
@@ -8481,37 +8481,37 @@ capture replace v52_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==49
 capture replace v52_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==50
 capture replace v52_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==51
 capture replace v52_NEWVARIABLE = var44  if flag_tmp_NEWVARIABLE==52
-capture label variable v52_NEWVARIABLE "異動状況区分6うちパートタイム男減少労働者数: 離職者"
+capture label variable v52_NEWVARIABLE "異動状況区分6うちパートタイム男減少常用労働者: 離職者"
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分6うちパートタイム男減少労働者数: 転出者等"
-    Description (Data 1):  "異動状況区分6うちパートタイム男減少労働者数: 転出者等"
-    Description (Data 2):  "異動状況区分6うちパートタイム男減少労働者数: 転出者等"
-    Description (Data 3):  "異動状況区分6うちパートタイム男減少労働者数: 転出者等"
-    Description (Data 4):  "異動状況区分6うちパートタイム男減少労働者数: 転出者等"
-    Description (Data 5):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 6):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 7):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 8):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 9):  "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 10): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 11): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 12): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 13): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 14): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 15): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 16): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 17): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 18): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 19): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 20): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 21): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 22): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 23): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 24): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 25): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
-    Description (Data 26): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
+    Description (Base):    "異動状況区分6うちパートタイム男減少常用労働者: 転出者等"
+    Description (Data 1):  "異動状況区分6うちパートタイム男減少常用労働者: 転出者等"
+    Description (Data 2):  "異動状況区分6うちパートタイム男減少常用労働者: 転出者等"
+    Description (Data 3):  "異動状況区分6うちパートタイム男減少常用労働者: 転出者等"
+    Description (Data 4):  "異動状況区分6うちパートタイム男減少常用労働者: 転出者等"
+    Description (Data 5):  "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 6):  "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 7):  "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 8):  "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 9):  "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 10): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 11): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 12): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 13): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 14): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 15): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 16): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 17): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 18): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 19): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 20): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 21): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 22): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 23): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 24): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 25): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
+    Description (Data 26): "常用労働者の異動状況区分6うちパートタイム男(4)減少常用労働者: ロ転出者等"
     Description (Data 27): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
     Description (Data 28): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
     Description (Data 29): "常用労働者の異動状況区分6うちパートタイム男(4)減少労働者数: ロ転出者等"
@@ -8647,7 +8647,7 @@ capture replace v53_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==49
 capture replace v53_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==50
 capture replace v53_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==51
 capture replace v53_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==52
-capture label variable v53_NEWVARIABLE "異動状況区分6うちパートタイム男減少労働者数: 転出者等"
+capture label variable v53_NEWVARIABLE "異動状況区分6うちパートタイム男減少常用労働者: 転出者等"
 
 
 /*----------------------------------------------------------------------
@@ -9297,33 +9297,33 @@ capture label variable v57_NEWVARIABLE "異動状況区分7うちパートタイ
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分7うちパートタイム女減少労働者数: 離職者"
-    Description (Data 1):  "異動状況区分7うちパートタイム女減少労働者数: 離職者"
-    Description (Data 2):  "異動状況区分7うちパートタイム女減少労働者数: 離職者"
-    Description (Data 3):  "異動状況区分7うちパートタイム女減少労働者数: 離職者"
-    Description (Data 4):  "異動状況区分7うちパートタイム女減少労働者数: 離職者"
-    Description (Data 5):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 6):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 7):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 8):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 9):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 10): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 11): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 12): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 13): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 14): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 15): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 16): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 17): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 18): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 19): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 20): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 21): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 22): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 23): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 24): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 25): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
-    Description (Data 26): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
+    Description (Base):    "異動状況区分7うちパートタイム女減少常用労働者: 離職者"
+    Description (Data 1):  "異動状況区分7うちパートタイム女減少常用労働者: 離職者"
+    Description (Data 2):  "異動状況区分7うちパートタイム女減少常用労働者: 離職者"
+    Description (Data 3):  "異動状況区分7うちパートタイム女減少常用労働者: 離職者"
+    Description (Data 4):  "異動状況区分7うちパートタイム女減少常用労働者: 離職者"
+    Description (Data 5):  "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 6):  "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 7):  "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 8):  "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 9):  "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 10): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 11): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 12): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 13): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 14): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 15): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 16): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 17): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 18): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 19): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 20): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 21): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 22): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 23): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 24): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 25): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
+    Description (Data 26): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: イ離職者"
     Description (Data 27): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
     Description (Data 28): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
     Description (Data 29): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: イ離職者"
@@ -9459,37 +9459,37 @@ capture replace v58_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==49
 capture replace v58_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==50
 capture replace v58_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==51
 capture replace v58_NEWVARIABLE = var49  if flag_tmp_NEWVARIABLE==52
-capture label variable v58_NEWVARIABLE "異動状況区分7うちパートタイム女減少労働者数: 離職者"
+capture label variable v58_NEWVARIABLE "異動状況区分7うちパートタイム女減少常用労働者: 離職者"
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分7うちパートタイム女減少労働者数: 転出者等"
-    Description (Data 1):  "異動状況区分7うちパートタイム女減少労働者数: 転出者等"
-    Description (Data 2):  "異動状況区分7うちパートタイム女減少労働者数: 転出者等"
-    Description (Data 3):  "異動状況区分7うちパートタイム女減少労働者数: 転出者等"
-    Description (Data 4):  "異動状況区分7うちパートタイム女減少労働者数: 転出者等"
-    Description (Data 5):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 6):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 7):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 8):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 9):  "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 10): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 11): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 12): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 13): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 14): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 15): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 16): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 17): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 18): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 19): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 20): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 21): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 22): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 23): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 24): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 25): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
-    Description (Data 26): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
+    Description (Base):    "異動状況区分7うちパートタイム女減少常用労働者: 転出者等"
+    Description (Data 1):  "異動状況区分7うちパートタイム女減少常用労働者: 転出者等"
+    Description (Data 2):  "異動状況区分7うちパートタイム女減少常用労働者: 転出者等"
+    Description (Data 3):  "異動状況区分7うちパートタイム女減少常用労働者: 転出者等"
+    Description (Data 4):  "異動状況区分7うちパートタイム女減少常用労働者: 転出者等"
+    Description (Data 5):  "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 6):  "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 7):  "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 8):  "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 9):  "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 10): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 11): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 12): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 13): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 14): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 15): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 16): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 17): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 18): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 19): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 20): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 21): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 22): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 23): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 24): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 25): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
+    Description (Data 26): "常用労働者の異動状況区分7うちパートタイム女(4)減少常用労働者: ロ転出者等"
     Description (Data 27): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
     Description (Data 28): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
     Description (Data 29): "常用労働者の異動状況区分7うちパートタイム女(4)減少労働者数: ロ転出者等"
@@ -9625,7 +9625,7 @@ capture replace v59_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==49
 capture replace v59_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==50
 capture replace v59_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==51
 capture replace v59_NEWVARIABLE = var50  if flag_tmp_NEWVARIABLE==52
-capture label variable v59_NEWVARIABLE "異動状況区分7うちパートタイム女減少労働者数: 転出者等"
+capture label variable v59_NEWVARIABLE "異動状況区分7うちパートタイム女減少常用労働者: 転出者等"
 
 
 /*----------------------------------------------------------------------
@@ -10257,33 +10257,33 @@ capture label variable v63_NEWVARIABLE "異動状況区分8出向者: 常用に�
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分8出向者減少労働者数: 離職者"
-    Description (Data 1):  "異動状況区分8出向者減少労働者数: 離職者"
-    Description (Data 2):  "異動状況区分8出向者減少労働者数: 離職者"
-    Description (Data 3):  "異動状況区分8出向者減少労働者数: 離職者"
-    Description (Data 4):  "異動状況区分8出向者減少労働者数: 離職者"
-    Description (Data 5):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 6):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 7):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 8):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 9):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 10): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 11): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 12): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 13): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 14): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 15): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 16): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 17): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 18): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 19): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 20): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 21): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 22): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 23): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 24): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 25): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
-    Description (Data 26): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
+    Description (Base):    "異動状況区分8出向者減少常用労働者: 離職者"
+    Description (Data 1):  "異動状況区分8出向者減少常用労働者: 離職者"
+    Description (Data 2):  "異動状況区分8出向者減少常用労働者: 離職者"
+    Description (Data 3):  "異動状況区分8出向者減少常用労働者: 離職者"
+    Description (Data 4):  "異動状況区分8出向者減少常用労働者: 離職者"
+    Description (Data 5):  "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 6):  "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 7):  "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 8):  "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 9):  "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 10): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 11): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 12): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 13): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 14): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 15): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 16): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 17): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 18): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 19): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 20): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 21): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 22): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 23): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 24): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 25): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
+    Description (Data 26): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: イ離職者"
     Description (Data 27): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
     Description (Data 28): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
     Description (Data 29): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: イ離職者"
@@ -10419,37 +10419,37 @@ capture replace v64_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==49
 capture replace v64_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==50
 capture replace v64_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==51
 capture replace v64_NEWVARIABLE = var53  if flag_tmp_NEWVARIABLE==52
-capture label variable v64_NEWVARIABLE "異動状況区分8出向者減少労働者数: 離職者"
+capture label variable v64_NEWVARIABLE "異動状況区分8出向者減少常用労働者: 離職者"
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "異動状況区分8出向者減少労働者数: 転出者等"
-    Description (Data 1):  "異動状況区分8出向者減少労働者数: 転出者等"
-    Description (Data 2):  "異動状況区分8出向者減少労働者数: 転出者等"
-    Description (Data 3):  "異動状況区分8出向者減少労働者数: 転出者等"
-    Description (Data 4):  "異動状況区分8出向者減少労働者数: 転出者等"
-    Description (Data 5):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 6):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 7):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 8):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 9):  "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 10): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 11): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 12): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 13): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 14): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 15): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 16): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 17): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 18): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 19): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 20): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 21): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 22): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 23): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 24): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 25): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
-    Description (Data 26): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
+    Description (Base):    "異動状況区分8出向者減少常用労働者: 転出者等"
+    Description (Data 1):  "異動状況区分8出向者減少常用労働者: 転出者等"
+    Description (Data 2):  "異動状況区分8出向者減少常用労働者: 転出者等"
+    Description (Data 3):  "異動状況区分8出向者減少常用労働者: 転出者等"
+    Description (Data 4):  "異動状況区分8出向者減少常用労働者: 転出者等"
+    Description (Data 5):  "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 6):  "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 7):  "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 8):  "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 9):  "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 10): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 11): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 12): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 13): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 14): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 15): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 16): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 17): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 18): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 19): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 20): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 21): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 22): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 23): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 24): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 25): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
+    Description (Data 26): "常用労働者の異動状況区分8うち出向者(4)減少常用労働者: ロ転出者等"
     Description (Data 27): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
     Description (Data 28): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
     Description (Data 29): "常用労働者の異動状況区分8うち出向者(4)減少労働者数: ロ転出者等"
@@ -10567,7 +10567,7 @@ capture replace v65_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==31
 capture replace v65_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==32
 capture replace v65_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==33
 capture replace v65_NEWVARIABLE = var73  if flag_tmp_NEWVARIABLE==34
-capture label variable v65_NEWVARIABLE "異動状況区分8出向者減少労働者数: 転出者等"
+capture label variable v65_NEWVARIABLE "異動状況区分8出向者減少常用労働者: 転出者等"
 
 
 /*----------------------------------------------------------------------
