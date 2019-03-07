@@ -28,7 +28,7 @@
 
 
     Source: 平成08年〜12年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/03/07 14:17:14
+    Date: 2019/03/07 15:51:20
 ----------------------------------------------------------------------*/
 
 
@@ -81,5 +81,5 @@
         str var45 117-119
         str var46 120-122
         str var47 123-128
-    using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_k-chin/h08_k-chin.txt";
+    using "/mnt/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_k-chin/h08_k-chin.txt";
 #delimit cr
