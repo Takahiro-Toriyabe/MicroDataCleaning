@@ -12,7 +12,7 @@ inpath = "C:/Users/Takahiro/Desktop/layout"
 outpath = "D:/GitHub/MicroDataCleaning/do-file"
 # outpath = "C:/Users/Takahiro/Desktop"
 
-datapath = "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報"
+datapath = "/mnt/WageCensus_EmploymentTrend/raw/調査票情報"
 
 # Wage Census (Kojin-hyo)
 os.chdir(inpath + "/賃金構造基本統計調査/符号表（個人票）")

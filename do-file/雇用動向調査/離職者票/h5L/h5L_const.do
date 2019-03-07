@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（離職者票）h5.xlsx
-    Date: 2019/03/07 14:31:15
+    Date: 2019/03/07 15:58:50
 ----------------------------------------------------------------------*/
 
 
@@ -61,5 +61,5 @@
         str var25 67-67
         str var26 68-68
         str var27 73-74
-    using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_r-koyo/H05_r-koyo07.txt";
+    using "/mnt/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_r-koyo/H05_r-koyo07.txt";
 #delimit cr

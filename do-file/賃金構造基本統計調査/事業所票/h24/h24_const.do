@@ -28,7 +28,7 @@
 
 
     Source: 平成17～29年_賃金構造基本統計調査_事業所票（初任給）.xls
-    Date: 2019/03/07 14:17:49
+    Date: 2019/03/07 15:51:41
 ----------------------------------------------------------------------*/
 
 
@@ -85,5 +85,5 @@
         str In_Jimu_M 159-162
         str In_Gaku_W 163-166
         str In_Jin_W 167-170
-    using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_j-chin/h24_j-chin.txt";
+    using "/mnt/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_j-chin/h24_j-chin.txt";
 #delimit cr

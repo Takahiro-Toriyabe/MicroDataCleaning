@@ -28,7 +28,7 @@
 
 
     Source: （参考）符号表_雇用動向調査（事業所票）h16-28.xlsx
-    Date: 2019/03/07 14:18:34
+    Date: 2019/03/07 15:52:07
 ----------------------------------------------------------------------*/
 
 
@@ -185,5 +185,5 @@
         str var149 889-897
         str var150 898-899
         str var151 900-900
-    using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_j-koyo/H26_j-koyo01.txt";
+    using "/mnt/WageCensus_EmploymentTrend/raw/調査票情報/雇用動向調査/H03-28_j-koyo/H26_j-koyo01.txt";
 #delimit cr

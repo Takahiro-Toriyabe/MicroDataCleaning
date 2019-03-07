@@ -28,7 +28,7 @@
 
 
     Source: 平成17～29年_賃金構造基本統計調査_事業所票（初任給）.xls
-    Date: 2019/03/07 14:17:48
+    Date: 2019/03/07 15:51:40
 ----------------------------------------------------------------------*/
 
 
@@ -85,5 +85,5 @@
         str var49 163-166
         str var50 167-170
         str var51 172-172
-    using "/media/HD-LXU3/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_j-chin/h17_j-chin.txt";
+    using "/mnt/WageCensus_EmploymentTrend/raw/調査票情報/賃金構造基本統計調査/h01-29_j-chin/h17_j-chin.txt";
 #delimit cr
