@@ -28,7 +28,7 @@
 
 
     Source: 平成08〜13年_賃金構造基本統計調査_事業所票（初任給）.xlsx
-    Date: 2019/03/06 18:14:58
+    Date: 2019/03/07 14:17:48
 ----------------------------------------------------------------------*/
 
 
@@ -46,7 +46,7 @@ capture label variable var11 "初任給用: 企業規模"
 capture label variable var12 "マスター: 産業番号"
 capture label variable var13 "マスター: 事業所規模"
 capture label variable var14 "マスター: 企業規模"
-capture label variable var15 "抽出単位産業コード"
+capture label variable var15 "マスター: 抽出単位産業コード"
 capture label variable var16 "調査票: 産業番号"
 capture label variable var17 "調査票: 事業所規模"
 capture label variable var18 "調査票: 企業規模"

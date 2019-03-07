@@ -28,7 +28,7 @@
 
 
     Source: 平成05年〜06年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/03/06 18:14:36
+    Date: 2019/03/07 14:17:13
 ----------------------------------------------------------------------*/
 
 
@@ -45,7 +45,7 @@ capture label variable var10 "事業所番号"
 capture label variable var11 "マスタ: 産業番号"
 capture label variable var12 "マスタ: 事業所規模"
 capture label variable var13 "マスタ: 企業規模"
-capture label variable var14 "抽出産業番号"
+capture label variable var14 "マスタ: 抽出産業番号"
 capture label variable var15 "調査票: 産業番号"
 capture label variable var16 "調査票: 事業所規模"
 capture label variable var17 "調査票: 企業規模"
@@ -67,12 +67,12 @@ capture label variable var32 "就業形態"
 capture label variable var33 "学歴"
 capture label variable var34 "年齢"
 capture label variable var35 "勤続年数"
-capture label variable var36 "階級又は職種番号"
+capture label variable var36 "職階又は職種番号"
 capture label variable var37 "経験年数"
 capture label variable var38 "実労働日数"
 capture label variable var39 "所定内実労働時間数"
 capture label variable var40 "超過実労働時間数"
-capture label variable var41 "決まって支給する現金給与額"
+capture label variable var41 "決まって支給する現金給与"
 capture label variable var42 "超過労働給与額"
 capture label variable var43 "所定内給与額"
 capture label variable var44 "うち通勤手当"

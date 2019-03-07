@@ -28,7 +28,7 @@
 
 
     Source: 平成01年〜04年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/03/06 18:14:36
+    Date: 2019/03/07 14:17:13
 ----------------------------------------------------------------------*/
 
 
@@ -36,15 +36,11 @@ capture count if var1==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var1} (調査年)"
 }
-capture assert inlist(var1, 1991, .)
-if _rc!=0 {
-    display as error "WARNING: {bf:var1} (調査年) may have invalid values (Check layout sheet)"
-}
 
 
 capture count if var2==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var2} (府県ごとの括番号)"
+    display as error "Only missing value: {bf:var2} (括番号)"
 }
 
 
@@ -172,6 +168,10 @@ capture count if var21==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var21} (本支区分)"
 }
+capture assert inlist(var21, 1, 2, 3, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var21} (本支区分) may have invalid values (Check layout sheet)"
+}
 
 
 capture count if var22==.
@@ -278,7 +278,11 @@ if r(N)==_N {
 
 capture count if var35==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var35} (階級又は職種番号)"
+    display as error "Only missing value: {bf:var35} (職階・職種)"
+}
+capture assert inlist(var35, 101, 102, 103, 104, 105, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var35} (職階・職種) may have invalid values (Check layout sheet)"
 }
 
 
@@ -300,55 +304,55 @@ if r(N)==_N {
 
 capture count if var38==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var38} (所定内実労働時間数)"
+    display as error "Only missing value: {bf:var38} (所定内実労働時間)"
 }
 
 
 capture count if var39==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var39} (超過実労働時間数)"
+    display as error "Only missing value: {bf:var39} (超過実労働時間)"
 }
 
 
 capture count if var40==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var40} (決まって支給する現金給与額)"
+    display as error "Only missing value: {bf:var40} (現金給与)"
 }
 
 
 capture count if var41==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var41} (超過労働給与額)"
+    display as error "Only missing value: {bf:var41} (超過労働給与)"
 }
 
 
 capture count if var42==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var42} (所定内給与額)"
+    display as error "Only missing value: {bf:var42} (所定内給与)"
 }
 
 
 capture count if var43==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var43} (うち通勤手当)"
+    display as error "Only missing value: {bf:var43} (通勤手当)"
 }
 
 
 capture count if var44==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var44} (うち精皆勤手当)"
+    display as error "Only missing value: {bf:var44} (精皆勤手当)"
 }
 
 
 capture count if var45==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var45} (うち家族手当)"
+    display as error "Only missing value: {bf:var45} (家族手当)"
 }
 
 
 capture count if var46==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var46} (賞与等特別支給額)"
+    display as error "Only missing value: {bf:var46} (特別給与)"
 }
 
 

@@ -28,7 +28,7 @@
 
 
     Source: 平成07年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/03/06 18:14:36
+    Date: 2019/03/07 14:17:14
 ----------------------------------------------------------------------*/
 
 
@@ -50,7 +50,7 @@ capture label values var17 var17
 capture label define var18 1 "算入済" 2 "未算入" 3 "未決定" 4 "実施無" 
 capture label values var18 var18
 
-capture label define var22 1 "単独" 2 "本社" 3 "支社" 
+capture label define var22 1 "単独" 2 "本店" 3 "支店" 
 capture label values var22 var22
 
 capture label define var23 4 "民営" 5 "公営" 

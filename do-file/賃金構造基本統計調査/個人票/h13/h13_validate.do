@@ -28,7 +28,7 @@
 
 
     Source: 平成13年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/03/06 18:14:37
+    Date: 2019/03/07 14:17:15
 ----------------------------------------------------------------------*/
 
 
@@ -296,7 +296,11 @@ if r(N)==_N {
 
 capture count if var36==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var36} (階級又は職種番号)"
+    display as error "Only missing value: {bf:var36} (職階又は職種番号)"
+}
+capture assert inlist(var36, 101, 102, 103, 104, 105, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var36} (職階又は職種番号) may have invalid values (Check layout sheet)"
 }
 
 

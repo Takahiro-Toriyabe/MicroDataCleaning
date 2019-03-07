@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/03/06 18:15:15
+    Date: 2019/03/07 14:18:14
 ----------------------------------------------------------------------*/
 
 
@@ -400,9 +400,12 @@ run "${DoFilePathTemp}/rename.do"
 DestringAll
 capture drop *_ToBeDropped
 
+*run "${DoFilePathTemp}/data_cleaning/data_cleaning.do"
+    // data_cleaning.do should be prepared by yourself
+
 save "${DataFilePathTemp}/data_appended.dta", replace
 
-CheckAppendValidity, data_id(flag_tmp) tol(0.2) stats("mean sd")
+CheckAppendValidity, data_id(flag_tmp) tol(0.1) stats("mean sd")
 
 macro drop DoFilePathTemp
 macro drop DataFilePathTemp
