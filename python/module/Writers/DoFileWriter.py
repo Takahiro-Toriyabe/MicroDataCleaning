@@ -313,10 +313,12 @@ class MasterFileWriter(DoFileWriterBase):
         self.file.write('run "${DoFilePathTemp}/rename.do"\n')
         self.file.write('DestringAll\n')
         self.file.write('capture drop *_ToBeDropped\n\n')
+        self.file.write('*run "${DoFilePathTemp}/data_cleaning/data_cleaning.do"\n')
+        self.file.write(self.indent + '// data_cleaning.do should be prepared by yourself\n\n')
 
         self.file.write('save "${DataFilePathTemp}/data_appended.dta", replace\n\n')
 
-        self.file.write('CheckAppendValidity, data_id(flag_tmp) tol(0.2) stats("mean sd")\n\n')
+        self.file.write('CheckAppendValidity, data_id(flag_tmp) tol(0.1) stats("mean sd")\n\n')
 
         self.file.write('macro drop DoFilePathTemp\n')
         self.file.write('macro drop DataFilePathTemp\n')

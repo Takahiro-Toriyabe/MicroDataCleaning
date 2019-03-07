@@ -1,8 +1,9 @@
+
 capture program drop CheckVar
 program define CheckVar, rclass
 	syntax , ///
 		VARiable(namelist min=1 max=1) ///
-		[tol(real 0.2 )] ///
+		tol(real) ///
 		[stats(namelist)]
 	
 	if ("`stats'"=="") {
@@ -36,7 +37,7 @@ capture program drop CheckAppendValidity
 program define CheckAppendValidity
 	syntax , ///
 		data_id(varlist min=1 max=1) /// Data identifier
-		[tol(real 0.2 )] /// Tolerance to detect invalid append
+		[tol(real 0.1 )] /// Tolerance to detect invalid append
 		[stats(namelist)] /// Statistics to check
 	
 	if ("`stats'"=="") {
@@ -52,7 +53,10 @@ program define CheckAppendValidity
 	}
 
 	foreach v of varlist * {
-		if ("`v'"!="`data_id'") {
+		tempname storage_type
+		local `storage_type': type `v'
+		
+		if ("`v'"!="`data_id'")&(substr("``storage_type''", 1, 3)!="str") {
 			tempname `v'_l
 			local ``v'_l': variable label `v'
 			local `vars' "``vars'' `v'"
@@ -77,11 +81,12 @@ program define CheckAppendValidity
 		if r(FLAG)==1 {
 			display as error "WARNING: `v' (```v'_l'')"
 			display as error "Check:``list''"
+			tempname tabstat_vars
+			local `tabstat_vars' ""
 			foreach stat in ``list'' {
-				label variable `v'_`stat' "```v'_`stat'_l''"
-				display "```v'_`stat'_l''"
-				tabstat `v'_`stat', by(`data_id')
+				local `tabstat_vars' "``tabstat_vars'' `v'_`stat'"
 			}
+			tabstat `tabstat_vars', by(`data_id')
 		}
 	}
 end
