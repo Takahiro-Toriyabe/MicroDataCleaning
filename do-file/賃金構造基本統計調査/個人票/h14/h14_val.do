@@ -28,12 +28,9 @@
 
 
     Source: 平成14〜15年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/03/06 18:14:37
+    Date: 2019/03/07 14:17:15
 ----------------------------------------------------------------------*/
 
-
-capture label define var1 2003 "2003" 
-capture label values var1 var1
 
 capture label define var11 0 "15000人以上" 1 "5,000~14,999人" 2 "1,000~4,999人" 3 "500~999人" 4 "300~499人" 5 "100~299人" 6 "50~99人" 7 "30~49人" 8 "10~29人" 9 "5~9人" 
 capture label values var11 var11
@@ -50,7 +47,7 @@ capture label values var15 var15
 capture label define var16 1 "算入済" 2 "未算入" 3 "未決定" 4 "実施無" 
 capture label values var16 var16
 
-capture label define var20 1 "単独" 2 "本社" 3 "支社" 
+capture label define var20 1 "単独" 2 "本店" 3 "支店" 
 capture label values var20 var20
 
 capture label define var21 4 "民営" 5 "公営" 
@@ -70,6 +67,9 @@ capture label values var30 var30
 
 capture label define var31 1 "中卒" 2 "高卒" 3 "高専・短大卒" 4 "大学・大学院卒" 
 capture label values var31 var31
+
+capture label define var34 101 "部長級" 102 "課長級" 103 "係長級" 104 "職長級" 105 "その他役職" 
+capture label values var34 var34
 
 capture label define var35 1 "1年未満" 2 "1~4年" 3 "5~9年" 4 "10~14年" 5 "15年以上" 
 capture label values var35 var35

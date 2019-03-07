@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/03/06 18:14:58
+    Date: 2019/03/07 14:17:47
 ----------------------------------------------------------------------*/
 
 
@@ -65,21 +65,21 @@
     Description (Data 29): "調査年"
 
     Values (Base):     2009: 西暦
-    Values (Data 1):   1991: 1991
-    Values (Data 2):   1991: 1991
-    Values (Data 3):   1991: 1991
-    Values (Data 4):   1991: 1991
-    Values (Data 5):   1994: 1994
-    Values (Data 6):   1994: 1994
+    Values (Data 1):  
+    Values (Data 2):  
+    Values (Data 3):  
+    Values (Data 4):  
+    Values (Data 5):  
+    Values (Data 6):  
     Values (Data 7):   1995: 1995
-    Values (Data 8):   1996: 1996
-    Values (Data 9):   1996: 1996
-    Values (Data 10):  1996: 1996
-    Values (Data 11):  1996: 1996
-    Values (Data 12):  1996: 1996
+    Values (Data 8):  
+    Values (Data 9):  
+    Values (Data 10): 
+    Values (Data 11): 
+    Values (Data 12): 
     Values (Data 13):  2001: 2001
-    Values (Data 14):  2003: 2003
-    Values (Data 15):  2003: 2003
+    Values (Data 14): 
+    Values (Data 15): 
     Values (Data 16):  2004: 2004
     Values (Data 17): 
     Values (Data 18):  2006: 
@@ -131,10 +131,10 @@ capture label variable Chosa_Nen_NEWVARIABLE "調査年"
 
 /*----------------------------------------------------------------------
     Description (Base):    "府県ごとの括通し番号"
-    Description (Data 1):  "府県ごとの括番号"
-    Description (Data 2):  "府県ごとの括番号"
-    Description (Data 3):  "府県ごとの括番号"
-    Description (Data 4):  "府県ごとの括番号"
+    Description (Data 1):  "括番号"
+    Description (Data 2):  "括番号"
+    Description (Data 3):  "括番号"
+    Description (Data 4):  "括番号"
     Description (Data 5):  "府県ごとの括番号"
     Description (Data 6):  "府県ごとの括番号"
     Description (Data 7):  "府県ごとの括番号"
@@ -1594,11 +1594,11 @@ capture label variable KigyoKibo_NEWVARIABLE "事業所票: 企業規模"
     Description (Data 28): None
     Description (Data 29): None
 
-    Values (Base):     1: , 2: , 3: , 4: 
-    Values (Data 1):   1: , 2: , 3: , 4: 
-    Values (Data 2):   1: , 2: , 3: , 4: 
-    Values (Data 3):   1: , 2: , 3: , 4: 
-    Values (Data 4):   1: , 2: , 3: , 4: 
+    Values (Base):     1: 算入済, 2: 未算入, 3: 未決定, 4: 実施無
+    Values (Data 1):   1: 算入済, 2: 未算入, 3: 未決定, 4: 実施無
+    Values (Data 2):   1: 算入済, 2: 未算入, 3: 未決定, 4: 実施無
+    Values (Data 3):   1: 算入済, 2: 未算入, 3: 未決定, 4: 実施無
+    Values (Data 4):   1: 算入済, 2: 未算入, 3: 未決定, 4: 実施無
     Values (Data 5):   1: 算入済, 2: 未算入, 3: 未決定, 4: 実施無
     Values (Data 6):   1: 算入済, 2: 未算入, 3: 未決定, 4: 実施無
     Values (Data 7):   1: 算入済, 2: 未算入, 3: 未決定, 4: 実施無
@@ -1957,22 +1957,22 @@ capture label variable Fukugen_NEWVARIABLE "復元倍率"
     Description (Data 29): None
 
     Values (Base):     1: 単独事業所, 2: 本社, 3: 支社、新設事業所
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 6):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 7):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 8):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 9):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 10):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 11):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 12):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 13):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 14):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 15):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 16):  1: 単独, 2: 本社, 3: 支社
+    Values (Data 1):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 2):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 3):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 4):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 5):   1: 単独, 2: 本点, 3: 支店
+    Values (Data 6):   1: 単独, 2: 本点, 3: 支店
+    Values (Data 7):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 8):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 9):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 10):  1: 単独, 2: 本店, 3: 支店
+    Values (Data 11):  1: 単独, 2: 本店, 3: 支店
+    Values (Data 12):  1: 単独, 2: 本店, 3: 支店
+    Values (Data 13):  1: 単独, 2: 本店, 3: 支店
+    Values (Data 14):  1: 単独, 2: 本店, 3: 支店
+    Values (Data 15):  1: 単独, 2: 本店, 3: 支店
+    Values (Data 16):  1: 単独, 2: 本店, 3: 支店
     Values (Data 17):  1: 単独事業所, 2: 本社, 3: 支社
     Values (Data 18):  1: 単独事業所, 2: 本社, 3: 支社
     Values (Data 19):  1: 単独事業所, 2: 本社, 3: 支社
@@ -3255,22 +3255,22 @@ capture label variable Kinzoku_NEWVARIABLE "勤続年数"
 
 /*----------------------------------------------------------------------
     Description (Base):    "役職・職種番号"
-    Description (Data 1):  "階級又は職種番号"
-    Description (Data 2):  "階級又は職種番号"
-    Description (Data 3):  "階級又は職種番号"
-    Description (Data 4):  "階級又は職種番号"
-    Description (Data 5):  "階級又は職種番号"
-    Description (Data 6):  "階級又は職種番号"
-    Description (Data 7):  "階級又は職種番号"
-    Description (Data 8):  "階級又は職種番号"
-    Description (Data 9):  "階級又は職種番号"
-    Description (Data 10): "階級又は職種番号"
-    Description (Data 11): "階級又は職種番号"
-    Description (Data 12): "階級又は職種番号"
-    Description (Data 13): "階級又は職種番号"
-    Description (Data 14): "階級又は職種番号"
-    Description (Data 15): "階級又は職種番号"
-    Description (Data 16): "階級又は職種番号"
+    Description (Data 1):  "職階・職種"
+    Description (Data 2):  "職階・職種"
+    Description (Data 3):  "職階・職種"
+    Description (Data 4):  "職階・職種"
+    Description (Data 5):  "職階又は職種番号"
+    Description (Data 6):  "職階又は職種番号"
+    Description (Data 7):  "職階又は職種番号"
+    Description (Data 8):  "職階又は職種番号"
+    Description (Data 9):  "職階又は職種番号"
+    Description (Data 10): "職階又は職種番号"
+    Description (Data 11): "職階又は職種番号"
+    Description (Data 12): "職階又は職種番号"
+    Description (Data 13): "職階又は職種番号"
+    Description (Data 14): "職階又は職種番号"
+    Description (Data 15): "職階又は職種番号"
+    Description (Data 16): "職階又は職種番号"
     Description (Data 17): "役職・職種"
     Description (Data 18): "役職・職種"
     Description (Data 19): "役職・職種"
@@ -3286,22 +3286,22 @@ capture label variable Kinzoku_NEWVARIABLE "勤続年数"
     Description (Data 29): "役職・職種番号"
 
     Values (Base):    
-    Values (Data 1):  
-    Values (Data 2):  
-    Values (Data 3):  
-    Values (Data 4):  
-    Values (Data 5):  
-    Values (Data 6):  
+    Values (Data 1):   101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 2):   101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 3):   101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 4):   101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 5):   101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 6):   101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
     Values (Data 7):  
-    Values (Data 8):  
-    Values (Data 9):  
-    Values (Data 10): 
-    Values (Data 11): 
-    Values (Data 12): 
-    Values (Data 13): 
-    Values (Data 14): 
-    Values (Data 15): 
-    Values (Data 16): 
+    Values (Data 8):   101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 9):   101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 10):  101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 11):  101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 12):  101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 13):  101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 14):  101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 15):  101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
+    Values (Data 16):  101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級, 105: その他役職
     Values (Data 17):  101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級(産業D~Fのみ), 105: その他役職
     Values (Data 18):  101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級(産業D~Fのみ), 105: その他役職
     Values (Data 19):  101: 部長級, 102: 課長級, 103: 係長級, 104: 職長級(産業D~Fのみ), 105: その他役職
@@ -3546,10 +3546,10 @@ capture label variable RouNissu_NEWVARIABLE "実労働日数"
 
 /*----------------------------------------------------------------------
     Description (Base):    "所定内実労働時間数"
-    Description (Data 1):  "所定内実労働時間数"
-    Description (Data 2):  "所定内実労働時間数"
-    Description (Data 3):  "所定内実労働時間数"
-    Description (Data 4):  "所定内実労働時間数"
+    Description (Data 1):  "所定内実労働時間"
+    Description (Data 2):  "所定内実労働時間"
+    Description (Data 3):  "所定内実労働時間"
+    Description (Data 4):  "所定内実労働時間"
     Description (Data 5):  "所定内実労働時間数"
     Description (Data 6):  "所定内実労働時間数"
     Description (Data 7):  "所定内実労働時間数"
@@ -3643,10 +3643,10 @@ capture label variable SyoteiJikan_NEWVARIABLE "所定内実労働時間数"
 
 /*----------------------------------------------------------------------
     Description (Base):    "超過実労働時間数"
-    Description (Data 1):  "超過実労働時間数"
-    Description (Data 2):  "超過実労働時間数"
-    Description (Data 3):  "超過実労働時間数"
-    Description (Data 4):  "超過実労働時間数"
+    Description (Data 1):  "超過実労働時間"
+    Description (Data 2):  "超過実労働時間"
+    Description (Data 3):  "超過実労働時間"
+    Description (Data 4):  "超過実労働時間"
     Description (Data 5):  "超過実労働時間数"
     Description (Data 6):  "超過実労働時間数"
     Description (Data 7):  "超過実労働時間数"
@@ -3740,22 +3740,22 @@ capture label variable ChokaJikan_NEWVARIABLE "超過実労働時間数"
 
 /*----------------------------------------------------------------------
     Description (Base):    "決まって支給する現金給与額"
-    Description (Data 1):  "決まって支給する現金給与額"
-    Description (Data 2):  "決まって支給する現金給与額"
-    Description (Data 3):  "決まって支給する現金給与額"
-    Description (Data 4):  "決まって支給する現金給与額"
-    Description (Data 5):  "決まって支給する現金給与額"
-    Description (Data 6):  "決まって支給する現金給与額"
-    Description (Data 7):  "決まって支給する現金給与額"
-    Description (Data 8):  "決まって支給する現金給与額"
-    Description (Data 9):  "決まって支給する現金給与額"
-    Description (Data 10): "決まって支給する現金給与額"
-    Description (Data 11): "決まって支給する現金給与額"
-    Description (Data 12): "決まって支給する現金給与額"
+    Description (Data 1):  "現金給与"
+    Description (Data 2):  "現金給与"
+    Description (Data 3):  "現金給与"
+    Description (Data 4):  "現金給与"
+    Description (Data 5):  "決まって支給する現金給与"
+    Description (Data 6):  "決まって支給する現金給与"
+    Description (Data 7):  "決まって支給する現金給与"
+    Description (Data 8):  "決まって支給する現金給与"
+    Description (Data 9):  "決まって支給する現金給与"
+    Description (Data 10): "決まって支給する現金給与"
+    Description (Data 11): "決まって支給する現金給与"
+    Description (Data 12): "決まって支給する現金給与"
     Description (Data 13): "決まって支給する現金給与額"
-    Description (Data 14): "決まって支給する現金給与額"
-    Description (Data 15): "決まって支給する現金給与額"
-    Description (Data 16): "決まって支給する現金給与額"
+    Description (Data 14): "決まって支給する現金給与"
+    Description (Data 15): "決まって支給する現金給与"
+    Description (Data 16): "決まって支給する現金給与"
     Description (Data 17): "決まって支給する現金給与額"
     Description (Data 18): "決まって支給する現金給与額"
     Description (Data 19): "決まって支給する現金給与額"
@@ -3837,10 +3837,10 @@ capture label variable Genkin_NEWVARIABLE "決まって支給する現金給与�
 
 /*----------------------------------------------------------------------
     Description (Base):    "超過労働給与額"
-    Description (Data 1):  "超過労働給与額"
-    Description (Data 2):  "超過労働給与額"
-    Description (Data 3):  "超過労働給与額"
-    Description (Data 4):  "超過労働給与額"
+    Description (Data 1):  "超過労働給与"
+    Description (Data 2):  "超過労働給与"
+    Description (Data 3):  "超過労働給与"
+    Description (Data 4):  "超過労働給与"
     Description (Data 5):  "超過労働給与額"
     Description (Data 6):  "超過労働給与額"
     Description (Data 7):  "超過労働給与額"
@@ -3934,10 +3934,10 @@ capture label variable ChokaKyuyo_NEWVARIABLE "超過労働給与額"
 
 /*----------------------------------------------------------------------
     Description (Base):    "所定内給与額"
-    Description (Data 1):  "所定内給与額"
-    Description (Data 2):  "所定内給与額"
-    Description (Data 3):  "所定内給与額"
-    Description (Data 4):  "所定内給与額"
+    Description (Data 1):  "所定内給与"
+    Description (Data 2):  "所定内給与"
+    Description (Data 3):  "所定内給与"
+    Description (Data 4):  "所定内給与"
     Description (Data 5):  "所定内給与額"
     Description (Data 6):  "所定内給与額"
     Description (Data 7):  "所定内給与額"
@@ -3947,9 +3947,9 @@ capture label variable ChokaKyuyo_NEWVARIABLE "超過労働給与額"
     Description (Data 11): "所定内給与額"
     Description (Data 12): "所定内給与額"
     Description (Data 13): "所定内給与額"
-    Description (Data 14): "所定内給与額"
-    Description (Data 15): "所定内給与額"
-    Description (Data 16): "所定内給与額"
+    Description (Data 14): "所定内給与"
+    Description (Data 15): "所定内給与"
+    Description (Data 16): "所定内給与"
     Description (Data 17): "所定内給与額"
     Description (Data 18): "所定内給与額"
     Description (Data 19): "所定内給与額"
@@ -4031,10 +4031,10 @@ capture label variable SyoteiKyuyo_NEWVARIABLE "所定内給与額"
 
 /*----------------------------------------------------------------------
     Description (Base):    "通勤手当"
-    Description (Data 1):  "うち通勤手当"
-    Description (Data 2):  "うち通勤手当"
-    Description (Data 3):  "うち通勤手当"
-    Description (Data 4):  "うち通勤手当"
+    Description (Data 1):  "通勤手当"
+    Description (Data 2):  "通勤手当"
+    Description (Data 3):  "通勤手当"
+    Description (Data 4):  "通勤手当"
     Description (Data 5):  "うち通勤手当"
     Description (Data 6):  "うち通勤手当"
     Description (Data 7):  "うち通勤手当"
@@ -4128,10 +4128,10 @@ capture label variable Tsukin_NEWVARIABLE "通勤手当"
 
 /*----------------------------------------------------------------------
     Description (Base):    "精皆勤手当"
-    Description (Data 1):  "うち精皆勤手当"
-    Description (Data 2):  "うち精皆勤手当"
-    Description (Data 3):  "うち精皆勤手当"
-    Description (Data 4):  "うち精皆勤手当"
+    Description (Data 1):  "精皆勤手当"
+    Description (Data 2):  "精皆勤手当"
+    Description (Data 3):  "精皆勤手当"
+    Description (Data 4):  "精皆勤手当"
     Description (Data 5):  "うち精皆勤手当"
     Description (Data 6):  "うち精皆勤手当"
     Description (Data 7):  "うち精皆勤手当"
@@ -4225,10 +4225,10 @@ capture label variable Seikin_NEWVARIABLE "精皆勤手当"
 
 /*----------------------------------------------------------------------
     Description (Base):    "家族手当"
-    Description (Data 1):  "うち家族手当"
-    Description (Data 2):  "うち家族手当"
-    Description (Data 3):  "うち家族手当"
-    Description (Data 4):  "うち家族手当"
+    Description (Data 1):  "家族手当"
+    Description (Data 2):  "家族手当"
+    Description (Data 3):  "家族手当"
+    Description (Data 4):  "家族手当"
     Description (Data 5):  "うち家族手当"
     Description (Data 6):  "うち家族手当"
     Description (Data 7):  "うち家族手当"
@@ -4321,11 +4321,11 @@ capture label variable Kazoku_NEWVARIABLE "家族手当"
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "昨年1年間の賞与期末手当等特別支給額"
-    Description (Data 1):  "賞与等特別支給額"
-    Description (Data 2):  "賞与等特別支給額"
-    Description (Data 3):  "賞与等特別支給額"
-    Description (Data 4):  "賞与等特別支給額"
+    Description (Base):    "特別給与"
+    Description (Data 1):  "特別給与"
+    Description (Data 2):  "特別給与"
+    Description (Data 3):  "特別給与"
+    Description (Data 4):  "特別給与"
     Description (Data 5):  "賞与等特別支給額"
     Description (Data 6):  "賞与等特別支給額"
     Description (Data 7):  "賞与等特別支給額"
@@ -4341,16 +4341,16 @@ capture label variable Kazoku_NEWVARIABLE "家族手当"
     Description (Data 17): "昨年1年間の賞与期末手当等特別給与額"
     Description (Data 18): "昨年1年間の賞与期末手当等特別給与額"
     Description (Data 19): "昨年1年間の賞与期末手当等特別給与額"
-    Description (Data 20): "昨年1年間の賞与期末手当等特別支給額"
-    Description (Data 21): "昨年1年間の賞与期末手当等特別支給額"
-    Description (Data 22): "昨年1年間の賞与期末手当等特別支給額"
-    Description (Data 23): "昨年1年間の賞与期末手当等特別支給額"
-    Description (Data 24): "昨年1年間の賞与期末手当等特別支給額"
-    Description (Data 25): "昨年1年間の賞与期末手当等特別支給額"
-    Description (Data 26): "昨年1年間の賞与期末手当等特別給与額"
-    Description (Data 27): "昨年1年間の賞与期末手当等特別給与額"
-    Description (Data 28): "昨年1年間の賞与期末手当等特別給与額"
-    Description (Data 29): "昨年1年間の賞与期末手当等特別給与額"
+    Description (Data 20): None
+    Description (Data 21): None
+    Description (Data 22): None
+    Description (Data 23): None
+    Description (Data 24): None
+    Description (Data 25): None
+    Description (Data 26): None
+    Description (Data 27): None
+    Description (Data 28): None
+    Description (Data 29): None
 
     Values (Base):    
     Values (Data 1):  
@@ -4372,66 +4372,56 @@ capture label variable Kazoku_NEWVARIABLE "家族手当"
     Values (Data 17): 
     Values (Data 18): 
     Values (Data 19): 
-    Values (Data 20): 
-    Values (Data 21): 
-    Values (Data 22): 
-    Values (Data 23): 
-    Values (Data 24): 
-    Values (Data 25): 
-    Values (Data 26): 
-    Values (Data 27): 
-    Values (Data 28): 
-    Values (Data 29): 
+    Values (Data 20): None
+    Values (Data 21): None
+    Values (Data 22): None
+    Values (Data 23): None
+    Values (Data 24): None
+    Values (Data 25): None
+    Values (Data 26): None
+    Values (Data 27): None
+    Values (Data 28): None
+    Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen Tokubetsu_NEWVARIABLE = "."
-capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==1
-capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==2
-capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==3
-capture replace Tokubetsu_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==4
-capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==5
-capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==6
-capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==7
-capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==8
-capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==9
-capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==10
-capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==11
-capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==12
-capture replace Tokubetsu_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==13
-capture replace Tokubetsu_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==14
-capture replace Tokubetsu_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==15
-capture replace Tokubetsu_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==16
-capture replace Tokubetsu_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==17
-capture replace Tokubetsu_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==18
-capture replace Tokubetsu_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==19
-capture replace Tokubetsu_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==20
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==21
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==22
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==23
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==24
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==25
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==26
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==27
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==28
-capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==29
-capture label variable Tokubetsu_NEWVARIABLE "昨年1年間の賞与期末手当等特別支給額"
+gen v6_NEWVARIABLE = "."
+capture replace v6_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==1
+capture replace v6_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==2
+capture replace v6_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==3
+capture replace v6_NEWVARIABLE = var46  if flag_tmp_NEWVARIABLE==4
+capture replace v6_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==5
+capture replace v6_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==6
+capture replace v6_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==7
+capture replace v6_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==8
+capture replace v6_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==9
+capture replace v6_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==10
+capture replace v6_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==11
+capture replace v6_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==12
+capture replace v6_NEWVARIABLE = var47  if flag_tmp_NEWVARIABLE==13
+capture replace v6_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==14
+capture replace v6_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==15
+capture replace v6_NEWVARIABLE = var45  if flag_tmp_NEWVARIABLE==16
+capture replace v6_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==17
+capture replace v6_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==18
+capture replace v6_NEWVARIABLE = var51  if flag_tmp_NEWVARIABLE==19
+capture label variable v6_NEWVARIABLE "特別給与"
 
 
 /*----------------------------------------------------------------------
-    Description (Base):    "抽出産業番号"
+    Description (Base):    "マスタ: 抽出産業番号"
     Description (Data 1):  None
     Description (Data 2):  None
     Description (Data 3):  None
     Description (Data 4):  None
-    Description (Data 5):  "抽出産業番号"
-    Description (Data 6):  "抽出産業番号"
-    Description (Data 7):  "抽出産業番号"
-    Description (Data 8):  "抽出産業番号"
-    Description (Data 9):  "抽出産業番号"
-    Description (Data 10): "抽出産業番号"
-    Description (Data 11): "抽出産業番号"
-    Description (Data 12): "抽出産業番号"
-    Description (Data 13): "抽出産業番号"
+    Description (Data 5):  "マスタ: 抽出産業番号"
+    Description (Data 6):  "マスタ: 抽出産業番号"
+    Description (Data 7):  "マスタ: 抽出産業番号"
+    Description (Data 8):  "マスタ: 抽出産業番号"
+    Description (Data 9):  "マスタ: 抽出産業番号"
+    Description (Data 10): "マスタ: 抽出産業番号"
+    Description (Data 11): "マスタ: 抽出産業番号"
+    Description (Data 12): "マスタ: 抽出産業番号"
+    Description (Data 13): "マスタ: 抽出産業番号"
     Description (Data 14): None
     Description (Data 15): None
     Description (Data 16): None
@@ -4481,17 +4471,17 @@ capture label variable Tokubetsu_NEWVARIABLE "昨年1年間の賞与期末手当
     Values (Data 29): None
 
 ----------------------------------------------------------------------*/
-gen v6_NEWVARIABLE = "."
-capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==5
-capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==6
-capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==7
-capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==8
-capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==9
-capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==10
-capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==11
-capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==12
-capture replace v6_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==13
-capture label variable v6_NEWVARIABLE "抽出産業番号"
+gen v7_NEWVARIABLE = "."
+capture replace v7_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==5
+capture replace v7_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==6
+capture replace v7_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==7
+capture replace v7_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==8
+capture replace v7_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==9
+capture replace v7_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==10
+capture replace v7_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==11
+capture replace v7_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==12
+capture replace v7_NEWVARIABLE = var14  if flag_tmp_NEWVARIABLE==13
+capture label variable v7_NEWVARIABLE "マスタ: 抽出産業番号"
 
 
 /*----------------------------------------------------------------------
@@ -5377,6 +5367,84 @@ capture replace Digit_ToBeDropped_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==
 capture replace Digit_ToBeDropped_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==28
 capture replace Digit_ToBeDropped_NEWVARIABLE = Digit  if flag_tmp_NEWVARIABLE==29
 capture label variable Digit_ToBeDropped_NEWVARIABLE "チェックディジット"
+
+
+/*----------------------------------------------------------------------
+    Description (Base):    "昨年1年間の賞与期末手当等特別支給額"
+    Description (Data 1):  None
+    Description (Data 2):  None
+    Description (Data 3):  None
+    Description (Data 4):  None
+    Description (Data 5):  None
+    Description (Data 6):  None
+    Description (Data 7):  None
+    Description (Data 8):  None
+    Description (Data 9):  None
+    Description (Data 10): None
+    Description (Data 11): None
+    Description (Data 12): None
+    Description (Data 13): None
+    Description (Data 14): None
+    Description (Data 15): None
+    Description (Data 16): None
+    Description (Data 17): None
+    Description (Data 18): None
+    Description (Data 19): None
+    Description (Data 20): "昨年1年間の賞与期末手当等特別支給額"
+    Description (Data 21): "昨年1年間の賞与期末手当等特別支給額"
+    Description (Data 22): "昨年1年間の賞与期末手当等特別支給額"
+    Description (Data 23): "昨年1年間の賞与期末手当等特別支給額"
+    Description (Data 24): "昨年1年間の賞与期末手当等特別支給額"
+    Description (Data 25): "昨年1年間の賞与期末手当等特別支給額"
+    Description (Data 26): "昨年1年間の賞与期末手当等特別給与額"
+    Description (Data 27): "昨年1年間の賞与期末手当等特別給与額"
+    Description (Data 28): "昨年1年間の賞与期末手当等特別給与額"
+    Description (Data 29): "昨年1年間の賞与期末手当等特別給与額"
+
+    Values (Base):    
+    Values (Data 1):  None
+    Values (Data 2):  None
+    Values (Data 3):  None
+    Values (Data 4):  None
+    Values (Data 5):  None
+    Values (Data 6):  None
+    Values (Data 7):  None
+    Values (Data 8):  None
+    Values (Data 9):  None
+    Values (Data 10): None
+    Values (Data 11): None
+    Values (Data 12): None
+    Values (Data 13): None
+    Values (Data 14): None
+    Values (Data 15): None
+    Values (Data 16): None
+    Values (Data 17): None
+    Values (Data 18): None
+    Values (Data 19): None
+    Values (Data 20): 
+    Values (Data 21): 
+    Values (Data 22): 
+    Values (Data 23): 
+    Values (Data 24): 
+    Values (Data 25): 
+    Values (Data 26): 
+    Values (Data 27): 
+    Values (Data 28): 
+    Values (Data 29): 
+
+----------------------------------------------------------------------*/
+gen Tokubetsu_NEWVARIABLE = "."
+capture replace Tokubetsu_NEWVARIABLE = var58  if flag_tmp_NEWVARIABLE==20
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==21
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==22
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==23
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==24
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==25
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==26
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==27
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==28
+capture replace Tokubetsu_NEWVARIABLE = Tokubetsu  if flag_tmp_NEWVARIABLE==29
+capture label variable Tokubetsu_NEWVARIABLE "昨年1年間の賞与期末手当等特別支給額"
 
 
 /*----------------------------------------------------------------------

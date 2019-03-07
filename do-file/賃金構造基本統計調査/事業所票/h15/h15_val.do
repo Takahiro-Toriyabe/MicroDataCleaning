@@ -28,7 +28,7 @@
 
 
     Source: 平成14〜15年_賃金構造基本統計調査_事業所票（初任給）.xlsx
-    Date: 2019/03/06 18:14:58
+    Date: 2019/03/07 14:17:48
 ----------------------------------------------------------------------*/
 
 
@@ -47,7 +47,7 @@ capture label values var17 var17
 capture label define var18 1 "算入済" 2 "未算入" 3 "未決定" 4 "実施無" 
 capture label values var18 var18
 
-capture label define var21 1 "単独" 2 "本社" 3 "支社" 
+capture label define var21 1 "単独" 2 "本点" 3 "支店" 
 capture label values var21 var21
 
 capture label define var22 4 "民営" 5 "公営" 

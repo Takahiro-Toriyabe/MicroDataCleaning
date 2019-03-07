@@ -28,12 +28,12 @@
 
 
     Source: 平成01年〜04年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/03/06 18:14:36
+    Date: 2019/03/07 14:17:13
 ----------------------------------------------------------------------*/
 
 
 capture label variable var1 "調査年"
-capture label variable var2 "府県ごとの括番号"
+capture label variable var2 "括番号"
 capture label variable var3 "括内事業所番号"
 capture label variable var4 "都道府県番号"
 capture label variable var5 "事業所一連番号"
@@ -66,15 +66,15 @@ capture label variable var31 "就業形態"
 capture label variable var32 "学歴"
 capture label variable var33 "年齢"
 capture label variable var34 "勤続年数"
-capture label variable var35 "階級又は職種番号"
+capture label variable var35 "職階・職種"
 capture label variable var36 "経験年数"
 capture label variable var37 "実労働日数"
-capture label variable var38 "所定内実労働時間数"
-capture label variable var39 "超過実労働時間数"
-capture label variable var40 "決まって支給する現金給与額"
-capture label variable var41 "超過労働給与額"
-capture label variable var42 "所定内給与額"
-capture label variable var43 "うち通勤手当"
-capture label variable var44 "うち精皆勤手当"
-capture label variable var45 "うち家族手当"
-capture label variable var46 "賞与等特別支給額"
+capture label variable var38 "所定内実労働時間"
+capture label variable var39 "超過実労働時間"
+capture label variable var40 "現金給与"
+capture label variable var41 "超過労働給与"
+capture label variable var42 "所定内給与"
+capture label variable var43 "通勤手当"
+capture label variable var44 "精皆勤手当"
+capture label variable var45 "家族手当"
+capture label variable var46 "特別給与"

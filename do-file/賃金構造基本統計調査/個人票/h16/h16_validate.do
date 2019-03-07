@@ -28,7 +28,7 @@
 
 
     Source: 平成16年_賃金福祉基本統計調査_符号表(個人票).xlsx
-    Date: 2019/03/06 18:14:37
+    Date: 2019/03/07 14:17:15
 ----------------------------------------------------------------------*/
 
 
@@ -284,7 +284,11 @@ if r(N)==_N {
 
 capture count if var34==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var34} (階級又は職種番号)"
+    display as error "Only missing value: {bf:var34} (職階又は職種番号)"
+}
+capture assert inlist(var34, 101, 102, 103, 104, 105, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var34} (職階又は職種番号) may have invalid values (Check layout sheet)"
 }
 
 
@@ -318,7 +322,7 @@ if r(N)==_N {
 
 capture count if var39==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var39} (決まって支給する現金給与額)"
+    display as error "Only missing value: {bf:var39} (決まって支給する現金給与)"
 }
 
 
@@ -330,7 +334,7 @@ if r(N)==_N {
 
 capture count if var41==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var41} (所定内給与額)"
+    display as error "Only missing value: {bf:var41} (所定内給与)"
 }
 
 

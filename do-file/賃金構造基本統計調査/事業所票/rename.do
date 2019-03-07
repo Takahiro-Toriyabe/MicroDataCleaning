@@ -28,7 +28,7 @@
 
 
     Source: 
-    Date: 2019/03/06 18:15:15
+    Date: 2019/03/07 14:18:14
 ----------------------------------------------------------------------*/
 
 
@@ -1960,22 +1960,22 @@ capture label variable v3_NEWVARIABLE "抽出率: 労働者"
     Description (Data 29): None
 
     Values (Base):     1: 単独事業所, 2: 本社, 3: 支社
-    Values (Data 1):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 2):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 3):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 4):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 5):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 6):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 7):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 8):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 9):   1: 単独, 2: 本社, 3: 支社
-    Values (Data 10):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 11):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 12):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 13):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 14):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 15):  1: 単独, 2: 本社, 3: 支社
-    Values (Data 16):  1: 単独, 2: 本社, 3: 支社
+    Values (Data 1):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 2):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 3):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 4):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 5):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 6):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 7):   1: 単独, 2: 本店, 3: 支店
+    Values (Data 8):   1: 単独, 2: 本点, 3: 支店
+    Values (Data 9):   1: 単独, 2: 本点, 3: 支店
+    Values (Data 10):  1: 単独, 2: 本点, 3: 支店
+    Values (Data 11):  1: 単独, 2: 本点, 3: 支店
+    Values (Data 12):  1: 単独, 2: 本点, 3: 支店
+    Values (Data 13):  1: 単独, 2: 本点, 3: 支店
+    Values (Data 14):  1: 単独, 2: 本点, 3: 支店
+    Values (Data 15):  1: 単独, 2: 本点, 3: 支店
+    Values (Data 16):  1: 単独, 2: 本店, 3: 支店
     Values (Data 17):  1: 単独, 2: 本社, 3: 支社
     Values (Data 18):  1: 単独, 2: 本社, 3: 支社
     Values (Data 19):  1: 単独, 2: 本社, 3: 支社
@@ -5219,12 +5219,12 @@ capture label variable v34_NEWVARIABLE "集計不能コード"
     Description (Data 5):  "マスター: 抽出単位産業コード"
     Description (Data 6):  "マスター: 抽出単位産業コード"
     Description (Data 7):  "マスター: 抽出単位産業コード"
-    Description (Data 8):  "抽出単位産業コード"
-    Description (Data 9):  "抽出単位産業コード"
-    Description (Data 10): "抽出単位産業コード"
-    Description (Data 11): "抽出単位産業コード"
-    Description (Data 12): "抽出単位産業コード"
-    Description (Data 13): "抽出単位産業コード"
+    Description (Data 8):  "マスター: 抽出単位産業コード"
+    Description (Data 9):  "マスター: 抽出単位産業コード"
+    Description (Data 10): "マスター: 抽出単位産業コード"
+    Description (Data 11): "マスター: 抽出単位産業コード"
+    Description (Data 12): "マスター: 抽出単位産業コード"
+    Description (Data 13): "マスター: 抽出単位産業コード"
     Description (Data 14): None
     Description (Data 15): None
     Description (Data 16): None
