@@ -27,8 +27,8 @@
            across different data.
 
 
-    Source: （参考）符号表_雇用動向調査（事業所票）h12-15
-    Date: 2019/03/07 15:51:57
+    Source: （参考）符号表_雇用動向調査（事業所票）h15
+    Date: 2019/03/09 21:55:50
 ----------------------------------------------------------------------*/
 
 
@@ -42,7 +42,7 @@ capture count if var2==.
 if r(N)==_N {
     display as error "Only missing value: {bf:var2} (調査年)"
 }
-capture assert inlist(var2, 2000, .)
+capture assert inlist(var2, 2003, .)
 if _rc!=0 {
     display as error "WARNING: {bf:var2} (調査年) may have invalid values (Check layout sheet)"
 }
@@ -66,887 +66,893 @@ if r(N)==_N {
 
 capture count if var5==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var5} (地域番号)"
-}
-capture assert inlist(var5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, .)
-if _rc!=0 {
-    display as error "WARNING: {bf:var5} (地域番号) may have invalid values (Check layout sheet)"
+    display as error "Only missing value: {bf:var5} (括番号)"
 }
 
 
 capture count if var6==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var6} (都道府県番号)"
+    display as error "Only missing value: {bf:var6} (地域番号)"
+}
+capture assert inlist(var6, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var6} (地域番号) may have invalid values (Check layout sheet)"
 }
 
 
 capture count if var7==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var7} (事業所番号)"
+    display as error "Only missing value: {bf:var7} (都道府県番号)"
 }
 
 
 capture count if var8==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var8} (大分類)"
+    display as error "Only missing value: {bf:var8} (事業所番号)"
 }
 
 
 capture count if var9==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var9} (中分類)"
+    display as error "Only missing value: {bf:var9} (大分類)"
 }
 
 
 capture count if var10==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var10} (抽出番号)"
+    display as error "Only missing value: {bf:var10} (中分類)"
 }
 
 
 capture count if var11==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var11} (事業所規模)"
-}
-capture assert inlist(var11, 1, 2, 3, 4, .)
-if _rc!=0 {
-    display as error "WARNING: {bf:var11} (事業所規模) may have invalid values (Check layout sheet)"
+    display as error "Only missing value: {bf:var11} (抽出番号)"
 }
 
 
 capture count if var12==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var12} (企業規模)"
+    display as error "Only missing value: {bf:var12} (事業所規模)"
 }
-capture assert inlist(var12, 1, 2, 3, 4, 5, 6, .)
+capture assert inlist(var12, 1, 2, 3, 4, .)
 if _rc!=0 {
-    display as error "WARNING: {bf:var12} (企業規模) may have invalid values (Check layout sheet)"
+    display as error "WARNING: {bf:var12} (事業所規模) may have invalid values (Check layout sheet)"
 }
 
 
 capture count if var13==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var13} (産業連番)"
+    display as error "Only missing value: {bf:var13} (企業規模)"
+}
+capture assert inlist(var13, 1, 2, 3, 4, 5, 6, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var13} (企業規模) may have invalid values (Check layout sheet)"
 }
 
 
 capture count if var14==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var14} (事業所規模)"
-}
-capture assert inlist(var14, 1, 2, 3, 4, .)
-if _rc!=0 {
-    display as error "WARNING: {bf:var14} (事業所規模) may have invalid values (Check layout sheet)"
+    display as error "Only missing value: {bf:var14} (産業連番)"
 }
 
 
 capture count if var15==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var15} (性別)"
+    display as error "Only missing value: {bf:var15} (事業所規模)"
+}
+capture assert inlist(var15, 1, 2, 3, 4, .)
+if _rc!=0 {
+    display as error "WARNING: {bf:var15} (事業所規模) may have invalid values (Check layout sheet)"
 }
 
 
 capture count if var16==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var16} (就業形態)"
+    display as error "Only missing value: {bf:var16} (性別)"
 }
 
 
 capture count if var17==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var17} (乗率)"
+    display as error "Only missing value: {bf:var17} (就業形態)"
 }
 
 
 capture count if var18==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var18} (イ入職者)"
+    display as error "Only missing value: {bf:var18} (乗率)"
 }
 
 
 capture count if var19==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var19} (ロ転入者等)"
+    display as error "Only missing value: {bf:var19} (イ入職者)"
 }
 
 
 capture count if var20==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var20} ((3)常用に切り替えられた者)"
+    display as error "Only missing value: {bf:var20} (ロ転入者等)"
 }
 
 
 capture count if var21==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var21} (イ離職者)"
+    display as error "Only missing value: {bf:var21} ((3)常用に切り替えられた者)"
 }
 
 
 capture count if var22==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var22} (ロ転出者等)"
+    display as error "Only missing value: {bf:var22} (イ離職者)"
 }
 
 
 capture count if var23==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var23} ((5)期末常用労働者)"
+    display as error "Only missing value: {bf:var23} (ロ転出者等)"
 }
 
 
 capture count if var24==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var24} (イ入職者)"
+    display as error "Only missing value: {bf:var24} ((5)期末常用労働者)"
 }
 
 
 capture count if var25==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var25} (ロ転入者等)"
+    display as error "Only missing value: {bf:var25} (イ入職者)"
 }
 
 
 capture count if var26==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var26} ((3)常用に切り替えられた者)"
+    display as error "Only missing value: {bf:var26} (ロ転入者等)"
 }
 
 
 capture count if var27==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var27} (イ離職者)"
+    display as error "Only missing value: {bf:var27} ((3)常用に切り替えられた者)"
 }
 
 
 capture count if var28==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var28} (ロ転出者等)"
+    display as error "Only missing value: {bf:var28} (イ離職者)"
 }
 
 
 capture count if var29==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var29} ((5)期末常用労働者)"
+    display as error "Only missing value: {bf:var29} (ロ転出者等)"
 }
 
 
 capture count if var30==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var30} (イ入職者)"
+    display as error "Only missing value: {bf:var30} ((5)期末常用労働者)"
 }
 
 
 capture count if var31==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var31} (ロ転入者等)"
+    display as error "Only missing value: {bf:var31} (イ入職者)"
 }
 
 
 capture count if var32==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var32} ((3)常用に切り替えられた者)"
+    display as error "Only missing value: {bf:var32} (ロ転入者等)"
 }
 
 
 capture count if var33==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var33} (イ離職者)"
+    display as error "Only missing value: {bf:var33} ((3)常用に切り替えられた者)"
 }
 
 
 capture count if var34==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var34} (ロ転出者等)"
+    display as error "Only missing value: {bf:var34} (イ離職者)"
 }
 
 
 capture count if var35==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var35} ((5)期末常用労働者)"
+    display as error "Only missing value: {bf:var35} (ロ転出者等)"
 }
 
 
 capture count if var36==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var36} (イ入職者)"
+    display as error "Only missing value: {bf:var36} ((5)期末常用労働者)"
 }
 
 
 capture count if var37==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var37} (ロ転入者等)"
+    display as error "Only missing value: {bf:var37} (イ入職者)"
 }
 
 
 capture count if var38==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var38} ((3)常用に切り替えられた者)"
+    display as error "Only missing value: {bf:var38} (ロ転入者等)"
 }
 
 
 capture count if var39==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var39} (イ離職者)"
+    display as error "Only missing value: {bf:var39} ((3)常用に切り替えられた者)"
 }
 
 
 capture count if var40==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var40} (ロ転出者等)"
+    display as error "Only missing value: {bf:var40} (イ離職者)"
 }
 
 
 capture count if var41==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var41} ((5)期末常用労働者)"
+    display as error "Only missing value: {bf:var41} (ロ転出者等)"
 }
 
 
 capture count if var42==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var42} (イ入職者)"
+    display as error "Only missing value: {bf:var42} ((5)期末常用労働者)"
 }
 
 
 capture count if var43==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var43} (ロ転入者等)"
+    display as error "Only missing value: {bf:var43} (イ入職者)"
 }
 
 
 capture count if var44==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var44} ((3)常用に切り替えられた者)"
+    display as error "Only missing value: {bf:var44} (ロ転入者等)"
 }
 
 
 capture count if var45==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var45} (イ離職者)"
+    display as error "Only missing value: {bf:var45} ((3)常用に切り替えられた者)"
 }
 
 
 capture count if var46==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var46} (ロ転出者等)"
+    display as error "Only missing value: {bf:var46} (イ離職者)"
 }
 
 
 capture count if var47==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var47} ((5)期末常用労働者)"
+    display as error "Only missing value: {bf:var47} (ロ転出者等)"
 }
 
 
 capture count if var48==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var48} (イ入職者)"
+    display as error "Only missing value: {bf:var48} ((5)期末常用労働者)"
 }
 
 
 capture count if var49==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var49} (ロ転入者等)"
+    display as error "Only missing value: {bf:var49} (イ入職者)"
 }
 
 
 capture count if var50==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var50} ((3)常用に切り替えられた者)"
+    display as error "Only missing value: {bf:var50} (ロ転入者等)"
 }
 
 
 capture count if var51==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var51} (イ離職者)"
+    display as error "Only missing value: {bf:var51} ((3)常用に切り替えられた者)"
 }
 
 
 capture count if var52==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var52} (ロ転出者等)"
+    display as error "Only missing value: {bf:var52} (イ離職者)"
 }
 
 
 capture count if var53==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var53} ((5)期末常用労働者)"
+    display as error "Only missing value: {bf:var53} (ロ転出者等)"
 }
 
 
 capture count if var54==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var54} (イ入職者)"
+    display as error "Only missing value: {bf:var54} ((5)期末常用労働者)"
 }
 
 
 capture count if var55==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var55} (ロ転入者等)"
+    display as error "Only missing value: {bf:var55} (イ入職者)"
 }
 
 
 capture count if var56==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var56} ((3)常用に切り替えられた者)"
+    display as error "Only missing value: {bf:var56} (ロ転入者等)"
 }
 
 
 capture count if var57==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var57} (イ離職者)"
+    display as error "Only missing value: {bf:var57} ((3)常用に切り替えられた者)"
 }
 
 
 capture count if var58==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var58} (ロ転出者等)"
+    display as error "Only missing value: {bf:var58} (イ離職者)"
 }
 
 
 capture count if var59==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var59} ((5)期末常用労働者)"
+    display as error "Only missing value: {bf:var59} (ロ転出者等)"
 }
 
 
 capture count if var60==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var60} (イ入職者)"
+    display as error "Only missing value: {bf:var60} ((5)期末常用労働者)"
 }
 
 
 capture count if var61==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var61} (ロ転入者等)"
+    display as error "Only missing value: {bf:var61} (イ入職者)"
 }
 
 
 capture count if var62==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var62} ((3)常用に切り替えられた者)"
+    display as error "Only missing value: {bf:var62} (ロ転入者等)"
 }
 
 
 capture count if var63==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var63} (イ離職者)"
+    display as error "Only missing value: {bf:var63} ((3)常用に切り替えられた者)"
 }
 
 
 capture count if var64==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var64} (ロ転出者等)"
+    display as error "Only missing value: {bf:var64} (イ離職者)"
 }
 
 
 capture count if var65==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var65} ((5)期末常用労働者)"
+    display as error "Only missing value: {bf:var65} (ロ転出者等)"
 }
 
 
 capture count if var66==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var66} (19歳以下)"
+    display as error "Only missing value: {bf:var66} ((5)期末常用労働者)"
 }
 
 
 capture count if var67==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var67} (20~24歳)"
+    display as error "Only missing value: {bf:var67} (19歳以下)"
 }
 
 
 capture count if var68==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var68} (25~29歳)"
+    display as error "Only missing value: {bf:var68} (20~24歳)"
 }
 
 
 capture count if var69==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var69} (30~34歳)"
+    display as error "Only missing value: {bf:var69} (25~29歳)"
 }
 
 
 capture count if var70==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var70} (35~39歳)"
+    display as error "Only missing value: {bf:var70} (30~34歳)"
 }
 
 
 capture count if var71==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var71} (40~44歳)"
+    display as error "Only missing value: {bf:var71} (35~39歳)"
 }
 
 
 capture count if var72==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var72} (45~49歳)"
+    display as error "Only missing value: {bf:var72} (40~44歳)"
 }
 
 
 capture count if var73==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var73} (50~54歳)"
+    display as error "Only missing value: {bf:var73} (45~49歳)"
 }
 
 
 capture count if var74==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var74} (55~59歳)"
+    display as error "Only missing value: {bf:var74} (50~54歳)"
 }
 
 
 capture count if var75==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var75} (60~64歳)"
+    display as error "Only missing value: {bf:var75} (55~59歳)"
 }
 
 
 capture count if var76==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var76} (65歳以上)"
+    display as error "Only missing value: {bf:var76} (60~64歳)"
 }
 
 
 capture count if var77==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var77} (合計)"
+    display as error "Only missing value: {bf:var77} (65歳以上)"
 }
 
 
 capture count if var78==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var78} (19歳以下)"
+    display as error "Only missing value: {bf:var78} (合計)"
 }
 
 
 capture count if var79==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var79} (20~24歳)"
+    display as error "Only missing value: {bf:var79} (19歳以下)"
 }
 
 
 capture count if var80==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var80} (25~29歳)"
+    display as error "Only missing value: {bf:var80} (20~24歳)"
 }
 
 
 capture count if var81==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var81} (30~34歳)"
+    display as error "Only missing value: {bf:var81} (25~29歳)"
 }
 
 
 capture count if var82==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var82} (35~39歳)"
+    display as error "Only missing value: {bf:var82} (30~34歳)"
 }
 
 
 capture count if var83==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var83} (40~44歳)"
+    display as error "Only missing value: {bf:var83} (35~39歳)"
 }
 
 
 capture count if var84==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var84} (45~49歳)"
+    display as error "Only missing value: {bf:var84} (40~44歳)"
 }
 
 
 capture count if var85==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var85} (50~54歳)"
+    display as error "Only missing value: {bf:var85} (45~49歳)"
 }
 
 
 capture count if var86==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var86} (55~59歳)"
+    display as error "Only missing value: {bf:var86} (50~54歳)"
 }
 
 
 capture count if var87==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var87} (60~64歳)"
+    display as error "Only missing value: {bf:var87} (55~59歳)"
 }
 
 
 capture count if var88==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var88} (65歳以上)"
+    display as error "Only missing value: {bf:var88} (60~64歳)"
 }
 
 
 capture count if var89==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var89} (合計)"
+    display as error "Only missing value: {bf:var89} (65歳以上)"
 }
 
 
 capture count if var90==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var90} (19歳以下)"
+    display as error "Only missing value: {bf:var90} (合計)"
 }
 
 
 capture count if var91==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var91} (20~24歳)"
+    display as error "Only missing value: {bf:var91} (19歳以下)"
 }
 
 
 capture count if var92==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var92} (25~29歳)"
+    display as error "Only missing value: {bf:var92} (20~24歳)"
 }
 
 
 capture count if var93==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var93} (30~34歳)"
+    display as error "Only missing value: {bf:var93} (25~29歳)"
 }
 
 
 capture count if var94==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var94} (35~39歳)"
+    display as error "Only missing value: {bf:var94} (30~34歳)"
 }
 
 
 capture count if var95==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var95} (40~44歳)"
+    display as error "Only missing value: {bf:var95} (35~39歳)"
 }
 
 
 capture count if var96==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var96} (45~49歳)"
+    display as error "Only missing value: {bf:var96} (40~44歳)"
 }
 
 
 capture count if var97==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var97} (50~54歳)"
+    display as error "Only missing value: {bf:var97} (45~49歳)"
 }
 
 
 capture count if var98==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var98} (55~59歳)"
+    display as error "Only missing value: {bf:var98} (50~54歳)"
 }
 
 
 capture count if var99==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var99} (60~64歳)"
+    display as error "Only missing value: {bf:var99} (55~59歳)"
 }
 
 
 capture count if var100==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var100} (65歳以上)"
+    display as error "Only missing value: {bf:var100} (60~64歳)"
 }
 
 
 capture count if var101==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var101} (合計)"
+    display as error "Only missing value: {bf:var101} (65歳以上)"
 }
 
 
 capture count if var102==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var102} (19歳以下)"
+    display as error "Only missing value: {bf:var102} (合計)"
 }
 
 
 capture count if var103==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var103} (20~24歳)"
+    display as error "Only missing value: {bf:var103} (19歳以下)"
 }
 
 
 capture count if var104==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var104} (25~29歳)"
+    display as error "Only missing value: {bf:var104} (20~24歳)"
 }
 
 
 capture count if var105==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var105} (30~34歳)"
+    display as error "Only missing value: {bf:var105} (25~29歳)"
 }
 
 
 capture count if var106==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var106} (35~39歳)"
+    display as error "Only missing value: {bf:var106} (30~34歳)"
 }
 
 
 capture count if var107==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var107} (40~44歳)"
+    display as error "Only missing value: {bf:var107} (35~39歳)"
 }
 
 
 capture count if var108==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var108} (45~49歳)"
+    display as error "Only missing value: {bf:var108} (40~44歳)"
 }
 
 
 capture count if var109==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var109} (50~54歳)"
+    display as error "Only missing value: {bf:var109} (45~49歳)"
 }
 
 
 capture count if var110==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var110} (55~59歳)"
+    display as error "Only missing value: {bf:var110} (50~54歳)"
 }
 
 
 capture count if var111==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var111} (60~64歳)"
+    display as error "Only missing value: {bf:var111} (55~59歳)"
 }
 
 
 capture count if var112==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var112} (65歳以上)"
+    display as error "Only missing value: {bf:var112} (60~64歳)"
 }
 
 
 capture count if var113==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var113} (合計)"
+    display as error "Only missing value: {bf:var113} (65歳以上)"
 }
 
 
 capture count if var114==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var114} (専門・技術)"
+    display as error "Only missing value: {bf:var114} (合計)"
 }
 
 
 capture count if var115==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var115} (管理)"
+    display as error "Only missing value: {bf:var115} (専門・技術)"
 }
 
 
 capture count if var116==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var116} (事務)"
+    display as error "Only missing value: {bf:var116} (管理)"
 }
 
 
 capture count if var117==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var117} (販売)"
+    display as error "Only missing value: {bf:var117} (事務)"
 }
 
 
 capture count if var118==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var118} (サービス)"
+    display as error "Only missing value: {bf:var118} (販売)"
 }
 
 
 capture count if var119==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var119} (運輸・通信)"
+    display as error "Only missing value: {bf:var119} (サービス)"
 }
 
 
 capture count if var120==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var120} (生産・労務)"
+    display as error "Only missing value: {bf:var120} (運輸・通信)"
 }
 
 
 capture count if var121==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var121} (その他)"
+    display as error "Only missing value: {bf:var121} (生産・労務)"
 }
 
 
 capture count if var122==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var122} (合計)"
+    display as error "Only missing value: {bf:var122} (その他)"
 }
 
 
 capture count if var123==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var123} (専門・技術)"
+    display as error "Only missing value: {bf:var123} (合計)"
 }
 
 
 capture count if var124==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var124} (管理)"
+    display as error "Only missing value: {bf:var124} (専門・技術)"
 }
 
 
 capture count if var125==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var125} (事務)"
+    display as error "Only missing value: {bf:var125} (管理)"
 }
 
 
 capture count if var126==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var126} (販売)"
+    display as error "Only missing value: {bf:var126} (事務)"
 }
 
 
 capture count if var127==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var127} (サービス)"
+    display as error "Only missing value: {bf:var127} (販売)"
 }
 
 
 capture count if var128==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var128} (運輸・通信)"
+    display as error "Only missing value: {bf:var128} (サービス)"
 }
 
 
 capture count if var129==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var129} (生産・労務)"
+    display as error "Only missing value: {bf:var129} (運輸・通信)"
 }
 
 
 capture count if var130==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var130} (その他)"
+    display as error "Only missing value: {bf:var130} (生産・労務)"
 }
 
 
 capture count if var131==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var131} (合計)"
+    display as error "Only missing value: {bf:var131} (その他)"
 }
 
 
 capture count if var132==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var132} (専門・技術)"
+    display as error "Only missing value: {bf:var132} (合計)"
 }
 
 
 capture count if var133==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var133} (管理)"
+    display as error "Only missing value: {bf:var133} (専門・技術)"
 }
 
 
 capture count if var134==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var134} (事務)"
+    display as error "Only missing value: {bf:var134} (管理)"
 }
 
 
 capture count if var135==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var135} (販売)"
+    display as error "Only missing value: {bf:var135} (事務)"
 }
 
 
 capture count if var136==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var136} (サービス)"
+    display as error "Only missing value: {bf:var136} (販売)"
 }
 
 
 capture count if var137==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var137} (運輸・通信)"
+    display as error "Only missing value: {bf:var137} (サービス)"
 }
 
 
 capture count if var138==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var138} (生産・労務)"
+    display as error "Only missing value: {bf:var138} (運輸・通信)"
 }
 
 
 capture count if var139==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var139} (その他)"
+    display as error "Only missing value: {bf:var139} (生産・労務)"
 }
 
 
 capture count if var140==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var140} (合計)"
+    display as error "Only missing value: {bf:var140} (その他)"
 }
 
 
 capture count if var141==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var141} (専門・技術)"
+    display as error "Only missing value: {bf:var141} (合計)"
 }
 
 
 capture count if var142==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var142} (管理)"
+    display as error "Only missing value: {bf:var142} (専門・技術)"
 }
 
 
 capture count if var143==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var143} (事務)"
+    display as error "Only missing value: {bf:var143} (管理)"
 }
 
 
 capture count if var144==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var144} (販売)"
+    display as error "Only missing value: {bf:var144} (事務)"
 }
 
 
 capture count if var145==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var145} (サービス)"
+    display as error "Only missing value: {bf:var145} (販売)"
 }
 
 
 capture count if var146==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var146} (運輸・通信)"
+    display as error "Only missing value: {bf:var146} (サービス)"
 }
 
 
 capture count if var147==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var147} (生産・労務)"
+    display as error "Only missing value: {bf:var147} (運輸・通信)"
 }
 
 
 capture count if var148==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var148} (その他)"
+    display as error "Only missing value: {bf:var148} (生産・労務)"
 }
 
 
 capture count if var149==.
 if r(N)==_N {
-    display as error "Only missing value: {bf:var149} (合計)"
+    display as error "Only missing value: {bf:var149} (その他)"
+}
+
+
+capture count if var150==.
+if r(N)==_N {
+    display as error "Only missing value: {bf:var150} (合計)"
 }
 
 
