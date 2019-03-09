@@ -23,7 +23,7 @@ infile_list = infile_list + [
     '平成05年〜06年_賃金福祉基本統計調査_符号表(個人票).xlsx' for i in range(2)
 ]
 infile_list = infile_list + [
-    '平成07年_賃金福祉基本統計調査_符号表(個人票).xlsx'        
+    '平成07年_賃金福祉基本統計調査_符号表(個人票).xlsx'
 ]
 infile_list = infile_list + [
     '平成08年〜12年_賃金福祉基本統計調査_符号表(個人票).xlsx' for i in range(5)
@@ -128,7 +128,8 @@ os.chdir(inpath + "/雇用動向調査/事業所票")
 infile_list = ['（参考）符号表_雇用動向調査（事業所票）h03-04' for i in range(2*2)]
 infile_list = infile_list + ['（参考）符号表_雇用動向調査（事業所票）h5-10' for i in range(6*2)]
 infile_list = infile_list + ['（参考）符号表_雇用動向調査（事業所票）h11' for i in range(1*2)]
-infile_list = infile_list + ['（参考）符号表_雇用動向調査（事業所票）h12-15' for i in range(4*2)]
+infile_list = infile_list + ['（参考）符号表_雇用動向調査（事業所票）h12-14' for i in range(3*2)]
+infile_list = infile_list + ['（参考）符号表_雇用動向調査（事業所票）h15' for i in range(1*2)]
 infile_list = infile_list + [
     "（参考）符号表_雇用動向調査（事業所票）h16-28.xlsx" for i in range((28-15)*2)
 ]
@@ -183,7 +184,10 @@ main.run()
 os.chdir(inpath + "/雇用動向調査/入職者票")
 
 # List of layout tables
-infile_list = ['（参考）符号表_雇用動向調査（入職者票）h3-4.xlsx' for i in range(2*2)]
+infile_list = ['（参考）符号表_雇用動向調査（入職者票）h3.xlsx' for i in range(1*2)]
+infile_list = infile_list + [
+    "（参考）符号表_雇用動向調査（入職者票）h4.xlsx" for i in range(1*2)
+]
 infile_list = infile_list + [
     "（参考）符号表_雇用動向調査（入職者票）h5.xlsx" for i in range(1*2)
 ]

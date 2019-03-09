@@ -27,55 +27,55 @@
            across different data.
 
 
-    Source: （参考）符号表_雇用動向調査（入職者票）h3-4.xlsx
-    Date: 2019/03/07 15:57:37
+    Source: （参考）符号表_雇用動向調査（入職者票）h3.xlsx
+    Date: 2019/03/09 22:02:44
 ----------------------------------------------------------------------*/
 
 
-capture label define var5 1 "上期" 7 "下期" 
-capture label values var5 var5
+capture label define var3 1 "上期" 7 "下期" 
+capture label values var3 var3
 
-capture label define var7 1 "北海道" 2 "東北" 3 "北関東" 4 "南関東" 5 "北陸" 6 "東海" 7 "近畿" 8 "京阪神" 9 "山陰" 10 "山陽" 11 "四国" 12 "北九州" 13 "南九州" 
-capture label values var7 var7
+capture label define var6 1 "北海道" 2 "東北" 3 "北関東" 4 "南関東" 5 "北陸" 6 "東海" 7 "近畿" 8 "京阪神" 9 "山陰" 10 "山陽" 11 "四国" 12 "北九州" 13 "南九州" 
+capture label values var6 var6
 
-capture label define var13 1 "500人以上" 2 "100-499人" 3 "30-99人" 4 "5-29人" 
+capture label define var12 1 "500人以上" 2 "100-499人" 3 "30-99人" 4 "5-29人" 
+capture label values var12 var12
+
+capture label define var13 1 "1000人以上" 2 "300-999人" 3 "100-299人" 4 "30-99人" 5 "5-29人" 6 "官公営" 
 capture label values var13 var13
 
-capture label define var14 1 "1000人以上" 2 "300-999人" 3 "100-299人" 4 "30-99人" 5 "5-29人" 6 "官公営" 
-capture label values var14 var14
+capture label define var15 1 "500人以上" 2 "100-499人" 3 "30-99人" 4 "5-29人" 
+capture label values var15 var15
 
-capture label define var16 1 "500人以上" 2 "100-499人" 3 "30-99人" 4 "5-29人" 
+capture label define var16 1 "男子" 2 "女子" 
 capture label values var16 var16
 
-capture label define var17 1 "男子" 2 "女子" 
+capture label define var17 1 "一般労働者" 2 "パートタイム労働者" 
 capture label values var17 var17
 
-capture label define var18 1 "一般労働者" 2 "パートタイム労働者" 
-capture label values var18 var18
+capture label define var19 1 "男" 2 "女" 
+capture label values var19 var19
 
-capture label define var20 1 "男" 2 "女" 
+capture label define var20 1 "19歳以下" 2 "20歳〜24歳" 3 "25歳〜29歳" 4 "30歳〜34歳" 5 "35歳〜44歳" 6 "45歳〜54歳" 7 "55歳〜59歳" 8 "60歳〜64歳" 9 "65歳以上" 
 capture label values var20 var20
 
-capture label define var21 1 "19歳以下" 2 "20歳〜24歳" 3 "25歳〜29歳" 4 "30歳〜34歳" 5 "35歳〜44歳" 6 "45歳〜54歳" 7 "55歳〜59歳" 8 "60歳〜64歳" 9 "65歳以上" 
+capture label define var21 1 "北海道" 2 "東北" 3 "北関東" 4 "南関東" 5 "北陸" 6 "東海" 7 "近畿" 8 "京阪神" 9 "山陰" 10 "山陽" 11 "四国" 12 "北九州" 13 "南九州" 
 capture label values var21 var21
 
-capture label define var22 1 "北海道" 2 "東北" 3 "北関東" 4 "南関東" 5 "北陸" 6 "東海" 7 "近畿" 8 "京阪神" 9 "山陰" 10 "山陽" 11 "四国" 12 "北九州" 13 "南九州" 
-capture label values var22 var22
+capture label define var23 1 "新中・旧小卒" 2 "新高・旧中卒" 3 "短大・高専卒" 4 "新大・旧大卒(文科系)" 5 "新大・旧大卒(理科系)" 
+capture label values var23 var23
 
-capture label define var24 1 "新中・旧小卒" 2 "新高・旧中卒" 3 "短大・高専卒" 4 "新大・旧大卒(文科系)" 5 "新大・旧大卒(理科系)" 
+capture label define var24 1 "新中・旧小卒" 2 "新高・旧中卒" 3 "短大・高専卒" 4 "新大・旧大卒" 
 capture label values var24 var24
 
-capture label define var25 1 "新中・旧小卒" 2 "新高・旧中卒" 3 "短大・高専卒" 4 "新大・旧大卒" 
+capture label define var25 1 "新中・旧小卒" 2 "新高・旧中卒" 3 "短大・高専卒" 5 "新大・旧大卒(文科系)" 6 "新大・旧大卒(理科系)" 
 capture label values var25 var25
 
-capture label define var26 1 "新中・旧小卒" 2 "新高・旧中卒" 3 "短大・高専卒" 5 "新大・旧大卒(文科系)" 6 "新大・旧大卒(理科系)" 
+capture label define var26 1 "新卒" 2 "新卒以外" 
 capture label values var26 var26
 
-capture label define var27 1 "新卒" 2 "新卒以外" 
+capture label define var27 1 "ある(入戦前1年以内に卒業した)" 2 "ある(それ以外の時期に卒業した)" 3 "ない" 
 capture label values var27 var27
-
-capture label define var28 1 "ある(入戦前1年以内に卒業した)" 2 "ある(それ以外の時期に卒業した)" 3 "ない" 
-capture label values var28 var28
 
 capture label define var29 1 "安定所" 2 "学校" 3 "前の会社" 4 "出向" 5 "出向先からの復帰" 6 "縁故" 7 "広告" 8 "その他" 
 capture label values var29 var29
