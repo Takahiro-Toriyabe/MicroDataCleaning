@@ -263,7 +263,10 @@ class RenameFileWriter(DoFileWriterBase):
 
     def __WriteMainPart__(self, tol=0.75):
         for key, synonym in self.source.items():
-            if any([var is not None and var.name != synonym.baseinfo.name for var in synonym.list[1:]]):
+            if all([var is not None and var.name == synonym.baseinfo.name for var in synonym.list[1:]]):
+                self.__WriteVarInfo__(synonym)
+                self.file.write('rename ' + synonym.baseinfo.name + ' ' + synonym.baseinfo.name + '_NEWVARIABLE' + '\n'*3)
+            elif any([var is not None and var.name != synonym.baseinfo.name for var in synonym.list[1:]]):
                 self.__WriteVarInfo__(synonym)
                 self.__WriteRenamePart__(synonym)
 

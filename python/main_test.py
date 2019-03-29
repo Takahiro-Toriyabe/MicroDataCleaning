@@ -51,7 +51,7 @@ for i in range(1, 30):
     outfile = "h" + str(i) + "/h" + str(i)
     outfile_list.append(
         str(outpath) + "/賃金構造基本統計調査/Kojin/" + str(outfile)
-        )
+    )
 
 data_list = []
 for i in range(1, 30):
@@ -101,7 +101,7 @@ for i in range(1, 30):
     outfile = "h" + str(i) + "/h" + str(i)
     outfile_list.append(
         str(outpath) + "/賃金構造基本統計調査/Jigyosho/" + str(outfile)
-        )
+    )
 
 data_list = []
 for i in range(1, 30):

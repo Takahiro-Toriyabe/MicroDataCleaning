@@ -38,6 +38,8 @@ class StrDistMeasureFactory:
             from .Thesaurus.SurveyEmpTrend import thesaurus_jargon
         elif SurveyName == '賃金構造基本統計調査':
             from .Thesaurus.WageCensus import thesaurus_jargon
+        elif SurveyName == '社会生活基本調査':
+            from .Thesaurus.STULA import thesaurus_jargon
         else:
             thesaurus_jargon = []
 
