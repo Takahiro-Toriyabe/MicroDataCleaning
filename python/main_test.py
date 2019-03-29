@@ -12,7 +12,7 @@ inpath = "C:/Users/Takahiro/Desktop/layout"
 outpath = "D:/GitHub/MicroDataCleaning/do-file"
 # outpath = "C:/Users/Takahiro/Desktop"
 
-datapath = "/mnt/WageCensus_EmploymentTrend/raw/調査票情報"
+datapath = "/mnt/MicroData/WageCensus/raw/調査票情報"
 
 # Wage Census (Kojin-hyo)
 os.chdir(inpath + "/賃金構造基本統計調査/符号表（個人票）")
@@ -50,7 +50,7 @@ outfile_list = []
 for i in range(1, 30):
     outfile = "h" + str(i) + "/h" + str(i)
     outfile_list.append(
-        str(outpath) + "/賃金構造基本統計調査/個人票/" + str(outfile)
+        str(outpath) + "/賃金構造基本統計調査/Kojin/" + str(outfile)
         )
 
 data_list = []
@@ -59,11 +59,11 @@ for i in range(1, 30):
         year = '0' + str(i)
     else:
         year = str(i)
-    data = str(datapath) + "/賃金構造基本統計調査/h01-29_k-chin/h" + year \
+    data = str(datapath) + "/h01-29_k-chin/h" + year \
         + "_k-chin.txt"
     data_list.append(data)
 
-master_name = str(outpath) + '/賃金構造基本統計調査/個人票/master.do'
+master_name = str(outpath) + '/賃金構造基本統計調査/Kojin/master.do'
 
 main = Main(
     infile_list, sheet_index_list, outfile_list, data_list, xls=False, SurveyName='賃金構造基本統計調査'
@@ -100,7 +100,7 @@ outfile_list = []
 for i in range(1, 30):
     outfile = "h" + str(i) + "/h" + str(i)
     outfile_list.append(
-        str(outpath) + "/賃金構造基本統計調査/事業所票/" + str(outfile)
+        str(outpath) + "/賃金構造基本統計調査/Jigyosho/" + str(outfile)
         )
 
 data_list = []
@@ -109,11 +109,11 @@ for i in range(1, 30):
         year = '0' + str(i)
     else:
         year = str(i)
-    data = str(datapath) + "/賃金構造基本統計調査/h01-29_j-chin/h" + year \
+    data = str(datapath) + "/h01-29_j-chin/h" + year \
         + "_j-chin.txt"
     data_list.append(data)
 
-master_name = str(outpath) + '/賃金構造基本統計調査/事業所票/master.do'
+master_name = str(outpath) + '/賃金構造基本統計調査/Jigyosho/master.do'
 
 main = Main(
     infile_list, sheet_index_list, outfile_list, data_list, xls=False, SurveyName='賃金構造基本統計調査'
@@ -122,6 +122,8 @@ main.run()
 
 
 # Employment Trend Survey  (Jigyosho-hyo)
+datapath = "/mnt/MicroData/SurveyEmpTrends/raw/調査票情報"
+
 os.chdir(inpath + "/雇用動向調査/事業所票")
 
 # List of layout tables
@@ -158,7 +160,7 @@ for i in range(3, 29):
     for j in ["F", "L"]:
         outfile = "h" + str(i) + str(j) + "/h" + str(i) + str(j)
         outfile_list.append(
-            str(outpath) + "/雇用動向調査/事業所票/" + str(outfile)
+            str(outpath) + "/雇用動向調査/Jigyosho/" + str(outfile)
         )
 
 data_list = []
@@ -168,11 +170,11 @@ for i in range(3, 29):
     else:
         year = str(i)
     for j in ["01", "07"]:
-        data = str(datapath) + "/雇用動向調査/H03-28_j-koyo/H" + year \
+        data = str(datapath) + "/H03-28_j-koyo/H" + year \
             + "_j-koyo" + str(j) + ".txt"
         data_list.append(data)
 
-master_name = str(outpath) + '/雇用動向調査/事業所票/master.do'
+master_name = str(outpath) + '/雇用動向調査/Jigyosho/master.do'
 
 main = Main(
     infile_list, sheet_index_list, outfile_list, data_list, xls=False, SurveyName='雇用動向調査'
@@ -243,7 +245,7 @@ for i in range(3, 29):
     for j in ["F", "L"]:
         outfile = "h" + str(i) + str(j) + "/h" + str(i) + str(j)
         outfile_list.append(
-            str(outpath) + "/雇用動向調査/入職者票/" + str(outfile)
+            str(outpath) + "/雇用動向調査/Nyushokusha/" + str(outfile)
         )
 
 data_list = []
@@ -253,11 +255,11 @@ for i in range(3, 29):
     else:
         year = str(i)
     for j in ["01", "07"]:
-        data = str(datapath) + "/雇用動向調査/H03-28_n-koyo/H" + year \
+        data = str(datapath) + "/H03-28_n-koyo/H" + year \
             + "_n-koyo" + str(j) + ".txt"
         data_list.append(data)
 
-master_name = str(outpath) + '/雇用動向調査/入職者票/master.do'
+master_name = str(outpath) + '/雇用動向調査/Nyushokusha/master.do'
 
 main = Main(
     infile_list, sheet_index_list, outfile_list, data_list, xls=False, SurveyName='雇用動向調査'
@@ -313,7 +315,7 @@ for i in range(3, 29):
     for j in ["F", "L"]:
         outfile = "h" + str(i) + str(j) + "/h" + str(i) + str(j)
         outfile_list.append(
-            str(outpath) + "/雇用動向調査/離職者票/" + str(outfile)
+            str(outpath) + "/雇用動向調査/Rishokusha/" + str(outfile)
         )
 
 data_list = []
@@ -323,11 +325,11 @@ for i in range(3, 29):
     else:
         year = str(i)
     for j in ["01", "07"]:
-        data = str(datapath) + "/雇用動向調査/H03-28_r-koyo/H" + year \
+        data = str(datapath) + "/H03-28_r-koyo/H" + year \
             + "_r-koyo" + str(j) + ".txt"
         data_list.append(data)
 
-master_name = str(outpath) + '/雇用動向調査/離職者票/master.do'
+master_name = str(outpath) + '/雇用動向調査/Rishokusha/master.do'
 
 main = Main(
     infile_list, sheet_index_list, outfile_list, data_list, xls=False, SurveyName='雇用動向調査'
