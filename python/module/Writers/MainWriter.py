@@ -47,7 +47,11 @@ class Writer2:
         source = VarNameThesaurus(collections, reservation, SurveyName).GetDict()
 
         Excelwriter = RenameExcelWriter(outfile, source)
-        Excelwriter.WriteExcelFile()
+        try:
+            Excelwriter.WriteExcelFile()
+        except ValueError:
+            print('rename.xls is not writed (Too many arguments)')
+            # TODO: Should be exported as .csv file in this case
         
         DoWriter = RenameFileWriter(outfile, source)
         DoWriter.WriteDoFile()

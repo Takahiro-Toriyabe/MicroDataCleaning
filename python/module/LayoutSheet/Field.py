@@ -206,11 +206,14 @@ class FieldCleaner():
     def __GetRowToExpand__(self, Field, RepeatInfo, r, i):
         new_list = copy.copy(Field.value[r])
         if len(str(new_list[Field.info.keta])) != 0 \
-                and int(float(new_list[Field.info.keta])) != 0:
+                and int(float(new_list[Field.info.keta])) \
+                and len(new_list[Field.info.komoku]) != 0:
             new_list[Field.info.ichi] \
                 = self.__CalculateVarPlace__(Field, new_list, RepeatInfo, i)
             new_list[Field.info.varname] \
                 = new_list[Field.info.varname] + '_' + str(i)
+            new_list[Field.info.komoku] \
+                = new_list[Field.info.komoku] + '(' + str(i) + ')'
 
         return new_list
 
