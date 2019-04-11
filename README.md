@@ -4,6 +4,8 @@ Python program to make do-files for data cleaning from layout tables
 ## Overview
 Overview of the software...
 
+![result](D:/GitHub/MicroDataCleaning/img/demo.gif)
+
 ## Requirement
 The program works with Python3. You can download it from
 [here](https://www.anaconda.com/distribution/). In addition, you need to

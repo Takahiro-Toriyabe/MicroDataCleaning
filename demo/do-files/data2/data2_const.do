@@ -28,7 +28,7 @@
 
 
     Source: D:/GitHub/MicroDataCleaning/demo/layout_tables/layout_table2.xlsx
-    Date: 2019/04/11 16:13:36
+    Date: 2019/04/11 21:04:27
 ----------------------------------------------------------------------*/
 
 
@@ -111,5 +111,5 @@
         str KC_Month_10 393-394
         str KC_Haigu_10 395-395
         str KC_Kyouiku_10 396-397
-    using "data2.txt";
+    using "data2";
 #delimit cr
