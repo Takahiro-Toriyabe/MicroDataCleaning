@@ -2,12 +2,15 @@
 Python program to make do-files for data cleaning from layout tables
 
 ## Overview
-Overview of the software...
+- **main.py**: Main program to make do-files for data cleaning from layout
+tables.
+- **gloucestermice.exe**: Desktop app based on main.py.
 
 ![demo](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/blob/e49a4f95313d5521ae9097957e5a630cb58e02a5/img/demo.gif)
 
 ## Requirement
-The program works with Python3. You can download it from
+Since gloucestermice.exe is executable file, it works without Python.
+main.py works with Python3. You can download it from
 [here](https://www.anaconda.com/distribution/). In addition, you need to
 install
 `python-Levenshtein`.
@@ -102,8 +105,29 @@ main.run()
 1. Add ado/CheckAppendValidity.ado and ado/DestringAll.ado to an appropriate
 directory. You can check the path by typeing `adopath` on Stata.
 2. Check if rename.do correctly works. To that end, rename.xls may be useful.
-In rename.xls, the cells are highlighted if the variable description (項目名)
+In rename.xls, the cells are highlighted if the variable description
 is not identical to the previous or next year data.
+
+## Harmonize variable names across different survey years
+Although the program automatically implement fuzzy variable matching based on
+variable description and, if any, variable names, the matching is not very
+successful in some cases. You can improve the matching quality by making
+survey-specific synonym list such as [this one](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/blob/a05351fff7c1aa95d8953de1ccd3fa16253af67f/python/module/Writers/VarNameThesaurus/Thesaurus/WageCensus.py), in which each word in a list
+is replaced by the first element of the list when Levenshtein distance is measured.
+
+The necessary procedure is as follows:
+1. Make/modify a survey-specific thesaurus at 'python/module/Writers/VarNameThesaurus/Thesaurus/', and the variable name defined there should be `thesaurus_jargon`.
+2. Then, modify `StrDistMeasureFactory` class in '/python/module/Writers/VarNameThesaurus/StrDistMeasure.py'. If the file name is 'NewThesaurus.py' and
+the survey name is 'xxxSurvey', you need to add
+```Python
+elif SurveyName == 'xxxSurvey':
+    from .Thesaurus.NewThesaurus import thesaurus_jargon
+```
+to the if clause in `StrDistMeasureFactory` class.
+3. Run the main program with the SurveyName option (i.e., `SurveyName='xxxSurvey'`).
+
+This survey-specific synonym list will be quite useful for other users, so your
+contribution to provide it would be greatly appreciate.
 
 ## Remarks
 1. All file names are recommended to be specified with full paths. (Windows users should not use `\\` to specify the path. Use `/` instead.)
@@ -123,10 +147,15 @@ likely to be inconsistent across years.
 6. In addition, there is no file to make variable values consistent across
 different data.
 
+## How to contribute?
+You can contribute to this project by the following steps:
+1. describe first step...
+2. describe second step...
+
 ## License
-MIT license is appropriate?
-Note: python-Levenshtein has GPL license, so if GPL license is not favorable,
-use pylev instead. Or Jaro-Winkler distance (pyjarowinkler) may be useful.
+Copyright (C) 2019 Takahiro Toriyabe
+
+This software is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 ## Author
 [Takahiro-Toriyabe](https://github.com/Takahiro-Toriyabe)
