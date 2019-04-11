@@ -4,7 +4,7 @@ Python program to make do-files for data cleaning from layout tables
 ## Overview
 Overview of the software...
 
-![result](D:/GitHub/MicroDataCleaning/img/demo.gif)
+![demo](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/blob/e49a4f95313d5521ae9097957e5a630cb58e02a5/img/demo.gif)
 
 ## Requirement
 The program works with Python3. You can download it from
