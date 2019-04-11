@@ -173,63 +173,63 @@ class App:
 
         # Menu bar
         self.menu = tk.Menu(self.win)
-        
+
         # Menu bar: File
         self.menu_file= tk.Menu(self.menu, tearoff=False)
         self.menu.add_cascade(label='File', menu=self.menu_file)
-        
+
         self.menu_file.add_command(label='Import', command=self.ImportInputInfo, accelerator="Ctrl+O")
         self.win.bind_all("<Control-o>", self.ImportInputInfo)
-        
+
         # Menu bar: Command
         self.menu_command = tk.Menu(self.menu, tearoff=False)
         self.menu.add_cascade(label='Commands', menu=self.menu_command)
-        
+
         self.menu_command.add_command(label='Add', command=self.Add, accelerator="Ctrl+A")
         self.win.bind_all("<Control-a>", self.Add)
-        
+
         self.menu_command.add_command(label='Check', command=self.CheckSelection, accelerator="Ctrl+I")
         self.win.bind_all("<Control-i>", self.CheckSelection)
-        
+
         self.menu_command.add_command(label='Remove', command=self.Remove, accelerator="Ctrl+D")
         self.win.bind_all("<Control-d>", self.Remove)
-        
+
         self.menu_command.add_command(label='Remove all', command=self.RemoveAllInputInfo, accelerator="Ctrl+Alt+D")
         self.win.bind_all("<Control-Alt-d>", self.RemoveAllInputInfo)
-        
+
         self.menu_command.add_command(label='Run', command=self.MakeDoFiles, accelerator="Ctrl+R")
         self.win.bind_all("<Control-r>", self.MakeDoFiles)
-        
+
         self.menu_command.add_command(label='Clear console', command=self.ClearConsole, accelerator="Ctrl+L")
         self.win.bind_all("<Control-l>", self.ClearConsole)
-        
+
         self.menu_command.add_command(label='Exit', command=self.Quit, accelerator="Ctrl+Q")
         self.win.bind_all("<Control-q>", self.Quit)
-        
+
         # Menu bar: Help
         self.menu_help= tk.Menu(self.menu, tearoff=False)
         self.menu.add_cascade(label='Help', menu=self.menu_help)
-        
+
         self.menu_help.add_command(label='Help', accelerator="Ctrl+H")
         self.win.bind_all("<Control-h>", self.OpenHelp)
-        
+
         self.win.config(menu = self.menu)
-        
+
     def __AppendFileInfo__(self, excel_file, index, output_file, data_file):
         self.InFileListBox.insert(tk.END, excel_file)
         self.InFileListBox.selection_clear(0, tk.END)
-    
+
         self.infile_list.append(excel_file)
         self.index_list.append(index)
         self.outfile_list.append(output_file)
         self.data_list.append(data_file)
-    
+
         self.Console.config(state=tk.NORMAL)
         self.Console.insert(tk.END, '>>> Add\n')
         self.Console.insert(tk.END, excel_file + ' is added\n\n')
         self.Console.see(tk.END)
         self.Console.config(state=tk.DISABLED)
-        
+
     def __ImportCSV__(self, fname):
         csv_file = codecs.open(fname, "r", "Shift-JIS", "ignore")
         f = csv.DictReader(
@@ -241,11 +241,11 @@ class App:
             index = int(float(l['Excel sheet index']))
             output_file = repr(l['Output file'])[1:-1]
             data_file = repr(l['Data file'])[1:-1]
-            
+
             self.__AppendFileInfo__(excel_file, index, output_file, data_file)
-        
+
         csv_file.close()
-        
+
     def ImportInputInfo(self, event=None):
         fname = Fd.askopenfilename(filetypes=[('All Files', ('*'))])
         if fname:
@@ -255,32 +255,32 @@ class App:
         self.Console.config(state=tk.NORMAL)
         self.Console.delete('2.0', tk.END)
         self.Console.config(state=tk.DISABLED)
-        
+
     def RemoveAllInputInfo(self, event=None):
         self.InFileListBox.delete (0, tk.END)
         self.infile_list = []
         self.index_list = []
         self.outfile_list = []
         self.data_list = []
-        
+
         self.Console.config(state=tk.NORMAL)
         self.Console.insert(tk.END, '>>> Remove all\n')
         self.Console.insert(tk.END, 'All input information was removed\n')
         self.Console.see(tk.END)
         self.Console.config(state=tk.DISABLED)
-            
+
     def __CloseSubWindow__(self):
         try:
             self.w.destroy()
             self.subwin.destroy()
         except AttributeError:
             pass
-        
+
     def Quit(self, event=None, result='Exit'):
         exit_yesno = mbox.askyesno(result, 'Do you want to exit?')
         if exit_yesno:
             self.win.destroy()
-            
+
     def OpenHelp(self, event=None):
         pass
 
@@ -311,7 +311,7 @@ class App:
         index = int(self.SheetIndex.text.get())
         output_file = repr(self.OutputFile.text.get())[1:-1]
         data_file = repr(self.DataFile.text.get())[1:-1]
-        
+
         self.__AppendFileInfo__(excel_file, index, output_file, data_file)
 
     def __UpdateInList__(self, inlist, indexes):
