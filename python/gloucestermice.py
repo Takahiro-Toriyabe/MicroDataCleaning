@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from main import Main
+import os
 import sys
 import codecs
 import csv
@@ -15,14 +16,14 @@ class Base:
 
     def __init__(self):
         self.win = tk.Tk()
-        self.win.title("Make data-import do-files")
+        self.win.title(os.path.basename(__file__).replace('.py', ''))
         self.win.geometry("800x500")
         self.win.resizable(width=False, height=False)
 
 
 class InputElement:
 
-    def __init__(self, frame, label, text, r):
+    def __init__(self, frame, label, text, r, browse=True):
         font_lab = ('Times New Roman', 12, 'bold')
         padx_lab = 30
         font_text = ('Times New Roman', 12)
@@ -35,8 +36,9 @@ class InputElement:
         self.text.insert(tk.END, text)
         self.text.grid(row=r, column=1, padx=10)
 
-        self.button = tk.Button(frame, text='Browse', font=font_button, command=self.FileDialog, relief=tk.RAISED)
-        self.button.grid(row=r, column=2, sticky=tk.W)
+        if browse == True:
+            self.button = tk.Button(frame, text='Browse', font=font_button, command=self.FileDialog, relief=tk.RAISED)
+            self.button.grid(row=r, column=2, sticky=tk.W)
 
     def FileDialog(self):
         fname = Fd.askopenfilename(filetypes=[('All Files', ('*'))])
@@ -90,7 +92,8 @@ class Console():
     def __init__(self, frame, width, height, font=('Lucida Console', 11)):
         self.console = st.ScrolledText(frame, width=width, height=height, font=font, fg='white', bg='black', insertbackground='red')
         self.console.grid()
-        self.console.insert(tk.END, 'Input layout sheet information...\n\n')
+        self.console.insert(tk.END, 'Copyright (c) 2019 Takahiro Toriyabe \n')
+        self.console.insert(tk.END, 'This software is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\n')
         self.console.config(state=tk.DISABLED)
 
 
@@ -134,11 +137,11 @@ class App:
         self.frame_lab = tk.Label(self.frame_input, text='Input information', font=('Times New Roman', 16, "bold"))
         self.frame_lab.grid(row=0, column=0, columnspan=3, sticky=tk.W, pady=10, padx=padx_lab)
 
-        self.ExcelFile = InputElement(self.frame_input, 'Excel file', 'C:/Users/Takahiro/Desktop/layout_test.xlsx', 1)
-        self.SheetIndex = InputElement(self.frame_input, 'Excel sheet index', '0', 2)
-        self.OutputFile = InputElement(self.frame_input, 'Output file', 'C:/Users/Takahiro/Desktop/test/test', 3)
-        self.DataFile = InputElement(self.frame_input, 'Data file', 'Data', 4)
-        self.SurveyName = InputElement(self.frame_input, 'Survey name', '', 5)
+        self.ExcelFile = InputElement(self.frame_input, 'Excel file', '', 1)
+        self.SheetIndex = InputElement(self.frame_input, 'Excel sheet index', '', 2, browse=False)
+        self.OutputFile = InputElement(self.frame_input, 'Output file', '', 3, browse=False)
+        self.DataFile = InputElement(self.frame_input, 'Data file', '', 4)
+        self.SurveyName = InputElement(self.frame_input, 'Survey name (optional)', '', 5, browse=False)
 
         self.frame_lab.config(bg=self.bgcolor)
         for element in [self.ExcelFile, self.SheetIndex, self.OutputFile, self.DataFile, self.SurveyName]:
@@ -276,7 +279,6 @@ class App:
     def Quit(self, event=None, result='Exit'):
         exit_yesno = mbox.askyesno(result, 'Do you want to exit?')
         if exit_yesno:
-            self.__CloseSubWindow__()
             self.win.destroy()
             
     def OpenHelp(self, event=None):
@@ -299,7 +301,7 @@ class App:
 
     def __InitializeUI__(self):
         self.win = Base().win
-        self.win.wm_iconbitmap(default='./images/icon_test.ico')
+        self.win.wm_iconbitmap(default='../img/gloucestermice_identicon.ico')
         self.win.config(bg=self.bgcolor)
         self.my_font = font.Font(self.win, family="Times New Roman", size=12, weight="bold")
         self.__SetGUI__()
