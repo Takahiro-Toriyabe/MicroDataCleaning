@@ -34,14 +34,14 @@ class WriterBase(FieldMaker, FieldCleaner):
 
 class Writer1(WriterBase):
 
-    def Write(self, infile, index, outfile, indata, xls):
+    def Write(self, infile, index, outfile, indata, xls, SurveyName):
         source = self.SetSource(infile, index, outfile, xls)
-        writer = DoFileWriter(outfile, source, dataname=indata, infile=infile)
+        writer = DoFileWriter(outfile, source, SurveyName, dataname=indata, infile=infile)
         writer.WriteDoFile()
 
 
 class Writer2:
-    
+
     def Write(self, infiles, indexes, outfile, reservation, SurveyName):
         collections = CollectionHolder(infiles, indexes).GetCollections()
         source = VarNameThesaurus(collections, reservation, SurveyName).GetDict()

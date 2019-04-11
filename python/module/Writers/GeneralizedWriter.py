@@ -44,12 +44,12 @@ class GeneralizedWriter:
         self.writer2 = Writer2()
         
    
-    def WriteMainFiles(self, InLists, xls):
+    def WriteMainFiles(self, InLists, xls, SurveyName):
         for vals in zip(
             InLists.infile_list, InLists.index_list,
             InLists.outfile_list, InLists.data_list
         ):
-            self.writer1.Write(*vals, xls=xls)
+            self.writer1.Write(*vals, xls, SurveyName)
             print()
     
     def WriteRenameFiles(self, InLists, reservation, SurveyName):
@@ -65,6 +65,6 @@ class GeneralizedWriter:
         writer.WriteDoFile()
         
     def Write(self, InLists, xls, reservation, SurveyName):
-        self.WriteMainFiles(InLists, xls)
+        self.WriteMainFiles(InLists, xls, SurveyName)
         self.WriteRenameFiles(InLists, reservation, SurveyName)
         self.WriteMasterFile(InLists)
