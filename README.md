@@ -2,15 +2,17 @@
 Python program to make do-files for data cleaning from layout tables
 
 ## Overview
+glmice automatically makes do-files to import fixed-length data using the layout
+tables from MHLW or MIC or possibly other ministries and government offices.
+- **glmice.exe**: Desktop app based on main.py.
 - **main.py**: Main program to make do-files for data cleaning from layout
 tables.
-- **gloucestermice.exe**: Desktop app based on main.py.
 
 ![demo](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/blob/e49a4f95313d5521ae9097957e5a630cb58e02a5/img/demo.gif)
 
 ## Requirement
-Since gloucestermice.exe is executable file, it works without Python.
-main.py works with Python3. You can download it from
+- glmice.exe works without Python (Tested only under Windows 10).
+- main.py works with Python3. You can download it from
 [here](https://www.anaconda.com/distribution/). In addition, you need to
 install
 `python-Levenshtein`.
@@ -20,7 +22,21 @@ pip install python-Levenshtein
 
 ## Usage
 
-### Description of the main program
+### glmice
+
+1. Fill input information (i.e., 'Excel file', 'Excel sheet index', 'Output file', 'Data file')
+2. Push 'Add' button. Then, the information is added to the list.
+You can check the added information by selecting it in the list and pushing 'Check' button.
+3. Similarly, you can remove, if necessary, some inputs in the list by using 'Remove' button.
+4. After adding all input information to the list, you may or may not fill 'Survey name',
+which could help to harmonize the variable names across data in different years.
+5. Push 'Run' button.
+
+You can skip Steps 1-3 by making csv file with the necessary input information.
+Use docs/input_list_template.csv in such cases. Then, import that csv file
+(File > Import).
+
+### Main program
 main.py is the main program to make do-files for data cleaning from layout
 tables
 
