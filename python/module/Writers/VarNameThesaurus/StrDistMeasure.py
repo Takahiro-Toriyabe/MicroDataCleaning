@@ -34,11 +34,13 @@ class StrDistMeasureFactory:
     
     def CreateMeasure(self, SurveyName=None):
         from .Thesaurus.Base import thesaurus_base
-        if SurveyName == '雇用動向調査':
+        if SurveyName in ['国勢調査', 'Census']:
+            from .Thesaurus.Census import thesaurus_jargon
+        elif SurveyName in ['雇用動向調査', 'SurveyEmpTrend']:
             from .Thesaurus.SurveyEmpTrend import thesaurus_jargon
-        elif SurveyName == '賃金構造基本統計調査':
+        elif SurveyName in ['賃金構造基本統計調査', 'WageCensus']:
             from .Thesaurus.WageCensus import thesaurus_jargon
-        elif SurveyName == '社会生活基本調査':
+        elif SurveyName in ['社会生活基本調査', 'STULA']:
             from .Thesaurus.STULA import thesaurus_jargon
         else:
             thesaurus_jargon = []

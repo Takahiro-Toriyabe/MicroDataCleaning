@@ -16,15 +16,16 @@ class HeaderInfoFactory:
                 pass
 
     def GetHeaderRowIndex(self, layout_list):
-        candidates = [val[0] for r, val in enumerate(layout_list)]
-        key_list = HeaderKeywords.header.value
-        row_header = self.__GetIndex__(candidates, key_list)
+        for c in range(len(layout_list[0])):
+            candidates = [val[c] for r, val in enumerate(layout_list)]
+            key_list = HeaderKeywords.header.value
+            row_header = self.__GetIndex__(candidates, key_list)
 
-        if row_header is not None:
-            return row_header
-        else:
-            print('Header was not found')
-            sys.exit()
+            if row_header is not None:
+                return row_header
+
+        print('Header was not found')
+        sys.exit()
 
     def CreateHeaderInfo(self, layout_list):
         header = layout_list[self.GetHeaderRowIndex(layout_list)]
@@ -41,7 +42,7 @@ class HeaderInfoFactory:
                 varname = self.__GetIndex__(header, HKW.varname.value)
             fugo = self.__GetIndex__(header, HKW.fugo.value)
             fugo_naiyo = self.__GetIndex__(header, HKW.fugo_naiyo.value)
-            
+
         return HeaderInfo
 
 
@@ -72,7 +73,7 @@ class HeaderInfoFactoryTester:
 
         return True
 
-    
+
 if __name__ == '__main__':
     from ExcelFileClass import ExcelFile
     from LayoutSheetImporterClass import LayoutSheetImporter
@@ -81,6 +82,6 @@ if __name__ == '__main__':
     index = int(0)
     importer = LayoutSheetImporter()
     layout_list = importer.ImportLayoutSheet(ExcelFile(file, index))
-    
+
     iTestHeaderInfo = HeaderInfoFactoryTester()
     iTestHeaderInfo.Test(layout_list)
