@@ -8,7 +8,7 @@ class HeaderKeywords(Enum):
     element_dict = ['komoku', 'ichi', 'keta', 'repeat', 'varname',
                     'fugo', 'fugo_naiyo']
 
-    header = ['行番号', 'ﾚﾍﾞﾙ', '項目番号']
+    header = ['行番号', 'レベル', 'ﾚﾍﾞﾙ', '項目番号']
     # 1st element of the header row
     komoku = ['項目名']
     ichi = ['位置', '位置左端', 'カラム']
