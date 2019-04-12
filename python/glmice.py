@@ -301,7 +301,7 @@ class App:
 
     def __InitializeUI__(self):
         self.win = Base().win
-        self.win.wm_iconbitmap(default='../img/gloucestermice_identicon.ico')
+        self.win.wm_iconbitmap(default='../img/glmice_icon.ico')
         self.win.config(bg=self.bgcolor)
         self.my_font = font.Font(self.win, family="Times New Roman", size=12, weight="bold")
         self.__SetGUI__()
