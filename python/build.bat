@@ -1,7 +1,7 @@
 @echo off
 cd /d %~dp0
 
-pyinstaller --icon="../img/gloucestermice_identicon.ico" gloucestermice.py
+pyinstaller --icon="../img/glmice_icon.ico" glmice.py
 
 xcopy /E /H "./dist" "../dist"
 xcopy /E "../img" "../dist/img"
