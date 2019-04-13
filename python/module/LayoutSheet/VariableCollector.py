@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import sys
 
 class Variable:
 
@@ -12,6 +13,15 @@ class Variable:
         self.description = description
         self.val_list = val_list
         self.val_label_list = val_label_list
+        self.group = ''
+        
+    def SetGroup(self, group):
+        self.group = group
+        
+    def GetFullDescription(self):
+        if self.group == '':
+            return self.description
+        return self.group + ': ' + self.description
 
 
 class VariableCollector:
@@ -19,17 +29,46 @@ class VariableCollector:
     def __init__(self, Field):
         self.__collection = []
         self.field = Field
+        self.current_group = []
         self.__CollectVariables__()
 
     def __AddVariable__(self, Variable):
         self.__collection.append(Variable)
 
+    def __UpdateGroup__(self, row_current, row_next):
+        for r in range(row_current+1, row_next):
+            komoku = self.field.GetValue(r, 'komoku')
+            kaiso = self.field.GetValue(r, 'kaiso')
+            if len(komoku) != 0 and len(str(kaiso)) != 0:
+                kaiso = int(float(kaiso))
+                del self.current_group[kaiso-1:]
+                self.current_group.append(komoku)
+        
+        try:
+            kaiso_next = int(float(self.field.GetValue(row_next, 'kaiso')))
+            del self.current_group[kaiso_next-1:]
+        except ValueError:
+            print(
+                'Kaiso is empty: ' + self.field.GetValue(row_next, 'varname')
+            )
+            sys.exit()
+    
+    def __GetVarGroup__(self):
+        group = ''
+        for val in self.current_group:
+            group = group + val
+        
+        return group
+        
     def __CollectVariables__(self):
         row_current = 0
         row_next = self.field.GetNextVarPlace(row_current)
         while row_current != row_next:
+            self.__UpdateGroup__(row_current, row_next)
             var = self.field.GetVariable(row_next)
-            self.__AddVariable__(var)
+            if var.description not in ['', 'FILLER']:
+                var.SetGroup(self.__GetVarGroup__())
+                self.__AddVariable__(var)
             row_current = row_next
             row_next = self.field.GetNextVarPlace(row_current)
 
@@ -44,8 +83,8 @@ class VariableCollector:
 
     def GetCollection(self):
         return self.__collection
-        
 
+        
 if __name__ == '__main__':
     from ExcelFileClass import ExcelFile
     from LayoutSheetImporterClass import LayoutSheetImporter
