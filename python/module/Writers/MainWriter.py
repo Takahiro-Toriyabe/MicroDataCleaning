@@ -3,9 +3,10 @@
 import os
 from ..LayoutSheet.ExcelImporter import ExcelFile
 from ..LayoutSheet import FieldMaker, FieldCleaner, VariableCollector
-from .csvFileWriter import csvFileWriter
+from ..LayoutSheet.CollectionHolder import CollectionHolder
 from .DoFileWriter import DoFileWriter, RenameFileWriter
-
+from .ExcelFileWriter import RenameExcelWriter, CleanLayoutWriter
+from .VarNameThesaurus.VarNameThesaurus import VarNameThesaurus
 
 class WriterBase(FieldMaker, FieldCleaner):
     
@@ -16,36 +17,41 @@ class WriterBase(FieldMaker, FieldCleaner):
         except FileExistsError:
             pass
 
-    def SetSource(self, infile, index, outfile, clean=False, csv=False):
+    def SetSource(self, infile, index, outfile, xls):
         self.__MakeOutFileDir__(outfile)
         
         field = self.CreateField(ExcelFile(infile, index))
         self.CleanField(field)
         collector = VariableCollector(field)
-        if csv == True:
-            csv_writer = csvFileWriter(outfile, collector.GetCollection())
-            csv_writer.WriteCSVFile()
-
-        if clean:
-            collector.CleanCollection()
+        if xls == True:
+            xls_writer = CleanLayoutWriter(outfile, collector.GetCollection())
+            xls_writer.WriteExcelFile()
+            
+        collector.CleanCollection()
 
         return collector.GetCollection()
 
 
 class Writer1(WriterBase):
 
-    def Write(self, infile, index, outfile, indata='[DATA]', csv=False):
-        source = self.SetSource(infile, index, outfile, clean = True, csv = csv)
-        writer = DoFileWriter(outfile, source, dataname=indata, infile=infile)
+    def Write(self, infile, index, outfile, indata, xls, SurveyName):
+        source = self.SetSource(infile, index, outfile, xls)
+        writer = DoFileWriter(outfile, source, SurveyName, dataname=indata, infile=infile)
         writer.WriteDoFile()
 
 
-class Writer2(WriterBase):
+class Writer2:
 
-    def Write(self, infile_base, index_base, infile_match, index_match, outfile):
-        Base = self.SetSource(infile_base, index_base, outfile)
-        Match = self.SetSource(infile_match, index_match, outfile)
-        source = [Base, Match, infile_base]
+    def Write(self, infiles, indexes, outfile, reservation, SurveyName):
+        collections = CollectionHolder(infiles, indexes).GetCollections()
+        source = VarNameThesaurus(collections, reservation, SurveyName).GetDict()
 
-        writer = RenameFileWriter(outfile, source, infile=infile_match)
-        writer.WriteDoFile()
+        Excelwriter = RenameExcelWriter(outfile, source)
+        try:
+            Excelwriter.WriteExcelFile()
+        except ValueError:
+            print('rename.xls is not writed (Too many arguments)')
+            # TODO: Should be exported as .csv file in this case
+        
+        DoWriter = RenameFileWriter(outfile, source)
+        DoWriter.WriteDoFile()

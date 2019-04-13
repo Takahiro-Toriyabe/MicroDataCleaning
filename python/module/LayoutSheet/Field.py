@@ -4,11 +4,10 @@ import sys
 import copy
 from enum import IntEnum
 import unicodedata
-from .ExcelImporter import LayoutSheetImporter 
+from .ExcelImporter import LayoutSheetImporter
 from .HeaderInfo import HeaderInfoFactory
 from .VariableCollector import Variable
 from .RepeatInfo import RepeatInfoFactory
-
 
 class Field:
 
@@ -47,6 +46,8 @@ class Field:
             return list_tmp[self.info.ichi]
         if key == 'keta':
             return list_tmp[self.info.keta]
+        if key == 'kaiso':
+            return list_tmp[self.info.kaiso]
         if key == 'repeat':
             return list_tmp[self.info.repeat]
         if key == 'varname':
@@ -61,9 +62,17 @@ class Field:
 
     # Check the status of the current row
     def IsVariableRow(self, row):
-        if len(str(self.GetValue(row, 'keta'))) == 0:
+        val_keta = str(self.GetValue(row, 'keta'))
+        if len(val_keta) == 0:
             return False
-        if self.GetValue(row, 'keta') == 0:
+        if val_keta.replace('.', '').isdigit() and float(val_keta) == 0:
+            return False
+        return True
+    
+    def IsVariableGroup(self, row):
+        if len(str(self.GetValue(row, 'komoku'))) == 0:
+            return False
+        if self.IsVariableRow(row):
             return False
         return True
 
@@ -71,7 +80,7 @@ class Field:
         return len(str(self.GetValue(row, 'varname'))) == 0
 
     def IsRepeat(self, row):
-        if not 'repeat' in self.info.__members__:
+        if 'repeat' not in self.info.__members__:
             return False
 
         num_repeat = str(self.GetValue(row, 'repeat'))
@@ -110,9 +119,13 @@ class FieldCleaner():
         Field.row_header = 0
 
     def __KillFiller__(self, Field):
+        new_field_value = []
         for row, val in enumerate(Field.value):
-            if val[Field.info.komoku] in ['FILLER', 'Filler']:
-                del Field.value[row]
+            trashes = ['FILLER', 'Filler', 'スペース', 'ブランク', '**']
+            if all([trash not in val[Field.info.komoku] for trash in trashes]):
+                new_field_value.append(val)
+        
+        Field.value = new_field_value
 
     # Normalize cell values
     def __NormalizeCellValues__(self, Field):
@@ -126,7 +139,7 @@ class FieldCleaner():
         Field.info = IntEnum('HeaderInfo', new_mems)
 
     def __AddVarNameCol__(self, Field):
-        if not 'varname' in Field.info.__members__:
+        if 'varname' not in Field.info.__members__:
             self.__AddVarNameToHeaderInfo__(Field)
             for row, val in enumerate(Field.value):
                 Field.value[row].append('')
@@ -135,7 +148,8 @@ class FieldCleaner():
         self.__AddVarNameCol__(Field)
         var_counter = 0
         for row, val in enumerate(Field.value):
-            if Field.IsVariableRow(row) and Field.IsEmptyVarName(row):
+            # First row is the header
+            if row != 0 and Field.IsVariableRow(row) and Field.IsEmptyVarName(row):
                 var_counter = int(var_counter + 1)
                 Field.value[row][Field.info.varname] = 'var' + str(var_counter)
                 # Do not replace this line with GetValue() as this line update
@@ -175,7 +189,8 @@ class FieldCleaner():
     def __CompressField__(self, Field):
         list_tmp = []
         for row, val in enumerate(Field.value):
-            if row == 0 or Field.IsVariableRow(row) or Field.IsRepeat(row):
+            if row == 0 or Field.IsVariableRow(row) \
+                    or Field.IsVariableGroup(row) or Field.IsRepeat(row):
                 list_tmp.append(val)
         Field.value = list_tmp
 
@@ -191,11 +206,14 @@ class FieldCleaner():
     def __GetRowToExpand__(self, Field, RepeatInfo, r, i):
         new_list = copy.copy(Field.value[r])
         if len(str(new_list[Field.info.keta])) != 0 \
-                and int(float(new_list[Field.info.keta])) != 0:
+                and int(float(new_list[Field.info.keta])) \
+                and len(new_list[Field.info.komoku]) != 0:
             new_list[Field.info.ichi] \
                 = self.__CalculateVarPlace__(Field, new_list, RepeatInfo, i)
             new_list[Field.info.varname] \
                 = new_list[Field.info.varname] + '_' + str(i)
+            new_list[Field.info.komoku] \
+                = new_list[Field.info.komoku] + '(' + str(i) + ')'
 
         return new_list
 
