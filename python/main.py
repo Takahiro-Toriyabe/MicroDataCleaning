@@ -52,7 +52,9 @@ class Main(GeneralizedWriter):
 
     def run(self):
         writer = GeneralizedWriter()
-        writer.Write(self.inlists, self.xls, self.reservation, self.survey_name)
+        writer.Write(
+            self.inlists, self.xls, self.reservation, self.survey_name
+        )
 
 
 if __name__ == '__main__':
