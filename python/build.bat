@@ -1,7 +1,7 @@
 @echo off
 cd /d %~dp0
 
-pyinstaller --icon="../img/glmice_icon.ico" glmice.py
+pyinstaller --noconsole --icon="../img/glmice_icon.ico" glmice.py
 
 xcopy /E /H "./dist" "../dist"
 xcopy /E "../img" "../dist/img"
