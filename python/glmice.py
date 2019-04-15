@@ -36,8 +36,11 @@ class InputElement:
         self.text.insert(tk.END, text)
         self.text.grid(row=r, column=1, padx=10)
 
-        if browse == True:
-            self.button = tk.Button(frame, text='Browse', font=font_button, command=self.FileDialog, relief=tk.RAISED)
+        if browse is True:
+            self.button = tk.Button(
+                frame, text='Browse', font=font_button,
+                command=self.FileDialog, relief=tk.RAISED
+            )
             self.button.grid(row=r, column=2, sticky=tk.W)
 
     def FileDialog(self):
@@ -52,14 +55,19 @@ class CheckBox:
     def __init__(self, frame, label, font, r, c, span):
         self.val = tk.BooleanVar()
         self.val.set(False)
-        self.box = tk.Checkbutton(frame, text=label, font=font, variable=self.val)
+        self.box = tk.Checkbutton(
+            frame, text=label, font=font, variable=self.val
+        )
         self.box.grid(row=r, column=c, columnspan=span, sticky=tk.W)
 
 
 class Button:
 
     def __init__(self, frame, text, font, command, r, c):
-        self.button = tk.Button(frame, width=12, text=text, font=font, justify=tk.CENTER, relief=tk.RAISED)
+        self.button = tk.Button(
+            frame, width=12, text=text, font=font, justify=tk.CENTER,
+            relief=tk.RAISED
+        )
         self.button["command"] = command
         self.button.grid(row=r, column=c, sticky=tk.W+tk.E)
 
@@ -78,7 +86,7 @@ class ListBox:
                 width=width,
                 height=height,
                 selectmode=mode,
-                font = font,
+                font=font,
                 xscrollcommand=self.xScroll.set,
                 yscrollcommand=self.yScroll.set
         )
@@ -90,7 +98,10 @@ class ListBox:
 class Console():
 
     def __init__(self, frame, width, height, font=('Lucida Console', 11)):
-        self.console = st.ScrolledText(frame, width=width, height=height, font=font, fg='white', bg='black', insertbackground='red')
+        self.console = st.ScrolledText(
+            frame, width=width, height=height, font=font, fg='white',
+            bg='black', insertbackground='red'
+        )
         self.console.grid()
         self.console.insert(tk.END, 'Copyright (c) 2019 Takahiro Toriyabe \n')
         self.console.insert(tk.END, 'This software is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\n')
@@ -134,14 +145,29 @@ class App:
         # Frame for input information
         self.frame_input = self.__GetFrame__()
 
-        self.frame_lab = tk.Label(self.frame_input, text='Input information', font=('Times New Roman', 16, "bold"))
-        self.frame_lab.grid(row=0, column=0, columnspan=3, sticky=tk.W, pady=10, padx=padx_lab)
+        self.frame_lab = tk.Label(
+            self.frame_input, text='Input information',
+            font=('Times New Roman', 16, "bold")
+        )
+        self.frame_lab.grid(
+            row=0, column=0, columnspan=3, sticky=tk.W, pady=10, padx=padx_lab
+        )
 
-        self.ExcelFile = InputElement(self.frame_input, 'Excel file', '', 1)
-        self.SheetIndex = InputElement(self.frame_input, 'Excel sheet index', '', 2, browse=False)
-        self.OutputFile = InputElement(self.frame_input, 'Output file', '', 3, browse=False)
-        self.DataFile = InputElement(self.frame_input, 'Data file', '', 4)
-        self.SurveyName = InputElement(self.frame_input, 'Survey name (optional)', '', 5, browse=False)
+        self.ExcelFile = InputElement(
+            self.frame_input, 'Excel file', '', 1
+        )
+        self.SheetIndex = InputElement(
+            self.frame_input, 'Excel sheet index', '', 2, browse=False
+        )
+        self.OutputFile = InputElement(
+            self.frame_input, 'Output file', '', 3, browse=False
+        )
+        self.DataFile = InputElement(
+            self.frame_input, 'Data file', '', 4
+        )
+        self.SurveyName = InputElement(
+            self.frame_input, 'Survey name (optional)', '', 5, browse=False
+        )
 
         self.frame_lab.config(bg=self.bgcolor)
         for element in [self.ExcelFile, self.SheetIndex, self.OutputFile, self.DataFile, self.SurveyName]:
@@ -151,18 +177,31 @@ class App:
 
         # Frame for current input list
         self.frame_listbox = tk.Frame(self.win)
-        self.InFileListBox = ListBox(self.frame_listbox, 50, 16, tk.EXTENDED, ('Times New Roman', 10)).box
+        self.InFileListBox = ListBox(
+            self.frame_listbox, 50, 16, tk.EXTENDED, ('Times New Roman', 10)
+        ).box
         self.frame_listbox.place(x=padx_lab, rely=0.4)
 
         # Frame for operation panel
         self.frame_op = self.__GetFrame__()
 
-        self.xlsCheckBox = CheckBox(self.frame_op, 'Make Excel file? (Check if you are an R user)', self.my_font, 0, 0, 2)
+        self.xlsCheckBox = CheckBox(
+            self.frame_op, 'Make Excel file? (Check if you are an R user)',
+            self.my_font, 0, 0, 2
+        )
         self.xlsCheckBox.box.config(bg=self.bgcolor)
-        self.AddButton = Button(self.frame_op, 'Add', self.my_font, self.Add, 1, 0)
-        self.RemoveButton = Button(self.frame_op, 'Remove', self.my_font, self.Remove, 1, 1)
-        self.CheckButton = Button(self.frame_op, 'Check', self.my_font, self.CheckSelection, 2, 0)
-        self.RunButton = Button(self.frame_op, 'Run', self.my_font, self.MakeDoFiles, 2, 1)
+        self.AddButton = Button(
+            self.frame_op, 'Add', self.my_font, self.Add, 1, 0
+        )
+        self.RemoveButton = Button(
+            self.frame_op, 'Remove', self.my_font, self.Remove, 1, 1
+        )
+        self.CheckButton = Button(
+            self.frame_op, 'Check', self.my_font, self.CheckSelection, 2, 0
+        )
+        self.RunButton = Button(
+            self.frame_op, 'Run', self.my_font, self.MakeDoFiles, 2, 1
+        )
 
         self.frame_op.place(relx=0.5, rely=0.4)
 
@@ -175,45 +214,63 @@ class App:
         self.menu = tk.Menu(self.win)
 
         # Menu bar: File
-        self.menu_file= tk.Menu(self.menu, tearoff=False)
+        self.menu_file = tk.Menu(self.menu, tearoff=False)
         self.menu.add_cascade(label='File', menu=self.menu_file)
 
-        self.menu_file.add_command(label='Import', command=self.ImportInputInfo, accelerator="Ctrl+O")
+        self.menu_file.add_command(
+            label='Import', command=self.ImportInputInfo, accelerator="Ctrl+O"
+        )
         self.win.bind_all("<Control-o>", self.ImportInputInfo)
 
         # Menu bar: Command
         self.menu_command = tk.Menu(self.menu, tearoff=False)
         self.menu.add_cascade(label='Commands', menu=self.menu_command)
 
-        self.menu_command.add_command(label='Add', command=self.Add, accelerator="Ctrl+A")
+        self.menu_command.add_command(
+            label='Add', command=self.Add, accelerator="Ctrl+A"
+        )
         self.win.bind_all("<Control-a>", self.Add)
 
-        self.menu_command.add_command(label='Check', command=self.CheckSelection, accelerator="Ctrl+I")
+        self.menu_command.add_command(
+            label='Check', command=self.CheckSelection, accelerator="Ctrl+I"
+        )
         self.win.bind_all("<Control-i>", self.CheckSelection)
 
-        self.menu_command.add_command(label='Remove', command=self.Remove, accelerator="Ctrl+D")
+        self.menu_command.add_command(
+            label='Remove', command=self.Remove, accelerator="Ctrl+D"
+        )
         self.win.bind_all("<Control-d>", self.Remove)
 
-        self.menu_command.add_command(label='Remove all', command=self.RemoveAllInputInfo, accelerator="Ctrl+Alt+D")
+        self.menu_command.add_command(
+            label='Remove all', command=self.RemoveAllInputInfo,
+            accelerator="Ctrl+Alt+D"
+        )
         self.win.bind_all("<Control-Alt-d>", self.RemoveAllInputInfo)
 
-        self.menu_command.add_command(label='Run', command=self.MakeDoFiles, accelerator="Ctrl+R")
+        self.menu_command.add_command(
+            label='Run', command=self.MakeDoFiles, accelerator="Ctrl+R"
+        )
         self.win.bind_all("<Control-r>", self.MakeDoFiles)
 
-        self.menu_command.add_command(label='Clear console', command=self.ClearConsole, accelerator="Ctrl+L")
+        self.menu_command.add_command(
+            label='Clear console', command=self.ClearConsole,
+            accelerator="Ctrl+L"
+        )
         self.win.bind_all("<Control-l>", self.ClearConsole)
 
-        self.menu_command.add_command(label='Exit', command=self.Quit, accelerator="Ctrl+Q")
+        self.menu_command.add_command(
+            label='Exit', command=self.Quit, accelerator="Ctrl+Q"
+        )
         self.win.bind_all("<Control-q>", self.Quit)
 
         # Menu bar: Help
-        self.menu_help= tk.Menu(self.menu, tearoff=False)
+        self.menu_help = tk.Menu(self.menu, tearoff=False)
         self.menu.add_cascade(label='Help', menu=self.menu_help)
 
         self.menu_help.add_command(label='Help', accelerator="Ctrl+H")
         self.win.bind_all("<Control-h>", self.OpenHelp)
 
-        self.win.config(menu = self.menu)
+        self.win.config(menu=self.menu)
 
     def __AppendFileInfo__(self, excel_file, index, output_file, data_file):
         self.InFileListBox.insert(tk.END, excel_file)
@@ -257,7 +314,7 @@ class App:
         self.Console.config(state=tk.DISABLED)
 
     def RemoveAllInputInfo(self, event=None):
-        self.InFileListBox.delete (0, tk.END)
+        self.InFileListBox.delete(0, tk.END)
         self.infile_list = []
         self.index_list = []
         self.outfile_list = []
@@ -296,14 +353,19 @@ class App:
 
         if message != '':
             self.subwin = tk.Tk()
-            self.w = tk.Label(self.subwin, text=message, font=('Times New Roman', 12), justify=tk.LEFT)
+            self.w = tk.Label(
+                self.subwin, text=message, font=('Times New Roman', 12),
+                justify=tk.LEFT
+            )
             self.w.pack()
 
     def __InitializeUI__(self):
         self.win = Base().win
         self.win.wm_iconbitmap(default='../img/glmice_icon.ico')
         self.win.config(bg=self.bgcolor)
-        self.my_font = font.Font(self.win, family="Times New Roman", size=12, weight="bold")
+        self.my_font = font.Font(
+            self.win, family="Times New Roman", size=12, weight="bold"
+        )
         self.__SetGUI__()
 
     def Add(self, event=None):
@@ -315,7 +377,7 @@ class App:
         self.__AppendFileInfo__(excel_file, index, output_file, data_file)
 
     def __UpdateInList__(self, inlist, indexes):
-        return [val for i, val in enumerate(inlist) if not i in indexes]
+        return [val for i, val in enumerate(inlist) if i not in indexes]
 
     def __PrintRemoveMessage__(self, indexes):
         removed_files = [val for i, val in enumerate(self.infile_list) if i in indexes]

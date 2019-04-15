@@ -5,4 +5,3 @@ thesaurus_base = [
     ['都道府県', '都道府県番号'],
     ['Tsudukigara', 'Tsuzukigara', 'Zokugara']
 ]
-
