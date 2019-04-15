@@ -27,7 +27,7 @@ class RewriteLayout(ExcelWriterBase):
                     self.ws.write(r, c, str(v))
 
 
-class Source:
+class cslsSource:
 
     def __init__(self, infile, index, append=False):
         self.keyword = 'サブ定義部'
@@ -37,13 +37,13 @@ class Source:
             + ' found: Check the Excel file'
         self.append = append
         self.__Set__(infile, index)
-        
+
     def GetLayout(self):
         return self.layout
-    
+
     def GetCol_komoku(self):
         return int(self.header_info.komoku)
-    
+
     def GetCol_ichi(self):
         return int(self.header_info.ichi)
 
@@ -52,7 +52,7 @@ class Source:
 
     def GetCol_kaiso(self):
         return int(self.header_info.kaiso)
-    
+
     def GetCol_repeat(self):
         try:
             return int(self.header_info.repeat)
@@ -74,22 +74,30 @@ class Source:
     def Append(self, source):
         self.__AppendSubDefRow__()
         source1_t = self.__GetTranspose__(self.layout)
-        source2_t = self.__GetTranspose__(source.GetLayout()[source.row_header+1:])
+        source2_t = self.__GetTranspose__(
+            source.GetLayout()[source.row_header+1:]
+        )
 
-        source1_t[self.GetCol_komoku()].extend(source2_t[source.GetCol_komoku()])
+        source1_t[self.GetCol_komoku()].extend(
+            source2_t[source.GetCol_komoku()]
+        )
         source1_t[self.GetCol_ichi()].extend(source2_t[source.GetCol_ichi()])
         source1_t[self.GetCol_keta()].extend(source2_t[source.GetCol_keta()])
         source1_t[self.GetCol_kaiso()].extend(source2_t[source.GetCol_kaiso()])
         try:
-            source1_t[self.GetCol_varname()].extend(source2_t[source.GetCol_varname()])
+            source1_t[self.GetCol_varname()].extend(
+                source2_t[source.GetCol_varname()]
+            )
         except:
             pass
         source1_t[self.GetCol_fugo()].extend(source2_t[source.GetCol_fugo()])
-        source1_t[self.GetCol_fugo_naiyo()].extend(source2_t[source.GetCol_fugo_naiyo()])
+        source1_t[self.GetCol_fugo_naiyo()].extend(
+            source2_t[source.GetCol_fugo_naiyo()]
+        )
 
         self.layout = self.__GetTranspose__(source1_t)
         self.layout[self.row_header][-1] = HeaderKeywords.repeat.value[0]
-        
+
     def __AppendSubDefRow__(self):
         self.layout = [val + [''] for val in self.layout]
         self.layout.append(
@@ -111,7 +119,7 @@ class Source:
     def __UpdateLayout__(self):
         self.layout[self.row_subdef][int(self.header_info.repeat)] \
             = self.num_repeat
-    
+
     def __SetHeaderInfo__(self):
         factory = HeaderInfoFactory()
         self.row_header = factory.GetHeaderRowIndex(self.layout)
@@ -147,15 +155,16 @@ class Source:
         print(self.multifound_message)
         sys.exit()
 
+
 if __name__ == '__main__':
 
     root_path = 'C:/Users/takah/Desktop/符号表/国民生活基礎調査'
     infile = root_path + '/世帯票/H21年世帯票データ定義書.xls'
     index = 1
 
-    source1 = Source(infile, index, append=True)
-    source2 = Source(infile, index+1, append=True)
+    source1 = cslsSource(infile, index, append=True)
+    source2 = cslsSource(infile, index+1, append=True)
     source1.Append(source2)
-    
-    RewriteLayout('C:/Users/takah/Desktop/new_layout', source1).WriteExcelFile()
 
+    outfile = 'C:/Users/takah/Desktop/new_layout'
+    RewriteLayout(outfile, source1).WriteExcelFile()
