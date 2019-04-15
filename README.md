@@ -35,7 +35,7 @@ You can check the added information by selecting it in the list and pushing 'Che
 which could help to harmonize the variable names across data in different years.
 5. Push 'Run' button.
 
-You can skip Steps 1-3 by making csv file with the necessary input information.
+You can skip Steps 1-3 by making a csv file with the necessary input information.
 Use docs/input_list_template.csv in such cases. Then, import that csv file
 (File > Import).
 
@@ -122,7 +122,7 @@ main.run()
 
 ### Before running master.do ...
 1. Add ado/CheckAppendValidity.ado and ado/DestringAll.ado to an appropriate
-directory. You can check the path by typeing `adopath` on Stata.
+directory. You can check the path by typing `adopath` on Stata.
 2. Check if rename.do correctly works. To that end, rename.xls may be useful.
 In rename.xls, the cells are highlighted if the variable description
 is not identical to the previous or next year data.
@@ -165,11 +165,6 @@ put for the appended data, because the categories for each variable are very
 likely to be inconsistent across years.
 6. In addition, there is no file to make variable values consistent across
 different data.
-
-## How to contribute?
-You can contribute to this project by the following steps:
-1. describe first step...
-2. describe second step...
 
 ## License
 Copyright (C) 2019 Takahiro Toriyabe

@@ -2,6 +2,7 @@
 
 import sys
 
+
 class Variable:
 
     def __init__(
@@ -14,10 +15,10 @@ class Variable:
         self.val_list = val_list
         self.val_label_list = val_label_list
         self.group = ''
-        
+
     def SetGroup(self, group):
         self.group = group
-        
+
     def GetFullDescription(self):
         if self.group == '':
             return self.description
@@ -43,7 +44,7 @@ class VariableCollector:
                 kaiso = int(float(kaiso))
                 del self.current_group[kaiso-1:]
                 self.current_group.append(komoku)
-        
+
         try:
             kaiso_next = int(float(self.field.GetValue(row_next, 'kaiso')))
             del self.current_group[kaiso_next-1:]
@@ -52,14 +53,14 @@ class VariableCollector:
                 'Kaiso is empty: ' + self.field.GetValue(row_next, 'varname')
             )
             sys.exit()
-    
+
     def __GetVarGroup__(self):
         group = ''
         for val in self.current_group:
             group = group + val
-        
+
         return group
-        
+
     def __CollectVariables__(self):
         row_current = 0
         row_next = self.field.GetNextVarPlace(row_current)
@@ -84,7 +85,7 @@ class VariableCollector:
     def GetCollection(self):
         return self.__collection
 
-        
+
 if __name__ == '__main__':
     from ExcelFileClass import ExcelFile
     from LayoutSheetImporterClass import LayoutSheetImporter
@@ -97,9 +98,8 @@ if __name__ == '__main__':
 
     field = FieldMaker().CreateField(ExcelFile(infile, index))
     FieldCleaner().CleanField(field)
-    
+
     for row, val in enumerate(field.value):
         print(val)
     collector = VariableCollector(field)
     factory = RepeatInfoFactory(field)
-    
