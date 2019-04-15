@@ -9,6 +9,7 @@ from .HeaderInfo import HeaderInfoFactory
 from .VariableCollector import Variable
 from .RepeatInfo import RepeatInfoFactory
 
+
 class Field:
 
     def __init__(self, layout_list, row_header, HeaderInfo):
@@ -68,7 +69,7 @@ class Field:
         if val_keta.replace('.', '').isdigit() and float(val_keta) == 0:
             return False
         return True
-    
+
     def IsVariableGroup(self, row):
         if len(str(self.GetValue(row, 'komoku'))) == 0:
             return False
@@ -124,7 +125,7 @@ class FieldCleaner():
             trashes = ['FILLER', 'Filler', 'スペース', 'ブランク', '**']
             if all([trash not in val[Field.info.komoku] for trash in trashes]):
                 new_field_value.append(val)
-        
+
         Field.value = new_field_value
 
     # Normalize cell values
@@ -149,7 +150,8 @@ class FieldCleaner():
         var_counter = 0
         for row, val in enumerate(Field.value):
             # First row is the header
-            if row != 0 and Field.IsVariableRow(row) and Field.IsEmptyVarName(row):
+            if row != 0 and Field.IsVariableRow(row) \
+                    and Field.IsEmptyVarName(row):
                 var_counter = int(var_counter + 1)
                 Field.value[row][Field.info.varname] = 'var' + str(var_counter)
                 # Do not replace this line with GetValue() as this line update
