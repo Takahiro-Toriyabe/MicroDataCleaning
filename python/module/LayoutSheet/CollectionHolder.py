@@ -9,11 +9,12 @@ from .ExcelImporter.LayoutSheetImporter import ExcelFile
 from .Field import FieldMaker, FieldCleaner
 from .VariableCollector import VariableCollector
 
+
 class CollectionHolder:
 
     def __init__(self, infiles, indexes):
         self.__SetCollectionHolder__(infiles, indexes)
-        
+
     def __GetCollection__(self, infile, index):
         field = FieldMaker().CreateField(ExcelFile(infile, index))
         FieldCleaner().CleanField(field)
@@ -26,6 +27,6 @@ class CollectionHolder:
         self.collections = []
         for infile, index in zip(infiles, indexes):
             self.collections.append(self.__GetCollection__(infile, index))
-    
+
     def GetCollections(self):
         return self.collections

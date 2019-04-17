@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 
+
 class RepeatInfo:
 
     def __init__(self, num_repeat, row_first, row_last, keta_tot):
         self.num_repeat = num_repeat
         self.row_first = row_first
         self.row_last = row_last
-        self.keta_tot = keta_tot 
-        
+        self.keta_tot = keta_tot
+
 
 class RepeatInfoFactory:
     """
@@ -20,10 +21,10 @@ class RepeatInfoFactory:
         -> Flase: Current variable is the last one to repeat; Break loop
     3. Return RepeatInfo
     """
-    
+
     def __init__(self, Field):
         self.field = Field
-        
+
     def __InitializeRepeatInfo__(self, row):
         # self.field[row] is not a variable row but a repetition flag row
         # since this function is called when finding a repetition flag
@@ -43,14 +44,14 @@ class RepeatInfoFactory:
     def __UpdateKetaTot__(self):
         keta_tmp = self.field.GetValue(self.row_current, 'keta')
         self.keta_tot = int(self.keta_tot + float(keta_tmp))
-        
+
     def __UpdateFlagContinue__(self):
         ichi_next = int(float(self.field.GetValue(self.row_next, 'ichi')))
         ichi_last = int(self.ichi_first + self.keta_tot*self.num_repeat - 1)
-        
+
         self.flag_continue = ichi_next <= ichi_last \
             and self.row_current != self.row_next
-        
+
     def __UpdateRepeatInfo__(self):
         self.__UpdateRows__()
         self.__UpdateKetaTot__()
@@ -61,7 +62,7 @@ class RepeatInfoFactory:
         self.__InitializeRepeatInfo__(row)
         while self.flag_continue:
             self.__UpdateRepeatInfo__()
-            
+
         return RepeatInfo(
             self.num_repeat,
             self.row_first,
