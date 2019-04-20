@@ -10,7 +10,7 @@ glmiceは政府統計の調査票データ読み込み用do-fileを符号表か�
 
 - glmice.exe: Windows用デスクトップアプリケーション（main.pyを元にしています。）
 - main.py: 符号表からdo-fileを生成するためのメインプログラム
-- do-file/: 固定長データを読み込むためのdo-fileがあります。上のプログラムを用いて作成したものと他の研究者から提供されたものがあります。協力してくださった方のリストは[ここ](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/blob/master/docs/contributers.txt)をご覧ください。
+- do-file/: 固定長データを読み込むためのdo-fileがあります。上のプログラムを用いて作成したものと他の研究者の方々からご提供いただいたものがあります。本プロジェクトに協力してくださった方のリストは[ここ](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/blob/master/docs/contributers.txt)をご覧ください。
 
 ![demo](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/blob/e49a4f95313d5521ae9097957e5a630cb58e02a5/img/demo.gif)
 
