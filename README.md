@@ -40,6 +40,16 @@ You can skip Steps 1-3 by making a csv file with the necessary input information
 Use docs/input_list_template.csv in such cases. Then, import that csv file
 (File > Import).
 
+When launching the application, you might see the following error message:
+> **Windows protected your PC** <br>
+Windows Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.
+
+or in Japanese
+>  **Windows によって PC が保護されました**<br>
+Windows Defender SmartScreen は認識されないアプリの起動を停止しました。このアプリを実行すると、PC に問題が起こる可能性があります。
+
+In such cases, please click `More info` (or `詳細情報`) and then `Run anyway` (or `実行`).
+
 ### Main program
 main.py is the main program to make do-files for data cleaning from layout tables.<br>
 (The program is not currently registered in PyPI, so please download Source code (zip/tar.gz) from [release page](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/releases))
