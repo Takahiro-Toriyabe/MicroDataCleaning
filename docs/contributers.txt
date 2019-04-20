@@ -1,7 +1,14 @@
 
-List of contributers (Last update: 2018/12/20)
+*--------------------------------------*
+ご協力くださった方々（五十音順、敬称略）
 
-#####
+最終更新日：2019/04/20
+*--------------------------------------*
 
-Vital Statistics, Birth Records（人口動態調査出生票）: Taiyo Fukai
-Vital Statistics, Death Records（人口動態調査死亡票）: Katsuhiro Komatsu
+
+川口大司（東京大学）
+川田恵介（東京大学）
+小松功拓（University of Wisconsin-Madison）
+原ひろみ（日本女子大学）
+深井太洋（東京大学）
+
