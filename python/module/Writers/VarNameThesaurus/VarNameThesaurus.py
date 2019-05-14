@@ -43,15 +43,17 @@ class VarNameThesaurus:
 
     def __UpdateThesaurus__(self, collection):
         self.cnt = self.cnt + 1
+        # Variables with description "," only seems to be trashes
+        # But it may be more appropriate to drop those variables soon after importing the layout sheet
         Base = [
-            Agent(var, self.reservation, self.survey_name) for var in self.base_collection
+            Agent(var, self.reservation, self.survey_name) for var in self.base_collection if var.description != ','
         ]
         NewAgents = [
-            Agent(var, self.reservation, self.survey_name) for var in collection
+            Agent(var, self.reservation, self.survey_name) for var in collection if var.description != ','
         ]
         market = Market(NewAgents, Base)
         market.Match()
-
+        
         for agent in NewAgents:
             if agent.partner is None:
                 self.dict[agent.group + agent.endowment] = SynonymVar()
@@ -60,7 +62,11 @@ class VarNameThesaurus:
                 self.base_collection.append(agent.var)
             else:
                 partner = agent.partner
-                self.dict[partner.group + partner.endowment].AddVar(agent.var)
+                if len(self.dict[partner.group + partner.endowment].list) == self.cnt - 1:
+                    self.dict[partner.group + partner.endowment].AddVar(agent.var)
+                else:
+                    print('Warning: rename algorism may not work well: File ' + str(self.cnt))
+                    print(partner.group + partner.endowment + ' & ' + agent.group + agent.endowment)
 
         for key in self.dict.keys():
             if len(self.dict[key].list) != self.cnt:
@@ -101,12 +107,12 @@ class VarNameThesaurus:
     def __CheckDict__(self):
         for key, synonym in self.dict.items():
             if len(synonym.list) != len(self.collections):
-                print('Error in rename process')
+                print('Error in rename process: rename.do is unlikely to work')
                 print(str(len(synonym.list)) + ' != ' + str(len(self.collections)))
                 for var in [v for v in synonym.list if v != None]:
                     print(synonym.baseinfo.GetFullDescription() + ': ' + var.GetFullDescription())
                     print(synonym.baseinfo.name + ': ' + var.name)
-                sys.exit()
+#                sys.exit()
 
     def GetDict(self):
         return self.dict
