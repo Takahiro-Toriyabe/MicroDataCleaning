@@ -43,13 +43,11 @@ class VarNameThesaurus:
 
     def __UpdateThesaurus__(self, collection):
         self.cnt = self.cnt + 1
-        # Variables with description "," only seems to be trashes
-        # But it may be more appropriate to drop those variables soon after importing the layout sheet
         Base = [
-            Agent(var, self.reservation, self.survey_name) for var in self.base_collection if var.description != ','
+            Agent(var, self.reservation, self.survey_name) for var in self.base_collection
         ]
         NewAgents = [
-            Agent(var, self.reservation, self.survey_name) for var in collection if var.description != ','
+            Agent(var, self.reservation, self.survey_name) for var in collection
         ]
         market = Market(NewAgents, Base)
         market.Match()
