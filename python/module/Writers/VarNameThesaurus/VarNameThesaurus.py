@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import copy
-import sys
 from collections import OrderedDict
 from .AssortativeMatching import Agent, Market
 from .VarFilter import VarFilterFactory
@@ -51,7 +50,7 @@ class VarNameThesaurus:
         ]
         market = Market(NewAgents, Base)
         market.Match()
-        
+
         for agent in NewAgents:
             if agent.partner is None:
                 self.dict[agent.group + agent.endowment] = SynonymVar()
