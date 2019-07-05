@@ -90,7 +90,7 @@ class ConstFileWriter(DoFileWriterBase):
 
     def __OpenFile__(self):
         self.pos_s = 1
-        # This is used to write _cons file for census
+        # self.pos_s is used to write _const file for census
         self.file = codecs.open(self.filename + self.tag + '.do', 'w', 'utf-8')
 
     def __WriteMainPart__(self):
@@ -103,7 +103,7 @@ class ConstFileWriter(DoFileWriterBase):
             )
 
     def __GetPosition__(self, var):
-        if self.SurveyName == '国勢調査':
+        if self.SurveyName == '国勢調査（全数）':
             pos_s = self.pos_s
             pos_e = self.pos_s + var.pos_e - var.pos_s
             self.pos_s = pos_e + 1
