@@ -158,7 +158,8 @@ class cslsSource:
 
 if __name__ == '__main__':
 
-    root_path = 'C:/Users/takah/Desktop/符号表/国民生活基礎調査'
+    # メイン定義部とサブ定義部が二つのシートに分かれている場合
+    root_path = 'D:/Dropbox/符号表/国民生活基礎調査'
     infile = root_path + '/世帯票/H21年世帯票データ定義書.xls'
     index = 1
 
@@ -166,5 +167,14 @@ if __name__ == '__main__':
     source2 = cslsSource(infile, index+1, append=True)
     source1.Append(source2)
 
-    outfile = 'C:/Users/takah/Desktop/new_layout'
+    outfile = 'C:/Users/Takahiro/Desktop/new_layout1'
     RewriteLayout(outfile, source1).WriteExcelFile()
+
+    # メイン定義部とサブ定義部が一つのシートになっている場合
+    infile = root_path + '/世帯票/H28年世帯票データ定義書.xlsx'
+    index = 0
+
+    source3 = cslsSource(infile, index, append=False)
+
+    outfile = 'C:/Users/Takahiro/Desktop/new_layout2'
+    RewriteLayout(outfile, source3).WriteExcelFile()
