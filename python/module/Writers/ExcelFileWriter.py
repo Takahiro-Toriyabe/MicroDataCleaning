@@ -97,10 +97,28 @@ class RenameExcelWriter(ExcelWriterBase):
     def __GetStyle__(self, synonym, i):
         list_tmp = synonym.list
         var = list_tmp[i]
+        
+        # 2019/07/31 oikawa
+        try:
+            len_except_None = len( [ c for c in list_tmp if c != None] )
+        except IndexError:
+            len_except_None  = None
+        #- -#
+            
         if i == 0:
             var_b = var
+            # 2019/07/31 oikawa
+            var_b2 = var
+            #- -#
         else:
             var_b = list_tmp[i-1]
+            # 2019/07/31 oikawa
+            tmp = [ c for c in list_tmp[:i] if c != None]
+            try:
+                var_b2 = tmp[len(tmp)-1]
+            except IndexError:
+                var_b2 = None
+            #- -#
         try:
             var_a = list_tmp[i+1]
         except IndexError:
@@ -118,9 +136,25 @@ class RenameExcelWriter(ExcelWriterBase):
             desc_a = None
         else:
             desc_a = var_a.GetFullDescription()
-
+        # 2019/07/31 oikawa
+        if var_b2 is None:
+            desc_b2 = None
+        else:
+            desc_b2 = var_b2.GetFullDescription()
+        #- -#
+        
         if desc == desc_b and desc == desc_a:
             return self.style1
+        # 2019/07/31 oikawa
+        elif  desc == desc_b and desc_b != None and desc_a == None:
+            return self.style1            
+        elif  desc == desc_b2 and desc_b2 != None and desc_b == None:
+            return self.style1            
+        elif  len_except_None == 1:
+            return self.style1            
+        elif  desc == None:
+            return self.style1            
+        #- -#
         return self.style2
 
     def __WriteMainPart__(self):
