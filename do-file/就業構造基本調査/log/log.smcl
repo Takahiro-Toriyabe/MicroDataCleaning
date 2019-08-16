@@ -1,0 +1,1430 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/media/ボリューム/MicroData/ESS/do-file/log/log.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}16 Aug 2019, 12:08:35
+{txt}
+{com}. 
+. do "${c -(}DoFilePathTemp{c )-}/define_replace_Vs_to_missing.do"
+{txt}
+{com}. capture program drop replace_Vs_to_missing
+{txt}
+{com}. program define replace_Vs_to_missing
+{txt}  1{com}.         syntax varlist(min=1 string), [exclude(varlist)]
+{txt}  2{com}. 
+.         tempname replace_list
+{txt}  3{com}.         local `replace_list' "`varlist'"
+{txt}  4{com}.         foreach var in `exclude' {c -(}
+{txt}  5{com}.                 local `replace_list' = subinword("``replace_list''", "`var'", "", .)
+{txt}  6{com}.         {c )-}
+{txt}  7{com}. 
+.         foreach var in ``replace_list'' {c -(}
+{txt}  8{com}.                 qui replace `var' = ".v" if subinstr(`var', "V", "", .) == ""
+{txt}  9{com}.         {c )-}
+{txt} 10{com}. end
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. 
+. tempvar data
+{txt}
+{com}. 
+. run "${c -(}DoFilePathTemp{c )-}/h9/h9_const.do"
+{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h9/h9_var.do"
+{txt}
+{com}. save "${c -(}DataFilePathTemp{c )-}/data1997_str.dta", replace
+{txt}file /media/ボリューム/MicroData/ESS/data/data1997_str.dta saved
+
+{com}. replace_Vs_to_missing *
+{txt}
+{com}. destring *, replace ignore("\")
+{txt}var1: all characters numeric; {res}replaced {txt}as {res}int
+{txt}var2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}var3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}var4: all characters numeric; {res}replaced {txt}as {res}int
+{txt}var5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}var6: all characters numeric; {res}replaced {txt}as {res}int
+{txt}var7: character{res} \{txt} removed; {res}replaced {txt}as {res}double
+{txt}(214 missing values generated)
+{res}{txt}var8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}var9: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var10: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var11: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var12: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var13: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var14: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var15: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var16: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var17: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var18: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var19: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var20: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var21: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var22: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var23: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var24: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var25: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var26: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var27: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var28: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var29: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(4623 missing values generated)
+{res}{txt}var30: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(900847 missing values generated)
+{res}{txt}var31: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(937159 missing values generated)
+{res}{txt}var32: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(945419 missing values generated)
+{res}{txt}var33: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(995944 missing values generated)
+{res}{txt}var34: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(981120 missing values generated)
+{res}{txt}var35: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(998761 missing values generated)
+{res}{txt}var36: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(795475 missing values generated)
+{res}{txt}var37: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(1012976 missing values generated)
+{res}{txt}var38: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(1012254 missing values generated)
+{res}{txt}var39: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(998635 missing values generated)
+{res}{txt}var40: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(6255 missing values generated)
+{res}{txt}var41: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var42: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var43: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var44: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var45: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var46: character{res} \{txt} removed; {res}replaced {txt}as {res}int
+{txt}(214 missing values generated)
+{res}{txt}var47: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var48: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var49: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(2126 missing values generated)
+{res}{txt}var50: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var51: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(382 missing values generated)
+{res}{txt}var52: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(6548 missing values generated)
+{res}{txt}var53: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(10497 missing values generated)
+{res}{txt}var54: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(214 missing values generated)
+{res}{txt}var55: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(382737 missing values generated)
+{res}{txt}var56: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(510903 missing values generated)
+{res}{txt}var57: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(511165 missing values generated)
+{res}{txt}var58: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(386521 missing values generated)
+{res}{txt}var59: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(386521 missing values generated)
+{res}{txt}var60: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(386521 missing values generated)
+{res}{txt}var61: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(386423 missing values generated)
+{res}{txt}var62: contains characters not specified in {res}ignore(){txt}; no {res}replace
+{txt}var63: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(384730 missing values generated)
+{res}{txt}var64: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(384064 missing values generated)
+{res}{txt}var65: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(895303 missing values generated)
+{res}{txt}var66: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(443529 missing values generated)
+{res}{txt}var67: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(384206 missing values generated)
+{res}{txt}var68: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(382563 missing values generated)
+{res}{txt}var69: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(497218 missing values generated)
+{res}{txt}var70: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(956042 missing values generated)
+{res}{txt}var71: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(927180 missing values generated)
+{res}{txt}var72: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(928302 missing values generated)
+{res}{txt}var73: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(382563 missing values generated)
+{res}{txt}var74: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(983607 missing values generated)
+{res}{txt}var75: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(984252 missing values generated)
+{res}{txt}var76: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(984252 missing values generated)
+{res}{txt}var77: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(984252 missing values generated)
+{res}{txt}var78: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(383455 missing values generated)
+{res}{txt}var79: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(384121 missing values generated)
+{res}{txt}var80: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(449261 missing values generated)
+{res}{txt}var81: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(953995 missing values generated)
+{res}{txt}var82: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(980378 missing values generated)
+{res}{txt}var83: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(408617 missing values generated)
+{res}{txt}var84: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(636771 missing values generated)
+{res}{txt}var85: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(917806 missing values generated)
+{res}{txt}var86: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(917782 missing values generated)
+{res}{txt}var87: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(917780 missing values generated)
+{res}{txt}var88: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(917773 missing values generated)
+{res}{txt}var89: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(963987 missing values generated)
+{res}{txt}var90: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(973231 missing values generated)
+{res}{txt}var91: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(973235 missing values generated)
+{res}{txt}var92: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(918183 missing values generated)
+{res}{txt}var93: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(639160 missing values generated)
+{res}{txt}var94: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(667392 missing values generated)
+{res}{txt}var95: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(506920 missing values generated)
+{res}{txt}var96: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(582898 missing values generated)
+{res}{txt}var97: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(582964 missing values generated)
+{res}{txt}var98: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(583547 missing values generated)
+{res}{txt}var99: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(584002 missing values generated)
+{res}{txt}var100: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(586810 missing values generated)
+{res}{txt}var101: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(586810 missing values generated)
+{res}{txt}var102: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(586436 missing values generated)
+{res}{txt}var103: contains characters not specified in {res}ignore(){txt}; no {res}replace
+{txt}var104: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(586402 missing values generated)
+{res}{txt}var105: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(584559 missing values generated)
+{res}{txt}var106: character{res} \{txt} removed; {res}replaced {txt}as {res}byte
+{txt}(584559 missing values generated)
+{res}{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h9/h9_val.do"
+{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h9/h9_validate.do"
+{err}WARNING: {bf:var29} (おもな収入) may have invalid values (Check layout sheet)
+WARNING: {bf:var40} (世帯の収入階級) may have invalid values (Check layout sheet)
+WARNING: {bf:var49} (配偶者の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:var52} (教育区分) may have invalid values (Check layout sheet)
+WARNING: {bf:var53} (学校区分) may have invalid values (Check layout sheet)
+WARNING: {bf:var55} (8区分) may have invalid values (Check layout sheet)
+WARNING: {bf:var56} (7区分) may have invalid values (Check layout sheet)
+WARNING: {bf:var57} (経営組織) may have invalid values (Check layout sheet)
+WARNING: {bf:var58} (農林・非農林) may have invalid values (Check layout sheet)
+WARNING: {bf:var59} (大分類) may have invalid values (Check layout sheet)
+WARNING: {bf:var60} (中分類) may have invalid values (Check layout sheet)
+WARNING: {bf:var61} (大分類) may have invalid values (Check layout sheet)
+WARNING: {bf:var62} (中分類) may have invalid values (Check layout sheet)
+WARNING: {bf:var63} (従業者規模) may have invalid values (Check layout sheet)
+WARNING: {bf:var64} (年間就業日数) may have invalid values (Check layout sheet)
+WARNING: {bf:var65} (就業の規則性) may have invalid values (Check layout sheet)
+WARNING: {bf:var66} (週間就業時間) may have invalid values (Check layout sheet)
+WARNING: {bf:var67} (個人所得) may have invalid values (Check layout sheet)
+WARNING: {bf:var70} (転職希望理由) may have invalid values (Check layout sheet)
+WARNING: {bf:var71} (希望仕事形態) may have invalid values (Check layout sheet)
+WARNING: {bf:var72} (求職活動の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:var74} (5区分) may have invalid values (Check layout sheet)
+WARNING: {bf:var78} (継続就業か否か) may have invalid values (Check layout sheet)
+WARNING: {bf:var79} (区分) may have invalid values (Check layout sheet)
+WARNING: {bf:var81} (1年前の就業状況) may have invalid values (Check layout sheet)
+WARNING: {bf:var82} (新規就業理由) may have invalid values (Check layout sheet)
+WARNING: {bf:var85} (理由) may have invalid values (Check layout sheet)
+WARNING: {bf:var86} (仕事の主従) may have invalid values (Check layout sheet)
+WARNING: {bf:var87} (仕事の形態) may have invalid values (Check layout sheet)
+WARNING: {bf:var88} (有無) may have invalid values (Check layout sheet)
+WARNING: {bf:var89} (非求職理由) may have invalid values (Check layout sheet)
+WARNING: {bf:var90} (求職方法) may have invalid values (Check layout sheet)
+WARNING: {bf:var91} (求職期間) may have invalid values (Check layout sheet)
+WARNING: {bf:var92} (就業希望時期) may have invalid values (Check layout sheet)
+WARNING: {bf:var93} (1年前の就業状況) may have invalid values (Check layout sheet)
+WARNING: {bf:var96} (元号) may have invalid values (Check layout sheet)
+WARNING: {bf:var98} (離職理由) may have invalid values (Check layout sheet)
+WARNING: {bf:var105} (区分) may have invalid values (Check layout sheet)
+{txt}
+{com}. save "${c -(}DataFilePathTemp{c )-}/data1997.dta", replace
+{txt}file /media/ボリューム/MicroData/ESS/data/data1997.dta saved
+
+{com}. 
+. clear
+{txt}
+{com}. 
+. 
+. run "${c -(}DoFilePathTemp{c )-}/h14/h14_const.do"
+{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h14/h14_var.do"
+{txt}
+{com}. save "${c -(}DataFilePathTemp{c )-}/data2002_str.dta", replace
+{txt}file /media/ボリューム/MicroData/ESS/data/data2002_str.dta saved
+
+{com}. replace_Vs_to_missing *
+{txt}
+{com}. destring *, replace
+{txt}YEAR: all characters numeric; {res}replaced {txt}as {res}long
+{txt}JOHO20: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}JOHO21: all characters numeric; {res}replaced {txt}as {res}int
+{txt}JOHO22: contains nonnumeric characters; no {res}replace
+{txt}JOHO23: all characters numeric; {res}replaced {txt}as {res}int
+{txt}JOHO24: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}JOHO25: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}CHIKI_KEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}CHIKI_CITY: all characters numeric; {res}replaced {txt}as {res}int
+{txt}CHIKI_CHOKEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}CHIKI_CHONO: all characters numeric; {res}replaced {txt}as {res}int
+{txt}W_SYUKEI: all characters numeric; {res}replaced {txt}as {res}double
+{txt}S_SETNO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_SETINNO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_IPPAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_KAZOKURUI12: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JIN0: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN10: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN11: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN12: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN13: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN14: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(366 missing values generated)
+{res}{txt}S_JIN15MI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JIN15IJO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_OMOSYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(5848 missing values generated)
+{res}{txt}S_JYU1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU10: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_SYUNYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(12906 missing values generated)
+{res}{txt}K_SEX: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_HAIGU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1657 missing values generated)
+{res}{txt}K_TUZUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(4 missing values generated)
+{res}{txt}K_GENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_NEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}K_TUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_KYOIKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(3103 missing values generated)
+{res}{txt}K_GAKKO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(6968 missing values generated)
+{res}{txt}K_AGE: all characters numeric; {res}replaced {txt}as {res}int
+{txt}K_AGE5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_AGE10: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_GGENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(4783 missing values generated)
+{res}{txt}K_GNEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(191717 missing values generated)
+{res}{txt}K_GTUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(760542 missing values generated)
+{res}{txt}K_GRIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(191531 missing values generated)
+{res}{txt}K_ZENJYU: contains nonnumeric characters; no {res}replace
+{txt}K_ZENJYUKEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(192570 missing values generated)
+{res}{txt}K_SYUGYO: contains nonnumeric characters; no {res}replace
+{txt}YH_JYUTII8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(401816 missing values generated)
+{res}{txt}YH_KEITAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(544493 missing values generated)
+{res}{txt}YH_KEIEI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(512354 missing values generated)
+{res}{txt}YH_NOHINO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(407578 missing values generated)
+{res}{txt}YH_SANDAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(407578 missing values generated)
+{res}{txt}YH_SANCHU: contains nonnumeric characters; no {res}replace
+{txt}YH_SANSHIN: contains nonnumeric characters; no {res}replace
+{txt}YH_SHODAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(406832 missing values generated)
+{res}{txt}YH_SHOCHU: contains nonnumeric characters; no {res}replace
+{txt}YH_JYUKIBO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(405807 missing values generated)
+{res}{txt}YH_NISSU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(404045 missing values generated)
+{res}{txt}YH_KISOKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(844886 missing values generated)
+{res}{txt}YH_JIKAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(456424 missing values generated)
+{res}{txt}YH_SYUNYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(405799 missing values generated)
+{res}{txt}YH_SYUKIBO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(403584 missing values generated)
+{res}{txt}YH_SYUZOGEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(513483 missing values generated)
+{res}{txt}YH_TENRIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(907283 missing values generated)
+{res}{txt}YH_SYUKEITAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(881590 missing values generated)
+{res}{txt}YH_KYUUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(882057 missing values generated)
+{res}{txt}YH_GENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(405835 missing values generated)
+{res}{txt}YH_NEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(407139 missing values generated)
+{res}{txt}YH_TUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(767837 missing values generated)
+{res}{txt}YH_SYURIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(405627 missing values generated)
+{res}{txt}YF_FUKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(404882 missing values generated)
+{res}{txt}YF_NOHINO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(941700 missing values generated)
+{res}{txt}YF_SANDAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(941700 missing values generated)
+{res}{txt}YF_SANCHU: contains nonnumeric characters; no {res}replace
+{txt}YF_SANSHIN: contains nonnumeric characters; no {res}replace
+{txt}YF_ZENSYUGYO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(403611 missing values generated)
+{res}{txt}YF_ZENUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(403962 missing values generated)
+{res}{txt}M_SYUKIBO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(569470 missing values generated)
+{res}{txt}M_SYURIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(866264 missing values generated)
+{res}{txt}M_SHOKUSHU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(866393 missing values generated)
+{res}{txt}M_KEITAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(866312 missing values generated)
+{res}{txt}M_KYUUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(866157 missing values generated)
+{res}{txt}M_HIKYURIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(914299 missing values generated)
+{res}{txt}M_KBN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(921146 missing values generated)
+{res}{txt}M_NEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(953372 missing values generated)
+{res}{txt}M_TUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(942431 missing values generated)
+{res}{txt}M_KIBOJIKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(866460 missing values generated)
+{res}{txt}M_ZENSYUGYO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(569169 missing values generated)
+{res}{txt}M_ZENUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(604066 missing values generated)
+{res}{txt}Z_RIJIKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(443674 missing values generated)
+{res}{txt}Z_GENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(504869 missing values generated)
+{res}{txt}Z_NEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(505722 missing values generated)
+{res}{txt}Z_TUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(756003 missing values generated)
+{res}{txt}Z_RIRIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(503755 missing values generated)
+{res}{txt}Z_JYUTII8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(503865 missing values generated)
+{res}{txt}Z_KEITAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(561025 missing values generated)
+{res}{txt}Z_SANDAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(512205 missing values generated)
+{res}{txt}Z_SANCHU: contains nonnumeric characters; no {res}replace
+{txt}Z_SANSHIN: contains nonnumeric characters; no {res}replace
+{txt}Z_SYODAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(510571 missing values generated)
+{res}{txt}Z_SYOCHU: contains nonnumeric characters; no {res}replace
+{txt}Z_JYUKIBO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(510095 missing values generated)
+{res}{txt}Z_KEINEN2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(508018 missing values generated)
+{res}{txt}Z_KEINEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(545743 missing values generated)
+{res}{txt}Z_KEITUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(894987 missing values generated)
+{res}{txt}ISHUKAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1674 missing values generated)
+{res}{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h14/h14_val.do"
+{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h14/h14_validate.do"
+{err}WARNING: {bf:S_JIN0} (0歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN1} (1歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN2} (2歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN3} (3歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN4} (4歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN5} (5歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN6} (6歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN7} (7歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN8} (8歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN9} (9歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN10} (10歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN11} (11歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN12} (12歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN13} (13歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_JIN14} (14歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_OMOSYU} (おもな収入) may have invalid values (Check layout sheet)
+WARNING: {bf:S_SYUNYU} (世帯の収入階級) may have invalid values (Check layout sheet)
+WARNING: {bf:K_HAIGU} (配偶者の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:K_TUZUKI} (続き柄) may have invalid values (Check layout sheet)
+WARNING: {bf:K_KYOIKU} (教育区分) may have invalid values (Check layout sheet)
+WARNING: {bf:K_GAKKO} (学校区分) may have invalid values (Check layout sheet)
+WARNING: {bf:K_GGENGO} (元号) may have invalid values (Check layout sheet)
+WARNING: {bf:K_GRIYU} (転居理由) may have invalid values (Check layout sheet)
+WARNING: {bf:K_ZENJYU} (区分) may have invalid values (Check layout sheet)
+WARNING: {bf:K_SYUGYO} (就業状態) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_JYUTII8} (8区分) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_KEITAI} (雇用形態) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_KEIEI} (経営組織) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_NOHINO} (農林・非農林) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SANDAI} (大分類) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SANCHU} (分類(チェック済)) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SHODAI} (大分類) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SHOCHU} (中分類) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_JYUKIBO} (従業者規模) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_NISSU} (年間就業日数) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_KISOKU} (就業の規則性) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_JIKAN} (週間就業時間) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SYUNYU} (個人所得) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SYUKIBO} (就業希望意識) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SYUZOGEN} (就業時間希望) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_TENRIYU} (転職希望理由) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SYUKEITAI} (希望仕事形態) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_KYUUMU} (求職活動の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_GENGO} (元号) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SYURIYU} (就業理由) may have invalid values (Check layout sheet)
+WARNING: {bf:YF_FUKU} (副業の有無,従業上の地位) may have invalid values (Check layout sheet)
+WARNING: {bf:YF_NOHINO} (農林・非農林) may have invalid values (Check layout sheet)
+WARNING: {bf:YF_ZENSYUGYO} (1年前の就業状況) may have invalid values (Check layout sheet)
+WARNING: {bf:YF_ZENUMU} (前職の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:M_SYUKIBO} (有無) may have invalid values (Check layout sheet)
+WARNING: {bf:M_SYURIYU} (理由) may have invalid values (Check layout sheet)
+WARNING: {bf:M_SHOKUSHU} (希望職種) may have invalid values (Check layout sheet)
+WARNING: {bf:M_KEITAI} (仕事の形態) may have invalid values (Check layout sheet)
+WARNING: {bf:M_KYUUMU} (有無) may have invalid values (Check layout sheet)
+WARNING: {bf:M_HIKYURIYU} (非求職理由) may have invalid values (Check layout sheet)
+WARNING: {bf:M_KBN} (2区分) may have invalid values (Check layout sheet)
+WARNING: {bf:M_KIBOJIKI} (就業希望時期) may have invalid values (Check layout sheet)
+WARNING: {bf:M_ZENSYUGYO} (1年前の就業状況) may have invalid values (Check layout sheet)
+WARNING: {bf:M_ZENUMU} (前職の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_RIJIKI} (区分) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_GENGO} (元号) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_RIRIYU} (離職理由) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_JYUTII8} (8区分) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_KEITAI} (雇用形態) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_JYUKIBO} (従業者規模) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_KEINEN2} (区分) may have invalid values (Check layout sheet)
+WARNING: {bf:ISHUKAN} (9月末1週間の状況) may have invalid values (Check layout sheet)
+{txt}
+{com}. save "${c -(}DataFilePathTemp{c )-}/data2002.dta", replace
+{txt}file /media/ボリューム/MicroData/ESS/data/data2002.dta saved
+
+{com}. 
+. clear
+{txt}
+{com}. 
+. 
+. run "${c -(}DoFilePathTemp{c )-}/h19/h19_const.do"
+{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h19/h19_var.do"
+{txt}
+{com}. save "${c -(}DataFilePathTemp{c )-}/data2007_str.dta", replace
+{txt}file /media/ボリューム/MicroData/ESS/data/data2007_str.dta saved
+
+{com}. replace_Vs_to_missing *
+{txt}
+{com}. destring *, replace
+{txt}RESEARCH_YEAR: all characters numeric; {res}replaced {txt}as {res}int
+{txt}RESEARCH_MONTH: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}C_KEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}C_CITY: all characters numeric; {res}replaced {txt}as {res}int
+{txt}C_CHOSAKU_KEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}C_CHOSAKU_KENNAI: all characters numeric; {res}replaced {txt}as {res}int
+{txt}R_SYUKEI: all characters numeric; {res}replaced {txt}as {res}double
+{txt}SETAI1: contains nonnumeric characters; no {res}replace
+{txt}SETAI2: all characters numeric; {res}replaced {txt}as {res}int
+{txt}SETAI3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}SETAIIN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_IPPAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_KAZOKURUI12: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_NENREI0: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI10: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI11: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI12: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI13: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_NENREI14: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(624 missing values generated)
+{res}{txt}S_MIMAN15: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JININ: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_OMOSYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(7938 missing values generated)
+{res}{txt}S_JYU1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_JYU10: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_SYUNYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(18844 missing values generated)
+{res}{txt}K_SEX: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_HAIGU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(5215 missing values generated)
+{res}{txt}K_TUZUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(101 missing values generated)
+{res}{txt}K_GENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_NEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}K_TUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_AGE: all characters numeric; {res}replaced {txt}as {res}int
+{txt}K_AGE5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_AGE10: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_KYOIKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(13251 missing values generated)
+{res}{txt}K_GAKKO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(18943 missing values generated)
+{res}{txt}K_ZENJYU: contains nonnumeric characters; no {res}replace
+{txt}K_ZENJYUKEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(6303 missing values generated)
+{res}{txt}K_SYUGYO: contains nonnumeric characters; no {res}replace
+{txt}YH_CHII8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(396746 missing values generated)
+{res}{txt}YH_KEITAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(521190 missing values generated)
+{res}{txt}YH_KIGYO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(865605 missing values generated)
+{res}{txt}YH_KEIEI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(425016 missing values generated)
+{res}{txt}YH_NOHINO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(410490 missing values generated)
+{res}{txt}YH_SANDAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(410490 missing values generated)
+{res}{txt}YH_SANSYO: contains nonnumeric characters; no {res}replace
+{txt}YH_SHODAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(408906 missing values generated)
+{res}{txt}YH_SHOSYO: contains nonnumeric characters; no {res}replace
+{txt}YH_JYUKIBO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(401960 missing values generated)
+{res}{txt}YH_NISSU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(401218 missing values generated)
+{res}{txt}YH_KISOKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(842986 missing values generated)
+{res}{txt}YH_JIKAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(449481 missing values generated)
+{res}{txt}YH_SYUNYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(401880 missing values generated)
+{res}{txt}YH_SYUKIBO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(399703 missing values generated)
+{res}{txt}YH_SYUZOGEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(508710 missing values generated)
+{res}{txt}YH_TENRIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(900028 missing values generated)
+{res}{txt}YH_SYUKEITAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(875124 missing values generated)
+{res}{txt}YH_KYUUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(875516 missing values generated)
+{res}{txt}YH_GENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(404777 missing values generated)
+{res}{txt}YH_NEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(407126 missing values generated)
+{res}{txt}YH_TUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(412015 missing values generated)
+{res}{txt}YH_SYURIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(405703 missing values generated)
+{res}{txt}YF_UMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(401904 missing values generated)
+{res}{txt}YF_KBN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(402070 missing values generated)
+{res}{txt}YF_NOHINO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(934237 missing values generated)
+{res}{txt}YF_SANDAI: contains nonnumeric characters; no {res}replace
+{txt}Y_ZENSYUGYO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(400249 missing values generated)
+{res}{txt}Y_ZENUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(402519 missing values generated)
+{res}{txt}M_SYUKIBO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(566105 missing values generated)
+{res}{txt}M_SYURIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(876789 missing values generated)
+{res}{txt}M_SHOKUSHU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(877180 missing values generated)
+{res}{txt}M_KEITAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(877788 missing values generated)
+{res}{txt}M_KYUUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(876624 missing values generated)
+{res}{txt}M_HIKYURIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(913761 missing values generated)
+{res}{txt}M_KBN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(923275 missing values generated)
+{res}{txt}M_NEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(934629 missing values generated)
+{res}{txt}M_TUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(941308 missing values generated)
+{res}{txt}M_KIBOJIKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(876985 missing values generated)
+{res}{txt}M_HISYURIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(650114 missing values generated)
+{res}{txt}M_ZENSYUGYO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(567205 missing values generated)
+{res}{txt}M_ZENUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(596207 missing values generated)
+{res}{txt}Z_RIJIKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(427254 missing values generated)
+{res}{txt}Z_GENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(498850 missing values generated)
+{res}{txt}Z_NEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(500111 missing values generated)
+{res}{txt}Z_TUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(515127 missing values generated)
+{res}{txt}Z_RIRIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(496451 missing values generated)
+{res}{txt}Z_JYUCHII8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(497179 missing values generated)
+{res}{txt}Z_KEITAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(549802 missing values generated)
+{res}{txt}Z_SANDAI: contains nonnumeric characters; no {res}replace
+{txt}Z_SYODAI: contains nonnumeric characters; no {res}replace
+{txt}Z_JYUKIBO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(506199 missing values generated)
+{res}{txt}Z_KEINEN2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(500712 missing values generated)
+{res}{txt}Z_KEINEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(508482 missing values generated)
+{res}{txt}Z_KEITUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(746761 missing values generated)
+{res}{txt}Z_SKBN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(436462 missing values generated)
+{res}{txt}Z_SGENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(659619 missing values generated)
+{res}{txt}Z_SNEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(659630 missing values generated)
+{res}{txt}Z_STUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(670834 missing values generated)
+{res}{txt}Z_SCHIKEI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(646500 missing values generated)
+{res}{txt}J_UMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(13958 missing values generated)
+{res}{txt}J_COMP0: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(737959 missing values generated)
+{res}{txt}J_COMP1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(847744 missing values generated)
+{res}{txt}J_COMP2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(956781 missing values generated)
+{res}{txt}J_COMP3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(956758 missing values generated)
+{res}{txt}J_COMP4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(954246 missing values generated)
+{res}{txt}J_COMP5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(921289 missing values generated)
+{res}{txt}J_COMP6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(911655 missing values generated)
+{res}{txt}J_COMP7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(951900 missing values generated)
+{res}{txt}J_COMP9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(951290 missing values generated)
+{res}{txt}J_JIHATU0: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(737959 missing values generated)
+{res}{txt}J_JIHATU2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(953921 missing values generated)
+{res}{txt}J_JIHATU3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(952307 missing values generated)
+{res}{txt}J_JIHATU4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(953477 missing values generated)
+{res}{txt}J_JIHATU5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(930441 missing values generated)
+{res}{txt}J_JIHATU6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(929325 missing values generated)
+{res}{txt}J_JIHATU7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(948219 missing values generated)
+{res}{txt}J_JIHATU8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(896722 missing values generated)
+{res}{txt}J_JIHATU9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(948409 missing values generated)
+{res}{txt}J_JOSEI0: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(843377 missing values generated)
+{res}{txt}J_JOSEI2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(959326 missing values generated)
+{res}{txt}J_JOSEI3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(958940 missing values generated)
+{res}{txt}J_JOSEI4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(957664 missing values generated)
+{res}{txt}J_JOSEI5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(955773 missing values generated)
+{res}{txt}J_JOSEI6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(955487 missing values generated)
+{res}{txt}J_JOSEI7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(958366 missing values generated)
+{res}{txt}J_JOSEI9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(958088 missing values generated)
+{res}{txt}ISHUKAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(12450 missing values generated)
+{res}{txt}S_YH_NOHINO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(410490 missing values generated)
+{res}{txt}S_YH_SANDAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(410490 missing values generated)
+{res}{txt}S_YH_SANSYO: contains nonnumeric characters; no {res}replace
+{txt}S_YF_NOHINO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(934237 missing values generated)
+{res}{txt}S_YF_SANDAI: contains nonnumeric characters; no {res}replace
+{txt}S_Z_SANDAI: contains nonnumeric characters; no {res}replace
+{txt}S_YH_SHODAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(408906 missing values generated)
+{res}{txt}S_YH_SHOSYO: contains nonnumeric characters; no {res}replace
+{txt}S_Z_SYODAI: contains nonnumeric characters; no {res}replace
+{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h19/h19_val.do"
+{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h19/h19_validate.do"
+{err}WARNING: {bf:S_NENREI0} (0歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI1} (1歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI2} (2歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI3} (3歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI4} (4歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI5} (5歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI6} (6歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI7} (7歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI8} (8歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI9} (9歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI10} (10歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI11} (11歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI12} (12歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI13} (13歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_NENREI14} (14歳) may have invalid values (Check layout sheet)
+WARNING: {bf:S_OMOSYU} (おもな収入) may have invalid values (Check layout sheet)
+WARNING: {bf:S_SYUNYU} (世帯の収入階級) may have invalid values (Check layout sheet)
+WARNING: {bf:K_HAIGU} (配偶者の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:K_TUZUKI} (世帯主との続き柄) may have invalid values (Check layout sheet)
+WARNING: {bf:K_KYOIKU} (教育区分) may have invalid values (Check layout sheet)
+WARNING: {bf:K_GAKKO} (学校区分) may have invalid values (Check layout sheet)
+WARNING: {bf:K_ZENJYU} (区分) may have invalid values (Check layout sheet)
+WARNING: {bf:K_ZENJYUKEN} (県番号) may have invalid values (Check layout sheet)
+WARNING: {bf:K_SYUGYO} (就業状態) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_CHII8} (8区分) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_KEITAI} (雇用形態) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_KIGYO} (起業の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_KEIEI} (経営組織) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_NOHINO} (農林・非農林) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SANDAI} (大分類) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SANSYO} (小分類) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SHODAI} (大分類) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SHOSYO} (小分類) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_JYUKIBO} (従業者規模) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_NISSU} (年間就業日数) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_KISOKU} (就業の規則性) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_JIKAN} (週間就業時間) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SYUNYU} (個人所得) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SYUKIBO} (就業希望意識) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SYUZOGEN} (就業時間希望) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_TENRIYU} (転職希望理由) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SYUKEITAI} (希望仕事形態) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_KYUUMU} (求職活動の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_GENGO} (元号) may have invalid values (Check layout sheet)
+WARNING: {bf:YH_SYURIYU} (就業理由) may have invalid values (Check layout sheet)
+WARNING: {bf:YF_UMU} (有無) may have invalid values (Check layout sheet)
+WARNING: {bf:YF_KBN} (区分) may have invalid values (Check layout sheet)
+WARNING: {bf:YF_NOHINO} (農林・非農林) may have invalid values (Check layout sheet)
+WARNING: {bf:Y_ZENSYUGYO} (1年前の就業状態) may have invalid values (Check layout sheet)
+WARNING: {bf:Y_ZENUMU} (前職の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:M_SYUKIBO} (有無) may have invalid values (Check layout sheet)
+WARNING: {bf:M_SYURIYU} (理由) may have invalid values (Check layout sheet)
+WARNING: {bf:M_SHOKUSHU} (希望職種) may have invalid values (Check layout sheet)
+WARNING: {bf:M_KEITAI} (仕事の形態) may have invalid values (Check layout sheet)
+WARNING: {bf:M_KYUUMU} (有無) may have invalid values (Check layout sheet)
+WARNING: {bf:M_HIKYURIYU} (非求職理由) may have invalid values (Check layout sheet)
+WARNING: {bf:M_KBN} (2区分) may have invalid values (Check layout sheet)
+WARNING: {bf:M_KIBOJIKI} (就業希望時期) may have invalid values (Check layout sheet)
+WARNING: {bf:M_HISYURIYU} (非就業希望理由) may have invalid values (Check layout sheet)
+WARNING: {bf:M_ZENSYUGYO} (1年前の就業状態) may have invalid values (Check layout sheet)
+WARNING: {bf:M_ZENUMU} (前職の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_RIJIKI} (区分) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_GENGO} (元号) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_RIRIYU} (離職理由) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_JYUCHII8} (8区分) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_KEITAI} (雇用形態) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_SYODAI} (大分類) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_JYUKIBO} (従業者規模) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_KEINEN2} (区分) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_SKBN} (現職・前職との関係) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_SGENGO} (元号) may have invalid values (Check layout sheet)
+WARNING: {bf:Z_SCHIKEI} (従業上の地位・雇用形態) may have invalid values (Check layout sheet)
+WARNING: {bf:J_UMU} (訓練・自己啓発の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:J_COMP0} (有無) may have invalid values (Check layout sheet)
+WARNING: {bf:J_COMP1} (勤め先での研修) may have invalid values (Check layout sheet)
+WARNING: {bf:J_COMP2} (大学・大学院の講座の受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_COMP3} (専修学校・各種学校の講座の受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_COMP4} (公共職業能力開発施設の講座を受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_COMP5} (講習会・セミナーの傍聴) may have invalid values (Check layout sheet)
+WARNING: {bf:J_COMP6} (勉強会・研修会への参加) may have invalid values (Check layout sheet)
+WARNING: {bf:J_COMP7} (通信教育の受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_COMP9} (その他) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JIHATU0} (有無) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JIHATU2} (大学・大学院の講座の受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JIHATU3} (専修学校・各種学校の講座の受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JIHATU4} (公共職業能力開発施設の講座を受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JIHATU5} (講習会・セミナーの傍聴) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JIHATU6} (勉強会・研修会への参加) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JIHATU7} (通信教育の受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JIHATU8} (自学・自習) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JIHATU9} (その他) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JOSEI0} (有無) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JOSEI2} (大学・大学院の講座の受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JOSEI3} (専修学校・各種学校の講座の受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JOSEI4} (公共職業能力開発施設の講座を受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JOSEI5} (講習会・セミナーの傍聴) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JOSEI6} (勉強会・研修会への参加) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JOSEI7} (通信教育の受講) may have invalid values (Check layout sheet)
+WARNING: {bf:J_JOSEI9} (その他) may have invalid values (Check layout sheet)
+WARNING: {bf:ISHUKAN} (9月末1週間の状況) may have invalid values (Check layout sheet)
+WARNING: {bf:S_YH_NOHINO} (農林・非農林) may have invalid values (Check layout sheet)
+WARNING: {bf:S_YH_SANDAI} (大分類) may have invalid values (Check layout sheet)
+WARNING: {bf:S_YH_SANSYO} (小分類) may have invalid values (Check layout sheet)
+WARNING: {bf:S_YF_NOHINO} (農林・非農林) may have invalid values (Check layout sheet)
+WARNING: {bf:S_YH_SHODAI} (大分類) may have invalid values (Check layout sheet)
+WARNING: {bf:S_YH_SHOSYO} (小分類) may have invalid values (Check layout sheet)
+WARNING: {bf:S_Z_SYODAI} (前職大分類) may have invalid values (Check layout sheet)
+{txt}
+{com}. save "${c -(}DataFilePathTemp{c )-}/data2007.dta", replace
+{txt}file /media/ボリューム/MicroData/ESS/data/data2007.dta saved
+
+{com}. 
+. clear
+{txt}
+{com}. 
+. 
+. run "${c -(}DoFilePathTemp{c )-}/h24/h24_const.do"
+{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h24/h24_var.do"
+{txt}
+{com}. save "${c -(}DataFilePathTemp{c )-}/data2012_str.dta", replace
+{txt}file /media/ボリューム/MicroData/ESS/data/data2012_str.dta saved
+
+{com}. replace_Vs_to_missing *, exclude(KC_RSSYOKUGYO)
+{txt}
+{com}. destring *, replace
+{txt}RES_NENTUKI: all characters numeric; {res}replaced {txt}as {res}long
+{txt}NK_CHOKEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}NK_KENNAI: all characters numeric; {res}replaced {txt}as {res}int
+{txt}NK_SETAI1: contains nonnumeric characters; no {res}replace
+{txt}NK_SETAI2: all characters numeric; {res}replaced {txt}as {res}int
+{txt}NK_SETAI3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}NK_SETAIIN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}C_KEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}C_CITY: all characters numeric; {res}replaced {txt}as {res}int
+{txt}var1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(88545 missing values generated)
+{res}{txt}R_RITSUTYPE: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}R_KEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}R_RITSUCITYNUM: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1045109 missing values generated)
+{res}{txt}R_RITSUBLKNUM: contains nonnumeric characters; no {res}replace
+{txt}R_SHUKEI: all characters numeric; {res}replaced {txt}as {res}double
+{txt}KC_JININ: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(537744 missing values generated)
+{res}{txt}KC_NENSYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(561012 missing values generated)
+{res}{txt}KC_MIMAN15: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(530130 missing values generated)
+{res}{txt}KC_NENREI0: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1027667 missing values generated)
+{res}{txt}KC_NENREI1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1027455 missing values generated)
+{res}{txt}KC_NENREI2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1027224 missing values generated)
+{res}{txt}KC_NENREI3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1027128 missing values generated)
+{res}{txt}KC_NENREI4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1027029 missing values generated)
+{res}{txt}KC_NENREI5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1026590 missing values generated)
+{res}{txt}KC_NENREI6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1027118 missing values generated)
+{res}{txt}KC_NENREI7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1026528 missing values generated)
+{res}{txt}KC_NENREI8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1026098 missing values generated)
+{res}{txt}KC_NENREI9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1026615 missing values generated)
+{res}{txt}KC_NENREI10: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1025394 missing values generated)
+{res}{txt}KC_NENREI11: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1025909 missing values generated)
+{res}{txt}KC_NENREI12: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1025417 missing values generated)
+{res}{txt}KC_NENREI13: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1025667 missing values generated)
+{res}{txt}KC_NENREI14: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1023692 missing values generated)
+{res}{txt}KC_SEX: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}KC_HAIGU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(10176 missing values generated)
+{res}{txt}KC_TUZUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(33 missing values generated)
+{res}{txt}KC_GENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}KC_NEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}KC_TUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}KC_KYOIKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(9859 missing values generated)
+{res}{txt}KC_SOTUJIKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(82536 missing values generated)
+{res}{txt}KC_SOTUGENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(681717 missing values generated)
+{res}{txt}KC_SOTUNEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(687730 missing values generated)
+{res}{txt}KC_GAKKO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(20300 missing values generated)
+{res}{txt}KC_JUKYOGENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(16162 missing values generated)
+{res}{txt}KC_JUKYONEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(196494 missing values generated)
+{res}{txt}KC_JUKYOTUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(824649 missing values generated)
+{res}{txt}KC_JUKYORIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(194336 missing values generated)
+{res}{txt}KC_ZENJKBN: contains nonnumeric characters; no {res}replace
+{txt}KC_ZENJKEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(911014 missing values generated)
+{res}{txt}KC_SYUNYUMAIN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(13583 missing values generated)
+{res}{txt}KC_SYUNYU1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1020847 missing values generated)
+{res}{txt}KC_SYUNYU2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1026218 missing values generated)
+{res}{txt}KC_SYUNYU3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1043722 missing values generated)
+{res}{txt}KC_SYUNYU4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1000928 missing values generated)
+{res}{txt}KC_SYUNYU5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1042465 missing values generated)
+{res}{txt}KC_SYUNYU6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1040587 missing values generated)
+{res}{txt}KC_SYUNYU7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1041950 missing values generated)
+{res}{txt}KC_SYUNYU8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1029303 missing values generated)
+{res}{txt}KC_SYUNYU9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1033961 missing values generated)
+{res}{txt}KC_SYUNYU10: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1035915 missing values generated)
+{res}{txt}KC_SYUGYO: contains nonnumeric characters; no {res}replace
+{txt}KC_CHII: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(473869 missing values generated)
+{res}{txt}KC_KIGYO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(958683 missing values generated)
+{res}{txt}KC_KOYOKIKAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(586157 missing values generated)
+{res}{txt}KC_KOUSHIN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(945564 missing values generated)
+{res}{txt}KC_KOUSHINSU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(974861 missing values generated)
+{res}{txt}KC_SOSHIKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(497107 missing values generated)
+{res}{txt}KC_SANGYO: contains nonnumeric characters; no {res}replace
+{txt}KC_SYOKUGYO: contains nonnumeric characters; no {res}replace
+{txt}KC_KIBO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(481886 missing values generated)
+{res}{txt}KC_SGNISSU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(480413 missing values generated)
+{res}{txt}KC_SGKISOKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(929341 missing values generated)
+{res}{txt}KC_SGJIKAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(530159 missing values generated)
+{res}{txt}KC_SYOTOKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(479405 missing values generated)
+{res}{txt}KC_SGGENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(478729 missing values generated)
+{res}{txt}KC_SGNEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(482993 missing values generated)
+{res}{txt}KC_SGTUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(494197 missing values generated)
+{res}{txt}KC_KEIZOKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(476744 missing values generated)
+{res}{txt}KC_KBRIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(991000 missing values generated)
+{res}{txt}KC_KBKEITAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(962756 missing values generated)
+{res}{txt}KC_KYUSYOKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(963640 missing values generated)
+{res}{txt}KC_KBJIKAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(505204 missing values generated)
+{res}{txt}KC_FKKBN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(482058 missing values generated)
+{res}{txt}KC_FKSANGYO: contains nonnumeric characters; no {res}replace
+{txt}KC_ZENSYUGYO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(476426 missing values generated)
+{res}{txt}KC_ZENUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(478865 missing values generated)
+{res}{txt}KC_BKBUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(577299 missing values generated)
+{res}{txt}KC_BKBRIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(955031 missing values generated)
+{res}{txt}KC_BKBSYURUI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(955256 missing values generated)
+{res}{txt}KC_BKBKEITAI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(955632 missing values generated)
+{res}{txt}KC_BKYUSYOKU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(954447 missing values generated)
+{res}{txt}KC_BRIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(992725 missing values generated)
+{res}{txt}KC_BKBN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1007665 missing values generated)
+{res}{txt}KC_BNEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1033007 missing values generated)
+{res}{txt}KC_BTUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1025974 missing values generated)
+{res}{txt}KC_BKBJIKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(955252 missing values generated)
+{res}{txt}KC_BHKBRIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(669322 missing values generated)
+{res}{txt}KC_BZENSYUGYO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(577889 missing values generated)
+{res}{txt}KC_BZENUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(612008 missing values generated)
+{res}{txt}KC_RSJIKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(425403 missing values generated)
+{res}{txt}KC_RSGENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(531001 missing values generated)
+{res}{txt}KC_RSNEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(533601 missing values generated)
+{res}{txt}KC_RSTUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(567132 missing values generated)
+{res}{txt}KC_RSKIKAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(530155 missing values generated)
+{res}{txt}KC_RSKNEN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(584218 missing values generated)
+{res}{txt}KC_RSKTUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(804639 missing values generated)
+{res}{txt}KC_RSRIYU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(528713 missing values generated)
+{res}{txt}KC_RSCHII: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(526864 missing values generated)
+{res}{txt}KC_RSSANGYO: contains nonnumeric characters; no {res}replace
+{txt}KC_RSSYOKUGYO: contains nonnumeric characters; no {res}replace
+{txt}KC_SSKBN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(439793 missing values generated)
+{res}{txt}KC_SSGENGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(685157 missing values generated)
+{res}{txt}KC_SSNEN: all characters numeric; {res}replaced {txt}as {res}int
+{txt}(691912 missing values generated)
+{res}{txt}KC_SSTUKI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(707697 missing values generated)
+{res}{txt}KC_SSCHIKEI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(679970 missing values generated)
+{res}{txt}KC_KUMU: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(17430 missing values generated)
+{res}{txt}KC_KCOMPANY1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(925691 missing values generated)
+{res}{txt}KC_KCOMPANY2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1041535 missing values generated)
+{res}{txt}KC_KCOMPANY3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1043055 missing values generated)
+{res}{txt}KC_KCOMPANY4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1041732 missing values generated)
+{res}{txt}KC_KCOMPANY5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1008171 missing values generated)
+{res}{txt}KC_KCOMPANY6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(994611 missing values generated)
+{res}{txt}KC_KCOMPANY7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1038100 missing values generated)
+{res}{txt}KC_KCOMPANY9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1038172 missing values generated)
+{res}{txt}KC_KJIHATU2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1037747 missing values generated)
+{res}{txt}KC_KJIHATU3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1038848 missing values generated)
+{res}{txt}KC_KJIHATU4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1038607 missing values generated)
+{res}{txt}KC_KJIHATU5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1010292 missing values generated)
+{res}{txt}KC_KJIHATU6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1007382 missing values generated)
+{res}{txt}KC_KJIHATU7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1033676 missing values generated)
+{res}{txt}KC_KJIHATU8: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(968478 missing values generated)
+{res}{txt}KC_KJIHATU9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1031733 missing values generated)
+{res}{txt}KC_KJYOSEI2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1044582 missing values generated)
+{res}{txt}KC_KJYOSEI3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1044379 missing values generated)
+{res}{txt}KC_KJYOSEI4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1041941 missing values generated)
+{res}{txt}KC_KJYOSEI5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1040610 missing values generated)
+{res}{txt}KC_KJYOSEI6: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1039812 missing values generated)
+{res}{txt}KC_KJYOSEI7: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1043952 missing values generated)
+{res}{txt}KC_KJYOSEI9: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1043132 missing values generated)
+{res}{txt}KC_IKUJI: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(13718 missing values generated)
+{res}{txt}KC_IKUJISEIDO1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1038259 missing values generated)
+{res}{txt}KC_IKUJISEIDO2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1042920 missing values generated)
+{res}{txt}KC_IKUJISEIDO3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1042463 missing values generated)
+{res}{txt}KC_IKUJISEIDO4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1043274 missing values generated)
+{res}{txt}KC_IKUJISEIDO5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(973250 missing values generated)
+{res}{txt}KC_KAIGO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(15315 missing values generated)
+{res}{txt}KC_KAIGOSEIDO1: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1044527 missing values generated)
+{res}{txt}KC_KAIGOSEIDO2: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1044523 missing values generated)
+{res}{txt}KC_KAIGOSEIDO3: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1044579 missing values generated)
+{res}{txt}KC_KAIGOSEIDO4: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1043023 missing values generated)
+{res}{txt}KC_KAIGOSEIDO5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(994508 missing values generated)
+{res}{txt}KC_EIKYO: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(19868 missing values generated)
+{res}{txt}KC_HINAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(12262 missing values generated)
+{res}{txt}KC_HINANNOW: contains nonnumeric characters; no {res}replace
+{txt}KC_SHINKBN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}(1039212 missing values generated)
+{res}{txt}KC_SHINKENCITY: contains nonnumeric characters; no {res}replace
+{txt}S_IPPAN: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}S_KAZOKURUI12: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_AGE: all characters numeric; {res}replaced {txt}as {res}int
+{txt}K_AGE5: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}K_AGE10: all characters numeric; {res}replaced {txt}as {res}byte
+{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h24/h24_val.do"
+{txt}
+{com}. run "${c -(}DoFilePathTemp{c )-}/h24/h24_validate.do"
+{err}WARNING: {bf:var1} (オリジナルデータか否か) may have invalid values (Check layout sheet)
+WARNING: {bf:R_RITSUCITYNUM} (表章市用乗率の種類) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_NENSYU} (G1_世帯全体の年間収入) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_HAIGU} (1_配偶者の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_TUZUKI} (2_続き柄) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KYOIKU} (4(1)_就学区分) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SOTUJIKI} (4(1)_卒業年次区分) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SOTUGENGO} (4(1)_卒業年次(元号)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_GAKKO} (4(2)_学校区分) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_JUKYOGENGO} (5(1)_居住開始時期区分) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_JUKYORIYU} (5(2)_居住理由) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_ZENJKBN} (5(3)_前住地区分) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYUMAIN} (6_収入の種類(主)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYU1} (6_賃金・給料(従)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYU2} (6_事業収入(従)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYU3} (6_内職収入(従)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYU4} (6_年金・恩給(従)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYU5} (6_雇用保険(従)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYU6} (6_その他の給付(従)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYU7} (6_仕送り(従)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYU8} (6_家賃・地代(従)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYU9} (6_利子・配当(従)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUNYU10} (6_その他(従)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYUGYO} (7_就業状態) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_CHII} (A1_従業上の地位) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KIGYO} (A1-2_起業の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KOYOKIKAN} (A1-3_雇用契約期間の有無・雇用契約期間) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KOUSHIN} (A1-4_契約更新の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SOSHIKI} (A2(1)_経営組織) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KIBO} (A4_従業者規模) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SGNISSU} (A5(1)_年間日数) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SGKISOKU} (A5(2)_規則性) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SGJIKAN} (A5(3)_週時間) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SYOTOKU} (A6_年間所得) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SGGENGO} (A7_就業開始時期(元号)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KEIZOKU} (A8_継続希望) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KBRIYU} (A8-2_転職希望理由) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KBKEITAI} (A8-3_希望する仕事の形態) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KYUSYOKU} (A8-4_求職活動) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KBJIKAN} (A9_時間希望) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_FKKBN} (A10_副業(有無・従業上の地位)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_ZENSYUGYO} (A12_1年前の就業状態) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_ZENUMU} (A13_前職の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BKBUMU} (B1_就業希望の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BKBRIYU} (B2_就業希望の理由) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BKBSYURUI} (B3_希望する仕事の種類) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BKBKEITAI} (B4_希望する仕事の形態) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BKYUSYOKU} (B5_求職活動) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BRIYU} (B6_非求職の理由) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BKBN} (B7_求職期間(区分)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BKBJIKI} (B8_就業希望時期) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BHKBRIYU} (B9_就業非希望理由) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BZENSYUGYO} (B10_1年前の就業状態) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_BZENUMU} (B11_前職の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_RSJIKI} (C1_離職時期(区分)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_RSGENGO} (C1_離職時期(元号)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_RSKIKAN} (C2_就業期間(区分)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_RSRIYU} (C3_離職理由) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_RSCHII} (C4_従業上の地位) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SSKBN} (C7_初職と現職・前職との関係) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SSGENGO} (C8_初職時期(元号)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SSCHIKEI} (C9_初職の地位と形態) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KUMU} (D_訓練・自己啓発の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KCOMPANY1} (D-2_勤め先での研修(勤め先)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KCOMPANY2} (D-2_大学・大学院の講座の受講(勤め先)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KCOMPANY3} (D-2_専修学校・各種学校の講座の受講(勤め先)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KCOMPANY4} (D-2_公共職業能力開発施設の講座の受講(勤め先)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KCOMPANY5} (D-2_講演会・セミナーの傍聴(勤め先)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KCOMPANY6} (D-2_勉強会・研修会への参加(勤め先)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KCOMPANY7} (D-2_通信教育の受講(勤め先)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KCOMPANY9} (D-2_その他(勤め先)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJIHATU2} (D-2_大学・大学院の講座の受講(自発)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJIHATU3} (D-2_専修学校・各種学校の講座の受講(自発)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJIHATU4} (D-2_公共職業能力開発施設の講座の受講(自発)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJIHATU5} (D-2_講演会・セミナーの傍聴(自発)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJIHATU6} (D-2_勉強会・研修会への参加(自発)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJIHATU7} (D-2_通信教育の受講(自発)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJIHATU8} (D-2_自学・自習(自発)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJIHATU9} (D-2_その他(自発)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJYOSEI2} (D-2_大学・大学院の講座の受講(うち公助)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJYOSEI3} (D-2_専修学校・各種学校の講座の受講(うち公助)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJYOSEI4} (D-2_公共職業能力開発施設の講座の受講(うち公助)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJYOSEI5} (D-2_講演会・セミナーの傍聴(うち公助)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJYOSEI6} (D-2_勉強会・研修会への参加(うち公助)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJYOSEI7} (D-2_通信教育の受講(うち公助)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KJYOSEI9} (D-2_その他(うち公助)) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_IKUJI} (E1_育児の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_IKUJISEIDO1} (E1-2_育児休業) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_IKUJISEIDO2} (E1-2_短時間勤務) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_IKUJISEIDO3} (E1-2_子の看護休暇) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_IKUJISEIDO4} (E1-2_その他) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_IKUJISEIDO5} (E1-2_しなかった) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KAIGO} (E2_介護の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KAIGOSEIDO1} (E2-2_介護休業) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KAIGOSEIDO2} (E2-2_短時間勤務) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KAIGOSEIDO3} (E2-2_介護休暇) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KAIGOSEIDO4} (E2-2_その他) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_KAIGOSEIDO5} (E2-2_しなかった) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_EIKYO} (F1_仕事への影響) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_HINAN} (F2_避難の有無) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_HINANNOW} (F2-2_避難状況) may have invalid values (Check layout sheet)
+WARNING: {bf:KC_SHINKBN} (F2-3_震災時の居住地(区分)) may have invalid values (Check layout sheet)
+{txt}
+{com}. save "${c -(}DataFilePathTemp{c )-}/data2012.dta", replace
+{txt}file /media/ボリューム/MicroData/ESS/data/data2012.dta saved
+
+{com}. 
+. 
+. // Rename file have not been generated successfully, yet
+. 
+. /*
+> clear
+> 
+> 
+> append using ///
+>     "${c -(}DataFilePathTemp{c )-}/data1997.dta" ///
+>     "${c -(}DataFilePathTemp{c )-}/data2002_str.dta" ///
+>     "${c -(}DataFilePathTemp{c )-}/data2007_str.dta" ///
+>     "${c -(}DataFilePathTemp{c )-}/data2012_str.dta" ///
+>     , gen(flag_tmp_NEWVARIABLE)
+> 
+> run "${c -(}DoFilePathTemp{c )-}/rename.do"
+> DestringAll
+> capture drop *_ToBeDropped
+> 
+> *run "${c -(}DoFilePathTemp{c )-}/data_cleaning/data_cleaning.do"
+>     // data_cleaning.do should be prepared by yourself
+> 
+> save "${c -(}DataFilePathTemp{c )-}/data_appended.dta", replace
+> 
+> CheckAppendValidity, data_id(flag_tmp) tol(0.1) stats("mean sd")
+> */
+. 
+. macro drop DoFilePathTemp
+{txt}
+{com}. macro drop DataFilePathTemp
+{txt}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/media/ボリューム/MicroData/ESS/do-file/log/log.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}16 Aug 2019, 12:30:08
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
