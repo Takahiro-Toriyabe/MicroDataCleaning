@@ -1,6 +1,6 @@
 # MicroDataCleaning
 
-政府統計の調査票データの読み込みなどに役立つプログラムを公開しています。ここで公開されているプログラム等を使用される場合、以下をよく読んでご使用ください。お問い合わせ等は[Issue](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/issues)からお願いします。場合によっては対応が非常に遅くなる、もしくは対応できないこともあるかもしれませんがご容赦ください。
+政府統計の調査票データの読み込みなどに役立つプログラムを公開しています。ここで公開されているプログラム等を使用される場合、以下をよく読んでご使用ください。お問い合わせ等は[Issue](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/issues)からお願いします。場合によっては対応が非常に遅くなる、もしくは対応できないこともあるかもしれませんがご了承ください。
 
 This repository provides desktop application and Python programs to make do-files for data cleaning from layout tables as well as the resulting do-files. Before using the application or programs, please read the followings. You can find the English version [here](https://github.com/Takahiro-Toriyabe/MicroDataCleaning/blob/master/README_en.md).
 
@@ -163,6 +163,8 @@ pip install pyinstaller
 - rename.doは使用前に内容を必ず確認してください。すでに、調査ごとの類義語リストが用意されている場合以外では、正しく変数名の変更が行われていない箇所がある可能性が極めて高いです。各変数の変数名がどのように変更されるかについてはrename.xlsを参照してください。
 - 変数の値ラベルは個別のデータには付与されますが、カテゴリ変数の定義が調査年によって異なる可能性があるため、複数年のデータを接合したものには付与されません。そのため、カテゴリ変数の整備はご自身で行う必要があります。
 - プログラムでは、基本的に同じ調査に関してデータを接合することが想定されていますが、異なるデータ間で変数名を統一する目的にも使用可能です。ただし、その場合、符号表の項目名や変数名が大きく異なる可能性があり、あまりうまくいかないかもしれません。（未確認）
+- レイアウト表情報を含むデータ読み込みコードの共有と統計法との関連については総務省政策統括官（統計基準担当）の梅津様から、以下のようなご意見をいただいております。
+  > 統計法の第39条や第40条等の調査票情報等の保護に関する規律を受けるものではなく、レイアウト表情報を含むデータ読み込みコードの共有については、統計法に触れるものではないと考えます。
 
 ## License
 
