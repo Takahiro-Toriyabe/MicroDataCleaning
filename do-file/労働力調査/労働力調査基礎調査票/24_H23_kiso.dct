@@ -1,0 +1,34 @@
+infile dictionary {
+* H23 Rocho Kisochosahyo 
+_column(13 )	byte	year	%1f 	           
+_column(14 )	str1	month_s	%1s
+_column(15 )	byte 	prefecture	%2f
+_column(17 )	int	ichiren	%3f
+_column(20 )	int	chushutsu	%3f
+_column(23 )	byte	setainum	%2f
+_column(25 )	byte	setaiin	%2f
+_column(27 )	byte	adults	%2f	"number of HH members 15 or older" 
+_column(29 )	byte	m_child	%2f	"number of male HH members younger than 15" 
+_column(31 )	byte	f_child	%2f	"number of female HH members younger than 15" 
+_column(33 )	byte	child_0_3	%1f	"number of children in HH of this age"
+_column(34 )	byte	child_4_6	%1f	"number of children in HH of this age"
+_column(35 )	byte	child_7_9	%1f	"number of children in HH of this age"
+_column(36 )	byte	child_10_12	%1f	"number of children in HH of this age"
+_column(37 )	byte	child_13_14	%1f	"number of children in HH of this age"
+_column(38 )	byte	sex 	%1f
+_column(39 )	str1	relate2	%1s	"relationship to HH head" 
+_column(40 )	byte	birth_g	%1f	"0 seireki 1 meiji 2 taisho 3 showa 4 heisei" 
+_column(41 )	str4	birth_yg	%4s	
+_column(45 )	byte	birth_m	%2f	
+_column(50 )	byte	marital	%1f
+_column(51 )	byte	empsta	%1f	"employment status" 
+_column(52 )	byte	ntwr	%1f	"how much R want to work (iff unemployed)" 
+_column(53 )	byte	whyseek	%1f	"why seeking job (iff unemployed)" 
+_column(54 )	str3	hours_s	%3s	"hours worked (original)" 
+_column(57 )	byte 	chii	%1f	"Jugyojo no Chii" 
+_column(59 )	str2 	ind	%2s	"industry" 
+_column(61 )	str2	occup	%2s	"occupation"
+_column(63 )	byte	size	%1f	"firm size"	
+_column(64 )	byte	hope	%1f	"hope to change jobs?" 
+_column(134 )	str14	joritsu	%14s
+}
