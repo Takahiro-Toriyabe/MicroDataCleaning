@@ -42,7 +42,7 @@ class StrDistMeasureFactory:
             from .Thesaurus.WageCensus import thesaurus_jargon
         elif SurveyName in ['社会生活基本調査', 'STULA']:
             from .Thesaurus.STULA import thesaurus_jargon
-        elif SurveyName in ['経済センサス', 'FirmCensus']:
+        elif SurveyName in ['経済センサス', 'eCensus']:
             from .Thesaurus.FirmCensus import thesaurus_jargon
         else:
             thesaurus_jargon = []
