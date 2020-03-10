@@ -1,0 +1,28 @@
+infile dictionary {
+* January S61 - March H2 Rocho Kisochosahyo 
+_column(13 )	byte	year	%1f 	           
+_column(14 )	str1	month_s	%1s
+_column(15 )	byte 	prefecture	%2f
+_column(17 )	int	ichiren	%3f
+_column(26 )	int	chushutsu	%3f
+_column(29 )	byte	setainum	%2f
+_column(32 )	byte	adults	%2f	"number of HH members 15 or older" 
+_column(34 )	byte	m_child	%1f	"number of male HH members younger than 15" 
+_column(35 )	byte	f_child	%1f	"number of female HH members younger than 15" 
+_column(36 )	byte	setaiin	%2f
+_column(38 )	byte	relate	%1f	"relationship to HH head" 
+_column(39 )	byte	sex 	%1f
+_column(42 )	byte	marital	%1f
+_column(43 )	byte	empsta	%1f	"employment status" 
+_column(44 )	byte	ntwr	%1f	"how much R want to work (iff unemployed)" 
+_column(45 )	str3	hours_s	%3s	"hours worked (original)" 
+_column(48 )	byte 	chii	%1f	"Jugyojo no Chii" 
+_column(50 )	str2 	ind	%2s	"industry" 
+_column(52 )	str2	occup	%2s	"occupation"
+_column(54 )	byte	size	%1f	"firm size"	
+_column(55 )	byte	hope	%1f	"hope to change jobs?" 
+_column(79 )	byte	birth_g	%1f	"1 meiji 2 taisho 3 showa" 
+_column(80 )	str3	birth_yg	%3s	
+_column(83 )	str3	birth_m	%3s	
+_column(123 )	str14	joritsu	%14s
+}
