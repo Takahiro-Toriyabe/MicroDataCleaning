@@ -44,6 +44,8 @@ class StrDistMeasureFactory:
             from .Thesaurus.STULA import thesaurus_jargon
         elif SurveyName in ['経済センサス', 'eCensus']:
             from .Thesaurus.eCensus import thesaurus_jargon
+        elif SurveyName in ['就業構造基本調査', 'ESS']:
+            from .Thesaurus.ESS import thesaurus_jargon
         else:
             thesaurus_jargon = []
 
