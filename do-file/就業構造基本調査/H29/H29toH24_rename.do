@@ -294,7 +294,7 @@ capture rename KC_3_TSUKI KC_TUKI
         Match data:  1: 昭和62年（1987年）以前 2: 昭和63年（1988年）以後
 
 -------------------------------------------*/
-capture rename KC_4_1_JIKI KC_KYOIKU
+capture rename KC_4_1_SHUGAKU KC_KYOIKU
 
 
 /*-------------------------------------------
